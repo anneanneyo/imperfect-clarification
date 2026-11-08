@@ -1,0 +1,10 @@
+{
+  "files": {
+    "experiments/analyze_e020.py": "c20fc13cc41d998d8eb708cf5d8dc88a0c88cd790bd6b0910c7006051b8f5553",
+    "results/evidence_facts_e020/details.json": "99786bd83866b7711b6a7525d5fe8d669812cc75082994a3a899ea892760900c",
+    "results/evidence_facts_e020/verification.json": "22b271d4c8c066a15c5bab1f5aaf89a39b6a4f33defa995284ccb3f4b15aa873",
+    "results/e020_diagnostics/paired_contrasts.json": "49a88b4c3cff47c75248846758213b82abaae31505996d8afe5dd8debb643522",
+    "results/e020_diagnostics/remaining_mismatches.json": "2f49fbc6ce5c1fb6bc4b901ac845eff740d5d0653cdacfb2b14546fc4ebef36d"
+  },
+  "interpretation": "Descriptive cluster bootstrap on development/training cases after adaptive experiment selection; not held-out confirmation."
+}

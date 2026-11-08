@@ -1,0 +1,195 @@
+{
+  "all_cases": {
+    "cases": 24,
+    "methods": {
+      "ridge": {
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1.0,
+        "choices": {
+          "product": 11,
+          "issue": 12,
+          "money_gone": 1
+        }
+      },
+      "train_constant": {
+        "accuracy": 0.5277777777777778,
+        "utility": 0.4777777777777778,
+        "ask_rate": 1.0,
+        "choices": {
+          "issue": 18,
+          "product": 6
+        }
+      },
+      "no_ask": {
+        "accuracy": 0.49652777777777773,
+        "utility": 0.49652777777777773,
+        "ask_rate": 0.0,
+        "choices": {
+          "no_ask": 24
+        }
+      },
+      "issue": {
+        "accuracy": 0.6875,
+        "utility": 0.6375,
+        "ask_rate": 1.0,
+        "choices": {
+          "issue": 24
+        }
+      },
+      "product": {
+        "accuracy": 0.6770833333333334,
+        "utility": 0.6270833333333333,
+        "ask_rate": 1.0,
+        "choices": {
+          "product": 24
+        }
+      },
+      "money_gone": {
+        "accuracy": 0.548611111111111,
+        "utility": 0.4986111111111111,
+        "ask_rate": 1.0,
+        "choices": {
+          "money_gone": 24
+        }
+      },
+      "compensation": {
+        "accuracy": 0.5381944444444444,
+        "utility": 0.48819444444444443,
+        "ask_rate": 1.0,
+        "choices": {
+          "compensation": 24
+        }
+      },
+      "customer_name": {
+        "accuracy": 0.5381944444444444,
+        "utility": 0.48819444444444443,
+        "ask_rate": 1.0,
+        "choices": {
+          "customer_name": 24
+        }
+      },
+      "random_question": {
+        "accuracy": 0.5979166666666667,
+        "utility": 0.5479166666666666,
+        "ask_rate": 1.0,
+        "choices": {
+          "uniform_random": 24
+        }
+      },
+      "case_posthoc_oracle": {
+        "accuracy": 0.8888888888888888,
+        "utility": 0.8597222222222222,
+        "ask_rate": 0.5833333333333334,
+        "choices": {
+          "no_ask": 10,
+          "product": 6,
+          "issue": 7,
+          "money_gone": 1
+        }
+      }
+    },
+    "ridge_mae": 0.3642707521606465,
+    "constant_mae": 0.3921598228663446,
+    "ridge_minus_train_constant_utility": 0.13888888888888887,
+    "paired_improved_cases": 5,
+    "paired_worse_cases": 0,
+    "paired_tied_cases": 19
+  },
+  "predeclared_sensitivity": {
+    "cases": 21,
+    "methods": {
+      "ridge": {
+        "accuracy": 0.6984126984126984,
+        "utility": 0.6484126984126983,
+        "ask_rate": 1.0,
+        "choices": {
+          "product": 8,
+          "issue": 12,
+          "money_gone": 1
+        }
+      },
+      "train_constant": {
+        "accuracy": 0.5873015873015873,
+        "utility": 0.5373015873015873,
+        "ask_rate": 1.0,
+        "choices": {
+          "issue": 16,
+          "product": 5
+        }
+      },
+      "no_ask": {
+        "accuracy": 0.5674603174603174,
+        "utility": 0.5674603174603174,
+        "ask_rate": 0.0,
+        "choices": {
+          "no_ask": 21
+        }
+      },
+      "issue": {
+        "accuracy": 0.753968253968254,
+        "utility": 0.7039682539682539,
+        "ask_rate": 1.0,
+        "choices": {
+          "issue": 21
+        }
+      },
+      "product": {
+        "accuracy": 0.7103174603174602,
+        "utility": 0.6603174603174603,
+        "ask_rate": 1.0,
+        "choices": {
+          "product": 21
+        }
+      },
+      "money_gone": {
+        "accuracy": 0.5634920634920635,
+        "utility": 0.5134920634920634,
+        "ask_rate": 1.0,
+        "choices": {
+          "money_gone": 21
+        }
+      },
+      "compensation": {
+        "accuracy": 0.5992063492063492,
+        "utility": 0.5492063492063493,
+        "ask_rate": 1.0,
+        "choices": {
+          "compensation": 21
+        }
+      },
+      "customer_name": {
+        "accuracy": 0.615079365079365,
+        "utility": 0.5650793650793651,
+        "ask_rate": 1.0,
+        "choices": {
+          "customer_name": 21
+        }
+      },
+      "random_question": {
+        "accuracy": 0.6484126984126984,
+        "utility": 0.5984126984126984,
+        "ask_rate": 1.0,
+        "choices": {
+          "uniform_random": 21
+        }
+      },
+      "case_posthoc_oracle": {
+        "accuracy": 0.888888888888889,
+        "utility": 0.8626984126984127,
+        "ask_rate": 0.5238095238095238,
+        "choices": {
+          "no_ask": 10,
+          "product": 5,
+          "issue": 6
+        }
+      }
+    },
+    "ridge_mae": 0.35547237670207227,
+    "constant_mae": 0.37911203128594434,
+    "ridge_minus_train_constant_utility": 0.11111111111111109,
+    "paired_improved_cases": 4,
+    "paired_worse_cases": 0,
+    "paired_tied_cases": 17
+  }
+}

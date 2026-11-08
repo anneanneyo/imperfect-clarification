@@ -1,0 +1,640 @@
+[
+  {
+    "blind_id": "P001",
+    "original_query": "What's the percentage of canadian hockey players in the nhl?",
+    "clarification_question": "The percentage of Canadian hockey players in the NHL can vary depending on how \"Canadian\" is defined—whether it refers to players born in Canada or those currently associated with Canadian teams or systems. Could you clarify which definition you're interested in?",
+    "user_answer": "I'm interested in players born in Canada.",
+    "selected_disambiguation": {
+      "question": "What's the percentage of canadian hockey players in the nhl in 2016?",
+      "answer": [
+        "slightly less than 50"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P002",
+    "original_query": "When did they start making new 20 dollar bills?",
+    "clarification_question": "Could you clarify whether you're asking about the first introduction of the 20 dollar bill, the first major redesign, or the most recent updates to the 20 dollar bill?",
+    "user_answer": "I'm asking about the most recent updates to the 20 dollar bill.",
+    "selected_disambiguation": {
+      "question": "In what year was the first issue's series date for the current series of 20 dollar bills?",
+      "answer": [
+        "2004"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P003",
+    "original_query": "Who won so you think uou can dance?",
+    "clarification_question": "Could you clarify whether you're asking about \"You Can Dance\" or \"So You Think You Can Dance\"? This will help me provide the most accurate information.",
+    "user_answer": "I'm asking about \"So You Think You Can Dance\".",
+    "selected_disambiguation": {
+      "question": "Who won So you Think you can Dance Season 15?",
+      "answer": [
+        "Hannahlei Cabanilla"
+      ],
+      "annotation_index": 1
+    }
+  },
+  {
+    "blind_id": "P004",
+    "original_query": "Most number of national awards for best actress?",
+    "clarification_question": "Could you please clarify whether you are asking about the National Film Awards (Swarna Kamal Awards) or the Filmfare Awards, and whether you are referring to a specific time period or category (e.g., Best Actress in a Leading Role)?",
+    "user_answer": "I'm asking about the National Film Awards (Swarna Kamal Awards) for Best Actress, generally, not a specific time period or category.",
+    "selected_disambiguation": {
+      "question": "Films in what language have won the most number of national awards for best actress?",
+      "answer": [
+        "Hindi"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P005",
+    "original_query": "Who sings you've got a friend in me in toy story 2?",
+    "clarification_question": "Could you clarify whether you're asking about the original composer/performer of the song, the character who sings it in the movie, or the voice actor who provides the singing performance?",
+    "user_answer": "I'm asking about the character who sings it in the movie.",
+    "selected_disambiguation": {
+      "question": "Which character sings you've got a friend in me in toy story 2 during Woody's Roundup?",
+      "answer": [
+        "Woody"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P006",
+    "original_query": "Who holds the record for most passing yards in a season?",
+    "clarification_question": "Could you clarify whether you're asking about the NFL or college football, and whether you're interested in the most recent record or a specific time frame?",
+    "user_answer": "I'm interested in the 1984 season, and I'd like to know for both NFL and college football.",
+    "selected_disambiguation": {
+      "question": "Who holds the record for most passing yards in a season in 1984?",
+      "answer": [
+        "Dan Marino",
+        "Daniel Constantine Marino Jr."
+      ],
+      "annotation_index": 1
+    }
+  },
+  {
+    "blind_id": "P007",
+    "original_query": "Who sings i'll be seeing you in the notebook?",
+    "clarification_question": "Could you clarify whether you're asking about the original artist of the song or the version that appears in the movie *The Notebook*?",
+    "user_answer": "I'm asking about the version that appears in the movie *The Notebook*.",
+    "selected_disambiguation": {
+      "question": "Who sings a version of \"I'll Be Seeing You\" in The Notebook?",
+      "answer": [
+        "Billie Holiday"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P008",
+    "original_query": "Who sings the song for stuck in the middle?",
+    "clarification_question": "Could you please specify which version or context of \"Stuck in the Middle\" you're referring to? This will help me provide the most accurate information.",
+    "user_answer": "I'm referring to the TV show \"Stuck in the Middle\".",
+    "selected_disambiguation": {
+      "question": "Who sings the theme song for the TV show Stuck in the Middle?",
+      "answer": [
+        "Sonus"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P009",
+    "original_query": "Who has the record for most super bowl losses?",
+    "clarification_question": "CLARIFICATION_QUESTION: Are you asking for the record as of a specific year, or would you like the most up-to-date information as of 2024?",
+    "user_answer": "I'd like the most up-to-date information as of 2024.",
+    "selected_disambiguation": {
+      "question": "What player has the record for most super bowl losses?",
+      "answer": [
+        "Gale Gilbert",
+        "Cornelius Bennett",
+        "Glenn parker"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P010",
+    "original_query": "When was soccer first introduced in the olympics?",
+    "clarification_question": "To provide an accurate answer, I need to clarify whether you're asking about the first time soccer was introduced in the Olympic Games (including as a demonstration sport) or the first time it was officially recognized as a medal sport. Could you specify which aspect you're interested in?",
+    "user_answer": "I'm interested in when it was officially recognized as a medal sport.",
+    "selected_disambiguation": {
+      "question": "When was women's soccer first added in the Olympics?|When was women's soccer first introduced in the Olympics?",
+      "answer": [
+        "1996"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P011",
+    "original_query": "Who is the top goal scorer for brazil?",
+    "clarification_question": "Could you clarify whether you're asking for the all-time top goal scorer in official FIFA matches, or if you're referring to a specific time period or tournament? This will help ensure the most accurate answer.",
+    "user_answer": "I'm looking for the top goal scorer in the FIFA Confederations Cup.",
+    "selected_disambiguation": {
+      "question": "Who is the top goal scorer for Brazil in the FIFA Confederations Cup all-time?",
+      "answer": [
+        "Ronaldinho",
+        "Ronaldo de Assis Moreira",
+        "Ronaldinho Gaúcho"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P012",
+    "original_query": "What is the tallest ride at six flags over texas?",
+    "clarification_question": "Could you clarify whether you're asking about the tallest roller coaster, the tallest attraction overall, or the tallest drop at Six Flags Over Texas?",
+    "user_answer": "I'm asking about the tallest swing ride.",
+    "selected_disambiguation": {
+      "question": "What is the tallest swing ride at six flags over texas?",
+      "answer": [
+        "Texas SkyScreamer"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P013",
+    "original_query": "How many nba players have scored 60 points in a game?",
+    "clarification_question": "To provide an accurate answer, I need to clarify a few details: Are you asking about regular-season games only, or do you include playoff games as well? Also, are you interested in players from the entire history of the NBA, or just from the modern era (since 1949)?",
+    "user_answer": "I'm interested in playoff games, and for the entire history of the NBA.",
+    "selected_disambiguation": {
+      "question": "How many nba players have scored at least 60 points in a game during the playoffs?",
+      "answer": [
+        "2"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P014",
+    "original_query": "Who played wilma in the movie the flintstones?",
+    "clarification_question": "The 1994 live-action movie *The Flintstones* had multiple actors and voice actors playing Wilma Flintstone, depending on the scene. Could you clarify if you're referring to the live-action version, the animated version, or a specific scene in the film?",
+    "user_answer": "I'm referring to the live-action version.",
+    "selected_disambiguation": {
+      "question": "Who played wilma in the movie The Flintstones (1994 film)?",
+      "answer": [
+        "Elizabeth Ann Perkins",
+        "Elizabeth Perkins"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P015",
+    "original_query": "Who sings the song for stuck in the middle?",
+    "clarification_question": "There are several artists associated with the song \"Stuck in the Middle,\" including The Wiggles, The Wombats, The Middle, Stevie Nicks, and others. Could you clarify which version or context you're referring to? For example, are you thinking of a children's song, a 90s pop hit, or a more recent indie rock track?",
+    "user_answer": "I'm thinking of the theme song for the TV show.",
+    "selected_disambiguation": {
+      "question": "Who sings the theme song for the TV show Stuck in the Middle?",
+      "answer": [
+        "Sonus"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P016",
+    "original_query": "Who got relegated from the premier league this year?",
+    "clarification_question": "Could you please specify which season you're referring to? The information about relegated teams can vary between seasons, and there appears to be some inconsistency in the details provided.",
+    "user_answer": "I'm referring to the 2016-2017 season.",
+    "selected_disambiguation": {
+      "question": "Who got relegated from the premier league in the 2016-2017 season?",
+      "answer": [
+        "Hull City, Middlesbrough and Sunderland"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P017",
+    "original_query": "Who are the defending champions of champions trophy?",
+    "clarification_question": "Could",
+    "user_answer": "I don't know",
+    "selected_disambiguation": {
+      "question": "In 2013, who are the defending champions of ICC champions trophy?",
+      "answer": [
+        "Australia"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P018",
+    "original_query": "Where did kevin durant go in the nba draft?",
+    "clarification_question": "The information about Kevin Durant's NBA draft selection varies significantly between the responses. Could you clarify whether you're asking about his draft position, his high school background, or his college career?",
+    "user_answer": "I'm asking about his college career.",
+    "selected_disambiguation": {
+      "question": "Where did kevin durant go to college during the nba draft?",
+      "answer": [
+        "University of Texas"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P019",
+    "original_query": "Who won so you think uou can dance?",
+    "clarification_question": "Could you please clarify which specific show you're referring to? Are you asking about \"So You Think You Can Dance\" (SYTYCD), \"You Can Dance\" (the Brazilian show), or another version of the show? This will help me provide the most accurate information.",
+    "user_answer": "I'm referring to \"So You Think You Can Dance\" (SYTYCD).",
+    "selected_disambiguation": {
+      "question": "Who won So you Think you can Dance Season 15?",
+      "answer": [
+        "Hannahlei Cabanilla"
+      ],
+      "annotation_index": 1
+    }
+  },
+  {
+    "blind_id": "P020",
+    "original_query": "Who played wilma in the movie the flintstones?",
+    "clarification_question": "STRATEGY: ABSTAIN\nREASONING: The generations provide conflicting information about who played Wilma Flintstone in *The Flintstones* (1994). Some mention Emma Stone, Ethel Merman, Eva Gabor, Elizabeth Taylor, Shelley Duvall, Sally Field, and Jessica Tandy. This inconsistency indicates a factual contradiction rather than a semantic ambiguity, suggesting the question might be referring to different versions or the model lacks definitive knowledge. Since no clarification question would resolve this without external information, the appropriate strategy is to abstain.\nRESPONSE: I'm unable to provide a definitive answer as there appears to be conflicting information about who played Wilma Flintstone in the 1994 movie *The Flintstones*. Some sources suggest different actresses, including Emma Stone, Ethel Merman, Eva Gabor, Elizabeth Taylor, Shelley Duvall, Sally Field, and Jessica Tandy. This inconsistency indicates a need for more precise information about the specific version or context of the film in question.",
+    "user_answer": "I'm asking about the 1994 movie *The Flintstones*.",
+    "selected_disambiguation": {
+      "question": "Who played wilma in the movie The Flintstones (1994 film)?",
+      "answer": [
+        "Elizabeth Ann Perkins",
+        "Elizabeth Perkins"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P021",
+    "original_query": "Where did kevin durant go in the nba draft?",
+    "clarification_question": "To provide an accurate answer, I need to clarify: Are you asking about Kevin Durant's draft selection in the 2007 NBA Draft, and if so, are you interested in the context of his high school career, college career, or his selection relative to other players?",
+    "user_answer": "I'm interested in his college career.",
+    "selected_disambiguation": {
+      "question": "Where did kevin durant go to college during the nba draft?",
+      "answer": [
+        "University of Texas"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P022",
+    "original_query": "Where does there will be blood take place?",
+    "clarification_question": "Could you clarify whether you're looking for the specific fictional town, a general geographic area, or the time period in which the film is set?",
+    "user_answer": "I'm looking for the general geographic area where it was filmed.",
+    "selected_disambiguation": {
+      "question": "Where is There Will be Blood filmed?",
+      "answer": [
+        "Los Angeles,  CA, Marfa, TX."
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P023",
+    "original_query": "Where was baz luhrmann's romeo and juliet filmed?",
+    "clarification_question": "I'm a bit confused about where *Romeo + Juliet* (1996) was actually filmed. Some sources say it was shot in New Zealand, while others claim it was filmed in Italy. Could you clarify if you're interested in the actual filming locations or if you're referring to the film's fictional setting?",
+    "user_answer": "I'm interested in the actual filming locations.",
+    "selected_disambiguation": {
+      "question": "Where were scenes in the church in Baz Luhrmann's Romeo and Juliet filmed?",
+      "answer": [
+        "Immaculate Heart of Mary in the Del Valle neighborhood"
+      ],
+      "annotation_index": 1
+    }
+  },
+  {
+    "blind_id": "P024",
+    "original_query": "Most number of national awards for best actress?",
+    "clarification_question": "To provide the most accurate answer, could you please clarify which specific awards you're referring to? For example, are you asking about the **National Film Awards**, **Filmfare Awards**, or another set of national awards?",
+    "user_answer": "I'm asking about the National Film Awards.",
+    "selected_disambiguation": {
+      "question": "Films in what language have won the most number of national awards for best actress?",
+      "answer": [
+        "Hindi"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P025",
+    "original_query": "Who wrote the theory and practice of oligarchical collectivism?",
+    "clarification_question": "It seems there may be some confusion about the book *The Theory and Practice of Oligarchical Collectivism*. Could you clarify whether you're asking about a real book or a fictional work, and if you have any additional context (such as a specific author, genre, or time period) that might help narrow it down?",
+    "user_answer": "It's a fictional work, from the novel *Nineteen Eighty-Four*.",
+    "selected_disambiguation": {
+      "question": "Who wrote the theory and practice of oligarchical collectivism according to O'Brien?",
+      "answer": [
+        "a committee that included himself",
+        "a committee"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P026",
+    "original_query": "Who has the record for most super bowl losses?",
+    "clarification_question": "The record for the most Super Bowl losses can vary depending on the time frame considered. Could you please specify whether you're looking for the record as of a particular year or the current record?",
+    "user_answer": "I'm looking for the current record.",
+    "selected_disambiguation": {
+      "question": "What player has the record for most super bowl losses?",
+      "answer": [
+        "Gale Gilbert",
+        "Cornelius Bennett",
+        "Glenn parker"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P027",
+    "original_query": "Who wrote the theory and practice of oligarchical collectivism?",
+    "clarification_question": "Could you clarify whether you're referring to a real book or a fictional work, and if there are any additional details about the context or content that might help identify the correct author?",
+    "user_answer": "It's a fictional book within a fictional work. The context is from George Orwell's *Nineteen Eighty-Four*.",
+    "selected_disambiguation": {
+      "question": "Who wrote the theory and practice of oligarchical collectivism according to O'Brien?",
+      "answer": [
+        "a committee that included himself",
+        "a committee"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P028",
+    "original_query": "When was soccer first introduced in the olympics?",
+    "clarification_question": "Could you clarify whether you're asking about the first appearance of soccer in the Olympics as a demonstration sport or as an official medal sport?",
+    "user_answer": "I'm asking about it as an official medal sport.",
+    "selected_disambiguation": {
+      "question": "When was women's soccer first added in the Olympics?|When was women's soccer first introduced in the Olympics?",
+      "answer": [
+        "1996"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P029",
+    "original_query": "Who has the worst overall record in the nfl?",
+    "clarification_question": "Could you clarify whether you're asking about the worst single-season record, the worst overall record in NFL history, or the current team with the worst record in the 2024 season?",
+    "user_answer": "I'm asking about the worst overall record in NFL history.",
+    "selected_disambiguation": {
+      "question": "What team has the worst overall win-loss record in the nfl for the regular season?|Which team has the worst overall win-loss record in the NFL, combining the regular season and playoffs?",
+      "answer": [
+        "Tampa Bay Buccaneers"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P030",
+    "original_query": "What is the tallest ride at six flags over texas?",
+    "clarification_question": "Could you clarify whether you're asking about the tallest roller coaster, the tallest attraction overall (including non-roller coasters), or the tallest drop? This will help me provide the most accurate answer.",
+    "user_answer": "I'm asking about the tallest attraction overall.",
+    "selected_disambiguation": {
+      "question": "What is the tallest swing ride at six flags over texas?",
+      "answer": [
+        "Texas SkyScreamer"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P031",
+    "original_query": "Who sang for your love i would do anything?",
+    "clarification_question": "It seems there might be some confusion about the song title or artist. Could you please clarify if you're referring to \"Your Love I Would Do Anything\" or \"For Your Love I Would Do Anything\"? Also, any additional details like the artist, genre, or where you heard the song would help in providing an accurate answer.",
+    "user_answer": "I'm referring to \"For Your Love I Would Do Anything\".",
+    "selected_disambiguation": {
+      "question": "Who sang a charting cover of \"For Your Love\"(1973)?",
+      "answer": [
+        "Gwen McCrae"
+      ],
+      "annotation_index": 1
+    }
+  },
+  {
+    "blind_id": "P032",
+    "original_query": "Who got eliminated in india's next superstar on 1st april 2018?",
+    "clarification_question": "There are multiple conflicting reports about who was eliminated on 1st April 2018 in \"India's Next Superstar.\" Could you clarify which season or episode you're referring to, or whether you're looking for a specific contestant or context?",
+    "user_answer": "I'm looking for the male contestant who was eliminated.",
+    "selected_disambiguation": {
+      "question": "Which male got eliminated in india's next superstar on 1st april 2018?",
+      "answer": [
+        "Ansh Bagri"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P033",
+    "original_query": "Who are the defending champions of champions trophy?",
+    "clarification_question": "Could you please clarify which specific edition of the Champions Trophy you are referring to? For example, are you asking about the men's or women's tournament, or a particular year? This will help me provide the most accurate information.",
+    "user_answer": "I'm referring to the 2013 tournament.",
+    "selected_disambiguation": {
+      "question": "In 2013, who are the defending champions of ICC champions trophy?",
+      "answer": [
+        "Australia"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P034",
+    "original_query": "When do episodes 122 of dragon ball super come out?",
+    "clarification_question": "Could you clarify if you're asking about the original release date of episode 122, or if you're referring to a specific platform's release (like Crunchyroll or Netflix) or a special edition? This will help me provide the most accurate information.",
+    "user_answer": "I'm asking about the original release date.",
+    "selected_disambiguation": {
+      "question": "When does episode 122 of Dragon Ball Super originally come out?",
+      "answer": [
+        "January 7, 2018"
+      ],
+      "annotation_index": 2
+    }
+  },
+  {
+    "blind_id": "P035",
+    "original_query": "Who got relegated from the premier league this year?",
+    "clarification_question": "Could you please clarify which specific season you're asking about? The 2023/24 Premier League season saw different teams relegated depending on the source, and I want to ensure I provide the most accurate information for your query.",
+    "user_answer": "I'm asking about the 2016-2017 season.",
+    "selected_disambiguation": {
+      "question": "Who got relegated from the premier league in the 2016-2017 season?",
+      "answer": [
+        "Hull City, Middlesbrough and Sunderland"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P036",
+    "original_query": "Who holds the record for most passing yards in a season?",
+    "clarification_question": "To ensure I provide the most accurate answer, could you clarify whether you're asking about the NFL, NCAA, or another league, and if there's a specific year you're interested in?",
+    "user_answer": "I'm interested in the 1984 season. For the league, I'm not sure, could you tell me for the most prominent league?",
+    "selected_disambiguation": {
+      "question": "Who holds the record for most passing yards in a season in 1984?",
+      "answer": [
+        "Dan Marino",
+        "Daniel Constantine Marino Jr."
+      ],
+      "annotation_index": 1
+    }
+  },
+  {
+    "blind_id": "P037",
+    "original_query": "Who sang for your love i would do anything?",
+    "clarification_question": "It seems there might be some confusion or variation in the song title. Could you clarify if you're referring to the exact title \"Your Love I Would Do Anything\" or a similar-sounding title? Also, if you have any additional details like the artist, genre, or where you heard the song, that would help me provide a more accurate answer.",
+    "user_answer": "The song title is \"For Your Love\". It was released in 1973.",
+    "selected_disambiguation": {
+      "question": "Who sang a charting cover of \"For Your Love\"(1973)?",
+      "answer": [
+        "Gwen McCrae"
+      ],
+      "annotation_index": 1
+    }
+  },
+  {
+    "blind_id": "P038",
+    "original_query": "When did they start making new 20 dollar bills?",
+    "clarification_question": "To provide the most accurate answer, I need to clarify what you're asking about. Are you referring to the introduction of the current design of the $20 bill, or are you asking about a specific redesign (such as the one in 2003, 2010, or 2013)?",
+    "user_answer": "I'm referring to the introduction of the current design of the $20 bill.",
+    "selected_disambiguation": {
+      "question": "In what year was the first issue's series date for the current series of 20 dollar bills?",
+      "answer": [
+        "2004"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P039",
+    "original_query": "Where does there will be blood take place?",
+    "clarification_question": "Could you clarify if you're asking about the film *There Will Be Blood* (2007) or the TV series *There Will Be Blood* (a prequel)? The answer may differ based on the medium.",
+    "user_answer": "I'm asking about the film.",
+    "selected_disambiguation": {
+      "question": "Where is There Will be Blood filmed?",
+      "answer": [
+        "Los Angeles,  CA, Marfa, TX."
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P040",
+    "original_query": "How many nba players have scored 60 points in a game?",
+    "clarification_question": "The number of NBA players who have scored 60 or more points in a single game varies across sources. Could you clarify if you're interested in regular-season games only, or if playoff games should be included? This will help provide a more accurate answer.",
+    "user_answer": "I'm interested in playoff games.",
+    "selected_disambiguation": {
+      "question": "How many nba players have scored at least 60 points in a game during the playoffs?",
+      "answer": [
+        "2"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P041",
+    "original_query": "Who sings i'll be seeing you in the notebook?",
+    "clarification_question": "Could you clarify whether you're asking about the original artist of the song \"I'll Be Seeing You\" or the specific version of the song that appears in *The Notebook*?",
+    "user_answer": "I'm asking about the specific version of the song that appears in *The Notebook*.",
+    "selected_disambiguation": {
+      "question": "Who sings a version of \"I'll Be Seeing You\" in The Notebook?",
+      "answer": [
+        "Billie Holiday"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P042",
+    "original_query": "When do episodes 122 of dragon ball super come out?",
+    "clarification_question": "It seems there might be some confusion about the release status of Dragon Ball Super episode 122. Could you clarify whether you're asking about the original anime series, a special episode, a movie, or another form of media? This will help me provide the most accurate information for you.",
+    "user_answer": "I'm asking about the original anime series.",
+    "selected_disambiguation": {
+      "question": "When does episode 122 of Dragon Ball Super originally come out?",
+      "answer": [
+        "January 7, 2018"
+      ],
+      "annotation_index": 2
+    }
+  },
+  {
+    "blind_id": "P043",
+    "original_query": "Who sings you've got a friend in me in toy story 2?",
+    "clarification_question": "Could you clarify whether you're asking about the original composer and performer of the song, the actor who voices the character who sings it, or if you're referring to a special cameo or version of the song in the movie?",
+    "user_answer": "I'm asking about the actor who voices the character who sings it.",
+    "selected_disambiguation": {
+      "question": "Which character sings you've got a friend in me in toy story 2 during Woody's Roundup?",
+      "answer": [
+        "Woody"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P044",
+    "original_query": "Who has the worst overall record in the nfl?",
+    "clarification_question": "To provide the most accurate answer, I need to clarify whether you're asking about the worst record in a specific season (e.g., 2023, 2024), the all-time worst record in NFL history, or the current season's worst record. Could you please specify which one you're interested in?",
+    "user_answer": "I'm interested in the current season's worst record.",
+    "selected_disambiguation": {
+      "question": "What team has the worst overall win-loss record in the nfl for the regular season?|Which team has the worst overall win-loss record in the NFL, combining the regular season and playoffs?",
+      "answer": [
+        "Tampa Bay Buccaneers"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P045",
+    "original_query": "Who is the top goal scorer for brazil?",
+    "clarification_question": "The generations provide conflicting information about the top goal scorer for Brazil, with some citing Romário and others citing Ronaldo Nazário. Could you clarify whether you're interested in the all-time record, the record in official FIFA matches, or the record in a specific era (e.g., pre-1990s vs. modern era)?",
+    "user_answer": "I'm interested in the all-time record.",
+    "selected_disambiguation": {
+      "question": "Who is the top goal scorer for Brazil in the FIFA Confederations Cup all-time?",
+      "answer": [
+        "Ronaldinho",
+        "Ronaldo de Assis Moreira",
+        "Ronaldinho Gaúcho"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P046",
+    "original_query": "Where was baz luhrmann's romeo and juliet filmed?",
+    "clarification_question": "There seems to be conflicting information about the filming locations of Baz Luhrmann's *Romeo + Juliet*. Could you clarify which specific version of the film you're referring to? There are multiple adaptations, including the 1996 film and a more recent version, and the filming locations may differ between them.",
+    "user_answer": "I'm referring to the 1996 film.",
+    "selected_disambiguation": {
+      "question": "Where were scenes in the church in Baz Luhrmann's Romeo and Juliet filmed?",
+      "answer": [
+        "Immaculate Heart of Mary in the Del Valle neighborhood"
+      ],
+      "annotation_index": 1
+    }
+  },
+  {
+    "blind_id": "P047",
+    "original_query": "Who got eliminated in india's next superstar on 1st april 2018?",
+    "clarification_question": "Could you please specify which season of \"India's Next Superstar\" you are referring to? This will help me provide the most accurate information about the contestant eliminated on 1st April 2018.",
+    "user_answer": "I don't know",
+    "selected_disambiguation": {
+      "question": "Which male got eliminated in india's next superstar on 1st april 2018?",
+      "answer": [
+        "Ansh Bagri"
+      ],
+      "annotation_index": 0
+    }
+  },
+  {
+    "blind_id": "P048",
+    "original_query": "What's the percentage of canadian hockey players in the nhl?",
+    "clarification_question": "Could you clarify whether you're asking about Canadian-born players, players eligible through the Canadian Hockey League (CHL), or players who have represented Canada internationally? Also, would you like the percentage for a specific season or year?",
+    "user_answer": "I'm interested in players who have represented Canada internationally, and I'd like the percentage for the year 2016.",
+    "selected_disambiguation": {
+      "question": "What's the percentage of canadian hockey players in the nhl in 2016?",
+      "answer": [
+        "slightly less than 50"
+      ],
+      "annotation_index": 0
+    }
+  }
+]

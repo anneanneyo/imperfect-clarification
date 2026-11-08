@@ -1,0 +1,322 @@
+[
+  {
+    "one_choice": true,
+    "answer": "H1",
+    "mode": "sync",
+    "first": {
+      "reward": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the best option! Your choice is recorded and do not choose options of this travel aspect again. Please continue your interaction and reasoning focusing on other travel aspects.",
+      "remaining_best": [],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 0,
+      "elicited_preferences": 0
+    },
+    "retry_exception": "Episode is complete. Call reset() to start a new episode."
+  },
+  {
+    "one_choice": true,
+    "answer": "H1",
+    "mode": "async",
+    "first": {
+      "reward": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the best option! Your choice is recorded and do not choose options of this travel aspect again. Please continue your interaction and reasoning focusing on other travel aspects.",
+      "remaining_best": [],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 0,
+      "elicited_preferences": 0
+    },
+    "retry_exception": "Episode is complete. Call reset() to start a new episode."
+  },
+  {
+    "one_choice": true,
+    "answer": "H2",
+    "mode": "sync",
+    "first": {
+      "reward": 0.8,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the correct option, but not the best option. Your choice is recorded and do not choose options of this travel aspect again. Please continue your interaction and reasoning focusing on other travel aspects.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 0,
+      "elicited_preferences": 0
+    },
+    "retry_exception": "Episode is complete. Call reset() to start a new episode."
+  },
+  {
+    "one_choice": true,
+    "answer": "H2",
+    "mode": "async",
+    "first": {
+      "reward": 0.8,
+      "terminated": false,
+      "truncated": false,
+      "episode_complete": false,
+      "feedback": "Your chosen options contain the correct option, but not the best option. Your choice is recorded and do not choose options of this travel aspect again. Please continue your interaction and reasoning focusing on other travel aspects.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 0,
+      "elicited_preferences": 0
+    },
+    "retry": {
+      "reward": 0.0,
+      "terminated": false,
+      "truncated": false,
+      "episode_complete": false,
+      "feedback": "You have already recommended an option with the same initial 'H'. You are allowed to recommend only one option per traveling aspect. Please focus on the search, user preference, and option recommendation on other traveling aspects now.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 0,
+      "elicited_preferences": 0
+    }
+  },
+  {
+    "one_choice": true,
+    "answer": "H9",
+    "mode": "sync",
+    "first": {
+      "reward": 0.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options do not contain any of the best or correct options. Your choice is recorded and do not choose options of this travel aspect again. Please continue your interaction and reasoning focusing on other travel aspects.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 0,
+      "elicited_preferences": 0
+    },
+    "retry_exception": "Episode is complete. Call reset() to start a new episode."
+  },
+  {
+    "one_choice": true,
+    "answer": "H9",
+    "mode": "async",
+    "first": {
+      "reward": 0.0,
+      "terminated": false,
+      "truncated": false,
+      "episode_complete": false,
+      "feedback": "Your chosen options do not contain any of the best or correct options. Your choice is recorded and do not choose options of this travel aspect again. Please continue your interaction and reasoning focusing on other travel aspects.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 0,
+      "elicited_preferences": 0
+    },
+    "retry": {
+      "reward": 0.0,
+      "terminated": false,
+      "truncated": false,
+      "episode_complete": false,
+      "feedback": "You have already recommended an option with the same initial 'H'. You are allowed to recommend only one option per traveling aspect. Please focus on the search, user preference, and option recommendation on other traveling aspects now.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 0,
+      "elicited_preferences": 0
+    }
+  },
+  {
+    "one_choice": false,
+    "answer": "H1",
+    "mode": "sync",
+    "first": {
+      "reward": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the best option! Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    },
+    "retry_exception": "Episode is complete. Call reset() to start a new episode."
+  },
+  {
+    "one_choice": false,
+    "answer": "H1",
+    "mode": "async",
+    "first": {
+      "reward": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the best option! Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    },
+    "retry_exception": "Episode is complete. Call reset() to start a new episode."
+  },
+  {
+    "one_choice": false,
+    "answer": "H2",
+    "mode": "sync",
+    "first": {
+      "reward": 0.8,
+      "terminated": false,
+      "truncated": false,
+      "episode_complete": false,
+      "feedback": "Your chosen options contain the correct option, but not the best option. Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    },
+    "retry": {
+      "reward": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the best option! Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    }
+  },
+  {
+    "one_choice": false,
+    "answer": "H2",
+    "mode": "async",
+    "first": {
+      "reward": 0.8,
+      "terminated": false,
+      "truncated": false,
+      "episode_complete": false,
+      "feedback": "Your chosen options contain the correct option, but not the best option. Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    },
+    "retry": {
+      "reward": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the best option! Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    }
+  },
+  {
+    "one_choice": false,
+    "answer": "H9",
+    "mode": "sync",
+    "first": {
+      "reward": 0.0,
+      "terminated": false,
+      "truncated": false,
+      "episode_complete": false,
+      "feedback": "Your chosen options do not contain any of the best or correct options. Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    },
+    "retry": {
+      "reward": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the best option! Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    }
+  },
+  {
+    "one_choice": false,
+    "answer": "H9",
+    "mode": "async",
+    "first": {
+      "reward": 0.0,
+      "terminated": false,
+      "truncated": false,
+      "episode_complete": false,
+      "feedback": "Your chosen options do not contain any of the best or correct options. Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [
+        "H1"
+      ],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    },
+    "retry": {
+      "reward": 1.0,
+      "terminated": true,
+      "truncated": false,
+      "episode_complete": true,
+      "feedback": "Your chosen options contain the best option! Your choice is recorded and do not choose these options again. Please continue your interaction and reasoning.",
+      "remaining_best": [],
+      "choices": [
+        "H"
+      ],
+      "remaining_preferences": 1,
+      "elicited_preferences": 0
+    }
+  }
+]

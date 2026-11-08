@@ -1,0 +1,2148 @@
+{
+  "date": "2026-10-27",
+  "status": "completed_metric_audit_not_agent_evaluation",
+  "valid_scenarios": 602,
+  "invalid_json_objects": [
+    "ClarifyBench/ClarifyBench_A/1aebdf65.json",
+    "ClarifyBench/ClarifyBench_E/7f84ca77.json"
+  ],
+  "planned": 5418,
+  "completed": 4177,
+  "not_applicable": 1241,
+  "errors": 0,
+  "metrics": [
+    {
+      "subset": "ALL",
+      "variant": "delete_first",
+      "planned": 602,
+      "completed": 601,
+      "not_applicable": 1,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.6819269471515748,
+        "equals_one_count": 50
+      },
+      "param_match_rate": {
+        "present": 558,
+        "missing": 43,
+        "mean": 0.9494627420860816,
+        "equals_one_count": 472
+      },
+      "coverage_rate": {
+        "present": 558,
+        "missing": 43,
+        "mean": 0.7233273596176846,
+        "equals_one_count": 8
+      },
+      "coverage_success": {
+        "present": 558,
+        "missing": 43,
+        "mean": 0.014336917562724014,
+        "equals_one_count": 8
+      },
+      "execution_success": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.9284525790349417,
+        "equals_one_count": 558
+      },
+      "success": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ALL",
+      "variant": "drop_repeated_identical",
+      "planned": 602,
+      "completed": 9,
+      "not_applicable": 593,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_identical_repeat": 592,
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "param_match_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "coverage_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "coverage_success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "execution_success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ALL",
+      "variant": "duplicate_first",
+      "planned": 602,
+      "completed": 601,
+      "not_applicable": 1,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 601,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "param_match_rate": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.9651048651195464,
+        "equals_one_count": 521
+      },
+      "coverage_rate": {
+        "present": 601,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "coverage_success": {
+        "present": 601,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "execution_success": {
+        "present": 601,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "success": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ALL",
+      "variant": "extra_action",
+      "planned": 602,
+      "completed": 601,
+      "not_applicable": 1,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 601,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "param_match_rate": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.9651048651195464,
+        "equals_one_count": 521
+      },
+      "coverage_rate": {
+        "present": 601,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "coverage_success": {
+        "present": 601,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "execution_success": {
+        "present": 601,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "success": {
+        "present": 601,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ALL",
+      "variant": "failed_attempt",
+      "planned": 602,
+      "completed": 602,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.8770764119601329,
+        "equals_one_count": 528
+      },
+      "tool_match_rate": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.9983388704318937,
+        "equals_one_count": 601
+      },
+      "param_match_rate": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.963501700891773,
+        "equals_one_count": 521
+      },
+      "coverage_rate": {
+        "present": 602,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 602
+      },
+      "coverage_success": {
+        "present": 602,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 602
+      },
+      "execution_success": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "success": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 602,
+      "multiset_equal_count": 602,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 74
+    },
+    {
+      "subset": "ALL",
+      "variant": "gold",
+      "planned": 602,
+      "completed": 602,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.8770764119601329,
+        "equals_one_count": 528
+      },
+      "tool_match_rate": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.9983388704318937,
+        "equals_one_count": 601
+      },
+      "param_match_rate": {
+        "present": 601,
+        "missing": 1,
+        "mean": 0.9651048651195464,
+        "equals_one_count": 521
+      },
+      "coverage_rate": {
+        "present": 601,
+        "missing": 1,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "coverage_success": {
+        "present": 601,
+        "missing": 1,
+        "mean": 1.0,
+        "equals_one_count": 601
+      },
+      "execution_success": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.9983388704318937,
+        "equals_one_count": 601
+      },
+      "success": {
+        "present": 602,
+        "missing": 0,
+        "mean": 0.8770764119601329,
+        "equals_one_count": 528
+      },
+      "ordered_equal_count": 602,
+      "multiset_equal_count": 602,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 74
+    },
+    {
+      "subset": "ALL",
+      "variant": "replace_duplicate_with_extra",
+      "planned": 602,
+      "completed": 9,
+      "not_applicable": 593,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_identical_repeat": 592,
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.2222222222222222,
+        "equals_one_count": 2
+      },
+      "tool_match_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "param_match_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.8611111111111112,
+        "equals_one_count": 3
+      },
+      "coverage_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "coverage_success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "execution_success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.2222222222222222,
+        "equals_one_count": 2
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 2,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ALL",
+      "variant": "reverse_order",
+      "planned": 602,
+      "completed": 558,
+      "not_applicable": 44,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "reversal_does_not_change_sequence": 43,
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 558,
+        "missing": 0,
+        "mean": 0.8691756272401434,
+        "equals_one_count": 485
+      },
+      "tool_match_rate": {
+        "present": 558,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 558
+      },
+      "param_match_rate": {
+        "present": 558,
+        "missing": 0,
+        "mean": 0.9749606163742782,
+        "equals_one_count": 485
+      },
+      "coverage_rate": {
+        "present": 558,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 558
+      },
+      "coverage_success": {
+        "present": 558,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 558
+      },
+      "execution_success": {
+        "present": 558,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 558
+      },
+      "success": {
+        "present": 558,
+        "missing": 0,
+        "mean": 0.8691756272401434,
+        "equals_one_count": 485
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 558,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 73
+    },
+    {
+      "subset": "ALL",
+      "variant": "wrong_parameter",
+      "planned": 602,
+      "completed": 594,
+      "not_applicable": 8,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_parameters": 7,
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 594,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 594,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 594
+      },
+      "param_match_rate": {
+        "present": 594,
+        "missing": 0,
+        "mean": 0.7453413423099463,
+        "equals_one_count": 0
+      },
+      "coverage_rate": {
+        "present": 594,
+        "missing": 0,
+        "mean": 0.6772126022126043,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 594,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 594,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 594
+      },
+      "success": {
+        "present": 594,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "delete_first",
+      "planned": 213,
+      "completed": 212,
+      "not_applicable": 1,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.6939802336028751,
+        "equals_one_count": 18
+      },
+      "param_match_rate": {
+        "present": 199,
+        "missing": 13,
+        "mean": 0.9554055290457893,
+        "equals_one_count": 167
+      },
+      "coverage_rate": {
+        "present": 199,
+        "missing": 13,
+        "mean": 0.7251375927255327,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 199,
+        "missing": 13,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.9386792452830188,
+        "equals_one_count": 199
+      },
+      "success": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "drop_repeated_identical",
+      "planned": 213,
+      "completed": 0,
+      "not_applicable": 213,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_identical_repeat": 212,
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "param_match_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "coverage_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "duplicate_first",
+      "planned": 213,
+      "completed": 212,
+      "not_applicable": 1,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 212,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "param_match_rate": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.9602732874167393,
+        "equals_one_count": 180
+      },
+      "coverage_rate": {
+        "present": 212,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "coverage_success": {
+        "present": 212,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "execution_success": {
+        "present": 212,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "success": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "extra_action",
+      "planned": 213,
+      "completed": 212,
+      "not_applicable": 1,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 212,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "param_match_rate": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.9602732874167393,
+        "equals_one_count": 180
+      },
+      "coverage_rate": {
+        "present": 212,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "coverage_success": {
+        "present": 212,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "execution_success": {
+        "present": 212,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "success": {
+        "present": 212,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "failed_attempt",
+      "planned": 213,
+      "completed": 213,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.8591549295774648,
+        "equals_one_count": 183
+      },
+      "tool_match_rate": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.9953051643192489,
+        "equals_one_count": 212
+      },
+      "param_match_rate": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.955764962123703,
+        "equals_one_count": 180
+      },
+      "coverage_rate": {
+        "present": 213,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 213
+      },
+      "coverage_success": {
+        "present": 213,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 213
+      },
+      "execution_success": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "success": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 213,
+      "multiset_equal_count": 213,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 30
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "gold",
+      "planned": 213,
+      "completed": 213,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.8591549295774648,
+        "equals_one_count": 183
+      },
+      "tool_match_rate": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.9953051643192489,
+        "equals_one_count": 212
+      },
+      "param_match_rate": {
+        "present": 212,
+        "missing": 1,
+        "mean": 0.9602732874167393,
+        "equals_one_count": 180
+      },
+      "coverage_rate": {
+        "present": 212,
+        "missing": 1,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "coverage_success": {
+        "present": 212,
+        "missing": 1,
+        "mean": 1.0,
+        "equals_one_count": 212
+      },
+      "execution_success": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.9953051643192489,
+        "equals_one_count": 212
+      },
+      "success": {
+        "present": 213,
+        "missing": 0,
+        "mean": 0.8591549295774648,
+        "equals_one_count": 183
+      },
+      "ordered_equal_count": 213,
+      "multiset_equal_count": 213,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 30
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "replace_duplicate_with_extra",
+      "planned": 213,
+      "completed": 0,
+      "not_applicable": 213,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_identical_repeat": 212,
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "param_match_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "coverage_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "reverse_order",
+      "planned": 213,
+      "completed": 199,
+      "not_applicable": 14,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "reversal_does_not_change_sequence": 13,
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 199,
+        "missing": 0,
+        "mean": 0.8542713567839196,
+        "equals_one_count": 170
+      },
+      "tool_match_rate": {
+        "present": 199,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 199
+      },
+      "param_match_rate": {
+        "present": 199,
+        "missing": 0,
+        "mean": 0.9727534519213504,
+        "equals_one_count": 170
+      },
+      "coverage_rate": {
+        "present": 199,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 199
+      },
+      "coverage_success": {
+        "present": 199,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 199
+      },
+      "execution_success": {
+        "present": 199,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 199
+      },
+      "success": {
+        "present": 199,
+        "missing": 0,
+        "mean": 0.8542713567839196,
+        "equals_one_count": 170
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 199,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 29
+    },
+    {
+      "subset": "ClarifyBench_A",
+      "variant": "wrong_parameter",
+      "planned": 213,
+      "completed": 209,
+      "not_applicable": 4,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_parameters": 3,
+        "empty_gold": 1
+      },
+      "exact_match": {
+        "present": 209,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 209,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 209
+      },
+      "param_match_rate": {
+        "present": 209,
+        "missing": 0,
+        "mean": 0.7664380986448701,
+        "equals_one_count": 0
+      },
+      "coverage_rate": {
+        "present": 209,
+        "missing": 0,
+        "mean": 0.690442014126225,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 209,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 209,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 209
+      },
+      "success": {
+        "present": 209,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "delete_first",
+      "planned": 241,
+      "completed": 241,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.6833234538628731,
+        "equals_one_count": 20
+      },
+      "param_match_rate": {
+        "present": 223,
+        "missing": 18,
+        "mean": 0.9495120021102613,
+        "equals_one_count": 186
+      },
+      "coverage_rate": {
+        "present": 223,
+        "missing": 18,
+        "mean": 0.7244394618834082,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 223,
+        "missing": 18,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.9253112033195021,
+        "equals_one_count": 223
+      },
+      "success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "drop_repeated_identical",
+      "planned": 241,
+      "completed": 0,
+      "not_applicable": 241,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_identical_repeat": 241
+      },
+      "exact_match": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "param_match_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "coverage_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "duplicate_first",
+      "planned": 241,
+      "completed": 241,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "param_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.9594075628491056,
+        "equals_one_count": 205
+      },
+      "coverage_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "coverage_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "execution_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "extra_action",
+      "planned": 241,
+      "completed": 241,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "param_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.9594075628491056,
+        "equals_one_count": 205
+      },
+      "coverage_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "coverage_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "execution_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "failed_attempt",
+      "planned": 241,
+      "completed": 241,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.8672199170124482,
+        "equals_one_count": 209
+      },
+      "tool_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "param_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.9594075628491056,
+        "equals_one_count": 205
+      },
+      "coverage_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "coverage_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "execution_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 241,
+      "multiset_equal_count": 241,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 32
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "gold",
+      "planned": 241,
+      "completed": 241,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.8672199170124482,
+        "equals_one_count": 209
+      },
+      "tool_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "param_match_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.9594075628491056,
+        "equals_one_count": 205
+      },
+      "coverage_rate": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "coverage_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "execution_success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 241
+      },
+      "success": {
+        "present": 241,
+        "missing": 0,
+        "mean": 0.8672199170124482,
+        "equals_one_count": 209
+      },
+      "ordered_equal_count": 241,
+      "multiset_equal_count": 241,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 32
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "replace_duplicate_with_extra",
+      "planned": 241,
+      "completed": 0,
+      "not_applicable": 241,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_identical_repeat": 241
+      },
+      "exact_match": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "param_match_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "coverage_rate": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "success": {
+        "present": 0,
+        "missing": 0,
+        "mean": null,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "reverse_order",
+      "planned": 241,
+      "completed": 223,
+      "not_applicable": 18,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "reversal_does_not_change_sequence": 18
+      },
+      "exact_match": {
+        "present": 223,
+        "missing": 0,
+        "mean": 0.8565022421524664,
+        "equals_one_count": 191
+      },
+      "tool_match_rate": {
+        "present": 223,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 223
+      },
+      "param_match_rate": {
+        "present": 223,
+        "missing": 0,
+        "mean": 0.9740682629893921,
+        "equals_one_count": 191
+      },
+      "coverage_rate": {
+        "present": 223,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 223
+      },
+      "coverage_success": {
+        "present": 223,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 223
+      },
+      "execution_success": {
+        "present": 223,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 223
+      },
+      "success": {
+        "present": 223,
+        "missing": 0,
+        "mean": 0.8565022421524664,
+        "equals_one_count": 191
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 223,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 32
+    },
+    {
+      "subset": "ClarifyBench_E",
+      "variant": "wrong_parameter",
+      "planned": 241,
+      "completed": 237,
+      "not_applicable": 4,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_parameters": 4
+      },
+      "exact_match": {
+        "present": 237,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 237,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 237
+      },
+      "param_match_rate": {
+        "present": 237,
+        "missing": 0,
+        "mean": 0.7549927014646616,
+        "equals_one_count": 0
+      },
+      "coverage_rate": {
+        "present": 237,
+        "missing": 0,
+        "mean": 0.6816455696202534,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 237,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 237,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 237
+      },
+      "success": {
+        "present": 237,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "delete_first",
+      "planned": 148,
+      "completed": 148,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.6623873873873872,
+        "equals_one_count": 12
+      },
+      "param_match_rate": {
+        "present": 136,
+        "missing": 12,
+        "mean": 0.9406862745098038,
+        "equals_one_count": 119
+      },
+      "coverage_rate": {
+        "present": 136,
+        "missing": 12,
+        "mean": 0.7188550420168067,
+        "equals_one_count": 8
+      },
+      "coverage_success": {
+        "present": 136,
+        "missing": 12,
+        "mean": 0.058823529411764705,
+        "equals_one_count": 8
+      },
+      "execution_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.918918918918919,
+        "equals_one_count": 136
+      },
+      "success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "drop_repeated_identical",
+      "planned": 148,
+      "completed": 9,
+      "not_applicable": 139,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_identical_repeat": 139
+      },
+      "exact_match": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "param_match_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "coverage_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "coverage_success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "execution_success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "duplicate_first",
+      "planned": 148,
+      "completed": 148,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "param_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.9813031375531377,
+        "equals_one_count": 136
+      },
+      "coverage_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "coverage_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "execution_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "extra_action",
+      "planned": 148,
+      "completed": 148,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "param_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.9813031375531377,
+        "equals_one_count": 136
+      },
+      "coverage_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "coverage_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "execution_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "failed_attempt",
+      "planned": 148,
+      "completed": 148,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.918918918918919,
+        "equals_one_count": 136
+      },
+      "tool_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "param_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.9813031375531377,
+        "equals_one_count": 136
+      },
+      "coverage_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "coverage_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "execution_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 148,
+      "multiset_equal_count": 148,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 12
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "gold",
+      "planned": 148,
+      "completed": 148,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.918918918918919,
+        "equals_one_count": 136
+      },
+      "tool_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "param_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.9813031375531377,
+        "equals_one_count": 136
+      },
+      "coverage_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "coverage_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "execution_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.918918918918919,
+        "equals_one_count": 136
+      },
+      "ordered_equal_count": 148,
+      "multiset_equal_count": 148,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 12
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "replace_duplicate_with_extra",
+      "planned": 148,
+      "completed": 9,
+      "not_applicable": 139,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "no_identical_repeat": 139
+      },
+      "exact_match": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.2222222222222222,
+        "equals_one_count": 2
+      },
+      "tool_match_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "param_match_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.8611111111111112,
+        "equals_one_count": 3
+      },
+      "coverage_rate": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "coverage_success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "execution_success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 9
+      },
+      "success": {
+        "present": 9,
+        "missing": 0,
+        "mean": 0.2222222222222222,
+        "equals_one_count": 2
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 2,
+      "rejected_equal_multiset_count": 0
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "reverse_order",
+      "planned": 148,
+      "completed": 136,
+      "not_applicable": 12,
+      "errors": 0,
+      "not_applicable_reasons": {
+        "reversal_does_not_change_sequence": 12
+      },
+      "exact_match": {
+        "present": 136,
+        "missing": 0,
+        "mean": 0.9117647058823529,
+        "equals_one_count": 124
+      },
+      "tool_match_rate": {
+        "present": 136,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 136
+      },
+      "param_match_rate": {
+        "present": 136,
+        "missing": 0,
+        "mean": 0.9796534143960616,
+        "equals_one_count": 124
+      },
+      "coverage_rate": {
+        "present": 136,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 136
+      },
+      "coverage_success": {
+        "present": 136,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 136
+      },
+      "execution_success": {
+        "present": 136,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 136
+      },
+      "success": {
+        "present": 136,
+        "missing": 0,
+        "mean": 0.9117647058823529,
+        "equals_one_count": 124
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 136,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 12
+    },
+    {
+      "subset": "ClarifyBench_I",
+      "variant": "wrong_parameter",
+      "planned": 148,
+      "completed": 148,
+      "not_applicable": 0,
+      "errors": 0,
+      "not_applicable_reasons": {},
+      "exact_match": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "tool_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "param_match_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.7000940842446259,
+        "equals_one_count": 0
+      },
+      "coverage_rate": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.6514317889317889,
+        "equals_one_count": 0
+      },
+      "coverage_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "execution_success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 1.0,
+        "equals_one_count": 148
+      },
+      "success": {
+        "present": 148,
+        "missing": 0,
+        "mean": 0.0,
+        "equals_one_count": 0
+      },
+      "ordered_equal_count": 0,
+      "multiset_equal_count": 0,
+      "accepted_non_multiset_count": 0,
+      "rejected_equal_multiset_count": 0
+    }
+  ],
+  "fixture_paths": [
+    "ClarifyBench/ClarifyBench_A/085c17c2.json",
+    "ClarifyBench/ClarifyBench_A/0bfbed53.json",
+    "ClarifyBench/ClarifyBench_A/0389df48.json",
+    "ClarifyBench/ClarifyBench_A/07f3d861.json",
+    "ClarifyBench/ClarifyBench_A/00108f8a.json",
+    "ClarifyBench/ClarifyBench_A/050f04e3.json",
+    "ClarifyBench/ClarifyBench_A/02956f7a.json",
+    "ClarifyBench/ClarifyBench_A/0298a6e7.json",
+    "ClarifyBench/ClarifyBench_A/1a3a261b.json",
+    "ClarifyBench/ClarifyBench_A/1bbf37f6.json",
+    "ClarifyBench/ClarifyBench_A/11077344.json",
+    "ClarifyBench/ClarifyBench_A/1a62cf1b.json"
+  ],
+  "fixture_repeated_tools_count": 3,
+  "own_control_cases": 8,
+  "checks": [
+    "AST_allowlist",
+    "source_and_data_hashes_unchanged",
+    "mutation_reference_contracts",
+    "gold_reference_identity",
+    "failed_attempt_execution_flag",
+    "own_toy_counterexamples"
+  ],
+  "gold_exact_failures": [
+    "ClarifyBench/ClarifyBench_A/11077344.json",
+    "ClarifyBench/ClarifyBench_A/1a3a261b.json",
+    "ClarifyBench/ClarifyBench_A/1a62cf1b.json",
+    "ClarifyBench/ClarifyBench_A/1bf17f89.json",
+    "ClarifyBench/ClarifyBench_A/3e9f9a44.json",
+    "ClarifyBench/ClarifyBench_A/3f5d368b.json",
+    "ClarifyBench/ClarifyBench_A/4900b289.json",
+    "ClarifyBench/ClarifyBench_A/4c1ff7d6.json",
+    "ClarifyBench/ClarifyBench_A/51fe1486.json",
+    "ClarifyBench/ClarifyBench_A/53ce2ba3.json",
+    "ClarifyBench/ClarifyBench_A/57d30c97.json",
+    "ClarifyBench/ClarifyBench_A/618e3498.json",
+    "ClarifyBench/ClarifyBench_A/67af92a6.json",
+    "ClarifyBench/ClarifyBench_A/69550ffa.json",
+    "ClarifyBench/ClarifyBench_A/75deded7.json",
+    "ClarifyBench/ClarifyBench_A/8a63da76.json",
+    "ClarifyBench/ClarifyBench_A/99ab3677.json",
+    "ClarifyBench/ClarifyBench_A/afd1d028.json",
+    "ClarifyBench/ClarifyBench_A/b07e611d.json",
+    "ClarifyBench/ClarifyBench_A/b419ac53.json",
+    "ClarifyBench/ClarifyBench_A/b9a92201.json",
+    "ClarifyBench/ClarifyBench_A/cdb2ba59.json",
+    "ClarifyBench/ClarifyBench_A/d0802430.json",
+    "ClarifyBench/ClarifyBench_A/d8f93ec0.json",
+    "ClarifyBench/ClarifyBench_A/e93ef64a.json",
+    "ClarifyBench/ClarifyBench_A/ea0a6098.json",
+    "ClarifyBench/ClarifyBench_A/f50a5364.json",
+    "ClarifyBench/ClarifyBench_A/f5275686.json",
+    "ClarifyBench/ClarifyBench_A/f6787ece.json",
+    "ClarifyBench/ClarifyBench_A/fba1b907.json",
+    "ClarifyBench/ClarifyBench_E/00efa707.json",
+    "ClarifyBench/ClarifyBench_E/0a811bed.json",
+    "ClarifyBench/ClarifyBench_E/138727c8.json",
+    "ClarifyBench/ClarifyBench_E/13eea8ea.json",
+    "ClarifyBench/ClarifyBench_E/2cecd9f9.json",
+    "ClarifyBench/ClarifyBench_E/3f0b0d54.json",
+    "ClarifyBench/ClarifyBench_E/479cb350.json",
+    "ClarifyBench/ClarifyBench_E/4efed755.json",
+    "ClarifyBench/ClarifyBench_E/519029c0.json",
+    "ClarifyBench/ClarifyBench_E/59812a10.json",
+    "ClarifyBench/ClarifyBench_E/6355ee65.json",
+    "ClarifyBench/ClarifyBench_E/6628cd81.json",
+    "ClarifyBench/ClarifyBench_E/67f69c10.json",
+    "ClarifyBench/ClarifyBench_E/6947d0f8.json",
+    "ClarifyBench/ClarifyBench_E/6c49793b.json",
+    "ClarifyBench/ClarifyBench_E/77f7bc13.json",
+    "ClarifyBench/ClarifyBench_E/7e6dc831.json",
+    "ClarifyBench/ClarifyBench_E/82eaeeef.json",
+    "ClarifyBench/ClarifyBench_E/88be2804.json",
+    "ClarifyBench/ClarifyBench_E/8e950aad.json",
+    "ClarifyBench/ClarifyBench_E/95037c17.json",
+    "ClarifyBench/ClarifyBench_E/99656159.json",
+    "ClarifyBench/ClarifyBench_E/aebabd8f.json",
+    "ClarifyBench/ClarifyBench_E/b80997fb.json",
+    "ClarifyBench/ClarifyBench_E/bcd138a4.json",
+    "ClarifyBench/ClarifyBench_E/c5706401.json",
+    "ClarifyBench/ClarifyBench_E/cc2d6a29.json",
+    "ClarifyBench/ClarifyBench_E/d26bbbfc.json",
+    "ClarifyBench/ClarifyBench_E/d3c40be1.json",
+    "ClarifyBench/ClarifyBench_E/e1e96061.json",
+    "ClarifyBench/ClarifyBench_E/f0f260a6.json",
+    "ClarifyBench/ClarifyBench_E/f0f394b8.json",
+    "ClarifyBench/ClarifyBench_I/0179f6da.json",
+    "ClarifyBench/ClarifyBench_I/1f1f7641.json",
+    "ClarifyBench/ClarifyBench_I/30f5e21f.json",
+    "ClarifyBench/ClarifyBench_I/34b02881.json",
+    "ClarifyBench/ClarifyBench_I/700055fd.json",
+    "ClarifyBench/ClarifyBench_I/72b21375.json",
+    "ClarifyBench/ClarifyBench_I/7d2a49b3.json",
+    "ClarifyBench/ClarifyBench_I/98f15230.json",
+    "ClarifyBench/ClarifyBench_I/b524b5cd.json",
+    "ClarifyBench/ClarifyBench_I/ca0a9dd2.json",
+    "ClarifyBench/ClarifyBench_I/f7f470df.json",
+    "ClarifyBench/ClarifyBench_I/f91fbb96.json"
+  ],
+  "data_and_evaluator_unchanged": true,
+  "model_calls": 0,
+  "benchmark_tool_executions": 0
+}

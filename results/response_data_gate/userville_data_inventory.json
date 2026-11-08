@@ -1,0 +1,60 @@
+{
+  "repository": "https://github.com/sunnweiwei/PPP-Agent",
+  "commit": "abbb7b1594f90eb94cf9543878f88996b7cd21ac",
+  "source_url": "https://drive.google.com/uc?export=download&id=1w4Zjne7mwu6iWtDH2KQI0UkTlNPz5WMW",
+  "source_file": "test_ood.parquet",
+  "source_sha256": "8a71c2278151bf508593d4629b28bc864b3822087bdb1f85548b46685ba13d11",
+  "source_bytes": 23848775,
+  "pyarrow_version": "19.0.1",
+  "code_sha256": "19d1bd12169304bdd6e9d213f622af52a29f5148251226f49a58e40c27c6de02",
+  "rows": 3584,
+  "columns": [
+    "data_source",
+    "prompt",
+    "ability",
+    "reward_model",
+    "extra_info",
+    "answer"
+  ],
+  "schema": "data_source: string\nprompt: list<element: struct<content: string, role: string>>\n  child 0, element: struct<content: string, role: string>\n      child 0, content: string\n      child 1, role: string\nability: string\nreward_model: struct<ground_truth: null, style: string>\n  child 0, ground_truth: null\n  child 1, style: string\nextra_info: struct<index: string, is_vague: bool, preference: struct<capital: struct<preference: string, reward: string>, commas: struct<preference: string, reward: string>, joke: struct<preference: string, reward: string>, json: struct<preference: string, reward: string>, lang_ita: struct<preference: string, reward: string>, lang_multi: struct<preference: string, reward: string>, length: struct<preference: string, reward: string>, preference_name: string, snippet: struct<preference: string, reward: string>>, prompt: list<element: struct<content: string, role: string>>, use_vague: bool>\n  child 0, index: string\n  child 1, is_vague: bool\n  child 2, preference: struct<capital: struct<preference: string, reward: string>, commas: struct<preference: string, reward: string>, joke: struct<preference: string, reward: string>, json: struct<preference: string, reward: string>, lang_ita: struct<preference: string, reward: string>, lang_multi: struct<preference: string, reward: string>, length: struct<preference: string, reward: string>, preference_name: string, snippet: struct<preference: string, reward: string>>\n      child 0, capital: struct<preference: string, reward: string>\n          child 0, preference: string\n          child 1, reward: string\n      child 1, commas: struct<preference: string, reward: string>\n          child 0, preference: string\n          child 1, reward: string\n      child 2, joke: struct<preference: string, reward: string>\n          child 0, preference: string\n          child 1, reward: string\n      child 3, json: struct<preference: string, reward: string>\n          child 0, preference: string\n          child 1, reward: string\n      child 4, lang_ita: struct<preference: string, reward: string>\n          child 0, preference: string\n          child 1, reward: string\n      child 5, lang_multi: struct<preference: string, reward: string>\n          child 0, preference: string\n          child 1, reward: string\n      child 6, length: struct<preference: string, reward: string>\n          child 0, preference: string\n          child 1, reward: string\n      child 7, preference_name: string\n      child 8, snippet: struct<preference: string, reward: string>\n          child 0, preference: string\n          child 1, reward: string\n  child 3, prompt: list<element: struct<content: string, role: string>>\n      child 0, element: struct<content: string, role: string>\n          child 0, content: string\n          child 1, role: string\n  child 4, use_vague: bool\nanswer: string",
+  "prompt_role_patterns": [
+    {
+      "roles": [
+        "system",
+        "user"
+      ],
+      "n": 3584
+    }
+  ],
+  "extra_prompt_role_patterns": [
+    {
+      "roles": [
+        "system",
+        "user"
+      ],
+      "n": 3584
+    }
+  ],
+  "answer_unique_values": 1,
+  "answer_placeholder_count": 3584,
+  "null_reward_ground_truth": 3584,
+  "is_vague_counts": {
+    "True": 3584
+  },
+  "preference_counts": {
+    "lang_ita": 448,
+    "lang_multi": 448,
+    "capital": 448,
+    "commas": 448,
+    "json": 448,
+    "joke": 448,
+    "snippet": 448,
+    "length": 448
+  },
+  "unique_config_indices": 3584,
+  "full_trajectories_observed": 0,
+  "interpretation": "Checked OOD input file contains initial prompts and preferences, with placeholder answers; not observed user-response/outcome trajectories. Other two Drive files not downloaded or audited.",
+  "source_code_executed": false,
+  "model_calls": 0,
+  "raw_data_exported": false
+}

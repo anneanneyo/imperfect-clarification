@@ -1,0 +1,3602 @@
+[
+  {
+    "group_id": "3de41a5d94068e6b4afbffa7f927012474f7d02bb1dc0fab9f868605bb2f0897",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.317581044032245,
+    "constant_mae": 0.4359085648148148
+  },
+  {
+    "group_id": "3f15cf92be196fa878606b00fe64cc16411e7617129f19cab0adbdcf2baa1805",
+    "target_accuracy": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.08035570946700818,
+    "constant_mae": 0.06409143518518522
+  },
+  {
+    "group_id": "3f60b6f6519858d18daee4496fb6340c130139d3293f559a006cf731857ed491",
+    "target_accuracy": [
+      0.0,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.26666666666666666,
+        "utility": 0.21666666666666667,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "money_gone",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.3547900523111985,
+    "constant_mae": 0.3855613425925926
+  },
+  {
+    "group_id": "402823a16cf2c44ebc2c7eff4040b18b3d5031317334c087c5cce962e4e67f88",
+    "target_accuracy": [
+      0.0,
+      1.0,
+      0.5,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.3,
+        "utility": 0.25,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.42885270791793423,
+    "constant_mae": 0.45587384259259256
+  },
+  {
+    "group_id": "4057ff28c9c5e11a4242bd4aa8136940354c3a1aae70d4a5bb46e38b697041ce",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.8,
+        "utility": 0.75,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.43660894905264175,
+    "constant_mae": 0.4477719907407407
+  },
+  {
+    "group_id": "405907d48359778e5cb18c06ada7a1a9ae03a81e9bcc137a0a95a5c96250bb01",
+    "target_accuracy": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.03367948067937895,
+    "constant_mae": 0.06409143518518522
+  },
+  {
+    "group_id": "4218aa3087bd2f28a273333254247e0b49365b6a22dc9dc7df20a777f8e7a4cd",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.21471491436321447,
+    "constant_mae": 0.4359085648148148
+  },
+  {
+    "group_id": "4299ebfe3b1eab1e26cde79ab17f55ddb68131278dd7acea2365e5c5a3e50a00",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.8,
+        "utility": 0.75,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.4160514510226418,
+    "constant_mae": 0.4822048611111111
+  },
+  {
+    "group_id": "43473215ecd8d3f19ef9460153d65e354637f54cb90f9a14921c4b628cdfe480",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.7,
+        "utility": 0.6499999999999999,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.3135914446411554,
+    "constant_mae": 0.4087094907407407
+  },
+  {
+    "group_id": "43c46ab9d071de734ed63ec5406d9d62cfa090e123c77a6a08038537763b8b44",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.8,
+        "utility": 0.75,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.4728503971643973,
+    "constant_mae": 0.45269097222222227
+  },
+  {
+    "group_id": "43c5d0ed5f3e18792db0bc17d2718820ef89a9cd551177949431a9b77457433d",
+    "target_accuracy": [
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.4,
+        "utility": 0.35000000000000003,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.5537230195784234,
+    "constant_mae": 0.5293692129629629
+  },
+  {
+    "group_id": "43c9c74e4386b07a32acf269b88305d4ad336012c74b51c1f111b82d949d392a",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      0.6666666666666666,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.9333333333333333,
+        "utility": 0.8833333333333333,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.3111458925667984,
+    "constant_mae": 0.38035300925925924
+  },
+  {
+    "group_id": "45b2fd84037e358f85072a9f5c24d06de3e568d181366e4089230e7c649cd76c",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.24708617573670724,
+    "constant_mae": 0.4359085648148148
+  },
+  {
+    "group_id": "460e8cf13234c4514d709f0a08940f6946877cd7e2bce9dfc5542431fc9eaa31",
+    "target_accuracy": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.2,
+        "utility": 0.15000000000000002,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.4809725225201969,
+    "constant_mae": 0.517795138888889
+  },
+  {
+    "group_id": "461986234392db1e3b48dbaeaf8993854143757c42ddecb91c0d108e583ef8a0",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.8,
+        "utility": 0.75,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.35214931066090077,
+    "constant_mae": 0.4477719907407407
+  },
+  {
+    "group_id": "4632a04379a242eb5e673df974294ae017b98db6133e99177235c138b322c1b8",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.32906957131758013,
+    "constant_mae": 0.4359085648148148
+  },
+  {
+    "group_id": "46e00c95b0476e5b81c7e38d6d9c3577110041044e0a3df7e841bdf9d3bdc1c9",
+    "target_accuracy": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.2,
+        "utility": 0.15000000000000002,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.5605048007355563,
+    "constant_mae": 0.517795138888889
+  },
+  {
+    "group_id": "47042bdde21aad79bfdd987b20185e82cb2c7fde658ce4306ba251e32fd1aecf",
+    "target_accuracy": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.4,
+        "utility": 0.35000000000000003,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.49356620602470097,
+    "constant_mae": 0.52734375
+  },
+  {
+    "group_id": "472d76f8c8c87666202ba34ad60efb03adad92ab6bff015b0d9f6ac17824db79",
+    "target_accuracy": [
+      0.0,
+      0.5,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.45016837128464204,
+    "constant_mae": 0.45211226851851855
+  },
+  {
+    "group_id": "47bffa40f40caeeb8c2845ce33d75ed44274a5f01debe729973d9e3c838b87bb",
+    "target_accuracy": [
+      0.5,
+      0.0,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.19646457454365404,
+    "constant_mae": 0.18446180555555566
+  },
+  {
+    "group_id": "48f2ededa97a9ec7e9356dc6199925750f7a4a58c38a13032c44e6ce534522b9",
+    "target_accuracy": [
+      0.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.13333333333333333,
+        "utility": 0.08333333333333333,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.3573446469221011,
+    "constant_mae": 0.4622395833333334
+  },
+  {
+    "group_id": "499ea521e720a9b1f0e5f4cb280297d83df5f9acbf7dad2ba1d0bd52085aa863",
+    "target_accuracy": [
+      1.0,
+      0.5,
+      1.0,
+      1.0,
+      0.5,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.8,
+        "utility": 0.75,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.2392627661200277,
+    "constant_mae": 0.3039641203703704
+  },
+  {
+    "group_id": "4a265562a7a65da574e3e0d7764845c950b0ff659e10f6d192c72ff8fa54f4a4",
+    "target_accuracy": [
+      0.75,
+      0.5,
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.75,
+        "utility": 0.75,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.7,
+        "utility": 0.6499999999999999,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 0.75,
+        "utility": 0.75,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.1273800996224821,
+    "constant_mae": 0.16912615740740736
+  },
+  {
+    "group_id": "4a9874dc403ef324a872d07b1b97240119a2e49ae7bc309bad362d43ec76a059",
+    "target_accuracy": [
+      0.0,
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.2,
+        "utility": 0.15000000000000002,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.352058840645215,
+    "constant_mae": 0.39742476851851855
+  },
+  {
+    "group_id": "4aef98126486f80193b180b57c9c20e858a2b23b492f0f749a91170ec168d376",
+    "target_accuracy": [
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.06223411710375387,
+    "constant_mae": 0.06409143518518522
+  },
+  {
+    "group_id": "4c646fca194875632ec98877f019c5eb09ce724ad0d79f5c344f44d69fc8fb98",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.5473661689374746,
+    "constant_mae": 0.4359085648148148
+  },
+  {
+    "group_id": "4d056fab70ed52b74664ffee76a003ed9f64f040befb07a7573298c042d50074",
+    "target_accuracy": [
+      0.5,
+      0.5,
+      1.0,
+      0.0,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.19265955686895517,
+    "constant_mae": 0.18446180555555566
+  },
+  {
+    "group_id": "4e2cb325184f6998bcdb468b9b1e020ebc0252ce4022c80ca67f4d76e722b0b6",
+    "target_accuracy": [
+      0.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.4,
+        "utility": 0.35000000000000003,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.5060710254613732,
+    "constant_mae": 0.52734375
+  },
+  {
+    "group_id": "4e3a371dce96ddc7a561bcff14d7fc349fdb95a398eeba057c2dfc2c3881efcc",
+    "target_accuracy": [
+      0.0,
+      0.0,
+      0.0,
+      0.75,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.15,
+        "utility": 0.09999999999999999,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "money_gone",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.45112386628851825,
+    "constant_mae": 0.5105613425925927
+  },
+  {
+    "group_id": "4e806509c00e170172eed1d9ff92b95adcff9a3f3752b262e56049873728ad2d",
+    "target_accuracy": [
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.4,
+        "utility": 0.35000000000000003,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.13497862761954102,
+    "constant_mae": 0.14742476851851855
+  },
+  {
+    "group_id": "4f29e11566d1236a621124400b2f6d8f81b920f342eeb2947a6edfa9b53d05f7",
+    "target_accuracy": [
+      0.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.13333333333333333,
+        "utility": 0.08333333333333333,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.3878657948461859,
+    "constant_mae": 0.4622395833333334
+  },
+  {
+    "group_id": "4f2e44a565bf71f1ea444180a4c482b707ec8e6dcabfd98cfda100e3bfd14dc3",
+    "target_accuracy": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.3,
+        "utility": 0.25,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.33822193553649876,
+    "constant_mae": 0.3140914351851852
+  },
+  {
+    "group_id": "4f3a592286bf796d818a189416f25b8a7a909e879745b64ffb2ec7eb5d22e8bf",
+    "target_accuracy": [
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.6,
+        "utility": 0.5499999999999999,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.41402037838472555,
+    "constant_mae": 0.47757523148148157
+  },
+  {
+    "group_id": "506952bce8f556f3ee4eccbf3c18ca58b650fe4639dc8924bd62ee8579d07486",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.13907237680055626,
+    "constant_mae": 0.4359085648148148
+  },
+  {
+    "group_id": "50b0ed2a5f8a8b3d3c2cd9e161e07d59e0c3900e5ef2548bfba680050772530b",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.20693958140882207,
+    "constant_mae": 0.4359085648148148
+  },
+  {
+    "group_id": "50e524f8c3446523dfafe588a0489757118f31fcf70b22a59c06ae873d7031b8",
+    "target_accuracy": [
+      0.0,
+      0.0,
+      0.6666666666666666,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.13333333333333333,
+        "utility": 0.08333333333333333,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.2283126718843201,
+    "constant_mae": 0.4622395833333334
+  },
+  {
+    "group_id": "5138affd8bc8b4de086db96773e1fcf58fd87f2fd52bc6f29dd711f86d1aeb1f",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      0.0,
+      0.6666666666666666,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.7333333333333333,
+        "utility": 0.6833333333333332,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.3154724323408176,
+    "constant_mae": 0.3922164351851851
+  },
+  {
+    "group_id": "52536a2792743c3f77654960412dc5544282ae8836a67c2b445f22ea9335bc3f",
+    "target_accuracy": [
+      0.5,
+      0.5,
+      0.75,
+      0.5,
+      0.75,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.6,
+        "utility": 0.5499999999999999,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.09273667457087505,
+    "constant_mae": 0.09129050925925931
+  },
+  {
+    "group_id": "52a64eaeadbcc9bb1c1f7d208e927ae384a795e1cc991529ff1d9fcf7b9758a6",
+    "target_accuracy": [
+      0.0,
+      0.25,
+      0.75,
+      0.75,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.35,
+        "utility": 0.3,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.3242738788293796,
+    "constant_mae": 0.380931712962963
+  },
+  {
+    "group_id": "52b26596e8dc4e543aace77e3e4f912e4a3624b513a8dd2662b4a1e12fb1b74a",
+    "target_accuracy": [
+      1.0,
+      0.6666666666666666,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.9333333333333333,
+        "utility": 0.8833333333333333,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.3973917748837314,
+    "constant_mae": 0.38035300925925924
+  },
+  {
+    "group_id": "52dd6363457b5eb04927f870b2dcde987d59f4ba658a781646132278c4f7a51b",
+    "target_accuracy": [
+      0.25,
+      0.75,
+      0.5,
+      0.5,
+      0.5,
+      0.25
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.25,
+        "utility": 0.25,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.21819337955794693,
+    "constant_mae": 0.16420717592592596
+  },
+  {
+    "group_id": "53cd0478dce3b34d9e915e021ebc6e989e2f84e5779b3f0714b4309d007c55e7",
+    "target_accuracy": [
+      1.0,
+      0.5,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.7,
+        "utility": 0.6499999999999999,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.5454642607925402,
+    "constant_mae": 0.423755787037037
+  },
+  {
+    "group_id": "544958719eb0d787731c358ea094e817be3a9fab68963d7e8c341e3443dec1fb",
+    "target_accuracy": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.2,
+        "utility": 0.15000000000000002,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.6865281130326998,
+    "constant_mae": 0.5522280092592593
+  },
+  {
+    "group_id": "54f7205edaafd0045503d161f7dcfe309fb87b5b66d4f521f1c550d9974f4411",
+    "target_accuracy": [
+      0.75,
+      0.5,
+      0.75,
+      0.75,
+      0.75,
+      0.75
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.75,
+        "utility": 0.75,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.7,
+        "utility": 0.6499999999999999,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 0.75,
+        "utility": 0.75,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.2976324304630556,
+    "constant_mae": 0.16912615740740736
+  },
+  {
+    "group_id": "565d3ab79288948730f2b73c1f910d5df491f00bfa41d9cd19a3327d0dbfeb24",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.2826485874362252,
+    "constant_mae": 0.4359085648148148
+  },
+  {
+    "group_id": "56e359eea560d17cb46eafe4f34cc9f5e51608f4e183f8a9577dcefd80584af8",
+    "target_accuracy": [
+      0.6666666666666666,
+      0.3333333333333333,
+      1.0,
+      0.6666666666666666,
+      0.6666666666666666,
+      0.6666666666666666
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6666666666666666,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.2573020395219112,
+    "constant_mae": 0.18301504629629628
+  },
+  {
+    "group_id": "576f143b9d713e7a3c142a0412643373ef217117a16cdba77853b74a8134a871",
+    "target_accuracy": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.8,
+        "utility": 0.75,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.4326468633449927,
+    "constant_mae": 0.4822048611111111
+  },
+  {
+    "group_id": "57b3ef0784ec9459c21a530a51c725eead1800d0e103e43fdcd684291eb7a7a8",
+    "target_accuracy": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.6,
+        "utility": 0.5499999999999999,
+        "ask_rate": 1
+      },
+      "component_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.12013214091188924,
+    "constant_mae": 0.10112847222222231
+  }
+]

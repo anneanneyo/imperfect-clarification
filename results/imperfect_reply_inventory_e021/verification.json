@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "source_records": {
+    "partial": 70,
+    "unknown": 62
+  },
+  "unique_dialogues": 125,
+  "case_groups": 64,
+  "all_probes_reconstructed": true,
+  "independent_rule_interpreter": true,
+  "verifier_sha256": "21231bd2909c17b2dfff876352356c7fb908803198d271c74e67c86b11232297",
+  "manifest_sha256": "41105f01be16b7b40f2f52281a3838d5db5bec682e1a6fa421621b3468329075"
+}

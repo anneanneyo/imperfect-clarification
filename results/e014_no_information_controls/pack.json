@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "b64bf599c1a51fa14a1ddb8e31b674676f52fd72ca4212089f0b618323403af5",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "I have a change request regarding my loan. No money has left my account, and I am not asking for any compensation."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "I have a change request regarding my loan. No money has left my account, and I am not asking for any compensation."
+      }
+    ]
+  },
+  {
+    "id": "5c33b098da650e5ab1ecb6c9896da4982e11f2c6c4d4b4708e790c77fb8718dd",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "I have a change request regarding my loan. No money has left my account, and I am not asking for any compensation."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "e3717609863fc6e00bdb5eabbfc7140366295e7840ac9ff548dad348a63f68b7",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, my name is Nadia. I have a question about a fee. It is related to my loan product. I noticed that money has already left my account for this charge. I am writing to ask about it. Please do not send me any money back as compensation. I just need to understand why the fee was taken. I hope you can help me with this issue. Thank you for your time."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Hi, my name is Nadia. I have a question about a fee. It is related to my loan product. I noticed that money has already left my account for this charge. I am writing to ask about it. Please do not send me any money back as compensation. I just need to understand why the fee was taken. I hope you can help me with this issue. Thank you for your time."
+      }
+    ]
+  },
+  {
+    "id": "0984b77f7b7ed6445655178a42f08b495468b00ad3572416ef093baddb98c952",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, my name is Nadia. I have a question about a fee. It is related to my loan product. I noticed that money has already left my account for this charge. I am writing to ask about it. Please do not send me any money back as compensation. I just need to understand why the fee was taken. I hope you can help me with this issue. Thank you for your time."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "0b123d871182fc5d7d1073f645d2c365fd788cb8da797a49ca0b01b76f512632",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "I’m done dealing with this back-and-forth nonsense. I need to submit a change request immediately, and I am not interested in any compensation or refunds. Do not ask if I want my money back; I want the change processed. I have tried to resolve this through standard channels, but nothing has worked. I am frustrated with the lack of progress. Please stop wasting my time with irrelevant questions about refunds or money leaving the account. I just need the change to happen. Fix this now."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "I’m done dealing with this back-and-forth nonsense. I need to submit a change request immediately, and I am not interested in any compensation or refunds. Do not ask if I want my money back; I want the change processed. I have tried to resolve this through standard channels, but nothing has worked. I am frustrated with the lack of progress. Please stop wasting my time with irrelevant questions about refunds or money leaving the account. I just need the change to happen. Fix this now."
+      }
+    ]
+  },
+  {
+    "id": "b05d07f265adde9b0bdc5a14fca216c8a6bec35b8f9c737915474206b92beede",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "I’m done dealing with this back-and-forth nonsense. I need to submit a change request immediately, and I am not interested in any compensation or refunds. Do not ask if I want my money back; I want the change processed. I have tried to resolve this through standard channels, but nothing has worked. I am frustrated with the lack of progress. Please stop wasting my time with irrelevant questions about refunds or money leaving the account. I just need the change to happen. Fix this now."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "43f957021397a45db92c4718c69dfc8f80d45606886d400b6467c2d53c5349cc",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, I’m Mehmet. I need help with something. The money has already left my account."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Hi, I’m Mehmet. I need help with something. The money has already left my account."
+      }
+    ]
+  },
+  {
+    "id": "7866f9de3a8a4167b7c50bfc56ad9ad5388e7a5c7d7ef2fa4959a0cf73495cb8",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, I’m Mehmet. I need help with something. The money has already left my account."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "6886dc6734fda427036793d03af4c37801d1d362fcd093cbaa2f661d09368c22",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Subject: Inquiry Regarding Account Fee and Refund Request\n\nDear Support Team,\n\nI am writing to formally address a question I have concerning a recent fee applied to my account. I believe this charge may be incorrect and requires your review.\n\nAdditionally, I am requesting that the amount in question be refunded to me as compensation for this error. I would appreciate your prompt attention to this matter to ensure the issue is resolved and the funds are returned to my account without delay.\n\nPlease let me know what further information or documentation you may need from me to facilitate this process. I look forward to your swift response.\n\nSincerely,\n\nA Valued Customer"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Subject: Inquiry Regarding Account Fee and Refund Request\n\nDear Support Team,\n\nI am writing to formally address a question I have concerning a recent fee applied to my account. I believe this charge may be incorrect and requires your review.\n\nAdditionally, I am requesting that the amount in question be refunded to me as compensation for this error. I would appreciate your prompt attention to this matter to ensure the issue is resolved and the funds are returned to my account without delay.\n\nPlease let me know what further information or documentation you may need from me to facilitate this process. I look forward to your swift response.\n\nSincerely,\n\nA Valued Customer"
+      }
+    ]
+  },
+  {
+    "id": "6e0ff7d36425d4795ba0d6093626ca8d445bb89af6ee1c997fde1d6e06041f7a",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Subject: Inquiry Regarding Account Fee and Refund Request\n\nDear Support Team,\n\nI am writing to formally address a question I have concerning a recent fee applied to my account. I believe this charge may be incorrect and requires your review.\n\nAdditionally, I am requesting that the amount in question be refunded to me as compensation for this error. I would appreciate your prompt attention to this matter to ensure the issue is resolved and the funds are returned to my account without delay.\n\nPlease let me know what further information or documentation you may need from me to facilitate this process. I look forward to your swift response.\n\nSincerely,\n\nA Valued Customer"
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "928e46073d1f2269969b99605ef9854560c7f0fb18885ded6a302514e63f6a7e",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nI am writing to seek assistance regarding a recent transaction. I have noticed an unrecognized charge appearing on my account statement. I confirm that the funds associated with this transaction have already left my account.\n\nPlease note that I am not requesting any monetary compensation or reimbursement for this matter. My current need is simply to address the presence of this unrecognized entry.\n\nI appreciate your prompt attention to this inquiry.\n\nSincerely,\n\nSamuel"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nI am writing to seek assistance regarding a recent transaction. I have noticed an unrecognized charge appearing on my account statement. I confirm that the funds associated with this transaction have already left my account.\n\nPlease note that I am not requesting any monetary compensation or reimbursement for this matter. My current need is simply to address the presence of this unrecognized entry.\n\nI appreciate your prompt attention to this inquiry.\n\nSincerely,\n\nSamuel"
+      }
+    ]
+  },
+  {
+    "id": "ecc982d942147cf811e1f59970b4280ecaed6789dc45993452c18f6b3cafbcee",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nI am writing to seek assistance regarding a recent transaction. I have noticed an unrecognized charge appearing on my account statement. I confirm that the funds associated with this transaction have already left my account.\n\nPlease note that I am not requesting any monetary compensation or reimbursement for this matter. My current need is simply to address the presence of this unrecognized entry.\n\nI appreciate your prompt attention to this inquiry.\n\nSincerely,\n\nSamuel"
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "a3b7dff6650e628ed055097994b46329567d498611aec02d5d1e36a7368728d9",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Mateo. I am writing to inquire about a matter concerning a loan product associated with my account. Please be advised that funds have already left my account in relation to this transaction. I require assistance regarding this specific issue. I look forward to your prompt response and guidance on how to proceed.\n\nSincerely,\n\nMateo"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Mateo. I am writing to inquire about a matter concerning a loan product associated with my account. Please be advised that funds have already left my account in relation to this transaction. I require assistance regarding this specific issue. I look forward to your prompt response and guidance on how to proceed.\n\nSincerely,\n\nMateo"
+      }
+    ]
+  },
+  {
+    "id": "fbfbe4e376ae7d79aed0f25f24768d6eede40a7a08f35681592bf4c6a6108219",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Mateo. I am writing to inquire about a matter concerning a loan product associated with my account. Please be advised that funds have already left my account in relation to this transaction. I require assistance regarding this specific issue. I look forward to your prompt response and guidance on how to proceed.\n\nSincerely,\n\nMateo"
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "4966e07d210f8e6163fc06b1253506221bb117aa86219220a65e18d475ebdc1b",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, I’m Leila. I have a question about my current account. There is an unrecognized charge on it, and the money has already left my account. I am not asking for the money back as compensation."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Hi, I’m Leila. I have a question about my current account. There is an unrecognized charge on it, and the money has already left my account. I am not asking for the money back as compensation."
+      }
+    ]
+  },
+  {
+    "id": "9f530b124a6fc1388b9b19699e26bc4deec5bd77b8b803d4cf5c905262aba51c",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, I’m Leila. I have a question about my current account. There is an unrecognized charge on it, and the money has already left my account. I am not asking for the money back as compensation."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "f859be034765235605ee0870df1348c26cc0e9511973722fd83dbb6f06f5685a",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hello. I have a question about my account. I need some help with something, but I am not sure exactly what is happening. I tried to log in and it did not work properly. I am not native English speaker, so please be patient. Can you tell me how to fix this? I do not want to wait too long. Thank you for your help. I hope you can understand my problem. Please let me know what I should do next. I am ready to provide any information you need."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Hello. I have a question about my account. I need some help with something, but I am not sure exactly what is happening. I tried to log in and it did not work properly. I am not native English speaker, so please be patient. Can you tell me how to fix this? I do not want to wait too long. Thank you for your help. I hope you can understand my problem. Please let me know what I should do next. I am ready to provide any information you need."
+      }
+    ]
+  },
+  {
+    "id": "dd8564f9deac70cfd770f7d539f2577e1032816c707475de1f4af4e2a3b40ac9",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hello. I have a question about my account. I need some help with something, but I am not sure exactly what is happening. I tried to log in and it did not work properly. I am not native English speaker, so please be patient. Can you tell me how to fix this? I do not want to wait too long. Thank you for your help. I hope you can understand my problem. Please let me know what I should do next. I am ready to provide any information you need."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "2cdac87e01836791661d64dee1a25da018b2fa4015a4541801995de6677f38f2",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "hey, i need help. my card is lost. money has already left my account. pls check."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "hey, i need help. my card is lost. money has already left my account. pls check."
+      }
+    ]
+  },
+  {
+    "id": "f0ad13f85b739cb827fb1b6ed3a10a138503c761c804c14e0e30aaaa87f8bff9",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "hey, i need help. my card is lost. money has already left my account. pls check."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "e554cffa6830c4ea8021b4545d9161b7448a20795f47b1f02c3ddda729877286",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, my name is Grace. I need some help with something regarding my account."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Hi, my name is Grace. I need some help with something regarding my account."
+      }
+    ]
+  },
+  {
+    "id": "6d182adf86744bf8a24ef9708c3600be0d2d0d12c6bd94264c0b13ecc6d80e16",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, my name is Grace. I need some help with something regarding my account."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "b771db27d8a65c98d4226ff904330eb6feddcdc2bc53018ac6312a904d2d54b9",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi there. I need some help with my current account. I believe it involves a change request, but I’m not entirely sure what details are actually required to process this. I’m a bit confused about the process and what specific information you need from me to move forward. Could you please clarify what I should provide? I just want to make sure I’m giving you the right things so we can get this sorted out. Thanks for your patience with my uncertainty on this."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Hi there. I need some help with my current account. I believe it involves a change request, but I’m not entirely sure what details are actually required to process this. I’m a bit confused about the process and what specific information you need from me to move forward. Could you please clarify what I should provide? I just want to make sure I’m giving you the right things so we can get this sorted out. Thanks for your patience with my uncertainty on this."
+      }
+    ]
+  },
+  {
+    "id": "bc6bf80b5b46a871f801882e65cbb2c3324588ef9c4a5286242ac68e1e05c967",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi there. I need some help with my current account. I believe it involves a change request, but I’m not entirely sure what details are actually required to process this. I’m a bit confused about the process and what specific information you need from me to move forward. Could you please clarify what I should provide? I just want to make sure I’m giving you the right things so we can get this sorted out. Thanks for your patience with my uncertainty on this."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "bcb066299e094b59231ff3b5e3ecb8398ac16a35830a1740066e13f0a45759e3",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nI am writing to inquire about a fee that was charged to my account. Specifically, I would like to request that this amount be refunded as compensation. Please note that the funds in question have already been deducted from my account. I would appreciate your assistance in resolving this matter promptly.\n\nThank you for your time and help.\n\nSincerely,\n\nA Customer"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nI am writing to inquire about a fee that was charged to my account. Specifically, I would like to request that this amount be refunded as compensation. Please note that the funds in question have already been deducted from my account. I would appreciate your assistance in resolving this matter promptly.\n\nThank you for your time and help.\n\nSincerely,\n\nA Customer"
+      }
+    ]
+  },
+  {
+    "id": "357777495241b8f892ddc5fd198d056ce96e9b9d27d1fabeee1dbcdaabdcb349",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nI am writing to inquire about a fee that was charged to my account. Specifically, I would like to request that this amount be refunded as compensation. Please note that the funds in question have already been deducted from my account. I would appreciate your assistance in resolving this matter promptly.\n\nThank you for your time and help.\n\nSincerely,\n\nA Customer"
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "c295aec99b563941d35c7d52823744a41503028eecbeef9ae46b8fa23295a841",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hello. I have a question about my account. I am asking about a fee. It is related to my loan. I checked my statement and I saw a charge. The money has already left my account. I want to know why this happened. Please help me with this fee question."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Hello. I have a question about my account. I am asking about a fee. It is related to my loan. I checked my statement and I saw a charge. The money has already left my account. I want to know why this happened. Please help me with this fee question."
+      }
+    ]
+  },
+  {
+    "id": "8d73e227aa78b5ad3677eab840c2dadacfa2e5a927d05be5c23065533d5e43a2",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hello. I have a question about my account. I am asking about a fee. It is related to my loan. I checked my statement and I saw a charge. The money has already left my account. I want to know why this happened. Please help me with this fee question."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "c6f7e00468f0fbf728348905d4ccbd15fb4014cf338da82e12e025462dfdce55",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Ingrid. I am writing to submit a change request regarding my current account. At this time, no money has left my account. However, I would like to inquire about the possibility of receiving money back as compensation for this issue. Please let me know the necessary steps to proceed with this request. I look forward to your prompt response.\n\nSincerely,\n\nIngrid"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Ingrid. I am writing to submit a change request regarding my current account. At this time, no money has left my account. However, I would like to inquire about the possibility of receiving money back as compensation for this issue. Please let me know the necessary steps to proceed with this request. I look forward to your prompt response.\n\nSincerely,\n\nIngrid"
+      }
+    ]
+  },
+  {
+    "id": "8033a2b41bae245aa82501a7e612c56aee03ac9541a631f87512d0342c8d597e",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Ingrid. I am writing to submit a change request regarding my current account. At this time, no money has left my account. However, I would like to inquire about the possibility of receiving money back as compensation for this issue. Please let me know the necessary steps to proceed with this request. I look forward to your prompt response.\n\nSincerely,\n\nIngrid"
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "726650ed412ced2632c75ff60d2c2e6f29f9a4f6a4b94fef0ecba7e9f22d82ea",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "hi i need some help with something regarding my account. i have a question about a recent activity but i'm not sure how to describe it properly. can you guide me on what information i need to provide? i just want to get this sorted out as soon as possible. thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "hi i need some help with something regarding my account. i have a question about a recent activity but i'm not sure how to describe it properly. can you guide me on what information i need to provide? i just want to get this sorted out as soon as possible. thanks."
+      }
+    ]
+  },
+  {
+    "id": "fc22bd3d4809b5486de4cc91ce818a9ce9c6ff6fdec3f267fafab93d64058e69",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "hi i need some help with something regarding my account. i have a question about a recent activity but i'm not sure how to describe it properly. can you guide me on what information i need to provide? i just want to get this sorted out as soon as possible. thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "4522ff5e994b4e7b8b74fc5b02d074216a522207676b01ace088e28dc37521b3",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "* Lucia here.\n* I need some help with something.\n* I have a question about my account.\n* I am writing to you from the online chat.\n* I am looking for assistance.\n* Please let me know how we can proceed.\n* I am available to provide more details if needed.\n* Thank you for your time."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "* Lucia here.\n* I need some help with something.\n* I have a question about my account.\n* I am writing to you from the online chat.\n* I am looking for assistance.\n* Please let me know how we can proceed.\n* I am available to provide more details if needed.\n* Thank you for your time."
+      }
+    ]
+  },
+  {
+    "id": "a48fe2403ec92299010397cfac3ac76edab044e925ec5931362f8ac03e8e756e",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "* Lucia here.\n* I need some help with something.\n* I have a question about my account.\n* I am writing to you from the online chat.\n* I am looking for assistance.\n* Please let me know how we can proceed.\n* I am available to provide more details if needed.\n* Thank you for your time."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "e63e3146c03c9fb114d1b411dfe4e87ca34ee5800c7e78efbf3327b12373e50e",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "* I am reaching out to request financial compensation for an issue I experienced.\n* I am asking for money back as compensation.\n* I would appreciate it if this matter could be reviewed and resolved promptly."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "* I am reaching out to request financial compensation for an issue I experienced.\n* I am asking for money back as compensation.\n* I would appreciate it if this matter could be reviewed and resolved promptly."
+      }
+    ]
+  },
+  {
+    "id": "1e3de6f2d909fd9892d0da8c871bdefffe5fe3dcbb38e2ac52eb1d09563e8d98",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "* I am reaching out to request financial compensation for an issue I experienced.\n* I am asking for money back as compensation.\n* I would appreciate it if this matter could be reviewed and resolved promptly."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "555226d19a6060b0304eef00e8f3838367caeddfdec814b81e732fb8aa478f9f",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "hey i need some help with a change request regarding my current account. just to confirm, no money has left my account yet and i am not asking for any money back as compensation. thanks"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "hey i need some help with a change request regarding my current account. just to confirm, no money has left my account yet and i am not asking for any money back as compensation. thanks"
+      }
+    ]
+  },
+  {
+    "id": "dc839558fb3ef233b9b912a691be0c184f7ed087d25374ea1dfe9269ef492fd1",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "hey i need some help with a change request regarding my current account. just to confirm, no money has left my account yet and i am not asking for any money back as compensation. thanks"
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "584cc819ad89a12d8a94ca2866f490fbe2aa966379ea1a971672932ab907219c",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, this is Leila. I’m reaching out because I need some help with my card. To be clear, I am not asking for any money back or compensation for this. Also, please note that no money has actually left my account yet. I just need assistance resolving the issue at hand. I’ve tried to figure this out on my own, but it’s becoming quite frustrating. I expect this to be sorted out quickly. Please let me know what steps I need to take or what information you need from me to proceed. I’m eager to get this resolved so I can stop dealing with this inconvenience. Thanks in advance for your prompt attention to this matter."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Hi, this is Leila. I’m reaching out because I need some help with my card. To be clear, I am not asking for any money back or compensation for this. Also, please note that no money has actually left my account yet. I just need assistance resolving the issue at hand. I’ve tried to figure this out on my own, but it’s becoming quite frustrating. I expect this to be sorted out quickly. Please let me know what steps I need to take or what information you need from me to proceed. I’m eager to get this resolved so I can stop dealing with this inconvenience. Thanks in advance for your prompt attention to this matter."
+      }
+    ]
+  },
+  {
+    "id": "6e5c4ca5acf6743cb82afb60cb1dbc30d7549ed781b4f3e7b68e93ded0153c1c",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Hi, this is Leila. I’m reaching out because I need some help with my card. To be clear, I am not asking for any money back or compensation for this. Also, please note that no money has actually left my account yet. I just need assistance resolving the issue at hand. I’ve tried to figure this out on my own, but it’s becoming quite frustrating. I expect this to be sorted out quickly. Please let me know what steps I need to take or what information you need from me to proceed. I’m eager to get this resolved so I can stop dealing with this inconvenience. Thanks in advance for your prompt attention to this matter."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "afc530f72f1bb6a6a7f33cad17664465e89c55c635f1b50d77220bfcf8eec151",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Look, I’m not going to repeat myself. I’ve tried everything on my end and nothing is working. This is incredibly frustrating and frankly, unacceptable. I just need some help with something specific, but I can’t seem to get through to anyone who actually knows what they’re doing. I am not interested in generic responses or being told to check my connection. I have a question about my account that needs immediate attention, and I’m tired of wasting my time. Please connect me to someone who can actually resolve this, because the current situation is unacceptable."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "Look, I’m not going to repeat myself. I’ve tried everything on my end and nothing is working. This is incredibly frustrating and frankly, unacceptable. I just need some help with something specific, but I can’t seem to get through to anyone who actually knows what they’re doing. I am not interested in generic responses or being told to check my connection. I have a question about my account that needs immediate attention, and I’m tired of wasting my time. Please connect me to someone who can actually resolve this, because the current situation is unacceptable."
+      }
+    ]
+  },
+  {
+    "id": "e433dd3236c5f2c4c8132bb7f5639adac2fc17877dc67d60ebd2da58923a552a",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "Look, I’m not going to repeat myself. I’ve tried everything on my end and nothing is working. This is incredibly frustrating and frankly, unacceptable. I just need some help with something specific, but I can’t seem to get through to anyone who actually knows what they’re doing. I am not interested in generic responses or being told to check my connection. I have a question about my account that needs immediate attention, and I’m tired of wasting my time. Please connect me to someone who can actually resolve this, because the current situation is unacceptable."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "9c6eb032c4f5fabe441353a307d402350eb2d67286c41cf0430f30d77155590f",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "hey hi it's lucas. i need some help with something regarding my card. i checked my account and i can see that the money has already left. i am not asking for any compensation or money back though. i just have a question about the card situation and i was hoping you could point me in the right direction or help me understand what's going on. let me know what i should do next. thanks"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "hey hi it's lucas. i need some help with something regarding my card. i checked my account and i can see that the money has already left. i am not asking for any compensation or money back though. i just have a question about the card situation and i was hoping you could point me in the right direction or help me understand what's going on. let me know what i should do next. thanks"
+      }
+    ]
+  },
+  {
+    "id": "4377c00fd0d39d071b52d030a7f29f42d389afba48fba19144c857ecffc9eafe",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "hey hi it's lucas. i need some help with something regarding my card. i checked my account and i can see that the money has already left. i am not asking for any compensation or money back though. i just have a question about the card situation and i was hoping you could point me in the right direction or help me understand what's going on. let me know what i should do next. thanks"
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "fe7415df0a34c4b96cb39f06f5f80d9efe99da3c990ad71ef1ae17fbdf5b37b4",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "I am writing to you regarding a fee question. This issue is specifically about my savings account. I noticed that money has already left my account for this charge. I want to be clear: I am not asking for money back as compensation. I just need some help with understanding why this happened in the first place. It is incredibly frustrating to see funds disappear without clear explanation. I did not authorize this deduction, and it is causing me significant stress. Please explain what occurred. I expect a prompt resolution and a clear answer to my inquiry. Do not waste my time with generic responses."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "I am writing to you regarding a fee question. This issue is specifically about my savings account. I noticed that money has already left my account for this charge. I want to be clear: I am not asking for money back as compensation. I just need some help with understanding why this happened in the first place. It is incredibly frustrating to see funds disappear without clear explanation. I did not authorize this deduction, and it is causing me significant stress. Please explain what occurred. I expect a prompt resolution and a clear answer to my inquiry. Do not waste my time with generic responses."
+      }
+    ]
+  },
+  {
+    "id": "4e7d8e6ceb5b4ab108ab2fabb43235248368a5345bd4c5091d58ee8958873645",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "I am writing to you regarding a fee question. This issue is specifically about my savings account. I noticed that money has already left my account for this charge. I want to be clear: I am not asking for money back as compensation. I just need some help with understanding why this happened in the first place. It is incredibly frustrating to see funds disappear without clear explanation. I did not authorize this deduction, and it is causing me significant stress. Please explain what occurred. I expect a prompt resolution and a clear answer to my inquiry. Do not waste my time with generic responses."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  },
+  {
+    "id": "b42f35e648fb4867d304bda910e217cc7d56629634293601338c9d30c5c7a44a",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "I am writing to ask for compensation. Yes, I am requesting money back as compensation for an issue. Additionally, I can confirm that the funds have already left my account."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you repeat the information you already provided?"
+      },
+      {
+        "role": "user",
+        "content": "I am writing to ask for compensation. Yes, I am requesting money back as compensation for an issue. Additionally, I can confirm that the funds have already left my account."
+      }
+    ]
+  },
+  {
+    "id": "8232b276b9c8590e38dc1ed39673b62eafbf719b21fba733629b9afbe16f63bf",
+    "messages": [
+      {
+        "role": "system",
+        "content": "You route a banking customer to one team using these explicit rules in this exact priority order:\n1. If the issue is an unrecognized charge or a lost card AND money has already left the account, choose fraud.\n2. Otherwise, if the issue is an unrecognized charge or a lost card, choose cards.\n3. Otherwise, if the issue is a fee question AND the customer asks for compensation, choose complaints.\n4. Otherwise, if the product is a loan, choose loans.\n5. Otherwise, if the product is a card, choose cards.\n6. Otherwise choose accounts.\nPossible issues: unrecognized charge, lost card, fee question, change request, failed payment. Possible products: card, current account, loan, savings account. The customer's name does not change the routing rules.\nUse only facts in the conversation. An unmentioned fact is unknown, not automatically false. If the facts do not fully determine a team, still choose one plausible team. Do not ask another question or invent facts. Return only a JSON object with the single key \"team\" and a value from cards, fraud, loans, accounts, complaints, for example {\"team\":\"cards\"}."
+      },
+      {
+        "role": "user",
+        "content": "I am writing to ask for compensation. Yes, I am requesting money back as compensation for an issue. Additionally, I can confirm that the funds have already left my account."
+      },
+      {
+        "role": "assistant",
+        "content": "Is there anything else you can tell me?"
+      },
+      {
+        "role": "user",
+        "content": "I don't have any additional information to provide."
+      }
+    ]
+  }
+]

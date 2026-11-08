@@ -1,0 +1,10 @@
+{
+  "files": {
+    "results/e016_e017_stopping_control/manifest.json": "39d0ea92d7068bb8922a5b49da5915ca28b8a0edba0db0cad5c64188a7ef84eb",
+    "results/e016_e017_stopping_control/policies.json": "ebd0b3575a38a2e9998ebea356dc265160a4efee777cb9da22acfeb64f3b31af",
+    "results/e016_e017_stopping_control/details.json": "ea4245049cccf4612e10b821d70b1be706215e2ce9164ae247348461562e97ec",
+    "results/e016_e017_stopping_control/summary.json": "dfcf8389036ae4cea18c59e899fec061988670cff89ecaecdbf29a1cd88e5375",
+    "results/heldout_value_e016/score_manifest.json": "b851349cf82f804b4b3b36fdd2e0e8d3c8b2f9c13457ac8c329500571636b0f5",
+    "results/encoder_value_e017/score_manifest.json": "da68a1700a717bf1a1f10b61a46fe6616fc970c84c536cde0e8843fc857a589e"
+  }
+}

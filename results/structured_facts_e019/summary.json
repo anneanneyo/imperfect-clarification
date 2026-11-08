@@ -1,0 +1,98 @@
+{
+  "E014_dev": {
+    "cases": 24,
+    "invalid_outputs": 0,
+    "all_fields_exact_count": 12,
+    "all_fields_exact_rate": 0.5,
+    "slot_exact_rate": 0.78125,
+    "unsupported_exclusion_slots": 20,
+    "missed_constraint_slots": 1,
+    "route_set_exact_count": 17,
+    "route_set_exact_rate": 0.7083333333333334,
+    "reference_singleton_cases": 12,
+    "singleton_correct": 11,
+    "singleton_wrong": 0,
+    "singleton_ambiguous": 1,
+    "singleton_invalid": 0,
+    "singleton_correct_rate": 0.9166666666666666,
+    "per_field": {
+      "issue": {
+        "exact": 20,
+        "unsupported_exclusion": 3,
+        "missed_constraint": 1,
+        "invalid": 0
+      },
+      "product": {
+        "exact": 18,
+        "unsupported_exclusion": 6,
+        "missed_constraint": 0,
+        "invalid": 0
+      },
+      "money_gone": {
+        "exact": 19,
+        "unsupported_exclusion": 5,
+        "missed_constraint": 0,
+        "invalid": 0
+      },
+      "compensation": {
+        "exact": 18,
+        "unsupported_exclusion": 6,
+        "missed_constraint": 0,
+        "invalid": 0
+      }
+    }
+  },
+  "E016_train": {
+    "cases": 96,
+    "invalid_outputs": 0,
+    "all_fields_exact_count": 36,
+    "all_fields_exact_rate": 0.375,
+    "slot_exact_rate": 0.7005208333333334,
+    "unsupported_exclusion_slots": 108,
+    "missed_constraint_slots": 7,
+    "route_set_exact_count": 51,
+    "route_set_exact_rate": 0.53125,
+    "reference_singleton_cases": 38,
+    "singleton_correct": 34,
+    "singleton_wrong": 0,
+    "singleton_ambiguous": 4,
+    "singleton_invalid": 0,
+    "singleton_correct_rate": 0.8947368421052632,
+    "per_field": {
+      "issue": {
+        "exact": 67,
+        "unsupported_exclusion": 23,
+        "missed_constraint": 6,
+        "invalid": 0
+      },
+      "product": {
+        "exact": 63,
+        "unsupported_exclusion": 33,
+        "missed_constraint": 0,
+        "invalid": 0
+      },
+      "money_gone": {
+        "exact": 70,
+        "unsupported_exclusion": 26,
+        "missed_constraint": 0,
+        "invalid": 0
+      },
+      "compensation": {
+        "exact": 69,
+        "unsupported_exclusion": 26,
+        "missed_constraint": 1,
+        "invalid": 0
+      }
+    }
+  },
+  "candidate_gate_passed": false,
+  "accounting": {
+    "unique_generations": 120,
+    "runtime_errors": 0,
+    "length_finishes": 0,
+    "prompt_tokens": 53185,
+    "generated_tokens": 4983,
+    "peak_memory_gb": 2.89117098,
+    "elapsed_seconds": 425.93869654100854
+  }
+}

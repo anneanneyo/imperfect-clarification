@@ -1,0 +1,54 @@
+{
+  "accuracy": 0.642361111111111,
+  "utility": 0.6017361111111111,
+  "ask_rate": 0.8125,
+  "mae": 0.3684563626752522,
+  "components": 48,
+  "choices": {
+    "product": 34,
+    "no_ask": 9,
+    "issue": 4,
+    "money_gone": 1
+  },
+  "additional_encoder_cost": {
+    "complete": true,
+    "vectors": 144,
+    "error": null,
+    "elapsed_seconds": 55.69423470797483,
+    "peak_memory_gb": 2.629008664,
+    "input_tokens_completed": 11754,
+    "new_decoded_tokens": 0
+  },
+  "paired_comparisons": {
+    "ridge": {
+      "utility_difference": -0.06979166666666667,
+      "percentile95_interval": [
+        -0.16493055555555555,
+        0.014939236111110987
+      ],
+      "improved": 7,
+      "worse": 13,
+      "tied": 28
+    },
+    "train_constant": {
+      "utility_difference": 0.009375000000000003,
+      "percentile95_interval": [
+        -0.07083333333333332,
+        0.09375
+      ],
+      "improved": 9,
+      "worse": 3,
+      "tied": 36
+    },
+    "issue": {
+      "utility_difference": 0.040625,
+      "percentile95_interval": [
+        -0.09097222222222222,
+        0.1729166666666667
+      ],
+      "improved": 17,
+      "worse": 9,
+      "tied": 22
+    }
+  }
+}

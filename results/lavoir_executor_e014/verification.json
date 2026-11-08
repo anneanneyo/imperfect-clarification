@@ -1,0 +1,16 @@
+{
+  "verified": true,
+  "phase": "completed",
+  "generation_started": true,
+  "cases": 24,
+  "profiles": 65,
+  "branches": 390,
+  "unique_prompts": 213,
+  "exact_weights_sum": "1",
+  "source_prompt_joins": 390,
+  "unclear_case_count": 3,
+  "rational_semantic_posterior_values": 1950,
+  "generated": 213,
+  "rational_metric_checks": true,
+  "verifier_sha256": "09dc89defa1a9bb63a78bf88ea7e423b19e4923ed5321e9bfaaca22849f24843"
+}

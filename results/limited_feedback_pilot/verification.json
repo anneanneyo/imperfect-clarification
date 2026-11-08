@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "checks": [
+    "canonical_catalog_hashes_match_E002",
+    "splits_disjoint",
+    "response_probabilities_normalized",
+    "fixed_executor_equals_bayes_in_restricted_channel",
+    "decomposition_matches_exact_enumeration",
+    "denoised_target_unbiased_by_exact_enumeration",
+    "unknown_denoised_gain_zero",
+    "simplex_projection",
+    "learner_observations_exclude_hidden_state_and_counterfactual_rewards"
+  ],
+  "network_calls": 0,
+  "model_calls": 0,
+  "post_run_sampling_audit": [
+    {
+      "target": "no_shift",
+      "seed": 764829,
+      "rows": 500000,
+      "oracle_true_net_gain": 0.15870214148854225,
+      "sampled_ips_net_gain": 0.15750120696707098,
+      "monte_carlo_se": 0.004738294455274461,
+      "used_for_training_or_selection": false
+    },
+    {
+      "target": "selective_shift",
+      "seed": 764830,
+      "rows": 500000,
+      "oracle_true_net_gain": 0.12340722690159828,
+      "sampled_ips_net_gain": 0.12802563031195838,
+      "monte_carlo_se": 0.004665218770109467,
+      "used_for_training_or_selection": false
+    }
+  ]
+}

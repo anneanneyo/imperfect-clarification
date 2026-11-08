@@ -1,0 +1,21 @@
+{
+  "source_label_vs_posterior_change": {
+    "clean": {
+      "unchanged": 235,
+      "changed": 46
+    },
+    "unknown": {
+      "unchanged": 18
+    },
+    "partial": {
+      "unchanged": 9,
+      "changed": 5
+    },
+    "extra": {
+      "changed": 11,
+      "unchanged": 1
+    }
+  },
+  "interpretation": "Posterior change under schema/reveal, not text validation or realized decision gain",
+  "timing": "Computed from source annotations while generation was running, before inspecting model output text; not a preregistered result."
+}

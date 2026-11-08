@@ -1,0 +1,5780 @@
+[
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00047",
+    "text": "I have a change request regarding my loan. No money has left my account, and I am not asking for any compensation.",
+    "source_ids": [
+      "train/banking_support/00047/p0/a",
+      "train/banking_support/00047/p1/a",
+      "train/banking_support/00047/p2/a",
+      "train/banking_support/00047/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "loans"
+    ],
+    "posterior_support": [
+      "loans"
+    ],
+    "old_teams": [
+      "loans",
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "gold": [
+      "loans",
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "prompt_id": "1d27cafd2a8df0a0d7f6442bd68c445ac03cb31770afe8090cd082eca9166967"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00003",
+    "text": "Hi, my name is Nadia. I have a question about a fee. It is related to my loan product. I noticed that money has already left my account for this charge. I am writing to ask about it. Please do not send me any money back as compensation. I just need to understand why the fee was taken. I hope you can help me with this issue. Thank you for your time.",
+    "source_ids": [
+      "train/banking_support/00003/p0/a",
+      "train/banking_support/00003/p1/a",
+      "train/banking_support/00003/p2/a",
+      "train/banking_support/00003/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "loans"
+    ],
+    "posterior_support": [
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "loans",
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "prompt_id": "c741f236f7503024f2035b37966943cb3883d80253a6c16557faf80fcf29fb07"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00298",
+    "text": "I’m done dealing with this back-and-forth nonsense. I need to submit a change request immediately, and I am not interested in any compensation or refunds. Do not ask if I want my money back; I want the change processed. I have tried to resolve this through standard channels, but nothing has worked. I am frustrated with the lack of progress. Please stop wasting my time with irrelevant questions about refunds or money leaving the account. I just need the change to happen. Fix this now.",
+    "source_ids": [
+      "train/banking_support/00298/p0/a",
+      "train/banking_support/00298/p1/a",
+      "train/banking_support/00298/p2/a",
+      "train/banking_support/00298/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "loans",
+      "accounts",
+      "cards"
+    ],
+    "prompt_id": "d275459192bb6a4d31a9c0eda463802a9db011875d90dd727317464b38605044"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00109",
+    "text": "Hi, I’m Mehmet. I need help with something. The money has already left my account.",
+    "source_ids": [
+      "train/banking_support/00109/p0/a",
+      "train/banking_support/00109/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "complaints"
+    ],
+    "prompt_id": "b887620b87d58d32518bde5955724b7a73612a586a1893fc94c2c3ead67d07aa"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00127",
+    "text": "Subject: Inquiry Regarding Account Fee and Refund Request\n\nDear Support Team,\n\nI am writing to formally address a question I have concerning a recent fee applied to my account. I believe this charge may be incorrect and requires your review.\n\nAdditionally, I am requesting that the amount in question be refunded to me as compensation for this error. I would appreciate your prompt attention to this matter to ensure the issue is resolved and the funds are returned to my account without delay.\n\nPlease let me know what further information or documentation you may need from me to facilitate this process. I look forward to your swift response.\n\nSincerely,\n\nA Valued Customer",
+    "source_ids": [
+      "train/banking_support/00127/p0/a",
+      "train/banking_support/00127/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "complaints"
+    ],
+    "posterior_support": [
+      "complaints"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "complaints",
+      "complaints"
+    ],
+    "prompt_id": "4daf7eeec60bd24b12503294770f3c55d5e460c301102ccf5dafe51faa74410c"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00112",
+    "text": "Dear Support Team,\n\nI am writing to seek assistance regarding a recent transaction. I have noticed an unrecognized charge appearing on my account statement. I confirm that the funds associated with this transaction have already left my account.\n\nPlease note that I am not requesting any monetary compensation or reimbursement for this matter. My current need is simply to address the presence of this unrecognized entry.\n\nI appreciate your prompt attention to this inquiry.\n\nSincerely,\n\nSamuel",
+    "source_ids": [
+      "train/banking_support/00112/p0/a",
+      "train/banking_support/00112/p1/a",
+      "train/banking_support/00112/p2/a",
+      "train/banking_support/00112/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "854e3ef6c7f348c520cd6e29c6ed815c9a88ea982067ec390bd9c5ed5b49038a"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00282",
+    "text": "Dear Support Team,\n\nMy name is Mateo. I am writing to inquire about a matter concerning a loan product associated with my account. Please be advised that funds have already left my account in relation to this transaction. I require assistance regarding this specific issue. I look forward to your prompt response and guidance on how to proceed.\n\nSincerely,\n\nMateo",
+    "source_ids": [
+      "train/banking_support/00282/p0/a",
+      "train/banking_support/00282/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "complaints",
+      "loans"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "loans",
+      "complaints"
+    ],
+    "prompt_id": "ca62ca6644115cee64b76faf20bc035209afcf6a54da1355db2ce8f0c22bf485"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00417",
+    "text": "Hi, I’m Leila. I have a question about my current account. There is an unrecognized charge on it, and the money has already left my account. I am not asking for the money back as compensation.",
+    "source_ids": [
+      "train/banking_support/00417/p0/a",
+      "train/banking_support/00417/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "f7ec1a4c556f8f7ac25ccbd36041967460dd8195e735a14d2381d22a33653c18"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "text": "Hello. I have a question about my account. I need some help with something, but I am not sure exactly what is happening. I tried to log in and it did not work properly. I am not native English speaker, so please be patient. Can you tell me how to fix this? I do not want to wait too long. Thank you for your help. I hope you can understand my problem. Please let me know what I should do next. I am ready to provide any information you need.",
+    "source_ids": [
+      "train/banking_support/00131/p0/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts"
+    ],
+    "gold": [
+      "fraud"
+    ],
+    "prompt_id": "d0bc2c38d21c9e0dbe74c14d253241ec0e01ebdcccdbc5df14bfefaacf129ae5"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00299",
+    "text": "hey, i need help. my card is lost. money has already left my account. pls check.",
+    "source_ids": [
+      "train/banking_support/00299/p0/a",
+      "train/banking_support/00299/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "ddaa553a4af0b6669280d8d083ac37aa8d641a297546d12b95d4305a836baa50"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00095",
+    "text": "Hi, my name is Grace. I need some help with something regarding my account.",
+    "source_ids": [
+      "train/banking_support/00095/p0/a",
+      "train/banking_support/00095/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "f9248fad62f9fa288674e09456144f847ca9fd7ebfbd1863f8e4e52e02ee0d72"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00377",
+    "text": "Hi there. I need some help with my current account. I believe it involves a change request, but I’m not entirely sure what details are actually required to process this. I’m a bit confused about the process and what specific information you need from me to move forward. Could you please clarify what I should provide? I just want to make sure I’m giving you the right things so we can get this sorted out. Thanks for your patience with my uncertainty on this.",
+    "source_ids": [
+      "train/banking_support/00377/p0/a",
+      "train/banking_support/00377/p1/a",
+      "train/banking_support/00377/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "cf51da45a411f8aa508c557b22f0017ee32eeaa531ce929dbe82c5d0a9937282"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00070",
+    "text": "Dear Support Team,\n\nI am writing to inquire about a fee that was charged to my account. Specifically, I would like to request that this amount be refunded as compensation. Please note that the funds in question have already been deducted from my account. I would appreciate your assistance in resolving this matter promptly.\n\nThank you for your time and help.\n\nSincerely,\n\nA Customer",
+    "source_ids": [
+      "train/banking_support/00070/p0/a",
+      "train/banking_support/00070/p1/a",
+      "train/banking_support/00070/p2/a",
+      "train/banking_support/00070/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "complaints"
+    ],
+    "posterior_support": [
+      "complaints"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "complaints",
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "prompt_id": "1ff63ca78f024c3e50f20f7668d8ef004b5a6a9146be0c8856794f7aa7e7187c"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00263",
+    "text": "Hello. I have a question about my account. I am asking about a fee. It is related to my loan. I checked my statement and I saw a charge. The money has already left my account. I want to know why this happened. Please help me with this fee question.",
+    "source_ids": [
+      "train/banking_support/00263/p1/a",
+      "train/banking_support/00263/p2/a",
+      "train/banking_support/00263/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "complaints",
+      "loans"
+    ],
+    "posterior_support": [
+      "complaints",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "loans",
+      "loans",
+      "complaints"
+    ],
+    "prompt_id": "bbb03d7d9d92d2b1f1f522b90064261bbb247408e102ac388f8f49cbef484ac5"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00149",
+    "text": "Dear Support Team,\n\nMy name is Ingrid. I am writing to submit a change request regarding my current account. At this time, no money has left my account. However, I would like to inquire about the possibility of receiving money back as compensation for this issue. Please let me know the necessary steps to proceed with this request. I look forward to your prompt response.\n\nSincerely,\n\nIngrid",
+    "source_ids": [
+      "train/banking_support/00149/p0/a",
+      "train/banking_support/00149/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "f675c37aa9ac2b026b536cf79d7d58118bf5028c8df1279882b10c29f139d923"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00199",
+    "text": "hi i need some help with something regarding my account. i have a question about a recent activity but i'm not sure how to describe it properly. can you guide me on what information i need to provide? i just want to get this sorted out as soon as possible. thanks.",
+    "source_ids": [
+      "train/banking_support/00199/p0/a",
+      "train/banking_support/00199/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "cards"
+    ],
+    "prompt_id": "aa74e3fe1addd3da691f664c749ba3ff0d1e38c2da89a6cb0bb24285da67e31e"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00366",
+    "text": "* Lucia here.\n* I need some help with something.\n* I have a question about my account.\n* I am writing to you from the online chat.\n* I am looking for assistance.\n* Please let me know how we can proceed.\n* I am available to provide more details if needed.\n* Thank you for your time.",
+    "source_ids": [
+      "train/banking_support/00366/p0/a",
+      "train/banking_support/00366/p1/a",
+      "train/banking_support/00366/p2/a",
+      "train/banking_support/00366/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "loans",
+      "complaints",
+      "complaints",
+      "cards"
+    ],
+    "prompt_id": "38fb0ac7137f5f942a0e3caca9d54e19bc6bed52e4d6dcd66bb131b731d7e589"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00370",
+    "text": "* I am reaching out to request financial compensation for an issue I experienced.\n* I am asking for money back as compensation.\n* I would appreciate it if this matter could be reviewed and resolved promptly.",
+    "source_ids": [
+      "train/banking_support/00370/p0/a",
+      "train/banking_support/00370/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "complaints",
+      "cards"
+    ],
+    "prompt_id": "350323fe3140311d2f01de3625341aa0db9a97b76612e9439c3a06d4ed6f4bd6"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00273",
+    "text": "hey i need some help with a change request regarding my current account. just to confirm, no money has left my account yet and i am not asking for any money back as compensation. thanks",
+    "source_ids": [
+      "train/banking_support/00273/p0/a",
+      "train/banking_support/00273/p1/a",
+      "train/banking_support/00273/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "53b9cc9aac062d8132131c3b819d653c98aa113cf47625c7dcdd300185348f8c"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00483",
+    "text": "Hi, this is Leila. I’m reaching out because I need some help with my card. To be clear, I am not asking for any money back or compensation for this. Also, please note that no money has actually left my account yet. I just need assistance resolving the issue at hand. I’ve tried to figure this out on my own, but it’s becoming quite frustrating. I expect this to be sorted out quickly. Please let me know what steps I need to take or what information you need from me to proceed. I’m eager to get this resolved so I can stop dealing with this inconvenience. Thanks in advance for your prompt attention to this matter.",
+    "source_ids": [
+      "train/banking_support/00483/p0/a",
+      "train/banking_support/00483/p1/a",
+      "train/banking_support/00483/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "6a22ef0891b21d918c601ddf4e204dc1df46457bed5270cf2531edd15867ed81"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00345",
+    "text": "Look, I’m not going to repeat myself. I’ve tried everything on my end and nothing is working. This is incredibly frustrating and frankly, unacceptable. I just need some help with something specific, but I can’t seem to get through to anyone who actually knows what they’re doing. I am not interested in generic responses or being told to check my connection. I have a question about my account that needs immediate attention, and I’m tired of wasting my time. Please connect me to someone who can actually resolve this, because the current situation is unacceptable.",
+    "source_ids": [
+      "train/banking_support/00345/p0/a",
+      "train/banking_support/00345/p1/a",
+      "train/banking_support/00345/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "complaints",
+      "complaints"
+    ],
+    "prompt_id": "20c0cc7a3ce6e3b3b5288d73d84599f4913693ea04a534541c1029206c9e328a"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00233",
+    "text": "hey hi it's lucas. i need some help with something regarding my card. i checked my account and i can see that the money has already left. i am not asking for any compensation or money back though. i just have a question about the card situation and i was hoping you could point me in the right direction or help me understand what's going on. let me know what i should do next. thanks",
+    "source_ids": [
+      "train/banking_support/00233/p0/a",
+      "train/banking_support/00233/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "4ad223c3daa66a824fc3c65a1d6b811d82135c8a4194d613c2ca1179a0c763f4"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00054",
+    "text": "I am writing to you regarding a fee question. This issue is specifically about my savings account. I noticed that money has already left my account for this charge. I want to be clear: I am not asking for money back as compensation. I just need some help with understanding why this happened in the first place. It is incredibly frustrating to see funds disappear without clear explanation. I did not authorize this deduction, and it is causing me significant stress. Please explain what occurred. I expect a prompt resolution and a clear answer to my inquiry. Do not waste my time with generic responses.",
+    "source_ids": [
+      "train/banking_support/00054/p0/a",
+      "train/banking_support/00054/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "a24af22e75f200bcfbfbcf059840fed57e2b6cc5014996436b3150df419fc173"
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00253",
+    "text": "I am writing to ask for compensation. Yes, I am requesting money back as compensation for an issue. Additionally, I can confirm that the funds have already left my account.",
+    "source_ids": [
+      "train/banking_support/00253/p0/a",
+      "train/banking_support/00253/p1/a",
+      "train/banking_support/00253/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "complaints",
+      "fraud",
+      "complaints"
+    ],
+    "prompt_id": "b2392f3f73f13bdf58559150e6b7917a7817d94f7037edced2b5ca51e2e5b7d7"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00073",
+    "text": "Dear Support Team,\n\nMy name is Maya. I am writing to inquire about assistance regarding my account. I wish to clarify that this communication is not a request for monetary compensation or reimbursement.\n\nI would appreciate your guidance on how to proceed with this matter. Please let me know if you require any further information from my end to assist me.\n\nThank you for your time and attention.\n\nSincerely,\n\nMaya",
+    "source_ids": [
+      "train/banking_support/00073/p0/a",
+      "train/banking_support/00073/p1/a",
+      "train/banking_support/00073/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "fraud",
+      "accounts"
+    ],
+    "prompt_id": "3d7e5b22c5828f0fac2e59ed1c3159b1c90d778e56e908e412e751fae4b66d5d"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00467",
+    "text": "Hi, my name is Sara. I need help with a fee. The money was already taken from my account. I do not think this charge is right. I would like to get my money back as compensation. Please check my account and help me resolve this. I am not sure why the fee was applied, but I want it returned. Thank you for your time.",
+    "source_ids": [
+      "train/banking_support/00467/p0/a",
+      "train/banking_support/00467/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "complaints"
+    ],
+    "posterior_support": [
+      "complaints"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "complaints",
+      "complaints"
+    ],
+    "prompt_id": "202e15a416198b6fcb5eec7cc4a12685661fedb9695b177ed95b12d40c49a4c4"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00363",
+    "text": "Hi, I’m reaching out because I have a question regarding a fee that appeared on my statement. I’ve been a customer for several years and usually monitor my transactions closely, so this one caught me off guard. I checked my account history and can confirm that the money has already left my account. I’m trying to understand what triggered this charge. I don’t want to assume it’s an error, but I need some clarification on why this specific fee was applied. Could you help me look into this? I’d appreciate any details you can provide so I can update my records. Thanks for your help.",
+    "source_ids": [
+      "train/banking_support/00363/p0/a",
+      "train/banking_support/00363/p1/a",
+      "train/banking_support/00363/p2/a",
+      "train/banking_support/00363/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "f894d7f4ef97c42f115178d25f6b3a8aef0cd0c1462af3ffcc0f7ce1bfc76cd3"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "text": "Hello, I’m reaching out because I’m a bit lost and could really use some guidance. I’m not entirely sure what the specific details are that I need to provide, or if there is a particular form I should fill out first. I just have a general question about my account, but I’m unsure if this is the right channel for it. Could you please let me know how I should proceed? I want to make sure I give you the correct information without missing anything important, but I’m not quite sure what that entails. Any help you can offer in clarifying the next steps would be greatly appreciated.",
+    "source_ids": [
+      "train/banking_support/00446/p0/a",
+      "train/banking_support/00446/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "accounts"
+    ],
+    "prompt_id": "1111195f8645b1371ae3af51dfb0d0450794d5c18f2caf72b306c10a89895fb7"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00491",
+    "text": "Hi there, I’m Emre. I need some help with my card. I’ve noticed that money has already left my account in connection with this issue. I’m not sure exactly what happened or why this is occurring, but I wanted to get in touch as soon as possible. It’s been a bit worrying trying to track down what’s going on with my balance, especially since the funds are no longer in my possession. Could you please look into this for me? I’d really appreciate any information you can provide about the status of my card and the transaction. Thanks.",
+    "source_ids": [
+      "train/banking_support/00491/p0/a",
+      "train/banking_support/00491/p1/a",
+      "train/banking_support/00491/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "prompt_id": "fa678d4d976a6b04fc8d8808c377d548afd101367d85f2518e61c8a6aba698a9"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00184",
+    "text": "Hi. I have a question about my card. There is a fee question. The money has already left my account. I am asking for the money back as compensation. Please help.",
+    "source_ids": [
+      "train/banking_support/00184/p0/a",
+      "train/banking_support/00184/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "complaints"
+    ],
+    "posterior_support": [
+      "complaints"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "complaints",
+      "complaints"
+    ],
+    "prompt_id": "534575ff7faf899b7cbc5afe7b8788a1e2fef607a4320821d72156badcca0bee"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00062",
+    "text": "Hi, my name is Chloe. I’m reaching out because I’ve lost my bank card. I’ve checked my bags and the usual spots, but I can’t find it. I’m quite worried since it’s my primary card for daily transactions. I haven’t noticed any unauthorized transactions yet, and no money has left my account as of this moment. I’m not asking for any compensation or reimbursement at this stage. I just need some guidance on how to secure my account and potentially replace the card. Could you please advise on the next steps? I’d like to resolve this quickly to ensure my funds remain safe. Thanks for your help.",
+    "source_ids": [
+      "train/banking_support/00062/p0/a",
+      "train/banking_support/00062/p1/a",
+      "train/banking_support/00062/p2/a",
+      "train/banking_support/00062/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "d5ba206676d2649e3afea1966dc346cb1804f91910cee38080d810560f3557d0"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00474",
+    "text": "Subject: Inquiry Regarding Account Services\n\nDear Support Team,\n\nI am writing to formally request assistance with my account. I have encountered a matter that requires clarification, but I wish to remain general in my initial contact until I can receive guidance on the appropriate channel for my specific situation.\n\nI am uncertain about the next steps and hope you can advise me on how to proceed. I am available to provide any further details once the correct department or procedure is identified.\n\nThank you for your time and attention to this matter. I look forward to your prompt response.\n\nSincerely,\n\nA Concerned Customer",
+    "source_ids": [
+      "train/banking_support/00474/p0/a",
+      "train/banking_support/00474/p1/a",
+      "train/banking_support/00474/p2/a",
+      "train/banking_support/00474/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "loans",
+      "fraud",
+      "loans"
+    ],
+    "prompt_id": "e05a1e3e1ab6ebed52d65ca29308b794ebe2243b8a2d96e92f44e335834fd75a"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00055",
+    "text": "Hi, it's Chloe. I need some help with something regarding my account. I'm not entirely sure what's going on or exactly what the issue is, but I could really use a hand. I have a question about it but don't want to get into too much detail right this second. Just trying to get things sorted out as soon as possible. Please let me know what I should do next or who can assist me. Thanks!",
+    "source_ids": [
+      "train/banking_support/00055/p0/a",
+      "train/banking_support/00055/p1/a",
+      "train/banking_support/00055/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "loans",
+      "cards"
+    ],
+    "prompt_id": "199df405096c54e9d14f790fb87ad4be1348291dfdcdaece5ec4a98d9647007f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00037",
+    "text": "Hello. My name is Tom. I have a question about my current account. I am not asking for money back as compensation. I just need some help with a fee question. Can you please explain this to me? I want to understand what is happening with my account. Thank you for your help.",
+    "source_ids": [
+      "train/banking_support/00037/p0/a",
+      "train/banking_support/00037/p1/a",
+      "train/banking_support/00037/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "6749bfe0e928306f4f3cffad58a2402a048f97fdbfa7c3445f04c3ff3c0a51d9"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00106",
+    "text": "Hi, this is Diego. I have a question regarding my card.",
+    "source_ids": [
+      "train/banking_support/00106/p0/a",
+      "train/banking_support/00106/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "381e75eebf0350584b4617d340519329d894a8025f6e1b5c0d957c66dc36f040"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00164",
+    "text": "hi diego i need some help with a failed payment on my loan account. the money has already left my account but the transaction didn't go through as expected. i am not asking for money back as compensation. just wondering what the next steps are or if i need to do anything else to resolve this. thanks",
+    "source_ids": [
+      "train/banking_support/00164/p0/a",
+      "train/banking_support/00164/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "loans"
+    ],
+    "posterior_support": [
+      "loans"
+    ],
+    "old_teams": [
+      "loans",
+      "loans"
+    ],
+    "gold": [
+      "loans",
+      "loans"
+    ],
+    "prompt_id": "83efc1f228f6caf6912e8c43bd52d6ad9e222e1b78e21c9bf6c7a4f4c26872ec"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00437",
+    "text": "Subject: Inquiry Regarding Account Assistance\n\nDear Customer Support Team,\n\nI hope this message finds you well. I am writing to request assistance with a matter concerning my account. There is something I need help with, but I do not wish to specify the details at this time. I simply require guidance on the next steps to resolve an issue.\n\nPlease advise on how you would like to proceed. I look forward to your prompt response so that we can address this matter efficiently.\n\nThank you for your time and assistance.\n\nSincerely,\n\nA Customer",
+    "source_ids": [
+      "train/banking_support/00437/p0/a",
+      "train/banking_support/00437/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "accounts"
+    ],
+    "prompt_id": "b4842cace3d3c698e5c32d4c7058c16c2270980dee0f9bada7d35abfc82437c1"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00249",
+    "text": "Hello, I’m having trouble with a transaction and I’m not entirely sure what’s going on. It seems like a payment didn’t go through correctly. I haven’t received any money back, so that isn’t the issue here. Also, I noticed that the funds haven’t actually left my account yet, which is a bit confusing for me. I’m not sure if this is normal or if I need to do something specific to fix it. Could you please help me understand what is happening with this failed transaction? I just want to make sure everything is okay. Thanks.",
+    "source_ids": [
+      "train/banking_support/00249/p0/a",
+      "train/banking_support/00249/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "loans"
+    ],
+    "prompt_id": "9f3e61e828eaab51d7c9e372cb50cfddbd1f44609bfaf42c93adf9e7622e3a6a"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00213",
+    "text": "hi omar here, i noticed an unrecognized charge on my card. i just wanted to flag it since the money hasn't actually left my account yet. can someone take a look?",
+    "source_ids": [
+      "train/banking_support/00213/p0/a",
+      "train/banking_support/00213/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "7ae3e0a86a4ccb3603570bd205a3163f12a0ef82c7c182ba4bff4d35a5b63549"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00069",
+    "text": "Hi there. I am not entirely sure how to phrase this, so I hope you can help me sort it out. I have a question about a change request regarding my loan. To clarify, no money has left my account yet, so it is not a transaction issue. Also, I am not asking for any money back or compensation. I just need to make some changes, but I’m confused about the right way to do that. Could you please guide me? I want to make sure I am following the correct steps. Thanks for your patience with my lack of clarity here.",
+    "source_ids": [
+      "train/banking_support/00069/p0/a",
+      "train/banking_support/00069/p1/a",
+      "train/banking_support/00069/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "loans"
+    ],
+    "posterior_support": [
+      "loans"
+    ],
+    "old_teams": [
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "gold": [
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "prompt_id": "ce6f0355036bdab5d2658a09aa8cb0962f514bb6116341144919ae0eefcb7660"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00248",
+    "text": "Hello, my name is Elena. I need some help with something regarding my current account.",
+    "source_ids": [
+      "train/banking_support/00248/p0/a",
+      "train/banking_support/00248/p1/a",
+      "train/banking_support/00248/p2/a",
+      "train/banking_support/00248/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "complaints",
+      "accounts"
+    ],
+    "prompt_id": "1593a14358e0940cfa6da6fc9d8f6af65abb01fbc2cb27fd4b10bb45f5b97fc7"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00334",
+    "text": "Hello. I need some help. I want to ask if I can get money back as compensation. I am not sure about the details yet. Please let me know if this is possible. Thank you for your help.",
+    "source_ids": [
+      "train/banking_support/00334/p0/a",
+      "train/banking_support/00334/p1/a",
+      "train/banking_support/00334/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "fraud",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "9404d2c529d6808f28147fba0c9a32949230690f498e7aeb39c9f614a5a25588"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00232",
+    "text": "Hi. I have a question about my account. I need some help with something. Please check if money has left my account. It has not. Also, I am not asking for money back as compensation. I just want to fix this. Please help me soon. Thank you.",
+    "source_ids": [
+      "train/banking_support/00232/p0/a",
+      "train/banking_support/00232/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "cards"
+    ],
+    "prompt_id": "fb4f8f8587aef70a1d06be1d2279f3eab32e201c7fcdaf6048753e4f8dc275e6"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00063",
+    "text": "*   I have a question about my loan.\n*   No money has left my account yet.\n*   I am not asking for any money back as compensation.",
+    "source_ids": [
+      "train/banking_support/00063/p0/a",
+      "train/banking_support/00063/p1/a",
+      "train/banking_support/00063/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "loans"
+    ],
+    "old_teams": [
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "gold": [
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "prompt_id": "70cdb0907dc085530085846bb738285bb67c6c1b4d0851bebdda2636f1389d4f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00418",
+    "text": "Hi there. I’m a bit confused about a failed payment involving my card. To be clear, the money hasn’t left my account yet, and I’m not looking for any compensation or refund at this stage. I just want to understand what happened with the transaction. I’m not sure which details you need to investigate this properly, so I’ll share whatever is required. Could you please advise on the next steps or what information you need from me? Thanks.",
+    "source_ids": [
+      "train/banking_support/00418/p0/a",
+      "train/banking_support/00418/p1/a",
+      "train/banking_support/00418/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "1ea63af864a86967899bc29b7db773d2bdc7ef278d2209e6675109576d750f9e"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00384",
+    "text": "Hi, my name is Sara. I’m writing because I have a question about a fee that appeared on my current account. I can see that the money has already left my account, so this isn't a pending transaction anymore. I’m not sure why this happened or what I need to do next. I’m a bit confused about the situation and just want to understand what is going on with this charge. I am not asking for any money back or compensation; I just need some clarity on why this fee was applied in the first place. Could you help me figure this out?",
+    "source_ids": [
+      "train/banking_support/00384/p0/a",
+      "train/banking_support/00384/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "106c7d3c706f1204ba256e3405f9ab78332f1c97288018139b72c68cc89aa366"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00278",
+    "text": "Hi there. My name is Lucia. I’m reaching out because I need to submit a change request regarding my account settings. I want to make sure this gets processed correctly and promptly. I am not looking for any financial compensation or refunds for this issue; I simply need the administrative update applied to my profile. Please let me know the next steps to finalize this change. I’d appreciate your assistance in getting this resolved quickly. Thank you for your time and help with this matter.",
+    "source_ids": [
+      "train/banking_support/00278/p0/a",
+      "train/banking_support/00278/p1/a",
+      "train/banking_support/00278/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "loans",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "11306b8b9f950d07061f04b6db1456f9682da4bf584d278eca82662155b81693"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00026",
+    "text": "Hi, I’m Grace. I need some help with something regarding my card. It seems lost. I noticed that money has already left my account. I’m not entirely sure if that’s related or if I’m just confusing things, but I thought I should mention it. I am not asking for any money back as compensation, so please don’t worry about that part. I’m just a bit confused about what information is actually important for you to know right now. Could you let me know what I should do next? Thanks.",
+    "source_ids": [
+      "train/banking_support/00026/p0/a",
+      "train/banking_support/00026/p1/a",
+      "train/banking_support/00026/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "1d782034e30e585d4a6669372974088b8de30b99dbb92712ff09317d97859bee"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00115",
+    "text": "* My bank card is lost.\n* I am asking for money back as compensation.",
+    "source_ids": [
+      "train/banking_support/00115/p0/a",
+      "train/banking_support/00115/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "cards",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "fraud"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "cards",
+      "fraud"
+    ],
+    "prompt_id": "4c95d7d8571c82f1dcf808a9ba2498da3d992159a9d30772a18354b9fda4264f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00367",
+    "text": "Hi there. My morning was pretty chaotic; I spilled coffee on my shirt just before leaving the house, so I’m running late. Anyway, I need some help with an unrecognized charge on my card. The money has already left my account. I’m not asking for any money back or compensation for this. I just want to understand what happened. Please let me know how we can resolve this.",
+    "source_ids": [
+      "train/banking_support/00367/p0/a",
+      "train/banking_support/00367/p1/a",
+      "train/banking_support/00367/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "dc46a1801257147299f50dc634373e9d0de68e37246fbb913ba02522dc9cde94"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00423",
+    "text": "Hi there,\n\nMy name is Sara. I am reaching out because I need some assistance with a matter concerning my account. I would appreciate it if you could help me resolve this issue. Please let me know the next steps or if you require any further information from my side to proceed.",
+    "source_ids": [
+      "train/banking_support/00423/p0/a",
+      "train/banking_support/00423/p1/a",
+      "train/banking_support/00423/p2/a",
+      "train/banking_support/00423/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "loans",
+      "fraud",
+      "cards"
+    ],
+    "prompt_id": "1a3c3049cb6457e13a187740ad8b9f5de5bc034658a2d393bfe28c1f97f07f19"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00454",
+    "text": "Hi, I’m Sofia. I need some help with something regarding my account.",
+    "source_ids": [
+      "train/banking_support/00454/p0/a",
+      "train/banking_support/00454/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "loans",
+      "accounts"
+    ],
+    "prompt_id": "23a04cde328c0da9cde6320d585536faea19b7b9e9bd9039e2c3629035dc9f85"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00238",
+    "text": "hey, i need some help with something. i'm having an issue regarding my card. i'm not entirely sure what's going on, but it's related to the card specifically. i was hoping you could look into it for me and let me know what's up. i'm just trying to get this sorted out. please let me know when you're available to chat. i'll wait here. thanks.",
+    "source_ids": [
+      "train/banking_support/00238/p0/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "cards"
+    ],
+    "gold": [
+      "cards"
+    ],
+    "prompt_id": "b2421ea0c0c82cadc4b85e1f5d2fd5f371c5d4071cd71ecac3f9d6163d9155ef"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00210",
+    "text": "Hello. I have a question about my card. I noticed a fee on my account. The money has already left my account. I am not asking for money back as compensation. I just want to know why this happened. I do not understand the charge. Can you help me with this fee question? It is about my card. Please tell me more. Thank you.",
+    "source_ids": [
+      "train/banking_support/00210/p0/a",
+      "train/banking_support/00210/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "cbf09aa50369aae901c5acc7136992eab0ce2e2f607d0a76b1454245648e7105"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00340",
+    "text": "Hi there. I’m currently sitting in a coffee shop waiting for a latte, but I noticed something odd on my account earlier. I see a charge that doesn’t look right to me, and I have a question about the fees associated with it. I checked my statement and confirmed that the money has already left my account. I am not asking for any money back or compensation for the inconvenience; I just want to understand why the fee was applied in the first place. Could you help clarify this for me?",
+    "source_ids": [
+      "train/banking_support/00340/p0/a",
+      "train/banking_support/00340/p1/a",
+      "train/banking_support/00340/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "loans",
+      "loans",
+      "accounts"
+    ],
+    "prompt_id": "71d449f7b27e2b890d5d2c8c84ea5ea487d747d18e603c0a2f28ff73de465d49"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00433",
+    "text": "hi there, this is omar. i have a question about a fee that was charged to me. yes, the money has already left my account. i am not asking for any money back as compensation though, just wanted to clear it up. thanks",
+    "source_ids": [
+      "train/banking_support/00433/p0/a",
+      "train/banking_support/00433/p1/a",
+      "train/banking_support/00433/p2/a",
+      "train/banking_support/00433/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "accounts",
+      "loans",
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "4d60e2b14e3f2ebca464d3bd78f8614dc322b8f17e50bdab77f00ce555a2be5f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00034",
+    "text": "Dear Support Team,\n\nI am writing to seek assistance regarding my account. Specifically, I have encountered an unrecognized charge. I have verified the status of this transaction and can confirm that no money has left my account as a result. My name is Olivia.\n\nI would appreciate your guidance on how to proceed with this matter. Please let me know if you require any further details from my side to facilitate your review.\n\nThank you for your time and assistance.\n\nSincerely,\n\nOlivia",
+    "source_ids": [
+      "train/banking_support/00034/p0/a",
+      "train/banking_support/00034/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "ca01011773a2369ed2dc8c887747197f30523ebee51a806d22e694f3afc5bdbe"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00030",
+    "text": "Hi there, I need some urgent help with my card. I realized my card is lost, and I’m quite worried because it looks like money has already left my account. I haven’t spent anything recently, so this transaction is very confusing and concerning to me. I’m reaching out via chat because I wasn’t sure if calling would be faster. I just want to understand what is happening and how I can secure my account moving forward. Please let me know the next steps. I’m eager to resolve this quickly, though I am not expecting any compensation for the issue. Thank you for your assistance.",
+    "source_ids": [
+      "train/banking_support/00030/p0/a",
+      "train/banking_support/00030/p1/a",
+      "train/banking_support/00030/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "2e6fe56ae0f6bfbb4db522bb7a51f5098dc531da6908c0b040360db7af92ebab"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00431",
+    "text": "Hi, I’m Tom. I have a question about my account that I need some help with. I was just sitting here drinking my morning coffee, which is suddenly way too hot to drink right now, when this popped up. I’m not sure exactly what’s going on, so I thought I’d just reach out and see if someone could look into it for me. I’m ready to provide whatever details you might need to sort this out.",
+    "source_ids": [
+      "train/banking_support/00431/p0/a",
+      "train/banking_support/00431/p1/a",
+      "train/banking_support/00431/p2/a",
+      "train/banking_support/00431/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "loans",
+      "fraud",
+      "cards",
+      "fraud"
+    ],
+    "prompt_id": "a163268f8c6a2ebf37a75df6191512a017e4a433b6b1069a3733c188ef6f386a"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00354",
+    "text": "* I am writing to seek assistance regarding my recent transactions.\n* I want to clarify that I am not requesting any monetary compensation or reimbursement for these issues.\n* The matter concerns specific discrepancies in my account activity that require review.\n* I have listed the events below for your reference.\n* These items need to be addressed to ensure my records are accurate.\n* Please advise on the next steps for resolution.",
+    "source_ids": [
+      "train/banking_support/00354/p0/a",
+      "train/banking_support/00354/p1/a",
+      "train/banking_support/00354/p2/a",
+      "train/banking_support/00354/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "fraud",
+      "fraud",
+      "accounts"
+    ],
+    "prompt_id": "36d866d677cf2ad2859ae1e654de67d108717196dc5e5317f38869ce9e687f3d"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00110",
+    "text": "Hi there, my name is Hannah. I noticed that the money has already left my account. I am writing because I have a question regarding my card. It seems there is an issue with it. On a separate note, I just had a really strong coffee that is keeping me wide awake, which is quite surprising since I usually struggle to stay alert in the morning. Anyway, back to the banking matter, could you please look into the card transaction for me? I would appreciate some assistance with this. Thank you.",
+    "source_ids": [
+      "train/banking_support/00110/p0/a",
+      "train/banking_support/00110/p1/a",
+      "train/banking_support/00110/p2/a",
+      "train/banking_support/00110/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "complaints"
+    ],
+    "prompt_id": "244332330dfb5cb55cbec95b22493bdfb5feeac2a11169f7d8bb628cea80e4aa"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00195",
+    "text": "Hi, I’m Grace. I lost my card. No money has left my account, and I am not asking for any compensation. I just need some help with the card. It is a bit chaotic today; my neighbor’s dog barked at me for an hour while I was trying to make coffee. Anyway, regarding the lost card, what are the next steps?",
+    "source_ids": [
+      "train/banking_support/00195/p0/a",
+      "train/banking_support/00195/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "9732b895215313e3b5b93bf42c884601ac5acb00fed283e8de028badc88f62c8"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00470",
+    "text": "Hi, this is Amara. I’m reaching out because I’m a bit confused about the status of my current account. I know that the money has already left my account, but I’m not entirely clear on what that means for my balance or next steps. I am not asking for any money back as compensation; I just want to understand the situation better. I’m sure there is something I’m missing, but I’m not sure which specific details or transaction IDs are important for you to look into. Could you please help me figure out what I should do next? Thanks for your help.",
+    "source_ids": [
+      "train/banking_support/00470/p0/a",
+      "train/banking_support/00470/p1/a",
+      "train/banking_support/00470/p2/a",
+      "train/banking_support/00470/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "fraud"
+    ],
+    "posterior_support": [
+      "accounts",
+      "fraud"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "6cd1e28f11065f76a5e4c3f84a768222ce5a5ca72858c73c5b2449f4d531224b"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00016",
+    "text": "Hi, I’m Sofia. I could really use some assistance with something regarding my account. I’m a bit unsure about what details you actually need from me to get this sorted out. I’ve tried to figure it out on my own, but I’m not entirely sure what information is relevant for this specific issue. Could you please let me know what you need? I want to provide whatever is necessary to resolve this, but I don’t know where to start or what specifics are important for your team to see. Thanks for your patience.",
+    "source_ids": [
+      "train/banking_support/00016/p0/a",
+      "train/banking_support/00016/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "loans",
+      "cards"
+    ],
+    "prompt_id": "11f86602cb210acf5f4bcac51ca27dce5a1ab923775eee6e9ce48a84980f0f02"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00293",
+    "text": "Dear Support Team,\n\nI am writing to request assistance regarding my account. I have noticed an unrecognized charge on my statement. I can confirm that the funds in question have already left my account. Please note that I am not requesting a refund or any monetary compensation for this issue. I simply wish to report the transaction for your review.\n\nThank you for your time and attention to this matter.\n\nSincerely,\n\nA Valued Customer",
+    "source_ids": [
+      "train/banking_support/00293/p0/a",
+      "train/banking_support/00293/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "82e11843503a8da78262ac1015c7b80f5c37b6a0178f896e3e7a45d06ca6098f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00389",
+    "text": "Dear Support Team,\n\nI am writing to request assistance regarding my card. I have a specific inquiry that requires your attention to be resolved properly. Please review my account details associated with this matter and provide the necessary guidance or documentation.\n\nI look forward to your prompt response to this issue. Thank you for your time and professional service in handling this request.\n\nSincerely,\n\nA Customer",
+    "source_ids": [
+      "train/banking_support/00389/p0/a",
+      "train/banking_support/00389/p1/a",
+      "train/banking_support/00389/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "fraud"
+    ],
+    "prompt_id": "97a553009727d781f27f1211e149a74c3f5e9afe5d43055815093dcb23217b8d"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00175",
+    "text": "Subject: Assistance Required\n\nDear Support Team,\n\nI am writing to request assistance with a matter concerning my account. My name is Kenji, and I have a question regarding my banking details.\n\nCould you please advise me on the next steps? I would appreciate your prompt attention to this inquiry. Please let me know if you require any additional information from my side to proceed.\n\nThank you for your help.\n\nSincerely,\n\nKenji",
+    "source_ids": [
+      "train/banking_support/00175/p0/a",
+      "train/banking_support/00175/p1/a",
+      "train/banking_support/00175/p2/a",
+      "train/banking_support/00175/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "accounts",
+      "cards",
+      "accounts"
+    ],
+    "prompt_id": "f7dc3c243bdee2976cb2dd9bbe24ce729edb0c5d91dd2d53815137d7f5951e54"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "text": "Hi, I’m Kwame. I need some help with something regarding my account. It’s a bit urgent, to be honest. I’ve been staring at this screen for a while now trying to figure out the right place to ask, and honestly, it’s making my head spin a little. I just got back from my morning run and I’m still catching my breath, but I really need to get this sorted out before I can relax. Can you point me in the right direction? I have a question about my account details, but I’m not sure exactly where to start. Thanks for your patience.",
+    "source_ids": [
+      "train/banking_support/00222/p0/a",
+      "train/banking_support/00222/p1/a",
+      "train/banking_support/00222/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "fraud"
+    ],
+    "prompt_id": "9d9ea2ddf6b96692cf4952f41d23167f1ccef6cdb3f6004e67ba66d0121784d1"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00124",
+    "text": "Hi, I’m Liam. I need some help with something regarding my account. Please let me know when you are available to assist me.",
+    "source_ids": [
+      "train/banking_support/00124/p0/a",
+      "train/banking_support/00124/p1/a",
+      "train/banking_support/00124/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "accounts",
+      "loans"
+    ],
+    "prompt_id": "822c5c28e4f62a0f255e26373d41c6ad5fef3d918c986d8e02ac156246d6fd96"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00455",
+    "text": "Hi there, I’m reaching out because I can’t find my card anywhere. I’ve looked everywhere, and it just seems to have vanished. On top of that, I noticed a transaction that I didn’t authorize, so it appears money has already left my account. I’m a bit confused about the whole situation and aren’t sure if I need to do anything specific right now or if the bank will handle it. Is there a form I need to fill out? Or do I just wait? I’m not entirely sure what steps are required in this case, so any guidance on what information matters would be really helpful. Thanks.",
+    "source_ids": [
+      "train/banking_support/00455/p0/a",
+      "train/banking_support/00455/p1/a",
+      "train/banking_support/00455/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "99fc1e4ba8de39761d4168b3803433656ed9453d616af963c9e1f72366196f73"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00317",
+    "text": "This is absolutely unacceptable. I have been trying to resolve this issue for days, and nobody seems to know what they are doing. I am extremely frustrated with the lack of support and the time I’ve wasted. I need this fixed immediately. Please stop giving me generic answers and actually help me with whatever this is. I don’t care about the internal process; I just want a resolution. Do not tell me to check my app again or wait on hold. I am at my limit here. Someone needs to take responsibility for this mess right now. I expect a concrete solution, not more excuses. Fix this today.",
+    "source_ids": [
+      "train/banking_support/00317/p0/a",
+      "train/banking_support/00317/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "cards",
+      "complaints"
+    ],
+    "prompt_id": "aeb282af0f8e4a687c5a4a606522f947884fec7c983bc24a554db664ddf9d8ff"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00390",
+    "text": "I had a failed payment regarding my loan, and the money has already left my account. I am not asking for the funds to be returned as compensation.",
+    "source_ids": [
+      "train/banking_support/00390/p0/a",
+      "train/banking_support/00390/p1/a",
+      "train/banking_support/00390/p2/a",
+      "train/banking_support/00390/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "loans"
+    ],
+    "posterior_support": [
+      "loans"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "loans",
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "prompt_id": "c04d2b2eb25ddee90ce26fa499f9d6f7d142e8e1d0b956fe973e348fa0e13044"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00181",
+    "text": "*   My name is Ines.\n*   I am writing to report an issue with a recent transaction.\n*   The funds have not yet left my account.\n*   I need assistance resolving this matter.",
+    "source_ids": [
+      "train/banking_support/00181/p0/a",
+      "train/banking_support/00181/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "loans"
+    ],
+    "prompt_id": "5a0c64630ab0b9ebed0ae9dfd58bdaca87f96d300ba6ef4556c86777eb030a0a"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00490",
+    "text": "Hi there, I’m Nadia. I need some help with my current account. I’ve been a loyal customer for quite a few years now, and this is the first time I’ve reached out for support on this specific product. I have a question that I’ve been turning over in my mind for a while, and I think it’s time I asked for clarity. I want to make sure I understand how everything works with my current account setup before I proceed further. Could you please guide me on the next steps? I’m happy to provide any necessary details you might need to locate my profile. I look forward to your assistance.",
+    "source_ids": [
+      "train/banking_support/00490/p0/a",
+      "train/banking_support/00490/p1/a",
+      "train/banking_support/00490/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "complaints",
+      "accounts",
+      "fraud"
+    ],
+    "prompt_id": "da2702802dd19512ad5c8a1766460b9c0c5b57cb8bb59eb6d4bdd1addfffb18c"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00214",
+    "text": "Hi there, Samuel here. I’m writing from my desk where it’s currently pouring rain outside, which is making me regret leaving the house earlier. I need some help with something regarding my savings product. To clarify, no money has left my account yet. I have a question about my account and would appreciate your assistance. Please let me know how we can proceed. Thanks!",
+    "source_ids": [
+      "train/banking_support/00214/p0/a",
+      "train/banking_support/00214/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "01aa4bcb131019608001334edd88fbcd2884a0297b4af1d3c19afd6d9b19420f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00155",
+    "text": "I’m extremely frustrated. Why was a fee charged on my card? That money has already left my account, and it’s not even my first time dealing with this. I didn’t agree to these charges. I am not asking for any compensation or refund right now; I just want a clear explanation of why this happened and why I was billed. This is unacceptable. I need this resolved immediately before I have to escalate it further. Stop wasting my time.",
+    "source_ids": [
+      "train/banking_support/00155/p0/a",
+      "train/banking_support/00155/p1/a",
+      "train/banking_support/00155/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "4c4880d2885423dd138648ef65e9bf7013b4893718cfbd9441eaf99caba289c6"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00426",
+    "text": "I am writing to clarify if I am eligible for a refund in this situation. Please confirm whether my inquiry is classified as a request for monetary compensation. I am not seeking financial restitution at this time.",
+    "source_ids": [
+      "train/banking_support/00426/p0/a",
+      "train/banking_support/00426/p1/a",
+      "train/banking_support/00426/p2/a",
+      "train/banking_support/00426/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "prompt_id": "8f7f7f799a52e910a807e2bbe9f8fa6d1efde25b85d9bfa78f8c0f7a9e31cf6e"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00406",
+    "text": "Hi, my name is Ines. I need help with my current account. I had a failed payment, and the money has already left my account. I’m just typing this while waiting for my coffee to cool down because it’s boiling. I don’t want to burn my tongue while I wait. Please let me know what happens next. Thanks.",
+    "source_ids": [
+      "train/banking_support/00406/p0/a",
+      "train/banking_support/00406/p1/a",
+      "train/banking_support/00406/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "c3b2f73bb1a1543c78665fee1d3f06c091eea9d8604680c624082891d89ef13c"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00087",
+    "text": "Hi there, I’m Olivia. I’m writing because I noticed a charge on my account that I don’t recognize. The money has already left my account, but I’m honestly not sure if that matters or not. I’m a bit confused about which details I should be focusing on to resolve this. I just need some help with something, but I’m not certain what specific information you need from me to look into this. Is there a particular form or detail I should provide? I’m not entirely sure what’s relevant here, so I’d appreciate any guidance on how to proceed with this unrecognized transaction.",
+    "source_ids": [
+      "train/banking_support/00087/p0/a",
+      "train/banking_support/00087/p1/a",
+      "train/banking_support/00087/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "1f62122fa2487f20ef9885733625fdb63aa46fc237330f8aeec06221f2a44039"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00176",
+    "text": "Hi there. I need some help with something regarding my card. I recently had a failed payment, and I’m a bit confused about the situation. I was wondering if I can get some money back as compensation for this issue? I’m not entirely sure what information or details are relevant here, so please let me know what you need from me to sort this out. I just want to understand why this happened and how we can resolve it. Thank you for your assistance.",
+    "source_ids": [
+      "train/banking_support/00176/p0/a",
+      "train/banking_support/00176/p1/a",
+      "train/banking_support/00176/p2/a",
+      "train/banking_support/00176/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "bf88c747144c79c7595ad237ded557d22189a92f12dcda8f07f461509a12dc91"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00403",
+    "text": "hi i have a question about my account i was wondering if i am asking for money back as compensation",
+    "source_ids": [
+      "train/banking_support/00403/p0/a",
+      "train/banking_support/00403/p1/a",
+      "train/banking_support/00403/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "cards",
+      "complaints",
+      "complaints"
+    ],
+    "prompt_id": "b0cfaee69cab28c1b1561d82f52b7be25e900108ee879f611c6bb0d68cf7fd4a"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00378",
+    "text": "hi, i need help with something regarding my account. i’m not sure what’s going on, but something seems off. can someone look into it for me? thanks",
+    "source_ids": [
+      "train/banking_support/00378/p0/a",
+      "train/banking_support/00378/p1/a",
+      "train/banking_support/00378/p2/a",
+      "train/banking_support/00378/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "accounts",
+      "accounts",
+      "fraud"
+    ],
+    "prompt_id": "e54f10df02f40d3f38db9d43848124683168dace96760482caeb607782ba6904"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00375",
+    "text": "Dear Customer Support,\n\nMy name is Ingrid. I am writing to request assistance regarding my bank card. I have lost my card and need guidance on the next steps to take. I am not asking for any monetary compensation or refund at this time; I simply require help securing the account and addressing the loss of the physical card.\n\nPlease advise me on how to proceed with reporting this incident and securing my card details. I look forward to your prompt response and instructions on how to resolve this matter effectively.\n\nSincerely,\n\nIngrid",
+    "source_ids": [
+      "train/banking_support/00375/p0/a",
+      "train/banking_support/00375/p1/a",
+      "train/banking_support/00375/p2/a",
+      "train/banking_support/00375/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "fraud"
+    ],
+    "old_teams": [
+      "cards",
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "ed68e31c51b1e6bf2041bc61d32ebb3f906eaf498e49a5ad64e464f10d453f45"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00050",
+    "text": "Hi, I’m Pavel. I need some help with something.",
+    "source_ids": [
+      "train/banking_support/00050/p0/a",
+      "train/banking_support/00050/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "cards"
+    ],
+    "prompt_id": "8dac9a6afa7810891acf6a84f9b8f22405931eb447c726a000f4f3eca60b5a8b"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00042",
+    "text": "I need some help with my card.",
+    "source_ids": [
+      "train/banking_support/00042/p0/a",
+      "train/banking_support/00042/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "98f567e8176ed84c72123515bc65712e2dd07f8714817bc16ee3174101be2168"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00234",
+    "text": "I need help with a lost card.",
+    "source_ids": [
+      "train/banking_support/00234/p0/a",
+      "train/banking_support/00234/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "fraud"
+    ],
+    "old_teams": [
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "4191448a625fe94d9353f3afda47d38bc259ccfdb8062de4aefb2dfb184c9491"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00143",
+    "text": "Dear Support Team,\n\nI am writing to request assistance regarding my current account. I have noticed an unrecognized charge on my statement and would appreciate your help in investigating this matter. Please note that I am not seeking any monetary compensation or reimbursement for this issue; my sole intention is to have the transaction clarified and resolved within my account records.\n\nThank you for your attention to this inquiry. I look forward to your prompt response.\n\nSincerely,\n\nDiego",
+    "source_ids": [
+      "train/banking_support/00143/p0/a",
+      "train/banking_support/00143/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "fraud"
+    ],
+    "old_teams": [
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "fraud"
+    ],
+    "prompt_id": "85cb384af4899bb82f714f6857e164a276e16d7b725fb7da385dfb201bdc8509"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "text": "hey, i need some help with something. my account is acting up and i cant figure it out. is there anyone there who can look into this for me? it’s pretty urgent. i’ve tried logging in but it keeps saying error. i just want to get this sorted out asap. thanks.",
+    "source_ids": [
+      "train/banking_support/00116/p1/a",
+      "train/banking_support/00116/p2/a",
+      "train/banking_support/00116/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "complaints",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "7289c6175f720e666755a88b50653d13ce592e91e3173ac08e99877128735d1a"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00258",
+    "text": "I am extremely frustrated. I just noticed an unrecognized charge on my card that I definitely did not make. The money has already left my account, and I am not happy about this. I need a refund immediately. This is unacceptable. Please process the money back to my account right now. I expect this to be resolved quickly. Do not tell me to wait; I want my money back. This is a serious error on your part. I am angry that this happened. Fix it. Refund the charge. Now.",
+    "source_ids": [
+      "train/banking_support/00258/p0/a",
+      "train/banking_support/00258/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "3dacad4456f154322e51df0ae8e2f4518adadb8e37995d95200d4d92ffbd202b"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00348",
+    "text": "Hi, my name is Liam. I have a problem with my current account. I tried to make a payment, but it failed. The money has already left my account. I am not asking for any money back as compensation. I just need some help with this issue. Please let me know what to do next. I want to fix this payment problem. Thank you.",
+    "source_ids": [
+      "train/banking_support/00348/p0/a",
+      "train/banking_support/00348/p1/a",
+      "train/banking_support/00348/p2/a",
+      "train/banking_support/00348/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "9553f9c3fb8d52deb081d5ca018c809e011ff6a04f5715d8567ca989e7e1b440"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00447",
+    "text": "Hi there. I’m Lucas. I need some help with something regarding my account. It seems like my card has been lost, but I am a bit confused about the situation. I noticed that money has already left my account, which is worrying me. I’m not entirely sure which details are important for you to resolve this, so I’m just sharing what I know. Could you please advise me on what to do next? I want to make sure everything is handled correctly, but I’m not sure what specific information you need from me right now. Thank you for your assistance.",
+    "source_ids": [
+      "train/banking_support/00447/p0/a",
+      "train/banking_support/00447/p1/a",
+      "train/banking_support/00447/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "19a488a3dac4c358965f4dd546dcc350f66daf29f402c4c8e3be461b011b5882"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00079",
+    "text": "Mia here. I am writing to report an unrecognized charge on my current account. It is incredibly frustrating to see a transaction appear that I do not recognize. I need this resolved immediately. Please note that I am not asking for any money back as compensation; I simply want the issue clarified and corrected. This situation is unacceptable and I expect a prompt response regarding the status of this charge.",
+    "source_ids": [
+      "train/banking_support/00079/p0/a",
+      "train/banking_support/00079/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "fraud"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "fraud"
+    ],
+    "prompt_id": "db5c46c02b6ae454805b63105d1efb0e2cc962c6fb9f7e49e5c5c06d7fe8e7bc"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00158",
+    "text": "Hello, I’m Priya. I’m writing because I noticed an unrecognized charge on my card statement and I’m a bit confused about what’s happening. I don’t quite know which details are actually important for you to investigate this, so I’m not sure if I need to provide transaction IDs, dates, or just a description. I can tell you that the money hasn’t actually left my account yet, as the balance remains unchanged, but the pending entry is still worrying me. Could you help me figure out what this is? I’m not sure how to proceed or what specific information will resolve this for you. Thank you for your assistance.",
+    "source_ids": [
+      "train/banking_support/00158/p0/a",
+      "train/banking_support/00158/p1/a",
+      "train/banking_support/00158/p2/a",
+      "train/banking_support/00158/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "29cd3454b365950f5f4ef60b27cefc870196a3767e5de35f40c7b056c9d0fd92"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00235",
+    "text": "Subject: Assistance Required\n\nDear Support Team,\n\nI am writing to request assistance regarding my account. I have encountered an issue that requires your immediate attention and clarification. I would appreciate it if you could look into this matter and provide guidance on how to proceed.\n\nPlease let me know if you require any further information from my side to investigate the situation. I look forward to your prompt response and resolution of this matter.\n\nThank you for your help.\n\nSincerely,\n\nA Customer",
+    "source_ids": [
+      "train/banking_support/00235/p0/a",
+      "train/banking_support/00235/p2/a",
+      "train/banking_support/00235/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "cards",
+      "accounts"
+    ],
+    "prompt_id": "f3d37afd902215348779b7d63d53901ff266f6907e71ce844ff6b7abfe4b6e86"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00379",
+    "text": "Hi, I’m Tom. I was just walking past a bakery and saw the freshest croissants, which reminded me I need to grab lunch later. Anyway, I have a question about my card. I’m not asking for money back as compensation, and I know no money has left my account yet. I just need some help with something regarding the card. Could you point me in the right direction?",
+    "source_ids": [
+      "train/banking_support/00379/p0/a",
+      "train/banking_support/00379/p1/a",
+      "train/banking_support/00379/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "12bcaf97234a343d3b90b2ea260fd9528977cb2fe17011d7a71eb47ded4b97e3"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00144",
+    "text": "Dear Support Team,\n\nMy name is Jonas. I am writing to request assistance regarding a recent transaction. I confirm that the funds in question have already left my account. Consequently, I would like to ask for money back as compensation for this incident.\n\nPlease let me know the next steps to process this request. I look forward to your prompt response.\n\nSincerely,\n\nJonas",
+    "source_ids": [
+      "train/banking_support/00144/p0/a",
+      "train/banking_support/00144/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "complaints",
+      "complaints"
+    ],
+    "prompt_id": "f78be9bd5de8c8d5421e90a6ba5a2cb27603a8339cff0f73ded9e65e989644ff"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "text": "Hello. I am reaching out because I am extremely frustrated with the service I have received. I need immediate assistance with my account, but I am not asking for any money back as compensation. Please stop assuming I want a refund or that I am complaining about a specific product. I just want someone to listen to the issue I am facing right now. The current situation is unacceptable, and I expect this to be resolved today. Do not offer me generic responses or ask me to clarify which transaction or item I am referring to. I know exactly what the problem is, and I know it involves a failure on your end. I am angry and I want action, not questions. Please connect me with a supervisor who can actually help me resolve this matter immediately.",
+    "source_ids": [
+      "train/banking_support/00302/p0/a",
+      "train/banking_support/00302/p1/a",
+      "train/banking_support/00302/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "loans",
+      "fraud",
+      "cards"
+    ],
+    "prompt_id": "5babdf45c2a6e11daca537b256b4e9ccc9fcf13078caffbe13e49ec56693e087"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00287",
+    "text": "hi, i need help with something. i had a failed payment on my current account. the money has already left my account, but i’m not asking for money back as compensation. i just want to figure out why it failed. can someone look into this? thanks",
+    "source_ids": [
+      "train/banking_support/00287/p0/a",
+      "train/banking_support/00287/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts"
+    ],
+    "posterior_support": [
+      "accounts"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "de3dbf50d5724bc11de7249c5b8f146f3ff72dee694aae985d424e223700f41e"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00332",
+    "text": "Hi, its Amara here. I just noticed that money has already left my account. I wanted to check if you guys can help me sort this out. Just to be clear, I am not asking for money back as compensation or anything like that. I’m not sure what kind of problem it is exactly, or which product the issue is about, but I’d appreciate some guidance. Can someone let me know what my options are? Thanks.",
+    "source_ids": [
+      "train/banking_support/00332/p0/a",
+      "train/banking_support/00332/p2/a",
+      "train/banking_support/00332/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "accounts",
+      "loans"
+    ],
+    "prompt_id": "51d96baff46e781050a65c61d462281fd173394abb67595e3530db08078e83c8"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00120",
+    "text": "hey, i need some help with something regarding my account. i'm not sure what's going on here. could you take a look?",
+    "source_ids": [
+      "train/banking_support/00120/p0/a",
+      "train/banking_support/00120/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "cards"
+    ],
+    "prompt_id": "15a4b65b8c6bd39ce2cad10224f0e7eae380a949a8a6d74f7d94b207279b8eea"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00057",
+    "text": "Hi there, it’s Liam. I’m checking on a card issue, and I can confirm the money has already left my account. Just a quick side note, my coffee got spilled on my shirt this morning, so I’m a bit distracted. But back to the main point: I need some help with something regarding this transaction. I have a question about my account details specifically related to the card product. I’m not looking to go into deep technical weeds right now, just trying to get clarity on where things stand. Could you help me out with this? Thanks.",
+    "source_ids": [
+      "train/banking_support/00057/p0/a",
+      "train/banking_support/00057/p1/a",
+      "train/banking_support/00057/p2/a",
+      "train/banking_support/00057/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "complaints",
+      "fraud",
+      "cards"
+    ],
+    "prompt_id": "febd97f54eb461765e8659233cf367555539e697bebd6bb7035d85d855c62d5b"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00166",
+    "text": "Hi there, I’m hoping you can help me sort out a confusion with a recent transaction. I attempted to pay for an item earlier today, but the payment didn’t go through as expected. I just wanted to clarify what happened with that specific failed payment. Also, please note that I am not asking for any money back or compensation for this issue; I’m simply trying to understand the status. I’d appreciate it if someone could look into why it failed so I can proceed correctly. Thanks for your assistance.",
+    "source_ids": [
+      "train/banking_support/00166/p0/a",
+      "train/banking_support/00166/p1/a",
+      "train/banking_support/00166/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "accounts",
+      "cards"
+    ],
+    "prompt_id": "f2bfb31c9a61b81145fc29fb07581005d5987802b1447ba0710732eb0d06ab59"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00336",
+    "text": "hi pavel, i need some help with something. i have a question about my savings account. whether money has already left my account is yes, and i am asking for money back as compensation.",
+    "source_ids": [
+      "train/banking_support/00336/p0/a",
+      "train/banking_support/00336/p1/a",
+      "train/banking_support/00336/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "complaints",
+      "fraud"
+    ],
+    "posterior_support": [
+      "complaints",
+      "fraud"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "complaints"
+    ],
+    "prompt_id": "217df366b64fb7b70f29a9f3cfc20b7c9dee23e8cff093ac40707a34aa6a6875"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00315",
+    "text": "Hello. I am writing to ask for assistance with my account, though I am not sure where to begin. I am feeling quite confused about the current situation and what information is actually relevant to share. I want to clarify that this is not a request for monetary compensation or a refund. I simply need some guidance to understand what is happening. Please let me know what details you need from me to look into this. I am happy to provide whatever is necessary, but I am unsure of the correct process. Thank you for your patience as I try to figure this out.",
+    "source_ids": [
+      "train/banking_support/00315/p0/a",
+      "train/banking_support/00315/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "fcfc27f611a1d676e1f1797d3e48deb5f13eeba6c8d89665b5b4ac296798f14d"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00268",
+    "text": "Hi there. I’m looking for some help with a card issue. I noticed a charge on my account that I don’t recognize. The money has already left my account, so it’s not just a pending transaction. I’m a bit confused about what details I actually need to provide to resolve this. Is it sufficient to just tell you the amount, or do you need the date and time as well? I’m not entirely sure which pieces of information are relevant here, so I wanted to check with you first. Please let me know what you need from me to look into this unauthorized transaction. Thanks for your help.",
+    "source_ids": [
+      "train/banking_support/00268/p0/a",
+      "train/banking_support/00268/p1/a",
+      "train/banking_support/00268/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "4d2963b1fb3b3be694857d97ac139200bd23ab1b76085d8434a72aaab38f98cd"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00031",
+    "text": "hey i’m looking for some help with something regarding my account. i wanted to ask if i can get money back as compensation for what happened. i’m not sure exactly how the process works or if i’m eligible, but i’d like to know if that’s an option. please let me know what you need from me to look into this. thanks",
+    "source_ids": [
+      "train/banking_support/00031/p0/a",
+      "train/banking_support/00031/p1/a",
+      "train/banking_support/00031/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "complaints",
+      "cards",
+      "complaints"
+    ],
+    "prompt_id": "ea5c3bc996f2767b865712f162b9e785c20b78fe5a0677f1ff16f3186c9ae60f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00409",
+    "text": "I am incredibly frustrated. I’ve just noticed a charge on my bank statement that I don’t recognize. This transaction was processed using my card. The money has already left my account, so I can’t just cancel it. I am explicitly asking for this money back as compensation. I expect you to investigate this immediately and resolve the issue. This is unacceptable, and I want a clear explanation of why this happened and confirmation that my funds are returned. Do not tell me to wait; I need this fixed now.",
+    "source_ids": [
+      "train/banking_support/00409/p0/a",
+      "train/banking_support/00409/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "babd22dc9d80ffc59b01019e15959217a2f37a6d46a7d5a7211b9c33186199c6"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00043",
+    "text": "Hi, I’m Jonas. I need to speak to someone immediately about a transaction on my card. There is an unrecognized charge on my statement that I did not authorize. I can confirm that the money has already left my account. I am not looking for any compensation or refund for this specific amount, but I am extremely frustrated by how this was processed in the first place. I need to know why this happened and who is responsible. Please put me through to someone who can actually resolve this issue right now. I’ve been waiting long enough and I expect an immediate explanation regarding this unauthorized deduction from my card.",
+    "source_ids": [
+      "train/banking_support/00043/p0/a",
+      "train/banking_support/00043/p1/a",
+      "train/banking_support/00043/p2/a",
+      "train/banking_support/00043/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "ba1276700fb65c1cc72804d01aec6d472fb9445431eabcb555364d6343b56349"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00327",
+    "text": "Hi there, my name is Lucia. I’m reaching out because I’m a bit confused about my account and I’m not entirely sure what information you’ll need from me to sort this out. I noticed something odd regarding my card, but I can’t pinpoint exactly what the issue is or why it’s happening. I haven’t noticed any money leaving my account, so that part seems fine. Also, just to clarify upfront, I’m not asking for any money back or compensation; I just want to understand what’s going on with the card activity. Could you let me know what details I should provide? I’m happy to share whatever is relevant, even if I’m not sure what matters. Thanks for your help.",
+    "source_ids": [
+      "train/banking_support/00327/p0/a",
+      "train/banking_support/00327/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "5e1c2747be02210e82ca5ce05eb8e591642f9720446449ebbf2b0d21e479e2c7"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00281",
+    "text": "Hi, I need some help with my account. My name is Noah. I have lost my card. Please let me know what to do next. I want to make sure no one can use it. I checked my recent transactions, and I can confirm that no money has left my account yet. Everything is fine there, but the physical card is missing. Can you help me block it? I am not a native English speaker, so please be patient with my message. I just want to keep my money safe. Let me know the steps I need to take. Thank you for your help.",
+    "source_ids": [
+      "train/banking_support/00281/p0/a",
+      "train/banking_support/00281/p1/a",
+      "train/banking_support/00281/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "353de58647c2d80d8f61b9b477afdb7e8caa3a23d6badbfa2d5d78c08a333309"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00344",
+    "text": "Hi, I need help with something on my account. I noticed a charge I don’t recognize. The money has already left my account, so I’m wondering if you can look into it. I’m not looking for any compensation or refund for inconvenience, just clarification on the transaction. By the way, I’m currently stuck in traffic and it’s raining cats and dogs, so I’m a bit frustrated. I just want to understand why this happened and if I can get it sorted out. Thanks.",
+    "source_ids": [
+      "train/banking_support/00344/p0/a",
+      "train/banking_support/00344/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "c3162df4f577440a5b809e24af2cb7f1cc4ccba9be6ab5d57dcc2b957751288f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00203",
+    "text": "Hi, I’m Arjun. I experienced a failed payment and I am asking for money back as compensation.",
+    "source_ids": [
+      "train/banking_support/00203/p0/a",
+      "train/banking_support/00203/p1/a",
+      "train/banking_support/00203/p2/a",
+      "train/banking_support/00203/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "complaints",
+      "complaints",
+      "complaints",
+      "complaints"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "prompt_id": "8a793de9777b49a4082a8627118fef414b5e6bc256d6571e5f3ea5be7a338c40"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00019",
+    "text": "I am incredibly frustrated with my card. There is an unrecognized charge that has already left my account. I do not want money back as compensation. I just need this resolved. Why is this happening? I did not make this purchase. It is unfair to be charged without my knowledge. Please look into this immediately. I have been a loyal customer and this treatment is unacceptable. I want to know who authorized this transaction. Stop wasting my time. This is a serious issue that needs urgent attention. Fix it now.",
+    "source_ids": [
+      "train/banking_support/00019/p0/a",
+      "train/banking_support/00019/p1/a",
+      "train/banking_support/00019/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "2d098405a79045eccfee3c3659a2755b160b0506eff17284fd83356acb45d1e4"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00412",
+    "text": "Hi, I’m Mia. I have a question regarding my account.",
+    "source_ids": [
+      "train/banking_support/00412/p0/a",
+      "train/banking_support/00412/p1/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "fraud",
+      "accounts"
+    ],
+    "prompt_id": "e8df021ccd20d9284ef4e27289886cbc8f16939c2d8b9bec51c8f70ba619510f"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00084",
+    "text": "Hi, my name is Omar. I have a question about my account regarding a lost card. Money has already left my account, but I am not asking for money back as compensation.",
+    "source_ids": [
+      "train/banking_support/00084/p0/a",
+      "train/banking_support/00084/p1/a",
+      "train/banking_support/00084/p2/a",
+      "train/banking_support/00084/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "fraud"
+    ],
+    "posterior_support": [
+      "fraud"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "prompt_id": "95d20505ee2741e4ecd6f6b2bd1ba38f687f529160af7e7c2649edb89c8fb933"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00350",
+    "text": "I am trying to make a payment but it has failed. I need assistance resolving this issue.",
+    "source_ids": [
+      "train/banking_support/00350/p0/a",
+      "train/banking_support/00350/p1/a",
+      "train/banking_support/00350/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "cards",
+      "accounts",
+      "cards"
+    ],
+    "prompt_id": "cd46ae08f3876004352ffe9c7ab32a273c4ff6ddf1c5408bbc6a9b6d3e67f3ab"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00169",
+    "text": "Hi, I’m Nadia. I need some assistance with a change request regarding my loan. I haven’t received any funds yet, so no money has left my account. Also, I am not looking for any monetary compensation or a refund. I just need to update some details. It’s been a busy day so far, though. Let me know what you need from me to proceed.",
+    "source_ids": [
+      "train/banking_support/00169/p0/a",
+      "train/banking_support/00169/p1/a",
+      "train/banking_support/00169/p2/a",
+      "train/banking_support/00169/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "loans"
+    ],
+    "posterior_support": [
+      "loans"
+    ],
+    "old_teams": [
+      "loans",
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "gold": [
+      "loans",
+      "loans",
+      "loans",
+      "loans"
+    ],
+    "prompt_id": "c8d5e399977098a2d3fad8a9919fbf41ee6bc83161f0660323f2b1ca2cc9bc36"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00279",
+    "text": "hi leila i'm writing about my account. the money has already left my account and i need some help with something regarding this.",
+    "source_ids": [
+      "train/banking_support/00279/p0/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "old_teams": [
+      "fraud"
+    ],
+    "gold": [
+      "fraud"
+    ],
+    "prompt_id": "0d48f28835ddfda955934ecb592347d71671dccf677d8e3ffa9010ccad295cad"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00484",
+    "text": "Hi, I’m Chloe. I need help with a fee question regarding my card. I noticed a charge I wasn’t expecting, and I can confirm that the money has already left my account. I am not asking for money back as compensation right now, just trying to understand the transaction. Speaking of which, I’m currently drinking a very strong cup of coffee while sitting in a quiet corner of the library; it’s surprisingly peaceful here despite the usual noise outside. Anyway, back to the issue, could you clarify why this fee was applied? I just want some clarity on the statement. Thanks.",
+    "source_ids": [
+      "train/banking_support/00484/p0/a",
+      "train/banking_support/00484/p1/a",
+      "train/banking_support/00484/p2/a",
+      "train/banking_support/00484/p3/a"
+    ],
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "cards"
+    ],
+    "posterior_support": [
+      "cards"
+    ],
+    "old_teams": [
+      "fraud",
+      "fraud",
+      "fraud",
+      "fraud"
+    ],
+    "gold": [
+      "cards",
+      "cards",
+      "cards",
+      "cards"
+    ],
+    "prompt_id": "b042003d9ae2b6782ae360d9ef84e63928b19c2436969d72f9f1156bb652f711"
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00425",
+    "text": "Hi there. My name is Hugo. I am writing to you because I have a question about my savings account. I do not want any money back as compensation, so please do not think that is what I need. Also, no money has left my account yet. I just want to ask something simple. I am not very good at English, so please be patient with me. I need some help with something regarding my savings. Please let me know how I can proceed or who can answer my question. Thank you for your time and help. I look forward to hearing from you soon.",
+    "source_ids": [
+      "train/banking_support/00425/p0/a",
+      "train/banking_support/00425/p1/a",
+      "train/banking_support/00425/p2/a"
+    ],
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "routes": [
+      "accounts",
+      "cards"
+    ],
+    "posterior_support": [
+      "accounts",
+      "cards"
+    ],
+    "old_teams": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "gold": [
+      "accounts",
+      "accounts",
+      "accounts"
+    ],
+    "prompt_id": "e2efba6e1a81e198c64efbf300f7c8e11cb91cf6ef14e977e30409a994f468f7"
+  }
+]

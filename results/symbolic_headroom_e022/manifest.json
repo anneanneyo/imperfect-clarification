@@ -1,0 +1,22 @@
+{
+  "files": {
+    "experiments/symbolic_headroom_e022.py": "29fb76a161e25f643218b798448a3e72480d6eaec8c0be148c37b44f3701635e",
+    "research/E022_PROTOCOL.md": "7a9be09dcc0bad7faa9c56855663041e6712b103bc7a214680a9f8d0a60a85e1",
+    "results/heldout_value_e016/source_rows.json": "c6a0d39779c469029c434dce9044249d1b99cac0036b603ec0632f3c9e1fcfc9",
+    "results/heldout_value_e016/train_details.json": "0a703e96937b9277c746e35061ea7e4533b02ebb10cf435f9c370e197b7dfe4e",
+    "results/heldout_value_e016/schema.json": "625280cca355d1644bd604dd77837d03637c2e087d2f36bdf913b31a19082e1d",
+    "results/heldout_value_e016/score_manifest.json": "b851349cf82f804b4b3b36fdd2e0e8d3c8b2f9c13457ac8c329500571636b0f5"
+  },
+  "groups": 96,
+  "profiles": 274,
+  "questions": [
+    "issue",
+    "product",
+    "money_gone",
+    "compensation",
+    "customer_name"
+  ],
+  "test_used": false,
+  "model_calls": 0,
+  "scope": "Privileged finite-training-population diagnostic under fixed source-prior MAP executor."
+}

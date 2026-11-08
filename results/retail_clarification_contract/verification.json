@@ -1,0 +1,11 @@
+{
+  "families": 100,
+  "closed_form_question_accuracy_checks": 800,
+  "all_output_and_protocol_hashes_match": true,
+  "execution_records_verified": 249,
+  "all_families_have_distinct_target_states": true,
+  "entropy_evsi_same_choice_all_modes_costs": true,
+  "macro_partial_support_loss_exact_fraction": "821/160000",
+  "macro_partial_support_loss": 0.00513125,
+  "verification_code_sha256": "bd4c57d54e6481c611b3e8f260712aa69dec1ff668d5c5190b71c413ee0a64a4"
+}

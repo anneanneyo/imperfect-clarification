@@ -1,0 +1,38 @@
+{
+  "files": {
+    "research/E015_PROTOCOL.md": "b9133d9adc91f2244b55f0957061ff376f6b6ada69b466ef86f4a6bec0922540",
+    "experiments/text_value_e015.py": "e37ae287ce162ec1d7a5de4c29f9bbc66612f22fa0dc0338d69b6366ed3c4905",
+    "results/lavoir_executor_e014/details.json": "9b169a269a864970adfd44252b3b3e1aaa47213abe09ce7bff7c18448c459d4d",
+    "results/lavoir_executor_e014/source_rows.json": "bbae7ea9410552688f160901449986403e67120fa450c9a6f791847debf0ac16",
+    "results/lavoir_executor_e014/semantic_review.json": "4088fac2bba1ae398c3a98e2e9a4b1dec83fd6369b10322d89399411d101b05a",
+    "results/text_value_e015/texts.json": "eda0a2165ca457f02c33ba558a93341ce491f8f52096a685a80209a9ec6e96fb",
+    "results/text_value_e015/targets.json": "81adbfb0e8a9acb8eda3f85ca961e6754e6490b5f043627f45a526093f65a092",
+    "results/text_value_e015/groups.json": "97f25b7dd00513c7e7a1ff571f012610f471493c78764f288a8ea29010ce5670",
+    "results/text_value_e015/exclusions.json": "ceb993dc8be9aed36c399d19f0c7e36d51887cc7db9a15e207b638d3f1cbb3f3"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "numpy": "2.3.5",
+  "alpha": 1.0,
+  "cost": [
+    0.0,
+    0.05,
+    0.05,
+    0.05,
+    0.05,
+    0.05
+  ],
+  "questions": [
+    "no_ask",
+    "issue",
+    "product",
+    "money_gone",
+    "compensation",
+    "customer_name"
+  ],
+  "feature_limit": 2000,
+  "timing": "Frozen before E015 fit; E014 results already inspected.",
+  "cases": 24,
+  "outer_groups": 24,
+  "branch_labels": 390,
+  "new_model_generations": 0
+}

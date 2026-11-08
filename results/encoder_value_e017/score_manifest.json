@@ -1,0 +1,10 @@
+{
+  "files": {
+    "results/encoder_value_e017/manifest.json": "ba509b3e78a40abe943249633cb9786163e9c55cb55c1a59f67c78066ef99340",
+    "results/encoder_value_e017/feature_manifest.json": "0f946dc65e78c33338274fd3d722c3720d2dee8c06370886989c9faba618425b",
+    "results/encoder_value_e017/fit_manifest.json": "e301630bbbcdce0d72e4561550a93827bf541d4b0ec229d007c125f4c844bee0",
+    "results/encoder_value_e017/component_results.json": "e227465cc2e8d10fb498aaf80cdab97cbc0245bb5d1260c7310146fac2880b22",
+    "results/encoder_value_e017/summary.json": "b69ad9b9748239db802c144d6f7a667d30c2df97f829175f4cdd7afb435d6de2",
+    "results/heldout_value_e016/score_manifest.json": "b851349cf82f804b4b3b36fdd2e0e8d3c8b2f9c13457ac8c329500571636b0f5"
+  }
+}

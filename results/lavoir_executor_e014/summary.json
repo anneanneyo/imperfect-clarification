@@ -1,0 +1,1278 @@
+{
+  "unique_generations": 213,
+  "invalid_unique": 0,
+  "length_unique": 0,
+  "runtime_errors": 0,
+  "all_cases": {
+    "cases": 24,
+    "profiles": 65,
+    "fixed": {
+      "no_ask": {
+        "accuracy": 0.49652777777777823,
+        "utility": 0.49652777777777823,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.49652777777777823
+      },
+      "issue": {
+        "accuracy": 0.6875000000000012,
+        "utility": 0.6375000000000004,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.6875000000000012
+      },
+      "product": {
+        "accuracy": 0.6770833333333344,
+        "utility": 0.6270833333333338,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.6770833333333344
+      },
+      "money_gone": {
+        "accuracy": 0.5486111111111116,
+        "utility": 0.4986111111111113,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.5486111111111116
+      },
+      "compensation": {
+        "accuracy": 0.538194444444445,
+        "utility": 0.4881944444444447,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.538194444444445
+      },
+      "customer_name": {
+        "accuracy": 0.538194444444445,
+        "utility": 0.48819444444444465,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.538194444444445
+      }
+    },
+    "complete": true,
+    "uniform_random": {
+      "accuracy": 0.5979166666666675,
+      "utility": 0.547916666666667,
+      "invalid_mass": 0.0,
+      "missing_mass": 0.0,
+      "upper_accuracy": 0.5979166666666675
+    },
+    "best_fixed_including_noask": {
+      "question": "issue",
+      "accuracy": 0.6875000000000012,
+      "utility": 0.6375000000000004,
+      "invalid_mass": 0.0,
+      "missing_mass": 0.0,
+      "upper_accuracy": 0.6875000000000012
+    },
+    "oracles": {
+      "hidden_profile_oracle": {
+        "accuracy": 0.9861111111111126,
+        "utility": 0.9616319444444454,
+        "ask_rate": 0.4895833333333338,
+        "choices": [
+          {
+            "group": "train/banking_support/00047/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00003/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00003/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00003/p2/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00003/p3/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00298/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00298/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00298/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00298/p3/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00109/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00109/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00127/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00127/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00282/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00282/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00417/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00417/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00131/p0/a",
+            "question": "money_gone"
+          },
+          {
+            "group": "train/banking_support/00299/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00299/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00095/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00095/p2/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00377/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00377/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00377/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00263/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00263/p2/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00263/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00149/p0/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00149/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00199/p0/a",
+            "question": "money_gone"
+          },
+          {
+            "group": "train/banking_support/00199/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00366/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00366/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00366/p2/a",
+            "question": "compensation"
+          },
+          {
+            "group": "train/banking_support/00366/p3/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00370/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00370/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00273/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00273/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00273/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00345/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00345/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00345/p2/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00233/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00233/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00054/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00054/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00253/p0/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00253/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00253/p2/a",
+            "question": "issue"
+          }
+        ]
+      },
+      "visible_input_oracle": {
+        "accuracy": 0.8888888888888904,
+        "utility": 0.8597222222222234,
+        "ask_rate": 0.5833333333333341,
+        "choices": [
+          {
+            "group": "31da29d1588f84564d84395e400b46c49ca1783254f9f164751632f586eaee7d",
+            "question": "no_ask"
+          },
+          {
+            "group": "864e48834a18c2617c302cc5ada566e84dd35a8b219f0490e9aba2bb06c2689f",
+            "question": "product"
+          },
+          {
+            "group": "fa240738f764e73412a155dde6f57190988bbed2e169df9723e58938ee8c22f4",
+            "question": "product"
+          },
+          {
+            "group": "c75672fdb8d2d4819d7eda4307687f4eb76046a27a6fa8c15fc10517028be683",
+            "question": "issue"
+          },
+          {
+            "group": "f7a7dd5b6c19d53fd611ed614137f085c01924c41eb0a8e8d190931466704d18",
+            "question": "no_ask"
+          },
+          {
+            "group": "b948fe1526581f93b83d482e3df5b54abc47ff584b0681fc06133d76cf0545cc",
+            "question": "no_ask"
+          },
+          {
+            "group": "db5c97fca2a0cc3e7cccd0a12aa7271dc96a1c131ce7f466ecb3326a69f157b5",
+            "question": "issue"
+          },
+          {
+            "group": "460971c83b687c824055d18282c75894acb7fe3210084d93550efe5745befcdd",
+            "question": "no_ask"
+          },
+          {
+            "group": "022746c0d88019e9f2c770ac1aeba7030d1966860d540b03b9426cb4e2932e7e",
+            "question": "money_gone"
+          },
+          {
+            "group": "bb37c47aa914bb6c0d2a8c7f5300426afde36de0d8b2e1a57711512d85af1d16",
+            "question": "no_ask"
+          },
+          {
+            "group": "e9ad96744aefb48ee20b5f078360c58051497614a2e83604491023826d368779",
+            "question": "issue"
+          },
+          {
+            "group": "1c87e29446b8f9d495dfbe44c3c6fb1c7a4ebf6c8289d75d1ff95f6450edb0d8",
+            "question": "no_ask"
+          },
+          {
+            "group": "fdfea08540d5d080a24294055e1fafe6491597fee3f7ba462780f5f5eb6da93c",
+            "question": "no_ask"
+          },
+          {
+            "group": "a38b32e3ed1881e23891d74b7b85b823f38de06ff0bf2d343683604ef72a85d0",
+            "question": "product"
+          },
+          {
+            "group": "7924fe0064ac0a66e2cae4974452f1eb2fb4bad6115ceef0a10926fdc6c9351b",
+            "question": "issue"
+          },
+          {
+            "group": "0637a6d466754c56dae785c367bb0c1a6c9485c4e9efb412dbf696383042d1ff",
+            "question": "issue"
+          },
+          {
+            "group": "4db0c07eccc6883376c20ebb0147e951f0797cd1b8dda3a318cc67799f82113d",
+            "question": "product"
+          },
+          {
+            "group": "b7e15950f31500ccb4adeb2783a33ab4f11c7a94918e0984da2f24164b6da819",
+            "question": "product"
+          },
+          {
+            "group": "13327aba84462dbce807ffe9389b7f35dab92ef10cd5041ffc9d0f4ac1d56040",
+            "question": "no_ask"
+          },
+          {
+            "group": "34b0fb17c1e64ec4cb1268a8e0d7975a0dd6cfb439fbdedcb65e4c32c5deb395",
+            "question": "no_ask"
+          },
+          {
+            "group": "9ef02281b9223f7e3bab9bf752b4984be59201be80f788c39ed9a2f3024cb7e7",
+            "question": "issue"
+          },
+          {
+            "group": "efd0451e70666fc2f39a33226ca506a8362548ab10599a7f3eb2464e86c9e2b2",
+            "question": "no_ask"
+          },
+          {
+            "group": "2dfff2cf82a712ed6e1aa97e409fb88ec965b7416b84d2dca4945a83225f9597",
+            "question": "product"
+          },
+          {
+            "group": "78b88ae830db56942215aa63e6286b391b0dc5d91d5c36be858cf45340c50b10",
+            "question": "issue"
+          }
+        ]
+      }
+    }
+  },
+  "predeclared_sensitivity": {
+    "cases": 21,
+    "profiles": 59,
+    "fixed": {
+      "no_ask": {
+        "accuracy": 0.5674603174603178,
+        "utility": 0.5674603174603178,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.5674603174603178
+      },
+      "issue": {
+        "accuracy": 0.7539682539682548,
+        "utility": 0.703968253968255,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.7539682539682548
+      },
+      "product": {
+        "accuracy": 0.7103174603174609,
+        "utility": 0.6603174603174611,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.7103174603174609
+      },
+      "money_gone": {
+        "accuracy": 0.5634920634920638,
+        "utility": 0.5134920634920639,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.5634920634920638
+      },
+      "compensation": {
+        "accuracy": 0.5992063492063499,
+        "utility": 0.5492063492063498,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.5992063492063499
+      },
+      "customer_name": {
+        "accuracy": 0.6150793650793657,
+        "utility": 0.5650793650793656,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.6150793650793657
+      }
+    },
+    "complete": true,
+    "uniform_random": {
+      "accuracy": 0.648412698412699,
+      "utility": 0.5984126984126992,
+      "invalid_mass": 0.0,
+      "missing_mass": 0.0,
+      "upper_accuracy": 0.648412698412699
+    },
+    "best_fixed_including_noask": {
+      "question": "issue",
+      "accuracy": 0.7539682539682548,
+      "utility": 0.703968253968255,
+      "invalid_mass": 0.0,
+      "missing_mass": 0.0,
+      "upper_accuracy": 0.7539682539682548
+    },
+    "oracles": {
+      "hidden_profile_oracle": {
+        "accuracy": 1.0000000000000009,
+        "utility": 0.9783730158730168,
+        "ask_rate": 0.4325396825396827,
+        "choices": [
+          {
+            "group": "train/banking_support/00047/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00003/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00003/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00003/p2/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00003/p3/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00298/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00298/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00298/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00298/p3/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00109/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00109/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00127/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00127/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00282/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00282/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00417/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00417/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00299/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00299/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00095/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00095/p2/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00377/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00377/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00377/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00263/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00263/p2/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00263/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00149/p0/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00149/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00199/p0/a",
+            "question": "money_gone"
+          },
+          {
+            "group": "train/banking_support/00199/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00366/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00366/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00366/p2/a",
+            "question": "compensation"
+          },
+          {
+            "group": "train/banking_support/00366/p3/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00370/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00370/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00273/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00273/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00273/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00233/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00233/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00253/p0/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00253/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00253/p2/a",
+            "question": "issue"
+          }
+        ]
+      },
+      "visible_input_oracle": {
+        "accuracy": 0.8888888888888897,
+        "utility": 0.8626984126984137,
+        "ask_rate": 0.5238095238095242,
+        "choices": [
+          {
+            "group": "31da29d1588f84564d84395e400b46c49ca1783254f9f164751632f586eaee7d",
+            "question": "no_ask"
+          },
+          {
+            "group": "864e48834a18c2617c302cc5ada566e84dd35a8b219f0490e9aba2bb06c2689f",
+            "question": "product"
+          },
+          {
+            "group": "fa240738f764e73412a155dde6f57190988bbed2e169df9723e58938ee8c22f4",
+            "question": "product"
+          },
+          {
+            "group": "c75672fdb8d2d4819d7eda4307687f4eb76046a27a6fa8c15fc10517028be683",
+            "question": "issue"
+          },
+          {
+            "group": "f7a7dd5b6c19d53fd611ed614137f085c01924c41eb0a8e8d190931466704d18",
+            "question": "no_ask"
+          },
+          {
+            "group": "b948fe1526581f93b83d482e3df5b54abc47ff584b0681fc06133d76cf0545cc",
+            "question": "no_ask"
+          },
+          {
+            "group": "db5c97fca2a0cc3e7cccd0a12aa7271dc96a1c131ce7f466ecb3326a69f157b5",
+            "question": "issue"
+          },
+          {
+            "group": "460971c83b687c824055d18282c75894acb7fe3210084d93550efe5745befcdd",
+            "question": "no_ask"
+          },
+          {
+            "group": "bb37c47aa914bb6c0d2a8c7f5300426afde36de0d8b2e1a57711512d85af1d16",
+            "question": "no_ask"
+          },
+          {
+            "group": "e9ad96744aefb48ee20b5f078360c58051497614a2e83604491023826d368779",
+            "question": "issue"
+          },
+          {
+            "group": "1c87e29446b8f9d495dfbe44c3c6fb1c7a4ebf6c8289d75d1ff95f6450edb0d8",
+            "question": "no_ask"
+          },
+          {
+            "group": "fdfea08540d5d080a24294055e1fafe6491597fee3f7ba462780f5f5eb6da93c",
+            "question": "no_ask"
+          },
+          {
+            "group": "a38b32e3ed1881e23891d74b7b85b823f38de06ff0bf2d343683604ef72a85d0",
+            "question": "product"
+          },
+          {
+            "group": "7924fe0064ac0a66e2cae4974452f1eb2fb4bad6115ceef0a10926fdc6c9351b",
+            "question": "issue"
+          },
+          {
+            "group": "0637a6d466754c56dae785c367bb0c1a6c9485c4e9efb412dbf696383042d1ff",
+            "question": "issue"
+          },
+          {
+            "group": "4db0c07eccc6883376c20ebb0147e951f0797cd1b8dda3a318cc67799f82113d",
+            "question": "product"
+          },
+          {
+            "group": "b7e15950f31500ccb4adeb2783a33ab4f11c7a94918e0984da2f24164b6da819",
+            "question": "product"
+          },
+          {
+            "group": "13327aba84462dbce807ffe9389b7f35dab92ef10cd5041ffc9d0f4ac1d56040",
+            "question": "no_ask"
+          },
+          {
+            "group": "34b0fb17c1e64ec4cb1268a8e0d7975a0dd6cfb439fbdedcb65e4c32c5deb395",
+            "question": "no_ask"
+          },
+          {
+            "group": "efd0451e70666fc2f39a33226ca506a8362548ab10599a7f3eb2464e86c9e2b2",
+            "question": "no_ask"
+          },
+          {
+            "group": "78b88ae830db56942215aa63e6286b391b0dc5d91d5c36be858cf45340c50b10",
+            "question": "issue"
+          }
+        ]
+      }
+    }
+  },
+  "privileged_symbolic": {
+    "cases": 24,
+    "profiles": 65,
+    "fixed": {
+      "no_ask": {
+        "accuracy": 0.715277777777779,
+        "utility": 0.715277777777779,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.715277777777779
+      },
+      "issue": {
+        "accuracy": 0.8159722222222235,
+        "utility": 0.7659722222222229,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.8159722222222235
+      },
+      "product": {
+        "accuracy": 0.7986111111111124,
+        "utility": 0.7486111111111116,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.7986111111111124
+      },
+      "money_gone": {
+        "accuracy": 0.8125000000000013,
+        "utility": 0.7625000000000006,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.8125000000000013
+      },
+      "compensation": {
+        "accuracy": 0.7847222222222234,
+        "utility": 0.7347222222222227,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.7847222222222234
+      },
+      "customer_name": {
+        "accuracy": 0.715277777777779,
+        "utility": 0.6652777777777783,
+        "invalid_mass": 0.0,
+        "missing_mass": 0.0,
+        "upper_accuracy": 0.715277777777779
+      }
+    },
+    "complete": true,
+    "uniform_random": {
+      "accuracy": 0.785416666666668,
+      "utility": 0.7354166666666673,
+      "invalid_mass": 0.0,
+      "missing_mass": 0.0,
+      "upper_accuracy": 0.785416666666668
+    },
+    "best_fixed_including_noask": {
+      "question": "issue",
+      "accuracy": 0.8159722222222235,
+      "utility": 0.7659722222222229,
+      "invalid_mass": 0.0,
+      "missing_mass": 0.0,
+      "upper_accuracy": 0.8159722222222235
+    },
+    "oracles": {
+      "hidden_profile_oracle": {
+        "accuracy": 0.9861111111111126,
+        "utility": 0.9725694444444457,
+        "ask_rate": 0.27083333333333354,
+        "choices": [
+          {
+            "group": "train/banking_support/00047/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00047/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00003/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00003/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00003/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00003/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00298/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00298/p1/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00298/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00298/p3/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00109/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00109/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00127/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00127/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00112/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00282/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00282/p1/a",
+            "question": "compensation"
+          },
+          {
+            "group": "train/banking_support/00417/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00417/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00131/p0/a",
+            "question": "money_gone"
+          },
+          {
+            "group": "train/banking_support/00299/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00299/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00095/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00095/p2/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00377/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00377/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00377/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00070/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00263/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00263/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00263/p3/a",
+            "question": "compensation"
+          },
+          {
+            "group": "train/banking_support/00149/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00149/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00199/p0/a",
+            "question": "money_gone"
+          },
+          {
+            "group": "train/banking_support/00199/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00366/p0/a",
+            "question": "product"
+          },
+          {
+            "group": "train/banking_support/00366/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00366/p2/a",
+            "question": "compensation"
+          },
+          {
+            "group": "train/banking_support/00366/p3/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00370/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00370/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00273/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00273/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00273/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00483/p2/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00345/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00345/p1/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00345/p2/a",
+            "question": "issue"
+          },
+          {
+            "group": "train/banking_support/00233/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00233/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00054/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00054/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00253/p0/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00253/p1/a",
+            "question": "no_ask"
+          },
+          {
+            "group": "train/banking_support/00253/p2/a",
+            "question": "no_ask"
+          }
+        ]
+      },
+      "visible_input_oracle": {
+        "accuracy": 0.9548611111111126,
+        "utility": 0.934027777777779,
+        "ask_rate": 0.4166666666666671,
+        "choices": [
+          {
+            "group": "31da29d1588f84564d84395e400b46c49ca1783254f9f164751632f586eaee7d",
+            "question": "no_ask"
+          },
+          {
+            "group": "864e48834a18c2617c302cc5ada566e84dd35a8b219f0490e9aba2bb06c2689f",
+            "question": "no_ask"
+          },
+          {
+            "group": "fa240738f764e73412a155dde6f57190988bbed2e169df9723e58938ee8c22f4",
+            "question": "product"
+          },
+          {
+            "group": "c75672fdb8d2d4819d7eda4307687f4eb76046a27a6fa8c15fc10517028be683",
+            "question": "issue"
+          },
+          {
+            "group": "f7a7dd5b6c19d53fd611ed614137f085c01924c41eb0a8e8d190931466704d18",
+            "question": "no_ask"
+          },
+          {
+            "group": "b948fe1526581f93b83d482e3df5b54abc47ff584b0681fc06133d76cf0545cc",
+            "question": "no_ask"
+          },
+          {
+            "group": "db5c97fca2a0cc3e7cccd0a12aa7271dc96a1c131ce7f466ecb3326a69f157b5",
+            "question": "compensation"
+          },
+          {
+            "group": "460971c83b687c824055d18282c75894acb7fe3210084d93550efe5745befcdd",
+            "question": "no_ask"
+          },
+          {
+            "group": "022746c0d88019e9f2c770ac1aeba7030d1966860d540b03b9426cb4e2932e7e",
+            "question": "money_gone"
+          },
+          {
+            "group": "bb37c47aa914bb6c0d2a8c7f5300426afde36de0d8b2e1a57711512d85af1d16",
+            "question": "no_ask"
+          },
+          {
+            "group": "e9ad96744aefb48ee20b5f078360c58051497614a2e83604491023826d368779",
+            "question": "issue"
+          },
+          {
+            "group": "1c87e29446b8f9d495dfbe44c3c6fb1c7a4ebf6c8289d75d1ff95f6450edb0d8",
+            "question": "no_ask"
+          },
+          {
+            "group": "fdfea08540d5d080a24294055e1fafe6491597fee3f7ba462780f5f5eb6da93c",
+            "question": "no_ask"
+          },
+          {
+            "group": "a38b32e3ed1881e23891d74b7b85b823f38de06ff0bf2d343683604ef72a85d0",
+            "question": "compensation"
+          },
+          {
+            "group": "7924fe0064ac0a66e2cae4974452f1eb2fb4bad6115ceef0a10926fdc6c9351b",
+            "question": "no_ask"
+          },
+          {
+            "group": "0637a6d466754c56dae785c367bb0c1a6c9485c4e9efb412dbf696383042d1ff",
+            "question": "money_gone"
+          },
+          {
+            "group": "4db0c07eccc6883376c20ebb0147e951f0797cd1b8dda3a318cc67799f82113d",
+            "question": "compensation"
+          },
+          {
+            "group": "b7e15950f31500ccb4adeb2783a33ab4f11c7a94918e0984da2f24164b6da819",
+            "question": "issue"
+          },
+          {
+            "group": "13327aba84462dbce807ffe9389b7f35dab92ef10cd5041ffc9d0f4ac1d56040",
+            "question": "no_ask"
+          },
+          {
+            "group": "34b0fb17c1e64ec4cb1268a8e0d7975a0dd6cfb439fbdedcb65e4c32c5deb395",
+            "question": "no_ask"
+          },
+          {
+            "group": "9ef02281b9223f7e3bab9bf752b4984be59201be80f788c39ed9a2f3024cb7e7",
+            "question": "issue"
+          },
+          {
+            "group": "efd0451e70666fc2f39a33226ca506a8362548ab10599a7f3eb2464e86c9e2b2",
+            "question": "no_ask"
+          },
+          {
+            "group": "2dfff2cf82a712ed6e1aa97e409fb88ec965b7416b84d2dca4945a83225f9597",
+            "question": "no_ask"
+          },
+          {
+            "group": "78b88ae830db56942215aa63e6286b391b0dc5d91d5c36be858cf45340c50b10",
+            "question": "no_ask"
+          }
+        ]
+      }
+    }
+  }
+}

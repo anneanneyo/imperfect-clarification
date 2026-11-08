@@ -1,0 +1,9 @@
+{
+  "unique_generations": 120,
+  "prompt_tokens": 40585,
+  "generated_tokens": 847,
+  "runtime_errors": 0,
+  "length_finishes": 0,
+  "peak_memory_gb": 2.821767868,
+  "elapsed_seconds": 199.4456680000294
+}

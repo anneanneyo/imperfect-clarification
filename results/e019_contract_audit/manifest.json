@@ -1,0 +1,9 @@
+{
+  "files": {
+    "experiments/audit_contract_e019.py": "ce8a2387786cc0f38f7317cf9531fda93971422515abfc37201068e524561cf8",
+    "experiments/structured_facts_e019.py": "3720b183c2ff0c516f28124d07e9cd513475ae64902fe900c9add7190f3a5941",
+    "results/heldout_value_e016/schema.json": "625280cca355d1644bd604dd77837d03637c2e087d2f36bdf913b31a19082e1d",
+    "results/e019_contract_audit/details.json": "d3fdb6da173953842b6bc5ea8702dca24d81c7ec5b69668874c4a9e983c7e12a",
+    "results/e019_contract_audit/summary.json": "b41b49c33080e8bbc1a4bac26e2ea075e621f9df8847acd9783c9e6372465cb2"
+  }
+}

@@ -1,0 +1,1438 @@
+[
+  {
+    "task_id": "0",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "687108551041f9b167805acc1698fdb1e31c0e4ca23e820005e003589c122028",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "1",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "806802f853f9ff9ca074a440d12150e17cece0b20834bee19930e276d3665a4d",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "2",
+    "split": "train",
+    "call_count": 11,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "f026169c44c686ca632ca578b8a52d50ecd6ce2ad83300c2833ddcc90ffbc3e3",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_product_details",
+        "type": "ValueError",
+        "message": "Product not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "3",
+    "split": "train",
+    "call_count": 12,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "6ad3e8f12faad38797d2c9de5318cb3e9ffab85987b472d32ce4dd8c4a4af455",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_product_details",
+        "type": "ValueError",
+        "message": "Product not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "4",
+    "split": "train",
+    "call_count": 13,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "b7d92a5447c501dcd3832272f2ceffef253484363dc52a3def53272df6fcc51e",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_product_details",
+        "type": "ValueError",
+        "message": "Product not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "5",
+    "split": "test",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "8b12a16557364da9cb990ca2041984d78c29eac888f6ee92f7260088a77c2346",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "6",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "89f234376d5ae1f4abca4d353d9b6f4f40fca7dfc2cdde94715fa83d96b48b25",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "7",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "fc5bb5927904f5e17e703dd368bddd31c59a708f2a695db7a33863b48abdbf68",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "93a40329b00e73855223e1e6c4a4e4143e082684b3fb75b0f9de0dc0d2000f2b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "9",
+    "split": "test",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "5a6747ce692b231d8d73150c5d74d64ebaf28d55a49a275f0b38c14214ce5696",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "10",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "11",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "71970a2e989ea0d9f3733a49b9093923daf07f4e8b5f9af688031559f065fbb0",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "12",
+    "split": "test",
+    "call_count": 5,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "13",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "cc148d8650d665b5bce7ca0fcd0d2a9ec6e2463b21b8f7e6093b6000ee6d9a86",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "14",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "852cc9c8a7d425314215a9e4ee159c92185521869aee53882cdf7b3df659b468",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "15",
+    "split": "train",
+    "call_count": 7,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "80b5964729f7299608e1566e2f221d8fbe945e2b35f4df6185db898804f0a8d8",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "16",
+    "split": "train",
+    "call_count": 9,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "4e2f6e9c911f812c82bb82eae17bb67abdcbb865432be899b518de10a16f974b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "17",
+    "split": "test",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "26b1d403e76b2039177f27d1f3408f2d57cddcfe2273aeaba3974d5882f5545b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "18",
+    "split": "test",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "df44991a785887840c05619f7cf77ba98ec7bec21cbe06cb12e61073ec1dbdf8",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "19",
+    "split": "train",
+    "call_count": 7,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "5066da7eca47b2561ced7398f9bb399fc486abe13f23b621ff734e62b537d14a",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "20",
+    "split": "train",
+    "call_count": 10,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "b2cd1af5c0295a7ad902014621e73946d8abddd9b7b7f8473151d29fe59578ef",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 8,
+        "item_hash": "1a8b6099d24ae039430755eb94c92ca0dce624143cc772b8e6ef1429bb4d22e1",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 8,
+        "item_hash": "25d91f0bc1acabb0ee6168d9ddd04d656d32007be95b77ece12ae9236d39faae",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 8,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "21",
+    "split": "train",
+    "call_count": 12,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "5e8f25f3d2b4a975eb3803640608fcfe5be0deeb247882ffec7fb220d95dc336",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 11,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "22",
+    "split": "train",
+    "call_count": 7,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "f8dd80a8025c0e906c86a27dbc601888f6ce69a956639b7b881acdc49e15faa0",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "23",
+    "split": "train",
+    "call_count": 12,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "c10ffeb55c1c6fa7293e635ebb6ba113bf2f5c29e3c0a92d92ca311630162f81",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "24",
+    "split": "train",
+    "call_count": 0,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "25",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "26",
+    "split": "test",
+    "call_count": 8,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "9e69de6f7bab0813ee4e8469bf6a70aa1c5f5be798f8257cc4992d6d8e612c11",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "27",
+    "split": "test",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "ff3b4c6e9e14efa4165292169475ef4604dca3afca87615666c6ca1aa613492d",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "28",
+    "split": "train",
+    "call_count": 11,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "5eee30ad5820b78be98e056523464dcc4c603d0b1fe229d8d7dab14a6863d17e",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "29",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "b50a63103ce7646b845a86f35d0609c4d59dcce8d27e3c21253d8a0ba7a0b6f9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "30",
+    "split": "train",
+    "call_count": 13,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "2683e214a8d432882a11a928e4c112b77727afd2f7d6caa4778369d91d792b98",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "31",
+    "split": "train",
+    "call_count": 12,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "cc74bdcaaebb31487a4fffc91e40cd4c16c4681362da6685f3b446797545d5a2",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "32",
+    "split": "test",
+    "call_count": 13,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "af12347555e306daaeb1f986c464ee32ee3d6874754a1246aa85a27f584629a4",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "33",
+    "split": "test",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "aee3befb2994bcddec92bf34e066c1852daf8cae1174908e69f4c5b1fcd19f89",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "34",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "574bd45c53a30f9b0265b402defea3d44255e2830dd58e658fbcacc7a6858c0f",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "35",
+    "split": "train",
+    "call_count": 7,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "f6ec1061154733c98ea381a68d7ff6d636e3aba81472b512df078d0337328437",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "find_user_id_by_email",
+        "type": "ValueError",
+        "message": "User not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "36",
+    "split": "test",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "47b6b781bfa279064c4033f29ca4661d1fb6dfe0d2c561cbd12021e587fc269a",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 0,
+        "item_hash": "7c795b62740a936edb0d6c57647ed95b01402cca6f90f85b207d98089b6f8f81",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 0,
+        "item_hash": "0b842a22cb3e3fb8763371f473d69257b6d656fc08acc7f6ff56e8708a8f3377",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "37",
+    "split": "train",
+    "call_count": 4,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "47b6b781bfa279064c4033f29ca4661d1fb6dfe0d2c561cbd12021e587fc269a",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "find_user_id_by_email",
+        "type": "ValueError",
+        "message": "User not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 3,
+        "item_hash": "7c795b62740a936edb0d6c57647ed95b01402cca6f90f85b207d98089b6f8f81",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 3,
+        "item_hash": "0b842a22cb3e3fb8763371f473d69257b6d656fc08acc7f6ff56e8708a8f3377",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "38",
+    "split": "test",
+    "call_count": 4,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "bdae5570892554997b2e95e393bcf64d8ac25952a88954eff56714ff91b77577",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "find_user_id_by_email",
+        "type": "ValueError",
+        "message": "User not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "39",
+    "split": "test",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "40246deb466909c094e6d810233faa1f3cb4741c8facbedacbee17e1caf47a9d",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "find_user_id_by_name_zip",
+        "type": "ValueError",
+        "message": "User not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "40",
+    "split": "test",
+    "call_count": 4,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "f7714e13235066a091271f7ba17238ca590c8715bd9657c3e02e12457509ccd7",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "41",
+    "split": "train",
+    "call_count": 10,
+    "write_count": 4,
+    "db_changed": true,
+    "state_hash": "c096d5f263be7f19c4ab34ddf47ccb27d5e1194473f1242d556f50088b07b055",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "42",
+    "split": "test",
+    "call_count": 10,
+    "write_count": 4,
+    "db_changed": true,
+    "state_hash": "c096d5f263be7f19c4ab34ddf47ccb27d5e1194473f1242d556f50088b07b055",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "43",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "8482e20cdf794a3f1c8b9d7451e3c4267472068daa1214c7b7025b7c8e64a21c",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "44",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "710c258245c5014ae51c29495569daa539b0bb30bc1eea26d5cc4bfafc23f186",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "45",
+    "split": "test",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "1b6c662bd17d1c02c6d150572de6e54b4a5c981090f4a56904f96f980a625d5e",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "46",
+    "split": "train",
+    "call_count": 7,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "6d68f46eae23e21397489180c58fcf49d89313fcc9985494e9a581c72908cd66",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 2,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "47",
+    "split": "train",
+    "call_count": 7,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "ad85d474fd11a6c925d2e4451bb7150d689e115341f9e53c844641e90b074dd9",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 2,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "48",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "8d32df642a30089f83ae4ecba04bd0b51279009d974ffaf3c03a55441bdf70ec",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "49",
+    "split": "test",
+    "call_count": 10,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "e09613aa74978b4e6cf466a0b7274b68efa30fa8eb855376c8cab80444ae8895",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "50",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "51",
+    "split": "test",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "e87c9d9909b0cda7d187d136b07784fa1b837ae373fc9dc737729391456a77e5",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "52",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "a05b5793ba2f6aef57697a5cdb55a68f7c078350b78377e9e1368b08bc37739d",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "53",
+    "split": "test",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "9005e9c9d919480bd919e1572df9047afd182729e736d77f3fd603e964a746b4",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "54",
+    "split": "train",
+    "call_count": 12,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "32b9c40e9b51cd2616664ee11c1305f39341ced42be6b9038c25f7868d46784a",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "find_user_id_by_email",
+        "type": "ValueError",
+        "message": "User not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "55",
+    "split": "test",
+    "call_count": 13,
+    "write_count": 4,
+    "db_changed": true,
+    "state_hash": "2016ff6a8f895822ebd6b7c4821ba82277ffdb9a7757de90f351015b2b7df1f0",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "find_user_id_by_email",
+        "type": "ValueError",
+        "message": "User not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "56",
+    "split": "test",
+    "call_count": 7,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "b5142ae0a15694dcbc125348e67093ba891528a10bc13a6a86366fa4ebc0e4eb",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "57",
+    "split": "train",
+    "call_count": 0,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "58",
+    "split": "train",
+    "call_count": 6,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "e4d4e5aae011b502a649d1d2d2d49907ed254a58a0185e029ce2f5955f33c457",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "51298a2287de7eaebb23b1e95f6277e13920ca0b17779c42012e407fc4d7e594",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "60",
+    "split": "test",
+    "call_count": 4,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "961bb80c7ebc3441597a1b393d0d5f094f39abbeb55b740ab58c57aa2808d36f",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "61",
+    "split": "test",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "5a171f6edf68a2363d19f3f0b89b91eed6127e1a836ee0ecb946be3ac85194ea",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "62",
+    "split": "test",
+    "call_count": 5,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "63",
+    "split": "train",
+    "call_count": 7,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "a3dd2dcfc40a13c27059c4bbd4cf1c2f0f86966e3d69943ae52a9f8c22d4b946",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "64",
+    "split": "test",
+    "call_count": 8,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "3a50a5e05c2112379f0e6580fa20eef7ed38cc3dc958fac254b2c5959ecaa978",
+    "errors": [
+      {
+        "action_index": 6,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Non-delivered order cannot be exchanged"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "65",
+    "split": "test",
+    "call_count": 3,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "66",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "692c039265b6389773c8a26cf6887dbf19401d55671610116c8c08eede3270d2",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "67",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "find_user_id_by_name_zip",
+        "type": "ValueError",
+        "message": "User not found"
+      },
+      {
+        "action_index": 1,
+        "tool": "find_user_id_by_name_zip",
+        "type": "ValueError",
+        "message": "User not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "68",
+    "split": "test",
+    "call_count": 4,
+    "write_count": 0,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "find_user_id_by_name_zip",
+        "type": "ValueError",
+        "message": "User not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "69",
+    "split": "train",
+    "call_count": 4,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "5564bc6213c427519ebf4b69bde8c5a4c7f6a80a4d24b03183f60f7f31a60928",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "70",
+    "split": "test",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "d61adca55bdb2ee62f5155e3f39b3270d02388ac741052e2512a05c906ea799b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "71",
+    "split": "test",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "8cc446e5e2d7432fa028c65a5e7ae8d55f2f94a6bde47fe6fa505e25b17209d0",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "72",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "8cc446e5e2d7432fa028c65a5e7ae8d55f2f94a6bde47fe6fa505e25b17209d0",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "73",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "2c64d433e9b055a80de143f6103b782df804001dea2386b5f2cff410da2f1bc0",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "74",
+    "split": "test",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "f9aac3c6803281391132e29f550366d098a7d18c87ef6050b8ed1da84840c5f0",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "75",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "8b723146955e7525e7311a0b6b4422989d9ef561af31e45bad0f573347dbedee",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "76",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "151ef58e542feb165964b7a6f1709740172a146197307c951675e3cc51844cd8",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "77",
+    "split": "test",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "692e17b55f28e8ca233b0380672596d322d188b77585e8dd2aeb409a55374d6b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "78",
+    "split": "train",
+    "call_count": 3,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "ec526392ddc8eb24d51675b67a2d1a5ccd506d3aef40be9f6a94b65da631c72c",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "79",
+    "split": "test",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "504700248a7ccc0709e3ddb896d91d3a8adc6a4e9d379d830e7ec3e5c3389eca",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "80",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "acfde786ebc2303a1d50640adea35a01b4acfc69f7e84d423bfc80dfa64b8b59",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "81",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "0615ccb8ae2bc2275b4503fa6a33784d13fc944672585c57bc1522ce11327d6b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "82",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "6939ad94faf1fcae0cf357662570c27dc86b665105db43e74e549be05d9ea444",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "83",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "53b0cf9563178ec3481a202ada5ff25dda17ff0763008f4de71f3da7820d3a2e",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "84",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "53b0cf9563178ec3481a202ada5ff25dda17ff0763008f4de71f3da7820d3a2e",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "c06329a18d3780b9c9327c32a0dbcfc10147f8ffa7f5bc34ee1dcbae35169834",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "86",
+    "split": "test",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "c75909867aa5895e0144434ed5835360685f6e83ff2cc2e4be9342ad4632d64e",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "87",
+    "split": "train",
+    "call_count": 4,
+    "write_count": 4,
+    "db_changed": true,
+    "state_hash": "f4d746929eec36a58064885a4682e13f9102fabab52d5e5da6ce5cde43c7aec8",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "88",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "9f0028542c3db5ba8e90758d54ef0c1857f258ca549d4ea6788502e45704942a",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "89",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "14574a3c92556c12a019cfe77b57059ed1662fbcf68c824386c30c3e7bb5c85a",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "90",
+    "split": "test",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "101ca9dfab2527bf7d397132b3e6c3e868c8389ca6dbbd6719b3b5608cde912b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "91",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "1a1f2e6afc69626316f5f0ac2c5caafce4aae53568c223e1b6548ff85a522a2a",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "92",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "1a18d94456390901ca408feeebc13912cca41f7900812129901c215501ca9de0",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "3bd9e4474efa1cd36e375d8853ddb1523fade5b45271d50c8667ab1f2866f5e9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "94",
+    "split": "test",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "c4ef32e4edfbeebdcd702ed040c1db1dc4b9acef1983a015801fcb4220d092b2",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "95",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "44b54d828a48b8384d79ec3c9bbd027f5fdb3b5725896d4880f630e2c0770c06",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "72e131020f3d452e7982194a2e6ced348111dcc63853916d040e7574b2174e86",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "97",
+    "split": "test",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "72e131020f3d452e7982194a2e6ced348111dcc63853916d040e7574b2174e86",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "98",
+    "split": "train",
+    "call_count": 3,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "8bb0c7f911cd4b2b3fb560e6cc17025940b206c5d1e65182fcd01d21d27bb9a3",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "99",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "8cc9e3a21275b98841fe090daaae0207b6348b2a1d49cc51b1ad16e62fac3e91",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "100",
+    "split": "test",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "fdd0179ecc403905cc19c6ce376c0776cf572306cb30b7f1e876f2f36de77f66",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 0,
+        "item_hash": "f3d6b69562684721969fe3d41a461080c10000b3a4530df78c146bd9351ac43a",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "101",
+    "split": "test",
+    "call_count": 3,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "aeacf71bd30b321be7fe701634a3c84c39977fab767f68dbf24c9637cb362285",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "102",
+    "split": "test",
+    "call_count": 3,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "0d8efe7af5a1445e4141c41089cda117da4939b1c5aed7d0ffeebeb4102f82ba",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "split": "train",
+    "call_count": 4,
+    "write_count": 4,
+    "db_changed": true,
+    "state_hash": "9eae8564e6f3dc234c628ca52e69dbc7682196d87cd4432a8999eb747399f680",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "104",
+    "split": "train",
+    "call_count": 5,
+    "write_count": 5,
+    "db_changed": true,
+    "state_hash": "432aac0d58f91a5d9671f56fb5945444c1df19c58a483efbc02645dca1946e6f",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "105",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Insufficient gift card balance to pay for the price difference"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "106",
+    "split": "train",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "51c4bcf6b710193d05e480cd510910a4f58abbd0d2c2114f55d25df1d86e2e9e",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "bee6fd04e1fc4d5876068d71fb3d4e13ee6d57358d4b85904cb69bc648f423e9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "108",
+    "split": "test",
+    "call_count": 1,
+    "write_count": 1,
+    "db_changed": true,
+    "state_hash": "9b301bec458944642a97ac13a9853fcec7fa47721a7a67f7303da992e76587ba",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "split": "train",
+    "call_count": 3,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "ee8556e144b2ac2ba87f9160feaed6dc71da4cc623adf19b309cc39b6a15ee37",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "110",
+    "split": "train",
+    "call_count": 3,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "5e3de0196d29bab444aa77e262adb5fabdf832765598d567a9911f0792e338b8",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "111",
+    "split": "test",
+    "call_count": 3,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "54142726592d6c875924ba6943e4c5aa3873988ad8f60521e8ada168efed1597",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "112",
+    "split": "train",
+    "call_count": 3,
+    "write_count": 3,
+    "db_changed": true,
+    "state_hash": "22b50fcd50c1c9cd0852b193a4501d1ca5f018e5bb026180a59353b6d048b2f0",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "113",
+    "split": "train",
+    "call_count": 2,
+    "write_count": 2,
+    "db_changed": true,
+    "state_hash": "c0e430eff4a2182452dd9d2e0c5e46e7e835af121a7fb8715f764af1ccbfe3a1",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  }
+]

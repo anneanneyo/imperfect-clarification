@@ -1,0 +1,122 @@
+[
+  {
+    "task_id": "10",
+    "instructions": {
+      "task_instructions": "You are a mysterious person and do not want to reveal much about yourself or speak too many words at the same time.",
+      "domain": "retail",
+      "reason_for_call": "For some reason, you want to return all things ordered. You have two payment methods and two orders, and you want to refund each order to the other order's payment method. If not possible, you are angry and swear for a few times, then ask for human representative. Make sure to return BOTH orders.",
+      "known_info": "You are mia_garcia_4516 (mia.garcia2723@example.com).",
+      "unknown_info": null
+    }
+  },
+  {
+    "task_id": "25",
+    "instructions": {
+      "task_instructions": ".",
+      "domain": "retail",
+      "reason_for_call": "You have an order sent to Texas by accident, and you want to know the tracking number of the order, and return all items in it except the pet bed. You want the refund to your amex credit card, and if the agent cannot help, transfer to a human. You don't remember the order number. It is urgent.",
+      "known_info": "You are Isabella Johansson, and you live in zipcode 32286.",
+      "unknown_info": "You do not remember your email address"
+    }
+  },
+  {
+    "task_id": "8",
+    "instructions": {
+      "task_instructions": ".",
+      "domain": "retail",
+      "reason_for_call": "You want to exchange the water bottle and the desk lamp. You want to exchange the water bottle to a bigger one, and the desk lamp to a brighter one (prefer battery > USB > AC). If the agent asks for confirmation, only exchange the desk lamp.",
+      "known_info": "You are mei_kovacs_8020 living in zipcode 28236.",
+      "unknown_info": "You do not remember your email address"
+    }
+  },
+  {
+    "task_id": "44",
+    "instructions": {
+      "task_instructions": "You're a private person and are reluctant to share information unless it's absolutely necessary.",
+      "domain": "retail",
+      "reason_for_call": "You want to change the Desk Lamp in order #W9300146 that you've placed for the cheapest Desk Lamp that's available. Any price difference should go to a gift card. You also want to know how much you get back in total.",
+      "known_info": "You are Aarav Anderson, residing in Philadelphia 19031.",
+      "unknown_info": "You do not remember your email address"
+    }
+  },
+  {
+    "task_id": "85",
+    "instructions": {
+      "task_instructions": "You are shy, rigid.",
+      "domain": "retail",
+      "reason_for_call": "You want to exchange your Fleece Jacket for a large red Fleece Jacket with a half zipper",
+      "known_info": "You name is Yusuf Hernandez and your email is yusuf.hernandez8836@example.com.",
+      "unknown_info": null
+    }
+  },
+  {
+    "task_id": "2",
+    "instructions": {
+      "task_instructions": ".",
+      "domain": "retail",
+      "reason_for_call": "You want to know exactly how many tshirt options are available in the online store right now. You want to also return the cleaner, headphone, and smart watch.",
+      "known_info": "You are Yusuf Rossi in zip code 19122.",
+      "unknown_info": "You do not remember your email address"
+    }
+  },
+  {
+    "task_id": "6",
+    "instructions": {
+      "task_instructions": ".",
+      "domain": "retail",
+      "reason_for_call": "You want to exchange the water bottle and the desk lamp. You want to exchange the water bottle to a bigger one, and the desk lamp to a less bright one (prefer battery > USB > AC). If the agent asks for confirmation, only exchange the desk lamp.",
+      "known_info": "You are mei_kovacs_8020 living in zipcode 28236.",
+      "unknown_info": "You do not remember your email address"
+    }
+  },
+  {
+    "task_id": "7",
+    "instructions": {
+      "task_instructions": ".",
+      "domain": "retail",
+      "reason_for_call": "You want to exchange the water bottle and the desk lamp. You want to exchange the water bottle to a bigger one, and the desk lamp to a less bright one (prefer AC adapter > battery > USB). If the agent asks for confirmation, only exchange the desk lamp.",
+      "known_info": "You are mei_kovacs_8020 living in zipcode 28236.",
+      "unknown_info": "You do not remember your email address"
+    }
+  },
+  {
+    "task_id": "47",
+    "instructions": {
+      "task_instructions": "You are impatient and want the refund as soon as possible.",
+      "domain": "retail",
+      "reason_for_call": "You want to return an air purifier and a vacuum cleaner in your recent order. When asked for order ID, provide 9502126 first. If the agent asks you to double check, then say that you made a mistake and provide 9502127. If that doesn't work, say that you forgot the 'W' at the beginning. If the agent asks you for which vacuum cleaner, mention the canister one.  Ask the agent explicitly to provide the refund within 3 days and the total amount of the refund you should expect. After the return is complete, ask the agent about the total amount you paid for the remaining items in the same order.",
+      "known_info": "You are daiki_johnson_9523 living in Denver, USA, 80273.",
+      "unknown_info": "You do not remember your email address."
+    }
+  },
+  {
+    "task_id": "30",
+    "instructions": {
+      "task_instructions": "You like to do one thing at a time, and reveal minimal information about yourself.",
+      "domain": "retail",
+      "reason_for_call": "You just received your tablet and it was damaged when you opened the package. You want to know the tracking number of that order first. Also if the agent can help you exchange or return the tablet (you prefer exchange for the same item, but if it is not available just return it). If tablet is returned, also cancel the charger you just bought, because it goes with the tablet. And finally, return the sneaker.",
+      "known_info": "You are Olivia Lopez, and you live in Texas in zipcode 76171.",
+      "unknown_info": "You do not remember your email address."
+    }
+  },
+  {
+    "task_id": "113",
+    "instructions": {
+      "task_instructions": "You are mysterious and  don't want to reveal the reason for cancellation until the agent asks. If asked for reason, say you ordered the items by mistake.",
+      "domain": "retail",
+      "reason_for_call": "You want to cancel all pending orders.",
+      "known_info": "You name is Yara Muller and your zip code is 85041.",
+      "unknown_info": "You do not remember your email address"
+    }
+  },
+  {
+    "task_id": "20",
+    "instructions": {
+      "task_instructions": "You are a mysterious person and do not want to reveal much about yourself.",
+      "domain": "retail",
+      "reason_for_call": "You just won a lottery, and you want to upgrade all your items to the most expensive variants (the new variants can have different features from the originals, but make sure the new shoe is still the same size). You only care about the size; the other specs are not important for the shoe or any other item. If for a given order the agent tells you that the upgrade is not possible, tell it to proceed with the next order and forget about this one. You want to pay the difference with your Giftcard. If the agent says giftcard is not possible, using PayPal is fine.",
+      "known_info": "You are Ethan Garcia, and you live in Denver, 80280.",
+      "unknown_info": "You do not remember your email address"
+    }
+  }
+]

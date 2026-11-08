@@ -1,0 +1,1782 @@
+[
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00298",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00298",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00109",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00127",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00127",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00112",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00282",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "failed_payment",
+      "fee_question"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00282",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "field": "issue",
+    "prediction": [
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "field": "product",
+    "prediction": [
+      "card",
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00299",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00377",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00377",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00070",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00263",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00370",
+    "field": "money_gone",
+    "prediction": [
+      "yes"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00345",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00345",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00073",
+    "field": "issue",
+    "prediction": [
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00073",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00073",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00467",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00363",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00363",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "field": "issue",
+    "prediction": [
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00491",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00474",
+    "field": "issue",
+    "prediction": [
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00474",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00474",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00474",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00037",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00249",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00213",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00248",
+    "field": "issue",
+    "prediction": [
+      "change_request",
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00248",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00248",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00232",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00232",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00063",
+    "field": "issue",
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00278",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00278",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00115",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00115",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00340",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00433",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00034",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00034",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00354",
+    "field": "product",
+    "prediction": [
+      "current_account",
+      "savings"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00354",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00110",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00470",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "failed_payment",
+      "fee_question",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00293",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00389",
+    "field": "issue",
+    "prediction": [
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00389",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00389",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00175",
+    "field": "issue",
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00175",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00175",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00175",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "field": "issue",
+    "prediction": [
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00455",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00455",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00181",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00490",
+    "field": "issue",
+    "prediction": [
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00490",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00490",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00214",
+    "field": "issue",
+    "prediction": [
+      "fee_question"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00214",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00426",
+    "field": "issue",
+    "prediction": [
+      "fee_question"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00426",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00426",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00406",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00087",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00087",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00176",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00403",
+    "field": "issue",
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00403",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00403",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00375",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00042",
+    "field": "issue",
+    "prediction": [
+      "unrecognized_charge",
+      "lost_card",
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00234",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00234",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00234",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00143",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00447",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00447",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00079",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00158",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00379",
+    "field": "issue",
+    "prediction": [
+      "change_request"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00144",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00144",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00057",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00166",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00166",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00336",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "fee_question",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00315",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00268",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00031",
+    "field": "issue",
+    "prediction": [
+      "unrecognized_charge",
+      "fee_question",
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00031",
+    "field": "product",
+    "prediction": [
+      "card",
+      "current_account",
+      "savings"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00031",
+    "field": "money_gone",
+    "prediction": [
+      "yes"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00281",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00281",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00344",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00203",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00203",
+    "field": "money_gone",
+    "prediction": [
+      "yes"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00084",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card"
+    ],
+    "excludes_positive_prior_value": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00350",
+    "field": "product",
+    "prediction": [
+      "card"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00350",
+    "field": "money_gone",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00350",
+    "field": "compensation",
+    "prediction": [
+      "no"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00279",
+    "field": "issue",
+    "prediction": [
+      "failed_payment"
+    ],
+    "conditional_positive_prior_support": [
+      "failed_payment",
+      "fee_question",
+      "lost_card",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00279",
+    "field": "product",
+    "prediction": [
+      "current_account"
+    ],
+    "conditional_positive_prior_support": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00279",
+    "field": "compensation",
+    "prediction": [
+      "yes"
+    ],
+    "conditional_positive_prior_support": [
+      "no",
+      "yes"
+    ],
+    "excludes_positive_prior_value": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00425",
+    "field": "issue",
+    "prediction": [
+      "fee_question"
+    ],
+    "conditional_positive_prior_support": [
+      "change_request",
+      "unrecognized_charge"
+    ],
+    "excludes_positive_prior_value": true
+  }
+]

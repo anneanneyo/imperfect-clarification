@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "vectors": 144,
+  "error": null,
+  "elapsed_seconds": 55.69423470797483,
+  "peak_memory_gb": 2.629008664,
+  "input_tokens_completed": 11754,
+  "new_decoded_tokens": 0
+}

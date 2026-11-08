@@ -1,0 +1,610 @@
+[
+  {
+    "blind_id": "B001",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана запрошенная версия фильма: 1965 год.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B002",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указано, какое из перечисленных географических значений Antigua имеется в виду.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B003",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Уточнён смысл take over: приобретение, а не иной вид изменения операций.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B004",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Назван исполнитель, различающий версии песни.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B005",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указан вид произведения и его название: анимационный фильм.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B006",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана предложенная категория официального сериала; номер эпизода уже есть в исходном запросе.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B007",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Уточнено, что речь об игре с данным названием, а не об идиоме.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B008",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана предложенная категория конкретного места, а не метафоры или ошибки названия.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B009",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбран presiding officer из двух запрошенных ролей.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B010",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "has_useful_constraint_on_surface": "no",
+    "rationale": "Только явное незнание; издание или версия книги не указаны.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B011",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Однозначно выбрано одно из двух предложенных названий шоу.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B012",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указан запрошенный год: 2016.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B013",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указано новое Will & Grace; отвергнута навязанная альтернатива New Girl и уточнена версия.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B014",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указано, что речь об анимационном сериале.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B015",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Исправлено и подтверждено название произведения.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B016",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Названа запрошенная метрика размера: число станций.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B017",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Назван артист; вопрос предлагал артиста, альбом или иной контекст как альтернативные способы уточнения.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B018",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Названы конкретное произведение и его год, определяющие нужного коня.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B019",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана версия Josh Turner из предложенных вариантов.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B020",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Уточнено, что number означает телефонный номер в песне.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B021",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Назван конкретный Hall of Fame.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B022",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указана запрошенная адаптация: радиопостановка.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B023",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Подтверждено, что имеется в виду указанное телешоу.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B024",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указано место нужной гонки, как и предлагал уточняющий вопрос.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B025",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Разъяснено, что The Who — выступающая группа.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B026",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Подтверждены персонаж Sled и произведение, а не предмет или другое шоу.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B027",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрано телешоу из предложенных типов объекта.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B028",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбран фильм из предложенных категорий.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B029",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указана запрошенная роль: судья.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B030",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Отвечены обе буквально запрошенные развилки: U.S. SBA и исторический, не текущий администратор. Конкретный год в вопросе не запрошен.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B031",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указан тип произведения — телешоу; его название дано в исходном запросе.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B032",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана предложенная интерпретация конкретного олимпийского вида спорта.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B033",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Названы конкретный персонаж и литературный контекст.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B034",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Уточнены и персонаж/произведение, и интерес к происхождению имени в связи с частью тела.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B035",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана киноадаптация указанного произведения.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B036",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбран University of Cincinnati из двух значений UC.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B037",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Пользователь явно задаёт общую область Windows Server 2008 без ограничения версией. Это содержательное уточнение объёма запроса, не заявление о незнании.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B038",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Назван исполнитель, различающий версии песни.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B039",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана метрика удалённости от центра Земли, а не высоты над морем.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B040",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбран предложенный персонаж Zorro Jr.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B041",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указано конкретное произведение: песня Tribute группы Tenacious D.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B042",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Названа первая часть Iron Man, несмотря на предпосылки уточняющего вопроса; истинность предпосылок здесь не оценивается.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B043",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Назван исполнитель песни Angel.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B044",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Отвечены обе части: современный человек и музыкальная группа.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B045",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбран исходный анимационный короткометражный фильм.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B046",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указан тип произведения: фильм.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B047",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Подтверждены название и тип произведения.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B048",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Названы конкретная экранизация и год.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B049",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбран фильм, а не библейский рассказ.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B050",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указан запрошенный временной контекст: 2017 год.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B051",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Уточнено, что Golden Age Passport — конкретный пропуск, с явным исключением национального паспорта и метафоры. Вопрос о типе объекта получил ответ; организация-эмитент отдельно не запрашивалась.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B052",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указана студийная версия песни, а не живое выступление или строка текста.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B053",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Назван конкретный персонаж Owen Hunt.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B054",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указано название пожара — один из предложенных способов его идентификации.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B055",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбран индивидуальный вид спорта из двух предложенных категорий.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B056",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "has_useful_constraint_on_surface": "no",
+    "rationale": "Только явное незнание; нужная географическая/хронологическая интерпретация не выбрана.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B057",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрано начало военного участия в Европе из трёх предложенных событий.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B058",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Названы перезапуск 2016 года и его точное название.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B059",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указан год выпуска; вопрос разрешал идентификацию по году или режиссёру.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B060",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указан запрошенный сезон: пятнадцатый.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B061",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Исправлено название телесериала.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B062",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Уточнено включение 2022 года во временную область вопроса.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B063",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана категория медиапроекта, предложенная уточняющим вопросом; название есть в исходном запросе.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B064",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Выбрана сумма очков игрока, а не показатель отдельного матча.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B065",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Уточнено, что речь о реальной семье из указанного телешоу, а не вымышленных персонажах.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B066",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Разъяснены и название бизнеса, и смысл первоначального открытия ресторана.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B067",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указаны и Toby, и The Office как телевизионный контекст.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B068",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Названа конкретная версия: телесериал 1987 года.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B069",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Дан конкретный запрошенный интервал дат.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B070",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Дан год конкретной версии видео. По поверхности это идентификатор версии; знание о возможных совпадениях года не предполагается.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B071",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Назван нужный вид футбола: австралийский.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B072",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Подтверждено точное название Anna (Go to Him).",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B073",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указан сезон три; вопрос предлагал сезон или регион как альтернативы.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B074",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Названы исполнители конкретной версии песни.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B075",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Указана запрошенная страна.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "B076",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Разъяснено, что нужен ведущий вокалист конкретной песни, а не тайный участник или скрытое сообщение.",
+    "annotation_status": "assistant_provisional"
+  }
+]

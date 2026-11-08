@@ -1,0 +1,13 @@
+{
+  "reviewer": "single assistant; unblinded post-outcome targeted review; not independent human labels",
+  "sample_cases": 24,
+  "pool_cases": 60,
+  "field_disagreements": 44,
+  "assessments": {
+    "model_not_supported_by_text": 39,
+    "model_supported_annotation_incomplete": 1,
+    "ambiguous_text_or_ontology": 4
+  },
+  "primary_metrics_unchanged": true,
+  "population_prevalence_claim": false
+}

@@ -1,0 +1,357 @@
+[
+  {
+    "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4",
+    "features": [
+      {
+        "order_id": "#W3931703",
+        "names": [
+          "Bluetooth Speaker",
+          "Electric Kettle",
+          "Electric Kettle",
+          "Garden Hose"
+        ],
+        "total_cents": 72734,
+        "count": 4
+      },
+      {
+        "order_id": "#W6724985",
+        "names": [
+          "Bookshelf",
+          "Water Bottle"
+        ],
+        "total_cents": 55324,
+        "count": 2
+      },
+      {
+        "order_id": "#W9015076",
+        "names": [
+          "Bookshelf",
+          "Digital Camera",
+          "Water Bottle"
+        ],
+        "total_cents": 342245,
+        "count": 3
+      },
+      {
+        "order_id": "#W9132840",
+        "names": [
+          "Cycling Helmet",
+          "Cycling Helmet",
+          "Skateboard"
+        ],
+        "total_cents": 59857,
+        "count": 3
+      }
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "symbolic_metrics": {
+      "no_ask": {
+        "accuracy": 0.25,
+        "information_gain_bits": 0.0
+      },
+      "order_id": {
+        "accuracy": 0.5125,
+        "information_gain_bits": 0.7
+      },
+      "contents": {
+        "accuracy": 0.85,
+        "information_gain_bits": 1.6179467635397495
+      },
+      "total": {
+        "accuracy": 0.7,
+        "information_gain_bits": 1.2
+      },
+      "count": {
+        "accuracy": 0.7,
+        "information_gain_bits": 1.35
+      }
+    },
+    "symbolic_evsi": "contents",
+    "entropy": "contents"
+  },
+  {
+    "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19",
+    "features": [
+      {
+        "order_id": "#W2564042",
+        "names": [
+          "Air Purifier",
+          "Hiking Boots",
+          "Laptop"
+        ],
+        "total_cents": 353275,
+        "count": 3
+      },
+      {
+        "order_id": "#W3260419",
+        "names": [
+          "Dumbbell Set",
+          "Electric Kettle",
+          "Hiking Boots",
+          "Smart Watch",
+          "Smart Watch"
+        ],
+        "total_cents": 148451,
+        "count": 5
+      },
+      {
+        "order_id": "#W6885344",
+        "names": [
+          "Backpack"
+        ],
+        "total_cents": 21279,
+        "count": 1
+      }
+    ],
+    "labels": [
+      "A",
+      "B",
+      "C"
+    ],
+    "symbolic_metrics": {
+      "no_ask": {
+        "accuracy": 0.3333333333333333,
+        "information_gain_bits": 0.0
+      },
+      "order_id": {
+        "accuracy": 0.5666666666666667,
+        "information_gain_bits": 0.5547368752524044
+      },
+      "contents": {
+        "accuracy": 0.8958333333333333,
+        "information_gain_bits": 1.3402587887460435
+      },
+      "total": {
+        "accuracy": 0.7333333333333333,
+        "information_gain_bits": 0.9509775004326936
+      },
+      "count": {
+        "accuracy": 0.9333333333333333,
+        "information_gain_bits": 1.4264662506490404
+      }
+    },
+    "symbolic_evsi": "count",
+    "entropy": "count"
+  },
+  {
+    "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0",
+    "features": [
+      {
+        "order_id": "#W5158064",
+        "names": [
+          "Cycling Helmet",
+          "Espresso Machine",
+          "Wristwatch"
+        ],
+        "total_cents": 491415,
+        "count": 3
+      },
+      {
+        "order_id": "#W9767156",
+        "names": [
+          "Bluetooth Speaker",
+          "Cycling Helmet",
+          "Electric Kettle",
+          "Wall Clock",
+          "Water Bottle"
+        ],
+        "total_cents": 93475,
+        "count": 5
+      }
+    ],
+    "labels": [
+      "A",
+      "B"
+    ],
+    "symbolic_metrics": {
+      "no_ask": {
+        "accuracy": 0.5,
+        "information_gain_bits": 0.0
+      },
+      "order_id": {
+        "accuracy": 0.675,
+        "information_gain_bits": 0.35
+      },
+      "contents": {
+        "accuracy": 0.905,
+        "information_gain_bits": 0.7854679196490042
+      },
+      "total": {
+        "accuracy": 0.8,
+        "information_gain_bits": 0.6
+      },
+      "count": {
+        "accuracy": 0.95,
+        "information_gain_bits": 0.9
+      }
+    },
+    "symbolic_evsi": "count",
+    "entropy": "count"
+  },
+  {
+    "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999",
+    "features": [
+      {
+        "order_id": "#W5911003",
+        "names": [
+          "Garden Hose",
+          "Hiking Boots",
+          "Office Chair"
+        ],
+        "total_cents": 88158,
+        "count": 3
+      },
+      {
+        "order_id": "#W8327915",
+        "names": [
+          "Air Purifier",
+          "Headphones",
+          "Laptop",
+          "Skateboard",
+          "Sunglasses"
+        ],
+        "total_cents": 384486,
+        "count": 5
+      }
+    ],
+    "labels": [
+      "A",
+      "B"
+    ],
+    "symbolic_metrics": {
+      "no_ask": {
+        "accuracy": 0.5,
+        "information_gain_bits": 0.0
+      },
+      "order_id": {
+        "accuracy": 0.675,
+        "information_gain_bits": 0.35
+      },
+      "contents": {
+        "accuracy": 0.95,
+        "information_gain_bits": 0.9
+      },
+      "total": {
+        "accuracy": 0.8,
+        "information_gain_bits": 0.6
+      },
+      "count": {
+        "accuracy": 0.95,
+        "information_gain_bits": 0.9
+      }
+    },
+    "symbolic_evsi": "contents",
+    "entropy": "contents"
+  },
+  {
+    "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2",
+    "features": [
+      {
+        "order_id": "#W2079779",
+        "names": [
+          "Action Camera",
+          "Sunglasses"
+        ],
+        "total_cents": 75770,
+        "count": 2
+      },
+      {
+        "order_id": "#W9077472",
+        "names": [
+          "Bluetooth Speaker",
+          "Espresso Machine",
+          "Tablet",
+          "Wireless Earbuds"
+        ],
+        "total_cents": 429975,
+        "count": 4
+      }
+    ],
+    "labels": [
+      "A",
+      "B"
+    ],
+    "symbolic_metrics": {
+      "no_ask": {
+        "accuracy": 0.5,
+        "information_gain_bits": 0.0
+      },
+      "order_id": {
+        "accuracy": 0.675,
+        "information_gain_bits": 0.35
+      },
+      "contents": {
+        "accuracy": 0.9500000000000001,
+        "information_gain_bits": 0.9
+      },
+      "total": {
+        "accuracy": 0.8,
+        "information_gain_bits": 0.6
+      },
+      "count": {
+        "accuracy": 0.95,
+        "information_gain_bits": 0.9
+      }
+    },
+    "symbolic_evsi": "contents",
+    "entropy": "contents"
+  },
+  {
+    "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399",
+    "features": [
+      {
+        "order_id": "#W3130816",
+        "names": [
+          "Bookshelf"
+        ],
+        "total_cents": 45101,
+        "count": 1
+      },
+      {
+        "order_id": "#W9222585",
+        "names": [
+          "Electric Toothbrush",
+          "Makeup Kit",
+          "Patio Umbrella",
+          "Smart Watch",
+          "Sunglasses"
+        ],
+        "total_cents": 142067,
+        "count": 5
+      }
+    ],
+    "labels": [
+      "A",
+      "B"
+    ],
+    "symbolic_metrics": {
+      "no_ask": {
+        "accuracy": 0.5,
+        "information_gain_bits": 0.0
+      },
+      "order_id": {
+        "accuracy": 0.675,
+        "information_gain_bits": 0.35
+      },
+      "contents": {
+        "accuracy": 0.95,
+        "information_gain_bits": 0.9
+      },
+      "total": {
+        "accuracy": 0.8,
+        "information_gain_bits": 0.6
+      },
+      "count": {
+        "accuracy": 0.95,
+        "information_gain_bits": 0.9
+      }
+    },
+    "symbolic_evsi": "contents",
+    "entropy": "contents"
+  }
+]

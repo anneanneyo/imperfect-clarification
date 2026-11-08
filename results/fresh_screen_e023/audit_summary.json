@@ -1,0 +1,35 @@
+{
+  "reviewer": "single assistant; interpretations frozen before reference join; not independent human annotation",
+  "source_labels_changed": false,
+  "groups": 30,
+  "type_results": {
+    "initial": {
+      "units": 24,
+      "fields": 96,
+      "exact_fields": 96,
+      "exact_units": 24,
+      "known_fields": 43,
+      "known_exact": 43,
+      "unknown_fields": 53,
+      "unknown_exact": 53,
+      "blind_ambiguous_fields": 0
+    },
+    "reply": {
+      "units": 12,
+      "fields": 48,
+      "exact_fields": 48,
+      "exact_units": 12,
+      "known_fields": 23,
+      "known_exact": 23,
+      "unknown_fields": 25,
+      "unknown_exact": 25,
+      "blind_ambiguous_fields": 1
+    }
+  },
+  "reply_kinds": {
+    "unknown": 3,
+    "extra": 3,
+    "partial": 3,
+    "clean": 3
+  }
+}

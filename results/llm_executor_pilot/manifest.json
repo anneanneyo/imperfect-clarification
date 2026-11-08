@@ -1,0 +1,25 @@
+{
+  "status": "prepared_not_model_results",
+  "commit": "27466a7832d5aafff82017a659e08942e18b01ae",
+  "dataset_sha256": "5b504b16453dac64ed80aa426de2c75f843621245251289b83e74a83bc7502f5",
+  "selected_records": [
+    59,
+    84,
+    41,
+    28,
+    62,
+    8,
+    64,
+    11,
+    19,
+    5,
+    42,
+    66
+  ],
+  "cases": 300,
+  "case_hash": "891274d15deaa5b97499d8f227e8a9b5dd0253c56759b92a36b314acd8e70941",
+  "system": "Recommend one flight for this user. Use the history and any clarification. Reply with exactly a JSON object {\"choice\":\"A\"}, choosing A, B, or C. No explanation.",
+  "smoke_calls": 25,
+  "full_calls": 300,
+  "max_output_tokens_per_call": 512
+}

@@ -1,0 +1,21 @@
+{
+  "repo": "https://github.com/ngocminhta/RegretBench",
+  "revision": "b2978e1c2e31b7a7c4e1508ee3e1fa1cb98f4aa7",
+  "date": "2026-10-27",
+  "audit_scope": "Read-only source inspection; semantic.py selected functions, other named algorithm files read. No model calls or benchmark execution. Dataset cards read; instance contents not read in this block. Hashes identify files, not an assertion that every line was reviewed.",
+  "files": {
+    "README.md": "b8700d7643b3789c6b464e58f4d4ddd1cbf92107d723b7a83000a9f37c569d71",
+    "LICENSE": "0013ea3e438aa28fdc503845a3308c18f3eae4b1b354adf306bcc3652d8739a3",
+    "pyproject.toml": "38602b21a500613661dda061b24ff8296926989e64dcf63c23912c8ebca99180",
+    "src/regretbench/core/oracle.py": "ed9cfa3a889f5a76b9be471ab2cd7f090d2d2e1811dd1dbd9dbb86fa8fd67318",
+    "src/regretbench/core/belief.py": "81f78b6455dd88c119c27ed2e9ce3ae12fa2f2dab5c380c68adaeb0bbd5d859d",
+    "src/regretbench/core/semantic.py": "860cdab5a7136c2ad70a79d9f8b81db8da377f69f5c5d2df3645622110a4c54c",
+    "src/regretbench/policies/greedy_voi.py": "df57e9bf22e963c6c70b2d2ed9842a135a7fdccc58de661469cec821877db8a1",
+    "src/regretbench/schemas/cig.py": "6ae414902cfaf482a0a6e230a9b328e870eb701a38218c2f6e0a75899dbe7326",
+    "src/regretbench/resources/evaluation_config/simulator_spec.json": "181daaf2482605da746e7dc4a258c66d86e4dcdfb3805d210b0f74d667b2d33c",
+    "data/OpenDomainQA/DATASET_CARD.md": "425a88e680ed64e371ac3a0ab890afc1bf55cb64370cab8c1291b4975ec156ec",
+    "data/ProductRecommendation/DATASET_CARD.md": "290403fe7c7c657b54943ecc2529aba6df56f2d416ca24d0596fd2e0ac29a771"
+  },
+  "upstream_python_executed": false,
+  "models_downloaded": false
+}

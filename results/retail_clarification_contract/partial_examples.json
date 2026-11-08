@@ -1,0 +1,1408 @@
+[
+  {
+    "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Bluetooth Speaker",
+          "Electric Kettle",
+          "Electric Kettle",
+          "Garden Hose"
+        ],
+        "count": 4
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Bookshelf",
+          "Water Bottle"
+        ],
+        "count": 2
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Bookshelf",
+          "Digital Camera",
+          "Water Bottle"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 3,
+        "names": [
+          "Cycling Helmet",
+          "Cycling Helmet",
+          "Skateboard"
+        ],
+        "count": 3
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Bookshelf"
+        ],
+        "mass": 0.09375,
+        "posterior": [
+          0.0,
+          0.6,
+          0.39999999999999997,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0,
+          0.5,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.10000000000000003,
+        "bayes_choice": 1,
+        "naive_choice": 1,
+        "accuracy_loss_contribution": 0.0
+      },
+      {
+        "observation": [
+          "one_name",
+          "Water Bottle"
+        ],
+        "mass": 0.09375,
+        "posterior": [
+          0.0,
+          0.6,
+          0.39999999999999997,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0,
+          0.5,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.10000000000000003,
+        "bayes_choice": 1,
+        "naive_choice": 1,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Air Purifier",
+          "Hiking Boots",
+          "Laptop"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Dumbbell Set",
+          "Electric Kettle",
+          "Hiking Boots",
+          "Smart Watch",
+          "Smart Watch"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Backpack"
+        ],
+        "count": 1
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Hiking Boots"
+        ],
+        "mass": 0.0875,
+        "posterior": [
+          0.5714285714285714,
+          0.4285714285714286,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.0714285714285714,
+        "bayes_choice": 0,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Cycling Helmet",
+          "Espresso Machine",
+          "Wristwatch"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Bluetooth Speaker",
+          "Cycling Helmet",
+          "Electric Kettle",
+          "Wall Clock",
+          "Water Bottle"
+        ],
+        "count": 5
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Cycling Helmet"
+        ],
+        "mass": 0.12,
+        "posterior": [
+          0.625,
+          0.375
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.125,
+        "bayes_choice": 0,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Dumbbell Set",
+          "Mechanical Keyboard",
+          "Skateboard",
+          "Tablet"
+        ],
+        "count": 4
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Tablet"
+        ],
+        "count": 1
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Tablet"
+        ],
+        "mass": 0.28125,
+        "posterior": [
+          0.2,
+          0.8
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.30000000000000004,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.16875
+      }
+    ]
+  },
+  {
+    "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Dumbbell Set",
+          "Vacuum Cleaner"
+        ],
+        "count": 2
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Electric Toothbrush",
+          "Portable Charger",
+          "Vacuum Cleaner",
+          "Wireless Earbuds"
+        ],
+        "count": 4
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Vacuum Cleaner"
+        ],
+        "mass": 0.16875,
+        "posterior": [
+          0.6666666666666666,
+          0.3333333333333333
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.16666666666666669,
+        "bayes_choice": 0,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Cycling Helmet",
+          "Digital Camera"
+        ],
+        "count": 2
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Digital Camera",
+          "Digital Camera",
+          "Espresso Machine",
+          "Sneakers",
+          "Vacuum Cleaner"
+        ],
+        "count": 5
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Digital Camera"
+        ],
+        "mass": 0.16875,
+        "posterior": [
+          0.6666666666666666,
+          0.3333333333333333
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.16666666666666669,
+        "bayes_choice": 0,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Cycling Helmet",
+          "Espresso Machine",
+          "Garden Hose"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Espresso Machine",
+          "Gaming Mouse"
+        ],
+        "count": 2
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Espresso Machine"
+        ],
+        "mass": 0.1875,
+        "posterior": [
+          0.39999999999999997,
+          0.6
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.10000000000000003,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.037500000000000006
+      }
+    ]
+  },
+  {
+    "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Espresso Machine",
+          "T-Shirt"
+        ],
+        "count": 2
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "T-Shirt"
+        ],
+        "count": 1
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "T-Shirt"
+        ],
+        "mass": 0.3375,
+        "posterior": [
+          0.3333333333333333,
+          0.6666666666666666
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.16666666666666669,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.1125
+      }
+    ]
+  },
+  {
+    "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Backpack",
+          "Grill",
+          "Jigsaw Puzzle",
+          "Perfume",
+          "Smart Watch"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Dumbbell Set",
+          "Garden Hose",
+          "Luggage Set",
+          "Perfume"
+        ],
+        "count": 4
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Perfume"
+        ],
+        "mass": 0.10125,
+        "posterior": [
+          0.4444444444444444,
+          0.5555555555555556
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.05555555555555558,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.011250000000000003
+      }
+    ]
+  },
+  {
+    "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Desk Lamp",
+          "Espresso Machine",
+          "Espresso Machine",
+          "T-Shirt",
+          "Tea Kettle"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Espresso Machine",
+          "Gaming Mouse",
+          "Vacuum Cleaner"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Running Shoes",
+          "Wristwatch"
+        ],
+        "count": 2
+      },
+      {
+        "local_index": 3,
+        "names": [
+          "Mechanical Keyboard",
+          "Tea Kettle"
+        ],
+        "count": 2
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Espresso Machine"
+        ],
+        "mass": 0.065625,
+        "posterior": [
+          0.42857142857142855,
+          0.5714285714285714,
+          0.0,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5,
+          0,
+          0
+        ],
+        "max_probability_error": 0.07142857142857145,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.009374999999999998
+      },
+      {
+        "observation": [
+          "one_name",
+          "Tea Kettle"
+        ],
+        "mass": 0.084375,
+        "posterior": [
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.6666666666666666
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0,
+          0,
+          0.5
+        ],
+        "max_probability_error": 0.16666666666666669,
+        "bayes_choice": 3,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.028125
+      }
+    ]
+  },
+  {
+    "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Electric Toothbrush"
+        ],
+        "count": 1
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Bookshelf",
+          "Dumbbell Set",
+          "Dumbbell Set",
+          "Gaming Mouse",
+          "Water Bottle"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Desk Lamp",
+          "Electric Kettle",
+          "Gaming Mouse",
+          "Headphones",
+          "Luggage Set"
+        ],
+        "count": 5
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Gaming Mouse"
+        ],
+        "mass": 0.0675,
+        "posterior": [
+          0.0,
+          0.5555555555555555,
+          0.4444444444444444
+        ],
+        "uniform_support_posterior": [
+          0,
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.05555555555555558,
+        "bayes_choice": 1,
+        "naive_choice": 1,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Bicycle",
+          "Jigsaw Puzzle",
+          "Luggage Set",
+          "Sunglasses"
+        ],
+        "count": 4
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Desk Lamp",
+          "Garden Hose",
+          "Wall Clock"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "T-Shirt"
+        ],
+        "count": 1
+      },
+      {
+        "local_index": 3,
+        "names": [
+          "Action Camera",
+          "Hiking Boots",
+          "Office Chair",
+          "Pet Bed",
+          "Smart Watch"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 4,
+        "names": [
+          "Backpack",
+          "Laptop",
+          "Wall Clock"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 5,
+        "names": [
+          "Backpack",
+          "Electric Kettle",
+          "Office Chair",
+          "Office Chair",
+          "Wristwatch"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 6,
+        "names": [
+          "Laptop",
+          "Sunglasses"
+        ],
+        "count": 2
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Backpack"
+        ],
+        "mass": 0.037500000000000006,
+        "posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5714285714285714,
+          0.42857142857142855,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.07142857142857145,
+        "bayes_choice": 4,
+        "naive_choice": 4,
+        "accuracy_loss_contribution": 0.0
+      },
+      {
+        "observation": [
+          "one_name",
+          "Laptop"
+        ],
+        "mass": 0.053571428571428575,
+        "posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.39999999999999997,
+          0.0,
+          0.6
+        ],
+        "uniform_support_posterior": [
+          0,
+          0,
+          0,
+          0,
+          0.5,
+          0,
+          0.5
+        ],
+        "max_probability_error": 0.10000000000000003,
+        "bayes_choice": 6,
+        "naive_choice": 4,
+        "accuracy_loss_contribution": 0.010714285714285718
+      },
+      {
+        "observation": [
+          "one_name",
+          "Office Chair"
+        ],
+        "mass": 0.02892857142857143,
+        "posterior": [
+          0.0,
+          0.0,
+          0.0,
+          0.4444444444444444,
+          0.0,
+          0.5555555555555556,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0,
+          0,
+          0,
+          0.5,
+          0,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.05555555555555558,
+        "bayes_choice": 5,
+        "naive_choice": 3,
+        "accuracy_loss_contribution": 0.0032142857142857164
+      },
+      {
+        "observation": [
+          "one_name",
+          "Sunglasses"
+        ],
+        "mass": 0.04821428571428572,
+        "posterior": [
+          0.3333333333333333,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.6666666666666666
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0.5
+        ],
+        "max_probability_error": 0.16666666666666669,
+        "bayes_choice": 6,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.016071428571428573
+      }
+    ]
+  },
+  {
+    "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Office Chair",
+          "Water Bottle",
+          "Wristwatch"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Cycling Helmet",
+          "Cycling Helmet",
+          "Digital Camera",
+          "Dumbbell Set",
+          "Water Bottle"
+        ],
+        "count": 5
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Water Bottle"
+        ],
+        "mass": 0.13125,
+        "posterior": [
+          0.5714285714285714,
+          0.42857142857142855
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.07142857142857145,
+        "bayes_choice": 0,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "0904e846b34debe58c9ca8ff589e5ce177ac659d409f32735b742d6044f2605c",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Hiking Boots",
+          "Mechanical Keyboard",
+          "Mechanical Keyboard",
+          "Sunglasses",
+          "Tablet"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Electric Kettle",
+          "Garden Hose",
+          "Grill",
+          "Jigsaw Puzzle",
+          "Portable Charger"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Smart Thermostat",
+          "Tablet",
+          "Vacuum Cleaner"
+        ],
+        "count": 3
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Tablet"
+        ],
+        "mass": 0.0875,
+        "posterior": [
+          0.4285714285714286,
+          0.0,
+          0.5714285714285714
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0,
+          0.5
+        ],
+        "max_probability_error": 0.0714285714285714,
+        "bayes_choice": 2,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.012499999999999997
+      }
+    ]
+  },
+  {
+    "family_hash": "d5a6c9e349ed8a7d4687d3ded1d2ae4b30e5282e296c1dc0fa892414a2172ee3",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Hiking Boots",
+          "Skateboard",
+          "Water Bottle"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Backpack",
+          "Desk Lamp",
+          "Garden Hose",
+          "Grill",
+          "Hiking Boots"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "T-Shirt",
+          "Vacuum Cleaner"
+        ],
+        "count": 2
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Hiking Boots"
+        ],
+        "mass": 0.07999999999999999,
+        "posterior": [
+          0.625,
+          0.37500000000000006,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.125,
+        "bayes_choice": 0,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "fa7c3e283be4087b4749c92429340fba309a3d59dbf09609282684372d657b49",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Bookshelf",
+          "Gaming Mouse",
+          "Luggage Set",
+          "Smart Watch",
+          "Vacuum Cleaner"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Action Camera",
+          "Laptop",
+          "Smart Watch",
+          "Smartphone"
+        ],
+        "count": 4
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Backpack",
+          "Grill"
+        ],
+        "count": 2
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Smart Watch"
+        ],
+        "mass": 0.0675,
+        "posterior": [
+          0.4444444444444444,
+          0.5555555555555555,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.05555555555555558,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0075
+      }
+    ]
+  },
+  {
+    "family_hash": "47653edde18108f3bae8d2c36b5b59f700a1079dfae11b3bdc8287a1d87cdb6e",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Office Chair",
+          "Skateboard",
+          "Smart Watch",
+          "Vacuum Cleaner",
+          "Water Bottle"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Bluetooth Speaker",
+          "Makeup Kit",
+          "T-Shirt"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Bluetooth Speaker",
+          "Electric Kettle",
+          "Smart Watch",
+          "Sunglasses"
+        ],
+        "count": 4
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Bluetooth Speaker"
+        ],
+        "mass": 0.0875,
+        "posterior": [
+          0.0,
+          0.5714285714285714,
+          0.4285714285714286
+        ],
+        "uniform_support_posterior": [
+          0,
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.0714285714285714,
+        "bayes_choice": 1,
+        "naive_choice": 1,
+        "accuracy_loss_contribution": 0.0
+      },
+      {
+        "observation": [
+          "one_name",
+          "Smart Watch"
+        ],
+        "mass": 0.0675,
+        "posterior": [
+          0.4444444444444444,
+          0.0,
+          0.5555555555555555
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0,
+          0.5
+        ],
+        "max_probability_error": 0.05555555555555558,
+        "bayes_choice": 2,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0075
+      }
+    ]
+  },
+  {
+    "family_hash": "d18cf28b66b093090cebecaaadcac6896de250fc8980044bed98e99439798fb7",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Backpack",
+          "Desk Lamp",
+          "Indoor Security Camera"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Backpack",
+          "Perfume"
+        ],
+        "count": 2
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Air Purifier",
+          "Backpack"
+        ],
+        "count": 2
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Backpack"
+        ],
+        "mass": 0.19999999999999998,
+        "posterior": [
+          0.25,
+          0.375,
+          0.375
+        ],
+        "uniform_support_posterior": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "max_probability_error": 0.08333333333333331,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.025
+      }
+    ]
+  },
+  {
+    "family_hash": "6c4747e9bca21c2e12622cc16a79804fbeecdbb073e532d7fa25de199fe163fe",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Bluetooth Speaker",
+          "Electric Kettle",
+          "Makeup Kit",
+          "Office Chair",
+          "Water Bottle"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Digital Camera",
+          "Electric Kettle",
+          "Wall Clock"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Laptop"
+        ],
+        "count": 1
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Electric Kettle"
+        ],
+        "mass": 0.07999999999999999,
+        "posterior": [
+          0.37500000000000006,
+          0.625,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.125,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.019999999999999997
+      }
+    ]
+  },
+  {
+    "family_hash": "17ec842c621cf571dbd704c1b1bf62c6189308ffa80ec0f253f6f8da908bbc06",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Bookshelf",
+          "Skateboard",
+          "Smartphone",
+          "Wristwatch"
+        ],
+        "count": 4
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Coffee Maker",
+          "Dumbbell Set",
+          "Espresso Machine",
+          "Pet Bed"
+        ],
+        "count": 4
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Cycling Helmet",
+          "Digital Camera",
+          "Hiking Boots",
+          "Smartphone",
+          "T-Shirt"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 3,
+        "names": [
+          "Bicycle",
+          "Cycling Helmet",
+          "Office Chair",
+          "Wireless Earbuds",
+          "Wireless Earbuds"
+        ],
+        "count": 5
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Cycling Helmet"
+        ],
+        "mass": 0.050625,
+        "posterior": [
+          0.0,
+          0.0,
+          0.4444444444444444,
+          0.5555555555555556
+        ],
+        "uniform_support_posterior": [
+          0,
+          0,
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.05555555555555558,
+        "bayes_choice": 3,
+        "naive_choice": 2,
+        "accuracy_loss_contribution": 0.0056250000000000015
+      },
+      {
+        "observation": [
+          "one_name",
+          "Smartphone"
+        ],
+        "mass": 0.050625,
+        "posterior": [
+          0.5555555555555556,
+          0.0,
+          0.4444444444444444,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0,
+          0.5,
+          0
+        ],
+        "max_probability_error": 0.05555555555555558,
+        "bayes_choice": 0,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.0
+      }
+    ]
+  },
+  {
+    "family_hash": "3068cf9d2e35838e8a84e09c9a225a461d9fe9085ddf45bbc930263f63b00dcc",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Skateboard"
+        ],
+        "count": 1
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Bluetooth Speaker",
+          "Digital Camera",
+          "Jigsaw Puzzle",
+          "T-Shirt"
+        ],
+        "count": 4
+      },
+      {
+        "local_index": 2,
+        "names": [
+          "Bluetooth Speaker",
+          "Dumbbell Set",
+          "Fleece Jacket"
+        ],
+        "count": 3
+      },
+      {
+        "local_index": 3,
+        "names": [
+          "Bookshelf",
+          "Headphones"
+        ],
+        "count": 2
+      },
+      {
+        "local_index": 4,
+        "names": [
+          "Smart Watch"
+        ],
+        "count": 1
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Bluetooth Speaker"
+        ],
+        "mass": 0.0525,
+        "posterior": [
+          0.0,
+          0.42857142857142855,
+          0.5714285714285714,
+          0.0,
+          0.0
+        ],
+        "uniform_support_posterior": [
+          0,
+          0.5,
+          0.5,
+          0,
+          0
+        ],
+        "max_probability_error": 0.07142857142857145,
+        "bayes_choice": 2,
+        "naive_choice": 1,
+        "accuracy_loss_contribution": 0.0075
+      }
+    ]
+  },
+  {
+    "family_hash": "a763e4517f598962d222e9bd0be72a65e0dc120db8024202a62150295615239d",
+    "orders": [
+      {
+        "local_index": 0,
+        "names": [
+          "Backpack",
+          "Garden Hose",
+          "Smart Thermostat",
+          "T-Shirt",
+          "Wristwatch"
+        ],
+        "count": 5
+      },
+      {
+        "local_index": 1,
+        "names": [
+          "Backpack",
+          "Dumbbell Set",
+          "Hiking Boots"
+        ],
+        "count": 3
+      }
+    ],
+    "diagnostics": [
+      {
+        "observation": [
+          "one_name",
+          "Backpack"
+        ],
+        "mass": 0.12,
+        "posterior": [
+          0.375,
+          0.625
+        ],
+        "uniform_support_posterior": [
+          0.5,
+          0.5
+        ],
+        "max_probability_error": 0.125,
+        "bayes_choice": 1,
+        "naive_choice": 0,
+        "accuracy_loss_contribution": 0.03
+      }
+    ]
+  }
+]

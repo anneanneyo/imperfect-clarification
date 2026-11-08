@@ -1,0 +1,173 @@
+{
+  "configurations": [
+    {
+      "model": "gemini-2.5-flash",
+      "rows": 1832,
+      "unique_ids": 1832,
+      "nonnull_generations": 169,
+      "usable_nonempty_replies": 169,
+      "missing_context_ids": [],
+      "lexical_unknown_marker_replies": 13,
+      "unusable_nonnull_replies": [],
+      "explicit_disambiguation_replies": 123,
+      "generation_config_count": 1
+    },
+    {
+      "model": "olmo2-13b-instruct",
+      "rows": 1832,
+      "unique_ids": 1832,
+      "nonnull_generations": 424,
+      "usable_nonempty_replies": 424,
+      "missing_context_ids": [],
+      "lexical_unknown_marker_replies": 48,
+      "unusable_nonnull_replies": [],
+      "explicit_disambiguation_replies": 239,
+      "generation_config_count": 1
+    },
+    {
+      "model": "olmo2-7b-instruct",
+      "rows": 1832,
+      "unique_ids": 1832,
+      "nonnull_generations": 1026,
+      "usable_nonempty_replies": 1025,
+      "missing_context_ids": [],
+      "lexical_unknown_marker_replies": 103,
+      "unusable_nonnull_replies": [
+        {
+          "source_id": "1396774387387020988",
+          "reason": "missing_or_nonstring_response",
+          "generation_keys": [
+            "reasoning",
+            "response",
+            "raw_response"
+          ]
+        }
+      ],
+      "explicit_disambiguation_replies": 546,
+      "generation_config_count": 1
+    },
+    {
+      "model": "olmo3-7b-instruct",
+      "rows": 1832,
+      "unique_ids": 1832,
+      "nonnull_generations": 483,
+      "usable_nonempty_replies": 483,
+      "missing_context_ids": [],
+      "lexical_unknown_marker_replies": 11,
+      "unusable_nonnull_replies": [],
+      "explicit_disambiguation_replies": 273,
+      "generation_config_count": 1
+    },
+    {
+      "model": "qwen3-14b",
+      "rows": 1832,
+      "unique_ids": 1832,
+      "nonnull_generations": 105,
+      "usable_nonempty_replies": 105,
+      "missing_context_ids": [],
+      "lexical_unknown_marker_replies": 4,
+      "unusable_nonnull_replies": [],
+      "explicit_disambiguation_replies": 75,
+      "generation_config_count": 1
+    },
+    {
+      "model": "qwen3-8b",
+      "rows": 1832,
+      "unique_ids": 1832,
+      "nonnull_generations": 76,
+      "usable_nonempty_replies": 76,
+      "missing_context_ids": [],
+      "lexical_unknown_marker_replies": 2,
+      "unusable_nonnull_replies": [],
+      "explicit_disambiguation_replies": 49,
+      "generation_config_count": 1
+    }
+  ],
+  "all_id_sets_equal": true,
+  "unique_active_source_ids": 1392,
+  "active_response_records": 2282,
+  "unique_lexical_marker_source_ids": 168,
+  "pairwise_active_overlap": [
+    {
+      "a": "gemini-2.5-flash",
+      "b": "olmo2-13b-instruct",
+      "n": 53
+    },
+    {
+      "a": "gemini-2.5-flash",
+      "b": "olmo2-7b-instruct",
+      "n": 107
+    },
+    {
+      "a": "gemini-2.5-flash",
+      "b": "olmo3-7b-instruct",
+      "n": 64
+    },
+    {
+      "a": "gemini-2.5-flash",
+      "b": "qwen3-14b",
+      "n": 35
+    },
+    {
+      "a": "gemini-2.5-flash",
+      "b": "qwen3-8b",
+      "n": 22
+    },
+    {
+      "a": "olmo2-13b-instruct",
+      "b": "olmo2-7b-instruct",
+      "n": 243
+    },
+    {
+      "a": "olmo2-13b-instruct",
+      "b": "olmo3-7b-instruct",
+      "n": 153
+    },
+    {
+      "a": "olmo2-13b-instruct",
+      "b": "qwen3-14b",
+      "n": 32
+    },
+    {
+      "a": "olmo2-13b-instruct",
+      "b": "qwen3-8b",
+      "n": 25
+    },
+    {
+      "a": "olmo2-7b-instruct",
+      "b": "olmo3-7b-instruct",
+      "n": 284
+    },
+    {
+      "a": "olmo2-7b-instruct",
+      "b": "qwen3-14b",
+      "n": 66
+    },
+    {
+      "a": "olmo2-7b-instruct",
+      "b": "qwen3-8b",
+      "n": 54
+    },
+    {
+      "a": "olmo3-7b-instruct",
+      "b": "qwen3-14b",
+      "n": 40
+    },
+    {
+      "a": "olmo3-7b-instruct",
+      "b": "qwen3-8b",
+      "n": 33
+    },
+    {
+      "a": "qwen3-14b",
+      "b": "qwen3-8b",
+      "n": 19
+    }
+  ],
+  "blind_sample_records": 120,
+  "blind_sample_unique_source_ids": 116,
+  "previous_E008_seen_sample_records": 20,
+  "interpretation": "Lexical feasibility screen on policy-selected simulated replies. No causal inference or human prevalence; same task can occur across configurations.",
+  "new_external_model_calls": 0,
+  "outcomes_loaded": false
+}

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "selection_reconstructed": true,
+  "branch_rows": 1698,
+  "counterfactual_channels": 6,
+  "integer_world_weights": true,
+  "independent_banking_rules": true,
+  "blind_units_verified": 36,
+  "reserved_groups_unscored": 217,
+  "verifier_sha256": "26a2ab6c54639afce2fa9ec43e7796f6c9edfaf4b10e57a65aee40dc6313bc5e",
+  "manifest_sha256": "9f469609c8ece0d32179711a1026f9463307a8be7f01c93516b5e10451c89403"
+}

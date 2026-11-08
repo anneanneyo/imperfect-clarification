@@ -1,0 +1,482 @@
+{
+  "source_commit": "fc0055dc4e0a316c3f83133267fbd6faaa770992",
+  "protocol_sha256": "fe08fb60590527f5a5c146712ca654f33751c83412cbfa2a71ade7973348ef95",
+  "families": 100,
+  "hidden_goals": 249,
+  "all_execution_postconditions_pass": true,
+  "execution_failures": 0,
+  "gift_card_refund_goals": 79,
+  "macro_weighting": "Equal families, uniform goals within each family",
+  "analytical_checks": {
+    "known_example_accuracy": 0.8375,
+    "known_example_naive_accuracy": 0.7250000000000001,
+    "posterior_for_alpha": [
+      0.3333333333333333,
+      0.6666666666666666
+    ]
+  },
+  "table": [
+    {
+      "mode": "perfect",
+      "cost": 0.0,
+      "method": "no_ask",
+      "accuracy": 0.4320952380952381,
+      "utility": 0.4320952380952381,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.0,
+      "method": "always_id",
+      "accuracy": 1.0,
+      "utility": 1.0,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.0,
+      "method": "random_question",
+      "accuracy": 0.9703690476190476,
+      "utility": 0.9703690476190476,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "uniform_random": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.0,
+      "method": "entropy",
+      "accuracy": 1.0,
+      "utility": 1.0,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.0,
+      "method": "oracle_evsi",
+      "accuracy": 1.0,
+      "utility": 1.0,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.02,
+      "method": "no_ask",
+      "accuracy": 0.4320952380952381,
+      "utility": 0.4320952380952381,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.02,
+      "method": "always_id",
+      "accuracy": 1.0,
+      "utility": 0.98,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.02,
+      "method": "random_question",
+      "accuracy": 0.9703690476190476,
+      "utility": 0.9503690476190476,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "uniform_random": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.02,
+      "method": "entropy",
+      "accuracy": 1.0,
+      "utility": 0.98,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.02,
+      "method": "oracle_evsi",
+      "accuracy": 1.0,
+      "utility": 0.98,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.05,
+      "method": "no_ask",
+      "accuracy": 0.4320952380952381,
+      "utility": 0.4320952380952381,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.05,
+      "method": "always_id",
+      "accuracy": 1.0,
+      "utility": 0.95,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.05,
+      "method": "random_question",
+      "accuracy": 0.9703690476190476,
+      "utility": 0.9203690476190475,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "uniform_random": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.05,
+      "method": "entropy",
+      "accuracy": 1.0,
+      "utility": 0.95,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.05,
+      "method": "oracle_evsi",
+      "accuracy": 1.0,
+      "utility": 0.95,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.1,
+      "method": "no_ask",
+      "accuracy": 0.4320952380952381,
+      "utility": 0.4320952380952381,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.1,
+      "method": "always_id",
+      "accuracy": 1.0,
+      "utility": 0.9,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.1,
+      "method": "random_question",
+      "accuracy": 0.9703690476190476,
+      "utility": 0.8703690476190477,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "uniform_random": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.1,
+      "method": "entropy",
+      "accuracy": 1.0,
+      "utility": 0.9,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "perfect",
+      "cost": 0.1,
+      "method": "oracle_evsi",
+      "accuracy": 1.0,
+      "utility": 0.9,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.0,
+      "method": "no_ask",
+      "accuracy": 0.4320952380952381,
+      "utility": 0.4320952380952381,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.0,
+      "method": "always_id",
+      "accuracy": 0.6308619047619048,
+      "utility": 0.6308619047619048,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.0,
+      "method": "random_question",
+      "accuracy": 0.7922828869047619,
+      "utility": 0.7922828869047619,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "uniform_random": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.0,
+      "method": "entropy",
+      "accuracy": 0.9363184523809523,
+      "utility": 0.9363184523809523,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 86,
+        "count": 14
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.0,
+      "method": "oracle_evsi",
+      "accuracy": 0.9363184523809523,
+      "utility": 0.9363184523809523,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 86,
+        "count": 14
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.02,
+      "method": "no_ask",
+      "accuracy": 0.4320952380952381,
+      "utility": 0.4320952380952381,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.02,
+      "method": "always_id",
+      "accuracy": 0.6308619047619048,
+      "utility": 0.6108619047619047,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.02,
+      "method": "random_question",
+      "accuracy": 0.7922828869047619,
+      "utility": 0.7722828869047619,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "uniform_random": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.02,
+      "method": "entropy",
+      "accuracy": 0.9363184523809523,
+      "utility": 0.9163184523809523,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 86,
+        "count": 14
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.02,
+      "method": "oracle_evsi",
+      "accuracy": 0.9363184523809523,
+      "utility": 0.9163184523809523,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 86,
+        "count": 14
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.05,
+      "method": "no_ask",
+      "accuracy": 0.4320952380952381,
+      "utility": 0.4320952380952381,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.05,
+      "method": "always_id",
+      "accuracy": 0.6308619047619048,
+      "utility": 0.5808619047619047,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.05,
+      "method": "random_question",
+      "accuracy": 0.7922828869047619,
+      "utility": 0.742282886904762,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "uniform_random": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.05,
+      "method": "entropy",
+      "accuracy": 0.9363184523809523,
+      "utility": 0.8863184523809524,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 86,
+        "count": 14
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.05,
+      "method": "oracle_evsi",
+      "accuracy": 0.9363184523809523,
+      "utility": 0.8863184523809524,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 86,
+        "count": 14
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.1,
+      "method": "no_ask",
+      "accuracy": 0.4320952380952381,
+      "utility": 0.4320952380952381,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.1,
+      "method": "always_id",
+      "accuracy": 0.6308619047619048,
+      "utility": 0.5308619047619048,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "order_id": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.1,
+      "method": "random_question",
+      "accuracy": 0.7922828869047619,
+      "utility": 0.6922828869047619,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "uniform_random": 100
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.1,
+      "method": "entropy",
+      "accuracy": 0.9363184523809523,
+      "utility": 0.8363184523809524,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 86,
+        "count": 14
+      }
+    },
+    {
+      "mode": "imperfect",
+      "cost": 0.1,
+      "method": "oracle_evsi",
+      "accuracy": 0.9363184523809523,
+      "utility": 0.8363184523809524,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 86,
+        "count": 14
+      }
+    }
+  ],
+  "partial_support_diagnostics": {
+    "families_nonuniform_posterior": 22,
+    "observations_nonuniform_posterior": 29,
+    "max_posterior_error": 0.30000000000000004,
+    "families_action_loss": 14,
+    "macro_contents_accuracy_loss_uniform_partial": 0.005131249999999999
+  },
+  "limitations": [
+    "Constructed task and artificial known response kernel, no empirical human or LLM response rates.",
+    "Oracle EVSI is not learned. No neural method or H3 evaluation.",
+    "Only decision and state component; mandatory dialogue confirmation and official tau task rewards not evaluated.",
+    "Reserved families were included in this engineering run and are not a sealed final test."
+  ],
+  "new_external_model_calls": 0
+}

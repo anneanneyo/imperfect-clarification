@@ -1,0 +1,722 @@
+[
+  {
+    "group_id": "00368a6779b522c579f32dcd04c3ddedca124c1ffb7867fb988ad41184d69cee",
+    "split": "train",
+    "text": "dear support team, my name is maya. i am writing to inquire about assistance regarding my account. i wish to clarify that this communication is not a request for monetary compensation or reimbursement. i would appreciate your guidance on how to proceed with this matter. please let me know if you require any further information from my end to assist me. thank you for your time and attention. sincerely, maya"
+  },
+  {
+    "group_id": "007a57b55827bc8e3fe6d2439608bbf59a227b3ace9b00d47ad379a535bd369d",
+    "split": "train",
+    "text": "hi, my name is sara. i need help with a fee. the money was already taken from my account. i do not think this charge is right. i would like to get my money back as compensation. please check my account and help me resolve this. i am not sure why the fee was applied, but i want it returned. thank you for your time."
+  },
+  {
+    "group_id": "00af1066e5a60be230091f6c4fd6666a1cb56abf833ede46d96c536be13f27e1",
+    "split": "train",
+    "text": "hi, i’m reaching out because i have a question regarding a fee that appeared on my statement. i’ve been a customer for several years and usually monitor my transactions closely, so this one caught me off guard. i checked my account history and can confirm that the money has already left my account. i’m trying to understand what triggered this charge. i don’t want to assume it’s an error, but i need some clarification on why this specific fee was applied. could you help me look into this? i’d appreciate any details you can provide so i can update my records. thanks for your help."
+  },
+  {
+    "group_id": "00fe8ea157d0b7938aacdd48dcaaa513b716a53e2674bc825031fdae34ff5d45",
+    "split": "train",
+    "text": "hello, i’m reaching out because i’m a bit lost and could really use some guidance. i’m not entirely sure what the specific details are that i need to provide, or if there is a particular form i should fill out first. i just have a general question about my account, but i’m unsure if this is the right channel for it. could you please let me know how i should proceed? i want to make sure i give you the correct information without missing anything important, but i’m not quite sure what that entails. any help you can offer in clarifying the next steps would be greatly appreciated."
+  },
+  {
+    "group_id": "021339c73785be096068c51a161e6a3f7b7ce2d9519ad96c6729e81d5cf23eb3",
+    "split": "train",
+    "text": "hi there, i’m emre. i need some help with my card. i’ve noticed that money has already left my account in connection with this issue. i’m not sure exactly what happened or why this is occurring, but i wanted to get in touch as soon as possible. it’s been a bit worrying trying to track down what’s going on with my balance, especially since the funds are no longer in my possession. could you please look into this for me? i’d really appreciate any information you can provide about the status of my card and the transaction. thanks."
+  },
+  {
+    "group_id": "02e7cd15f5a57a1bc42c3a6be9d60b6ce4c9544b7fd9a00ac8d822a0184a7d02",
+    "split": "train",
+    "text": "hi. i have a question about my card. there is a fee question. the money has already left my account. i am asking for the money back as compensation. please help."
+  },
+  {
+    "group_id": "030771fea61b52ebc0de2d3420ad3d261a35fa7b9f4e7bbcb09a135db25a2ba9",
+    "split": "train",
+    "text": "hi, my name is chloe. i’m reaching out because i’ve lost my bank card. i’ve checked my bags and the usual spots, but i can’t find it. i’m quite worried since it’s my primary card for daily transactions. i haven’t noticed any unauthorized transactions yet, and no money has left my account as of this moment. i’m not asking for any compensation or reimbursement at this stage. i just need some guidance on how to secure my account and potentially replace the card. could you please advise on the next steps? i’d like to resolve this quickly to ensure my funds remain safe. thanks for your help."
+  },
+  {
+    "group_id": "03cb17acfc730157bf099f6f65c06e8665ee8fe404924a2de80658759da6a1d4",
+    "split": "train",
+    "text": "subject: inquiry regarding account services dear support team, i am writing to formally request assistance with my account. i have encountered a matter that requires clarification, but i wish to remain general in my initial contact until i can receive guidance on the appropriate channel for my specific situation. i am uncertain about the next steps and hope you can advise me on how to proceed. i am available to provide any further details once the correct department or procedure is identified. thank you for your time and attention to this matter. i look forward to your prompt response. sincerely, a concerned customer"
+  },
+  {
+    "group_id": "0591776135f1aaacc25a404dcd8e69d581e8c57da9f1732d54eafe3e88f85022",
+    "split": "train",
+    "text": "hi, it's chloe. i need some help with something regarding my account. i'm not entirely sure what's going on or exactly what the issue is, but i could really use a hand. i have a question about it but don't want to get into too much detail right this second. just trying to get things sorted out as soon as possible. please let me know what i should do next or who can assist me. thanks!"
+  },
+  {
+    "group_id": "05b955d94fb10d584740b21891f4f5352ae7bb52c251cec59048c26d6a88a10e",
+    "split": "train",
+    "text": "hello. my name is tom. i have a question about my current account. i am not asking for money back as compensation. i just need some help with a fee question. can you please explain this to me? i want to understand what is happening with my account. thank you for your help."
+  },
+  {
+    "group_id": "05d08b131f0e51348531209341f381945e72c8b05a78fc1f9b296285e6296428",
+    "split": "train",
+    "text": "hi, this is diego. i have a question regarding my card."
+  },
+  {
+    "group_id": "06f0ee3f55d0412afc7105bc586244d9ecd4de675aac94020405054c5715055c",
+    "split": "train",
+    "text": "hi diego i need some help with a failed payment on my loan account. the money has already left my account but the transaction didn't go through as expected. i am not asking for money back as compensation. just wondering what the next steps are or if i need to do anything else to resolve this. thanks"
+  },
+  {
+    "group_id": "0745f2a83c31f012acb40042265dc51ae446c66a27885f34e24102d9d697b0ff",
+    "split": "train",
+    "text": "subject: inquiry regarding account assistance dear customer support team, i hope this message finds you well. i am writing to request assistance with a matter concerning my account. there is something i need help with, but i do not wish to specify the details at this time. i simply require guidance on the next steps to resolve an issue. please advise on how you would like to proceed. i look forward to your prompt response so that we can address this matter efficiently. thank you for your time and assistance. sincerely, a customer"
+  },
+  {
+    "group_id": "075430524efa1ee4a6be75019a3ac167273e4fe3c92aef30beb278c99c7f1945",
+    "split": "train",
+    "text": "hello, i’m having trouble with a transaction and i’m not entirely sure what’s going on. it seems like a payment didn’t go through correctly. i haven’t received any money back, so that isn’t the issue here. also, i noticed that the funds haven’t actually left my account yet, which is a bit confusing for me. i’m not sure if this is normal or if i need to do something specific to fix it. could you please help me understand what is happening with this failed transaction? i just want to make sure everything is okay. thanks."
+  },
+  {
+    "group_id": "08e682b99eb3ae14fdc8c3d05ec8447c0c4e071319a4ff8c513c68bd68fa90d8",
+    "split": "train",
+    "text": "hi omar here, i noticed an unrecognized charge on my card. i just wanted to flag it since the money hasn't actually left my account yet. can someone take a look?"
+  },
+  {
+    "group_id": "099116754edf5dd6562bca7c2cd1094ee95e9b22846aaee14fd07a1d742dffcd",
+    "split": "train",
+    "text": "hi there. i am not entirely sure how to phrase this, so i hope you can help me sort it out. i have a question about a change request regarding my loan. to clarify, no money has left my account yet, so it is not a transaction issue. also, i am not asking for any money back or compensation. i just need to make some changes, but i’m confused about the right way to do that. could you please guide me? i want to make sure i am following the correct steps. thanks for your patience with my lack of clarity here."
+  },
+  {
+    "group_id": "09bb09f6feab3425bcc8e5c6cd5892bfe06e088f20f00af172b9fc307ac03fe9",
+    "split": "train",
+    "text": "hello, my name is elena. i need some help with something regarding my current account."
+  },
+  {
+    "group_id": "0a4108500cef2fe2bc1e83c425cafe2cf2f0e0d07833586a0659d9b7b400ab75",
+    "split": "train",
+    "text": "hello. i need some help. i want to ask if i can get money back as compensation. i am not sure about the details yet. please let me know if this is possible. thank you for your help."
+  },
+  {
+    "group_id": "0a95729044ca8bda82798d9fa5da2fba5df467835620ed4f8b81e99da90c6303",
+    "split": "train",
+    "text": "hi. i have a question about my account. i need some help with something. please check if money has left my account. it has not. also, i am not asking for money back as compensation. i just want to fix this. please help me soon. thank you."
+  },
+  {
+    "group_id": "0cfcee89432822f51857ddb8605ca04ce9efa778297dd05f4024af8019249283",
+    "split": "train",
+    "text": "* i have a question about my loan. * no money has left my account yet. * i am not asking for any money back as compensation."
+  },
+  {
+    "group_id": "0d387757ceb0bef8886d6e904855a6178f39ba2133edad66929b2cbb382494ff",
+    "split": "train",
+    "text": "hi there. i’m a bit confused about a failed payment involving my card. to be clear, the money hasn’t left my account yet, and i’m not looking for any compensation or refund at this stage. i just want to understand what happened with the transaction. i’m not sure which details you need to investigate this properly, so i’ll share whatever is required. could you please advise on the next steps or what information you need from me? thanks."
+  },
+  {
+    "group_id": "0e138290c867fa2675a1bf3d17d1a02200d17c8550f32263b71316b7ba7a9c18",
+    "split": "train",
+    "text": "hi, my name is sara. i’m writing because i have a question about a fee that appeared on my current account. i can see that the money has already left my account, so this isn't a pending transaction anymore. i’m not sure why this happened or what i need to do next. i’m a bit confused about the situation and just want to understand what is going on with this charge. i am not asking for any money back or compensation; i just need some clarity on why this fee was applied in the first place. could you help me figure this out?"
+  },
+  {
+    "group_id": "0fbbdc4db9d7096e17d17d6e7fb9e994f33305a90bd30cdf5f0d086e5a1dad80",
+    "split": "train",
+    "text": "hi there. my name is lucia. i’m reaching out because i need to submit a change request regarding my account settings. i want to make sure this gets processed correctly and promptly. i am not looking for any financial compensation or refunds for this issue; i simply need the administrative update applied to my profile. please let me know the next steps to finalize this change. i’d appreciate your assistance in getting this resolved quickly. thank you for your time and help with this matter."
+  },
+  {
+    "group_id": "101277689934d8c965b22fef3494d1316098a39a08cd0547fb6d4a1e0610d9ef",
+    "split": "train",
+    "text": "hi, i’m grace. i need some help with something regarding my card. it seems lost. i noticed that money has already left my account. i’m not entirely sure if that’s related or if i’m just confusing things, but i thought i should mention it. i am not asking for any money back as compensation, so please don’t worry about that part. i’m just a bit confused about what information is actually important for you to know right now. could you let me know what i should do next? thanks."
+  },
+  {
+    "group_id": "10b324203ea981e8e530a0fd61e07111b0f0aecf781bae172caaa248c1459dcd",
+    "split": "train",
+    "text": "* my bank card is lost. * i am asking for money back as compensation."
+  },
+  {
+    "group_id": "132f6043ec41969a894de333bd50a55124e6befe90e4f281298e5a8f6ddaefdc",
+    "split": "train",
+    "text": "hi there. my morning was pretty chaotic; i spilled coffee on my shirt just before leaving the house, so i’m running late. anyway, i need some help with an unrecognized charge on my card. the money has already left my account. i’m not asking for any money back or compensation for this. i just want to understand what happened. please let me know how we can resolve this."
+  },
+  {
+    "group_id": "13862d683d457918684ffa55922f29d7ee9a6249b0ee8d4ef6bba41b0a5220ca",
+    "split": "train",
+    "text": "hi there, my name is sara. i am reaching out because i need some assistance with a matter concerning my account. i would appreciate it if you could help me resolve this issue. please let me know the next steps or if you require any further information from my side to proceed."
+  },
+  {
+    "group_id": "13eff5677040e3f836d6840f61177035c3d42eba40f3930850db8ec9757c1a96",
+    "split": "train",
+    "text": "hi, i’m sofia. i need some help with something regarding my account."
+  },
+  {
+    "group_id": "1409555a12e37b1785618dc1e5c07b0e72cb402ca4033b69a97c8cb4fe369e40",
+    "split": "train",
+    "text": "hey, i need some help with something. i'm having an issue regarding my card. i'm not entirely sure what's going on, but it's related to the card specifically. i was hoping you could look into it for me and let me know what's up. i'm just trying to get this sorted out. please let me know when you're available to chat. i'll wait here. thanks."
+  },
+  {
+    "group_id": "14d6decfd3e3f55c114984fd7d45493829c225ad3ae56667472ff0e26b913fb6",
+    "split": "train",
+    "text": "hello. i have a question about my card. i noticed a fee on my account. the money has already left my account. i am not asking for money back as compensation. i just want to know why this happened. i do not understand the charge. can you help me with this fee question? it is about my card. please tell me more. thank you."
+  },
+  {
+    "group_id": "15d0b8d2fde27acae71dad47986fe1487fd252819ad708354c064ab70a0e04b7",
+    "split": "train",
+    "text": "hi there. i’m currently sitting in a coffee shop waiting for a latte, but i noticed something odd on my account earlier. i see a charge that doesn’t look right to me, and i have a question about the fees associated with it. i checked my statement and confirmed that the money has already left my account. i am not asking for any money back or compensation for the inconvenience; i just want to understand why the fee was applied in the first place. could you help clarify this for me?"
+  },
+  {
+    "group_id": "15d4aecfc5b59397cdcbfc4d43ea39bfb3548fc98b3e1ad0338c0cd7344b11b0",
+    "split": "train",
+    "text": "hi there, this is omar. i have a question about a fee that was charged to me. yes, the money has already left my account. i am not asking for any money back as compensation though, just wanted to clear it up. thanks"
+  },
+  {
+    "group_id": "16fee56c36df74ff51785fbf581118efcd69d53d69d2fcf9f469d456aa8130dc",
+    "split": "train",
+    "text": "dear support team, i am writing to seek assistance regarding my account. specifically, i have encountered an unrecognized charge. i have verified the status of this transaction and can confirm that no money has left my account as a result. my name is olivia. i would appreciate your guidance on how to proceed with this matter. please let me know if you require any further details from my side to facilitate your review. thank you for your time and assistance. sincerely, olivia"
+  },
+  {
+    "group_id": "180431608b939961631f491a10515adc2c3fa009a9d14e39ea78db5721744780",
+    "split": "train",
+    "text": "hi there, i need some urgent help with my card. i realized my card is lost, and i’m quite worried because it looks like money has already left my account. i haven’t spent anything recently, so this transaction is very confusing and concerning to me. i’m reaching out via chat because i wasn’t sure if calling would be faster. i just want to understand what is happening and how i can secure my account moving forward. please let me know the next steps. i’m eager to resolve this quickly, though i am not expecting any compensation for the issue. thank you for your assistance."
+  },
+  {
+    "group_id": "1855c8c9b780a2f4ab34304f0ff687875b8098860008c22dc11ccdf35cfefcef",
+    "split": "train",
+    "text": "hi, i’m tom. i have a question about my account that i need some help with. i was just sitting here drinking my morning coffee, which is suddenly way too hot to drink right now, when this popped up. i’m not sure exactly what’s going on, so i thought i’d just reach out and see if someone could look into it for me. i’m ready to provide whatever details you might need to sort this out."
+  },
+  {
+    "group_id": "186f5d49352f74ba4f4af4bc15296d10e1bf519bc0cc9c30e822508edd519830",
+    "split": "train",
+    "text": "* i am writing to seek assistance regarding my recent transactions. * i want to clarify that i am not requesting any monetary compensation or reimbursement for these issues. * the matter concerns specific discrepancies in my account activity that require review. * i have listed the events below for your reference. * these items need to be addressed to ensure my records are accurate. * please advise on the next steps for resolution."
+  },
+  {
+    "group_id": "18830a3a26e3844d898f73790308dead43bdfab1c51f79e51e2163bb032fafc9",
+    "split": "train",
+    "text": "hi there, my name is hannah. i noticed that the money has already left my account. i am writing because i have a question regarding my card. it seems there is an issue with it. on a separate note, i just had a really strong coffee that is keeping me wide awake, which is quite surprising since i usually struggle to stay alert in the morning. anyway, back to the banking matter, could you please look into the card transaction for me? i would appreciate some assistance with this. thank you."
+  },
+  {
+    "group_id": "18d765ea11551da3dc070a8085d69099699f7803b1c237f594e046461f97457a",
+    "split": "train",
+    "text": "hi, i’m grace. i lost my card. no money has left my account, and i am not asking for any compensation. i just need some help with the card. it is a bit chaotic today; my neighbor’s dog barked at me for an hour while i was trying to make coffee. anyway, regarding the lost card, what are the next steps?"
+  },
+  {
+    "group_id": "18dfe8cffbffd6192ced2d929da2944bdc16dc08669f0dae52584b8f79311d22",
+    "split": "train",
+    "text": "hi, this is amara. i’m reaching out because i’m a bit confused about the status of my current account. i know that the money has already left my account, but i’m not entirely clear on what that means for my balance or next steps. i am not asking for any money back as compensation; i just want to understand the situation better. i’m sure there is something i’m missing, but i’m not sure which specific details or transaction ids are important for you to look into. could you please help me figure out what i should do next? thanks for your help."
+  },
+  {
+    "group_id": "1934aeb78aefe95be00add575c6d1374fbbc31bacc89196ce56e5eda86954815",
+    "split": "train",
+    "text": "hi, i’m sofia. i could really use some assistance with something regarding my account. i’m a bit unsure about what details you actually need from me to get this sorted out. i’ve tried to figure it out on my own, but i’m not entirely sure what information is relevant for this specific issue. could you please let me know what you need? i want to provide whatever is necessary to resolve this, but i don’t know where to start or what specifics are important for your team to see. thanks for your patience."
+  },
+  {
+    "group_id": "1a41afb1b52ecfd36f57b527cf818dfc4b8b79aefa2826d968669daabb5657c9",
+    "split": "train",
+    "text": "dear support team, i am writing to request assistance regarding my account. i have noticed an unrecognized charge on my statement. i can confirm that the funds in question have already left my account. please note that i am not requesting a refund or any monetary compensation for this issue. i simply wish to report the transaction for your review. thank you for your time and attention to this matter. sincerely, a valued customer"
+  },
+  {
+    "group_id": "1a488571d993d0dda7d2004bdb63954c307b220fa5018b319a1e53380a1285b3",
+    "split": "train",
+    "text": "dear support team, i am writing to request assistance regarding my card. i have a specific inquiry that requires your attention to be resolved properly. please review my account details associated with this matter and provide the necessary guidance or documentation. i look forward to your prompt response to this issue. thank you for your time and professional service in handling this request. sincerely, a customer"
+  },
+  {
+    "group_id": "1aadded4cfefaf6388a713f90cd314226602669d95dbcc03f0413a7c214a4fb4",
+    "split": "train",
+    "text": "subject: assistance required dear support team, i am writing to request assistance with a matter concerning my account. my name is kenji, and i have a question regarding my banking details. could you please advise me on the next steps? i would appreciate your prompt attention to this inquiry. please let me know if you require any additional information from my side to proceed. thank you for your help. sincerely, kenji"
+  },
+  {
+    "group_id": "1ab22ad33c9185bb6482c4bfb66744845b3daadbc437e77c08624da6e158dd0e",
+    "split": "train",
+    "text": "hi, i’m kwame. i need some help with something regarding my account. it’s a bit urgent, to be honest. i’ve been staring at this screen for a while now trying to figure out the right place to ask, and honestly, it’s making my head spin a little. i just got back from my morning run and i’m still catching my breath, but i really need to get this sorted out before i can relax. can you point me in the right direction? i have a question about my account details, but i’m not sure exactly where to start. thanks for your patience."
+  },
+  {
+    "group_id": "1b3c2ce5a124c588f6873498c843951fec0aa2c5a9179b32c85cd836d93557a7",
+    "split": "train",
+    "text": "hi, i’m liam. i need some help with something regarding my account. please let me know when you are available to assist me."
+  },
+  {
+    "group_id": "1bcf491e661407bd8cd43c2cf5d2645f37d328870bc6692f0c143b1baf8d04c4",
+    "split": "train",
+    "text": "hi there, i’m reaching out because i can’t find my card anywhere. i’ve looked everywhere, and it just seems to have vanished. on top of that, i noticed a transaction that i didn’t authorize, so it appears money has already left my account. i’m a bit confused about the whole situation and aren’t sure if i need to do anything specific right now or if the bank will handle it. is there a form i need to fill out? or do i just wait? i’m not entirely sure what steps are required in this case, so any guidance on what information matters would be really helpful. thanks."
+  },
+  {
+    "group_id": "1c0a6c28f9fdc9de61ceb89da9ed6800bbbbd032693e9a831952154521627c81",
+    "split": "train",
+    "text": "this is absolutely unacceptable. i have been trying to resolve this issue for days, and nobody seems to know what they are doing. i am extremely frustrated with the lack of support and the time i’ve wasted. i need this fixed immediately. please stop giving me generic answers and actually help me with whatever this is. i don’t care about the internal process; i just want a resolution. do not tell me to check my app again or wait on hold. i am at my limit here. someone needs to take responsibility for this mess right now. i expect a concrete solution, not more excuses. fix this today."
+  },
+  {
+    "group_id": "1c21fe3402950e1b51b2aed8b975fb1665dffec69b8b7c9fa4b91d11f028c9bf",
+    "split": "train",
+    "text": "i had a failed payment regarding my loan, and the money has already left my account. i am not asking for the funds to be returned as compensation."
+  },
+  {
+    "group_id": "1d33f5d11796c0e3489a4931bf3807702ed7342489ccffe7315a19e16b8c072a",
+    "split": "train",
+    "text": "* my name is ines. * i am writing to report an issue with a recent transaction. * the funds have not yet left my account. * i need assistance resolving this matter."
+  },
+  {
+    "group_id": "1d377286e33d6ed708d87b116a8b11d39d59c6add32ccfdbf574d0707298b8bc",
+    "split": "train",
+    "text": "hi there, i’m nadia. i need some help with my current account. i’ve been a loyal customer for quite a few years now, and this is the first time i’ve reached out for support on this specific product. i have a question that i’ve been turning over in my mind for a while, and i think it’s time i asked for clarity. i want to make sure i understand how everything works with my current account setup before i proceed further. could you please guide me on the next steps? i’m happy to provide any necessary details you might need to locate my profile. i look forward to your assistance."
+  },
+  {
+    "group_id": "1daf05aa7971698db93b445d3c4a611317849489df9ddb4f7bdbafeca8a95545",
+    "split": "train",
+    "text": "hi there, samuel here. i’m writing from my desk where it’s currently pouring rain outside, which is making me regret leaving the house earlier. i need some help with something regarding my savings product. to clarify, no money has left my account yet. i have a question about my account and would appreciate your assistance. please let me know how we can proceed. thanks!"
+  },
+  {
+    "group_id": "1e90727fbe040fb34638658a522ff936152df9f157976b1c1b905a491cfab736",
+    "split": "train",
+    "text": "i’m extremely frustrated. why was a fee charged on my card? that money has already left my account, and it’s not even my first time dealing with this. i didn’t agree to these charges. i am not asking for any compensation or refund right now; i just want a clear explanation of why this happened and why i was billed. this is unacceptable. i need this resolved immediately before i have to escalate it further. stop wasting my time."
+  },
+  {
+    "group_id": "1ec94a13b0c541b7d830a56c24db6347eba5fb423fded35f398d26bcbc0c3fca",
+    "split": "train",
+    "text": "i am writing to clarify if i am eligible for a refund in this situation. please confirm whether my inquiry is classified as a request for monetary compensation. i am not seeking financial restitution at this time."
+  },
+  {
+    "group_id": "1ee9a2353e7e198a2487d37724ac71cc86af50dda34759e8d1c570c83e82403e",
+    "split": "train",
+    "text": "hi, my name is ines. i need help with my current account. i had a failed payment, and the money has already left my account. i’m just typing this while waiting for my coffee to cool down because it’s boiling. i don’t want to burn my tongue while i wait. please let me know what happens next. thanks."
+  },
+  {
+    "group_id": "215d2408f4c869d175e073c04f3043cf0c5dbea5fd04ea84efe51e4adb8382ca",
+    "split": "train",
+    "text": "hi there, i’m olivia. i’m writing because i noticed a charge on my account that i don’t recognize. the money has already left my account, but i’m honestly not sure if that matters or not. i’m a bit confused about which details i should be focusing on to resolve this. i just need some help with something, but i’m not certain what specific information you need from me to look into this. is there a particular form or detail i should provide? i’m not entirely sure what’s relevant here, so i’d appreciate any guidance on how to proceed with this unrecognized transaction."
+  },
+  {
+    "group_id": "216cb91c0c3cdb95bbf69843251571df81b3c1ea024408b47acd02cd1b725f52",
+    "split": "train",
+    "text": "hi there. i need some help with something regarding my card. i recently had a failed payment, and i’m a bit confused about the situation. i was wondering if i can get some money back as compensation for this issue? i’m not entirely sure what information or details are relevant here, so please let me know what you need from me to sort this out. i just want to understand why this happened and how we can resolve it. thank you for your assistance."
+  },
+  {
+    "group_id": "227c77e0f73eada5753fed0444321d40533cda7428baf142208a59fc6e3862f8",
+    "split": "train",
+    "text": "hi i have a question about my account i was wondering if i am asking for money back as compensation"
+  },
+  {
+    "group_id": "23bc4c60dfad272ac618ae352ebde28c58ebf798d385607a6895f5ceba92c088",
+    "split": "train",
+    "text": "hi, i need help with something regarding my account. i’m not sure what’s going on, but something seems off. can someone look into it for me? thanks"
+  },
+  {
+    "group_id": "23d227845966905d24659ec8f3f67461c1d6122f7bcc38fb0e9a15761223aeaf",
+    "split": "train",
+    "text": "dear customer support, my name is ingrid. i am writing to request assistance regarding my bank card. i have lost my card and need guidance on the next steps to take. i am not asking for any monetary compensation or refund at this time; i simply require help securing the account and addressing the loss of the physical card. please advise me on how to proceed with reporting this incident and securing my card details. i look forward to your prompt response and instructions on how to resolve this matter effectively. sincerely, ingrid"
+  },
+  {
+    "group_id": "24f4f668eb4ef9b331a3c12be2b0b8d6f9e6ad317262ccb473fb938f2ed7a44b",
+    "split": "train",
+    "text": "hi, i’m pavel. i need some help with something."
+  },
+  {
+    "group_id": "2734ce179e8d0454c786c0c57bd0f75944c0aac47e7a9a7733afd30aab324e41",
+    "split": "train",
+    "text": "i need some help with my card."
+  },
+  {
+    "group_id": "274528fdecc07c9ee8711cc2925ed230fbfcff5af4cec8c4f44d6c8edc2ded97",
+    "split": "train",
+    "text": "i need help with a lost card."
+  },
+  {
+    "group_id": "274a2211240fc71258a43804908d0d0c4989f8cd30d4155aff15855b89b590ae",
+    "split": "train",
+    "text": "dear support team, i am writing to request assistance regarding my current account. i have noticed an unrecognized charge on my statement and would appreciate your help in investigating this matter. please note that i am not seeking any monetary compensation or reimbursement for this issue; my sole intention is to have the transaction clarified and resolved within my account records. thank you for your attention to this inquiry. i look forward to your prompt response. sincerely, diego"
+  },
+  {
+    "group_id": "28c7a9b25fe95e4e607fc6fd8307f844cd084e96cd1c483048d6823ba917d4ba",
+    "split": "train",
+    "text": "hey, i need some help with something. my account is acting up and i cant figure it out. is there anyone there who can look into this for me? it’s pretty urgent. i’ve tried logging in but it keeps saying error. i just want to get this sorted out asap. thanks."
+  },
+  {
+    "group_id": "29c7843b5a768d9bb104dc8a782e4089afdce3f087de5ae352f70c0f0428fad4",
+    "split": "train",
+    "text": "i am extremely frustrated. i just noticed an unrecognized charge on my card that i definitely did not make. the money has already left my account, and i am not happy about this. i need a refund immediately. this is unacceptable. please process the money back to my account right now. i expect this to be resolved quickly. do not tell me to wait; i want my money back. this is a serious error on your part. i am angry that this happened. fix it. refund the charge. now."
+  },
+  {
+    "group_id": "2a24a76f9f3948589b221d49dffef1e328813a19afcccc4006d3768106ce726d",
+    "split": "train",
+    "text": "hi, my name is liam. i have a problem with my current account. i tried to make a payment, but it failed. the money has already left my account. i am not asking for any money back as compensation. i just need some help with this issue. please let me know what to do next. i want to fix this payment problem. thank you."
+  },
+  {
+    "group_id": "2a4e0f64601f34466e229f8cba44ffcfa477f0b0bc919e814e152d57866cca78",
+    "split": "train",
+    "text": "hi there. i’m lucas. i need some help with something regarding my account. it seems like my card has been lost, but i am a bit confused about the situation. i noticed that money has already left my account, which is worrying me. i’m not entirely sure which details are important for you to resolve this, so i’m just sharing what i know. could you please advise me on what to do next? i want to make sure everything is handled correctly, but i’m not sure what specific information you need from me right now. thank you for your assistance."
+  },
+  {
+    "group_id": "2adcff43e387af22394df8af3b9dc8c80a34e2ffa79388189a6054d0ccf367f1",
+    "split": "train",
+    "text": "mia here. i am writing to report an unrecognized charge on my current account. it is incredibly frustrating to see a transaction appear that i do not recognize. i need this resolved immediately. please note that i am not asking for any money back as compensation; i simply want the issue clarified and corrected. this situation is unacceptable and i expect a prompt response regarding the status of this charge."
+  },
+  {
+    "group_id": "2ba12f74a926e351ba2ce1926822dfe5cae72b73a4076516bff9c357f1a3c644",
+    "split": "train",
+    "text": "hello, i’m priya. i’m writing because i noticed an unrecognized charge on my card statement and i’m a bit confused about what’s happening. i don’t quite know which details are actually important for you to investigate this, so i’m not sure if i need to provide transaction ids, dates, or just a description. i can tell you that the money hasn’t actually left my account yet, as the balance remains unchanged, but the pending entry is still worrying me. could you help me figure out what this is? i’m not sure how to proceed or what specific information will resolve this for you. thank you for your assistance."
+  },
+  {
+    "group_id": "2c7746568e1dd66ed9ab30b63744e74cad762a67ef3c7a172a4d5d761d4f83d9",
+    "split": "train",
+    "text": "subject: assistance required dear support team, i am writing to request assistance regarding my account. i have encountered an issue that requires your immediate attention and clarification. i would appreciate it if you could look into this matter and provide guidance on how to proceed. please let me know if you require any further information from my side to investigate the situation. i look forward to your prompt response and resolution of this matter. thank you for your help. sincerely, a customer"
+  },
+  {
+    "group_id": "2ce59cdca42f59dcf942b133d452a6b61b5524e69095a4df020f56e1ad72234e",
+    "split": "train",
+    "text": "hi, i’m tom. i was just walking past a bakery and saw the freshest croissants, which reminded me i need to grab lunch later. anyway, i have a question about my card. i’m not asking for money back as compensation, and i know no money has left my account yet. i just need some help with something regarding the card. could you point me in the right direction?"
+  },
+  {
+    "group_id": "2d6f4235b3397c81436b29460fdf328abf3dde49c057c9c1b57d4ed4899a9ef1",
+    "split": "train",
+    "text": "dear support team, my name is jonas. i am writing to request assistance regarding a recent transaction. i confirm that the funds in question have already left my account. consequently, i would like to ask for money back as compensation for this incident. please let me know the next steps to process this request. i look forward to your prompt response. sincerely, jonas"
+  },
+  {
+    "group_id": "2da93896b2275b93799ff2f2f83bf5706b7b80223f8cdc09694b4bb22217a4fb",
+    "split": "train",
+    "text": "hello. i am reaching out because i am extremely frustrated with the service i have received. i need immediate assistance with my account, but i am not asking for any money back as compensation. please stop assuming i want a refund or that i am complaining about a specific product. i just want someone to listen to the issue i am facing right now. the current situation is unacceptable, and i expect this to be resolved today. do not offer me generic responses or ask me to clarify which transaction or item i am referring to. i know exactly what the problem is, and i know it involves a failure on your end. i am angry and i want action, not questions. please connect me with a supervisor who can actually help me resolve this matter immediately."
+  },
+  {
+    "group_id": "2dc1f493c94749f37530dc6603b1d13af9ebb38cabde12c8f2156b0db4306d49",
+    "split": "train",
+    "text": "hi, i need help with something. i had a failed payment on my current account. the money has already left my account, but i’m not asking for money back as compensation. i just want to figure out why it failed. can someone look into this? thanks"
+  },
+  {
+    "group_id": "2e286c6fbab05e9c8de67c0fa3da24d16c6957be82b9c5a03b90d172c3d7e47a",
+    "split": "train",
+    "text": "hi, its amara here. i just noticed that money has already left my account. i wanted to check if you guys can help me sort this out. just to be clear, i am not asking for money back as compensation or anything like that. i’m not sure what kind of problem it is exactly, or which product the issue is about, but i’d appreciate some guidance. can someone let me know what my options are? thanks."
+  },
+  {
+    "group_id": "2e593ff1b234484bd859a0917393ca13846cf8e9f87b4ddf6cd46a745d546c1c",
+    "split": "train",
+    "text": "hey, i need some help with something regarding my account. i'm not sure what's going on here. could you take a look?"
+  },
+  {
+    "group_id": "2fb9ed45405ee18cbf0f15c8de8adbb3474a181be74c5e559c6e1349332a4095",
+    "split": "train",
+    "text": "hi there, it’s liam. i’m checking on a card issue, and i can confirm the money has already left my account. just a quick side note, my coffee got spilled on my shirt this morning, so i’m a bit distracted. but back to the main point: i need some help with something regarding this transaction. i have a question about my account details specifically related to the card product. i’m not looking to go into deep technical weeds right now, just trying to get clarity on where things stand. could you help me out with this? thanks."
+  },
+  {
+    "group_id": "300493ffa1e179aa35b59d12c6303556489e8c1168d6cc970347367c9ee4465a",
+    "split": "train",
+    "text": "hi there, i’m hoping you can help me sort out a confusion with a recent transaction. i attempted to pay for an item earlier today, but the payment didn’t go through as expected. i just wanted to clarify what happened with that specific failed payment. also, please note that i am not asking for any money back or compensation for this issue; i’m simply trying to understand the status. i’d appreciate it if someone could look into why it failed so i can proceed correctly. thanks for your assistance."
+  },
+  {
+    "group_id": "30186abe213133d6a0a03320ef3e9e261cb141e07f35bc7b03266981d3381149",
+    "split": "train",
+    "text": "hi pavel, i need some help with something. i have a question about my savings account. whether money has already left my account is yes, and i am asking for money back as compensation."
+  },
+  {
+    "group_id": "30a32044134bb0ee815cd54bc51a61d7ca8c05638ee11dbf87bb15d978e706e4",
+    "split": "train",
+    "text": "hello. i am writing to ask for assistance with my account, though i am not sure where to begin. i am feeling quite confused about the current situation and what information is actually relevant to share. i want to clarify that this is not a request for monetary compensation or a refund. i simply need some guidance to understand what is happening. please let me know what details you need from me to look into this. i am happy to provide whatever is necessary, but i am unsure of the correct process. thank you for your patience as i try to figure this out."
+  },
+  {
+    "group_id": "30d449b829f833dd39e66c512ce405a46c76aadb6e724834cef9735e914b0608",
+    "split": "train",
+    "text": "hi there. i’m looking for some help with a card issue. i noticed a charge on my account that i don’t recognize. the money has already left my account, so it’s not just a pending transaction. i’m a bit confused about what details i actually need to provide to resolve this. is it sufficient to just tell you the amount, or do you need the date and time as well? i’m not entirely sure which pieces of information are relevant here, so i wanted to check with you first. please let me know what you need from me to look into this unauthorized transaction. thanks for your help."
+  },
+  {
+    "group_id": "31a3884592dd4c3ec70d04f401e324700cd6b9c958c9897d5710e3fe08dca9f2",
+    "split": "train",
+    "text": "hey i’m looking for some help with something regarding my account. i wanted to ask if i can get money back as compensation for what happened. i’m not sure exactly how the process works or if i’m eligible, but i’d like to know if that’s an option. please let me know what you need from me to look into this. thanks"
+  },
+  {
+    "group_id": "336a7a3af7d40bd6042a32ba1b58f2edf02daa4b31a0732098ca5a281d54b8d7",
+    "split": "train",
+    "text": "i am incredibly frustrated. i’ve just noticed a charge on my bank statement that i don’t recognize. this transaction was processed using my card. the money has already left my account, so i can’t just cancel it. i am explicitly asking for this money back as compensation. i expect you to investigate this immediately and resolve the issue. this is unacceptable, and i want a clear explanation of why this happened and confirmation that my funds are returned. do not tell me to wait; i need this fixed now."
+  },
+  {
+    "group_id": "33ca54f01886fc287dd721b278e6afe9863cfd6dabde483201fe32522022c8cb",
+    "split": "train",
+    "text": "hi, i’m jonas. i need to speak to someone immediately about a transaction on my card. there is an unrecognized charge on my statement that i did not authorize. i can confirm that the money has already left my account. i am not looking for any compensation or refund for this specific amount, but i am extremely frustrated by how this was processed in the first place. i need to know why this happened and who is responsible. please put me through to someone who can actually resolve this issue right now. i’ve been waiting long enough and i expect an immediate explanation regarding this unauthorized deduction from my card."
+  },
+  {
+    "group_id": "355033d15e5b4694f61cc1eb72ffaae8358cb91fb81e9ae4b40e998a975314a9",
+    "split": "train",
+    "text": "hi there, my name is lucia. i’m reaching out because i’m a bit confused about my account and i’m not entirely sure what information you’ll need from me to sort this out. i noticed something odd regarding my card, but i can’t pinpoint exactly what the issue is or why it’s happening. i haven’t noticed any money leaving my account, so that part seems fine. also, just to clarify upfront, i’m not asking for any money back or compensation; i just want to understand what’s going on with the card activity. could you let me know what details i should provide? i’m happy to share whatever is relevant, even if i’m not sure what matters. thanks for your help."
+  },
+  {
+    "group_id": "356c93ed947658310fc744c5d7e61777ebb9c274c42dcb3a8311051a5d1a458c",
+    "split": "train",
+    "text": "hi, i need some help with my account. my name is noah. i have lost my card. please let me know what to do next. i want to make sure no one can use it. i checked my recent transactions, and i can confirm that no money has left my account yet. everything is fine there, but the physical card is missing. can you help me block it? i am not a native english speaker, so please be patient with my message. i just want to keep my money safe. let me know the steps i need to take. thank you for your help."
+  },
+  {
+    "group_id": "35f299c34f1e0a765f2adb9c01e94c41786dfbb0a39d1c7fac79db76a09df907",
+    "split": "train",
+    "text": "hi, i need help with something on my account. i noticed a charge i don’t recognize. the money has already left my account, so i’m wondering if you can look into it. i’m not looking for any compensation or refund for inconvenience, just clarification on the transaction. by the way, i’m currently stuck in traffic and it’s raining cats and dogs, so i’m a bit frustrated. i just want to understand why this happened and if i can get it sorted out. thanks."
+  },
+  {
+    "group_id": "363d0b16fdfcdc32458e1c280c04874182dd39865325d2e74dcbdb3c6390c672",
+    "split": "train",
+    "text": "hi, i’m arjun. i experienced a failed payment and i am asking for money back as compensation."
+  },
+  {
+    "group_id": "367981cbc7e26149617eabd72940d81388564aaec88e862748ffcbd1dfdeb18d",
+    "split": "train",
+    "text": "i am incredibly frustrated with my card. there is an unrecognized charge that has already left my account. i do not want money back as compensation. i just need this resolved. why is this happening? i did not make this purchase. it is unfair to be charged without my knowledge. please look into this immediately. i have been a loyal customer and this treatment is unacceptable. i want to know who authorized this transaction. stop wasting my time. this is a serious issue that needs urgent attention. fix it now."
+  },
+  {
+    "group_id": "3808a07791e5c9a78ee453bb1e7135c4e698bcacf2e39ee6ef67da5c3eed4df0",
+    "split": "train",
+    "text": "hi, i’m mia. i have a question regarding my account."
+  },
+  {
+    "group_id": "3859bcdb59bd5e224ee6f8b43bdf1a86c7c4c8aac039277320f3eddc7668c187",
+    "split": "train",
+    "text": "hi, my name is omar. i have a question about my account regarding a lost card. money has already left my account, but i am not asking for money back as compensation."
+  },
+  {
+    "group_id": "389c717fd2c420d7704654c1189fc633cd4a3a9928fae1cb21274d087932ad7d",
+    "split": "train",
+    "text": "i am trying to make a payment but it has failed. i need assistance resolving this issue."
+  },
+  {
+    "group_id": "3913d39cd95035c5ccf4cb21c87fd1020187e17106f997e69bf7a588d82247c8",
+    "split": "train",
+    "text": "hi, i’m nadia. i need some assistance with a change request regarding my loan. i haven’t received any funds yet, so no money has left my account. also, i am not looking for any monetary compensation or a refund. i just need to update some details. it’s been a busy day so far, though. let me know what you need from me to proceed."
+  },
+  {
+    "group_id": "3a01b8097df23135f2f090618c40feb81415f97c6e75bc2f70f5ac8bdbc71a01",
+    "split": "train",
+    "text": "hi leila i'm writing about my account. the money has already left my account and i need some help with something regarding this."
+  },
+  {
+    "group_id": "3aaaa373762c587f73d49fbe3c5937391cfe7aed00bd69eecb17a173702fd2f8",
+    "split": "train",
+    "text": "hi, i’m chloe. i need help with a fee question regarding my card. i noticed a charge i wasn’t expecting, and i can confirm that the money has already left my account. i am not asking for money back as compensation right now, just trying to understand the transaction. speaking of which, i’m currently drinking a very strong cup of coffee while sitting in a quiet corner of the library; it’s surprisingly peaceful here despite the usual noise outside. anyway, back to the issue, could you clarify why this fee was applied? i just want some clarity on the statement. thanks."
+  },
+  {
+    "group_id": "3b31f3a4f5668e3499cb3e9cb3363137f0fcd619fcbf2664de93d69cd1874175",
+    "split": "train",
+    "text": "hi there. my name is hugo. i am writing to you because i have a question about my savings account. i do not want any money back as compensation, so please do not think that is what i need. also, no money has left my account yet. i just want to ask something simple. i am not very good at english, so please be patient with me. i need some help with something regarding my savings. please let me know how i can proceed or who can answer my question. thank you for your time and help. i look forward to hearing from you soon."
+  },
+  {
+    "group_id": "3de41a5d94068e6b4afbffa7f927012474f7d02bb1dc0fab9f868605bb2f0897",
+    "split": "test",
+    "text": "* hi, my name is tom. * i have a change request regarding my current account. * no money has left my account yet. * i am not asking for money back as compensation. * i need to update some account details."
+  },
+  {
+    "group_id": "3f15cf92be196fa878606b00fe64cc16411e7617129f19cab0adbdcf2baa1805",
+    "split": "test",
+    "text": "dear support team, i am writing to you regarding a matter concerning my account. please be advised that the funds in question have already left my account. i would appreciate your prompt attention to this inquiry. i look forward to your response. sincerely, maya"
+  },
+  {
+    "group_id": "3f60b6f6519858d18daee4496fb6340c130139d3293f559a006cf731857ed491",
+    "split": "test",
+    "text": "hi, its fatima. i need some help with something. i’m not sure where to start or what exactly happened, but i have a question about my account. can someone please assist me? thanks."
+  },
+  {
+    "group_id": "402823a16cf2c44ebc2c7eff4040b18b3d5031317334c087c5cce962e4e67f88",
+    "split": "test",
+    "text": "hi there. i’m writing because i need some assistance with an issue i’ve encountered recently. to clarify upfront, i am not asking for money back as compensation. i have some background context i think is relevant to understanding the situation, but i’m not sure exactly how to describe the core problem or which specific service is involved. i simply know that something isn’t quite right with my account activity and i need guidance on how to proceed. i want to make sure i’m following the right steps to get this resolved without overcomplicating things. could you point me in the right direction or let me know what details you need from me to help sort this out? thanks."
+  },
+  {
+    "group_id": "4057ff28c9c5e11a4242bd4aa8136940354c3a1aae70d4a5bb46e38b697041ce",
+    "split": "test",
+    "text": "hi, my name is grace. i have a question about my loan. i noticed a fee was charged to me. the money has already left my account. i think this fee is not correct. i am writing to ask for help with this problem. can you please check why this happened? also, i would like to request money back as compensation for this error. please let me know if you can return the funds to my account. i hope this can be resolved quickly. thank you for your assistance."
+  },
+  {
+    "group_id": "405907d48359778e5cb18c06ada7a1a9ae03a81e9bcc137a0a95a5c96250bb01",
+    "split": "test",
+    "text": "hi, im having a bit of trouble with my account. i tried doing something a few minutes ago and it didnt work like its supposed to. i was looking for some help with that but its still acting weird. can someone look into this for me? i dont know whats going on. thanks."
+  },
+  {
+    "group_id": "4218aa3087bd2f28a273333254247e0b49365b6a22dc9dc7df20a777f8e7a4cd",
+    "split": "test",
+    "text": "hello, i need help with my bank card. i think i lost it. i am writing because the card is gone and i cannot find it. i want to know what i should do next. please tell me how to block it or if i need a new one. i checked my account and no money has left my account yet. i know this so i am not worried about stolen funds right now. also, i do not want any money back as compensation. i just need to solve the lost card issue. please let me know the steps. thank you for your help."
+  },
+  {
+    "group_id": "4299ebfe3b1eab1e26cde79ab17f55ddb68131278dd7acea2365e5c5a3e50a00",
+    "split": "test",
+    "text": "dear support team, i am writing to report a lost card associated with my account. i have confirmed that funds have already left my account due to this incident. the issue pertains specifically to the card product i hold with your bank. i would appreciate your immediate attention to this matter to ensure the security of my remaining funds and to facilitate the necessary procedures for replacing the lost item. please let me know what further information you require from my side to proceed. sincerely, a customer"
+  },
+  {
+    "group_id": "43473215ecd8d3f19ef9460153d65e354637f54cb90f9a14921c4b628cdfe480",
+    "split": "test",
+    "text": "hi, i’m hannah. i’m writing because i noticed an unrecognized charge on my recent statements. i’d like to get some clarification on what this transaction was for. thanks."
+  },
+  {
+    "group_id": "43c46ab9d071de734ed63ec5406d9d62cfa090e123c77a6a08038537763b8b44",
+    "split": "test",
+    "text": "hi, i need help with my card. there was a failed payment. i am not asking for any money back as compensation."
+  },
+  {
+    "group_id": "43c5d0ed5f3e18792db0bc17d2718820ef89a9cd551177949431a9b77457433d",
+    "split": "test",
+    "text": "hello. my name is fatima. i am writing to you because i need some help with something regarding my account. i am not sure exactly what the issue is, but i have a question about my finances. i hope you can guide me. please let me know how we can proceed. thank you."
+  },
+  {
+    "group_id": "43c9c74e4386b07a32acf269b88305d4ad336012c74b51c1f111b82d949d392a",
+    "split": "test",
+    "text": "hello. i need help with my bank card. i see a charge on my account that i do not recognize. i did not make this transaction. please check what is happening. also, i want to tell you that the money has not left my account yet. it is still there. the problem is only about the card statement showing this unknown fee. can you look into this? i am not sure why this is happening. i just want to know more about the charge and the card. thank you for your help."
+  },
+  {
+    "group_id": "45b2fd84037e358f85072a9f5c24d06de3e568d181366e4089230e7c649cd76c",
+    "split": "test",
+    "text": "hi, i’m daniel. i need some help with something regarding my card. i noticed an unrecognized charge that has already left my account. i’m not entirely sure what information you need from me to look into this, so i’ll just mention that i’d like to ask for money back as compensation. i’m a bit confused about the process here. please let me know what details you require to resolve this. thanks."
+  },
+  {
+    "group_id": "460e8cf13234c4514d709f0a08940f6946877cd7e2bce9dfc5542431fc9eaa31",
+    "split": "test",
+    "text": "i’m writing regarding a failed payment. the funds have already left my account. i am not requesting any money back as compensation."
+  },
+  {
+    "group_id": "461986234392db1e3b48dbaeaf8993854143757c42ddecb91c0d108e583ef8a0",
+    "split": "test",
+    "text": "hey, i need some help with something. i had a failed payment on my card. the money has already left my account, but the transaction didn’t go through. i’m not asking for money back or compensation, just trying to sort this out. can someone look into it for me? i don’t know why it happened but i think it needs fixing. thanks."
+  },
+  {
+    "group_id": "4632a04379a242eb5e673df974294ae017b98db6133e99177235c138b322c1b8",
+    "split": "test",
+    "text": "hey i need help with my card. it seems to be lost. i cant find it anywhere. i checked my account and no money has left yet, so that’s good. i am not asking for any money back as compensation, just trying to sort this out. can you tell me what to do next? thanks"
+  },
+  {
+    "group_id": "46e00c95b0476e5b81c7e38d6d9c3577110041044e0a3df7e841bdf9d3bdc1c9",
+    "split": "test",
+    "text": "hello. my name is ines. i need help with something. i am not sure if the money has left my account or not. it has not left yet, i think. i have a question about my account. please help me. i do not know how to check the status. can you tell me if the transaction is complete? i am waiting for confirmation. thank you."
+  },
+  {
+    "group_id": "47042bdde21aad79bfdd987b20185e82cb2c7fde658ce4306ba251e32fd1aecf",
+    "split": "test",
+    "text": "hi i am ines i have a question about my current account. i noticed an unrecognized charge on my statement and i need some help with figuring out what it is. i am not sure about the details so i was wondering if you could look into it for me. thanks"
+  },
+  {
+    "group_id": "472d76f8c8c87666202ba34ad60efb03adad92ab6bff015b0d9f6ac17824db79",
+    "split": "test",
+    "text": "hi, i’m sofia. i just had a quick question about my account. i checked the recent transactions, and i can confirm that the money has already left my account. however, i am not asking for any money back as compensation for this. i just wanted to verify the status. on a separate note, i’m currently sitting here watching my cat try to catch a dust mote in the sunlight, which is quite entertaining. anyway, please let me know if you need any further details from me to clarify the situation."
+  },
+  {
+    "group_id": "47bffa40f40caeeb8c2845ce33d75ed44274a5f01debe729973d9e3c838b87bb",
+    "split": "test",
+    "text": "hi, my name is kenji. i have a question about my account. some money has already left my account, but i am not asking for it back as compensation. i’m not sure what the specific problem is or which product this involves. it’s just a bit of a strange situation. my coffee went cold while i was typing this, which is annoying, but i’m mostly just wondering how this happens. could you clarify what i should do next? i don’t need a refund, just some information. thanks for your help with this."
+  },
+  {
+    "group_id": "48f2ededa97a9ec7e9356dc6199925750f7a4a58c38a13032c44e6ce534522b9",
+    "split": "test",
+    "text": "hi, this is priya. i am reaching out because i am extremely frustrated with the service i’ve been receiving. i need immediate assistance with an issue that has not been resolved. my patience is wearing very thin, and i expect this to be handled right now without any further delays or generic responses. please connect me with someone who can actually help me resolve this matter immediately. i do not want to speak to another automated system or have my query passed around. i just want this fixed. please let me know who is available to assist me directly."
+  },
+  {
+    "group_id": "499ea521e720a9b1f0e5f4cb280297d83df5f9acbf7dad2ba1d0bd52085aa863",
+    "split": "test",
+    "text": "hi there. i hope you’re doing well. i’m writing to ask for some assistance regarding my card. to be honest, i’m a bit confused about what details i actually need to provide for this kind of inquiry. i’m not entirely sure which pieces of information are relevant or necessary for the support team to understand my situation. could you please clarify what i should include in this chat so i can get the help i need? i want to make sure i’m giving you the right information without missing anything important or sending unnecessary data. thank you for your patience and guidance."
+  },
+  {
+    "group_id": "4a265562a7a65da574e3e0d7764845c950b0ff659e10f6d192c72ff8fa54f4a4",
+    "split": "test",
+    "text": "look, i’ve been trying to sort this out for days. my name is victor. i’m not asking for any money back or compensation; i just need this resolved. the issue is with my card. that’s it. i don’t want a refund. i want the situation fixed. why is this so difficult? i’ve already explained the details enough times. i just need someone to handle the card issue properly. stop asking me if i want money back. that is not what i want. i want the card to work as it should. please, can we just focus on the card itself? i am getting very frustrated with this back-and-forth. i have a question about my card, and i need a straight answer."
+  },
+  {
+    "group_id": "4a9874dc403ef324a872d07b1b97240119a2e49ae7bc309bad362d43ec76a059",
+    "split": "test",
+    "text": "hello. i have a question about my account. something is not correct and i need help. i am not sure what the specific issue is, but i can see something wrong. please tell me how to fix this. i do not understand why it is happening. can you check my account details? i am waiting for your answer. thank you."
+  },
+  {
+    "group_id": "4aef98126486f80193b180b57c9c20e858a2b23b492f0f749a91170ec168d376",
+    "split": "test",
+    "text": "hi there, grace here. i hope you’re having a good day. mine has been a bit busy; i just finished a long walk and my shoes are still dusty from the park trail, which is funny considering i’m sitting indoors now. anyway, i need some help with something regarding my account. i have a question that i’d like to get clarified with you. could you let me know who is available to assist me? i’m ready whenever you are. thanks!"
+  },
+  {
+    "group_id": "4c646fca194875632ec98877f019c5eb09ce724ad0d79f5c344f44d69fc8fb98",
+    "split": "test",
+    "text": "victor here. i am trying to make a payment on my loan, but it keeps failing. this is incredibly frustrating. i have tried multiple times now, and nothing works. it’s unacceptable that i cannot even complete a basic transaction. i expect this to be resolved immediately. please fix this now. i’m losing patience with this service."
+  },
+  {
+    "group_id": "4d056fab70ed52b74664ffee76a003ed9f64f040befb07a7573298c042d50074",
+    "split": "test",
+    "text": "dear support team, my name is leila. i am writing to you today because i require assistance with a matter concerning my account. i have noticed an irregularity that needs to be addressed, but i would prefer not to elaborate on the specific details at this initial stage. could you please advise on the appropriate next steps to resolve this? i am eager to have this matter settled promptly and efficiently. please let me know if you require any further identification or documentation from my end to proceed. i look forward to your prompt response. sincerely, leila"
+  },
+  {
+    "group_id": "4e2cb325184f6998bcdb468b9b1e020ebc0252ce4022c80ca67f4d76e722b0b6",
+    "split": "test",
+    "text": "i’m lucas. i need to talk about my current account right now. there is an unrecognized charge showing up, and i am incredibly frustrated. it is not a charge i made or authorized. the worst part is that the money hasn’t actually left my account yet, but the fact that it’s even appearing there is unacceptable. i’ve been trying to resolve this, and it’s pissing me off. i just want this sorted out immediately. don’t tell me to wait on hold. fix this now. i expect a clear explanation of what is happening with this transaction on my current account."
+  },
+  {
+    "group_id": "4e3a371dce96ddc7a561bcff14d7fc349fdb95a398eeba057c2dfc2c3881efcc",
+    "split": "test",
+    "text": "hi there. my name is sofia. i am writing because i have noticed an unrecognized charge on my account. this issue is specifically related to my savings product. i am reaching out to get some clarity on this transaction and understand what happened. please note that i am not asking for any money back as compensation; i just need to verify the origin of this entry. i have been a loyal customer for quite some time and value the reliability of our banking relationship, which is why i am reporting this discrepancy now. i hope we can resolve this quickly so i can rest assured that everything is in order with my finances. thank you for your assistance."
+  },
+  {
+    "group_id": "4e806509c00e170172eed1d9ff92b95adcff9a3f3752b262e56049873728ad2d",
+    "split": "test",
+    "text": "hi, i need some help with something. my name is omar. i have a question regarding a fee on my account. it’s a bit confusing, so i’d appreciate some clarification. also, my cat just knocked over a glass of water on my keyboard, so i’m typing very carefully right now. i hope that doesn’t interfere with the chat. anyway, back to the issue, i just need to understand this charge better. thanks for your help."
+  },
+  {
+    "group_id": "4f29e11566d1236a621124400b2f6d8f81b920f342eeb2947a6edfa9b53d05f7",
+    "split": "test",
+    "text": "hi there, i’m tom. i’m reaching out because i’ve noticed a discrepancy in my recent transaction history that i’d like to clarify. it seems that the funds in question haven’t actually left my account yet, so the issue might be pending or perhaps a failed authorization that’s still sitting there. however, i was expecting some form of reimbursement for the inconvenience this has caused. i’m not sure if this qualifies, but i am asking for money back as compensation for the trouble and the time i’ve had to spend sorting this out. could you please let me know if i can receive that refund now?"
+  },
+  {
+    "group_id": "4f2e44a565bf71f1ea444180a4c482b707ec8e6dcabfd98cfda100e3bfd14dc3",
+    "split": "test",
+    "text": "* arjun here. * i am using the online chat. * i have a question about my account."
+  },
+  {
+    "group_id": "4f3a592286bf796d818a189416f25b8a7a909e879745b64ffb2ec7eb5d22e8bf",
+    "split": "test",
+    "text": "hi, i need some help with my card. i have a change request i need to make, but i want to confirm first if the money has already left my account. it hasn't left yet, right? just checking before we proceed. thanks"
+  },
+  {
+    "group_id": "506952bce8f556f3ee4eccbf3c18ca58b650fe4639dc8924bd62ee8579d07486",
+    "split": "test",
+    "text": "i have a question about my loan. i need to submit a change request, but no money has left my account yet."
+  },
+  {
+    "group_id": "50b0ed2a5f8a8b3d3c2cd9e161e07d59e0c3900e5ef2548bfba680050772530b",
+    "split": "test",
+    "text": "* i lost my card. * the issue concerns the card. * no money has left my account. * i am not asking for money back as compensation."
+  },
+  {
+    "group_id": "50e524f8c3446523dfafe588a0489757118f31fcf70b22a59c06ae873d7031b8",
+    "split": "test",
+    "text": "i am extremely frustrated and frankly angry about this fee. i am not asking for any money back or compensation; i simply want to know why i was charged this specific fee in the first place. it is unacceptable to be billed without a clear explanation. i have reviewed my statements and i cannot find any justification for this deduction. please clarify the reason for this charge immediately. i expect a direct answer, not a generic response. i just want to understand what happened and ensure it does not happen again. stop wasting my time with useless information and tell me exactly why this fee exists. i am waiting for a concrete explanation right now."
+  },
+  {
+    "group_id": "5138affd8bc8b4de086db96773e1fcf58fd87f2fd52bc6f29dd711f86d1aeb1f",
+    "split": "test",
+    "text": "hi there. my name is anna, and i’m hoping you can help me with a tricky situation i’m facing. i have noticed that my card is missing, which is quite concerning for me. i checked my recent transactions to make sure everything was in order before reaching out. i am happy to report that no money has left my account yet, so that part seems fine for now. however, i do not know where the card went or how it disappeared. i would appreciate some guidance on what steps i should take next to secure my account and find a solution. please let me know how i can proceed with this matter."
+  },
+  {
+    "group_id": "52536a2792743c3f77654960412dc5544282ae8836a67c2b445f22ea9335bc3f",
+    "split": "test",
+    "text": "hey i need some help with something regarding my account. i’m not totally sure what’s going on but i noticed a few things that seem a bit off and i wanted to check in before it gets worse. can you look into this for me? i’m a bit confused about the current status and just want to make sure everything is sorted out properly. thanks in advance for your help with this. let me know what you find."
+  },
+  {
+    "group_id": "52a64eaeadbcc9bb1c1f7d208e927ae384a795e1cc991529ff1d9fcf7b9758a6",
+    "split": "test",
+    "text": "dear support team, i hope this message finds you well. my name is lucia, and i am writing to you regarding a matter that requires your attention. i have encountered an issue with my account that i would appreciate your assistance in resolving. could you please guide me through the next steps? i want to ensure that everything is handled correctly and promptly. i am available to provide any additional information you might need to investigate this further. thank you for your time and support. sincerely, lucia"
+  },
+  {
+    "group_id": "52b26596e8dc4e543aace77e3e4f912e4a3624b513a8dd2662b4a1e12fb1b74a",
+    "split": "test",
+    "text": "hi there. i’m having trouble with my loan account. i haven’t asked for any money back as compensation, so this isn’t about that. just need some clarity on a few things regarding the loan itself. it’s been a long day, by the way. the barista at the cafe i visited this morning accidentally gave me decaf instead of espresso, and i didn’t notice until i was halfway through my third cup. back to business: i need help understanding the current status of my loan. can you check that for me? thanks."
+  },
+  {
+    "group_id": "52dd6363457b5eb04927f870b2dcde987d59f4ba658a781646132278c4f7a51b",
+    "split": "test",
+    "text": "hi, i need some help with something. i have a question about my account."
+  },
+  {
+    "group_id": "53cd0478dce3b34d9e915e021ebc6e989e2f84e5779b3f0714b4309d007c55e7",
+    "split": "test",
+    "text": "hi. i am writing because i have a question about my account. i checked my balance and i see that the money has already left my account. i want to ask if this is correct. i am not asking for money back as compensation. i just need to know the status. please help me understand what happened. i am not sure why the funds moved. i just want clarity on my current situation. thank you for your time."
+  },
+  {
+    "group_id": "544958719eb0d787731c358ea094e817be3a9fab68963d7e8c341e3443dec1fb",
+    "split": "test",
+    "text": "hi there. i’m diego. i seem to have lost my card and i’m not entirely sure what to do next or what information you need from me to fix this. i just know i can’t find it anymore. i’m not looking for any money back or compensation, just help sorting out the card itself. could you tell me what steps i should take? i’m a bit confused about the process and want to make sure i’m doing the right thing. thanks for your patience."
+  },
+  {
+    "group_id": "54f7205edaafd0045503d161f7dcfe309fb87b5b66d4f521f1c550d9974f4411",
+    "split": "test",
+    "text": "i am extremely frustrated and angry. i need some help with something regarding my current account. i want to be perfectly clear: i am not asking for money back as compensation. that is not what this is about. i am simply trying to resolve an issue connected to my current account, but i feel like i am hitting a wall. the situation is unacceptable, and i expect this to be sorted out immediately without further delays or excuses. please direct this to the appropriate team so i can get a real resolution. i have been dealing with this for far too long, and my patience is completely gone. i just want the matter addressed properly and quickly."
+  },
+  {
+    "group_id": "565d3ab79288948730f2b73c1f910d5df491f00bfa41d9cd19a3327d0dbfeb24",
+    "split": "test",
+    "text": "hey there. i’m currently stuck in a really long queue at the grocery store, and it’s just not going well. anyway, i need some help with something. i’ve lost my card. i haven’t lost any money yet, so no funds have left my account. i’m not asking for any compensation or money back either. i just need to sort out this card issue. thanks for your help."
+  },
+  {
+    "group_id": "56e359eea560d17cb46eafe4f34cc9f5e51608f4e183f8a9577dcefd80584af8",
+    "split": "test",
+    "text": "hi there, maya here. i’m currently sitting on my balcony with a cup of tea that’s gone completely cold because i’ve been distracted. i wanted to pop into the chat quickly to get some assistance regarding my account. i have a few questions that i need clarified before i head back inside. could you please help me out with this? i appreciate your time."
+  },
+  {
+    "group_id": "576f143b9d713e7a3c142a0412643373ef217117a16cdba77853b74a8134a871",
+    "split": "test",
+    "text": "i am writing because an unrecognized charge appeared on my statement. i can confirm that the money has already left my account. i am not asking for any compensation or refund at this stage. i just need to know what this transaction is for and why it happened. this is frustrating because i did not authorize this payment. please explain this discrepancy immediately. i expect a clear answer regarding this specific charge."
+  },
+  {
+    "group_id": "57b3ef0784ec9459c21a530a51c725eead1800d0e103e43fdcd684291eb7a7a8",
+    "split": "test",
+    "text": "hi there. i’m reaching out because i’m a bit confused about something in my account. to be honest, i’m not entirely sure which specific detail is causing the issue, or even if i’m looking in the right place. i’ve tried to figure it out myself, but i’m coming up empty. could you please help me clarify what’s going on? i want to make sure i provide the right information, but i’m not sure what is relevant here. any guidance you can offer would be appreciated, as i’m feeling a little lost with this. thank you for your help."
+  }
+]

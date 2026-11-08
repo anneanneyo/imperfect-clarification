@@ -1,0 +1,27 @@
+{
+  "partial": {
+    "dialogues": 67,
+    "questions": {
+      "issue": 28,
+      "product": 17,
+      "compensation": 12,
+      "money_gone": 10
+    },
+    "facts_changed": 45,
+    "route_set_changed": 24,
+    "binary_questions": 22
+  },
+  "unknown": {
+    "dialogues": 58,
+    "questions": {
+      "customer_name": 15,
+      "issue": 10,
+      "money_gone": 11,
+      "product": 16,
+      "compensation": 6
+    },
+    "facts_changed": 0,
+    "route_set_changed": 0,
+    "binary_questions": 17
+  }
+}

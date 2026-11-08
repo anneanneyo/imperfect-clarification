@@ -1,0 +1,302 @@
+[
+  {
+    "task_id": "10",
+    "coarse_request_paraphrase": "Return both orders, request cross-refunds.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "privacy",
+        "source_field": "task_instructions",
+        "source_span": "do not want to reveal much",
+        "interpretation": "Brevity/reluctance is specified, but no probability or precise pattern of omission is given."
+      },
+      {
+        "kind": "user_preference",
+        "source_field": "reason_for_call",
+        "source_span": "refund each order to the other order's payment method",
+        "interpretation": "Which payment destination do you want for each order? The preference is known to the user."
+      },
+      {
+        "kind": "policy_boundary",
+        "source_field": "reason_for_call",
+        "source_span": "If not possible",
+        "interpretation": "Whether a cross-refund is allowed is a policy fact for the agent to check, not a user fact to elicit."
+      }
+    ]
+  },
+  {
+    "task_id": "25",
+    "coarse_request_paraphrase": "Find the affected order and return selected items.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "explicit_unknown",
+        "source_field": "reason_for_call",
+        "source_span": "You don't remember the order number",
+        "interpretation": "Asking for the exact order ID is explicitly unanswerable; locating by known address/item facts is a different action."
+      },
+      {
+        "kind": "user_constraint",
+        "source_field": "reason_for_call",
+        "source_span": "except the pet bed",
+        "interpretation": "Which item should remain? The pet bed must remain; this is not indifference."
+      },
+      {
+        "kind": "agent_lookup",
+        "source_field": "reason_for_call",
+        "source_span": "tracking number",
+        "interpretation": "Retrieve tracking from order fulfillment after identifying the order; do not require the user to supply the answer to their own request."
+      }
+    ]
+  },
+  {
+    "task_id": "8",
+    "coarse_request_paraphrase": "Exchange a bottle and a lamp, subject to later confirmation.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "preference_order",
+        "source_field": "reason_for_call",
+        "source_span": "prefer battery > USB > AC",
+        "interpretation": "Power-source ranking is user knowledge; available variants and brightness are catalog facts."
+      },
+      {
+        "kind": "goal_transition",
+        "source_field": "reason_for_call",
+        "source_span": "If the agent asks for confirmation, only exchange the desk lamp.",
+        "interpretation": "The source explicitly changes the requested item set at confirmation. A fixed-target audit must model this transition or separately exclude this design before outcomes."
+      },
+      {
+        "kind": "explicit_unknown",
+        "source_field": "unknown_info",
+        "source_span": "do not remember your email address",
+        "interpretation": "Unknown email does not imply unknown item preferences."
+      }
+    ]
+  },
+  {
+    "task_id": "44",
+    "coarse_request_paraphrase": "Change a lamp and obtain the price difference.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "user_objective",
+        "source_field": "reason_for_call",
+        "source_span": "cheapest Desk Lamp",
+        "interpretation": "Elicit the price objective if not yet disclosed; once disclosed, find the cheapest valid variant through tools."
+      },
+      {
+        "kind": "agent_lookup",
+        "source_field": "reason_for_call",
+        "source_span": "how much you get back in total",
+        "interpretation": "The refund amount is computed from stored prices and selected variant, not elicited as a user preference."
+      },
+      {
+        "kind": "user_preference",
+        "source_field": "reason_for_call",
+        "source_span": "should go to a gift card",
+        "interpretation": "Refund destination preference is known to the user; availability/permission remain policy constraints."
+      }
+    ]
+  },
+  {
+    "task_id": "85",
+    "coarse_request_paraphrase": "Exchange a fleece jacket.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "user_constraint",
+        "source_field": "reason_for_call",
+        "source_span": "large red Fleece Jacket with a half zipper",
+        "interpretation": "Size, color and zipper form all constrain the target. A reply giving only red would omit two source constraints."
+      },
+      {
+        "kind": "unspecified_knowledge",
+        "source_field": "task_instructions",
+        "source_span": "You are shy, rigid.",
+        "interpretation": "Shyness is not evidence that the user cannot answer any particular question; no IDK rates can be inferred."
+      }
+    ]
+  },
+  {
+    "task_id": "2",
+    "coarse_request_paraphrase": "Return three items and ask about store options.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "user_constraint",
+        "source_field": "reason_for_call",
+        "source_span": "cleaner, headphone, and smart watch",
+        "interpretation": "All three item categories belong to the requested return set; do not drop an unmentioned item from a partial restatement."
+      },
+      {
+        "kind": "agent_lookup",
+        "source_field": "reason_for_call",
+        "source_span": "how many tshirt options are available",
+        "interpretation": "Catalog cardinality is a tool-computable answer requested by the user; asking the user to state it is misplaced."
+      },
+      {
+        "kind": "explicit_unknown",
+        "source_field": "unknown_info",
+        "source_span": "do not remember your email address",
+        "interpretation": "Use the allowed alternative identity route, not invented email information."
+      }
+    ]
+  },
+  {
+    "task_id": "6",
+    "coarse_request_paraphrase": "Exchange bottle/lamp with a conditional change at confirmation.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "user_constraint",
+        "source_field": "reason_for_call",
+        "source_span": "less bright one",
+        "interpretation": "Relative desired brightness is a user requirement; the available brightness values are a catalog fact."
+      },
+      {
+        "kind": "goal_transition",
+        "source_field": "reason_for_call",
+        "source_span": "If the agent asks for confirmation, only exchange the desk lamp.",
+        "interpretation": "Confirmation changes the requested item set in the source. It is not a cost-free unchanged-goal final step."
+      },
+      {
+        "kind": "preference_order",
+        "source_field": "reason_for_call",
+        "source_span": "prefer battery > USB > AC",
+        "interpretation": "Do not interpret a complete power-source ranking as IDK or missing preference."
+      }
+    ]
+  },
+  {
+    "task_id": "7",
+    "coarse_request_paraphrase": "Exchange bottle/lamp with a different power-source ranking.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "preference_order",
+        "source_field": "reason_for_call",
+        "source_span": "prefer AC adapter > battery > USB",
+        "interpretation": "The ranking differs from tasks6/8; the same user identity does not imply the same goal."
+      },
+      {
+        "kind": "goal_transition",
+        "source_field": "reason_for_call",
+        "source_span": "If the agent asks for confirmation, only exchange the desk lamp.",
+        "interpretation": "Same explicit confirmation-triggered change; these three related cases are not three independent user populations."
+      }
+    ]
+  },
+  {
+    "task_id": "47",
+    "coarse_request_paraphrase": "Return two appliances while correcting identifiers.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "scripted_repair",
+        "source_field": "reason_for_call",
+        "source_span": "provide 9502126 first",
+        "interpretation": "An initial incorrect ID and subsequent corrections are explicitly scripted. This is not a truthful erasure/partial channel."
+      },
+      {
+        "kind": "user_constraint",
+        "source_field": "reason_for_call",
+        "source_span": "mention the canister one",
+        "interpretation": "Which vacuum cleaner? The intended subtype is canister; recovering this matters when multiple candidates exist."
+      },
+      {
+        "kind": "policy_boundary",
+        "source_field": "reason_for_call",
+        "source_span": "provide the refund within 3 days",
+        "interpretation": "The requested deadline is a preference, not proof that the agent can guarantee it; actual timing is a policy fact."
+      }
+    ]
+  },
+  {
+    "task_id": "30",
+    "coarse_request_paraphrase": "Exchange or return a damaged tablet, with dependent actions.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "conditional_goal",
+        "source_field": "reason_for_call",
+        "source_span": "you prefer exchange for the same item, but if it is not available just return it",
+        "interpretation": "Need the conditional preference once; availability is then retrieved. Return is an allowed fallback, not a contradiction."
+      },
+      {
+        "kind": "conditional_goal",
+        "source_field": "reason_for_call",
+        "source_span": "If tablet is returned, also cancel the charger",
+        "interpretation": "The charger cancellation is conditional on the tablet outcome. A one-slot intent ID cannot encode this without the condition."
+      },
+      {
+        "kind": "privacy",
+        "source_field": "task_instructions",
+        "source_span": "one thing at a time",
+        "interpretation": "Sequential disclosure is specified qualitatively, without a distribution of which detail is omitted."
+      }
+    ]
+  },
+  {
+    "task_id": "113",
+    "coarse_request_paraphrase": "Cancel every pending order; reveal reason only when asked.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "withheld_known_fact",
+        "source_field": "task_instructions",
+        "source_span": "If asked for reason, say you ordered the items by mistake.",
+        "interpretation": "Reason is known but withheld until requested; it is neither IDK nor indifference."
+      },
+      {
+        "kind": "user_objective",
+        "source_field": "reason_for_call",
+        "source_span": "cancel all pending orders",
+        "interpretation": "The target is the whole pending set; asking which single order presupposes the wrong action set."
+      },
+      {
+        "kind": "agent_lookup",
+        "source_field": "reason_for_call",
+        "source_span": "pending orders",
+        "interpretation": "After identity resolution, enumerate pending orders through tools rather than requiring the user to remember every ID."
+      }
+    ]
+  },
+  {
+    "task_id": "20",
+    "coarse_request_paraphrase": "Upgrade items while preserving shoe size.",
+    "annotation_status": "single_assistant_exploratory_source_analysis",
+    "observed_dialogues": false,
+    "knowledge_atoms": [
+      {
+        "kind": "explicit_indifference",
+        "source_field": "reason_for_call",
+        "source_span": "You only care about the size; the other specs are not important",
+        "interpretation": "For other features the user is indifferent; this is different from unknown desired color."
+      },
+      {
+        "kind": "user_constraint",
+        "source_field": "reason_for_call",
+        "source_span": "new shoe is still the same size",
+        "interpretation": "Shoe size must stay fixed; prices/variant options can be obtained from the catalog."
+      },
+      {
+        "kind": "conditional_preference",
+        "source_field": "reason_for_call",
+        "source_span": "using PayPal is fine",
+        "interpretation": "PayPal is an explicit fallback if gift card payment is impossible. Financial/policy feasibility is not determined by preference alone."
+      }
+    ]
+  }
+]

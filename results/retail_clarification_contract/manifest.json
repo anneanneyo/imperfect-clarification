@@ -1,0 +1,43 @@
+{
+  "commit": "fc0055dc4e0a316c3f83133267fbd6faaa770992",
+  "source_hashes": {
+    "src/tau2/domains/retail/data_model.py": "f5ad09590953855cc49d2ab2ad5c0594be408cae74d1500fb278e5a6bf2c50d6",
+    "src/tau2/domains/retail/tools.py": "34f4fe9702d36f0dd4697700fbcd63d0cf5386e6eb8e7499aaa336243bad8750",
+    "src/tau2/environment/toolkit.py": "3e897891e8878c3399aec72e42eb0eb5546642420c0c902b225421fc936b924a",
+    "src/tau2/environment/db.py": "49e12f900a8aabe62d6137a9baa1e7d471f9b3e516cf7c85fb61ecde8a65154c",
+    "src/tau2/utils/pydantic_utils.py": "618dfc39b619bb0f623151682962ddc52bf2ea70bc2562dded884f118c84b78a",
+    "data/tau2/domains/retail/db.json": "413a65160adbdb5fde0ffc0015c49b6d70250b10c18128de169b597af7766765",
+    "data/tau2/domains/retail/tasks.json": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+    "data/tau2/domains/retail/split_tasks.json": "ed0580ec52575b63fbf76568af42490da6ee7783ecb4aa81af46961291358f20"
+  },
+  "extracted_ast": [
+    {
+      "file": "src/tau2/utils/pydantic_utils.py",
+      "ast_sha256": "755bdab527a34f16779e12b201b227a87ef4c10e93c110b740f255d6e9185abe"
+    },
+    {
+      "file": "src/tau2/environment/db.py",
+      "ast_sha256": "2643b1527f53db4560d2d555ab9466e47414a29145a14819cabc9ecbe88297a2"
+    },
+    {
+      "file": "src/tau2/domains/retail/data_model.py",
+      "ast_sha256": "4eb718dcf4aebf681bdfb9068a561234292f49f4343aada068bc14347478192a"
+    },
+    {
+      "file": "src/tau2/environment/toolkit.py",
+      "ast_sha256": "45852272d793a2343a6c2e8e8a981c37fa58fdd3b1b85d425d002208860c0405"
+    },
+    {
+      "file": "src/tau2/domains/retail/tools.py",
+      "ast_sha256": "f65c64a2df1c400066e2138adc5c0d692fcab5c6c2ed7bf2e677af2ac2fbfa4f"
+    }
+  ],
+  "code_sha256": "09001129ffc90bf205025e06a14b8efe58ba282c6b82084f3031ef591a899c8d",
+  "protocol_sha256": "fe08fb60590527f5a5c146712ca654f33751c83412cbfa2a71ade7973348ef95",
+  "outputs": {
+    "families.json": "d1770d8ef90409fad86a67f791f3ce369b6d587143076e42746596fa0c4037ac",
+    "execution.json": "bda9e394f6b12a3de77b2e8ebe0b421f81273afa4ea9b6fb521ef9b3dd3b8224",
+    "partial_examples.json": "3afdc061a9e529e0f629c6a9793b9cab84326961cbd880537823471a8a00381d",
+    "summary.json": "e542903501b12b1f6e021bcf2ad44a14a8dbedb263f0d846cf7be8ca658e202f"
+  }
+}

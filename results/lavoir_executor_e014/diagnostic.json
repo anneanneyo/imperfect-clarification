@@ -1,0 +1,140 @@
+{
+  "timing": "Post-hoc after E014 outputs; descriptive decomposition, not causal attribution or preregistered hypothesis test.",
+  "certain_initial_case_weight": 0.5000000000000001,
+  "uncertain_initial_case_weight": 0.5,
+  "certain_initial_error_cases": [
+    "train/banking_support/00003",
+    "train/banking_support/00054",
+    "train/banking_support/00149"
+  ],
+  "per_question": {
+    "issue": {
+      "route_posterior_unchanged_mass": 0.7048611111111108,
+      "route_posterior_unchanged_accuracy_gain": 0.041666666666666664,
+      "improvement_mass": 0.19097222222222224,
+      "worsening_mass": 0.0,
+      "route_posterior_changed_mass": 0.2951388888888889,
+      "route_posterior_changed_accuracy_gain": 0.14930555555555558
+    },
+    "product": {
+      "route_posterior_unchanged_mass": 0.6458333333333333,
+      "route_posterior_unchanged_accuracy_gain": 0.08680555555555555,
+      "improvement_mass": 0.28125,
+      "worsening_mass": 0.10069444444444445,
+      "route_posterior_changed_mass": 0.3541666666666667,
+      "route_posterior_changed_accuracy_gain": 0.09374999999999997
+    },
+    "money_gone": {
+      "route_posterior_unchanged_mass": 0.8576388888888886,
+      "route_posterior_unchanged_accuracy_gain": -0.05555555555555555,
+      "improvement_mass": 0.1076388888888889,
+      "worsening_mass": 0.05555555555555555,
+      "route_posterior_changed_mass": 0.14236111111111113,
+      "route_posterior_changed_accuracy_gain": 0.1076388888888889
+    },
+    "compensation": {
+      "route_posterior_unchanged_mass": 0.7569444444444442,
+      "route_posterior_unchanged_accuracy_gain": -0.027777777777777776,
+      "improvement_mass": 0.09722222222222224,
+      "worsening_mass": 0.05555555555555555,
+      "route_posterior_changed_mass": 0.24305555555555555,
+      "route_posterior_changed_accuracy_gain": 0.06944444444444445
+    },
+    "customer_name": {
+      "route_posterior_unchanged_mass": 0.9999999999999992,
+      "route_posterior_unchanged_accuracy_gain": 0.041666666666666664,
+      "improvement_mass": 0.041666666666666664,
+      "worsening_mass": 0.0
+    }
+  },
+  "visible_oracle_vs_noask_gain": 0.39236111111111216,
+  "visible_oracle_decomposition": {
+    "route_posterior_unchanged_accuracy_gain": 0.1388888888888889,
+    "route_posterior_unchanged_selected_mass": 0.23611111111111116,
+    "route_posterior_changed_accuracy_gain": 0.2534722222222222,
+    "route_posterior_changed_selected_mass": 0.3472222222222222
+  },
+  "nonchanged_posterior_improvement_examples": [
+    {
+      "source_id": "train/banking_support/00003/p0/a",
+      "question": "product",
+      "before": "complaints",
+      "after": "loans",
+      "gold": "loans",
+      "weight": 0.010416666666666666
+    },
+    {
+      "source_id": "train/banking_support/00003/p1/a",
+      "question": "product",
+      "before": "complaints",
+      "after": "loans",
+      "gold": "loans",
+      "weight": 0.010416666666666666
+    },
+    {
+      "source_id": "train/banking_support/00003/p2/a",
+      "question": "product",
+      "before": "complaints",
+      "after": "loans",
+      "gold": "loans",
+      "weight": 0.010416666666666666
+    },
+    {
+      "source_id": "train/banking_support/00003/p3/a",
+      "question": "product",
+      "before": "complaints",
+      "after": "loans",
+      "gold": "loans",
+      "weight": 0.010416666666666666
+    },
+    {
+      "source_id": "train/banking_support/00263/p1/a",
+      "question": "product",
+      "before": "complaints",
+      "after": "loans",
+      "gold": "loans",
+      "weight": 0.013888888888888888
+    },
+    {
+      "source_id": "train/banking_support/00263/p2/a",
+      "question": "product",
+      "before": "complaints",
+      "after": "loans",
+      "gold": "loans",
+      "weight": 0.013888888888888888
+    },
+    {
+      "source_id": "train/banking_support/00149/p0/a",
+      "question": "issue",
+      "before": "complaints",
+      "after": "accounts",
+      "gold": "accounts",
+      "weight": 0.020833333333333332
+    },
+    {
+      "source_id": "train/banking_support/00149/p1/a",
+      "question": "issue",
+      "before": "complaints",
+      "after": "accounts",
+      "gold": "accounts",
+      "weight": 0.020833333333333332
+    },
+    {
+      "source_id": "train/banking_support/00054/p0/a",
+      "question": "product",
+      "before": "complaints",
+      "after": "accounts",
+      "gold": "accounts",
+      "weight": 0.020833333333333332
+    },
+    {
+      "source_id": "train/banking_support/00054/p1/a",
+      "question": "product",
+      "before": "complaints",
+      "after": "accounts",
+      "gold": "accounts",
+      "weight": 0.020833333333333332
+    }
+  ],
+  "script_sha256": "0212da5a9356f693e8b9ef0d5f621562e519ccd1e55963faff9e8811044b711d"
+}

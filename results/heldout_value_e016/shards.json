@@ -1,0 +1,17 @@
+[
+  {
+    "name": "train_00",
+    "split": "train",
+    "prompts": 600
+  },
+  {
+    "name": "train_01",
+    "split": "train",
+    "prompts": 286
+  },
+  {
+    "name": "test_00",
+    "split": "test",
+    "prompts": 438
+  }
+]

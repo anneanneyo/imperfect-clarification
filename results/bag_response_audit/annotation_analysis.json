@@ -1,0 +1,225 @@
+{
+  "status": "both_annotations_validated_unblinded_descriptive_only",
+  "files_sha256": {
+    "lead": "db617bf25327b697208ffadf09e273ce84c138b6e0b82e2ccd096029e6eaf382",
+    "reviewer": "07bdd1642c4d01ec5b43bb1ca745ede22e6d5f47299953547927e86fd87da3c9"
+  },
+  "agreement": {
+    "surface_class": {
+      "n": 76,
+      "agreed": 76,
+      "agreement": 1.0,
+      "cohens_kappa": 1.0,
+      "disagreement_ids": [],
+      "confusion": [
+        {
+          "lead": "apparently_complete",
+          "reviewer": "apparently_complete",
+          "n": 74
+        },
+        {
+          "lead": "explicit_unknown_or_refusal",
+          "reviewer": "explicit_unknown_or_refusal",
+          "n": 2
+        }
+      ]
+    },
+    "has_explicit_unknown": {
+      "n": 76,
+      "agreed": 76,
+      "agreement": 1.0,
+      "cohens_kappa": 1.0,
+      "disagreement_ids": [],
+      "confusion": [
+        {
+          "lead": false,
+          "reviewer": false,
+          "n": 74
+        },
+        {
+          "lead": true,
+          "reviewer": true,
+          "n": 2
+        }
+      ]
+    },
+    "has_useful_constraint_on_surface": {
+      "n": 76,
+      "agreed": 76,
+      "agreement": 1.0,
+      "cohens_kappa": 1.0,
+      "disagreement_ids": [],
+      "confusion": [
+        {
+          "lead": "yes",
+          "reviewer": "yes",
+          "n": 74
+        },
+        {
+          "lead": "no",
+          "reviewer": "no",
+          "n": 2
+        }
+      ]
+    }
+  },
+  "outcome_tables": {
+    "lead": {
+      "all": [
+        {
+          "surface_class": "apparently_complete",
+          "n": 74,
+          "target_judge_positive": 15,
+          "anyref_judge_positive": 24
+        },
+        {
+          "surface_class": "partial",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "ambiguous",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "explicit_unknown_or_refusal",
+          "n": 2,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 1
+        },
+        {
+          "surface_class": "nonresponsive",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "unclear",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        }
+      ],
+      "excluding_pilot": [
+        {
+          "surface_class": "apparently_complete",
+          "n": 73,
+          "target_judge_positive": 15,
+          "anyref_judge_positive": 24
+        },
+        {
+          "surface_class": "partial",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "ambiguous",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "explicit_unknown_or_refusal",
+          "n": 2,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 1
+        },
+        {
+          "surface_class": "nonresponsive",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "unclear",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        }
+      ]
+    },
+    "reviewer": {
+      "all": [
+        {
+          "surface_class": "apparently_complete",
+          "n": 74,
+          "target_judge_positive": 15,
+          "anyref_judge_positive": 24
+        },
+        {
+          "surface_class": "partial",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "ambiguous",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "explicit_unknown_or_refusal",
+          "n": 2,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 1
+        },
+        {
+          "surface_class": "nonresponsive",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "unclear",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        }
+      ],
+      "excluding_pilot": [
+        {
+          "surface_class": "apparently_complete",
+          "n": 73,
+          "target_judge_positive": 15,
+          "anyref_judge_positive": 24
+        },
+        {
+          "surface_class": "partial",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "ambiguous",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "explicit_unknown_or_refusal",
+          "n": 2,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 1
+        },
+        {
+          "surface_class": "nonresponsive",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        },
+        {
+          "surface_class": "unclear",
+          "n": 0,
+          "target_judge_positive": 0,
+          "anyref_judge_positive": 0
+        }
+      ]
+    }
+  },
+  "caution": "Two exploratory assistant reviews, not independent human gold. No causal inference. No adjudicated labels substituted."
+}

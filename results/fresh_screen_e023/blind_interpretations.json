@@ -1,0 +1,859 @@
+[
+  {
+    "unit_id": "I-c29bdfc47672a302",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Общая просьба; четыре решающих факта не сообщены."
+  },
+  {
+    "unit_id": "I-5d757d55823fe529",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Прямо указан failed payment; списание не сообщено."
+  },
+  {
+    "unit_id": "I-16f9b183cabc1c5f",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Account без типа; общая просьба."
+  },
+  {
+    "unit_id": "I-a96e68031aaa87bc",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Деньги ещё не ушли; раздражение и processing times не задают тип проблемы."
+  },
+  {
+    "unit_id": "I-554ad279982f14db",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Общая неопределённая просьба; looked off не задаёт категорию."
+  },
+  {
+    "unit_id": "I-e9a23a27227af49e",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Feeling lost означает растерянность, не lost card. Тип продукта не сообщён."
+  },
+  {
+    "unit_id": "I-f65d2fe8dd9a9f07",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Loan и факт ухода денег явно названы; тип проблемы и компенсация нет."
+  },
+  {
+    "unit_id": "I-00063a2fe2a70432",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Все четыре факта явно сообщены."
+  },
+  {
+    "unit_id": "I-e021b244ba37e60f",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Явный вопрос о комиссии и отказ от компенсации; account не задаёт продукт, posted status не сообщён."
+  },
+  {
+    "unit_id": "I-112fda116b5db182",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Все четыре факта явно сообщены."
+  },
+  {
+    "unit_id": "I-3117df63e0d73709",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Явный вопрос о комиссии savings; unexpected charge не добавляет однозначно другую категорию."
+  },
+  {
+    "unit_id": "I-a46b30b110aa1cfd",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Назван только loan."
+  },
+  {
+    "unit_id": "I-c3ef6a53bd046287",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Явный fee question, loan, списание и просьба о компенсации."
+  },
+  {
+    "unit_id": "I-0565ba3c1028aad4",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Продукт и отказ названы; остальные факты не заданы."
+  },
+  {
+    "unit_id": "I-bddbf797873c6b89",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Названы комиссия, списание, компенсация; продукт неизвестен."
+  },
+  {
+    "unit_id": "I-34ff5de35a8beccd",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Явный отказ от компенсации; общая просьба не задаёт issue."
+  },
+  {
+    "unit_id": "I-3e64f7509fd654e9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Отказ от компенсации; эмоции не задают тип проблемы."
+  },
+  {
+    "unit_id": "I-cfefefb8060f18a4",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Карта, уход денег и компенсация явно названы; тип проблемы нет."
+  },
+  {
+    "unit_id": "I-f928fb3833e404e9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Полностью общая просьба."
+  },
+  {
+    "unit_id": "I-3f083b14904306bb",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Карта названа, её потеря не сообщена."
+  },
+  {
+    "unit_id": "I-2c3e89eefb2565c5",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Прямо unrecognized charge; generic statement не задаёт продукт или posted status."
+  },
+  {
+    "unit_id": "I-332a0789b3653583",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Назван loan, но не характер проблемы, списание или компенсация."
+  },
+  {
+    "unit_id": "I-ba1578bff17a0c57",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Все четыре факта явно названы."
+  },
+  {
+    "unit_id": "I-e033afb1c14b0df1",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Непризнанная операция и current account названы, деньги ещё не ушли; компенсация не обсуждается."
+  },
+  {
+    "unit_id": "R-209da78ae9a20dc6",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Неясность смысла вопроса не означает согласие или отказ от компенсации."
+  },
+  {
+    "unit_id": "R-43af2a37e07e3241",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Сохраняется loan и отказ от компенсации; ответ money unknown."
+  },
+  {
+    "unit_id": "R-497d90ec0854edf7",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Ответ добавляет unrecognized charge и явный отказ от refund."
+  },
+  {
+    "unit_id": "R-507d5e377ab40186",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Issue сохраняется; явная неопределённость компенсации не является отказом."
+  },
+  {
+    "unit_id": "R-5b2680dcc464a9b1",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Loan остаётся известным; ответ на вопрос о компенсации неинформативен."
+  },
+  {
+    "unit_id": "R-61e5fe4f5278d031",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Ответ называет карту и повторяет отказ; деньги не сообщены."
+  },
+  {
+    "unit_id": "R-6ab13290e7563ad8",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Ответ повторяет уже известное списание, остальные явные факты сохраняются."
+  },
+  {
+    "unit_id": "R-6baf718dde74f89a",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Ответ добавляет lost card; исходные карта и уход денег сохраняются."
+  },
+  {
+    "unit_id": "R-7600dd20326de5f7",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Ответ сообщает change request и отсутствие списания; тип продукта не назван."
+  },
+  {
+    "unit_id": "R-7a7b178f55a8e549",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Ответ повторяет current account, остальные исходные факты сохраняются."
+  },
+  {
+    "unit_id": "R-b93a27bc5d1c07bb",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [],
+    "rationale": "Ответ оставляет списание неизвестным; current account известен ранее."
+  },
+  {
+    "unit_id": "R-f89480751a6befc9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "ambiguous_fields": [
+      "product"
+    ],
+    "rationale": "Прямо предложены savings/current account как две альтернативы; буквальная исчерпывающая трактовка является контрактом набора, не универсальным смыслом неуверенной речи."
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "completed": false,
+  "source_cases": 120,
+  "prompt_inputs_verified": true,
+  "generic_rule_interpreter_used": true,
+  "verifier_sha256": "ccfbb24caf1eb1b9231e28d03af755ddcbcd83b07361ec8ad362c530f3b35d50",
+  "manifest_sha256": "03b4d99f8fa3745ec7fc10d8f368a9e51bfedf0bf9d35a81d8fed9b35feca8e9"
+}

@@ -1,0 +1,183 @@
+{
+  "date": "2026-10-27",
+  "status": "published_logs_audit_no_new_models_not_causal_VOI",
+  "source_revision": "58b2215ce80c74731d6d8dd3a843d2767943f569",
+  "source_file_audits": {
+    "user": {
+      "rows": 1832,
+      "unique_ids": 1832,
+      "unambiguous_ids": 1832,
+      "duplicate_ids": {},
+      "conflicting_duplicate_ids": [],
+      "parse_errors": [],
+      "missing_generations_key": 0,
+      "null_generations": 1756,
+      "nonnull_generations": 76,
+      "generation_types": {
+        "NoneType": 1756,
+        "dict": 76
+      },
+      "generation_config_hash_counts": {
+        "b1a45aca189bc680a2e086c698f23943f689ea3b443af45b65d91b3f92fb4946": 1832
+      },
+      "populated_generation_rows": 76
+    },
+    "final": {
+      "rows": 1832,
+      "unique_ids": 1832,
+      "unambiguous_ids": 1832,
+      "duplicate_ids": {},
+      "conflicting_duplicate_ids": [],
+      "parse_errors": [],
+      "missing_generations_key": 0,
+      "null_generations": 1756,
+      "nonnull_generations": 76,
+      "generation_types": {
+        "NoneType": 1756,
+        "list": 76
+      },
+      "generation_config_hash_counts": {
+        "e84d85d57406cdcf7a27a1e66dbd27b84e8d59a94a69198efeab5d450118b8f9": 1832
+      },
+      "populated_generation_rows": 76
+    },
+    "judge": {
+      "rows": 1832,
+      "unique_ids": 1832,
+      "unambiguous_ids": 1832,
+      "duplicate_ids": {},
+      "conflicting_duplicate_ids": [],
+      "parse_errors": [],
+      "missing_generations_key": 0,
+      "null_generations": 0,
+      "nonnull_generations": 1832,
+      "generation_types": {
+        "dict": 1832
+      },
+      "generation_config_hash_counts": {
+        "aec8485238c01b2ab30735a79362d04df4e4403947d6f043ce16dc660bb70d45": 1832
+      },
+      "populated_generation_rows": 76
+    },
+    "clarify": {
+      "rows": 1832,
+      "unique_ids": 1832,
+      "unambiguous_ids": 1832,
+      "duplicate_ids": {},
+      "conflicting_duplicate_ids": [],
+      "parse_errors": [],
+      "missing_generations_key": 0,
+      "null_generations": 0,
+      "nonnull_generations": 1832,
+      "generation_types": {
+        "dict": 1832
+      },
+      "generation_config_hash_counts": {
+        "28226f10856617988dde4b0297665cf8c2a32f21c497aad3e92270e8db05b2eb": 1832
+      },
+      "populated_generation_rows": 1832
+    }
+  },
+  "unmatched_ids": {
+    "user": [],
+    "final": [],
+    "judge": [],
+    "clarify": []
+  },
+  "unique_ids_union": 1832,
+  "response_cases": 76,
+  "usable_join_cases": 76,
+  "excluded_cases": 0,
+  "exclusion_reasons": {},
+  "inactive_user_rows": 1756,
+  "nonnull_user_rows_without_nonempty_response": 0,
+  "active_ids_vs_response_cases": {
+    "user": {
+      "missing": [],
+      "extra": []
+    },
+    "final": {
+      "missing": [],
+      "extra": []
+    },
+    "judge": {
+      "missing": [],
+      "extra": []
+    }
+  },
+  "policy_selection_status": "saved_policy_routing_verified",
+  "policy_summary": {
+    "status": "saved_policy_routing_verified",
+    "strategy_counts": {
+      "direct_answer": 749,
+      "abstain": 1007,
+      "clarification_question": 76
+    },
+    "rows": 1832,
+    "issues": [],
+    "active_ids_missing_from_policy_clarification": [],
+    "policy_clarification_without_user_response": [],
+    "interpretation": "Operational branch labels, not a semantic count of all questions in response text; not propensities or causal controls."
+  },
+  "target_judge_positive": 15,
+  "anyref_judge_positive": 25,
+  "judge_pairs": [
+    {
+      "target": 0,
+      "anyref": 0,
+      "n": 51
+    },
+    {
+      "target": 1,
+      "anyref": 1,
+      "n": 15
+    },
+    {
+      "target": 0,
+      "anyref": 1,
+      "n": 10
+    }
+  ],
+  "selected_disambiguation_present": 49,
+  "selected_disambiguation_missing": 27,
+  "reference_group_counts_by_goal_presence": [
+    {
+      "selected_disambiguation_present": false,
+      "simulator_reference_group_count": 1,
+      "n": 5
+    },
+    {
+      "selected_disambiguation_present": false,
+      "simulator_reference_group_count": 2,
+      "n": 19
+    },
+    {
+      "selected_disambiguation_present": false,
+      "simulator_reference_group_count": 3,
+      "n": 3
+    },
+    {
+      "selected_disambiguation_present": true,
+      "simulator_reference_group_count": 1,
+      "n": 49
+    }
+  ],
+  "judge_target_is_first_simulator_reference": 76,
+  "judge_counts_by_goal_presence": [
+    {
+      "selected_disambiguation_present": true,
+      "n": 49,
+      "target_judge_positive": 8,
+      "anyref_judge_positive": 18
+    },
+    {
+      "selected_disambiguation_present": false,
+      "n": 27,
+      "target_judge_positive": 7,
+      "anyref_judge_positive": 7
+    }
+  ],
+  "pilot_seen_by_eda": 1,
+  "model_calls": 0,
+  "source_data_copied_in_full": false
+}

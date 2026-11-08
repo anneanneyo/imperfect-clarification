@@ -1,0 +1,9 @@
+E008 blind surface annotation. Read only blind_pack, not final predictions, judge labels, references, simulator reasoning, or another reviewer labels.
+
+For every blind_id save: surface_class = apparently_complete / partial / ambiguous / explicit_unknown_or_refusal / nonresponsive / unclear; has_explicit_unknown = true/false; has_useful_constraint_on_surface = yes/no/unclear; rationale = brief explanation; annotation_status = assistant_provisional.
+
+Assess completeness relative to ALL aspects of the clarification question using the original query as context. Apparently_complete means sufficient on its face, NOT proven truth. Partial means some requested information given and some left open. Ambiguous means multiple interpretations/alternatives remain for a material requested aspect. Partial information plus explicit unknown is partial with has_explicit_unknown=true. Pure inability/refusal with no useful requested constraint is explicit_unknown_or_refusal. Nonresponsive answers do not address requested information. Use unclear if classification cannot be resolved on the surface. Do not infer hidden goals or label from success.
+
+Preserve each independent label file before reviewing agreement or outcomes. These are exploratory assistant labels, not human validation.
+
+Source: https://huggingface.co/datasets/jsbaan/bag-paper-data/tree/58b2215ce80c74731d6d8dd3a843d2767943f569 ; data card CC BY-SA 3.0 inherited from AmbigQA. Derived selection of published simulated responses, not human replies. Original query/question/answer text unchanged; order permuted seed20261027; no outcome-derived field. Protocol: research/E008_PROTOCOL.md.

@@ -1,0 +1,22 @@
+{
+  "train": {
+    "generations": 886,
+    "runtime_errors": 0,
+    "invalid_outputs": 2,
+    "length_outputs": 0,
+    "input_tokens": 317175,
+    "generated_tokens": 6528,
+    "elapsed_seconds": 1608.4950385420234,
+    "peak_memory_gb": 2.821767868
+  },
+  "test": {
+    "generations": 438,
+    "runtime_errors": 0,
+    "invalid_outputs": 1,
+    "length_outputs": 0,
+    "input_tokens": 159515,
+    "generated_tokens": 3116,
+    "elapsed_seconds": 818.0962380829733,
+    "peak_memory_gb": 2.821767868
+  }
+}

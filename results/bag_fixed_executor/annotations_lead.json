@@ -1,0 +1,482 @@
+[
+  {
+    "blind_id": "P001",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Year 2016",
+    "rationale": "The reply supplies birthplace, but the selected goal does not define Canadian by birthplace and the requested year remains absent.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P002",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "First issue series date rather than production or redesign date",
+    "rationale": "Most recent updates selects an option, but does not distinguish series date from introduction or manufacturing date.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P003",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Season 15",
+    "rationale": "Confirms the show; no season is requested or provided.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P004",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Aggregate awards by film language rather than by actress",
+    "rationale": "Award body is clarified, but the goal asks for a language, not the winning actress.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P005",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "During Woody's Roundup",
+    "rationale": "Character versus actor is resolved; the particular scene from the goal is not specified.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P006",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Gives 1984 and both leagues. The goal itself lacks an explicit league; the reply adds a broader two-domain task not licensed by its text.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P007",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Selects the movie performance rather than original artist.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P008",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Theme song rather than any other song associated with the show",
+    "rationale": "Identifies the TV-show context; the theme-song distinction is implicit rather than explicit.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P009",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Player rather than team",
+    "rationale": "Gives 2024 but never resolves player versus team; the selected goal does not specify 2024.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P010",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Women's soccer",
+    "rationale": "Medal versus demonstration is answered, but gender remains unspecified.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P011",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "All-time aggregation within the Confederations Cup is not explicitly confirmed",
+    "rationale": "Gives the correct tournament; temporal aggregation is implicit rather than stated.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P012",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Supplies swing ride, preserving the selected ride category even though it was not offered.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P013",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "At least 60 rather than exactly 60 points",
+    "rationale": "Gives playoff and historical scope, but the first question still says 60 without explicitly specifying the at-least threshold.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P014",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Selects live action in a question already explicitly about the 1994 movie; no factual validation of the question premise.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P015",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Explicitly says theme song for the TV show.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P016",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Supplies the exact selected season.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P017",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "asks_user_for_final_fact": "unclear",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "ICC Champions Trophy, 2013",
+    "rationale": "The question is only the incomplete word Could; the reply conveys no intent information.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P018",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Selects college career in the context of the original NBA draft query.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P019",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Season 15",
+    "rationale": "Confirms show identity without season.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P020",
+    "surface_class": "unclear",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "The supposed question is an abstention/reasoning block, making surface completeness unclear; the reply nevertheless preserves the selected 1994 film.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P021",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Selects college context for the draft query; the choice implicitly accepts the requested frame.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P022",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Explicitly corrects setting to filming geography.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P023",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Church scenes",
+    "rationale": "Selects real filming rather than setting, but never narrows to church scenes.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P024",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Aggregate by film language",
+    "rationale": "Specifies the award body only; the required answer type remains unspecified.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P025",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "mixed",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "According to O'Brien rather than the attributed fictional author",
+    "rationale": "Identifies fictional work and novel, but does not specify the relevant account of authorship. Optional request for an author risks soliciting the target fact.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P026",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Player rather than team",
+    "rationale": "Chooses current record; entity type remains absent and the goal has no current-date anchor.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P027",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "According to O'Brien",
+    "rationale": "Identifies the novel but not whose account of authorship is requested.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P028",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Women's soccer",
+    "rationale": "Selects medal sport but omits the gender distinction.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P029",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Regular season only versus regular season plus playoffs",
+    "rationale": "All-time scope is plausible, but the source goal itself joins two distinct scopes with a vertical bar; it is not a uniquely specified scope.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P030",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Swing-ride restriction",
+    "rationale": "Chooses all attractions instead of the selected swing category. The scopes may happen to share a winner; factual equivalence is not established.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P031",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "mixed",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Charting cover of For Your Love from 1973",
+    "rationale": "Repeats a longer title from the original query; neither cover status nor 1973 is given. Optional artist request risks soliciting the original target fact.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P032",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Supplies male contestant; show and date are already in the original query.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P033",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Provides the selected 2013 edition; ICC context remains the natural reading of Champions Trophy, not independently verified.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P034",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Selects original release rather than platform or special edition.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P035",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Provides the selected 2016-2017 season, correcting the 2023/24 framing.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P036",
+    "surface_class": "partial",
+    "has_explicit_unknown": true,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Provides the goal year but explicitly does not know the requested league, using most prominent as a vague fallback. The selected goal also omits the league.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P037",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "mixed",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Charting cover rather than original recording",
+    "rationale": "Gives title and 1973 but not cover status. Optional artist request could solicit the original target fact.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P038",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Series date of the first issue rather than design introduction",
+    "rationale": "Selects current-design introduction, which does not explicitly preserve the series-date distinction.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P039",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Filming locations rather than story setting",
+    "rationale": "Identifies film, while the original takes place query can still be interpreted as fictional setting.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P040",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Clarification explicitly says 60 or more and the reply selects playoffs.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P041",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": null,
+    "rationale": "Selects the film version of the song.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P042",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Original release date rather than a later release of the same series",
+    "rationale": "Chooses original anime rather than another medium; release chronology is still not explicitly distinguished.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P043",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "contradictory",
+    "unresolved_explicit_goal_detail": "Character rather than voice actor; Woody's Roundup",
+    "rationale": "The selected goal asks for a character, but the simulator chooses the actor, changing the requested answer type.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P044",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "contradictory",
+    "unresolved_explicit_goal_detail": "Overall historical record, with source ambiguity about inclusion of playoffs",
+    "rationale": "The reply explicitly selects current season instead of the overall record requested in the selected goal; the source itself also combines two playoff scopes.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P045",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "FIFA Confederations Cup",
+    "rationale": "All-time scope is answered, but the tournament distinction is absent.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P046",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "aligned",
+    "unresolved_explicit_goal_detail": "Church scenes",
+    "rationale": "Specifies the film version but not the selected scenes.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P047",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Male contestant",
+    "rationale": "Cannot name the season and does not disclose the gender distinction in the selected goal.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "P048",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "asks_user_for_final_fact": "no",
+    "intent_alignment": "unclear",
+    "unresolved_explicit_goal_detail": "Definition of Canadian players",
+    "rationale": "Gives 2016, but chooses international representation, a population rule not specified in the selected goal.",
+    "annotation_status": "assistant_provisional"
+  }
+]

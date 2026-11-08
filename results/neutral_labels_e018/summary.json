@@ -1,0 +1,41 @@
+{
+  "E014_dev": {
+    "cases": 24,
+    "old_accuracy": 0.4965277777777778,
+    "new_accuracy": 0.6006944444444444,
+    "difference": 0.10416666666666667,
+    "improved_cases": 3,
+    "worse_cases": 0,
+    "tied_cases": 21,
+    "invalid_unique_outputs": 0,
+    "initial_certain_case_mass": 0.5,
+    "certain_old_accuracy": 0.75,
+    "certain_new_accuracy": 0.9166666666666666,
+    "clean_known_errors_fixed": []
+  },
+  "E016_train": {
+    "cases": 96,
+    "old_accuracy": 0.5555555555555556,
+    "new_accuracy": 0.5711805555555556,
+    "difference": 0.015625,
+    "improved_cases": 5,
+    "worse_cases": 3,
+    "tied_cases": 88,
+    "invalid_unique_outputs": 0,
+    "initial_certain_case_mass": 0.40625,
+    "certain_old_accuracy": 0.7692307692307693,
+    "certain_new_accuracy": 0.8205128205128205,
+    "clean_known_errors_fixed": [
+      "train/banking_support/00384",
+      "train/banking_support/00210",
+      "train/banking_support/00390"
+    ]
+  },
+  "candidate_gate_passed": false,
+  "run_status": {
+    "completed": 120,
+    "total": 120,
+    "elapsed_seconds": 199.4456680000294,
+    "complete": true
+  }
+}

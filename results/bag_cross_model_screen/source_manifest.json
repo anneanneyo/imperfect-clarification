@@ -1,0 +1,313 @@
+{
+  "revision": "58b2215ce80c74731d6d8dd3a843d2767943f569",
+  "listing_url": "https://huggingface.co/api/datasets/jsbaan/bag-paper-data/tree/58b2215ce80c74731d6d8dd3a843d2767943f569/dev?limit=1000",
+  "files": [
+    {
+      "model": "gemini-2.5-flash",
+      "path": "dev/user_gemini-2.5-flash_gemini-2.5-flash_50_belief.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_gemini-2.5-flash_gemini-2.5-flash_50_belief.jsonl",
+      "bytes": 2341586,
+      "sha256": "d0854f5e226ccd0e513c80c8644d20d42020fb8101828ddffa351ca1bb146870",
+      "repository_entry": {
+        "type": "file",
+        "oid": "9ceec248bfe430677f4a802f8651aaaefd5c8135",
+        "size": 2341586,
+        "path": "dev/user_gemini-2.5-flash_gemini-2.5-flash_50_belief.jsonl"
+      }
+    },
+    {
+      "model": "olmo2-13b-instruct",
+      "path": "dev/user_olmo2-13b-instruct_gemini-2.5-flash_50_belief.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_olmo2-13b-instruct_gemini-2.5-flash_50_belief.jsonl",
+      "bytes": 3454739,
+      "sha256": "ec09ed788f132980118e19bba6f409cdc5da254952b33a6c1908f46076908268",
+      "repository_entry": {
+        "type": "file",
+        "oid": "d5e3e535cd81860e2e3637386d006ec07696ae6d",
+        "size": 3454739,
+        "path": "dev/user_olmo2-13b-instruct_gemini-2.5-flash_50_belief.jsonl"
+      }
+    },
+    {
+      "model": "olmo2-7b-instruct",
+      "path": "dev/user_olmo2-7b-instruct_gemini-2.5-flash_50_belief.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_olmo2-7b-instruct_gemini-2.5-flash_50_belief.jsonl",
+      "bytes": 6370525,
+      "sha256": "fe9566a998fc2eaf445f78af13709f25bb26ac28dee72e8f390e9c891366f238",
+      "repository_entry": {
+        "type": "file",
+        "oid": "33572319e2ed3988e569906ba43535e79653ced6",
+        "size": 6370525,
+        "path": "dev/user_olmo2-7b-instruct_gemini-2.5-flash_50_belief.jsonl"
+      }
+    },
+    {
+      "model": "olmo3-7b-instruct",
+      "path": "dev/user_olmo3-7b-instruct_gemini-2.5-flash_50_belief.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_olmo3-7b-instruct_gemini-2.5-flash_50_belief.jsonl",
+      "bytes": 3594898,
+      "sha256": "a00a56964b8729484310afc20b61c57e327d23e06f01a03a22159eca2f6b1eb1",
+      "repository_entry": {
+        "type": "file",
+        "oid": "5de70094a56c0090e3e39316786aecb6a9ed22a9",
+        "size": 3594898,
+        "path": "dev/user_olmo3-7b-instruct_gemini-2.5-flash_50_belief.jsonl"
+      }
+    },
+    {
+      "model": "qwen3-14b",
+      "path": "dev/user_qwen3-14b_gemini-2.5-flash_50_belief.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_qwen3-14b_gemini-2.5-flash_50_belief.jsonl",
+      "bytes": 2099881,
+      "sha256": "f5f8c498a32be33de36d1f8a74494a21897e4ac6d55e575958ebfe05043c556f",
+      "repository_entry": {
+        "type": "file",
+        "oid": "672d0399c74686d5f66e52d2174b718380291555",
+        "size": 2099881,
+        "path": "dev/user_qwen3-14b_gemini-2.5-flash_50_belief.jsonl"
+      }
+    },
+    {
+      "model": "qwen3-8b",
+      "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl",
+      "bytes": 1985792,
+      "sha256": "cda4e1767a38165efff010161506b6f82d7e93ea966ef6e3c318888b24940a49",
+      "repository_entry": {
+        "type": "file",
+        "oid": "1a200a80d7ddcb9c2d92700334beded1ca59ce9a",
+        "size": 1985792,
+        "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl"
+      }
+    }
+  ],
+  "license": "CC BY-SA 3.0 per jsbaan/BAG card, inherited from AmbigQA; credit jsbaan/BAG and Min et al. (2020).",
+  "protocol_sha256": "f08464cea103454672c28f63e2e3f42fc741a37b2a128474966bc964951b670f",
+  "code_sha256": "94e2b21a371e934d4b3efb9dc9f9507f889db8b553aa5d276c0261b1ac45a4d5",
+  "generation_configs": {
+    "gemini-2.5-flash": {
+      "b8706004baf453019d9d374777be8ec2e1ccb6efcdc31a740468039b990325ef": {
+        "model_name": "gemini-2.5-flash",
+        "mode": "user",
+        "input_path": "./data/generations/dev/clarify_gemini-2.5-flash_50_belief.jsonl",
+        "output_dir": "./data/generations/dev",
+        "output_fname": null,
+        "max_examples": null,
+        "filter_conflicts": false,
+        "data_seed": 50,
+        "direct_prompt": "vanilla",
+        "reasoner_prompt": "belief",
+        "final_prompt": null,
+        "no_greedy": null,
+        "sampling": null,
+        "belief_sampling": "unbiased",
+        "temperature": 0.0,
+        "top_p": null,
+        "top_k": null,
+        "min_p": null,
+        "n_samples": 1,
+        "max_new_tokens": 400,
+        "use_8bit": true,
+        "batch_size": null,
+        "max_input_tokens": null,
+        "api_processing": "sync",
+        "assistant_model": "gemini-2.5-flash",
+        "user_model": "gemini-2.5-flash",
+        "generate_fn": "generate_fn",
+        "resolved_generation_params": {
+          "n_samples": 1,
+          "max_new_tokens": 400,
+          "api_processing": "sync",
+          "temperature": 0.0
+        }
+      }
+    },
+    "olmo2-13b-instruct": {
+      "fec44ad40219158258c2727b1ae96f53f85ff2cf380ebbec9f496254b34ab8d6": {
+        "model_name": "gemini-2.5-flash",
+        "mode": "user",
+        "input_path": "./data/generations/dev/clarify_olmo2-13b-instruct_50_belief.jsonl",
+        "output_dir": "./data/generations/dev",
+        "output_fname": null,
+        "max_examples": null,
+        "filter_conflicts": false,
+        "data_seed": 50,
+        "direct_prompt": "vanilla",
+        "reasoner_prompt": "belief",
+        "final_prompt": null,
+        "no_greedy": null,
+        "sampling": null,
+        "belief_sampling": "unbiased",
+        "temperature": 0.0,
+        "top_p": null,
+        "top_k": null,
+        "min_p": null,
+        "n_samples": 1,
+        "max_new_tokens": 400,
+        "use_8bit": true,
+        "batch_size": null,
+        "max_input_tokens": null,
+        "api_processing": "sync",
+        "assistant_model": "olmo2-13b-instruct",
+        "user_model": "gemini-2.5-flash",
+        "generate_fn": "generate_fn",
+        "resolved_generation_params": {
+          "n_samples": 1,
+          "max_new_tokens": 400,
+          "api_processing": "sync",
+          "temperature": 0.0
+        }
+      }
+    },
+    "olmo2-7b-instruct": {
+      "27936cf49037b5c8294be843d8e981c6d379e1db0079fea351f39fb64ce6e47e": {
+        "model_name": "gemini-2.5-flash",
+        "mode": "user",
+        "input_path": "./data/generations/dev/clarify_olmo2-7b-instruct_50_belief.jsonl",
+        "output_dir": "./data/generations/dev",
+        "output_fname": null,
+        "max_examples": null,
+        "filter_conflicts": false,
+        "data_seed": 50,
+        "direct_prompt": "vanilla",
+        "reasoner_prompt": "belief",
+        "final_prompt": null,
+        "no_greedy": null,
+        "sampling": null,
+        "belief_sampling": "unbiased",
+        "temperature": 0.0,
+        "top_p": null,
+        "top_k": null,
+        "min_p": null,
+        "n_samples": 1,
+        "max_new_tokens": 400,
+        "use_8bit": true,
+        "batch_size": null,
+        "max_input_tokens": null,
+        "api_processing": "sync",
+        "assistant_model": "olmo2-7b-instruct",
+        "user_model": "gemini-2.5-flash",
+        "generate_fn": "generate_fn",
+        "resolved_generation_params": {
+          "n_samples": 1,
+          "max_new_tokens": 400,
+          "api_processing": "sync",
+          "temperature": 0.0
+        }
+      }
+    },
+    "olmo3-7b-instruct": {
+      "1b77238c2133d275ff896ae13e0384a0b9f6e550eedc4f91232255df0193bf43": {
+        "model_name": "gemini-2.5-flash",
+        "mode": "user",
+        "input_path": "./data/generations/dev/clarify_olmo3-7b-instruct_50_belief.jsonl",
+        "output_dir": "./data/generations/dev",
+        "output_fname": null,
+        "max_examples": null,
+        "filter_conflicts": false,
+        "data_seed": 50,
+        "direct_prompt": "vanilla",
+        "reasoner_prompt": "belief",
+        "final_prompt": null,
+        "no_greedy": null,
+        "sampling": null,
+        "belief_sampling": "unbiased",
+        "temperature": 0.0,
+        "top_p": null,
+        "top_k": null,
+        "min_p": null,
+        "n_samples": 1,
+        "max_new_tokens": 400,
+        "use_8bit": true,
+        "batch_size": null,
+        "max_input_tokens": null,
+        "api_processing": "sync",
+        "assistant_model": "olmo3-7b-instruct",
+        "user_model": "gemini-2.5-flash",
+        "generate_fn": "generate_fn",
+        "resolved_generation_params": {
+          "n_samples": 1,
+          "max_new_tokens": 400,
+          "api_processing": "sync",
+          "temperature": 0.0
+        }
+      }
+    },
+    "qwen3-14b": {
+      "912e8451006bfe9f83b4a28fd3da3f60dbaa707be37cd00ad51e7a554ffa1e4e": {
+        "model_name": "gemini-2.5-flash",
+        "mode": "user",
+        "input_path": "./data/generations/dev/clarify_qwen3-14b_50_belief.jsonl",
+        "output_dir": "./data/generations/dev",
+        "output_fname": null,
+        "max_examples": null,
+        "filter_conflicts": false,
+        "data_seed": 50,
+        "direct_prompt": "vanilla",
+        "reasoner_prompt": "belief",
+        "final_prompt": null,
+        "no_greedy": null,
+        "sampling": null,
+        "belief_sampling": "unbiased",
+        "temperature": 0.0,
+        "top_p": null,
+        "top_k": null,
+        "min_p": null,
+        "n_samples": 1,
+        "max_new_tokens": 400,
+        "use_8bit": true,
+        "batch_size": null,
+        "max_input_tokens": null,
+        "api_processing": "sync",
+        "assistant_model": "qwen3-14b",
+        "user_model": "gemini-2.5-flash",
+        "generate_fn": "generate_fn",
+        "resolved_generation_params": {
+          "n_samples": 1,
+          "max_new_tokens": 400,
+          "api_processing": "sync",
+          "temperature": 0.0
+        }
+      }
+    },
+    "qwen3-8b": {
+      "b1a45aca189bc680a2e086c698f23943f689ea3b443af45b65d91b3f92fb4946": {
+        "model_name": "gemini-2.5-flash",
+        "mode": "user",
+        "input_path": "./data/generations/dev/clarify_qwen3-8b_50_belief.jsonl",
+        "output_dir": "./data/generations/dev",
+        "output_fname": null,
+        "max_examples": null,
+        "filter_conflicts": false,
+        "data_seed": 50,
+        "direct_prompt": "vanilla",
+        "reasoner_prompt": "belief",
+        "final_prompt": null,
+        "no_greedy": null,
+        "sampling": null,
+        "belief_sampling": "unbiased",
+        "temperature": 0.0,
+        "top_p": null,
+        "top_k": null,
+        "min_p": null,
+        "n_samples": 1,
+        "max_new_tokens": 400,
+        "use_8bit": true,
+        "batch_size": null,
+        "max_input_tokens": null,
+        "api_processing": "sync",
+        "assistant_model": "qwen3-8b",
+        "user_model": "gemini-2.5-flash",
+        "generate_fn": "generate_fn",
+        "resolved_generation_params": {
+          "n_samples": 1,
+          "max_new_tokens": 400,
+          "api_processing": "sync",
+          "temperature": 0.0
+        }
+      }
+    }
+  },
+  "blind_pack_sha256": "f1ab7e01cb4b0b413fa0f6750bab5b2941282b264605adc1b8e22a2b96f16aae",
+  "raw_logs_redistributed": false
+}

@@ -1,0 +1,168 @@
+{
+  "workflow": "banking_support",
+  "setting": "the online chat of a retail bank",
+  "instruction": "Which banking team should handle this customer?",
+  "units": {
+    "cards": "card services: card payments, card limits, blocking cards, pending or disputed card charges",
+    "fraud": "fraud team: money taken without the customer's consent, scams, stolen credentials",
+    "loans": "loans and mortgages: repayments, rates and changes to an existing loan",
+    "accounts": "account services: opening and closing accounts, statements, transfers",
+    "complaints": "formal complaints: fee disputes where the customer wants compensation"
+  },
+  "slots": {
+    "issue": {
+      "desc": "what kind of problem it is",
+      "values": {
+        "unrecognized_charge": 0.25,
+        "lost_card": 0.15,
+        "fee_question": 0.2,
+        "change_request": 0.25,
+        "failed_payment": 0.15
+      },
+      "question": "Could you tell me what exactly went wrong?"
+    },
+    "product": {
+      "desc": "which product the issue is about",
+      "depends_on": "issue",
+      "cond": {
+        "unrecognized_charge": {
+          "card": 0.5,
+          "current_account": 0.4,
+          "savings": 0.1
+        },
+        "lost_card": {
+          "card": 1.0
+        },
+        "fee_question": {
+          "card": 0.3,
+          "current_account": 0.35,
+          "loan": 0.2,
+          "savings": 0.15
+        },
+        "change_request": {
+          "card": 0.25,
+          "current_account": 0.25,
+          "loan": 0.3,
+          "savings": 0.2
+        },
+        "failed_payment": {
+          "card": 0.4,
+          "current_account": 0.3,
+          "loan": 0.3
+        }
+      },
+      "question": "Which of your products is this about: a card, a current account, a loan or a savings account?"
+    },
+    "money_gone": {
+      "desc": "whether money has already left the customer's account",
+      "depends_on": "issue",
+      "cond": {
+        "unrecognized_charge": {
+          "yes": 0.6,
+          "no": 0.4
+        },
+        "lost_card": {
+          "yes": 0.35,
+          "no": 0.65
+        },
+        "failed_payment": {
+          "yes": 0.4,
+          "no": 0.6
+        },
+        "fee_question": {
+          "yes": 1.0
+        },
+        "change_request": {
+          "no": 1.0
+        }
+      },
+      "question": "Has any money already left your account?"
+    },
+    "compensation": {
+      "desc": "whether the customer is asking for money back as compensation",
+      "depends_on": "issue",
+      "cond": {
+        "fee_question": {
+          "yes": 0.5,
+          "no": 0.5
+        },
+        "unrecognized_charge": {
+          "yes": 0.25,
+          "no": 0.75
+        },
+        "failed_payment": {
+          "yes": 0.25,
+          "no": 0.75
+        },
+        "lost_card": {
+          "yes": 0.1,
+          "no": 0.9
+        },
+        "change_request": {
+          "yes": 0.05,
+          "no": 0.95
+        }
+      },
+      "question": "Are you asking us to compensate you for this?"
+    },
+    "customer_name": {
+      "desc": "the customer's first name",
+      "values": "free_name",
+      "decisive": false,
+      "question": "May I have your first name, please?"
+    }
+  },
+  "rules": [
+    {
+      "if": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card"
+        ],
+        "money_gone": [
+          "yes"
+        ]
+      },
+      "unit": "fraud"
+    },
+    {
+      "if": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card"
+        ]
+      },
+      "unit": "cards"
+    },
+    {
+      "if": {
+        "issue": [
+          "fee_question"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "unit": "complaints"
+    },
+    {
+      "if": {
+        "product": [
+          "loan"
+        ]
+      },
+      "unit": "loans"
+    },
+    {
+      "if": {
+        "product": [
+          "card"
+        ]
+      },
+      "unit": "cards"
+    },
+    {
+      "else": "accounts"
+    }
+  ]
+}

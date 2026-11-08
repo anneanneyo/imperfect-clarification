@@ -1,0 +1,991 @@
+[
+  {
+    "unit_id": "I-c29bdfc47672a302",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00093/p1/a"
+    ],
+    "group_id": "91ab521d18fd88d622d0955beabded3d77496a9eb885e4ee4ccf3a52ae9e2e6a",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-5d757d55823fe529",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00397/p0/a"
+    ],
+    "group_id": "a4f126adf3b9d5e414cfeb6b0c444541cb1240b9d335761af5f9df22be553df1",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-16f9b183cabc1c5f",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00018/p2/a"
+    ],
+    "group_id": "df528a3c1c5ca9cabf36cf73c9c1d8c47d39ab866fdc3c3f6131902f8c123e2a",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-a96e68031aaa87bc",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00436/p0/a"
+    ],
+    "group_id": "e683dfbcf90986a8842f788c2bc15cedeb46398430c2bbfd74085be685bd033f",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-554ad279982f14db",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00303/p0/a"
+    ],
+    "group_id": "a7e33a33156707f62e3be1eeeba82c137ae51add0a93e354df3fa501bb4b4200",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-e9a23a27227af49e",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00129/p2/a"
+    ],
+    "group_id": "6c90a5c27396946b3d7e4f808346958501a145d272f7fbc77371bdb3ade31c11",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-f65d2fe8dd9a9f07",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00080/p2/a"
+    ],
+    "group_id": "9627d31f3cdce8f0463f4f2cbb6456a83437d08c5db8e67ce1163232fdefc30a",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-00063a2fe2a70432",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00479/p2/a"
+    ],
+    "group_id": "fe439f191e00330032e8128180bea95793032f87a92190b8441ce39a6d8b1c19",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-e021b244ba37e60f",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00297/p0/a"
+    ],
+    "group_id": "5c6a53fdc4f46b9ac6e5495d7dd60529ed56dc00aace12c50c8a1b1ceeba978c",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-112fda116b5db182",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00227/p0/a"
+    ],
+    "group_id": "c919642784e90399e56c064611e9bb4515c0061d62fc566192847a13463fd961",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-3117df63e0d73709",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00219/p0/a"
+    ],
+    "group_id": "f9cddd57d5c6fc91aa629269432878ca1e35c6493966493085488fde9a912cd3",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-a46b30b110aa1cfd",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00494/p1/a"
+    ],
+    "group_id": "7fb1d8123bf0b41a2ca493a998883dc15921a5dc4c5cfe50fdea2e110a2a32bc",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-c3ef6a53bd046287",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00271/p0/a"
+    ],
+    "group_id": "a3325e807af842ba79cbf6ee173b13b1497bfdadb0c602b605175f24141a27f3",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-0565ba3c1028aad4",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00104/p0/a"
+    ],
+    "group_id": "99000e44a5d48a6f0c390fc45910160cffe86a684929e8db2c7be99cd4efca26",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-bddbf797873c6b89",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00107/p1/a"
+    ],
+    "group_id": "8091291ba30c4b0e9f744fb20a6a82eabbf624d0b7f43dd0fb7c8735d181f369",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-34ff5de35a8beccd",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00488/p0/a"
+    ],
+    "group_id": "e77cf150205be6c5bff9d8ed16fd07db0c49ea9d30facfb237718d8ee227fe09",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-3e64f7509fd654e9",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00128/p0/a"
+    ],
+    "group_id": "8898db08c081cf53383343eecb05df4e30566ca0f495483d0f0dfeb05d9c4316",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-cfefefb8060f18a4",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00319/p1/a"
+    ],
+    "group_id": "d7db99857ca15ef7a0fe610aefa8cf4fe3d97780198714ec605c816f586c9ef0",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-f928fb3833e404e9",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00005/p0/a"
+    ],
+    "group_id": "7b7150390a25b7c30915cbfdb1556d77e1b024407cea5f198278b645352d3008",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-3f083b14904306bb",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00373/p1/a"
+    ],
+    "group_id": "d647a4b718dc886d4a692f6fb55ee8dcaa17ef2de180f1a34156ef65475972e9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-2c3e89eefb2565c5",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00241/p0/a"
+    ],
+    "group_id": "d80b1bccafd7239171e83056df5794477221986bce4e2dbb8274fadc7bca15c9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-332a0789b3653583",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00028/p0/a"
+    ],
+    "group_id": "e4e25b9b881e9fe58dfab40607e12d0f587100380b934d75200274221bf8fd88",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-ba1578bff17a0c57",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00277/p1/a"
+    ],
+    "group_id": "d602c3e4f4b12ef29c493a7181c5c39397c9ec23781321a9c3e00704859399fa",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    }
+  },
+  {
+    "unit_id": "I-e033afb1c14b0df1",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00209/p2/a"
+    ],
+    "group_id": "e3ac9b1edfe3cf141014f3fa1bba8b4133def59056a27e7a903e6ec79f4d6caf",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-6ab13290e7563ad8",
+    "type": "reply",
+    "kind": "clean",
+    "question": "money_gone",
+    "source_ids": [
+      "train/banking_support/00219/p0/a",
+      "train/banking_support/00219/p1/a"
+    ],
+    "group_id": "f9cddd57d5c6fc91aa629269432878ca1e35c6493966493085488fde9a912cd3",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-6baf718dde74f89a",
+    "type": "reply",
+    "kind": "clean",
+    "question": "issue",
+    "source_ids": [
+      "train/banking_support/00393/p0/a"
+    ],
+    "group_id": "5a905fa0a4ae78bbfb33f293d3218e1861d79eb8926b3d2e6e080daa40380abc",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-7a7b178f55a8e549",
+    "type": "reply",
+    "kind": "clean",
+    "question": "product",
+    "source_ids": [
+      "train/banking_support/00114/p0/a",
+      "train/banking_support/00114/p1/a"
+    ],
+    "group_id": "a6d2641346fff125cc4c5bf17c15223bac9f061da8a004a25350bff8de8eea78",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-b93a27bc5d1c07bb",
+    "type": "reply",
+    "kind": "partial",
+    "question": "money_gone",
+    "source_ids": [
+      "train/banking_support/00134/p0/a"
+    ],
+    "group_id": "8a9fc5f3808bcc830ac1e8adc7172477b55615ef4450818051f17a755737fa1f",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-f89480751a6befc9",
+    "type": "reply",
+    "kind": "partial",
+    "question": "product",
+    "source_ids": [
+      "train/banking_support/00041/p3/a"
+    ],
+    "group_id": "c917d021ae08e5e3c7d4889de08b137f996cf98037170014da4709f039a53597",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-5b2680dcc464a9b1",
+    "type": "reply",
+    "kind": "partial",
+    "question": "compensation",
+    "source_ids": [
+      "train/banking_support/00081/p3/a"
+    ],
+    "group_id": "ff111782ba8ce40509a93f9626feafc2fdca937d28c1ad427cee4a51307eb54d",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-43af2a37e07e3241",
+    "type": "reply",
+    "kind": "unknown",
+    "question": "money_gone",
+    "source_ids": [
+      "train/banking_support/00362/p2/a"
+    ],
+    "group_id": "a52ff828a9a3a0c6491656a147a1886367cee4e6a317d394accb453e94ec93ce",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-209da78ae9a20dc6",
+    "type": "reply",
+    "kind": "unknown",
+    "question": "compensation",
+    "source_ids": [
+      "train/banking_support/00018/p2/a"
+    ],
+    "group_id": "df528a3c1c5ca9cabf36cf73c9c1d8c47d39ab866fdc3c3f6131902f8c123e2a",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-507d5e377ab40186",
+    "type": "reply",
+    "kind": "unknown",
+    "question": "compensation",
+    "source_ids": [
+      "train/banking_support/00241/p0/a"
+    ],
+    "group_id": "d80b1bccafd7239171e83056df5794477221986bce4e2dbb8274fadc7bca15c9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-497d90ec0854edf7",
+    "type": "reply",
+    "kind": "extra",
+    "question": "issue",
+    "source_ids": [
+      "train/banking_support/00160/p3/a"
+    ],
+    "group_id": "7b7150390a25b7c30915cbfdb1556d77e1b024407cea5f198278b645352d3008",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-7600dd20326de5f7",
+    "type": "reply",
+    "kind": "extra",
+    "question": "money_gone",
+    "source_ids": [
+      "train/banking_support/00303/p0/a"
+    ],
+    "group_id": "a7e33a33156707f62e3be1eeeba82c137ae51add0a93e354df3fa501bb4b4200",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    }
+  },
+  {
+    "unit_id": "R-61e5fe4f5278d031",
+    "type": "reply",
+    "kind": "extra",
+    "question": "product",
+    "source_ids": [
+      "train/banking_support/00297/p1/a"
+    ],
+    "group_id": "5c6a53fdc4f46b9ac6e5495d7dd60529ed56dc00aace12c50c8a1b1ceeba978c",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    }
+  }
+]

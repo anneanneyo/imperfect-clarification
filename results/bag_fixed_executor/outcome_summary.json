@@ -1,0 +1,220 @@
+{
+  "by_variant": [
+    {
+      "variant": "belief",
+      "eligible_branches": 49,
+      "valid_target": 49,
+      "target_positive": 8,
+      "normalized_em_true": 0,
+      "judge_em_cells": [
+        {
+          "judge": 1,
+          "em": false,
+          "n": 8
+        },
+        {
+          "judge": 0,
+          "em": false,
+          "n": 41
+        }
+      ],
+      "issues": {}
+    },
+    {
+      "variant": "prompt",
+      "eligible_branches": 0,
+      "valid_target": 0,
+      "target_positive": 0,
+      "normalized_em_true": 0,
+      "judge_em_cells": [],
+      "issues": {}
+    },
+    {
+      "variant": "belief6",
+      "eligible_branches": 558,
+      "valid_target": 558,
+      "target_positive": 83,
+      "normalized_em_true": 0,
+      "judge_em_cells": [
+        {
+          "judge": 0,
+          "em": false,
+          "n": 475
+        },
+        {
+          "judge": 1,
+          "em": false,
+          "n": 83
+        }
+      ],
+      "issues": {}
+    },
+    {
+      "variant": "belief7",
+      "eligible_branches": 397,
+      "valid_target": 397,
+      "target_positive": 59,
+      "normalized_em_true": 0,
+      "judge_em_cells": [
+        {
+          "judge": 0,
+          "em": false,
+          "n": 338
+        },
+        {
+          "judge": 1,
+          "em": false,
+          "n": 59
+        }
+      ],
+      "issues": {}
+    }
+  ],
+  "paired_primary": [
+    {
+      "a": "belief",
+      "b": "prompt",
+      "subset": "all_compatible",
+      "eligible": 0,
+      "valid_pairs": 0,
+      "missing_or_invalid_pairs": 0,
+      "both_positive": 0,
+      "both_negative": 0,
+      "a_positive_b_negative": 0,
+      "a_negative_b_positive": 0,
+      "mean_a_minus_b_valid": null,
+      "conservative_missing_bounds_over_eligible": null
+    },
+    {
+      "a": "belief",
+      "b": "belief6",
+      "subset": "all_compatible",
+      "eligible": 48,
+      "valid_pairs": 48,
+      "missing_or_invalid_pairs": 0,
+      "both_positive": 7,
+      "both_negative": 35,
+      "a_positive_b_negative": 0,
+      "a_negative_b_positive": 6,
+      "mean_a_minus_b_valid": -0.125,
+      "conservative_missing_bounds_over_eligible": [
+        -0.125,
+        -0.125
+      ]
+    },
+    {
+      "a": "belief",
+      "b": "belief7",
+      "subset": "all_compatible",
+      "eligible": 39,
+      "valid_pairs": 39,
+      "missing_or_invalid_pairs": 0,
+      "both_positive": 6,
+      "both_negative": 28,
+      "a_positive_b_negative": 2,
+      "a_negative_b_positive": 3,
+      "mean_a_minus_b_valid": -0.02564102564102564,
+      "conservative_missing_bounds_over_eligible": [
+        -0.02564102564102564,
+        -0.02564102564102564
+      ]
+    },
+    {
+      "a": "prompt",
+      "b": "belief6",
+      "subset": "all_compatible",
+      "eligible": 0,
+      "valid_pairs": 0,
+      "missing_or_invalid_pairs": 0,
+      "both_positive": 0,
+      "both_negative": 0,
+      "a_positive_b_negative": 0,
+      "a_negative_b_positive": 0,
+      "mean_a_minus_b_valid": null,
+      "conservative_missing_bounds_over_eligible": null
+    },
+    {
+      "a": "prompt",
+      "b": "belief7",
+      "subset": "all_compatible",
+      "eligible": 0,
+      "valid_pairs": 0,
+      "missing_or_invalid_pairs": 0,
+      "both_positive": 0,
+      "both_negative": 0,
+      "a_positive_b_negative": 0,
+      "a_negative_b_positive": 0,
+      "mean_a_minus_b_valid": null,
+      "conservative_missing_bounds_over_eligible": null
+    },
+    {
+      "a": "belief6",
+      "b": "belief7",
+      "subset": "all_compatible",
+      "eligible": 365,
+      "valid_pairs": 365,
+      "missing_or_invalid_pairs": 0,
+      "both_positive": 29,
+      "both_negative": 300,
+      "a_positive_b_negative": 19,
+      "a_negative_b_positive": 17,
+      "mean_a_minus_b_valid": 0.005479452054794521,
+      "conservative_missing_bounds_over_eligible": [
+        0.005479452054794521,
+        0.005479452054794521
+      ]
+    }
+  ],
+  "semantic_sample_summary": {
+    "surface_class": {
+      "apparently_complete": 44,
+      "explicit_unknown_or_refusal": 2,
+      "unclear": 1,
+      "partial": 1
+    },
+    "asks_user_for_final_fact": {
+      "no": 44,
+      "unclear": 1,
+      "mixed": 3
+    },
+    "intent_alignment": {
+      "unclear": 13,
+      "aligned": 33,
+      "contradictory": 2
+    },
+    "unresolved_goal_detail_flagged": 31,
+    "target_by_surface": [
+      {
+        "surface_class": "apparently_complete",
+        "n": 44,
+        "target_positive": 4
+      },
+      {
+        "surface_class": "explicit_unknown_or_refusal",
+        "n": 2,
+        "target_positive": 1
+      },
+      {
+        "surface_class": "partial",
+        "n": 1,
+        "target_positive": 1
+      },
+      {
+        "surface_class": "unclear",
+        "n": 1,
+        "target_positive": 0
+      }
+    ]
+  },
+  "protocol_sha256": "630d9a296d057d2bfcf87dd8fade3a65fd6551381cdaeb1daad61d62a4cbb471",
+  "preparation_freeze_sha256": "5b120b82d1d4ce605d2d6dda6e0346e9410cea4419700a6e03afaaf1a4ee3d9e",
+  "annotation_freeze_sha256": "79b2a0f6f7d5ff0a8f2897e1ae26bb97bc06594eb2110567ec272d4839095151",
+  "new_external_model_calls": 0,
+  "stage": "descriptive_outcome_analysis_after_freezes",
+  "limitations": [
+    "Same recorded model/decoding/batch config, not verified identical weights snapshot or RNG.",
+    "Policy-selected intersecting cases and one stochastic continuation per branch; no propensities, no causal claim.",
+    "Target judge unvalidated as ground truth; exact match is a restricted diagnostic.",
+    "No verified no-question branch. No new trained selector or H3 comparison."
+  ]
+}

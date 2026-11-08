@@ -1,0 +1,9 @@
+{
+  "files": {
+    "results/encoder_value_e017/manifest.json": "ba509b3e78a40abe943249633cb9786163e9c55cb55c1a59f67c78066ef99340",
+    "results/encoder_value_e017/features.jsonl": "997d18baf1c4804b92fd7d7826626091d9174107cc21ae3aa3f8cdc450b2ab69",
+    "results/encoder_value_e017/features.npz": "510c6206e08d9dbb44001d5a41c6a0d5883b8d6e1d44d1196690c1fef23dcad5",
+    "results/encoder_value_e017/extraction_started.json": "a69f02f96acd0d6a1b8b6a905008065e42bae0aba11e35783ef6327915467571",
+    "results/encoder_value_e017/extraction_status.json": "f60e67d4ab153235f8e9b10e2a177f86e9824fcab83bafb7d60a9fb47b6b2f4a"
+  }
+}

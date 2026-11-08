@@ -1,0 +1,16 @@
+{
+  "files": {
+    "experiments/diagnose_e016_e017.py": "3365fadb141ec20ee972a9800bc2aa09ccf70e11c00acb2a2e5927905427767e",
+    "results/e016_split_structure/manifest.json": "1a3ea0e4a468ca58f270281b477efcaf92e36cbbff4c41251561ca81204f51fa",
+    "results/heldout_value_e016/source_rows.json": "c6a0d39779c469029c434dce9044249d1b99cac0036b603ec0632f3c9e1fcfc9",
+    "results/heldout_value_e016/schema.json": "625280cca355d1644bd604dd77837d03637c2e087d2f36bdf913b31a19082e1d",
+    "results/heldout_value_e016/components.json": "f6cbfd63a0c7ac92b48a28239843747ffc6319396881ea10da1268bbb2a4caf6",
+    "results/heldout_value_e016/test_details.json": "05e7853cb59c1e00fa1d9f97c3216cdf5f3c62ed70c74c087ee908cef65861dc",
+    "results/heldout_value_e016/component_results.json": "30c3340abc643f5fc922b6fc8e0193fe40655aac12f3097fc82b6f699c4008c6",
+    "results/heldout_value_e016/summary.json": "c2b97eeecb76b4a8b38091aa33fc97934524174213cd05069705561136165a05",
+    "results/encoder_value_e017/predictions.json": "bd963fef97214d8fdc4b52c54f4d407821c50db03079e45b35aab7b331d28cf5",
+    "results/encoder_value_e017/summary.json": "b69ad9b9748239db802c144d6f7a667d30c2df97f829175f4cdd7afb435d6de2",
+    "results/e016_e017_diagnostics/details.json": "b5fb7637e5336505d4b16a4178b20e34be39692c968060d45ae1b1b4be570c0b",
+    "results/e016_e017_diagnostics/summary.json": "4ba8166ba57ee74293f0849ae05f00eb66c3f30c7928823e5d66cb87a299fc34"
+  }
+}

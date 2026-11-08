@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+!.env.example
+.cache/
+*.safetensors
+*.gguf
+
+/results/channel_shift_pilot/per_task.csv
+/results/channel_shift_pilot_scalar/per_task.csv

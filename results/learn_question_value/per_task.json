@@ -1,0 +1,6302 @@
+[
+  {
+    "task": 0,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5239306759098789
+  },
+  {
+    "task": 1,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4769315424610051
+  },
+  {
+    "task": 2,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4450849220103987
+  },
+  {
+    "task": 3,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.31217504332755663
+  },
+  {
+    "task": 4,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42206239168110904
+  },
+  {
+    "task": 5,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3014757365684576
+  },
+  {
+    "task": 6,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4116798093587519
+  },
+  {
+    "task": 7,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3048197573656846
+  },
+  {
+    "task": 8,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 2,
+    "loss": 0.22479369150779882
+  },
+  {
+    "task": 9,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3338903812824958
+  },
+  {
+    "task": 10,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.47582149046793754
+  },
+  {
+    "task": 11,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 6,
+    "loss": 0.5044644714038129
+  },
+  {
+    "task": 12,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5181893414211438
+  },
+  {
+    "task": 13,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.45195537261698443
+  },
+  {
+    "task": 14,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.26469324090121316
+  },
+  {
+    "task": 15,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5461767764298093
+  },
+  {
+    "task": 16,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5065779896013864
+  },
+  {
+    "task": 17,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4970450606585787
+  },
+  {
+    "task": 18,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4193032928942807
+  },
+  {
+    "task": 19,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3836143847487002
+  },
+  {
+    "task": 20,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4800467937608318
+  },
+  {
+    "task": 21,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.48537175043327563
+  },
+  {
+    "task": 22,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3471499133448872
+  },
+  {
+    "task": 23,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4093379549393414
+  },
+  {
+    "task": 24,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.15059467071057184
+  },
+  {
+    "task": 25,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5034991334488736
+  },
+  {
+    "task": 26,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.38354116117850945
+  },
+  {
+    "task": 27,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3224324090121317
+  },
+  {
+    "task": 28,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3093180242634316
+  },
+  {
+    "task": 29,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.2991837088388216
+  },
+  {
+    "task": 30,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4793544194107453
+  },
+  {
+    "task": 31,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4752512998266898
+  },
+  {
+    "task": 32,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.46259922010398613
+  },
+  {
+    "task": 33,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5940779896013866
+  },
+  {
+    "task": 34,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3495844887348354
+  },
+  {
+    "task": 35,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.42581828422876955
+  },
+  {
+    "task": 36,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.49400259965337967
+  },
+  {
+    "task": 37,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4661525129982668
+  },
+  {
+    "task": 38,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5171035528596188
+  },
+  {
+    "task": 39,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.33464168110918546
+  },
+  {
+    "task": 40,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5410961871750433
+  },
+  {
+    "task": 41,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5273080589254767
+  },
+  {
+    "task": 42,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4406195840554593
+  },
+  {
+    "task": 43,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.33179159445407275
+  },
+  {
+    "task": 44,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42818024263431553
+  },
+  {
+    "task": 45,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.37186476603119567
+  },
+  {
+    "task": 46,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3833275563258234
+  },
+  {
+    "task": 47,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.49520147313691504
+  },
+  {
+    "task": 48,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5177798960138649
+  },
+  {
+    "task": 49,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4244644714038129
+  },
+  {
+    "task": 50,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.31422357019064134
+  },
+  {
+    "task": 51,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3866126516464472
+  },
+  {
+    "task": 52,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5451993067590988
+  },
+  {
+    "task": 53,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4478544194107452
+  },
+  {
+    "task": 54,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.29857062391681105
+  },
+  {
+    "task": 55,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 2,
+    "loss": 0.5430454072790293
+  },
+  {
+    "task": 56,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5752980935875216
+  },
+  {
+    "task": 57,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.43906239168110894
+  },
+  {
+    "task": 58,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.47230935875216634
+  },
+  {
+    "task": 59,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 0,
+    "loss": 0.6304872790294628
+  },
+  {
+    "task": 60,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.2638048093587523
+  },
+  {
+    "task": 61,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 0,
+    "loss": 0.4131065857885615
+  },
+  {
+    "task": 62,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4116291161178509
+  },
+  {
+    "task": 63,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4613474870017332
+  },
+  {
+    "task": 64,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3798110918544193
+  },
+  {
+    "task": 65,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42792287694974007
+  },
+  {
+    "task": 66,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4363639514731369
+  },
+  {
+    "task": 67,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4308622183708837
+  },
+  {
+    "task": 68,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3562777296360485
+  },
+  {
+    "task": 69,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4576512131715769
+  },
+  {
+    "task": 70,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5016897746967072
+  },
+  {
+    "task": 71,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3764956672443673
+  },
+  {
+    "task": 72,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.35257668977469675
+  },
+  {
+    "task": 73,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.481636048526863
+  },
+  {
+    "task": 74,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.39363084922010405
+  },
+  {
+    "task": 75,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.38472140381282494
+  },
+  {
+    "task": 76,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4253999133448872
+  },
+  {
+    "task": 77,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.3632836741767761
+  },
+  {
+    "task": 78,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.43375259965337953
+  },
+  {
+    "task": 79,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.47293760831889087
+  },
+  {
+    "task": 80,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4911793760831886
+  },
+  {
+    "task": 81,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3068474870017331
+  },
+  {
+    "task": 82,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 2,
+    "loss": 0.24947750433275556
+  },
+  {
+    "task": 83,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 6,
+    "loss": 0.5192287694974
+  },
+  {
+    "task": 84,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.44161351819757366
+  },
+  {
+    "task": 85,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4424935008665511
+  },
+  {
+    "task": 86,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4027894280762566
+  },
+  {
+    "task": 87,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.5283804159445407
+  },
+  {
+    "task": 88,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3792131715771229
+  },
+  {
+    "task": 89,
+    "method": "ideal",
+    "cost": 0.0,
+    "question": 6,
+    "loss": 0.513446273830156
+  },
+  {
+    "task": 0,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5239306759098789
+  },
+  {
+    "task": 1,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4769315424610051
+  },
+  {
+    "task": 2,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.44403314558058915
+  },
+  {
+    "task": 3,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.31217504332755663
+  },
+  {
+    "task": 4,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42206239168110904
+  },
+  {
+    "task": 5,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3014757365684576
+  },
+  {
+    "task": 6,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4116798093587519
+  },
+  {
+    "task": 7,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3048197573656846
+  },
+  {
+    "task": 8,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 2,
+    "loss": 0.22479369150779882
+  },
+  {
+    "task": 9,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3338903812824958
+  },
+  {
+    "task": 10,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.47603986135181964
+  },
+  {
+    "task": 11,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5020511265164646
+  },
+  {
+    "task": 12,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5181893414211438
+  },
+  {
+    "task": 13,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.45195537261698443
+  },
+  {
+    "task": 14,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.26469324090121316
+  },
+  {
+    "task": 15,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5461767764298093
+  },
+  {
+    "task": 16,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5065779896013864
+  },
+  {
+    "task": 17,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4970450606585787
+  },
+  {
+    "task": 18,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4193032928942807
+  },
+  {
+    "task": 19,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.34168925476603107
+  },
+  {
+    "task": 20,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.45767461005199306
+  },
+  {
+    "task": 21,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.48537175043327563
+  },
+  {
+    "task": 22,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3471499133448872
+  },
+  {
+    "task": 23,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4093379549393414
+  },
+  {
+    "task": 24,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.15059467071057184
+  },
+  {
+    "task": 25,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.49433476603119586
+  },
+  {
+    "task": 26,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.38354116117850945
+  },
+  {
+    "task": 27,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3224324090121317
+  },
+  {
+    "task": 28,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3093180242634316
+  },
+  {
+    "task": 29,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.2991837088388216
+  },
+  {
+    "task": 30,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4793544194107453
+  },
+  {
+    "task": 31,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4752512998266898
+  },
+  {
+    "task": 32,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4204851993067591
+  },
+  {
+    "task": 33,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5969233102253034
+  },
+  {
+    "task": 34,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3495844887348354
+  },
+  {
+    "task": 35,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.42581828422876955
+  },
+  {
+    "task": 36,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.49400259965337967
+  },
+  {
+    "task": 37,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4661525129982668
+  },
+  {
+    "task": 38,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4953640727902948
+  },
+  {
+    "task": 39,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.33464168110918546
+  },
+  {
+    "task": 40,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5097678336221839
+  },
+  {
+    "task": 41,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5273080589254767
+  },
+  {
+    "task": 42,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4406195840554593
+  },
+  {
+    "task": 43,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.33179159445407275
+  },
+  {
+    "task": 44,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42818024263431553
+  },
+  {
+    "task": 45,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.37186476603119567
+  },
+  {
+    "task": 46,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3833275563258234
+  },
+  {
+    "task": 47,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.49520147313691504
+  },
+  {
+    "task": 48,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5177798960138649
+  },
+  {
+    "task": 49,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4244644714038129
+  },
+  {
+    "task": 50,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.31422357019064134
+  },
+  {
+    "task": 51,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3866126516464472
+  },
+  {
+    "task": 52,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5128843674176777
+  },
+  {
+    "task": 53,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4478544194107452
+  },
+  {
+    "task": 54,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.29857062391681105
+  },
+  {
+    "task": 55,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5164991334488733
+  },
+  {
+    "task": 56,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5497250433275563
+  },
+  {
+    "task": 57,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.43906239168110894
+  },
+  {
+    "task": 58,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.44963084922010393
+  },
+  {
+    "task": 59,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5878617850953207
+  },
+  {
+    "task": 60,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.2638048093587523
+  },
+  {
+    "task": 61,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3613171577123051
+  },
+  {
+    "task": 62,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4116291161178509
+  },
+  {
+    "task": 63,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4613474870017332
+  },
+  {
+    "task": 64,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3798110918544193
+  },
+  {
+    "task": 65,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42792287694974007
+  },
+  {
+    "task": 66,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4363639514731369
+  },
+  {
+    "task": 67,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4308622183708837
+  },
+  {
+    "task": 68,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3562777296360485
+  },
+  {
+    "task": 69,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4576512131715769
+  },
+  {
+    "task": 70,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4961205589254766
+  },
+  {
+    "task": 71,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3764956672443673
+  },
+  {
+    "task": 72,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.35257668977469675
+  },
+  {
+    "task": 73,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4793608492201041
+  },
+  {
+    "task": 74,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.39363084922010405
+  },
+  {
+    "task": 75,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.38472140381282494
+  },
+  {
+    "task": 76,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4253999133448872
+  },
+  {
+    "task": 77,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.3632836741767761
+  },
+  {
+    "task": 78,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.43061200173310216
+  },
+  {
+    "task": 79,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.47293760831889087
+  },
+  {
+    "task": 80,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4911793760831886
+  },
+  {
+    "task": 81,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3068474870017331
+  },
+  {
+    "task": 82,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.19660866551126527
+  },
+  {
+    "task": 83,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.49623050259965346
+  },
+  {
+    "task": 84,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.44161351819757366
+  },
+  {
+    "task": 85,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4424935008665511
+  },
+  {
+    "task": 86,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4027894280762566
+  },
+  {
+    "task": 87,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.5283804159445407
+  },
+  {
+    "task": 88,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3792131715771229
+  },
+  {
+    "task": 89,
+    "method": "calibrated_simple",
+    "cost": 0.0,
+    "question": 6,
+    "loss": 0.513446273830156
+  },
+  {
+    "task": 0,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5239306759098789
+  },
+  {
+    "task": 1,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4769315424610051
+  },
+  {
+    "task": 2,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.44403314558058915
+  },
+  {
+    "task": 3,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.31217504332755663
+  },
+  {
+    "task": 4,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42206239168110904
+  },
+  {
+    "task": 5,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3014757365684576
+  },
+  {
+    "task": 6,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4116798093587519
+  },
+  {
+    "task": 7,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3048197573656846
+  },
+  {
+    "task": 8,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 2,
+    "loss": 0.22479369150779882
+  },
+  {
+    "task": 9,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3338903812824958
+  },
+  {
+    "task": 10,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.47603986135181964
+  },
+  {
+    "task": 11,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5020511265164646
+  },
+  {
+    "task": 12,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5181893414211438
+  },
+  {
+    "task": 13,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.45195537261698443
+  },
+  {
+    "task": 14,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.26469324090121316
+  },
+  {
+    "task": 15,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5461767764298093
+  },
+  {
+    "task": 16,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5065779896013864
+  },
+  {
+    "task": 17,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4970450606585787
+  },
+  {
+    "task": 18,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4193032928942807
+  },
+  {
+    "task": 19,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.34168925476603107
+  },
+  {
+    "task": 20,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.45767461005199306
+  },
+  {
+    "task": 21,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.48537175043327563
+  },
+  {
+    "task": 22,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3471499133448872
+  },
+  {
+    "task": 23,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4093379549393414
+  },
+  {
+    "task": 24,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.15059467071057184
+  },
+  {
+    "task": 25,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.49433476603119586
+  },
+  {
+    "task": 26,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.38354116117850945
+  },
+  {
+    "task": 27,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3224324090121317
+  },
+  {
+    "task": 28,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3093180242634316
+  },
+  {
+    "task": 29,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.2991837088388216
+  },
+  {
+    "task": 30,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4793544194107453
+  },
+  {
+    "task": 31,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4752512998266898
+  },
+  {
+    "task": 32,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4204851993067591
+  },
+  {
+    "task": 33,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5940779896013866
+  },
+  {
+    "task": 34,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3495844887348354
+  },
+  {
+    "task": 35,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.42581828422876955
+  },
+  {
+    "task": 36,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.49400259965337967
+  },
+  {
+    "task": 37,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4661525129982668
+  },
+  {
+    "task": 38,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4953640727902948
+  },
+  {
+    "task": 39,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.33464168110918546
+  },
+  {
+    "task": 40,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5097678336221839
+  },
+  {
+    "task": 41,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5273080589254767
+  },
+  {
+    "task": 42,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4406195840554593
+  },
+  {
+    "task": 43,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.33179159445407275
+  },
+  {
+    "task": 44,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42818024263431553
+  },
+  {
+    "task": 45,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.37186476603119567
+  },
+  {
+    "task": 46,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3833275563258234
+  },
+  {
+    "task": 47,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.49520147313691504
+  },
+  {
+    "task": 48,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5177798960138649
+  },
+  {
+    "task": 49,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4244644714038129
+  },
+  {
+    "task": 50,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.31422357019064134
+  },
+  {
+    "task": 51,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3866126516464472
+  },
+  {
+    "task": 52,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5128843674176777
+  },
+  {
+    "task": 53,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4478544194107452
+  },
+  {
+    "task": 54,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.29857062391681105
+  },
+  {
+    "task": 55,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5164991334488733
+  },
+  {
+    "task": 56,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5497250433275563
+  },
+  {
+    "task": 57,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.43883232235701897
+  },
+  {
+    "task": 58,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.44963084922010393
+  },
+  {
+    "task": 59,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5878617850953207
+  },
+  {
+    "task": 60,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.2638048093587523
+  },
+  {
+    "task": 61,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3613171577123051
+  },
+  {
+    "task": 62,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4116291161178509
+  },
+  {
+    "task": 63,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4613474870017332
+  },
+  {
+    "task": 64,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3798110918544193
+  },
+  {
+    "task": 65,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42792287694974007
+  },
+  {
+    "task": 66,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4363639514731369
+  },
+  {
+    "task": 67,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4308622183708837
+  },
+  {
+    "task": 68,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3562777296360485
+  },
+  {
+    "task": 69,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4576512131715769
+  },
+  {
+    "task": 70,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4961205589254766
+  },
+  {
+    "task": 71,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3764956672443673
+  },
+  {
+    "task": 72,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.35257668977469675
+  },
+  {
+    "task": 73,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4793608492201041
+  },
+  {
+    "task": 74,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.39363084922010405
+  },
+  {
+    "task": 75,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.38472140381282494
+  },
+  {
+    "task": 76,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4253999133448872
+  },
+  {
+    "task": 77,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.3632836741767761
+  },
+  {
+    "task": 78,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.43061200173310216
+  },
+  {
+    "task": 79,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.47293760831889087
+  },
+  {
+    "task": 80,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4911793760831886
+  },
+  {
+    "task": 81,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3068474870017331
+  },
+  {
+    "task": 82,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.19660866551126527
+  },
+  {
+    "task": 83,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.49623050259965346
+  },
+  {
+    "task": 84,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.44161351819757366
+  },
+  {
+    "task": 85,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4424935008665511
+  },
+  {
+    "task": 86,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4027894280762566
+  },
+  {
+    "task": 87,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.5283804159445407
+  },
+  {
+    "task": 88,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3792131715771229
+  },
+  {
+    "task": 89,
+    "method": "ridge",
+    "cost": 0.0,
+    "question": 6,
+    "loss": 0.513446273830156
+  },
+  {
+    "task": 0,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5239306759098789
+  },
+  {
+    "task": 1,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4769315424610051
+  },
+  {
+    "task": 2,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.44403314558058915
+  },
+  {
+    "task": 3,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.31217504332755663
+  },
+  {
+    "task": 4,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42206239168110904
+  },
+  {
+    "task": 5,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3014757365684576
+  },
+  {
+    "task": 6,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4116798093587519
+  },
+  {
+    "task": 7,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3048197573656846
+  },
+  {
+    "task": 8,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 2,
+    "loss": 0.22479369150779882
+  },
+  {
+    "task": 9,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3338903812824958
+  },
+  {
+    "task": 10,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.47582149046793754
+  },
+  {
+    "task": 11,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5020511265164646
+  },
+  {
+    "task": 12,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5181893414211438
+  },
+  {
+    "task": 13,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.45195537261698443
+  },
+  {
+    "task": 14,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.26469324090121316
+  },
+  {
+    "task": 15,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5461767764298093
+  },
+  {
+    "task": 16,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5065779896013864
+  },
+  {
+    "task": 17,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4970450606585787
+  },
+  {
+    "task": 18,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4193032928942807
+  },
+  {
+    "task": 19,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.34168925476603107
+  },
+  {
+    "task": 20,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.45767461005199306
+  },
+  {
+    "task": 21,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.48537175043327563
+  },
+  {
+    "task": 22,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3471499133448872
+  },
+  {
+    "task": 23,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4093379549393414
+  },
+  {
+    "task": 24,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.15059467071057184
+  },
+  {
+    "task": 25,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.49433476603119586
+  },
+  {
+    "task": 26,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.38354116117850945
+  },
+  {
+    "task": 27,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3224324090121317
+  },
+  {
+    "task": 28,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3093180242634316
+  },
+  {
+    "task": 29,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.2991837088388216
+  },
+  {
+    "task": 30,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4793544194107453
+  },
+  {
+    "task": 31,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4752512998266898
+  },
+  {
+    "task": 32,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4204851993067591
+  },
+  {
+    "task": 33,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5940779896013866
+  },
+  {
+    "task": 34,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3495844887348354
+  },
+  {
+    "task": 35,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.42581828422876955
+  },
+  {
+    "task": 36,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.49400259965337967
+  },
+  {
+    "task": 37,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4661525129982668
+  },
+  {
+    "task": 38,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4953640727902948
+  },
+  {
+    "task": 39,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.33464168110918546
+  },
+  {
+    "task": 40,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5097678336221839
+  },
+  {
+    "task": 41,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5273080589254767
+  },
+  {
+    "task": 42,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4406195840554593
+  },
+  {
+    "task": 43,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.33179159445407275
+  },
+  {
+    "task": 44,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.42716637781629124
+  },
+  {
+    "task": 45,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.37186476603119567
+  },
+  {
+    "task": 46,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3833275563258234
+  },
+  {
+    "task": 47,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.49520147313691504
+  },
+  {
+    "task": 48,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5177798960138649
+  },
+  {
+    "task": 49,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4244644714038129
+  },
+  {
+    "task": 50,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.31422357019064134
+  },
+  {
+    "task": 51,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3866126516464472
+  },
+  {
+    "task": 52,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5128843674176777
+  },
+  {
+    "task": 53,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4478544194107452
+  },
+  {
+    "task": 54,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.29857062391681105
+  },
+  {
+    "task": 55,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5164991334488733
+  },
+  {
+    "task": 56,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5497250433275563
+  },
+  {
+    "task": 57,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.43883232235701897
+  },
+  {
+    "task": 58,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.44963084922010393
+  },
+  {
+    "task": 59,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 6,
+    "loss": 0.5773960138648181
+  },
+  {
+    "task": 60,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.2638048093587523
+  },
+  {
+    "task": 61,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3613171577123051
+  },
+  {
+    "task": 62,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4116291161178509
+  },
+  {
+    "task": 63,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4613474870017332
+  },
+  {
+    "task": 64,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3798110918544193
+  },
+  {
+    "task": 65,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.42792287694974007
+  },
+  {
+    "task": 66,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4363639514731369
+  },
+  {
+    "task": 67,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4307452339688041
+  },
+  {
+    "task": 68,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3562777296360485
+  },
+  {
+    "task": 69,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4576512131715769
+  },
+  {
+    "task": 70,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4961205589254766
+  },
+  {
+    "task": 71,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3764956672443673
+  },
+  {
+    "task": 72,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.35257668977469675
+  },
+  {
+    "task": 73,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4793608492201041
+  },
+  {
+    "task": 74,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.39363084922010405
+  },
+  {
+    "task": 75,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.38472140381282494
+  },
+  {
+    "task": 76,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4253999133448872
+  },
+  {
+    "task": 77,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.3632836741767761
+  },
+  {
+    "task": 78,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.43061200173310216
+  },
+  {
+    "task": 79,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.47293760831889087
+  },
+  {
+    "task": 80,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4911793760831886
+  },
+  {
+    "task": 81,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3068474870017331
+  },
+  {
+    "task": 82,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.19660866551126527
+  },
+  {
+    "task": 83,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.49623050259965346
+  },
+  {
+    "task": 84,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.44161351819757366
+  },
+  {
+    "task": 85,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4424935008665511
+  },
+  {
+    "task": 86,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4027894280762566
+  },
+  {
+    "task": 87,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.5283804159445407
+  },
+  {
+    "task": 88,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3792131715771229
+  },
+  {
+    "task": 89,
+    "method": "oracle",
+    "cost": 0.0,
+    "question": 6,
+    "loss": 0.513446273830156
+  },
+  {
+    "task": 0,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5636065857885617
+  },
+  {
+    "task": 1,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5146239168110918
+  },
+  {
+    "task": 2,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4716177426343154
+  },
+  {
+    "task": 3,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3564471403812828
+  },
+  {
+    "task": 4,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.45945190641247824
+  },
+  {
+    "task": 5,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3406226169844021
+  },
+  {
+    "task": 6,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.452849220103986
+  },
+  {
+    "task": 7,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.35215944540727906
+  },
+  {
+    "task": 8,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.25270038994800686
+  },
+  {
+    "task": 9,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.37161135181975746
+  },
+  {
+    "task": 10,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5182374350086654
+  },
+  {
+    "task": 11,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.539733102253033
+  },
+  {
+    "task": 12,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5563080589254765
+  },
+  {
+    "task": 13,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.49722183708838824
+  },
+  {
+    "task": 14,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.30282495667244363
+  },
+  {
+    "task": 15,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5951230502599654
+  },
+  {
+    "task": 16,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.549855719237435
+  },
+  {
+    "task": 17,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5432305025996532
+  },
+  {
+    "task": 18,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4649298093587521
+  },
+  {
+    "task": 19,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.38145459272097043
+  },
+  {
+    "task": 20,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.49978379549393415
+  },
+  {
+    "task": 21,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5276356152512999
+  },
+  {
+    "task": 22,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3891707105719236
+  },
+  {
+    "task": 23,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4435453379549394
+  },
+  {
+    "task": 24,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.1691724436741767
+  },
+  {
+    "task": 25,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5400021490467937
+  },
+  {
+    "task": 26,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.41323830155979197
+  },
+  {
+    "task": 27,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.35616161178509526
+  },
+  {
+    "task": 28,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3546949740034663
+  },
+  {
+    "task": 29,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.33757668977469674
+  },
+  {
+    "task": 30,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.5215896880415944
+  },
+  {
+    "task": 31,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5129150779896015
+  },
+  {
+    "task": 32,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4565787868284228
+  },
+  {
+    "task": 33,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.6388518197573658
+  },
+  {
+    "task": 34,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.38936568457539
+  },
+  {
+    "task": 35,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.46041421143847505
+  },
+  {
+    "task": 36,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.538209705372617
+  },
+  {
+    "task": 37,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5035771230502599
+  },
+  {
+    "task": 38,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5260465684575392
+  },
+  {
+    "task": 39,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.3766221837088388
+  },
+  {
+    "task": 40,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5445674523396882
+  },
+  {
+    "task": 41,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5671334488734836
+  },
+  {
+    "task": 42,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.48111178509532065
+  },
+  {
+    "task": 43,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.38008015597920275
+  },
+  {
+    "task": 44,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4650329289428077
+  },
+  {
+    "task": 45,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.40454322357019057
+  },
+  {
+    "task": 46,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4282820623916812
+  },
+  {
+    "task": 47,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5358730502599652
+  },
+  {
+    "task": 48,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5591468804159445
+  },
+  {
+    "task": 49,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4674900346620451
+  },
+  {
+    "task": 50,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3577742634315425
+  },
+  {
+    "task": 51,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.4237616464471404
+  },
+  {
+    "task": 52,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5487595840554593
+  },
+  {
+    "task": 53,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.4933041594454073
+  },
+  {
+    "task": 54,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3376967071057192
+  },
+  {
+    "task": 55,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5587590987868283
+  },
+  {
+    "task": 56,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5892376949740035
+  },
+  {
+    "task": 57,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.481973570190641
+  },
+  {
+    "task": 58,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4848782495667244
+  },
+  {
+    "task": 59,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.6136178509532063
+  },
+  {
+    "task": 60,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.2962054809358753
+  },
+  {
+    "task": 61,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.4036954072790296
+  },
+  {
+    "task": 62,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4554917677642981
+  },
+  {
+    "task": 63,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.5014978336221838
+  },
+  {
+    "task": 64,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4174176776429809
+  },
+  {
+    "task": 65,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4743591854419411
+  },
+  {
+    "task": 66,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.4747192374350086
+  },
+  {
+    "task": 67,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.46932409012131693
+  },
+  {
+    "task": 68,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.3875541594454073
+  },
+  {
+    "task": 69,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5012117850953206
+  },
+  {
+    "task": 70,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5314582972270363
+  },
+  {
+    "task": 71,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.40443986135181964
+  },
+  {
+    "task": 72,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.39535918544194115
+  },
+  {
+    "task": 73,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.5035627209705373
+  },
+  {
+    "task": 74,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.435307950606586
+  },
+  {
+    "task": 75,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.425521663778163
+  },
+  {
+    "task": 76,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4715658578856151
+  },
+  {
+    "task": 77,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.40384901213171553
+  },
+  {
+    "task": 78,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.46511211005199304
+  },
+  {
+    "task": 79,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5175346620450607
+  },
+  {
+    "task": 80,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 4,
+    "loss": 0.5356789428076254
+  },
+  {
+    "task": 81,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.3447270363951473
+  },
+  {
+    "task": 82,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 3,
+    "loss": 0.22887483535528602
+  },
+  {
+    "task": 83,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.5334575389948008
+  },
+  {
+    "task": 84,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.48152859618717503
+  },
+  {
+    "task": 85,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 1,
+    "loss": 0.4814688041594455
+  },
+  {
+    "task": 86,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 5,
+    "loss": 0.44680415944540747
+  },
+  {
+    "task": 87,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.5685736568457539
+  },
+  {
+    "task": 88,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 7,
+    "loss": 0.42317720970537254
+  },
+  {
+    "task": 89,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.0,
+    "question": 6,
+    "loss": 0.5537149046793761
+  },
+  {
+    "task": 0,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5439306759098789
+  },
+  {
+    "task": 1,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4969315424610051
+  },
+  {
+    "task": 2,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4650849220103987
+  },
+  {
+    "task": 3,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.33217504332755665
+  },
+  {
+    "task": 4,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.44206239168110906
+  },
+  {
+    "task": 5,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3214757365684576
+  },
+  {
+    "task": 6,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.43167980935875194
+  },
+  {
+    "task": 7,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.32481975736568464
+  },
+  {
+    "task": 8,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 2,
+    "loss": 0.2447936915077988
+  },
+  {
+    "task": 9,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.35389038128249584
+  },
+  {
+    "task": 10,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.49582149046793755
+  },
+  {
+    "task": 11,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 6,
+    "loss": 0.5244644714038129
+  },
+  {
+    "task": 12,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5381893414211438
+  },
+  {
+    "task": 13,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47195537261698445
+  },
+  {
+    "task": 14,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.2846932409012132
+  },
+  {
+    "task": 15,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5661767764298093
+  },
+  {
+    "task": 16,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5265779896013865
+  },
+  {
+    "task": 17,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5170450606585787
+  },
+  {
+    "task": 18,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4393032928942807
+  },
+  {
+    "task": 19,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4036143847487002
+  },
+  {
+    "task": 20,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5000467937608318
+  },
+  {
+    "task": 21,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5053717504332756
+  },
+  {
+    "task": 22,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3671499133448872
+  },
+  {
+    "task": 23,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4293379549393414
+  },
+  {
+    "task": 24,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.17059467071057183
+  },
+  {
+    "task": 25,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5234991334488737
+  },
+  {
+    "task": 26,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.40354116117850947
+  },
+  {
+    "task": 27,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.34243240901213173
+  },
+  {
+    "task": 28,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3293180242634316
+  },
+  {
+    "task": 29,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.31918370883882163
+  },
+  {
+    "task": 30,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4993544194107453
+  },
+  {
+    "task": 31,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4952512998266898
+  },
+  {
+    "task": 32,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.48259922010398615
+  },
+  {
+    "task": 33,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.6140779896013866
+  },
+  {
+    "task": 34,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3695844887348354
+  },
+  {
+    "task": 35,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.44581828422876957
+  },
+  {
+    "task": 36,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5140025996533797
+  },
+  {
+    "task": 37,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.48615251299826684
+  },
+  {
+    "task": 38,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5371035528596189
+  },
+  {
+    "task": 39,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.3546416811091855
+  },
+  {
+    "task": 40,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5610961871750433
+  },
+  {
+    "task": 41,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5473080589254767
+  },
+  {
+    "task": 42,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.46061958405545933
+  },
+  {
+    "task": 43,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.35179159445407276
+  },
+  {
+    "task": 44,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.44818024263431555
+  },
+  {
+    "task": 45,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3918647660311957
+  },
+  {
+    "task": 46,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4033275563258234
+  },
+  {
+    "task": 47,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.515201473136915
+  },
+  {
+    "task": 48,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5377798960138649
+  },
+  {
+    "task": 49,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4444644714038129
+  },
+  {
+    "task": 50,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.33422357019064136
+  },
+  {
+    "task": 51,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4066126516464472
+  },
+  {
+    "task": 52,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5651993067590988
+  },
+  {
+    "task": 53,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.46785441941074524
+  },
+  {
+    "task": 54,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.31857062391681107
+  },
+  {
+    "task": 55,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 2,
+    "loss": 0.5630454072790293
+  },
+  {
+    "task": 56,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5952980935875216
+  },
+  {
+    "task": 57,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.45906239168110896
+  },
+  {
+    "task": 58,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.49230935875216636
+  },
+  {
+    "task": 59,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 0,
+    "loss": 0.6504872790294628
+  },
+  {
+    "task": 60,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.2838048093587523
+  },
+  {
+    "task": 61,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 0,
+    "loss": 0.43310658578856154
+  },
+  {
+    "task": 62,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.43162911611785093
+  },
+  {
+    "task": 63,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.48134748700173324
+  },
+  {
+    "task": 64,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3998110918544193
+  },
+  {
+    "task": 65,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4479228769497401
+  },
+  {
+    "task": 66,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4563639514731369
+  },
+  {
+    "task": 67,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4508622183708837
+  },
+  {
+    "task": 68,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3762777296360485
+  },
+  {
+    "task": 69,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47765121317157694
+  },
+  {
+    "task": 70,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5216897746967072
+  },
+  {
+    "task": 71,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.3964956672443673
+  },
+  {
+    "task": 72,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.37257668977469677
+  },
+  {
+    "task": 73,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5016360485268629
+  },
+  {
+    "task": 74,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.41363084922010407
+  },
+  {
+    "task": 75,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.40472140381282495
+  },
+  {
+    "task": 76,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4453999133448872
+  },
+  {
+    "task": 77,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3832836741767761
+  },
+  {
+    "task": 78,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.45375259965337955
+  },
+  {
+    "task": 79,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4929376083188909
+  },
+  {
+    "task": 80,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5111793760831886
+  },
+  {
+    "task": 81,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3268474870017331
+  },
+  {
+    "task": 82,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 2,
+    "loss": 0.2694775043327556
+  },
+  {
+    "task": 83,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 6,
+    "loss": 0.5392287694974001
+  },
+  {
+    "task": 84,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4616135181975737
+  },
+  {
+    "task": 85,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4624935008665511
+  },
+  {
+    "task": 86,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.42278942807625663
+  },
+  {
+    "task": 87,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.5483804159445407
+  },
+  {
+    "task": 88,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.39921317157712294
+  },
+  {
+    "task": 89,
+    "method": "ideal",
+    "cost": 0.02,
+    "question": 6,
+    "loss": 0.533446273830156
+  },
+  {
+    "task": 0,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5439306759098789
+  },
+  {
+    "task": 1,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4969315424610051
+  },
+  {
+    "task": 2,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.46403314558058917
+  },
+  {
+    "task": 3,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.33217504332755665
+  },
+  {
+    "task": 4,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.44206239168110906
+  },
+  {
+    "task": 5,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3214757365684576
+  },
+  {
+    "task": 6,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.43167980935875194
+  },
+  {
+    "task": 7,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.32481975736568464
+  },
+  {
+    "task": 8,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 2,
+    "loss": 0.2447936915077988
+  },
+  {
+    "task": 9,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.35389038128249584
+  },
+  {
+    "task": 10,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.49603986135181966
+  },
+  {
+    "task": 11,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5220511265164646
+  },
+  {
+    "task": 12,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5381893414211438
+  },
+  {
+    "task": 13,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47195537261698445
+  },
+  {
+    "task": 14,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.2846932409012132
+  },
+  {
+    "task": 15,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5661767764298093
+  },
+  {
+    "task": 16,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5265779896013865
+  },
+  {
+    "task": 17,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5170450606585787
+  },
+  {
+    "task": 18,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4393032928942807
+  },
+  {
+    "task": 19,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3616892547660311
+  },
+  {
+    "task": 20,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4776746100519931
+  },
+  {
+    "task": 21,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5053717504332756
+  },
+  {
+    "task": 22,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3671499133448872
+  },
+  {
+    "task": 23,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4293379549393414
+  },
+  {
+    "task": 24,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.17059467071057183
+  },
+  {
+    "task": 25,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5143347660311959
+  },
+  {
+    "task": 26,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.40354116117850947
+  },
+  {
+    "task": 27,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.34243240901213173
+  },
+  {
+    "task": 28,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3293180242634316
+  },
+  {
+    "task": 29,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.31918370883882163
+  },
+  {
+    "task": 30,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4993544194107453
+  },
+  {
+    "task": 31,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4952512998266898
+  },
+  {
+    "task": 32,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4404851993067591
+  },
+  {
+    "task": 33,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.6169233102253034
+  },
+  {
+    "task": 34,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3695844887348354
+  },
+  {
+    "task": 35,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.44581828422876957
+  },
+  {
+    "task": 36,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5140025996533797
+  },
+  {
+    "task": 37,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.48615251299826684
+  },
+  {
+    "task": 38,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5153640727902948
+  },
+  {
+    "task": 39,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.3546416811091855
+  },
+  {
+    "task": 40,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5297678336221839
+  },
+  {
+    "task": 41,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5473080589254767
+  },
+  {
+    "task": 42,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.46061958405545933
+  },
+  {
+    "task": 43,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.35179159445407276
+  },
+  {
+    "task": 44,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.44818024263431555
+  },
+  {
+    "task": 45,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3918647660311957
+  },
+  {
+    "task": 46,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4033275563258234
+  },
+  {
+    "task": 47,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.515201473136915
+  },
+  {
+    "task": 48,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5377798960138649
+  },
+  {
+    "task": 49,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4444644714038129
+  },
+  {
+    "task": 50,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.33422357019064136
+  },
+  {
+    "task": 51,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4066126516464472
+  },
+  {
+    "task": 52,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5328843674176778
+  },
+  {
+    "task": 53,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.46785441941074524
+  },
+  {
+    "task": 54,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.31857062391681107
+  },
+  {
+    "task": 55,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5364991334488733
+  },
+  {
+    "task": 56,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5697250433275564
+  },
+  {
+    "task": 57,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.45906239168110896
+  },
+  {
+    "task": 58,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.46963084922010395
+  },
+  {
+    "task": 59,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.6078617850953207
+  },
+  {
+    "task": 60,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.2838048093587523
+  },
+  {
+    "task": 61,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3813171577123051
+  },
+  {
+    "task": 62,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.43162911611785093
+  },
+  {
+    "task": 63,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.48134748700173324
+  },
+  {
+    "task": 64,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3998110918544193
+  },
+  {
+    "task": 65,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4479228769497401
+  },
+  {
+    "task": 66,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4563639514731369
+  },
+  {
+    "task": 67,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4508622183708837
+  },
+  {
+    "task": 68,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3762777296360485
+  },
+  {
+    "task": 69,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47765121317157694
+  },
+  {
+    "task": 70,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5161205589254766
+  },
+  {
+    "task": 71,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.3964956672443673
+  },
+  {
+    "task": 72,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.37257668977469677
+  },
+  {
+    "task": 73,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4993608492201041
+  },
+  {
+    "task": 74,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.41363084922010407
+  },
+  {
+    "task": 75,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.40472140381282495
+  },
+  {
+    "task": 76,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4453999133448872
+  },
+  {
+    "task": 77,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3832836741767761
+  },
+  {
+    "task": 78,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4506120017331022
+  },
+  {
+    "task": 79,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4929376083188909
+  },
+  {
+    "task": 80,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5111793760831886
+  },
+  {
+    "task": 81,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3268474870017331
+  },
+  {
+    "task": 82,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.21660866551126526
+  },
+  {
+    "task": 83,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5162305025996534
+  },
+  {
+    "task": 84,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4616135181975737
+  },
+  {
+    "task": 85,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4624935008665511
+  },
+  {
+    "task": 86,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.42278942807625663
+  },
+  {
+    "task": 87,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.5483804159445407
+  },
+  {
+    "task": 88,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.39921317157712294
+  },
+  {
+    "task": 89,
+    "method": "calibrated_simple",
+    "cost": 0.02,
+    "question": 6,
+    "loss": 0.533446273830156
+  },
+  {
+    "task": 0,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5439306759098789
+  },
+  {
+    "task": 1,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4969315424610051
+  },
+  {
+    "task": 2,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.46403314558058917
+  },
+  {
+    "task": 3,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.33217504332755665
+  },
+  {
+    "task": 4,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.44206239168110906
+  },
+  {
+    "task": 5,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3214757365684576
+  },
+  {
+    "task": 6,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.43167980935875194
+  },
+  {
+    "task": 7,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.32481975736568464
+  },
+  {
+    "task": 8,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 2,
+    "loss": 0.2447936915077988
+  },
+  {
+    "task": 9,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.35389038128249584
+  },
+  {
+    "task": 10,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.49603986135181966
+  },
+  {
+    "task": 11,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5220511265164646
+  },
+  {
+    "task": 12,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5381893414211438
+  },
+  {
+    "task": 13,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47195537261698445
+  },
+  {
+    "task": 14,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.2846932409012132
+  },
+  {
+    "task": 15,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5661767764298093
+  },
+  {
+    "task": 16,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5265779896013865
+  },
+  {
+    "task": 17,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5170450606585787
+  },
+  {
+    "task": 18,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4393032928942807
+  },
+  {
+    "task": 19,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3616892547660311
+  },
+  {
+    "task": 20,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4776746100519931
+  },
+  {
+    "task": 21,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5053717504332756
+  },
+  {
+    "task": 22,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3671499133448872
+  },
+  {
+    "task": 23,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4293379549393414
+  },
+  {
+    "task": 24,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.17059467071057183
+  },
+  {
+    "task": 25,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5143347660311959
+  },
+  {
+    "task": 26,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.40354116117850947
+  },
+  {
+    "task": 27,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.34243240901213173
+  },
+  {
+    "task": 28,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3293180242634316
+  },
+  {
+    "task": 29,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.31918370883882163
+  },
+  {
+    "task": 30,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4993544194107453
+  },
+  {
+    "task": 31,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4952512998266898
+  },
+  {
+    "task": 32,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4404851993067591
+  },
+  {
+    "task": 33,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.6140779896013866
+  },
+  {
+    "task": 34,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3695844887348354
+  },
+  {
+    "task": 35,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.44581828422876957
+  },
+  {
+    "task": 36,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5140025996533797
+  },
+  {
+    "task": 37,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.48615251299826684
+  },
+  {
+    "task": 38,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5153640727902948
+  },
+  {
+    "task": 39,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.3546416811091855
+  },
+  {
+    "task": 40,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5297678336221839
+  },
+  {
+    "task": 41,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5473080589254767
+  },
+  {
+    "task": 42,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.46061958405545933
+  },
+  {
+    "task": 43,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.35179159445407276
+  },
+  {
+    "task": 44,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.44818024263431555
+  },
+  {
+    "task": 45,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3918647660311957
+  },
+  {
+    "task": 46,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4033275563258234
+  },
+  {
+    "task": 47,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.515201473136915
+  },
+  {
+    "task": 48,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5377798960138649
+  },
+  {
+    "task": 49,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4444644714038129
+  },
+  {
+    "task": 50,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.33422357019064136
+  },
+  {
+    "task": 51,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4066126516464472
+  },
+  {
+    "task": 52,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5328843674176778
+  },
+  {
+    "task": 53,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.46785441941074524
+  },
+  {
+    "task": 54,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.31857062391681107
+  },
+  {
+    "task": 55,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5364991334488733
+  },
+  {
+    "task": 56,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5697250433275564
+  },
+  {
+    "task": 57,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.458832322357019
+  },
+  {
+    "task": 58,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.46963084922010395
+  },
+  {
+    "task": 59,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.6078617850953207
+  },
+  {
+    "task": 60,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.2838048093587523
+  },
+  {
+    "task": 61,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3813171577123051
+  },
+  {
+    "task": 62,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.43162911611785093
+  },
+  {
+    "task": 63,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.48134748700173324
+  },
+  {
+    "task": 64,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3998110918544193
+  },
+  {
+    "task": 65,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4479228769497401
+  },
+  {
+    "task": 66,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4563639514731369
+  },
+  {
+    "task": 67,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4508622183708837
+  },
+  {
+    "task": 68,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3762777296360485
+  },
+  {
+    "task": 69,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47765121317157694
+  },
+  {
+    "task": 70,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5161205589254766
+  },
+  {
+    "task": 71,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.3964956672443673
+  },
+  {
+    "task": 72,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.37257668977469677
+  },
+  {
+    "task": 73,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4993608492201041
+  },
+  {
+    "task": 74,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.41363084922010407
+  },
+  {
+    "task": 75,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.40472140381282495
+  },
+  {
+    "task": 76,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4453999133448872
+  },
+  {
+    "task": 77,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3832836741767761
+  },
+  {
+    "task": 78,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4506120017331022
+  },
+  {
+    "task": 79,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4929376083188909
+  },
+  {
+    "task": 80,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5111793760831886
+  },
+  {
+    "task": 81,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3268474870017331
+  },
+  {
+    "task": 82,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.21660866551126526
+  },
+  {
+    "task": 83,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5162305025996534
+  },
+  {
+    "task": 84,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4616135181975737
+  },
+  {
+    "task": 85,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4624935008665511
+  },
+  {
+    "task": 86,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.42278942807625663
+  },
+  {
+    "task": 87,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.5483804159445407
+  },
+  {
+    "task": 88,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.39921317157712294
+  },
+  {
+    "task": 89,
+    "method": "ridge",
+    "cost": 0.02,
+    "question": 6,
+    "loss": 0.533446273830156
+  },
+  {
+    "task": 0,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5439306759098789
+  },
+  {
+    "task": 1,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4969315424610051
+  },
+  {
+    "task": 2,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.46403314558058917
+  },
+  {
+    "task": 3,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.33217504332755665
+  },
+  {
+    "task": 4,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.44206239168110906
+  },
+  {
+    "task": 5,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3214757365684576
+  },
+  {
+    "task": 6,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.43167980935875194
+  },
+  {
+    "task": 7,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.32481975736568464
+  },
+  {
+    "task": 8,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 2,
+    "loss": 0.2447936915077988
+  },
+  {
+    "task": 9,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.35389038128249584
+  },
+  {
+    "task": 10,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.49582149046793755
+  },
+  {
+    "task": 11,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5220511265164646
+  },
+  {
+    "task": 12,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5381893414211438
+  },
+  {
+    "task": 13,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47195537261698445
+  },
+  {
+    "task": 14,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.2846932409012132
+  },
+  {
+    "task": 15,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5661767764298093
+  },
+  {
+    "task": 16,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5265779896013865
+  },
+  {
+    "task": 17,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5170450606585787
+  },
+  {
+    "task": 18,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4393032928942807
+  },
+  {
+    "task": 19,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3616892547660311
+  },
+  {
+    "task": 20,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4776746100519931
+  },
+  {
+    "task": 21,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5053717504332756
+  },
+  {
+    "task": 22,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3671499133448872
+  },
+  {
+    "task": 23,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4293379549393414
+  },
+  {
+    "task": 24,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.17059467071057183
+  },
+  {
+    "task": 25,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5143347660311959
+  },
+  {
+    "task": 26,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.40354116117850947
+  },
+  {
+    "task": 27,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.34243240901213173
+  },
+  {
+    "task": 28,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3293180242634316
+  },
+  {
+    "task": 29,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.31918370883882163
+  },
+  {
+    "task": 30,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.4993544194107453
+  },
+  {
+    "task": 31,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4952512998266898
+  },
+  {
+    "task": 32,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4404851993067591
+  },
+  {
+    "task": 33,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.6140779896013866
+  },
+  {
+    "task": 34,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3695844887348354
+  },
+  {
+    "task": 35,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.44581828422876957
+  },
+  {
+    "task": 36,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5140025996533797
+  },
+  {
+    "task": 37,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.48615251299826684
+  },
+  {
+    "task": 38,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5153640727902948
+  },
+  {
+    "task": 39,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.3546416811091855
+  },
+  {
+    "task": 40,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5297678336221839
+  },
+  {
+    "task": 41,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5473080589254767
+  },
+  {
+    "task": 42,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.46061958405545933
+  },
+  {
+    "task": 43,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.35179159445407276
+  },
+  {
+    "task": 44,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.44716637781629126
+  },
+  {
+    "task": 45,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3918647660311957
+  },
+  {
+    "task": 46,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4033275563258234
+  },
+  {
+    "task": 47,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.515201473136915
+  },
+  {
+    "task": 48,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5377798960138649
+  },
+  {
+    "task": 49,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4444644714038129
+  },
+  {
+    "task": 50,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.33422357019064136
+  },
+  {
+    "task": 51,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4066126516464472
+  },
+  {
+    "task": 52,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5328843674176778
+  },
+  {
+    "task": 53,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.46785441941074524
+  },
+  {
+    "task": 54,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.31857062391681107
+  },
+  {
+    "task": 55,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5364991334488733
+  },
+  {
+    "task": 56,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5697250433275564
+  },
+  {
+    "task": 57,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.458832322357019
+  },
+  {
+    "task": 58,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.46963084922010395
+  },
+  {
+    "task": 59,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 6,
+    "loss": 0.5973960138648181
+  },
+  {
+    "task": 60,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.2838048093587523
+  },
+  {
+    "task": 61,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3813171577123051
+  },
+  {
+    "task": 62,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.43162911611785093
+  },
+  {
+    "task": 63,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.48134748700173324
+  },
+  {
+    "task": 64,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3998110918544193
+  },
+  {
+    "task": 65,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4479228769497401
+  },
+  {
+    "task": 66,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4563639514731369
+  },
+  {
+    "task": 67,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4507452339688041
+  },
+  {
+    "task": 68,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3762777296360485
+  },
+  {
+    "task": 69,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47765121317157694
+  },
+  {
+    "task": 70,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5161205589254766
+  },
+  {
+    "task": 71,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.3964956672443673
+  },
+  {
+    "task": 72,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.37257668977469677
+  },
+  {
+    "task": 73,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4993608492201041
+  },
+  {
+    "task": 74,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.41363084922010407
+  },
+  {
+    "task": 75,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.40472140381282495
+  },
+  {
+    "task": 76,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4453999133448872
+  },
+  {
+    "task": 77,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.3832836741767761
+  },
+  {
+    "task": 78,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4506120017331022
+  },
+  {
+    "task": 79,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4929376083188909
+  },
+  {
+    "task": 80,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5111793760831886
+  },
+  {
+    "task": 81,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3268474870017331
+  },
+  {
+    "task": 82,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.21660866551126526
+  },
+  {
+    "task": 83,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5162305025996534
+  },
+  {
+    "task": 84,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4616135181975737
+  },
+  {
+    "task": 85,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4624935008665511
+  },
+  {
+    "task": 86,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.42278942807625663
+  },
+  {
+    "task": 87,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.5483804159445407
+  },
+  {
+    "task": 88,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.39921317157712294
+  },
+  {
+    "task": 89,
+    "method": "oracle",
+    "cost": 0.02,
+    "question": 6,
+    "loss": 0.533446273830156
+  },
+  {
+    "task": 0,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5836065857885617
+  },
+  {
+    "task": 1,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5346239168110918
+  },
+  {
+    "task": 2,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.4916177426343154
+  },
+  {
+    "task": 3,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3764471403812828
+  },
+  {
+    "task": 4,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47945190641247826
+  },
+  {
+    "task": 5,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3606226169844021
+  },
+  {
+    "task": 6,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.472849220103986
+  },
+  {
+    "task": 7,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3721594454072791
+  },
+  {
+    "task": 8,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.2727003899480069
+  },
+  {
+    "task": 9,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3916113518197575
+  },
+  {
+    "task": 10,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5382374350086654
+  },
+  {
+    "task": 11,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.559733102253033
+  },
+  {
+    "task": 12,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5763080589254765
+  },
+  {
+    "task": 13,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5172218370883882
+  },
+  {
+    "task": 14,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.32282495667244365
+  },
+  {
+    "task": 15,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.6151230502599654
+  },
+  {
+    "task": 16,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.569855719237435
+  },
+  {
+    "task": 17,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5632305025996532
+  },
+  {
+    "task": 18,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.48492980935875213
+  },
+  {
+    "task": 19,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.40145459272097045
+  },
+  {
+    "task": 20,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5197837954939342
+  },
+  {
+    "task": 21,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5476356152512999
+  },
+  {
+    "task": 22,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4091707105719236
+  },
+  {
+    "task": 23,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4635453379549394
+  },
+  {
+    "task": 24,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.18917244367417668
+  },
+  {
+    "task": 25,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5600021490467937
+  },
+  {
+    "task": 26,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.433238301559792
+  },
+  {
+    "task": 27,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3761616117850953
+  },
+  {
+    "task": 28,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3746949740034663
+  },
+  {
+    "task": 29,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.35757668977469675
+  },
+  {
+    "task": 30,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.5415896880415945
+  },
+  {
+    "task": 31,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5329150779896015
+  },
+  {
+    "task": 32,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4765787868284228
+  },
+  {
+    "task": 33,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.6588518197573658
+  },
+  {
+    "task": 34,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.40936568457539
+  },
+  {
+    "task": 35,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.48041421143847507
+  },
+  {
+    "task": 36,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.558209705372617
+  },
+  {
+    "task": 37,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5235771230502599
+  },
+  {
+    "task": 38,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5460465684575392
+  },
+  {
+    "task": 39,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.39662218370883884
+  },
+  {
+    "task": 40,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5645674523396882
+  },
+  {
+    "task": 41,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5871334488734836
+  },
+  {
+    "task": 42,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5011117850953206
+  },
+  {
+    "task": 43,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.40008015597920277
+  },
+  {
+    "task": 44,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4850329289428077
+  },
+  {
+    "task": 45,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.4245432235701906
+  },
+  {
+    "task": 46,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4482820623916812
+  },
+  {
+    "task": 47,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5558730502599653
+  },
+  {
+    "task": 48,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5791468804159445
+  },
+  {
+    "task": 49,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4874900346620451
+  },
+  {
+    "task": 50,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3777742634315425
+  },
+  {
+    "task": 51,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.44376164644714045
+  },
+  {
+    "task": 52,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5687595840554593
+  },
+  {
+    "task": 53,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.5133041594454073
+  },
+  {
+    "task": 54,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.3576967071057192
+  },
+  {
+    "task": 55,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5787590987868283
+  },
+  {
+    "task": 56,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.6092376949740035
+  },
+  {
+    "task": 57,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.501973570190641
+  },
+  {
+    "task": 58,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5048782495667243
+  },
+  {
+    "task": 59,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.6336178509532063
+  },
+  {
+    "task": 60,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.3162054809358753
+  },
+  {
+    "task": 61,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4236954072790296
+  },
+  {
+    "task": 62,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.47549176776429813
+  },
+  {
+    "task": 63,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.5214978336221838
+  },
+  {
+    "task": 64,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4374176776429809
+  },
+  {
+    "task": 65,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.49435918544194113
+  },
+  {
+    "task": 66,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4947192374350086
+  },
+  {
+    "task": 67,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.48932409012131695
+  },
+  {
+    "task": 68,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.4075541594454073
+  },
+  {
+    "task": 69,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5212117850953206
+  },
+  {
+    "task": 70,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5514582972270363
+  },
+  {
+    "task": 71,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.42443986135181966
+  },
+  {
+    "task": 72,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.41535918544194117
+  },
+  {
+    "task": 73,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.5235627209705374
+  },
+  {
+    "task": 74,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.455307950606586
+  },
+  {
+    "task": 75,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.445521663778163
+  },
+  {
+    "task": 76,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.49156585788561513
+  },
+  {
+    "task": 77,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.42384901213171555
+  },
+  {
+    "task": 78,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.48511211005199306
+  },
+  {
+    "task": 79,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5375346620450607
+  },
+  {
+    "task": 80,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 4,
+    "loss": 0.5556789428076254
+  },
+  {
+    "task": 81,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.3647270363951473
+  },
+  {
+    "task": 82,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 3,
+    "loss": 0.248874835355286
+  },
+  {
+    "task": 83,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5534575389948008
+  },
+  {
+    "task": 84,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.501528596187175
+  },
+  {
+    "task": 85,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 1,
+    "loss": 0.5014688041594455
+  },
+  {
+    "task": 86,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 5,
+    "loss": 0.4668041594454075
+  },
+  {
+    "task": 87,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.5885736568457539
+  },
+  {
+    "task": 88,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 7,
+    "loss": 0.44317720970537255
+  },
+  {
+    "task": 89,
+    "method": "oracle_discard_ambiguity",
+    "cost": 0.02,
+    "question": 6,
+    "loss": 0.5737149046793761
+  }
+]

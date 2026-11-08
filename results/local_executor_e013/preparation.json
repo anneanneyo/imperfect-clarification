@@ -1,0 +1,11 @@
+{
+  "protocol_sha256": "f4a0926d30b66ee1c6c66084968b6744841f2641fa52502cc5916acf54e7fb84",
+  "source_families_sha256": "d1770d8ef90409fad86a67f791f3ce369b6d587143076e42746596fa0c4037ac",
+  "database_sha256": "413a65160adbdb5fde0ffc0015c49b6d70250b10c18128de169b597af7766765",
+  "families": 6,
+  "unique_prompts": 129,
+  "input_files": {
+    "experiments/retail_clarification_contract.py": "09001129ffc90bf205025e06a14b8efe58ba282c6b82084f3031ef591a899c8d",
+    "experiments/tau3_retail_state_probe.py": "d9241f1c8d3ee3ba4271d9caccd257ef985ee0017acea9cd1e57064b110c525f"
+  }
+}

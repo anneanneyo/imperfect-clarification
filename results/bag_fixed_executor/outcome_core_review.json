@@ -1,0 +1,296 @@
+{
+  "status": "post_hoc_single_assistant_provisional",
+  "scope": "Core agreement with supplied reference only; not whole-answer factuality.",
+  "aggregate_judge_outcomes_previously_seen": true,
+  "sample_sha256": "d7f4e48d56fad33aa0b408491462f24f894a1215d1178b6882f69b5df817ef56",
+  "rows": [
+    {
+      "blind_id": "P001",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "60% for 2023–24, not the reference slightly below 50 for 2016."
+    },
+    {
+      "blind_id": "P002",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "2010 redesign; does not give the reference 2004 series date."
+    },
+    {
+      "blind_id": "P003",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Describes the show and asks for a season; no target winner."
+    },
+    {
+      "blind_id": "P004",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names actresses instead of the requested film language Hindi."
+    },
+    {
+      "blind_id": "P005",
+      "core_reference_supported": true,
+      "partial_core_overlap": false,
+      "rationale": "Affirms Woody as the singing character; composer/voice claims are not validated."
+    },
+    {
+      "blind_id": "P006",
+      "core_reference_supported": true,
+      "partial_core_overlap": false,
+      "rationale": "Affirms Dan Marino for NFL 1984; additional league answers and statistics are not validated."
+    },
+    {
+      "blind_id": "P007",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Attributes the film version to Tony Bennett, not Billie Holiday."
+    },
+    {
+      "blind_id": "P008",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Does not identify Sonus; discusses a custom theme and a different band."
+    },
+    {
+      "blind_id": "P009",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names teams rather than one of the target players."
+    },
+    {
+      "blind_id": "P010",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Gives 1908 for men and 2004 for women; mention of 1996 is in the wrong relation."
+    },
+    {
+      "blind_id": "P011",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names Ronaldo Nazario, not Ronaldinho, and describes a specific tournament."
+    },
+    {
+      "blind_id": "P012",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names The Dragon, not Texas SkyScreamer."
+    },
+    {
+      "blind_id": "P013",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Claims 15 players, not 2; numbered list is not an answer of 2."
+    },
+    {
+      "blind_id": "P014",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names Sally Field, not Elizabeth Perkins."
+    },
+    {
+      "blind_id": "P015",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names The Wombats, not Sonus."
+    },
+    {
+      "blind_id": "P016",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names West Bromwich Albion and Norwich, not the reference three teams."
+    },
+    {
+      "blind_id": "P017",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names England and discusses a different year, not Australia in 2013."
+    },
+    {
+      "blind_id": "P018",
+      "core_reference_supported": true,
+      "partial_core_overlap": false,
+      "rationale": "Affirms University of Texas at Austin; accompanying career facts are not validated."
+    },
+    {
+      "blind_id": "P019",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names a different season and winners, not the season-15 target."
+    },
+    {
+      "blind_id": "P020",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names Elizabeth Taylor, not Elizabeth Perkins."
+    },
+    {
+      "blind_id": "P021",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Denies that Durant attended college, contrary to the supplied reference."
+    },
+    {
+      "blind_id": "P022",
+      "core_reference_supported": false,
+      "partial_core_overlap": true,
+      "rationale": "Includes Los Angeles as filming location but omits Marfa from the composite reference."
+    },
+    {
+      "blind_id": "P023",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Gives New Zealand locations rather than the specified church."
+    },
+    {
+      "blind_id": "P024",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names actresses instead of the requested film language Hindi."
+    },
+    {
+      "blind_id": "P025",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Describes Orwell and the fictional text but not the committee in the reference."
+    },
+    {
+      "blind_id": "P026",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names teams, not one of the target players."
+    },
+    {
+      "blind_id": "P027",
+      "core_reference_supported": false,
+      "partial_core_overlap": true,
+      "rationale": "Attributes the book to OBrien alone, not to a committee including him."
+    },
+    {
+      "blind_id": "P028",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Gives 1908, not 1996 for womens soccer."
+    },
+    {
+      "blind_id": "P029",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names Washington and other single-season records, not Tampa Bay."
+    },
+    {
+      "blind_id": "P030",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names Space Spiral, not Texas SkyScreamer."
+    },
+    {
+      "blind_id": "P031",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names The Move, not Gwen McCrae."
+    },
+    {
+      "blind_id": "P032",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names Shivam Raj, not Ansh Bagri."
+    },
+    {
+      "blind_id": "P033",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names England, not Australia."
+    },
+    {
+      "blind_id": "P034",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Gives July 1 2017, not January 7 2018."
+    },
+    {
+      "blind_id": "P035",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Gives a different set of relegated teams."
+    },
+    {
+      "blind_id": "P036",
+      "core_reference_supported": true,
+      "partial_core_overlap": false,
+      "rationale": "Affirms Dan Marino for 1984; numerical and historical additions are not validated."
+    },
+    {
+      "blind_id": "P037",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names The Move, not Gwen McCrae."
+    },
+    {
+      "blind_id": "P038",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Gives 1928/2003/2010, not the 2004 series-date reference."
+    },
+    {
+      "blind_id": "P039",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Discusses fictional settings rather than the supplied filming locations."
+    },
+    {
+      "blind_id": "P040",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Claims 13 players, not 2; numbered list is not an answer of 2."
+    },
+    {
+      "blind_id": "P041",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names Tony Bennett, not Billie Holiday."
+    },
+    {
+      "blind_id": "P042",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Denies episode 122 was released, not the supplied release date."
+    },
+    {
+      "blind_id": "P043",
+      "core_reference_supported": true,
+      "partial_core_overlap": false,
+      "rationale": "Affirms Woody as the character; actor/singing claims are not validated."
+    },
+    {
+      "blind_id": "P044",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Names New England for the current season, not the Tampa Bay reference."
+    },
+    {
+      "blind_id": "P045",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Mentions Ronaldinho only among other scorers; asserts Ronaldo as the answer."
+    },
+    {
+      "blind_id": "P046",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Gives Verona locations, not the specified church."
+    },
+    {
+      "blind_id": "P047",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Does not name Ansh Bagri in the saved, visibly cut-off answer."
+    },
+    {
+      "blind_id": "P048",
+      "core_reference_supported": false,
+      "partial_core_overlap": false,
+      "rationale": "Gives 14.3% for a differently defined Canadian population, not the supplied reference."
+    }
+  ]
+}

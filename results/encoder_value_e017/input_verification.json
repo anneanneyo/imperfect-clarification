@@ -1,0 +1,7 @@
+{
+  "verified": true,
+  "phase": "inputs",
+  "input_components": 144,
+  "no_hidden_labels_in_inputs": true,
+  "verifier_sha256": "c0b3590d37f4bc2f6b38c3b4a7c75ffeb4a77e0ec37c699220a76943e7f58818"
+}

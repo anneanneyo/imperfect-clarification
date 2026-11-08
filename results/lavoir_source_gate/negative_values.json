@@ -1,0 +1,2177 @@
+[
+  {
+    "id": "train/banking_support/00001/p1/a",
+    "slot": "money_gone",
+    "value": -0.1626253220599503
+  },
+  {
+    "id": "train/banking_support/00004/p0/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00004/p0/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00004/p1/a",
+    "slot": "product",
+    "value": -0.1983347117949022
+  },
+  {
+    "id": "train/banking_support/00004/p1/a",
+    "slot": "compensation",
+    "value": -0.07512459291321766
+  },
+  {
+    "id": "train/banking_support/00004/p1/b",
+    "slot": "product",
+    "value": -0.1256590920981422
+  },
+  {
+    "id": "train/banking_support/00010/p2/a",
+    "slot": "issue",
+    "value": -0.08759717310399057
+  },
+  {
+    "id": "train/banking_support/00012/p2/b",
+    "slot": "product",
+    "value": -0.013258759758028038
+  },
+  {
+    "id": "train/banking_support/00016/p0/a",
+    "slot": "issue",
+    "value": -0.016257936507936513
+  },
+  {
+    "id": "train/banking_support/00016/p0/a",
+    "slot": "money_gone",
+    "value": -0.02420392111440453
+  },
+  {
+    "id": "train/banking_support/00016/p0/b",
+    "slot": "issue",
+    "value": -0.007924603174603168
+  },
+  {
+    "id": "train/banking_support/00016/p0/c",
+    "slot": "issue",
+    "value": -0.2690377237851663
+  },
+  {
+    "id": "train/banking_support/00016/p1/a",
+    "slot": "money_gone",
+    "value": -0.16534501247184732
+  },
+  {
+    "id": "train/banking_support/00016/p1/b",
+    "slot": "money_gone",
+    "value": -0.2700147116211447
+  },
+  {
+    "id": "train/banking_support/00017/p2/a",
+    "slot": "issue",
+    "value": -0.09945617710058335
+  },
+  {
+    "id": "train/banking_support/00017/p2/a",
+    "slot": "compensation",
+    "value": -0.002863653313114445
+  },
+  {
+    "id": "train/banking_support/00017/p2/b",
+    "slot": "issue",
+    "value": -0.09945617710058335
+  },
+  {
+    "id": "train/banking_support/00017/p2/b",
+    "slot": "compensation",
+    "value": -0.002863653313114445
+  },
+  {
+    "id": "train/banking_support/00017/p3/a",
+    "slot": "issue",
+    "value": -0.23111468037315314
+  },
+  {
+    "id": "train/banking_support/00017/p3/a",
+    "slot": "compensation",
+    "value": -0.007863653313114338
+  },
+  {
+    "id": "train/banking_support/00017/p3/b",
+    "slot": "issue",
+    "value": -0.21861468037315318
+  },
+  {
+    "id": "train/banking_support/00018/p0/a",
+    "slot": "product",
+    "value": -0.19876656064780368
+  },
+  {
+    "id": "train/banking_support/00018/p0/b",
+    "slot": "product",
+    "value": -0.27788547745042347
+  },
+  {
+    "id": "train/banking_support/00018/p0/b",
+    "slot": "compensation",
+    "value": -0.010465567700170375
+  },
+  {
+    "id": "train/banking_support/00018/p0/c",
+    "slot": "product",
+    "value": -0.3210672956322417
+  },
+  {
+    "id": "train/banking_support/00018/p0/c",
+    "slot": "compensation",
+    "value": -0.05364738588198864
+  },
+  {
+    "id": "train/banking_support/00018/p1/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00018/p3/b",
+    "slot": "issue",
+    "value": -0.1825579761952713
+  },
+  {
+    "id": "train/banking_support/00022/p0/a",
+    "slot": "issue",
+    "value": -0.04395555232357512
+  },
+  {
+    "id": "train/banking_support/00022/p0/a",
+    "slot": "money_gone",
+    "value": -0.16595865539328364
+  },
+  {
+    "id": "train/banking_support/00022/p1/a",
+    "slot": "issue",
+    "value": -0.08759717310399057
+  },
+  {
+    "id": "train/banking_support/00023/p2/a",
+    "slot": "compensation",
+    "value": -0.0643728791918281
+  },
+  {
+    "id": "train/banking_support/00023/p3/a",
+    "slot": "money_gone",
+    "value": -0.16534501247184732
+  },
+  {
+    "id": "train/banking_support/00023/p3/b",
+    "slot": "money_gone",
+    "value": -0.1717979241131764
+  },
+  {
+    "id": "train/banking_support/00024/p1/a",
+    "slot": "money_gone",
+    "value": -0.13901098901098885
+  },
+  {
+    "id": "train/banking_support/00025/p3/a",
+    "slot": "product",
+    "value": -0.1983347117949022
+  },
+  {
+    "id": "train/banking_support/00025/p3/a",
+    "slot": "compensation",
+    "value": -0.07512459291321766
+  },
+  {
+    "id": "train/banking_support/00025/p3/b",
+    "slot": "product",
+    "value": -0.19546921471887882
+  },
+  {
+    "id": "train/banking_support/00025/p3/b",
+    "slot": "compensation",
+    "value": -0.08910497397339495
+  },
+  {
+    "id": "train/banking_support/00028/p0/a",
+    "slot": "issue",
+    "value": -0.30237105711849954
+  },
+  {
+    "id": "train/banking_support/00028/p0/a",
+    "slot": "product",
+    "value": -0.015660919540229745
+  },
+  {
+    "id": "train/banking_support/00028/p0/a",
+    "slot": "money_gone",
+    "value": -0.16404454022988502
+  },
+  {
+    "id": "train/banking_support/00028/p0/b",
+    "slot": "issue",
+    "value": -0.10980603448275861
+  },
+  {
+    "id": "train/banking_support/00028/p1/a",
+    "slot": "money_gone",
+    "value": -0.1473778735632184
+  },
+  {
+    "id": "train/banking_support/00028/p1/b",
+    "slot": "money_gone",
+    "value": -0.1473778735632184
+  },
+  {
+    "id": "train/banking_support/00031/p1/a",
+    "slot": "product",
+    "value": -0.062277256094004835
+  },
+  {
+    "id": "train/banking_support/00032/p2/a",
+    "slot": "issue",
+    "value": -0.04395555232357512
+  },
+  {
+    "id": "train/banking_support/00032/p2/a",
+    "slot": "money_gone",
+    "value": -0.16595865539328364
+  },
+  {
+    "id": "train/banking_support/00032/p2/b",
+    "slot": "issue",
+    "value": -0.03228888565690846
+  },
+  {
+    "id": "train/banking_support/00032/p3/a",
+    "slot": "money_gone",
+    "value": -0.00969103413158881
+  },
+  {
+    "id": "train/banking_support/00033/p0/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00033/p0/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00033/p0/b",
+    "slot": "issue",
+    "value": -0.03228888565690846
+  },
+  {
+    "id": "train/banking_support/00033/p0/b",
+    "slot": "money_gone",
+    "value": -0.16092833242661453
+  },
+  {
+    "id": "train/banking_support/00033/p1/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00038/p0/a",
+    "slot": "product",
+    "value": -0.00946931320938349
+  },
+  {
+    "id": "train/banking_support/00038/p0/a",
+    "slot": "money_gone",
+    "value": -0.2906789908150215
+  },
+  {
+    "id": "train/banking_support/00038/p0/a",
+    "slot": "compensation",
+    "value": -0.16849473455650854
+  },
+  {
+    "id": "train/banking_support/00038/p0/b",
+    "slot": "compensation",
+    "value": -0.1480311583975682
+  },
+  {
+    "id": "train/banking_support/00038/p1/a",
+    "slot": "issue",
+    "value": -0.19255797619527137
+  },
+  {
+    "id": "train/banking_support/00038/p1/a",
+    "slot": "product",
+    "value": -0.004646618173922423
+  },
+  {
+    "id": "train/banking_support/00038/p1/a",
+    "slot": "compensation",
+    "value": -0.1584947345565086
+  },
+  {
+    "id": "train/banking_support/00038/p1/b",
+    "slot": "issue",
+    "value": -0.21255797619527128
+  },
+  {
+    "id": "train/banking_support/00038/p1/b",
+    "slot": "product",
+    "value": -0.024183042014982004
+  },
+  {
+    "id": "train/banking_support/00038/p1/b",
+    "slot": "compensation",
+    "value": -0.1780311583975681
+  },
+  {
+    "id": "train/banking_support/00040/p3/a",
+    "slot": "issue",
+    "value": -0.08759717310399057
+  },
+  {
+    "id": "train/banking_support/00041/p0/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00041/p2/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00041/p2/b",
+    "slot": "issue",
+    "value": -0.07509717310399061
+  },
+  {
+    "id": "train/banking_support/00041/p3/a",
+    "slot": "compensation",
+    "value": -0.08838726315588269
+  },
+  {
+    "id": "train/banking_support/00042/p0/a",
+    "slot": "compensation",
+    "value": -0.13849473455650851
+  },
+  {
+    "id": "train/banking_support/00042/p0/b",
+    "slot": "compensation",
+    "value": -0.1480311583975682
+  },
+  {
+    "id": "train/banking_support/00046/p2/a",
+    "slot": "product",
+    "value": -0.038214530131350566
+  },
+  {
+    "id": "train/banking_support/00046/p3/a",
+    "slot": "product",
+    "value": -0.07253512378518667
+  },
+  {
+    "id": "train/banking_support/00046/p3/a",
+    "slot": "compensation",
+    "value": -0.10736711354777917
+  },
+  {
+    "id": "train/banking_support/00046/p3/b",
+    "slot": "product",
+    "value": -0.019937788236767118
+  },
+  {
+    "id": "train/banking_support/00046/p3/c",
+    "slot": "product",
+    "value": -0.019937788236767118
+  },
+  {
+    "id": "train/banking_support/00048/p0/a",
+    "slot": "product",
+    "value": -0.021904036050363174
+  },
+  {
+    "id": "train/banking_support/00050/p1/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00051/p0/a",
+    "slot": "compensation",
+    "value": -0.002517822892917798
+  },
+  {
+    "id": "train/banking_support/00051/p3/a",
+    "slot": "issue",
+    "value": -0.19255797619527137
+  },
+  {
+    "id": "train/banking_support/00051/p3/b",
+    "slot": "issue",
+    "value": -0.23096916467214973
+  },
+  {
+    "id": "train/banking_support/00051/p3/b",
+    "slot": "product",
+    "value": -0.00149741824440619
+  },
+  {
+    "id": "train/banking_support/00055/p2/a",
+    "slot": "compensation",
+    "value": -0.0643728791918281
+  },
+  {
+    "id": "train/banking_support/00057/p3/b",
+    "slot": "product",
+    "value": -0.0018931710615279762
+  },
+  {
+    "id": "train/banking_support/00057/p3/b",
+    "slot": "money_gone",
+    "value": -0.0018931710615280872
+  },
+  {
+    "id": "train/banking_support/00057/p3/b",
+    "slot": "compensation",
+    "value": -0.029344151453684852
+  },
+  {
+    "id": "train/banking_support/00058/p2/a",
+    "slot": "money_gone",
+    "value": -0.017537254447737877
+  },
+  {
+    "id": "train/banking_support/00058/p2/b",
+    "slot": "money_gone",
+    "value": -0.1358836206896551
+  },
+  {
+    "id": "train/banking_support/00059/p0/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00064/p0/a",
+    "slot": "issue",
+    "value": -0.0825264528608502
+  },
+  {
+    "id": "train/banking_support/00064/p0/b",
+    "slot": "issue",
+    "value": -0.1025264528608501
+  },
+  {
+    "id": "train/banking_support/00064/p0/b",
+    "slot": "money_gone",
+    "value": -0.006630144307856689
+  },
+  {
+    "id": "train/banking_support/00064/p0/b",
+    "slot": "compensation",
+    "value": -0.006630144307856689
+  },
+  {
+    "id": "train/banking_support/00064/p2/a",
+    "slot": "issue",
+    "value": -0.0825264528608502
+  },
+  {
+    "id": "train/banking_support/00065/p1/a",
+    "slot": "money_gone",
+    "value": -0.03268673600795216
+  },
+  {
+    "id": "train/banking_support/00065/p1/b",
+    "slot": "money_gone",
+    "value": -0.019415358633022045
+  },
+  {
+    "id": "train/banking_support/00065/p1/c",
+    "slot": "money_gone",
+    "value": -0.007884746388124086
+  },
+  {
+    "id": "train/banking_support/00065/p2/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00066/p0/a",
+    "slot": "issue",
+    "value": -0.19255797619527137
+  },
+  {
+    "id": "train/banking_support/00066/p0/a",
+    "slot": "product",
+    "value": -0.004646618173922423
+  },
+  {
+    "id": "train/banking_support/00066/p0/a",
+    "slot": "compensation",
+    "value": -0.1584947345565086
+  },
+  {
+    "id": "train/banking_support/00066/p1/b",
+    "slot": "issue",
+    "value": -0.03611456012082237
+  },
+  {
+    "id": "train/banking_support/00073/p0/a",
+    "slot": "issue",
+    "value": -0.08759717310399057
+  },
+  {
+    "id": "train/banking_support/00073/p2/a",
+    "slot": "money_gone",
+    "value": -0.00793396766863999
+  },
+  {
+    "id": "train/banking_support/00075/p0/a",
+    "slot": "issue",
+    "value": -0.23111468037315314
+  },
+  {
+    "id": "train/banking_support/00075/p0/a",
+    "slot": "compensation",
+    "value": -0.007863653313114338
+  },
+  {
+    "id": "train/banking_support/00078/p2/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00078/p3/b",
+    "slot": "issue",
+    "value": -0.08945617710058329
+  },
+  {
+    "id": "train/banking_support/00078/p3/c",
+    "slot": "issue",
+    "value": -0.1103641899534974
+  },
+  {
+    "id": "train/banking_support/00078/p3/c",
+    "slot": "compensation",
+    "value": -0.019454547762937313
+  },
+  {
+    "id": "train/banking_support/00080/p1/a",
+    "slot": "issue",
+    "value": -0.11813936781609202
+  },
+  {
+    "id": "train/banking_support/00080/p2/a",
+    "slot": "issue",
+    "value": -0.11813936781609202
+  },
+  {
+    "id": "train/banking_support/00081/p1/a",
+    "slot": "money_gone",
+    "value": -0.1473778735632184
+  },
+  {
+    "id": "train/banking_support/00088/p0/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00088/p1/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00089/p2/a",
+    "slot": "money_gone",
+    "value": -0.03268673600795216
+  },
+  {
+    "id": "train/banking_support/00093/p0/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00093/p0/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00093/p2/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00098/p0/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00098/p0/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00098/p2/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00098/p2/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00102/p3/a",
+    "slot": "issue",
+    "value": -0.08759717310399057
+  },
+  {
+    "id": "train/banking_support/00103/p1/a",
+    "slot": "issue",
+    "value": -0.21635693904732523
+  },
+  {
+    "id": "train/banking_support/00104/p0/a",
+    "slot": "money_gone",
+    "value": -0.07079802550390768
+  },
+  {
+    "id": "train/banking_support/00105/p1/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00105/p1/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00105/p1/b",
+    "slot": "issue",
+    "value": -0.03228888565690846
+  },
+  {
+    "id": "train/banking_support/00105/p1/b",
+    "slot": "money_gone",
+    "value": -0.16092833242661453
+  },
+  {
+    "id": "train/banking_support/00105/p2/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00106/p0/a",
+    "slot": "issue",
+    "value": -0.19255797619527137
+  },
+  {
+    "id": "train/banking_support/00106/p0/b",
+    "slot": "issue",
+    "value": -0.23096916467214973
+  },
+  {
+    "id": "train/banking_support/00106/p0/b",
+    "slot": "product",
+    "value": -0.00149741824440619
+  },
+  {
+    "id": "train/banking_support/00110/p0/a",
+    "slot": "compensation",
+    "value": -0.1371985815602837
+  },
+  {
+    "id": "train/banking_support/00110/p1/a",
+    "slot": "compensation",
+    "value": -0.1371985815602837
+  },
+  {
+    "id": "train/banking_support/00116/p1/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00116/p3/a",
+    "slot": "product",
+    "value": -0.029010952082816704
+  },
+  {
+    "id": "train/banking_support/00120/p2/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00120/p2/b",
+    "slot": "issue",
+    "value": -0.21861468037315318
+  },
+  {
+    "id": "train/banking_support/00120/p2/b",
+    "slot": "compensation",
+    "value": -0.004783749518352254
+  },
+  {
+    "id": "train/banking_support/00124/p1/a",
+    "slot": "money_gone",
+    "value": -0.03268673600795216
+  },
+  {
+    "id": "train/banking_support/00124/p2/a",
+    "slot": "issue",
+    "value": -0.016257936507936513
+  },
+  {
+    "id": "train/banking_support/00124/p2/a",
+    "slot": "money_gone",
+    "value": -0.02420392111440453
+  },
+  {
+    "id": "train/banking_support/00124/p2/b",
+    "slot": "issue",
+    "value": -0.29403772378516624
+  },
+  {
+    "id": "train/banking_support/00124/p2/b",
+    "slot": "money_gone",
+    "value": -0.16088362068965512
+  },
+  {
+    "id": "train/banking_support/00134/p0/a",
+    "slot": "product",
+    "value": -0.0017221067221067088
+  },
+  {
+    "id": "train/banking_support/00134/p0/a",
+    "slot": "money_gone",
+    "value": -0.11035584381172625
+  },
+  {
+    "id": "train/banking_support/00141/p0/a",
+    "slot": "issue",
+    "value": -0.08759717310399057
+  },
+  {
+    "id": "train/banking_support/00141/p3/a",
+    "slot": "issue",
+    "value": -0.08759717310399057
+  },
+  {
+    "id": "train/banking_support/00145/p1/a",
+    "slot": "issue",
+    "value": -0.04194789345415573
+  },
+  {
+    "id": "train/banking_support/00145/p1/b",
+    "slot": "issue",
+    "value": -0.05361456012082244
+  },
+  {
+    "id": "train/banking_support/00145/p1/b",
+    "slot": "product",
+    "value": -0.0032487091222032083
+  },
+  {
+    "id": "train/banking_support/00145/p1/b",
+    "slot": "compensation",
+    "value": -0.0032487091222030973
+  },
+  {
+    "id": "train/banking_support/00145/p3/a",
+    "slot": "product",
+    "value": -0.0037705560573270125
+  },
+  {
+    "id": "train/banking_support/00145/p3/a",
+    "slot": "money_gone",
+    "value": -0.2857881597109796
+  },
+  {
+    "id": "train/banking_support/00145/p3/a",
+    "slot": "compensation",
+    "value": -0.0037705560573269015
+  },
+  {
+    "id": "train/banking_support/00151/p2/a",
+    "slot": "product",
+    "value": -0.007456574007978722
+  },
+  {
+    "id": "train/banking_support/00153/p0/a",
+    "slot": "money_gone",
+    "value": -0.0386814481874902
+  },
+  {
+    "id": "train/banking_support/00153/p0/a",
+    "slot": "compensation",
+    "value": -0.0933503700181767
+  },
+  {
+    "id": "train/banking_support/00153/p0/b",
+    "slot": "money_gone",
+    "value": -0.0386814481874902
+  },
+  {
+    "id": "train/banking_support/00153/p0/b",
+    "slot": "compensation",
+    "value": -0.0933503700181767
+  },
+  {
+    "id": "train/banking_support/00157/p0/a",
+    "slot": "money_gone",
+    "value": -0.00420682770906175
+  },
+  {
+    "id": "train/banking_support/00157/p1/a",
+    "slot": "issue",
+    "value": -0.08759717310399057
+  },
+  {
+    "id": "train/banking_support/00157/p1/b",
+    "slot": "issue",
+    "value": -0.11259717310399064
+  },
+  {
+    "id": "train/banking_support/00157/p1/c",
+    "slot": "issue",
+    "value": -0.11259717310399064
+  },
+  {
+    "id": "train/banking_support/00157/p1/c",
+    "slot": "compensation",
+    "value": -0.013462783171521053
+  },
+  {
+    "id": "train/banking_support/00160/p0/a",
+    "slot": "money_gone",
+    "value": -0.16534501247184732
+  },
+  {
+    "id": "train/banking_support/00160/p0/b",
+    "slot": "money_gone",
+    "value": -0.16534501247184732
+  },
+  {
+    "id": "train/banking_support/00160/p0/c",
+    "slot": "money_gone",
+    "value": -0.15967323174238066
+  },
+  {
+    "id": "train/banking_support/00161/p2/a",
+    "slot": "compensation",
+    "value": -0.08838726315588269
+  },
+  {
+    "id": "train/banking_support/00161/p3/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00161/p3/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00167/p1/a",
+    "slot": "product",
+    "value": -0.18847866825370468
+  },
+  {
+    "id": "train/banking_support/00167/p1/a",
+    "slot": "compensation",
+    "value": -0.0024529433765396735
+  },
+  {
+    "id": "train/banking_support/00167/p1/b",
+    "slot": "product",
+    "value": -0.19478945970474698
+  },
+  {
+    "id": "train/banking_support/00167/p1/b",
+    "slot": "compensation",
+    "value": -0.004448023479048935
+  },
+  {
+    "id": "train/banking_support/00170/p1/a",
+    "slot": "money_gone",
+    "value": -0.0386814481874902
+  },
+  {
+    "id": "train/banking_support/00170/p1/a",
+    "slot": "compensation",
+    "value": -0.0933503700181767
+  },
+  {
+    "id": "train/banking_support/00170/p1/b",
+    "slot": "compensation",
+    "value": -0.07556235502429832
+  },
+  {
+    "id": "train/banking_support/00174/p0/a",
+    "slot": "money_gone",
+    "value": -0.09368917714505959
+  },
+  {
+    "id": "train/banking_support/00174/p1/a",
+    "slot": "product",
+    "value": -0.0017221067221067088
+  },
+  {
+    "id": "train/banking_support/00174/p1/a",
+    "slot": "money_gone",
+    "value": -0.11035584381172625
+  },
+  {
+    "id": "train/banking_support/00174/p2/a",
+    "slot": "money_gone",
+    "value": -0.10822743615174812
+  },
+  {
+    "id": "train/banking_support/00174/p2/a",
+    "slot": "compensation",
+    "value": -0.2249825841568962
+  },
+  {
+    "id": "train/banking_support/00174/p2/b",
+    "slot": "compensation",
+    "value": -0.20784692255280496
+  },
+  {
+    "id": "train/banking_support/00175/p1/a",
+    "slot": "money_gone",
+    "value": -0.03268673600795216
+  },
+  {
+    "id": "train/banking_support/00175/p3/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00178/p0/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00178/p0/b",
+    "slot": "issue",
+    "value": -0.008794652918638679
+  },
+  {
+    "id": "train/banking_support/00178/p0/b",
+    "slot": "money_gone",
+    "value": -0.13108743246704646
+  },
+  {
+    "id": "train/banking_support/00178/p2/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00178/p2/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00180/p0/a",
+    "slot": "issue",
+    "value": -0.23111468037315314
+  },
+  {
+    "id": "train/banking_support/00180/p0/a",
+    "slot": "compensation",
+    "value": -0.007863653313114338
+  },
+  {
+    "id": "train/banking_support/00180/p1/a",
+    "slot": "issue",
+    "value": -0.23111468037315314
+  },
+  {
+    "id": "train/banking_support/00180/p1/a",
+    "slot": "compensation",
+    "value": -0.007863653313114338
+  },
+  {
+    "id": "train/banking_support/00181/p0/a",
+    "slot": "issue",
+    "value": -0.23111468037315314
+  },
+  {
+    "id": "train/banking_support/00181/p0/a",
+    "slot": "compensation",
+    "value": -0.007863653313114338
+  },
+  {
+    "id": "train/banking_support/00181/p0/b",
+    "slot": "issue",
+    "value": -0.20385693904732527
+  },
+  {
+    "id": "train/banking_support/00186/p2/a",
+    "slot": "product",
+    "value": -0.0017221067221067088
+  },
+  {
+    "id": "train/banking_support/00186/p2/a",
+    "slot": "money_gone",
+    "value": -0.11035584381172625
+  },
+  {
+    "id": "train/banking_support/00186/p2/b",
+    "slot": "money_gone",
+    "value": -0.06277663512957632
+  },
+  {
+    "id": "train/banking_support/00188/p1/a",
+    "slot": "issue",
+    "value": -0.19255797619527137
+  },
+  {
+    "id": "train/banking_support/00188/p1/a",
+    "slot": "product",
+    "value": -0.004646618173922423
+  },
+  {
+    "id": "train/banking_support/00188/p1/a",
+    "slot": "compensation",
+    "value": -0.1584947345565086
+  },
+  {
+    "id": "train/banking_support/00189/p0/a",
+    "slot": "product",
+    "value": -0.029010952082816704
+  },
+  {
+    "id": "train/banking_support/00189/p1/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00189/p2/a",
+    "slot": "issue",
+    "value": -0.016257936507936513
+  },
+  {
+    "id": "train/banking_support/00189/p2/a",
+    "slot": "money_gone",
+    "value": -0.02420392111440453
+  },
+  {
+    "id": "train/banking_support/00189/p2/b",
+    "slot": "issue",
+    "value": -0.29403772378516624
+  },
+  {
+    "id": "train/banking_support/00189/p2/b",
+    "slot": "money_gone",
+    "value": -0.16088362068965512
+  },
+  {
+    "id": "train/banking_support/00189/p3/a",
+    "slot": "product",
+    "value": -0.19876656064780368
+  },
+  {
+    "id": "train/banking_support/00196/p1/a",
+    "slot": "money_gone",
+    "value": -0.07079802550390768
+  },
+  {
+    "id": "train/banking_support/00198/p1/a",
+    "slot": "issue",
+    "value": -0.09945617710058335
+  },
+  {
+    "id": "train/banking_support/00199/p0/a",
+    "slot": "product",
+    "value": -0.02836317880346448
+  },
+  {
+    "id": "train/banking_support/00199/p0/b",
+    "slot": "product",
+    "value": -0.02836317880346448
+  },
+  {
+    "id": "train/banking_support/00208/p0/a",
+    "slot": "compensation",
+    "value": -0.0643728791918281
+  },
+  {
+    "id": "train/banking_support/00208/p3/a",
+    "slot": "money_gone",
+    "value": -0.017537254447737877
+  },
+  {
+    "id": "train/banking_support/00216/p1/a",
+    "slot": "issue",
+    "value": -0.21635693904732523
+  },
+  {
+    "id": "train/banking_support/00216/p3/a",
+    "slot": "product",
+    "value": -0.2990048949187963
+  },
+  {
+    "id": "train/banking_support/00218/p1/a",
+    "slot": "issue",
+    "value": -0.09945617710058335
+  },
+  {
+    "id": "train/banking_support/00218/p1/a",
+    "slot": "compensation",
+    "value": -0.002863653313114445
+  },
+  {
+    "id": "train/banking_support/00218/p3/a",
+    "slot": "product",
+    "value": -0.17680413506383502
+  },
+  {
+    "id": "train/banking_support/00220/p0/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00220/p2/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00220/p2/b",
+    "slot": "product",
+    "value": -0.161787563997648
+  },
+  {
+    "id": "train/banking_support/00220/p3/a",
+    "slot": "product",
+    "value": -0.19876656064780368
+  },
+  {
+    "id": "train/banking_support/00220/p3/b",
+    "slot": "product",
+    "value": -0.19876656064780368
+  },
+  {
+    "id": "train/banking_support/00222/p0/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00222/p1/a",
+    "slot": "compensation",
+    "value": -0.08632106825687044
+  },
+  {
+    "id": "train/banking_support/00222/p2/a",
+    "slot": "product",
+    "value": -0.02836317880346448
+  },
+  {
+    "id": "train/banking_support/00222/p2/b",
+    "slot": "product",
+    "value": -0.0021322140565227243
+  },
+  {
+    "id": "train/banking_support/00223/p0/a",
+    "slot": "money_gone",
+    "value": -0.014770429932304513
+  },
+  {
+    "id": "train/banking_support/00223/p2/a",
+    "slot": "money_gone",
+    "value": -0.13651559679095338
+  },
+  {
+    "id": "train/banking_support/00235/p2/a",
+    "slot": "product",
+    "value": -0.19876656064780368
+  },
+  {
+    "id": "train/banking_support/00235/p2/b",
+    "slot": "product",
+    "value": -0.28461095552485693
+  },
+  {
+    "id": "train/banking_support/00235/p2/c",
+    "slot": "product",
+    "value": -0.24142913734303872
+  },
+  {
+    "id": "train/banking_support/00235/p3/a",
+    "slot": "money_gone",
+    "value": -0.035179228500444665
+  },
+  {
+    "id": "train/banking_support/00238/p0/a",
+    "slot": "issue",
+    "value": -0.19255797619527137
+  },
+  {
+    "id": "train/banking_support/00239/p0/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00240/p1/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00240/p1/b",
+    "slot": "product",
+    "value": -0.18217407508936234
+  },
+  {
+    "id": "train/banking_support/00240/p2/b",
+    "slot": "issue",
+    "value": -0.1825579761952713
+  },
+  {
+    "id": "train/banking_support/00243/p0/a",
+    "slot": "compensation",
+    "value": -0.08838726315588269
+  },
+  {
+    "id": "train/banking_support/00243/p0/b",
+    "slot": "compensation",
+    "value": -0.04153870307199442
+  },
+  {
+    "id": "train/banking_support/00243/p2/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00248/p0/a",
+    "slot": "money_gone",
+    "value": -0.09368917714505959
+  },
+  {
+    "id": "train/banking_support/00248/p0/b",
+    "slot": "money_gone",
+    "value": -0.08834459459459465
+  },
+  {
+    "id": "train/banking_support/00248/p1/a",
+    "slot": "product",
+    "value": -0.0017221067221067088
+  },
+  {
+    "id": "train/banking_support/00248/p1/a",
+    "slot": "money_gone",
+    "value": -0.11035584381172625
+  },
+  {
+    "id": "train/banking_support/00248/p1/b",
+    "slot": "product",
+    "value": -0.001907484407484339
+  },
+  {
+    "id": "train/banking_support/00248/p1/b",
+    "slot": "money_gone",
+    "value": -0.11240876571758929
+  },
+  {
+    "id": "train/banking_support/00251/p1/a",
+    "slot": "money_gone",
+    "value": -0.017537254447737877
+  },
+  {
+    "id": "train/banking_support/00260/p0/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00261/p0/a",
+    "slot": "money_gone",
+    "value": -0.00420682770906175
+  },
+  {
+    "id": "train/banking_support/00261/p1/b",
+    "slot": "product",
+    "value": -0.013258759758028038
+  },
+  {
+    "id": "train/banking_support/00261/p3/b",
+    "slot": "issue",
+    "value": -0.07252645286085013
+  },
+  {
+    "id": "train/banking_support/00264/p2/a",
+    "slot": "compensation",
+    "value": -0.0643728791918281
+  },
+  {
+    "id": "train/banking_support/00267/p0/a",
+    "slot": "issue",
+    "value": -0.0825264528608502
+  },
+  {
+    "id": "train/banking_support/00269/p1/a",
+    "slot": "money_gone",
+    "value": -0.07079802550390768
+  },
+  {
+    "id": "train/banking_support/00275/p1/a",
+    "slot": "issue",
+    "value": -0.2409691646721498
+  },
+  {
+    "id": "train/banking_support/00275/p1/a",
+    "slot": "product",
+    "value": -0.0009982788296042377
+  },
+  {
+    "id": "train/banking_support/00275/p1/a",
+    "slot": "compensation",
+    "value": -0.0009982788296041267
+  },
+  {
+    "id": "train/banking_support/00275/p3/a",
+    "slot": "product",
+    "value": -0.0037705560573270125
+  },
+  {
+    "id": "train/banking_support/00275/p3/a",
+    "slot": "money_gone",
+    "value": -0.2857881597109796
+  },
+  {
+    "id": "train/banking_support/00275/p3/a",
+    "slot": "compensation",
+    "value": -0.0037705560573269015
+  },
+  {
+    "id": "train/banking_support/00282/p0/a",
+    "slot": "issue",
+    "value": -0.11813936781609202
+  },
+  {
+    "id": "train/banking_support/00284/p1/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00289/p2/a",
+    "slot": "issue",
+    "value": -0.04395555232357512
+  },
+  {
+    "id": "train/banking_support/00289/p2/a",
+    "slot": "money_gone",
+    "value": -0.16595865539328364
+  },
+  {
+    "id": "train/banking_support/00291/p1/a",
+    "slot": "money_gone",
+    "value": -0.017537254447737877
+  },
+  {
+    "id": "train/banking_support/00291/p1/b",
+    "slot": "money_gone",
+    "value": -0.017537254447737877
+  },
+  {
+    "id": "train/banking_support/00291/p2/a",
+    "slot": "product",
+    "value": -0.16106104303583288
+  },
+  {
+    "id": "train/banking_support/00291/p2/a",
+    "slot": "compensation",
+    "value": -0.07415157212595536
+  },
+  {
+    "id": "train/banking_support/00295/p0/a",
+    "slot": "money_gone",
+    "value": -0.035179228500444665
+  },
+  {
+    "id": "train/banking_support/00295/p0/b",
+    "slot": "issue",
+    "value": -0.07947950487012967
+  },
+  {
+    "id": "train/banking_support/00295/p0/b",
+    "slot": "money_gone",
+    "value": -0.2011904761904761
+  },
+  {
+    "id": "train/banking_support/00295/p2/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00302/p0/a",
+    "slot": "money_gone",
+    "value": -0.007540161042395077
+  },
+  {
+    "id": "train/banking_support/00302/p1/b",
+    "slot": "product",
+    "value": -0.009240155398180627
+  },
+  {
+    "id": "train/banking_support/00304/p0/b",
+    "slot": "compensation",
+    "value": -0.16425983436852998
+  },
+  {
+    "id": "train/banking_support/00304/p2/a",
+    "slot": "compensation",
+    "value": -0.0643728791918281
+  },
+  {
+    "id": "train/banking_support/00305/p0/a",
+    "slot": "issue",
+    "value": -0.016257936507936513
+  },
+  {
+    "id": "train/banking_support/00305/p0/a",
+    "slot": "money_gone",
+    "value": -0.02420392111440453
+  },
+  {
+    "id": "train/banking_support/00305/p1/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00305/p2/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00305/p3/a",
+    "slot": "product",
+    "value": -0.16106104303583288
+  },
+  {
+    "id": "train/banking_support/00305/p3/a",
+    "slot": "compensation",
+    "value": -0.07415157212595536
+  },
+  {
+    "id": "train/banking_support/00307/p2/a",
+    "slot": "compensation",
+    "value": -0.002517822892917798
+  },
+  {
+    "id": "train/banking_support/00307/p3/a",
+    "slot": "compensation",
+    "value": -0.002517822892917798
+  },
+  {
+    "id": "train/banking_support/00308/p1/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00310/p0/a",
+    "slot": "product",
+    "value": -0.029010952082816704
+  },
+  {
+    "id": "train/banking_support/00310/p0/b",
+    "slot": "product",
+    "value": -0.029010952082816704
+  },
+  {
+    "id": "train/banking_support/00312/p2/a",
+    "slot": "product",
+    "value": -0.03327112157010051
+  },
+  {
+    "id": "train/banking_support/00316/p3/a",
+    "slot": "money_gone",
+    "value": -0.1626253220599503
+  },
+  {
+    "id": "train/banking_support/00317/p0/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00317/p0/b",
+    "slot": "issue",
+    "value": -0.07509717310399061
+  },
+  {
+    "id": "train/banking_support/00320/p2/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00320/p2/b",
+    "slot": "money_gone",
+    "value": -0.10531417112299468
+  },
+  {
+    "id": "train/banking_support/00321/p0/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00321/p0/b",
+    "slot": "product",
+    "value": -0.06172693243755584
+  },
+  {
+    "id": "train/banking_support/00321/p0/b",
+    "slot": "compensation",
+    "value": -0.005793091655266758
+  },
+  {
+    "id": "train/banking_support/00322/p1/a",
+    "slot": "issue",
+    "value": -0.016257936507936513
+  },
+  {
+    "id": "train/banking_support/00322/p1/a",
+    "slot": "money_gone",
+    "value": -0.02420392111440453
+  },
+  {
+    "id": "train/banking_support/00322/p1/b",
+    "slot": "issue",
+    "value": -0.007924603174603168
+  },
+  {
+    "id": "train/banking_support/00329/p1/a",
+    "slot": "product",
+    "value": -0.1959991336442185
+  },
+  {
+    "id": "train/banking_support/00329/p3/a",
+    "slot": "issue",
+    "value": -0.0825264528608502
+  },
+  {
+    "id": "train/banking_support/00331/p0/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00337/p1/a",
+    "slot": "issue",
+    "value": -0.14721230158730156
+  },
+  {
+    "id": "train/banking_support/00337/p1/a",
+    "slot": "money_gone",
+    "value": -0.17367834580518063
+  },
+  {
+    "id": "train/banking_support/00337/p1/b",
+    "slot": "money_gone",
+    "value": -0.018055555555555547
+  },
+  {
+    "id": "train/banking_support/00338/p3/a",
+    "slot": "product",
+    "value": -0.021904036050363174
+  },
+  {
+    "id": "train/banking_support/00342/p2/a",
+    "slot": "money_gone",
+    "value": -0.13901098901098885
+  },
+  {
+    "id": "train/banking_support/00342/p3/a",
+    "slot": "money_gone",
+    "value": -0.13901098901098885
+  },
+  {
+    "id": "train/banking_support/00343/p1/a",
+    "slot": "compensation",
+    "value": -0.08838726315588269
+  },
+  {
+    "id": "train/banking_support/00345/p0/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00345/p0/b",
+    "slot": "issue",
+    "value": -0.21861468037315318
+  },
+  {
+    "id": "train/banking_support/00345/p0/b",
+    "slot": "compensation",
+    "value": -0.004783749518352254
+  },
+  {
+    "id": "train/banking_support/00345/p2/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00347/p0/a",
+    "slot": "product",
+    "value": -0.07241337452010255
+  },
+  {
+    "id": "train/banking_support/00349/p0/a",
+    "slot": "issue",
+    "value": -0.04194789345415573
+  },
+  {
+    "id": "train/banking_support/00349/p1/a",
+    "slot": "issue",
+    "value": -0.04194789345415573
+  },
+  {
+    "id": "train/banking_support/00355/p0/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00355/p0/b",
+    "slot": "product",
+    "value": -0.15372816393824792
+  },
+  {
+    "id": "train/banking_support/00366/p0/a",
+    "slot": "compensation",
+    "value": -0.034690870061837825
+  },
+  {
+    "id": "train/banking_support/00366/p0/b",
+    "slot": "compensation",
+    "value": -0.027565934065934078
+  },
+  {
+    "id": "train/banking_support/00366/p1/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00366/p1/b",
+    "slot": "product",
+    "value": -0.026275995852390766
+  },
+  {
+    "id": "train/banking_support/00366/p3/a",
+    "slot": "compensation",
+    "value": -0.0643728791918281
+  },
+  {
+    "id": "train/banking_support/00372/p1/a",
+    "slot": "money_gone",
+    "value": -0.16534501247184732
+  },
+  {
+    "id": "train/banking_support/00373/p1/a",
+    "slot": "issue",
+    "value": -0.10647610118482476
+  },
+  {
+    "id": "train/banking_support/00373/p1/a",
+    "slot": "product",
+    "value": -0.01656399277912879
+  },
+  {
+    "id": "train/banking_support/00373/p1/a",
+    "slot": "money_gone",
+    "value": -0.30011793470941095
+  },
+  {
+    "id": "train/banking_support/00373/p2/a",
+    "slot": "issue",
+    "value": -0.19255797619527137
+  },
+  {
+    "id": "train/banking_support/00373/p3/a",
+    "slot": "issue",
+    "value": -0.10647610118482476
+  },
+  {
+    "id": "train/banking_support/00373/p3/a",
+    "slot": "product",
+    "value": -0.01656399277912879
+  },
+  {
+    "id": "train/banking_support/00373/p3/a",
+    "slot": "money_gone",
+    "value": -0.30011793470941095
+  },
+  {
+    "id": "train/banking_support/00376/p1/a",
+    "slot": "compensation",
+    "value": -0.034690870061837825
+  },
+  {
+    "id": "train/banking_support/00378/p0/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00381/p0/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00381/p0/b",
+    "slot": "issue",
+    "value": -0.21861468037315318
+  },
+  {
+    "id": "train/banking_support/00381/p0/b",
+    "slot": "compensation",
+    "value": -0.004783749518352254
+  },
+  {
+    "id": "train/banking_support/00381/p2/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00387/p1/a",
+    "slot": "product",
+    "value": -0.18445361669193155
+  },
+  {
+    "id": "train/banking_support/00387/p1/a",
+    "slot": "compensation",
+    "value": -0.007074979804942649
+  },
+  {
+    "id": "train/banking_support/00388/p1/b",
+    "slot": "issue",
+    "value": -0.03611456012082237
+  },
+  {
+    "id": "train/banking_support/00389/p0/a",
+    "slot": "compensation",
+    "value": -0.15016140122317523
+  },
+  {
+    "id": "train/banking_support/00391/p0/a",
+    "slot": "issue",
+    "value": -0.21635693904732523
+  },
+  {
+    "id": "train/banking_support/00391/p1/a",
+    "slot": "issue",
+    "value": -0.0825264528608502
+  },
+  {
+    "id": "train/banking_support/00391/p1/b",
+    "slot": "issue",
+    "value": -0.0825264528608502
+  },
+  {
+    "id": "train/banking_support/00394/p1/a",
+    "slot": "issue",
+    "value": -0.016257936507936513
+  },
+  {
+    "id": "train/banking_support/00394/p1/a",
+    "slot": "money_gone",
+    "value": -0.02420392111440453
+  },
+  {
+    "id": "train/banking_support/00394/p1/b",
+    "slot": "issue",
+    "value": -0.29403772378516624
+  },
+  {
+    "id": "train/banking_support/00394/p1/b",
+    "slot": "money_gone",
+    "value": -0.16088362068965512
+  },
+  {
+    "id": "train/banking_support/00402/p0/a",
+    "slot": "product",
+    "value": -0.021904036050363174
+  },
+  {
+    "id": "train/banking_support/00402/p1/a",
+    "slot": "product",
+    "value": -0.021904036050363174
+  },
+  {
+    "id": "train/banking_support/00403/p1/a",
+    "slot": "product",
+    "value": -0.07241337452010255
+  },
+  {
+    "id": "train/banking_support/00403/p1/b",
+    "slot": "product",
+    "value": -0.07241337452010255
+  },
+  {
+    "id": "train/banking_support/00403/p1/c",
+    "slot": "product",
+    "value": -0.08590505701113194
+  },
+  {
+    "id": "train/banking_support/00404/p1/b",
+    "slot": "issue",
+    "value": -0.10980603448275861
+  },
+  {
+    "id": "train/banking_support/00410/p1/a",
+    "slot": "money_gone",
+    "value": -0.16534501247184732
+  },
+  {
+    "id": "train/banking_support/00416/p1/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00416/p2/b",
+    "slot": "product",
+    "value": -0.006584733713580426
+  },
+  {
+    "id": "train/banking_support/00416/p2/b",
+    "slot": "compensation",
+    "value": -0.09263892616500241
+  },
+  {
+    "id": "train/banking_support/00423/p3/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00426/p0/a",
+    "slot": "money_gone",
+    "value": -0.1626253220599503
+  },
+  {
+    "id": "train/banking_support/00426/p1/a",
+    "slot": "money_gone",
+    "value": -0.1626253220599503
+  },
+  {
+    "id": "train/banking_support/00426/p1/b",
+    "slot": "money_gone",
+    "value": -0.1626253220599503
+  },
+  {
+    "id": "train/banking_support/00430/p2/a",
+    "slot": "issue",
+    "value": -0.08781283820346308
+  },
+  {
+    "id": "train/banking_support/00430/p2/a",
+    "slot": "product",
+    "value": -0.008485958485958345
+  },
+  {
+    "id": "train/banking_support/00430/p2/a",
+    "slot": "money_gone",
+    "value": -0.20793650793650786
+  },
+  {
+    "id": "train/banking_support/00431/p2/a",
+    "slot": "product",
+    "value": -0.19876656064780368
+  },
+  {
+    "id": "train/banking_support/00432/p0/a",
+    "slot": "product",
+    "value": -0.021904036050363174
+  },
+  {
+    "id": "train/banking_support/00436/p1/a",
+    "slot": "product",
+    "value": -0.18445361669193155
+  },
+  {
+    "id": "train/banking_support/00436/p1/a",
+    "slot": "compensation",
+    "value": -0.007074979804942649
+  },
+  {
+    "id": "train/banking_support/00437/p2/a",
+    "slot": "money_gone",
+    "value": -0.035179228500444665
+  },
+  {
+    "id": "train/banking_support/00438/p1/a",
+    "slot": "product",
+    "value": -0.014325042830036328
+  },
+  {
+    "id": "train/banking_support/00438/p1/a",
+    "slot": "compensation",
+    "value": -0.10485946828784032
+  },
+  {
+    "id": "train/banking_support/00438/p1/b",
+    "slot": "compensation",
+    "value": -0.06464790478551946
+  },
+  {
+    "id": "train/banking_support/00440/p1/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00440/p1/b",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00441/p1/a",
+    "slot": "issue",
+    "value": -0.04194789345415573
+  },
+  {
+    "id": "train/banking_support/00442/p0/a",
+    "slot": "money_gone",
+    "value": -0.03435340267461884
+  },
+  {
+    "id": "train/banking_support/00442/p1/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00442/p1/b",
+    "slot": "product",
+    "value": -0.17352195690052263
+  },
+  {
+    "id": "train/banking_support/00442/p1/b",
+    "slot": "compensation",
+    "value": -0.0036007392560944984
+  },
+  {
+    "id": "train/banking_support/00442/p3/a",
+    "slot": "product",
+    "value": -0.16106104303583288
+  },
+  {
+    "id": "train/banking_support/00442/p3/a",
+    "slot": "compensation",
+    "value": -0.07415157212595536
+  },
+  {
+    "id": "train/banking_support/00442/p3/b",
+    "slot": "product",
+    "value": -0.1624494903066331
+  },
+  {
+    "id": "train/banking_support/00442/p3/b",
+    "slot": "compensation",
+    "value": -0.08764544279250158
+  },
+  {
+    "id": "train/banking_support/00452/p1/c",
+    "slot": "issue",
+    "value": -0.05945617710058326
+  },
+  {
+    "id": "train/banking_support/00454/p1/a",
+    "slot": "compensation",
+    "value": -0.08838726315588269
+  },
+  {
+    "id": "train/banking_support/00454/p1/b",
+    "slot": "compensation",
+    "value": -0.0922089853931647
+  },
+  {
+    "id": "train/banking_support/00458/p0/a",
+    "slot": "product",
+    "value": -0.021904036050363174
+  },
+  {
+    "id": "train/banking_support/00458/p3/a",
+    "slot": "product",
+    "value": -0.06627372395761566
+  },
+  {
+    "id": "train/banking_support/00460/p1/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00460/p1/b",
+    "slot": "issue",
+    "value": -0.0825998263888888
+  },
+  {
+    "id": "train/banking_support/00460/p3/b",
+    "slot": "issue",
+    "value": -0.1825579761952713
+  },
+  {
+    "id": "train/banking_support/00461/p0/a",
+    "slot": "money_gone",
+    "value": -0.035179228500444665
+  },
+  {
+    "id": "train/banking_support/00461/p2/a",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00461/p2/b",
+    "slot": "issue",
+    "value": -0.057599826388888775
+  },
+  {
+    "id": "train/banking_support/00461/p2/c",
+    "slot": "issue",
+    "value": -0.21861468037315318
+  },
+  {
+    "id": "train/banking_support/00461/p2/c",
+    "slot": "compensation",
+    "value": -0.004783749518352254
+  },
+  {
+    "id": "train/banking_support/00461/p3/a",
+    "slot": "compensation",
+    "value": -0.08838726315588269
+  },
+  {
+    "id": "train/banking_support/00461/p3/b",
+    "slot": "compensation",
+    "value": -0.08838726315588269
+  },
+  {
+    "id": "train/banking_support/00464/p1/a",
+    "slot": "compensation",
+    "value": -0.0643728791918281
+  },
+  {
+    "id": "train/banking_support/00464/p2/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00472/p0/a",
+    "slot": "money_gone",
+    "value": -0.035179228500444665
+  },
+  {
+    "id": "train/banking_support/00472/p0/b",
+    "slot": "money_gone",
+    "value": -0.03448421437228863
+  },
+  {
+    "id": "train/banking_support/00472/p1/a",
+    "slot": "money_gone",
+    "value": -0.03268673600795216
+  },
+  {
+    "id": "train/banking_support/00472/p1/b",
+    "slot": "money_gone",
+    "value": -0.009658008317787986
+  },
+  {
+    "id": "train/banking_support/00474/p0/a",
+    "slot": "money_gone",
+    "value": -0.0386814481874902
+  },
+  {
+    "id": "train/banking_support/00474/p0/a",
+    "slot": "compensation",
+    "value": -0.0933503700181767
+  },
+  {
+    "id": "train/banking_support/00474/p0/b",
+    "slot": "money_gone",
+    "value": -0.0386814481874902
+  },
+  {
+    "id": "train/banking_support/00474/p0/b",
+    "slot": "compensation",
+    "value": -0.0933503700181767
+  },
+  {
+    "id": "train/banking_support/00474/p1/a",
+    "slot": "issue",
+    "value": -0.016257936507936513
+  },
+  {
+    "id": "train/banking_support/00474/p1/a",
+    "slot": "money_gone",
+    "value": -0.02420392111440453
+  },
+  {
+    "id": "train/banking_support/00482/p0/a",
+    "slot": "money_gone",
+    "value": -0.035179228500444665
+  },
+  {
+    "id": "train/banking_support/00482/p0/b",
+    "slot": "money_gone",
+    "value": -0.061111111111111005
+  },
+  {
+    "id": "train/banking_support/00482/p0/c",
+    "slot": "money_gone",
+    "value": -0.19218750000000007
+  },
+  {
+    "id": "train/banking_support/00493/p0/a",
+    "slot": "product",
+    "value": -0.1606197588298428
+  },
+  {
+    "id": "train/banking_support/00493/p3/a",
+    "slot": "issue",
+    "value": -0.016257936507936513
+  },
+  {
+    "id": "train/banking_support/00493/p3/a",
+    "slot": "money_gone",
+    "value": -0.02420392111440453
+  },
+  {
+    "id": "train/banking_support/00493/p3/b",
+    "slot": "issue",
+    "value": -0.027924603174603158
+  },
+  {
+    "id": "train/banking_support/00493/p3/b",
+    "slot": "money_gone",
+    "value": -0.04254423209099173
+  },
+  {
+    "id": "train/banking_support/00494/p0/a",
+    "slot": "issue",
+    "value": -0.30237105711849954
+  },
+  {
+    "id": "train/banking_support/00494/p0/a",
+    "slot": "product",
+    "value": -0.015660919540229745
+  },
+  {
+    "id": "train/banking_support/00494/p0/a",
+    "slot": "money_gone",
+    "value": -0.16404454022988502
+  },
+  {
+    "id": "train/banking_support/00494/p0/b",
+    "slot": "issue",
+    "value": -0.30237105711849954
+  },
+  {
+    "id": "train/banking_support/00494/p0/b",
+    "slot": "product",
+    "value": -0.015660919540229745
+  },
+  {
+    "id": "train/banking_support/00494/p0/b",
+    "slot": "money_gone",
+    "value": -0.16404454022988502
+  },
+  {
+    "id": "train/banking_support/00497/p1/a",
+    "slot": "product",
+    "value": -0.003354919620731034
+  },
+  {
+    "id": "train/banking_support/00497/p1/b",
+    "slot": "product",
+    "value": -0.003253546583610503
+  }
+]

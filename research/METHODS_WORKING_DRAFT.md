@@ -1,0 +1,61 @@
+> Обновление 8 ноября: [E023–E024 простыми словами](REPORT_2026-11-08_E023.md), [текущий статус](PROJECT_STATUS.md). Основной текст ниже сохраняет описание предыдущих этапов.
+
+# Working methods: executor-dependent clarification value
+
+**8 November 2026 update:** [E020](E020_RESULTS.md) is a development-only evidence-citing fact-extraction control. Its prespecified reliability criterion failed, so the conditional E021 reply replay was not run. [E022](E022_RESULTS.md) instead evaluates a privileged source-annotation executor on the 96 E016 training components: source-prior MAP decisions, finite empirical profile weights, fixed one-question budget, complete-answer and published-response post hoc selectors, and explicit tie sensitivity. These additions do not constitute a new trained policy, an empirical Bayes ceiling, or held-out evidence. The earlier method and E016/E017 results below remain unchanged.
+
+27 October 2026. Reusable methods text for the ongoing project, **not a finished paper or a claim of novelty**. E014 and E015 are development experiments. E016 was specified before its outcomes. The E017 extension was specified during E016 training, before any held-out execution. E016 and E017 are now complete and independently verified; results and the stopping-control diagnostic are reported in [E016–E017 results](E016_E017_RESULTS.md). They do not establish superiority over the strongest constant-question baseline or a benefit specific to partial replies.
+
+## Decision problem
+
+Let x denote the visible dialogue before clarification, z a hidden user profile, q a candidate clarification, and y the user's response. A fixed executor f maps a dialogue to a final action. The action is evaluated against the task rule r(z). We use zero–one action loss, so the executor-specific value of a question is
+
+V_f(x,q) = E[1{f(x,q,Y)=r(Z)} | X=x, Q=q] − E[1{f(x)=r(Z)} | X=x] − c(q).
+
+The expectation is over the conditional distribution of profiles and replies in the specified evaluation population. The no-question action has value zero in this difference parameterization. Equivalently, a selector can maximize predicted final accuracy minus question cost across all question branches and the no-question branch. Our present learned baseline uses this equivalent absolute-accuracy parameterization.
+
+This objective differs from reducing entropy of the hidden profile and from increasing the probability assigned to the true label. These are standard distinctions between utility functions, not a new theoretical contribution. A question can disclose facts that do not alter the optimal action; conversely, additional dialogue can alter a fallible executor's action even when the supplied facts do not change the task's symbolic posterior. The latter is an empirical property of the executor and prompt, not evidence that the user supplied new task information.
+
+For a model of replies, the expectation can be expanded over p(y|x,q) and conditional downstream correctness. This decomposition alone is not a new method: learned response and utility models already appear in [Model-Free Preference Elicitation](https://www.ijcai.org/proceedings/2024/387). Likewise, outcome-guided clarification learning is already studied in [CLEAT](https://arxiv.org/html/2610.12655v1). Our current experiment tests an accessible direct predictor and does not yet compare direct and factorized models under matched supervision.
+
+## External replay data and its population
+
+We use the published synthetic banking-support training workflow from [Lavoir Dialogues](https://huggingface.co/datasets/moganai/lavoir-dialogues/tree/d2c66dc86c782fadccc14748d8fa073ca16a6090). Each initial case has one visible initial message and multiple hidden profiles, with a supplied response to each of five candidate questions. The task is routing to one of five teams using ordered rules. The questions concern issue, product, missing money, compensation and customer name. The name is not an input to the routing rule.
+
+The data provide textual responses, including partial answers and expressions of not knowing, as well as privileged annotations. We use the hidden profile and rule-derived gold team to score actions; neither is provided to the executor or selector. The selector sees only the initial message. It does not see the response to the question it is about to choose, response-kind annotations, symbolic evidence, or published oracle scores.
+
+A case's available profiles are deliberately constructed alternatives, not an observed sample of customers. We weight each selected component equally, each case within it equally, and each available initial profile within the case equally. Accordingly, the measured target is **finite replay accuracy under these weights**. It is not success under the author's original generative prior or a real customer population. A symbolic posterior computed from the published prior must not be described as the Bayes ceiling of this differently weighted empirical population.
+
+We structurally verify gold teams against the ordered rules and ensure that revealed values agree with the corresponding profiles. These checks do not establish that every generated natural-language utterance faithfully expresses its annotations. The 24-case development audit identified five unclear text units and reported a declared sensitivity analysis. E016 keeps its primary sample intact; any later semantic review is descriptive and cannot silently change the primary population.
+
+## Group split and supervision
+
+E016 uses initial-message rows only. We normalize initial messages by case folding and collapsing whitespace, join identical normalized messages into components, and exclude entire components containing any E014 development case. Remaining components are ordered by a deterministic salted hash of their case identifiers. The first 96 are training components and the next 48 are held-out components. No outcome is used in selection. Exact initial texts and complete executor prompts are disjoint across these parts; this does not imply different task rules, semantic templates or domains. Official Lavoir test splits are not used in E016.
+
+For each profile we evaluate six branches: no question and each of five published question–response exchanges. Identical complete prompts are executed once and their result is reused for the corresponding profile labels. There are 402 source profiles, 2,412 scored profile–branch records, and 1,324 distinct model prompts: 886 for training and 438 for evaluation. The number of profile–branch records must not be presented as the number of independent model generations or independent test situations.
+
+The training target for component g and branch q is its weighted mean correctness, a six-dimensional vector. All six outcomes are available during training. This is full-branch supervised replay; it is not learning from a single observed interaction or bandit feedback. The cost of obtaining these labels must be included in any future matched-budget comparison.
+
+## Executor and learned selector
+
+The executor is the local four-bit MLX release of Qwen3-4B-Instruct-2507 at the pinned revision recorded in the E016 manifest. The prompt supplies the complete ordered routing rules and requests a JSON object with exactly one team field. It receives the source's original initial message and, on question branches, the exact supplied question and answer. Decoding is greedy, with a 64-token generation limit. Output parsing is strict; invalid completed outputs receive zero correctness. Missing generations are recorded as missing and block the ordinary complete-data analysis rather than being silently assigned zero or rerun until correct.
+
+The direct predictor uses word unigram and bigram TF–IDF features, at most 2,000 features, and six-output ridge regression with fixed regularization alpha=1. Vocabulary, feature ranking, document frequencies and centering are computed from training components only. Predictions are clipped to [0,1] and the selected action maximizes predicted accuracy minus cost. This is a lexical linear baseline. Its six outputs are tied to the fixed questions and it is not a method for generating new questions or transferring to a new question vocabulary.
+
+The E017 extension replaces TF–IDF with a frozen representation from the same local language-model weights. It tokenizes the normalized initial text without a chat template and takes the final-normalized last-layer hidden state at the last input token. These 2,560-dimensional vectors are L2-normalized; the downstream centered ridge regression, labels, alpha and selection rule remain fixed. The encoder receives neither the task rules nor extra source annotations. No layers, pooling choices or prompts are selected using the held-out outcomes. The additional cost is 144 forward passes over 11,754 input tokens, with no decoded answers; this cost is reported separately. This is a conventional frozen-encoder baseline, not a newly proposed architecture.
+
+The cost is 0.05 for a question and zero for no question. It is an experimental accuracy tradeoff, not a measured human time or financial cost. Ties use the prespecified action order, starting with no question. No hyperparameter, prompt, cost or threshold is selected by the E016 test outcomes.
+
+## Evaluation and independent checks
+
+Training generations are completed first. The model, predictions and selected questions for all 48 test components are then saved and hashed. Only after that seal does the test-generation manifest become executable. An independent implementation reconstructs ridge predictions through singular value decomposition and verifies the split and prompt provenance. It also recomputes scores using rational profile weights. Frozen inputs, model-file hashes, code hashes, rendered token sequences and raw generations are retained.
+
+Comparators are no question, one constant action chosen using training utility, all five fixed-question policies, and a uniform random question policy evaluated analytically. We report accuracy, accuracy minus question cost, question rate, and mean absolute error of predicted branch accuracy. A post-hoc per-component oracle is an upper reference using held-out outcomes; it is not an available policy or trained model. A hidden-profile oracle would have still more privileged information and must be reported separately if used.
+
+The two E016 prespecified contrasts are lexical ridge minus the training-chosen constant and lexical ridge minus always asking about the issue. E017 adds encoder ridge against lexical ridge, the same training constant and the fixed issue question, using the same outcomes. Uncertainty is described by paired component bootstrap with 10,000 resamples and a fixed seed. The resampling unit is one held-out component, not one profile, branch, or duplicated prompt. These intervals describe variability across this finite component sample. They do not capture fresh user responses, additional executor draws, changing models, or the adaptivity and multiple comparisons of the broader research programme. E016 and E017 are not independent replications.
+
+An input-only structural audit found 51 distinct decisive-evidence patterns in training, 31 in evaluation, and 12 shared patterns covering 29 of the 48 held-out components. This confirms the restricted generalization claim: held-out initial texts within one workflow, not held-out semantic task types. Privileged evidence patterns are used only to describe the evaluation and do not enter the learned selector.
+
+## Scope remaining for a paper
+
+E016 is a larger held-out check within one external synthetic routing workflow and one small quantized executor. It does not complete the independent multi-step agent evaluation promised in the project. A publication claim needs a specific contribution beyond existing methods, evidence against strong simple baselines, matched feedback budgets, an additional executor, and a distinct task environment. Reusing a test set to choose the next model turns it into development data; any such change requires another untouched evaluation partition. None of these remaining requirements can be replaced by a high post-hoc oracle score.

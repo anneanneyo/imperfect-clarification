@@ -1,0 +1,11 @@
+{
+  "files": {
+    "results/heldout_value_e016/manifest.json": "e840949b60aa2ae20cfb9901b2d13f1b0f07865c0251809894f363e1b1d0a44e",
+    "results/heldout_value_e016/fit_manifest.json": "82b16c83afd51efd3779a4cd1c5fde756ecdbaa7288913e85b2450a9b9c0a2a0",
+    "results/heldout_value_e016/test_targets.json": "58aa9ba063e2bd7ad13ee7a70f72687f078649a6a4f8a8f37b1f77c06e513663",
+    "results/heldout_value_e016/test_details.json": "05e7853cb59c1e00fa1d9f97c3216cdf5f3c62ed70c74c087ee908cef65861dc",
+    "results/heldout_value_e016/component_results.json": "30c3340abc643f5fc922b6fc8e0193fe40655aac12f3097fc82b6f699c4008c6",
+    "results/heldout_value_e016/summary.json": "c2b97eeecb76b4a8b38091aa33fc97934524174213cd05069705561136165a05",
+    "results/heldout_value_e016/shards/test_00/generations.jsonl": "33e3da718393aaaeed8acb938ac5a48a3a4d4a6bd07ea9b752cc49e33c69e2b3"
+  }
+}

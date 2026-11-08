@@ -1,0 +1,156 @@
+{
+  "repository": "https://github.com/sani903/Teaching-Effective-Clarification",
+  "commit": "9d0f37e57dfde021e6589388f362d45b5901a356",
+  "source_file": "data/data.xlsx",
+  "source_sha256": "2c0d086adb35fe383408055ed1ede2fd05c07e4bf6fa230782f99373bfb38a0f",
+  "code_sha256": "8439ade56462fdda4cdfd1ae441d786400214da460f792373194abf5b9f00c7b",
+  "sheet": "Sheet1",
+  "range": "A1:AB501",
+  "data_rows": 500,
+  "columns": [
+    {
+      "column": 1,
+      "name": "repo",
+      "nonempty": 500
+    },
+    {
+      "column": 2,
+      "name": "instance_id",
+      "nonempty": 500
+    },
+    {
+      "column": 3,
+      "name": "base_commit",
+      "nonempty": 500
+    },
+    {
+      "column": 4,
+      "name": "patch",
+      "nonempty": 500
+    },
+    {
+      "column": 5,
+      "name": "test_patch",
+      "nonempty": 500
+    },
+    {
+      "column": 6,
+      "name": "original issue",
+      "nonempty": 500
+    },
+    {
+      "column": 7,
+      "name": "hints_text",
+      "nonempty": 335
+    },
+    {
+      "column": 8,
+      "name": "created_at",
+      "nonempty": 500
+    },
+    {
+      "column": 9,
+      "name": "version",
+      "nonempty": 500
+    },
+    {
+      "column": 10,
+      "name": "FAIL_TO_PASS",
+      "nonempty": 500
+    },
+    {
+      "column": 11,
+      "name": "PASS_TO_PASS",
+      "nonempty": 500
+    },
+    {
+      "column": 12,
+      "name": "environment_setup_commit",
+      "nonempty": 500
+    },
+    {
+      "column": 13,
+      "name": "difficulty",
+      "nonempty": 500
+    },
+    {
+      "column": 14,
+      "name": "category_mapping",
+      "nonempty": 500
+    },
+    {
+      "column": 15,
+      "name": "present_categories",
+      "nonempty": 496
+    },
+    {
+      "column": 16,
+      "name": "rewrite_1",
+      "nonempty": 496
+    },
+    {
+      "column": 17,
+      "name": "hidden_categories_1",
+      "nonempty": 477
+    },
+    {
+      "column": 18,
+      "name": "hidden_info_1",
+      "nonempty": 496
+    },
+    {
+      "column": 19,
+      "name": "rewrite_2",
+      "nonempty": 495
+    },
+    {
+      "column": 20,
+      "name": "hidden_categories_2",
+      "nonempty": 483
+    },
+    {
+      "column": 21,
+      "name": "hidden_info_2",
+      "nonempty": 495
+    },
+    {
+      "column": 22,
+      "name": "rewrite_3",
+      "nonempty": 496
+    },
+    {
+      "column": 23,
+      "name": "hidden_categories_3",
+      "nonempty": 483
+    },
+    {
+      "column": 24,
+      "name": "hidden_info_3",
+      "nonempty": 495
+    },
+    {
+      "column": 25,
+      "name": "clarification_questions_grpo_3",
+      "nonempty": 489
+    },
+    {
+      "column": 26,
+      "name": "clarification_questions_gpt5_nano_3",
+      "nonempty": 495
+    },
+    {
+      "column": 27,
+      "name": "clarification_questions_gpt5_3",
+      "nonempty": 495
+    },
+    {
+      "column": 28,
+      "name": "problem_statement",
+      "nonempty": 496
+    }
+  ],
+  "unique_instance_ids": 500,
+  "raw_data_exported": false,
+  "workbook_modified": false,
+  "interpretation": "Task inputs, rewrites, gold patch/tests, and candidate questions. No column for observed clarification replies, execution trajectories, or per-run resolution. This does not exclude releases elsewhere."
+}

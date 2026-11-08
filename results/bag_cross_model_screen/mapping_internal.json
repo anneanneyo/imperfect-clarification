@@ -1,0 +1,722 @@
+[
+  {
+    "blind_id": "L001",
+    "source_id": "-3697422255772473151",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L002",
+    "source_id": "-2496338233298060505",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L003",
+    "source_id": "-4649654703638364295",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L004",
+    "source_id": "3141319696894897223",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L005",
+    "source_id": "-4649654703638364295",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L006",
+    "source_id": "-3213284714543612704",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L007",
+    "source_id": "186391616945458797",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L008",
+    "source_id": "-1262251090218463284",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L009",
+    "source_id": "7133760628511440140",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L010",
+    "source_id": "2705368089666670726",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L011",
+    "source_id": "8597246075505333050",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L012",
+    "source_id": "2872825427059484607",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L013",
+    "source_id": "-7129479133305147696",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L014",
+    "source_id": "449370609603105131",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L015",
+    "source_id": "-904829995247663591",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L016",
+    "source_id": "-3973663739890563122",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L017",
+    "source_id": "4150448921344430432",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L018",
+    "source_id": "-6375322453988787926",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L019",
+    "source_id": "-667030836762107808",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L020",
+    "source_id": "-3492518758992084885",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L021",
+    "source_id": "-450228645259827754",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L022",
+    "source_id": "8058163020760720316",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L023",
+    "source_id": "-2873644080731615948",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L024",
+    "source_id": "539853375722021155",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L025",
+    "source_id": "-8391783611760712105",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L026",
+    "source_id": "-805473179642279165",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L027",
+    "source_id": "-4819301786668343618",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L028",
+    "source_id": "-4561791635646149573",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L029",
+    "source_id": "8633752250485892737",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L030",
+    "source_id": "2113696119798835355",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L031",
+    "source_id": "4551651427618626065",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L032",
+    "source_id": "-5100712681859370072",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L033",
+    "source_id": "391344993639394828",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L034",
+    "source_id": "-2658615726272299345",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L035",
+    "source_id": "-29876963762392843",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L036",
+    "source_id": "6304626018357720642",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L037",
+    "source_id": "-6819392223921670505",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L038",
+    "source_id": "8147342740211441902",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L039",
+    "source_id": "-2496924423734844491",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L040",
+    "source_id": "-5640250878070812902",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L041",
+    "source_id": "-7291534433564335854",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L042",
+    "source_id": "2048938326690984839",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L043",
+    "source_id": "7913114169742689901",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L044",
+    "source_id": "3265061005882265049",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L045",
+    "source_id": "-867087619781530349",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L046",
+    "source_id": "3397865411559231398",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L047",
+    "source_id": "4173446972612181668",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L048",
+    "source_id": "8989950493209334434",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L049",
+    "source_id": "4233964653136094599",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L050",
+    "source_id": "-962065981949449467",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L051",
+    "source_id": "-1651303711219734508",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L052",
+    "source_id": "-535551581968548673",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L053",
+    "source_id": "-7663522954274757653",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L054",
+    "source_id": "-891495941599464294",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L055",
+    "source_id": "434290836324078234",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L056",
+    "source_id": "1333258915620535192",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L057",
+    "source_id": "2443397051677856276",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L058",
+    "source_id": "4398589060680652602",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L059",
+    "source_id": "-1239547682958881138",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L060",
+    "source_id": "-3587852235107899284",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L061",
+    "source_id": "-3673434529814952153",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L062",
+    "source_id": "-3450079228055726450",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L063",
+    "source_id": "6683923150105245308",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L064",
+    "source_id": "9066249414040463974",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L065",
+    "source_id": "6262423096365109993",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L066",
+    "source_id": "-2460406457437939626",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L067",
+    "source_id": "-5074863101224855995",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L068",
+    "source_id": "-1468534904392028006",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L069",
+    "source_id": "4673051264519512200",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L070",
+    "source_id": "1814750729939502814",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L071",
+    "source_id": "2694998838840066722",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L072",
+    "source_id": "-3673434529814952153",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L073",
+    "source_id": "-7961043553862861992",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L074",
+    "source_id": "-5715491724683223701",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L075",
+    "source_id": "-8969300082169352051",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L076",
+    "source_id": "-8069899625747978823",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L077",
+    "source_id": "1283289793786372318",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L078",
+    "source_id": "-7082373971902583330",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L079",
+    "source_id": "-7757809414567741478",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L080",
+    "source_id": "14999991065183948",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L081",
+    "source_id": "2070009450404551626",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L082",
+    "source_id": "-128471740183720114",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L083",
+    "source_id": "-510674597244580359",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L084",
+    "source_id": "8793099883447006698",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L085",
+    "source_id": "2771605115392026097",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L086",
+    "source_id": "2832492374731760427",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L087",
+    "source_id": "-1186422901711599991",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L088",
+    "source_id": "7150599999316106461",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L089",
+    "source_id": "-3213284714543612704",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L090",
+    "source_id": "-2352037698769402666",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L091",
+    "source_id": "5070323998739293912",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L092",
+    "source_id": "222860239441963662",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L093",
+    "source_id": "7144436312448549933",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L094",
+    "source_id": "-931406918237511650",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L095",
+    "source_id": "-3937005042676240412",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L096",
+    "source_id": "-1920236169774365480",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L097",
+    "source_id": "5748998313320373361",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L098",
+    "source_id": "8655001621666816912",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L099",
+    "source_id": "4183252176965080529",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L100",
+    "source_id": "2657851952953142133",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L101",
+    "source_id": "5373802723357129190",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L102",
+    "source_id": "-8083480313418824194",
+    "model": "qwen3-14b",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L103",
+    "source_id": "6385308901094079734",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L104",
+    "source_id": "1486959983370325828",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L105",
+    "source_id": "8579146768891896190",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L106",
+    "source_id": "-5262314682072820875",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L107",
+    "source_id": "8173563343318257382",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L108",
+    "source_id": "1720859761886088300",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L109",
+    "source_id": "-1703843779501228505",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L110",
+    "source_id": "1677327668044258189",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L111",
+    "source_id": "-1497265519640583477",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L112",
+    "source_id": "8380178763975430662",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L113",
+    "source_id": "8679419293872803745",
+    "model": "olmo2-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L114",
+    "source_id": "6776234528515962047",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L115",
+    "source_id": "5609475636224401352",
+    "model": "olmo3-7b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L116",
+    "source_id": "1695349174231804519",
+    "model": "olmo2-13b-instruct",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L117",
+    "source_id": "-1511417699429684652",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L118",
+    "source_id": "-2824129131202796674",
+    "model": "qwen3-8b",
+    "previous_E008_seen": true
+  },
+  {
+    "blind_id": "L119",
+    "source_id": "-2496924423734844491",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  },
+  {
+    "blind_id": "L120",
+    "source_id": "1562107426015252284",
+    "model": "gemini-2.5-flash",
+    "previous_E008_seen": false
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "annotations_lead_sha256": "5880bcb32ca176a84336ac990f0ae9e640b763e2d1afb813aa5efa2990a01405",
+  "blind_pack_sha256": "7b0e74bfd810e44d7db7a9e381d5c910c8ea5cb381f2351e093c45607191f5a3",
+  "preparation_freeze_sha256": "5b120b82d1d4ce605d2d6dda6e0346e9410cea4419700a6e03afaaf1a4ee3d9e",
+  "new_outcomes_inspected": false,
+  "status": "Single primary-assistant provisional semantic review of 48 branches from 24 source problems. Mapping and new final/judge outputs not inspected. Prior E008/E009 exposure limits full blindness. No human validation."
+}

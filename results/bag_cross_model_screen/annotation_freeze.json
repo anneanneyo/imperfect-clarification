@@ -1,0 +1,6 @@
+{
+  "protocol_sha256": "f08464cea103454672c28f63e2e3f42fc741a37b2a128474966bc964951b670f",
+  "blind_pack_sha256": "f1ab7e01cb4b0b413fa0f6750bab5b2941282b264605adc1b8e22a2b96f16aae",
+  "annotations_lead_sha256": "5fc21c02e1f78775b2d49fa0343598c4018ec7f1ad79394c4ce3e7e9ade94297",
+  "status": "Single primary-assistant surface review completed before model/source mapping read or new outcomes loaded. Twenty sample records from Qwen3-8B were already read in E008, though identity hidden in this pack. No human or second-rater validation."
+}

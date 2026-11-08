@@ -1,0 +1,19 @@
+{
+  "source_revision": "80506d2ab484cab843e60a2401ff3e0290d05b87",
+  "git_blobs": {
+    "travelgym/env/prompts.py": "e1b38832b94503c095c912f47b1df351d0da94ca",
+    "travelgym/env/prompt_async.py": "75719f16339060688e6944eed19dac26b3d75cd4",
+    "travelgym/env/travel_env.py": "677262784514490f85c1a0073e22e23546e8e312"
+  },
+  "source_sha256": {
+    "travelgym/env/prompts.py": "f677cb12b343611898b541359ff2b1f09354b314c04c6ec1981d56ec98a54cc8",
+    "travelgym/env/prompt_async.py": "7636b2b38ff10fcc4c8a56395655898243adc66becd27ee30e1b6624f7ce999e",
+    "travelgym/env/travel_env.py": "d9e3c6bcfb44ea804b3b5a0149451c8f2f8eabfcd48ce97f4e719c69f36c5027"
+  },
+  "files": {
+    "experiments/userbench_contract_e024.py": "ab6dd78ae6b430c6153df39c967821589d7a3e50ecaa2e36092d7e3c4e108d66",
+    "research/E024_PROTOCOL.md": "23890cab40707e4d66ff481ff78dc4a96473e4a55b95029c3d5ee2f354a5eec5",
+    "results/userbench_contract_e024/trajectories.json": "b116266c538a422ced2b318d75bf0fe335d7fae69e0747e42d893a126a3941ff",
+    "results/userbench_contract_e024/summary.json": "eeb9731dfd31acd17ccf6d7256e86c887beed922532643ff011e92a589d13abe"
+  }
+}

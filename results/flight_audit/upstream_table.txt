@@ -1,0 +1,71 @@
+Loaded transcripts -> VOI:100 (/private/tmp/voi-communication-audit-20261015/flight_rec/results/voi_openai-gpt-5.4)  Baselines:100 (/private/tmp/voi-communication-audit-20261015/flight_rec/results/confidence_openai-gpt-5.4)
+
+==================================================================
+  Flight-Rec   model=openai/gpt-5.4   Cost per question = 0.01   (Utility = reward - cost*#Q)
+==================================================================
+  Method       Threshold       #Q   Reward   Utility
+  ------------ ----------- ------ -------- ---------
+  NoQuestion   ask=0         0.00   0.2221    0.2221 +
+  ............ ........... ...... ........ .........
+  Confidence   conf>=0.5     0.02   0.2221    0.2219  
+  Confidence   conf>=0.7     0.87   0.2623    0.2536  
+  Confidence   conf>=0.9     2.44   0.3327    0.3084 +
+  ............ ........... ...... ........ .........
+  Fixed        max=1Q        1.00   0.3031    0.2931  
+  Fixed        max=2Q        2.00   0.2742    0.2542  
+  Fixed        max=3Q        3.00   0.3419    0.3119 +
+  ............ ........... ...... ........ .........
+  VOI          voi>=0.01     2.11   0.4305    0.4094 *
+
+  * Best overall : [VOI] voi>=0.01  ->  Utility=0.4094  (reward=0.4305 #Q=2.11)
+  + Best NoQuestion : [ask=0]  ->  Utility=0.2221  (reward=0.2221 #Q=0.00)
+  + Best Confidence : [conf>=0.9]  ->  Utility=0.3084  (reward=0.3327 #Q=2.44)
+  + Best Fixed      : [max=3Q]  ->  Utility=0.3119  (reward=0.3419 #Q=3.00)
+  + Best VOI        : [voi>=0.01]  ->  Utility=0.4094  (reward=0.4305 #Q=2.11)
+
+==================================================================
+  Flight-Rec   model=openai/gpt-5.4   Cost per question = 0.05   (Utility = reward - cost*#Q)
+==================================================================
+  Method       Threshold       #Q   Reward   Utility
+  ------------ ----------- ------ -------- ---------
+  NoQuestion   ask=0         0.00   0.2221    0.2221 +
+  ............ ........... ...... ........ .........
+  Confidence   conf>=0.5     0.02   0.2221    0.2211 +
+  Confidence   conf>=0.7     0.87   0.2623    0.2188  
+  Confidence   conf>=0.9     2.44   0.3327    0.2107  
+  ............ ........... ...... ........ .........
+  Fixed        max=1Q        1.00   0.3031    0.2531 +
+  Fixed        max=2Q        2.00   0.2742    0.1742  
+  Fixed        max=3Q        3.00   0.3419    0.1919  
+  ............ ........... ...... ........ .........
+  VOI          voi>=0.05     0.64   0.2936    0.2616 *
+
+  * Best overall : [VOI] voi>=0.05  ->  Utility=0.2616  (reward=0.2936 #Q=0.64)
+  + Best NoQuestion : [ask=0]  ->  Utility=0.2221  (reward=0.2221 #Q=0.00)
+  + Best Confidence : [conf>=0.5]  ->  Utility=0.2211  (reward=0.2221 #Q=0.02)
+  + Best Fixed      : [max=1Q]  ->  Utility=0.2531  (reward=0.3031 #Q=1.00)
+  + Best VOI        : [voi>=0.05]  ->  Utility=0.2616  (reward=0.2936 #Q=0.64)
+
+==================================================================
+  Flight-Rec   model=openai/gpt-5.4   Cost per question = 0.1   (Utility = reward - cost*#Q)
+==================================================================
+  Method       Threshold       #Q   Reward   Utility
+  ------------ ----------- ------ -------- ---------
+  NoQuestion   ask=0         0.00   0.2221    0.2221 +
+  ............ ........... ...... ........ .........
+  Confidence   conf>=0.5     0.02   0.2221    0.2201 +
+  Confidence   conf>=0.7     0.87   0.2623    0.1753  
+  Confidence   conf>=0.9     2.44   0.3327    0.0887  
+  ............ ........... ...... ........ .........
+  Fixed        max=1Q        1.00   0.3031    0.2031 +
+  Fixed        max=2Q        2.00   0.2742    0.0742  
+  Fixed        max=3Q        3.00   0.3419    0.0419  
+  ............ ........... ...... ........ .........
+  VOI          voi>=0.1      0.09   0.2530    0.2440 *
+
+  * Best overall : [VOI] voi>=0.1  ->  Utility=0.2440  (reward=0.2530 #Q=0.09)
+  + Best NoQuestion : [ask=0]  ->  Utility=0.2221  (reward=0.2221 #Q=0.00)
+  + Best Confidence : [conf>=0.5]  ->  Utility=0.2201  (reward=0.2221 #Q=0.02)
+  + Best Fixed      : [max=1Q]  ->  Utility=0.2031  (reward=0.3031 #Q=1.00)
+  + Best VOI        : [voi>=0.1]  ->  Utility=0.2440  (reward=0.2530 #Q=0.09)
+

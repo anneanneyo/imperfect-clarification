@@ -1,0 +1,406 @@
+{
+  "complete": true,
+  "families": 6,
+  "unique_prompts": 129,
+  "generated": 129,
+  "invalid_outputs": 0,
+  "length_outputs": 0,
+  "runtime_errors": 0,
+  "unique_selected_orders_replayed": 15,
+  "methods": {
+    "no_ask": {
+      "accuracy_lower": 0.43055555555555547,
+      "accuracy_upper": 0.43055555555555547,
+      "missing_mass": 0.0,
+      "invalid_mass": 0.0,
+      "length_mass": 0.0,
+      "utility_lower": 0.43055555555555547,
+      "utility_upper": 0.43055555555555547,
+      "ask_rate": 0.0
+    },
+    "always_contents": {
+      "accuracy_lower": 0.9147222222222222,
+      "accuracy_upper": 0.9147222222222222,
+      "missing_mass": 0.0,
+      "invalid_mass": 0.0,
+      "length_mass": 0.0,
+      "utility_lower": 0.8647222222222223,
+      "utility_upper": 0.8647222222222223,
+      "ask_rate": 0.9999999999999999
+    },
+    "entropy": {
+      "accuracy_lower": 0.9305555555555555,
+      "accuracy_upper": 0.9305555555555555,
+      "missing_mass": 0.0,
+      "invalid_mass": 0.0,
+      "length_mass": 0.0,
+      "utility_lower": 0.8805555555555556,
+      "utility_upper": 0.8805555555555556,
+      "ask_rate": 0.9999999999999999
+    },
+    "symbolic_evsi": {
+      "accuracy_lower": 0.9305555555555555,
+      "accuracy_upper": 0.9305555555555555,
+      "missing_mass": 0.0,
+      "invalid_mass": 0.0,
+      "length_mass": 0.0,
+      "utility_lower": 0.8805555555555556,
+      "utility_upper": 0.8805555555555556,
+      "ask_rate": 0.9999999999999999
+    },
+    "executor_oracle": {
+      "accuracy_lower": 0.9305555555555555,
+      "accuracy_upper": 0.9305555555555555,
+      "missing_mass": 0.0,
+      "invalid_mass": 0.0,
+      "length_mass": 0.0,
+      "utility_lower": 0.8805555555555556,
+      "utility_upper": 0.8805555555555556,
+      "ask_rate": 0.9999999999999999
+    }
+  },
+  "per_family": [
+    {
+      "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4",
+      "questions": {
+        "no_ask": {
+          "accuracy_lower": 0.25,
+          "accuracy_upper": 0.25,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.25,
+          "utility_upper": 0.25
+        },
+        "order_id": {
+          "accuracy_lower": 0.5125000000000001,
+          "accuracy_upper": 0.5125000000000001,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.4625000000000001,
+          "utility_upper": 0.4625000000000001
+        },
+        "contents": {
+          "accuracy_lower": 0.85,
+          "accuracy_upper": 0.85,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.7999999999999999,
+          "utility_upper": 0.7999999999999999
+        },
+        "total": {
+          "accuracy_lower": 0.7000000000000001,
+          "accuracy_upper": 0.7000000000000001,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.65,
+          "utility_upper": 0.65
+        },
+        "count": {
+          "accuracy_lower": 0.7000000000000001,
+          "accuracy_upper": 0.7000000000000001,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.65,
+          "utility_upper": 0.65
+        }
+      },
+      "selections": {
+        "no_ask": "no_ask",
+        "always_contents": "contents",
+        "entropy": "contents",
+        "symbolic_evsi": "contents",
+        "executor_oracle": "contents"
+      }
+    },
+    {
+      "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19",
+      "questions": {
+        "no_ask": {
+          "accuracy_lower": 0.3333333333333333,
+          "accuracy_upper": 0.3333333333333333,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.3333333333333333,
+          "utility_upper": 0.3333333333333333
+        },
+        "order_id": {
+          "accuracy_lower": 0.5666666666666667,
+          "accuracy_upper": 0.5666666666666667,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.5166666666666666,
+          "utility_upper": 0.5166666666666666
+        },
+        "contents": {
+          "accuracy_lower": 0.8833333333333333,
+          "accuracy_upper": 0.8833333333333333,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.8333333333333333,
+          "utility_upper": 0.8333333333333333
+        },
+        "total": {
+          "accuracy_lower": 0.7333333333333333,
+          "accuracy_upper": 0.7333333333333333,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.6833333333333332,
+          "utility_upper": 0.6833333333333332
+        },
+        "count": {
+          "accuracy_lower": 0.9333333333333332,
+          "accuracy_upper": 0.9333333333333332,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.8833333333333332,
+          "utility_upper": 0.8833333333333332
+        }
+      },
+      "selections": {
+        "no_ask": "no_ask",
+        "always_contents": "contents",
+        "entropy": "count",
+        "symbolic_evsi": "count",
+        "executor_oracle": "count"
+      }
+    },
+    {
+      "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0",
+      "questions": {
+        "no_ask": {
+          "accuracy_lower": 0.5,
+          "accuracy_upper": 0.5,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.5,
+          "utility_upper": 0.5
+        },
+        "order_id": {
+          "accuracy_lower": 0.675,
+          "accuracy_upper": 0.675,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.625,
+          "utility_upper": 0.625
+        },
+        "contents": {
+          "accuracy_lower": 0.905,
+          "accuracy_upper": 0.905,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.855,
+          "utility_upper": 0.855
+        },
+        "total": {
+          "accuracy_lower": 0.8,
+          "accuracy_upper": 0.8,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.75,
+          "utility_upper": 0.75
+        },
+        "count": {
+          "accuracy_lower": 0.95,
+          "accuracy_upper": 0.95,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.8999999999999999,
+          "utility_upper": 0.8999999999999999
+        }
+      },
+      "selections": {
+        "no_ask": "no_ask",
+        "always_contents": "contents",
+        "entropy": "count",
+        "symbolic_evsi": "count",
+        "executor_oracle": "count"
+      }
+    },
+    {
+      "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999",
+      "questions": {
+        "no_ask": {
+          "accuracy_lower": 0.5,
+          "accuracy_upper": 0.5,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.5,
+          "utility_upper": 0.5
+        },
+        "order_id": {
+          "accuracy_lower": 0.675,
+          "accuracy_upper": 0.675,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.625,
+          "utility_upper": 0.625
+        },
+        "contents": {
+          "accuracy_lower": 0.9500000000000001,
+          "accuracy_upper": 0.9500000000000001,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.9,
+          "utility_upper": 0.9
+        },
+        "total": {
+          "accuracy_lower": 0.8,
+          "accuracy_upper": 0.8,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.75,
+          "utility_upper": 0.75
+        },
+        "count": {
+          "accuracy_lower": 0.95,
+          "accuracy_upper": 0.95,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.8999999999999999,
+          "utility_upper": 0.8999999999999999
+        }
+      },
+      "selections": {
+        "no_ask": "no_ask",
+        "always_contents": "contents",
+        "entropy": "contents",
+        "symbolic_evsi": "contents",
+        "executor_oracle": "contents"
+      }
+    },
+    {
+      "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2",
+      "questions": {
+        "no_ask": {
+          "accuracy_lower": 0.5,
+          "accuracy_upper": 0.5,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.5,
+          "utility_upper": 0.5
+        },
+        "order_id": {
+          "accuracy_lower": 0.675,
+          "accuracy_upper": 0.675,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.625,
+          "utility_upper": 0.625
+        },
+        "contents": {
+          "accuracy_lower": 0.9500000000000002,
+          "accuracy_upper": 0.9500000000000002,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.9000000000000001,
+          "utility_upper": 0.9000000000000001
+        },
+        "total": {
+          "accuracy_lower": 0.8,
+          "accuracy_upper": 0.8,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.75,
+          "utility_upper": 0.75
+        },
+        "count": {
+          "accuracy_lower": 0.95,
+          "accuracy_upper": 0.95,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.8999999999999999,
+          "utility_upper": 0.8999999999999999
+        }
+      },
+      "selections": {
+        "no_ask": "no_ask",
+        "always_contents": "contents",
+        "entropy": "contents",
+        "symbolic_evsi": "contents",
+        "executor_oracle": "contents"
+      }
+    },
+    {
+      "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399",
+      "questions": {
+        "no_ask": {
+          "accuracy_lower": 0.5,
+          "accuracy_upper": 0.5,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.5,
+          "utility_upper": 0.5
+        },
+        "order_id": {
+          "accuracy_lower": 0.675,
+          "accuracy_upper": 0.675,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.625,
+          "utility_upper": 0.625
+        },
+        "contents": {
+          "accuracy_lower": 0.9500000000000002,
+          "accuracy_upper": 0.9500000000000002,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.9000000000000001,
+          "utility_upper": 0.9000000000000001
+        },
+        "total": {
+          "accuracy_lower": 0.8,
+          "accuracy_upper": 0.8,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.75,
+          "utility_upper": 0.75
+        },
+        "count": {
+          "accuracy_lower": 0.95,
+          "accuracy_upper": 0.95,
+          "missing_mass": 0.0,
+          "invalid_mass": 0.0,
+          "length_mass": 0.0,
+          "utility_lower": 0.8999999999999999,
+          "utility_upper": 0.8999999999999999
+        }
+      },
+      "selections": {
+        "no_ask": "no_ask",
+        "always_contents": "contents",
+        "entropy": "contents",
+        "symbolic_evsi": "contents",
+        "executor_oracle": "contents"
+      }
+    }
+  ]
+}

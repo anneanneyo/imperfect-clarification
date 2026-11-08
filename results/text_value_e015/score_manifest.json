@@ -1,0 +1,9 @@
+{
+  "files": {
+    "results/text_value_e015/manifest.json": "7952042587e6b497f5426a130a4d4e3c5eefe092552cb732d1470bb6a504c79f",
+    "results/text_value_e015/fit_manifest.json": "f42a621699a3d27ff3f58416f6d6c715eda85b7402f8f8c1718aa510f2ec8d66",
+    "results/text_value_e015/predictions.json": "796f2d506a321c8da77dcc1728c919603fdd01b2b0034b5e5f4675d64f84501e",
+    "results/text_value_e015/case_results.json": "cc1680fc6591eadf045b64f1d2d9b26763b5e2967a0c71a637caa7823e46930d",
+    "results/text_value_e015/summary.json": "63bb8a582c038e82e4c56cdb90a0909a658bb2177438c2368603262677a7201e"
+  }
+}

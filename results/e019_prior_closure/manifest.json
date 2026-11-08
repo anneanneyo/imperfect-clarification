@@ -1,0 +1,9 @@
+{
+  "files": {
+    "results/e019_prior_closure/details.json": "3f149664fa4838e1700b6bcac985de115788ce3c34e6032f84afb9d264f93a95",
+    "results/e019_prior_closure/summary.json": "c8fdd0a68b3c528b839de4c06f3cd04340bbbfeca19e906107dea659150f3871",
+    "results/structured_facts_e019/details.json": "e7ad3fb150a205a6df212e794c695b14bc5473355eda776e052bb8710e09411d",
+    "results/heldout_value_e016/schema.json": "625280cca355d1644bd604dd77837d03637c2e087d2f36bdf913b31a19082e1d"
+  },
+  "interpretation": "source prior closure only; not human entailment or empirical evaluation population; primary metrics unchanged"
+}

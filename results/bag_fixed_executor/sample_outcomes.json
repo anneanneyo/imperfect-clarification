@@ -1,0 +1,880 @@
+[
+  {
+    "blind_id": "P001",
+    "variant": "belief7",
+    "source_id": "-5882456705130215648",
+    "original_query": "What's the percentage of canadian hockey players in the nhl?",
+    "clarification_question": "The percentage of Canadian hockey players in the NHL can vary depending on how \"Canadian\" is defined—whether it refers to players born in Canada or those currently associated with Canadian teams or systems. Could you clarify which definition you're interested in?",
+    "user_answer": "I'm interested in players born in Canada.",
+    "selected_disambiguation": {
+      "question": "What's the percentage of canadian hockey players in the nhl in 2016?",
+      "answer": [
+        "slightly less than 50"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the 2023–2024 NHL season, approximately **60% of NHL players were born in Canada**. This means that out of the roughly 750 players on NHL rosters, about **450 were born in Canada**.\n\n### Key Details:\n- **Total NHL players**: ~750 (varies slightly by season).\n- **Canadian-born players**: ~450.\n- **Percentage**: ~60%.\n\n### Context:\n- Canada has a long-standing hockey tradition and produces a large number of elite players.\n- Many Canadian-born players are drafted by NHL teams through the **NHL Entry Draft**, which is heavily dominated by Canadian prospects.\n- Some players born in Canada may have played for Canadian junior teams (like the OHL, WHL, or QMJHL) before turning pro.\n\nIf you're interested in a specific season or more detailed breakdown (e.g., by position, team, or draft class), I can provide that too!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P002",
+    "variant": "belief6",
+    "source_id": "8182773245075192248",
+    "original_query": "When did they start making new 20 dollar bills?",
+    "clarification_question": "Could you clarify whether you're asking about the first introduction of the 20 dollar bill, the first major redesign, or the most recent updates to the 20 dollar bill?",
+    "user_answer": "I'm asking about the most recent updates to the 20 dollar bill.",
+    "selected_disambiguation": {
+      "question": "In what year was the first issue's series date for the current series of 20 dollar bills?",
+      "answer": [
+        "2004"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "The most recent updates to the U.S. $20 bill were introduced in **2010**, as part of the **Federal Reserve's series of redesigned currency** to improve security features and combat counterfeiting.\n\n### Key Updates to the $20 Bill (2010–Present):\n\n1. **Security Thread**: A **blue security thread** was added that is visible when held up to light. This thread is embedded in the paper and runs vertically along the right edge of the bill.\n\n2. **3D Security Ribbon**: A **moving 3D security ribbon** was introduced, which contains images of the American eagle and the word \"USA.\" When you tilt the bill, the images shift and appear to move.\n\n3. **Color-Shifting Ink**: The number **\"20\"** in the lower right corner now uses **color-shifting ink** that changes from **green to blue** when the bill is tilted.\n\n4. **New Portrait**: The portrait of **Andrew Jackson** was updated to a more accurate and detailed image.\n\n5. **Raised Print**: The **text and images** on the bill have **raised print** for the visually impaired.\n\n6. **Watermark**: A **watermark** of the portrait of Andrew Jackson is visible when the bill is held up to light.\n\nThese updates were part of the **2010 redesign** of the $100 bill, which was also applied to the $50, $20, $10, and $5 bills. The goal was to make the bills more secure and harder to counterfeit.\n\n### Note:\nAs of now (2025), **no further major redesigns** have been announced for the $20 bill. However, the U.S. Treasury continues to evaluate and implement new security technologies as needed.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P003",
+    "variant": "belief",
+    "source_id": "5478916398121681810",
+    "original_query": "Who won so you think uou can dance?",
+    "clarification_question": "Could you clarify whether you're asking about \"You Can Dance\" or \"So You Think You Can Dance\"? This will help me provide the most accurate information.",
+    "user_answer": "I'm asking about \"So You Think You Can Dance\".",
+    "selected_disambiguation": {
+      "question": "Who won So you Think you can Dance Season 15?",
+      "answer": [
+        "Hannahlei Cabanilla"
+      ],
+      "annotation_index": 1
+    },
+    "final_prediction": "Great! \"So You Think You Can Dance\" is a popular reality TV show that has been running since 2005. It's a talent competition where dancers of all styles and backgrounds compete for the title of \"America's Favorite Dancer\" and a chance to win a cash prize and a recording contract.\n\nThe show has had multiple seasons and has featured a wide range of dance styles, including hip-hop, contemporary, ballet, salsa, and more. Each season has its own set of contestants, judges, and a unique storyline.\n\nIf you're asking who won a specific season, I can help with that if you let me know which season you're referring to. Otherwise, the show is still ongoing, and the most recent winner would depend on the current season. Would you like to know about a particular season?",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P004",
+    "variant": "belief6",
+    "source_id": "7700360324532701450",
+    "original_query": "Most number of national awards for best actress?",
+    "clarification_question": "Could you please clarify whether you are asking about the National Film Awards (Swarna Kamal Awards) or the Filmfare Awards, and whether you are referring to a specific time period or category (e.g., Best Actress in a Leading Role)?",
+    "user_answer": "I'm asking about the National Film Awards (Swarna Kamal Awards) for Best Actress, generally, not a specific time period or category.",
+    "selected_disambiguation": {
+      "question": "Films in what language have won the most number of national awards for best actress?",
+      "answer": [
+        "Hindi"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the latest available information (up to 2025), the **most number of National Film Awards (Swarna Kamal Awards) for Best Actress** has been achieved by **Sridevi** and **Kamal Haasan**. However, it's important to note that the **Swarna Kamal Awards** are given for **Best Actor** and **Best Actress** in **leading roles**, and **Kamal Haasan** is primarily known for his acting in **leading roles**, not as a female actor.\n\nSo, focusing on **female actors**, **Sridevi** holds the record for the **most National Film Awards for Best Actress**.\n\n### Sridevi:\n- **Sridevi** has won the **National Film Award for Best Actress** **three times**:\n  1. **1983** – *Ram Teri Aayi*\n  2. **1984** – *Mr. India*\n  3. **1985** – *Chandni*\n\nShe is widely regarded as one of the greatest actresses in Indian cinema and has received numerous accolades, including multiple Filmfare Awards and other national honors.\n\n### Other notable actresses:\n- **Madhuri Dixit** – 2 times (1988 – *Lamhe*, 1992 – *Dilwale Dulhania Le Jayenge*)\n- **Shabana Azmi** – 3 times (1983 – *Khooni*, 1984 – *Silsila*, 1986 – *Kabhi Kabhie*)\n- **Rekha** – 2 times (1982 – *Umrao Jaan*, 1983 – *Umrao Jaan*\n- **Amitabh Bachchan** – 4 times (though he is male, and the award is for Best Actor)\n\n### Summary:\n- **Sridevi** holds the record for the **most National Film Awards for Best Actress** with **3 wins**.\n- No female actor has won more than **3** Swarna Kamal Awards for Best Actress.\n\nIf you're interested in other categories or male actors, I can provide that information as well.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P005",
+    "variant": "belief6",
+    "source_id": "8374920161078411955",
+    "original_query": "Who sings you've got a friend in me in toy story 2?",
+    "clarification_question": "Could you clarify whether you're asking about the original composer/performer of the song, the character who sings it in the movie, or the voice actor who provides the singing performance?",
+    "user_answer": "I'm asking about the character who sings it in the movie.",
+    "selected_disambiguation": {
+      "question": "Which character sings you've got a friend in me in toy story 2 during Woody's Roundup?",
+      "answer": [
+        "Woody"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "In *Toy Story 2*, the song **\"You've Got a Friend in Me\"** is sung by **Woody**, the main character. The song is a heartfelt moment where Woody expresses his feelings about friendship, especially in the context of his relationship with Buzz Lightyear.\n\nWhile the song was originally written and performed by **Jerry Goldsmith** (the composer of the *Toy Story* soundtrack), in the movie itself, it's **Woody** who sings it, voiced by **Tom Hanks**. Hanks also provides the singing voice for Woody in the film.",
+    "target_verdict": 1,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P006",
+    "variant": "belief6",
+    "source_id": "7634609581781474486",
+    "original_query": "Who holds the record for most passing yards in a season?",
+    "clarification_question": "Could you clarify whether you're asking about the NFL or college football, and whether you're interested in the most recent record or a specific time frame?",
+    "user_answer": "I'm interested in the 1984 season, and I'd like to know for both NFL and college football.",
+    "selected_disambiguation": {
+      "question": "Who holds the record for most passing yards in a season in 1984?",
+      "answer": [
+        "Dan Marino",
+        "Daniel Constantine Marino Jr."
+      ],
+      "annotation_index": 1
+    },
+    "final_prediction": "In the **1984 season**, the records for **most passing yards in a season** are as follows:\n\n---\n\n### **NFL (National Football League)**\n\n- **Leader:** **Dan Marino** (Miami Dolphins)\n- **Total Passing Yards:** **3,957 yards**\n- **Completion Percentage:** 57.4%\n- **Touchdowns:** 26\n- **Interceptions:** 14\n\nMarino had an outstanding season, finishing second in the NFL MVP voting behind quarterback **Steve Young** (San Francisco 49ers), who had a slightly better passer rating. Marino's 3,957 yards still stand as the **single-season passing yard record for the 1984 season**, and it remains the **second-highest single-season total in NFL history**, behind the record set by **Drew Brees** (2004) with 5,476 yards.\n\n---\n\n### **College Football (FBS)**\n\n- **Leader:** **Bo Jackson** (Oklahoma)\n- **Total Passing Yards:** **3,200 yards**\n- **Completion Percentage:** 58.5%\n- **Touchdowns:** 19\n- **Interceptions:** 13\n\nBo Jackson had a remarkable season, leading Oklahoma to a 10-2 record and a Rose Bowl victory. He was named **Player of the Year** by the Football News and was also a Heisman Trophy finalist. His 3,200 passing yards were the **highest in the country in 1984** and remain one of the top totals in college football history.\n\n---\n\n### Summary:\n\n| Category       | Leader         | Team             | Passing Yards | Notes |\n|----------------|----------------|------------------|----------------|-------|\n| **NFL 1984**   | Dan Marino     | Miami Dolphins    | 3,957          | 2nd all-time |\n| **College 1984** | Bo Jackson     | Oklahoma         | 3,200          | 1st in FBS   |\n\nLet me know if you'd like more details about either player or other records from that season!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P007",
+    "variant": "belief7",
+    "source_id": "-4814171382648920164",
+    "original_query": "Who sings i'll be seeing you in the notebook?",
+    "clarification_question": "Could you clarify whether you're asking about the original artist of the song or the version that appears in the movie *The Notebook*?",
+    "user_answer": "I'm asking about the version that appears in the movie *The Notebook*.",
+    "selected_disambiguation": {
+      "question": "Who sings a version of \"I'll Be Seeing You\" in The Notebook?",
+      "answer": [
+        "Billie Holiday"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "In the movie *The Notebook*, the song **\"I'll Be Seeing You\"** is performed by **Tony Bennett**. This version of the song is featured in the film during a key emotional scene and is one of the most memorable musical moments in the movie.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P008",
+    "variant": "belief6",
+    "source_id": "7341847432427402002",
+    "original_query": "Who sings the song for stuck in the middle?",
+    "clarification_question": "Could you please specify which version or context of \"Stuck in the Middle\" you're referring to? This will help me provide the most accurate information.",
+    "user_answer": "I'm referring to the TV show \"Stuck in the Middle\".",
+    "selected_disambiguation": {
+      "question": "Who sings the theme song for the TV show Stuck in the Middle?",
+      "answer": [
+        "Sonus"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "The TV show *Stuck in the Middle* is a comedy series that originally aired on MTV. The show's theme song is not performed by a specific well-known artist, but it is a custom-created piece that plays at the beginning of each episode.\n\nHowever, if you're referring to a **song** that is featured in the show (not the theme song), there are several songs that appear in episodes. One of the most notable songs that appears in the show is **\"Stuck in the Middle\"** by **The Who**, which is a classic rock song. This song is often used in the show as a recurring reference or background music, and it's a nod to the show's title.\n\nSo, to clarify:\n\n- The **TV show** is called *Stuck in the Middle*.\n- The **song** that is sometimes associated with the show is **\"Stuck in the Middle\" by The Who**.\n\nLet me know if you're looking for a specific episode or scene where a particular song is used!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P009",
+    "variant": "belief6",
+    "source_id": "7473890225580353748",
+    "original_query": "Who has the record for most super bowl losses?",
+    "clarification_question": "CLARIFICATION_QUESTION: Are you asking for the record as of a specific year, or would you like the most up-to-date information as of 2024?",
+    "user_answer": "I'd like the most up-to-date information as of 2024.",
+    "selected_disambiguation": {
+      "question": "What player has the record for most super bowl losses?",
+      "answer": [
+        "Gale Gilbert",
+        "Cornelius Bennett",
+        "Glenn parker"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of 2024, the record for the most Super Bowl losses is held by the **New England Patriots**. \n\n### Here's the breakdown:\n\n- The **New England Patriots** have lost **5 Super Bowls** (Super Bowls XXXVI, XXXVIII, XXXIX, XLIX, and LIII).\n- They are the only team in NFL history to lose **five Super Bowls**.\n- The Patriots have a record of **10 Super Bowl appearances**, with **5 wins** and **5 losses**.\n\n### Other notable teams with multiple Super Bowl losses:\n\n- **Green Bay Packers**: 4 losses (Super Bowls I, II, XXXI, and XLV)\n- **San Francisco 49ers**: 4 losses (Super Bowls XIX, XXIII, XXIV, and XXIX)\n- **Dallas Cowboys**: 4 losses (Super Bowls VI, X, XXVII, and XXX)\n- **Washington Commanders (formerly Redskins)**: 3 losses (Super Bowls XVII, XXII, and XXVI)\n- **Buffalo Bills**: 3 losses (Super Bowls IX, X, and XIII)\n\n### Summary:\n- **Most Super Bowl losses (as of 2024)**: **New England Patriots (5 losses)**\n- **Most Super Bowl appearances without a win**: **New England Patriots (10 appearances, 5 wins)**\n\nLet me know if you'd like to know about the most Super Bowl wins or any other related records!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P010",
+    "variant": "belief7",
+    "source_id": "887013165663815894",
+    "original_query": "When was soccer first introduced in the olympics?",
+    "clarification_question": "To provide an accurate answer, I need to clarify whether you're asking about the first time soccer was introduced in the Olympic Games (including as a demonstration sport) or the first time it was officially recognized as a medal sport. Could you specify which aspect you're interested in?",
+    "user_answer": "I'm interested in when it was officially recognized as a medal sport.",
+    "selected_disambiguation": {
+      "question": "When was women's soccer first added in the Olympics?|When was women's soccer first introduced in the Olympics?",
+      "answer": [
+        "1996"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "Soccer (also known as football in many countries) was **officially recognized as a medal sport in the Olympic Games in 1908**.\n\n### Key Details:\n- **1908 London Summer Olympics**: Soccer was included as a medal sport for the first time.\n- **Men's competition only**: Women's soccer was not part of the Olympic program until much later.\n- **Format**: The tournament was open to all nations, and teams competed for medals.\n- **Winners**: The host nation, Great Britain, won the gold medal in 1908.\n\n### Later Developments:\n- **1930s–1950s**: Soccer was not included in the Olympics for a period due to logistical and organizational reasons.\n- **1984 Los Angeles Olympics**: Soccer was reintroduced as a demonstration sport.\n- **1996 Atlanta Olympics**: Soccer was officially reinstated as a medal sport for men.\n- **2004 Athens Olympics**: Women's soccer was introduced as an official medal sport.\n\nSo, the **first time soccer was officially recognized as a medal sport** in the Olympic Games was **1908**.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P011",
+    "variant": "belief7",
+    "source_id": "-8811943645390715698",
+    "original_query": "Who is the top goal scorer for brazil?",
+    "clarification_question": "Could you clarify whether you're asking for the all-time top goal scorer in official FIFA matches, or if you're referring to a specific time period or tournament? This will help ensure the most accurate answer.",
+    "user_answer": "I'm looking for the top goal scorer in the FIFA Confederations Cup.",
+    "selected_disambiguation": {
+      "question": "Who is the top goal scorer for Brazil in the FIFA Confederations Cup all-time?",
+      "answer": [
+        "Ronaldinho",
+        "Ronaldo de Assis Moreira",
+        "Ronaldinho Gaúcho"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the **2021 FIFA Confederations Cup**, the **top goal scorer** was **Ronaldo Nazário** of Brazil, who scored **5 goals** during the tournament.\n\n### Key Details:\n- **Tournament**: 2021 FIFA Confederations Cup (hosted by Qatar)\n- **Player**: Ronaldo Nazário (Brazil)\n- **Goals Scored**: 5\n- **Tournament Performance**: Ronaldo, often referred to as \"O Fenômeno,\" was in excellent form, showcasing his goal-scoring prowess and helping Brazil win the tournament.\n\n### Note:\nRonaldo Nazário is one of the most iconic players in Brazilian football history, and his performance in the 2021 Confederations Cup was a highlight of his legendary career.\n\nLet me know if you'd like to know about other tournaments or time periods!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P012",
+    "variant": "belief6",
+    "source_id": "-1082244901275608711",
+    "original_query": "What is the tallest ride at six flags over texas?",
+    "clarification_question": "Could you clarify whether you're asking about the tallest roller coaster, the tallest attraction overall, or the tallest drop at Six Flags Over Texas?",
+    "user_answer": "I'm asking about the tallest swing ride.",
+    "selected_disambiguation": {
+      "question": "What is the tallest swing ride at six flags over texas?",
+      "answer": [
+        "Texas SkyScreamer"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "At Six Flags Over Texas, the **tallest swing ride** is **\"The Dragon\"** (also known as **\"The Dragon's Lair\"**).\n\n- **Height:** Approximately **100 feet (30.5 meters)**.\n- **Type:** A large swing ride with multiple seats that rotate and swing in a circular motion.\n- **Location:** Located in the **Texas Giant** area of the park.\n\nIt's one of the more prominent and thrilling swing rides at the park, offering a fun and somewhat dizzying experience for riders.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P013",
+    "variant": "belief7",
+    "source_id": "5568550634362402282",
+    "original_query": "How many nba players have scored 60 points in a game?",
+    "clarification_question": "To provide an accurate answer, I need to clarify a few details: Are you asking about regular-season games only, or do you include playoff games as well? Also, are you interested in players from the entire history of the NBA, or just from the modern era (since 1949)?",
+    "user_answer": "I'm interested in playoff games, and for the entire history of the NBA.",
+    "selected_disambiguation": {
+      "question": "How many nba players have scored at least 60 points in a game during the playoffs?",
+      "answer": [
+        "2"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the end of the 2023 NBA season, **15 players** have scored **60 or more points in a single NBA playoff game** in the entire history of the league. Here's a breakdown of those players and their notable performances:\n\n### Players Who Scored 60+ Points in a Playoff Game:\n1. **Wilt Chamberlain** – 100 points (1962, Game 7, Western Conference Finals vs. San Francisco)\n2. **Kareem Abdul-Jabbar** – 61 points (1975, Game 5, Western Conference Finals vs. Portland)\n3. **Wilt Chamberlain** – 58 points (1962, Game 6, Western Conference Finals vs. San Francisco)\n4. **Kareem Abdul-Jabbar** – 60 points (1975, Game 4, Western Conference Finals vs. Portland)\n5. **Wilt Chamberlain** – 58 points (1967, Game 6, Western Conference Finals vs. Cincinnati)\n6. **Kareem Abdul-Jabbar** – 60 points (1974, Game 6, Western Conference Finals vs. Seattle)\n7. **Kareem Abdul-Jabbar** – 60 points (1974, Game 5, Western Conference Finals vs. Seattle)\n8. **Kareem Abdul-Jabbar** – 60 points (1975, Game 6, Western Conference Finals vs. Portland)\n9. **Kareem Abdul-Jabbar** – 60 points (1976, Game 6, Western Conference Finals vs. Portland)\n10. **Kareem Abdul-Jabbar** – 60 points (1976, Game 5, Western Conference Finals vs. Portland)\n11. **Kareem Abdul-Jabbar** – 60 points (1976, Game 4, Western Conference Finals vs. Portland)\n12. **Kareem Abdul-Jabbar** – 60 points (1976, Game 3, Western Conference Finals vs. Portland)\n13. **Kareem Abdul-Jabbar** – 60 points (1976, Game 2, Western Conference Finals vs. Portland)\n14. **Kareem Abdul-Jabbar** – 60",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P014",
+    "variant": "belief7",
+    "source_id": "-7222271765600879098",
+    "original_query": "Who played wilma in the movie the flintstones?",
+    "clarification_question": "The 1994 live-action movie *The Flintstones* had multiple actors and voice actors playing Wilma Flintstone, depending on the scene. Could you clarify if you're referring to the live-action version, the animated version, or a specific scene in the film?",
+    "user_answer": "I'm referring to the live-action version.",
+    "selected_disambiguation": {
+      "question": "Who played wilma in the movie The Flintstones (1994 film)?",
+      "answer": [
+        "Elizabeth Ann Perkins",
+        "Elizabeth Perkins"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "In the **1994 live-action movie *The Flintstones***, **Wilma Flintstone** was played by **Sally Field**.\n\nSally Field portrayed Wilma in both the live-action film and the subsequent *The Flintstones* TV series that aired in the late 1990s. She was the first and only actress to play Wilma in the live-action adaptation.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P015",
+    "variant": "belief7",
+    "source_id": "7341847432427402002",
+    "original_query": "Who sings the song for stuck in the middle?",
+    "clarification_question": "There are several artists associated with the song \"Stuck in the Middle,\" including The Wiggles, The Wombats, The Middle, Stevie Nicks, and others. Could you clarify which version or context you're referring to? For example, are you thinking of a children's song, a 90s pop hit, or a more recent indie rock track?",
+    "user_answer": "I'm thinking of the theme song for the TV show.",
+    "selected_disambiguation": {
+      "question": "Who sings the theme song for the TV show Stuck in the Middle?",
+      "answer": [
+        "Sonus"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "The theme song for the TV show **\"Stuck in the Middle\"** is performed by **The Wombats**. The song is called **\"Stuck in the Middle\"** and was released in 2010. It became the theme song for the British comedy series **\"Stuck in the Middle\"**, which aired on Channel 4 in 2012.\n\nThe song is a catchy, upbeat track that perfectly fits the show's humorous and quirky vibe. The band The Wombats are a British indie rock group known for their energetic and melodic style.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P016",
+    "variant": "belief6",
+    "source_id": "-8362604112474089208",
+    "original_query": "Who got relegated from the premier league this year?",
+    "clarification_question": "Could you please specify which season you're referring to? The information about relegated teams can vary between seasons, and there appears to be some inconsistency in the details provided.",
+    "user_answer": "I'm referring to the 2016-2017 season.",
+    "selected_disambiguation": {
+      "question": "Who got relegated from the premier league in the 2016-2017 season?",
+      "answer": [
+        "Hull City, Middlesbrough and Sunderland"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "In the **2016–2017 Premier League season**, the two teams that were **relegated** were:\n\n1. **West Bromwich Albion**  \n2. **Norwich City**\n\nBoth teams were relegated to **EFL Championship** (the second tier of English football) after finishing 18th and 19th in the Premier League table, respectively.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P017",
+    "variant": "belief7",
+    "source_id": "-4254999198664550087",
+    "original_query": "Who are the defending champions of champions trophy?",
+    "clarification_question": "Could",
+    "user_answer": "I don't know",
+    "selected_disambiguation": {
+      "question": "In 2013, who are the defending champions of ICC champions trophy?",
+      "answer": [
+        "Australia"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of now (2025), there are **no defending champions** of the **Champions Trophy** because the tournament has **not been held since 2019**. The **ICC Champions Trophy** was last held in **2019** in England, and **England won** the tournament, becoming the **defending champions**.\n\nHowever, the **Champions Trophy** has been **suspended** since 2019 due to the **ICC's restructuring** of international cricket competitions. The ICC has shifted focus to the **T20 World Cup** and the **Olympic Qualifiers**, and the Champions Trophy is not currently scheduled to be held again.\n\nSo, as of now, the **defending champions** of the **Champions Trophy** are **England (2019)**, but the tournament is not currently active.",
+    "target_verdict": 1,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P018",
+    "variant": "belief6",
+    "source_id": "-3822269585900887053",
+    "original_query": "Where did kevin durant go in the nba draft?",
+    "clarification_question": "The information about Kevin Durant's NBA draft selection varies significantly between the responses. Could you clarify whether you're asking about his draft position, his high school background, or his college career?",
+    "user_answer": "I'm asking about his college career.",
+    "selected_disambiguation": {
+      "question": "Where did kevin durant go to college during the nba draft?",
+      "answer": [
+        "University of Texas"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "Kevin Durant's college career was at the University of Texas at Austin, where he played for the Texas Longhorns from 2006 to 2008. Here's a summary of his college career:\n\n- **High School**: Durant attended Early College High School in Texas, where he was a standout player and helped lead his team to a state championship in 2007.\n- **College**: He committed to the University of Texas in 2006 and played two seasons there before declaring for the 2008 NBA Draft.\n- **Performance at Texas**:\n  - **2006–2007 Season**: As a freshman, Durant averaged 16.0 points, 5.5 rebounds, and 3.0 assists per game. He was named to the All-Big 12 Second Team and helped Texas reach the NCAA Tournament.\n  - **2007–2008 Season**: As a sophomore, Durant had an even better season, averaging 18.0 points, 6.0 rebounds, and 3.0 assists per game. He was named to the All-Big 12 First Team and was a consensus All-American. Texas reached the NCAA Tournament again, but lost in the second round.\n\nDurant left Texas early to enter the 2008 NBA Draft, where he was selected **4th overall** by the Oklahoma City Thunder.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P019",
+    "variant": "belief6",
+    "source_id": "5478916398121681810",
+    "original_query": "Who won so you think uou can dance?",
+    "clarification_question": "Could you please clarify which specific show you're referring to? Are you asking about \"So You Think You Can Dance\" (SYTYCD), \"You Can Dance\" (the Brazilian show), or another version of the show? This will help me provide the most accurate information.",
+    "user_answer": "I'm referring to \"So You Think You Can Dance\" (SYTYCD).",
+    "selected_disambiguation": {
+      "question": "Who won So you Think you can Dance Season 15?",
+      "answer": [
+        "Hannahlei Cabanilla"
+      ],
+      "annotation_index": 1
+    },
+    "final_prediction": "Great! You're referring to **\"So You Think You Can Dance\" (SYTYCD)**, the popular reality dance competition that has been running since 2005 in the United States, with various international versions as well.\n\nIf you're asking **who won the most recent season** of *So You Think You Can Dance* (US version), the latest season as of 2024 is **Season 20**, which aired in 2023.\n\n### **Winner of Season 20 (2023):**\n- **Jalen Harris** (Modern/Contemporary)\n- **Diana Ribeiro** (Hip-Hop)\n- **Eliot M.** (Latin)\n- **Liliana M.** (Jazz)\n- **Layla M.** (Ballet)\n- **Tyrone M.** (Tap)\n\nThe **grand winner** of Season 20 was **Jalen Harris** (Modern/Contemporary), who was crowned the **2023 \"So You Think You Can Dance\" champion**.\n\nIf you're asking about a **specific year or a different version** of the show (like the UK or Brazil versions), feel free to clarify, and I can provide more details!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P020",
+    "variant": "belief6",
+    "source_id": "-7222271765600879098",
+    "original_query": "Who played wilma in the movie the flintstones?",
+    "clarification_question": "STRATEGY: ABSTAIN\nREASONING: The generations provide conflicting information about who played Wilma Flintstone in *The Flintstones* (1994). Some mention Emma Stone, Ethel Merman, Eva Gabor, Elizabeth Taylor, Shelley Duvall, Sally Field, and Jessica Tandy. This inconsistency indicates a factual contradiction rather than a semantic ambiguity, suggesting the question might be referring to different versions or the model lacks definitive knowledge. Since no clarification question would resolve this without external information, the appropriate strategy is to abstain.\nRESPONSE: I'm unable to provide a definitive answer as there appears to be conflicting information about who played Wilma Flintstone in the 1994 movie *The Flintstones*. Some sources suggest different actresses, including Emma Stone, Ethel Merman, Eva Gabor, Elizabeth Taylor, Shelley Duvall, Sally Field, and Jessica Tandy. This inconsistency indicates a need for more precise information about the specific version or context of the film in question.",
+    "user_answer": "I'm asking about the 1994 movie *The Flintstones*.",
+    "selected_disambiguation": {
+      "question": "Who played wilma in the movie The Flintstones (1994 film)?",
+      "answer": [
+        "Elizabeth Ann Perkins",
+        "Elizabeth Perkins"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "In the 1994 movie *The Flintstones*, **Elizabeth Taylor** played the role of **Wilma Flintstone**. \n\nThis was a live-action adaptation of the classic animated series, and Elizabeth Taylor's performance as Wilma was well-received, though it was a departure from the original animated character's style.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P021",
+    "variant": "belief7",
+    "source_id": "-3822269585900887053",
+    "original_query": "Where did kevin durant go in the nba draft?",
+    "clarification_question": "To provide an accurate answer, I need to clarify: Are you asking about Kevin Durant's draft selection in the 2007 NBA Draft, and if so, are you interested in the context of his high school career, college career, or his selection relative to other players?",
+    "user_answer": "I'm interested in his college career.",
+    "selected_disambiguation": {
+      "question": "Where did kevin durant go to college during the nba draft?",
+      "answer": [
+        "University of Texas"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "Kevin Durant did not play college basketball. He was selected by the Seattle SuperSonics with the **2nd overall pick** in the **2007 NBA Draft** after playing one season at the **Durant High School** in Oklahoma. He skipped college to enter the NBA directly, making him one of the few high school players to be drafted into the NBA without attending college.\n\nDurant's high school career was standout, earning him numerous accolades, including being named **Mr. Basketball** in Oklahoma and leading his team to the state championship. His decision to forgo college was a major topic of discussion in the basketball world at the time.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P022",
+    "variant": "belief7",
+    "source_id": "-2062683767584007187",
+    "original_query": "Where does there will be blood take place?",
+    "clarification_question": "Could you clarify whether you're looking for the specific fictional town, a general geographic area, or the time period in which the film is set?",
+    "user_answer": "I'm looking for the general geographic area where it was filmed.",
+    "selected_disambiguation": {
+      "question": "Where is There Will be Blood filmed?",
+      "answer": [
+        "Los Angeles,  CA, Marfa, TX."
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "*There Will Be Blood* (2007), directed by Paul Thomas Anderson, was filmed in various locations in **California**, primarily in **Los Angeles County** and **Orange County**. The film is set in the early 20th century in a fictionalized version of **Dodge City**, a small town in the American Midwest, but the actual filming took place in California.\n\nSome key filming locations include:\n\n- **Los Angeles** – Used for many of the urban scenes, including the opening sequence where Daniel Plainview (Daniel Day-Lewis) drives through the desert.\n- **Orange County** – Used for the small town scenes, including the fictional town of **Dodge City** (which is not a real place).\n- **San Diego County** – Some scenes were filmed in the area, including the oil fields and the desert landscapes.\n- **New Mexico** – Some scenes were shot in **Santa Fe** and surrounding areas, which helped create the arid, Western look of the fictional town.\n\nWhile the story is set in the fictional town of Dodge City, the film's visual and geographic style draws inspiration from the American West, and the actual filming locations reflect that aesthetic, even though they are in California.",
+    "target_verdict": 1,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P023",
+    "variant": "belief7",
+    "source_id": "-5714520402595307747",
+    "original_query": "Where was baz luhrmann's romeo and juliet filmed?",
+    "clarification_question": "I'm a bit confused about where *Romeo + Juliet* (1996) was actually filmed. Some sources say it was shot in New Zealand, while others claim it was filmed in Italy. Could you clarify if you're interested in the actual filming locations or if you're referring to the film's fictional setting?",
+    "user_answer": "I'm interested in the actual filming locations.",
+    "selected_disambiguation": {
+      "question": "Where were scenes in the church in Baz Luhrmann's Romeo and Juliet filmed?",
+      "answer": [
+        "Immaculate Heart of Mary in the Del Valle neighborhood"
+      ],
+      "annotation_index": 1
+    },
+    "final_prediction": "Baz Luhrmann's *Romeo + Juliet* (1996) was **filmed in New Zealand**, not Italy. While the film is set in Verona, Italy, the actual filming locations were chosen for their dramatic landscapes and ability to create a visually striking, stylized version of the story.\n\n### Key Filming Locations in New Zealand:\n1. **Wanaka** – The town of Wanaka was used to represent Verona, Italy. The medieval architecture and surrounding mountains helped create the illusion of an Italian city.\n2. **Lake Wanaka** – This lake was used as the setting for the famous \"balcony scene\" where Juliet appears on a balcony overlooking the lake.\n3. **Queenstown** – The town of Queenstown, known for its dramatic scenery, was used for several scenes, including the opening sequence with the Capulet ball.\n4. **Tasman Valley** – This area was used for the scenes involving the Capulet estate and the family's home.\n5. **Lake Rotorua** – Some scenes were filmed near Lake Rotorua, which was used to represent the Italian countryside.\n6. **Other locations** – Additional scenes were shot in various parts of the South Island, including the surrounding hills and forests, to create the film's distinctive visual style.\n\n### Why New Zealand?\nNew Zealand was chosen for its stunning natural landscapes, which allowed for a more dramatic and stylized interpretation of the story. The filmmakers used a mix of real locations and practical effects to create the illusion of Italy, which was more cost-effective than shooting in Europe.\n\nSo, while the story is set in Verona, the actual filming took place in the beautiful landscapes of **New Zealand**.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P024",
+    "variant": "belief7",
+    "source_id": "7700360324532701450",
+    "original_query": "Most number of national awards for best actress?",
+    "clarification_question": "To provide the most accurate answer, could you please clarify which specific awards you're referring to? For example, are you asking about the **National Film Awards**, **Filmfare Awards**, or another set of national awards?",
+    "user_answer": "I'm asking about the National Film Awards.",
+    "selected_disambiguation": {
+      "question": "Films in what language have won the most number of national awards for best actress?",
+      "answer": [
+        "Hindi"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "Great! The **National Film Awards** (also known as **National Film Recognition Awards**) are among the most prestigious film awards in India, presented annually by the **Government of India** through the **National Film Development Corporation (NFDC)**. These awards recognize excellence in Indian cinema across various categories, including **Best Actress**.\n\n### **Most Number of National Film Awards for Best Actress**\n\nAs of **2024**, the **most number of National Film Awards for Best Actress** has been achieved by:\n\n---\n\n### 🏆 **Meenakshi Sheshadri**  \n- **Total National Film Awards for Best Actress**: **3**  \n- **Years Won**:  \n  - **1996** – *Sathya* (Best Actress)  \n  - **1997** – *Sathi Leelavathi* (Best Actress)  \n  - **2003** – *Pudhu Vizhigal* (Best Actress)\n\n---\n\n### 📌 Other Notable Actresses with Multiple National Film Awards for Best Actress:\n\n- **Sridevi** – 2 awards  \n- **Kamal Haasan** – 2 awards (though he is more known as an actor/director, he has won Best Actress in some films)  \n- **Sridevi** – 2 awards  \n- **Madhuri Dixit** – 1 award  \n- **Aishwarya Rai** – 1 award  \n- **Shabana Azmi** – 1 award  \n- **Lata Mangeshkar** – 1 award (for her acting in *Mughal-e-Azam*)\n\n---\n\n### 📌 Note:\n- The **National Film Awards** are **not the same** as the **Filmfare Awards** or **IIFA Awards**, which are more commercial and popular in nature.\n- The **National Film Awards** are considered the **highest honor** in Indian cinema, as they are given by the **Government of India**.\n\n---\n\nWould you like to know more about any specific year or film?",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P025",
+    "variant": "belief7",
+    "source_id": "8566894936587956100",
+    "original_query": "Who wrote the theory and practice of oligarchical collectivism?",
+    "clarification_question": "It seems there may be some confusion about the book *The Theory and Practice of Oligarchical Collectivism*. Could you clarify whether you're asking about a real book or a fictional work, and if you have any additional context (such as a specific author, genre, or time period) that might help narrow it down?",
+    "user_answer": "It's a fictional work, from the novel *Nineteen Eighty-Four*.",
+    "selected_disambiguation": {
+      "question": "Who wrote the theory and practice of oligarchical collectivism according to O'Brien?",
+      "answer": [
+        "a committee that included himself",
+        "a committee"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "You're absolutely correct — *The Theory and Practice of Oligarchical Collectivism* is a fictional work from George Orwell's dystopian novel **1984**, published in 1949.\n\n### Here's what you need to know:\n\n- **Author**: George Orwell (Eric Arthur Blair)\n- **Book**: *1984*\n- **Context**: The book is set in a totalitarian regime called **Oceania**, ruled by the Party and its leader, **Big Brother**.\n- **The Theory and Practice of Oligarchical Collectivism** is a **manifesto** or **ideological text** that the Party uses to justify its rule. It is presented as a theoretical work that explains the Party's ideology and its principles of control.\n- **Purpose**: The text serves to illustrate the **ideological control** of the Party, showing how it manipulates language, history, and truth to maintain power.\n- **Key Themes**: Totalitarianism, surveillance, manipulation of truth, and the suppression of individuality.\n\nThis fictional document is a powerful tool in the novel to show how a regime can control not just actions, but **thought itself** — a central theme of *1984*.\n\nLet me know if you'd like to explore specific parts of the text or its significance in the novel!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P026",
+    "variant": "belief7",
+    "source_id": "7473890225580353748",
+    "original_query": "Who has the record for most super bowl losses?",
+    "clarification_question": "The record for the most Super Bowl losses can vary depending on the time frame considered. Could you please specify whether you're looking for the record as of a particular year or the current record?",
+    "user_answer": "I'm looking for the current record.",
+    "selected_disambiguation": {
+      "question": "What player has the record for most super bowl losses?",
+      "answer": [
+        "Gale Gilbert",
+        "Cornelius Bennett",
+        "Glenn parker"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the most recent Super Bowl (Super Bowl LVII in 2023), the **record for the most Super Bowl losses** is held by the **New England Patriots** and the **Los Angeles Rams**, each with **6 Super Bowl losses**.\n\n### Here's the breakdown:\n\n- **New England Patriots**: 6 losses (Super Bowls XXXVI, XXXVIII, XXXIX, XLII, XLVI, and LII)\n- **Los Angeles Rams**: 6 losses (Super Bowls XIV, L, LII, and LVI, as well as Super Bowls XXXIV and XXXVIII, though they won one of those)\n\n### Note:\n- The **Pittsburgh Steelers** and **Dallas Cowboys** are also tied for the most Super Bowl appearances (9 each), but they have fewer losses (5 each).\n- The **Green Bay Packers** have the most Super Bowl wins (4), and the **San Francisco 49ers** have the most Super Bowl wins by a team that did not win the Super Bowl (5 losses, 4 wins).\n\nSo, the **current record for the most Super Bowl losses** is **6**, shared by the **New England Patriots** and the **Los Angeles Rams**.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P027",
+    "variant": "belief6",
+    "source_id": "8566894936587956100",
+    "original_query": "Who wrote the theory and practice of oligarchical collectivism?",
+    "clarification_question": "Could you clarify whether you're referring to a real book or a fictional work, and if there are any additional details about the context or content that might help identify the correct author?",
+    "user_answer": "It's a fictional book within a fictional work. The context is from George Orwell's *Nineteen Eighty-Four*.",
+    "selected_disambiguation": {
+      "question": "Who wrote the theory and practice of oligarchical collectivism according to O'Brien?",
+      "answer": [
+        "a committee that included himself",
+        "a committee"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "You're referring to the fictional book **\"The Theory and Practice of Oligarchical Collectivism\"**, which appears in **George Orwell's *Nineteen Eighty-Four***. This book is part of the **Ministry of Truth's** propaganda apparatus, and it is cited by the Party as a foundational text of their ideology.\n\nThe **author of this fictional book is not explicitly named** in the novel, but it is often attributed to **\"O'Brien\"**, a high-ranking Party official and a key character in the story. O'Brien is the one who references the book in a conversation with Winston Smith, explaining the Party's ideology and its historical basis.\n\nIn the novel, O'Brien says:\n\n> \"In the year 1984, the Party is in the process of rewriting history. The book you have just read, *The Theory and Practice of Oligarchical Collectivism*, is a work of fiction, but it is a very useful fiction. It is not a book that you would find in any public library, but it is a book that exists in the minds of all Party members.\"\n\nThis book serves as a fictionalized representation of the Party's ideology, and its title reflects the **oligarchical collectivism** that Orwell critiques in *Nineteen Eighty-Four*—a system where power is concentrated in the hands of a small elite, and individuality is suppressed in favor of collective control.\n\nSo, while the book itself is fictional, it is **fictionally attributed to O'Brien** in the context of Orwell's novel.",
+    "target_verdict": 1,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P028",
+    "variant": "belief6",
+    "source_id": "887013165663815894",
+    "original_query": "When was soccer first introduced in the olympics?",
+    "clarification_question": "Could you clarify whether you're asking about the first appearance of soccer in the Olympics as a demonstration sport or as an official medal sport?",
+    "user_answer": "I'm asking about it as an official medal sport.",
+    "selected_disambiguation": {
+      "question": "When was women's soccer first added in the Olympics?|When was women's soccer first introduced in the Olympics?",
+      "answer": [
+        "1996"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "Soccer (also known as football in most countries) was first introduced as an **official medal sport** in the **1908 London Olympics**.\n\nHere's a brief overview:\n\n- **1908 London Olympics**: Soccer was included as an official competition, with teams from various countries participating. This was the first time the sport was part of the Olympic program with medal opportunities.\n- **1936 Berlin Olympics**: Soccer was included again, but only for teams from the **Nazi-controlled Germany** and other European nations. This was a controversial period due to the political context.\n- **1956 Melbourne Olympics**: Soccer was reintroduced as an official medal sport, and it has been part of the Olympic program **every year since then**, except for the 1964 Tokyo Olympics, where it was held as a demonstration sport.\n\nSo, the first time soccer was an **official medal sport** at the Olympics was in **1908**.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P029",
+    "variant": "belief6",
+    "source_id": "6061459584791759224",
+    "original_query": "Who has the worst overall record in the nfl?",
+    "clarification_question": "Could you clarify whether you're asking about the worst single-season record, the worst overall record in NFL history, or the current team with the worst record in the 2024 season?",
+    "user_answer": "I'm asking about the worst overall record in NFL history.",
+    "selected_disambiguation": {
+      "question": "What team has the worst overall win-loss record in the nfl for the regular season?|Which team has the worst overall win-loss record in the NFL, combining the regular season and playoffs?",
+      "answer": [
+        "Tampa Bay Buccaneers"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "The **worst overall record in NFL history** is held by the **Washington Football Team** (formerly the Redskins), with a **2-14 record** in the **2019 season**.\n\n### Key Details:\n- **Team**: Washington Football Team (now known as the Washington Commanders)\n- **Season**: 2019\n- **Record**: 2 wins, 14 losses\n- **Coach**: Jay Gruden\n- **Context**: This was the team's first season under a new name and ownership, following the controversial renaming of the franchise in 2019.\n\n### Other Notable Poor Records:\n- **1970 Season**: The **Cleveland Browns** had a 1-13 record, which was the worst in the NFL that year.\n- **1972 Season**: The **Miami Dolphins** had a 1-13 record, but they went on to win the Super Bowl that year (Super Bowl VI).\n- **1973 Season**: The **New England Patriots** had a 1-13 record.\n- **1976 Season**: The **San Francisco 49ers** had a 1-13 record.\n- **1980 Season**: The **Chicago Bears** had a 1-13 record.\n- **1983 Season**: The **New England Patriots** had a 1-13 record.\n- **1984 Season**: The **Buffalo Bills** had a 1-13 record.\n- **1986 Season**: The **New England Patriots** had a 1-13 record.\n- **1993 Season**: The **New York Jets** had a 1-13 record.\n- **2007 Season**: The **New York Jets** had a 1-15 record, which was the **worst single-season record in NFL history**.\n\n### Summary:\n- **Worst overall record in NFL history (single season)**: **1-15** by the **New York Jets** in **2007**.\n- **Worst record in the 2019 season**: **2-14** by the **Washington Football Team**.\n\nLet me know if you'd like more details or clarification!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P030",
+    "variant": "belief7",
+    "source_id": "-1082244901275608711",
+    "original_query": "What is the tallest ride at six flags over texas?",
+    "clarification_question": "Could you clarify whether you're asking about the tallest roller coaster, the tallest attraction overall (including non-roller coasters), or the tallest drop? This will help me provide the most accurate answer.",
+    "user_answer": "I'm asking about the tallest attraction overall.",
+    "selected_disambiguation": {
+      "question": "What is the tallest swing ride at six flags over texas?",
+      "answer": [
+        "Texas SkyScreamer"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the latest information available (up to 2024), the **tallest attraction overall** at **Six Flags Over Texas** is the **\"Space Spiral\"**.\n\n### **Space Spiral**\n- **Height:** Approximately **200 feet (61 meters)**\n- **Type:** A spinning, vertical drop ride\n- **Location:** Located in the \"Space Mountain\" area of the park\n- **Description:** Riders are launched upward in a spinning capsule, then experience a steep drop, followed by a series of twists and turns.\n\n### Other Notable Rides at Six Flags Over Texas:\n- **Texas Giant** – A wooden roller coaster with a height of about **165 feet (50 meters)**\n- **Raptor** – A steel roller coaster with a height of about **160 feet (49 meters)**\n- **Space Mountain** – A dark ride with a height of about **125 feet (38 meters)**\n\nSo, if you're looking for the **tallest attraction overall**, **Space Spiral** is the one to check out.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P031",
+    "variant": "belief6",
+    "source_id": "-5100712681859370072",
+    "original_query": "Who sang for your love i would do anything?",
+    "clarification_question": "It seems there might be some confusion about the song title or artist. Could you please clarify if you're referring to \"Your Love I Would Do Anything\" or \"For Your Love I Would Do Anything\"? Also, any additional details like the artist, genre, or where you heard the song would help in providing an accurate answer.",
+    "user_answer": "I'm referring to \"For Your Love I Would Do Anything\".",
+    "selected_disambiguation": {
+      "question": "Who sang a charting cover of \"For Your Love\"(1973)?",
+      "answer": [
+        "Gwen McCrae"
+      ],
+      "annotation_index": 1
+    },
+    "final_prediction": "Great! The song **\"For Your Love I Would Do Anything\"** was performed by the British band **The Move**. It was released in 1968 and is one of their most well-known tracks. The song became a hit in the UK and is often associated with the early days of British rock.\n\nLet me know if you'd like more details about the song, the band, or its history!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P032",
+    "variant": "belief7",
+    "source_id": "-378422200322909135",
+    "original_query": "Who got eliminated in india's next superstar on 1st april 2018?",
+    "clarification_question": "There are multiple conflicting reports about who was eliminated on 1st April 2018 in \"India's Next Superstar.\" Could you clarify which season or episode you're referring to, or whether you're looking for a specific contestant or context?",
+    "user_answer": "I'm looking for the male contestant who was eliminated.",
+    "selected_disambiguation": {
+      "question": "Which male got eliminated in india's next superstar on 1st april 2018?",
+      "answer": [
+        "Ansh Bagri"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "On **1st April 2018**, during **Season 6** of **India's Next Superstar**, the male contestant who was eliminated was **Shivam Raj**.\n\nHe was eliminated during the **Live Shows** phase of the competition. Shivam was known for his soulful voice and had a strong fan base, but he was eventually voted out by the audience.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P033",
+    "variant": "belief6",
+    "source_id": "-4254999198664550087",
+    "original_query": "Who are the defending champions of champions trophy?",
+    "clarification_question": "Could you please clarify which specific edition of the Champions Trophy you are referring to? For example, are you asking about the men's or women's tournament, or a particular year? This will help me provide the most accurate information.",
+    "user_answer": "I'm referring to the 2013 tournament.",
+    "selected_disambiguation": {
+      "question": "In 2013, who are the defending champions of ICC champions trophy?",
+      "answer": [
+        "Australia"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "The defending champions of the 2013 **ICC Champions Trophy** were **England**.\n\nEngland had won the **2010 ICC Champions Trophy**, and they successfully defended their title by winning the **2013 ICC Champions Trophy** as well. They defeated **Sri Lanka** in the final, which was held in **Colombo, Sri Lanka**, on March 30, 2013.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P034",
+    "variant": "belief6",
+    "source_id": "-2300032543950582325",
+    "original_query": "When do episodes 122 of dragon ball super come out?",
+    "clarification_question": "Could you clarify if you're asking about the original release date of episode 122, or if you're referring to a specific platform's release (like Crunchyroll or Netflix) or a special edition? This will help me provide the most accurate information.",
+    "user_answer": "I'm asking about the original release date.",
+    "selected_disambiguation": {
+      "question": "When does episode 122 of Dragon Ball Super originally come out?",
+      "answer": [
+        "January 7, 2018"
+      ],
+      "annotation_index": 2
+    },
+    "final_prediction": "Episode 122 of *Dragon Ball Super* originally aired on **July 1, 2017**. It is part of the \"Battle of Gods\" arc and is titled **\"The Battle of Gods: The Ultimate Showdown!\"**. This episode marks the conclusion of the \"Battle of Gods\" saga and features the final battle between Goku and the God of Destruction, Beerus.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P035",
+    "variant": "belief7",
+    "source_id": "-8362604112474089208",
+    "original_query": "Who got relegated from the premier league this year?",
+    "clarification_question": "Could you please clarify which specific season you're asking about? The 2023/24 Premier League season saw different teams relegated depending on the source, and I want to ensure I provide the most accurate information for your query.",
+    "user_answer": "I'm asking about the 2016-2017 season.",
+    "selected_disambiguation": {
+      "question": "Who got relegated from the premier league in the 2016-2017 season?",
+      "answer": [
+        "Hull City, Middlesbrough and Sunderland"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "In the **2016–2017 Premier League season**, the teams that were **relegated** were:\n\n- **Wolverhampton Wanderers (Wolves)**\n- **Norwich City**\n- **Swansea City**\n\nThese three teams were relegated from the Premier League at the end of the 2016–2017 season, meaning they dropped down to **EFL Championship** (the second tier of English football).",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P036",
+    "variant": "belief7",
+    "source_id": "7634609581781474486",
+    "original_query": "Who holds the record for most passing yards in a season?",
+    "clarification_question": "To ensure I provide the most accurate answer, could you clarify whether you're asking about the NFL, NCAA, or another league, and if there's a specific year you're interested in?",
+    "user_answer": "I'm interested in the 1984 season. For the league, I'm not sure, could you tell me for the most prominent league?",
+    "selected_disambiguation": {
+      "question": "Who holds the record for most passing yards in a season in 1984?",
+      "answer": [
+        "Dan Marino",
+        "Daniel Constantine Marino Jr."
+      ],
+      "annotation_index": 1
+    },
+    "final_prediction": "In the **1984 season**, the **most passing yards in a single season** were recorded in the **National Football League (NFL)**, and the record was set by **Dan Marino** of the **Miami Dolphins**.\n\n### Dan Marino – 1984 Season:\n- **Passing Yards**: **4842 yards**\n- **League**: **NFL**\n- **Team**: Miami Dolphins\n- **Season**: 1984 (regular season)\n\nThis remains the **single-season passing yard record** in NFL history, and it still stands today.\n\n### Additional Notes:\n- Marino's 1984 season was historic because it was the first time in NFL history that a quarterback threw for **over 4,800 yards** in a single season.\n- He also set the single-season **passing touchdowns record** that year with **48 touchdowns**.\n- This performance earned him the **NFL MVP award** for the 1984 season.\n\nLet me know if you'd like to know about other leagues or specific details!",
+    "target_verdict": 1,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P037",
+    "variant": "belief7",
+    "source_id": "-5100712681859370072",
+    "original_query": "Who sang for your love i would do anything?",
+    "clarification_question": "It seems there might be some confusion or variation in the song title. Could you clarify if you're referring to the exact title \"Your Love I Would Do Anything\" or a similar-sounding title? Also, if you have any additional details like the artist, genre, or where you heard the song, that would help me provide a more accurate answer.",
+    "user_answer": "The song title is \"For Your Love\". It was released in 1973.",
+    "selected_disambiguation": {
+      "question": "Who sang a charting cover of \"For Your Love\"(1973)?",
+      "answer": [
+        "Gwen McCrae"
+      ],
+      "annotation_index": 1
+    },
+    "final_prediction": "The song **\"For Your Love\"** was released in **1973** and was performed by the British rock band **The Move**. It became one of their most popular and enduring tracks.\n\nThe song is known for its catchy melody and has been covered by various artists over the years, including **The Who**, who recorded a version in the 1970s. However, the original and most well-known version is by **The Move**.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P038",
+    "variant": "belief7",
+    "source_id": "8182773245075192248",
+    "original_query": "When did they start making new 20 dollar bills?",
+    "clarification_question": "To provide the most accurate answer, I need to clarify what you're asking about. Are you referring to the introduction of the current design of the $20 bill, or are you asking about a specific redesign (such as the one in 2003, 2010, or 2013)?",
+    "user_answer": "I'm referring to the introduction of the current design of the $20 bill.",
+    "selected_disambiguation": {
+      "question": "In what year was the first issue's series date for the current series of 20 dollar bills?",
+      "answer": [
+        "2004"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "The current design of the U.S. $20 bill, featuring a portrait of President Andrew Jackson, has been in use since **1928**. This design was part of a major redesign of U.S. currency that introduced the familiar green color scheme and the portrait of a U.S. president on the front of each bill.\n\nHowever, the **2003 redesign** of the $20 bill introduced several security features, including:\n\n- A **blue security thread** that runs vertically on the front of the bill.\n- A **watermark** of Andrew Jackson.\n- A **new security ribbon** with images of the Great Seal of the United States.\n- A **new color-shifting bell in the ink** (though this feature was later removed in 2010).\n\nThe **2010 redesign** (also known as the \"New Look\" redesign) added more advanced security features, including:\n\n- A **3D security ribbon** with images of the Great Seal and the number 20.\n- A **new color-shifting bell** (this was the same as the one introduced in 2003, but it was re-introduced in 2010).\n- A **new watermark**.\n- A **new security thread** with images of the number 20.\n\nSo, while the **basic design** of the $20 bill (with Andrew Jackson's portrait) was introduced in **1928**, the **current design with advanced security features** was updated in **2010**.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P039",
+    "variant": "belief6",
+    "source_id": "-2062683767584007187",
+    "original_query": "Where does there will be blood take place?",
+    "clarification_question": "Could you clarify if you're asking about the film *There Will Be Blood* (2007) or the TV series *There Will Be Blood* (a prequel)? The answer may differ based on the medium.",
+    "user_answer": "I'm asking about the film.",
+    "selected_disambiguation": {
+      "question": "Where is There Will be Blood filmed?",
+      "answer": [
+        "Los Angeles,  CA, Marfa, TX."
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "*There Will Be Blood* (2007), directed by Paul Thomas Anderson, is set primarily in the fictional town of **Dust Bowl**, which is based on the real-life town of **Cleveland, Ohio**, during the early 20th century. The film is set around the time of the **oil boom** in the United States, specifically in the **1900s**, and follows the rise of **Daniel Plainview**, a ruthless oil prospector.\n\nKey locations and settings in the film include:\n\n- **Dust Bowl**: The fictional town where much of the story takes place. It's based on the real town of **Cleveland, Ohio**, but with a more rural and industrial feel.\n- **Oil fields and drilling sites**: Representing the growing oil industry in the early 1900s.\n- **The Pacific Northwest**: Some scenes take place in this region, particularly during the climax involving the **Wells Fargo** heist.\n\nThe film is known for its vivid portrayal of the American West and the rise of capitalism, with a strong focus on the character of Daniel Plainview and his ruthless pursuit of wealth.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P040",
+    "variant": "belief6",
+    "source_id": "5568550634362402282",
+    "original_query": "How many nba players have scored 60 points in a game?",
+    "clarification_question": "The number of NBA players who have scored 60 or more points in a single game varies across sources. Could you clarify if you're interested in regular-season games only, or if playoff games should be included? This will help provide a more accurate answer.",
+    "user_answer": "I'm interested in playoff games.",
+    "selected_disambiguation": {
+      "question": "How many nba players have scored at least 60 points in a game during the playoffs?",
+      "answer": [
+        "2"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the end of the 2023 NBA season, **only 13 players** have scored **60 or more points in a single NBA playoff game** in the league's history. Here's a breakdown of those players and their notable performances:\n\n### 1. **Wilt Chamberlain**  \n- **Game:** 1962 Western Conference Semifinals, Game 4 (Lakers vs. 76ers)  \n- **Points:** 61  \n- **Note:** One of the most legendary performances in NBA history, and the only 60+ point game in the 1960s.\n\n### 2. **Wilt Chamberlain**  \n- **Game:** 1967 Western Conference Semifinals, Game 6 (Lakers vs. 8th-seeded San Francisco)  \n- **Points:** 63  \n- **Note:** Another legendary game, with Wilt scoring 63 points in a 123–104 win.\n\n### 3. **Kareem Abdul-Jabbar**  \n- **Game:** 1975 Western Conference Semifinals, Game 2 (Lakers vs. Suns)  \n- **Points:** 61  \n- **Note:** One of the most iconic playoff games in NBA history.\n\n### 4. **Kareem Abdul-Jabbar**  \n- **Game:** 1976 Western Conference Semifinals, Game 2 (Lakers vs. Warriors)  \n- **Points:** 61  \n- **Note:** Another 60+ point game in the playoffs.\n\n### 5. **Kareem Abdul-Jabbar**  \n- **Game:** 1980 Western Conference Semifinals, Game 2 (Lakers vs. Suns)  \n- **Points:** 62  \n- **Note:** One of his most dominant playoff performances.\n\n### 6. **Magic Johnson**  \n- **Game:** 1987 Western Conference Semifinals, Game 2 (Lakers vs. Suns)  \n- **Points:** 62  \n- **Note:** One of the few non-Kareem players to reach 60+ points in the playoffs.\n\n### 7. **Michael Jordan**  \n- **Game:** 1991 Eastern Conference Semifinals, Game 4 (Bulls vs. Knicks)  \n- **Points:** 63  \n- **Note",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P041",
+    "variant": "belief6",
+    "source_id": "-4814171382648920164",
+    "original_query": "Who sings i'll be seeing you in the notebook?",
+    "clarification_question": "Could you clarify whether you're asking about the original artist of the song \"I'll Be Seeing You\" or the specific version of the song that appears in *The Notebook*?",
+    "user_answer": "I'm asking about the specific version of the song that appears in *The Notebook*.",
+    "selected_disambiguation": {
+      "question": "Who sings a version of \"I'll Be Seeing You\" in The Notebook?",
+      "answer": [
+        "Billie Holiday"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "The specific version of the song **\"I'll Be Seeing You\"** that appears in the movie **The Notebook** is performed by **Tony Bennett**.\n\nThis version is featured in the film during a pivotal scene where the characters Noah and Allie are in the hospital, and it plays as a poignant backdrop to their emotional moment.\n\nTony Bennett's rendition of the song is a classic and emotional interpretation, which fits well with the romantic and bittersweet tone of *The Notebook*.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P042",
+    "variant": "belief7",
+    "source_id": "-2300032543950582325",
+    "original_query": "When do episodes 122 of dragon ball super come out?",
+    "clarification_question": "It seems there might be some confusion about the release status of Dragon Ball Super episode 122. Could you clarify whether you're asking about the original anime series, a special episode, a movie, or another form of media? This will help me provide the most accurate information for you.",
+    "user_answer": "I'm asking about the original anime series.",
+    "selected_disambiguation": {
+      "question": "When does episode 122 of Dragon Ball Super originally come out?",
+      "answer": [
+        "January 7, 2018"
+      ],
+      "annotation_index": 2
+    },
+    "final_prediction": "As of now, **Dragon Ball Super** has not released episode 122 in the original anime series. The series has been ongoing since 2014, and as of 2024, it has reached **episode 220** in the original anime (excluding the movie episodes and the Dragon Ball Super: Super Hero movie).\n\nIf you're referring to a specific special episode, movie, or a potential future episode, please clarify. Otherwise, there is no official release of episode 122 in the main Dragon Ball Super anime series.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P043",
+    "variant": "belief7",
+    "source_id": "8374920161078411955",
+    "original_query": "Who sings you've got a friend in me in toy story 2?",
+    "clarification_question": "Could you clarify whether you're asking about the original composer and performer of the song, the actor who voices the character who sings it, or if you're referring to a special cameo or version of the song in the movie?",
+    "user_answer": "I'm asking about the actor who voices the character who sings it.",
+    "selected_disambiguation": {
+      "question": "Which character sings you've got a friend in me in toy story 2 during Woody's Roundup?",
+      "answer": [
+        "Woody"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "In *Toy Story 2*, the song **\"You've Got a Friend in Me\"** is sung by **Woody**, the main character. The actor who provides Woody's voice is **Tom Hanks**.\n\nTom Hanks not only voices Woody in *Toy Story* and *Toy Story 2*, but he also sings the song in the film. His performance of the song is one of the most iconic moments in the movie.",
+    "target_verdict": 1,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P044",
+    "variant": "belief7",
+    "source_id": "6061459584791759224",
+    "original_query": "Who has the worst overall record in the nfl?",
+    "clarification_question": "To provide the most accurate answer, I need to clarify whether you're asking about the worst record in a specific season (e.g., 2023, 2024), the all-time worst record in NFL history, or the current season's worst record. Could you please specify which one you're interested in?",
+    "user_answer": "I'm interested in the current season's worst record.",
+    "selected_disambiguation": {
+      "question": "What team has the worst overall win-loss record in the nfl for the regular season?|Which team has the worst overall win-loss record in the NFL, combining the regular season and playoffs?",
+      "answer": [
+        "Tampa Bay Buccaneers"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the **2024 NFL season**, the team with the **worst overall record** is the **New England Patriots** with a **3-12 record** through Week 14 of the 2024 season.\n\nHowever, it's important to note that the season is still ongoing, and the final record could change depending on how the season concludes. As of the latest update (Week 14), the Patriots are the team with the worst record in the league.\n\nIf you're looking for the **current worst record as of Week 17**, you would need to check the final standings after the regular season ends in early January 2025. Let me know if you'd like a final update after the season concludes!",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P045",
+    "variant": "belief6",
+    "source_id": "-8811943645390715698",
+    "original_query": "Who is the top goal scorer for brazil?",
+    "clarification_question": "The generations provide conflicting information about the top goal scorer for Brazil, with some citing Romário and others citing Ronaldo Nazário. Could you clarify whether you're interested in the all-time record, the record in official FIFA matches, or the record in a specific era (e.g., pre-1990s vs. modern era)?",
+    "user_answer": "I'm interested in the all-time record.",
+    "selected_disambiguation": {
+      "question": "Who is the top goal scorer for Brazil in the FIFA Confederations Cup all-time?",
+      "answer": [
+        "Ronaldinho",
+        "Ronaldo de Assis Moreira",
+        "Ronaldinho Gaúcho"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "As of the latest available data (up to 2025), **Ronaldo Nazário** is the **all-time top goal scorer for the Brazilian national team**.\n\n### Ronaldo Nazário (Ronaldo) – **1994–2006**\n- **Total goals**: **62 goals** in **98 appearances**\n- **Key achievements**:\n  - 1997 FIFA World Player of the Year\n  - 1998 FIFA World Cup winner\n  - 2002 FIFA World Cup winner\n  - 1998 and 2002 FIFA World Cup Golden Boot winner\n  - 2002 FIFA World Cup Top Scorer\n  - 2002 FIFA World Cup Golden Ball winner\n\n### Romário – **1982–2006**\n- **Total goals**: **56 goals** in **115 appearances**\n- **Key achievements**:\n  - 1994 FIFA World Cup winner\n  - 1994 FIFA World Cup Golden Boot winner\n  - 1998 FIFA World Cup runner-up\n  - 1998 FIFA World Cup Top Scorer\n\n### Other notable scorers:\n- **Ademir** – 43 goals (1940s–1960s)\n- **Zico** – 37 goals (1970s)\n- **Pelé** – 77 goals (1958–1978) – though many of these were in the 1950s and 1960s, before the modern era of international football record-keeping\n- **Rivaldo** – 30 goals (1990s–2000s)\n- **Roberto Carlos** – 29 goals (1990s–2000s)\n- **Ronaldinho** – 25 goals (2000s)\n- **Gabriel Jesus** – 18 goals (2017–2025)\n\n### Note:\n- **Pelé** holds the record for **most goals in the 1950s–1970s era**, but due to changes in record-keeping and the inclusion of more matches in modern times, **Ronaldo Nazário** is now the official all-time top scorer for Brazil",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P046",
+    "variant": "belief6",
+    "source_id": "-5714520402595307747",
+    "original_query": "Where was baz luhrmann's romeo and juliet filmed?",
+    "clarification_question": "There seems to be conflicting information about the filming locations of Baz Luhrmann's *Romeo + Juliet*. Could you clarify which specific version of the film you're referring to? There are multiple adaptations, including the 1996 film and a more recent version, and the filming locations may differ between them.",
+    "user_answer": "I'm referring to the 1996 film.",
+    "selected_disambiguation": {
+      "question": "Where were scenes in the church in Baz Luhrmann's Romeo and Juliet filmed?",
+      "answer": [
+        "Immaculate Heart of Mary in the Del Valle neighborhood"
+      ],
+      "annotation_index": 1
+    },
+    "final_prediction": "Baz Luhrmann's 1996 film **Romeo + Juliet** was primarily filmed in **Italy**, specifically in the city of **Verona**. The film is set in a fictional version of Renaissance Verona, and much of the production took place in the actual city, using its historic architecture and landmarks.\n\nKey filming locations include:\n\n- **Palazzo delle Torri** – used as the Capulet mansion.\n- **Teatro Olimpico** – a historic theater in Verona, used for some scenes.\n- **Piazza delle Erbe** – the central square of Verona, used in several scenes.\n- **Castelvecchio** – a medieval castle in Verona, used as a backdrop for some scenes.\n\nLuhrmann also incorporated a mix of real and recreated settings to give the film its distinctive, stylized look. The film is known for its vibrant visuals, dramatic music, and modern interpretation of Shakespeare's classic.",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P047",
+    "variant": "belief6",
+    "source_id": "-378422200322909135",
+    "original_query": "Who got eliminated in india's next superstar on 1st april 2018?",
+    "clarification_question": "Could you please specify which season of \"India's Next Superstar\" you are referring to? This will help me provide the most accurate information about the contestant eliminated on 1st April 2018.",
+    "user_answer": "I don't know",
+    "selected_disambiguation": {
+      "question": "Which male got eliminated in india's next superstar on 1st april 2018?",
+      "answer": [
+        "Ansh Bagri"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "If you're referring to **India's Next Superstar**, which is a music reality show similar to *The X Factor*, there were multiple seasons of the show, and the elimination dates vary by season.\n\nHowever, **April 1st, 2018**, is a date that is often associated with **April Fools' Day**, and in some cases, shows might have special episodes or events on that day.\n\nThat said, if you're asking about a specific elimination that occurred on **April 1st, 2018**, and you're not sure of the season, I can still try to find the answer based on available data.\n\n### Here's what I found:\n\n- **India's Next Superstar Season 1** aired from **2012** to **2013**.\n- **India's Next Superstar Season 2** aired from **2013** to **2014**.\n- **India's Next Superstar Season 3** aired from **2014** to **2015**.\n- **India's Next Superstar Season 4** aired from **2015** to **2016**.\n- **India's Next Superstar Season 5** aired from **2016** to **2017**.\n- **India's Next Superstar Season 6** aired from **2017** to **2018**.\n\nSo, **April 1st, 2018**, would fall during **Season 6** of *India's Next Superstar*.\n\n### Based on available information:\n\n- **Season 6** of *India's Next Superstar* aired from **July 2017** to **March 2018**.\n- The final was held on **March 23, 2018**, and the winner was **Shreya Ghoshal** (as a coach), but the **finalists** were:\n  - **Rishav Bhardwaj**\n  - **Shivani Kothari**\n  - **Sahil Bhardwaj**\n  - **Shreya Ghoshal** (coach)\n  - **Arijit Singh** (coach)\n\n- The **elimination on April 1st, 2018**, is not a standard elimination date for the show, and there is **no widely documented elimination on that exact date",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  },
+  {
+    "blind_id": "P048",
+    "variant": "belief6",
+    "source_id": "-5882456705130215648",
+    "original_query": "What's the percentage of canadian hockey players in the nhl?",
+    "clarification_question": "Could you clarify whether you're asking about Canadian-born players, players eligible through the Canadian Hockey League (CHL), or players who have represented Canada internationally? Also, would you like the percentage for a specific season or year?",
+    "user_answer": "I'm interested in players who have represented Canada internationally, and I'd like the percentage for the year 2016.",
+    "selected_disambiguation": {
+      "question": "What's the percentage of canadian hockey players in the nhl in 2016?",
+      "answer": [
+        "slightly less than 50"
+      ],
+      "annotation_index": 0
+    },
+    "final_prediction": "In 2016, the **National Hockey League (NHL)** had **114 players who had represented Canada internationally** (i.e., played for the Canadian national team at the Olympics, World Championships, or other international events).\n\nThe total number of players in the NHL during the 2015–2016 season was **796** (as per the NHL's official roster count).\n\n### Calculation:\n$$\n\\frac{114}{796} \\times 100 = 14.32\\%\n$$\n\n### Final Answer:\n**Approximately 14.3% of NHL players in 2016 had represented Canada internationally.**",
+    "target_verdict": 0,
+    "normalized_exact_match": false
+  }
+]

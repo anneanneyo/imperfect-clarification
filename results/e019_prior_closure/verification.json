@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "positive_prior_worlds": 44,
+  "diagnostic_rows": 128,
+  "verifier_sha256": "28c3f19b79b68259b1457b0e261fca3ab93967068b3c699b2334d70d905feb1d",
+  "manifest_sha256": "091af5272bf0653607014bb2a88bc9e05203ca5d205bb81939d66f0a58b940d7"
+}

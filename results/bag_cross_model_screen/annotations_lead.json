@@ -1,0 +1,962 @@
+[
+  {
+    "blind_id": "L001",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses the voice actor.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L002",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses raw rushing totals.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L003",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Names season three.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L004",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "has_useful_constraint_on_surface": "no",
+    "rationale": "Only states not knowing the quarter.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L005",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Names season three as requested season or region.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L006",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses current airport name.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L007",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses origin of the inauguration practice.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L008",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses songwriting across any associated version.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L009",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies T47 classification.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L010",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses first recording on American soil.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L011",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies the song subtitle.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L012",
+    "surface_class": "partial",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms the opening sequence but leaves the second request, which answer is accurate, unanswered.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L013",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses the re-release option; which re-release remains a task-level issue not an additional explicit request here.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L014",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Names the animated film as the work type.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L015",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies the 1913 event.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L016",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives both team gender and most-recent-year scope.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L017",
+    "surface_class": "unclear",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "unclear",
+    "rationale": "Repeats that the twins were present from the beginning without identifying the episode or characters; unclear whether this sufficiently answers the open reference request.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L018",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives both film version and character rather than performer.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L019",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses annual salary.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L020",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses UK version.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L021",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies book and explicitly states no country or publisher preference; lack of a preference is an answer, not missing knowledge.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L022",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Rejects the proposed mix-up and confirms show and character.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L023",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "has_useful_constraint_on_surface": "no",
+    "rationale": "Only says not knowing; the prompt itself asks the user for the original factual answer.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L024",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives production-versus-broadcast context requested by the open invitation.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L025",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "has_useful_constraint_on_surface": "no",
+    "rationale": "Says no source is available and returns the factual task to the assistant.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L026",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Names Diagon Alley section.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L027",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Supplies the requested year.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L028",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Defines first general law and explicitly declines extra effects/provisions.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L029",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives on-premise setting and general daily scope.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L030",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives a year as requested additional context.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L031",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses original ABC broadcast count.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L032",
+    "surface_class": "ambiguous",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Provides a useful cover-song clue but leaves the requested approximate decade between two alternatives.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L033",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Supplies the third-film scope in response to the invitation for more specificity.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L034",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses live-action sitcom option.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L035",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies studio version.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L036",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies both show and Barbara.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L037",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses the pop-version option.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L038",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses while-in-office scope.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L039",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies the 1995 film.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L040",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies version by album.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L041",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses original series.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L042",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies Owen Hunt.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L043",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies version by artist.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L044",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses the entire post-independence-title scope; further details are optional.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L045",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives both original towers and architect rather than engineer.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L046",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies movie rather than book as work type.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L047",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms the named movie.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L048",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies Jett Reno, satisfying character-or-season request.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L049",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses the accumulated-gum location option.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L050",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies UK version.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L051",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses first recording.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L052",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "has_useful_constraint_on_surface": "no",
+    "rationale": "Only states not knowing the state or region.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L053",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses regular US episodes.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L054",
+    "surface_class": "ambiguous",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Original version does not identify which of the same-titled songs/artists is intended.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L055",
+    "surface_class": "unclear",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "unclear",
+    "rationale": "Names a tour rather than a date; without external tour knowledge it is unclear if this resolves the requested time.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L056",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses actor rather than character.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L057",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies live-action American sitcom.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L058",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms Florida Georgia Line song.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L059",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies Hell's Cage.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L060",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Provides release year to identify version.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L061",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies movie.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L062",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives a general description of relationship nature and evolution; factual validity is not assessed.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L063",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms Grey's Anatomy.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L064",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies US Capitol.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L065",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Names Henry Gowen.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L066",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives both modern period and band meaning.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L067",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses original animated short.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L068",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses geographic-feature category; further specifics were optional.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L069",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies India.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L070",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses 1965 film.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L071",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies the character relationally as Nick Andopolis's father.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L072",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies movie.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L073",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses information through the stated cutoff.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L074",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies animated series.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L075",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses earliest post-independence assembly.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L076",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses media project category.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L077",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives live-action type and DCEU as the offered production-context option.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L078",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses TV characters rather than real people.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L079",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies Tony Angelino.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L080",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses the offered season option; factual premise is not verified.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L081",
+    "surface_class": "partial",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses middle-grade series but does not answer who specifically is asking.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L082",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses TV-series category from offered alternatives.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L083",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives both child age and 2015-2016 interval.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L084",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses release-for-sale date.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L085",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "has_useful_constraint_on_surface": "no",
+    "rationale": "Only states not knowing the release region/version.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L086",
+    "surface_class": "explicit_unknown_or_refusal",
+    "has_explicit_unknown": true,
+    "has_useful_constraint_on_surface": "no",
+    "rationale": "Only states not knowing; the supposed clarification has no interrogative request.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L087",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms series and character context.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L088",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies Country Music Hall of Fame.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L089",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies Antigua and Barbuda.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L090",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms sitcom and Warden Hodges, correcting the proposed confusion.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L091",
+    "surface_class": "ambiguous",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Excludes sport-specific GAA but does not identify an organization or unique general award.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L092",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses the post-1822 territorial period.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L093",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses primary third baseman.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L094",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Clarifies actor rather than character despite extra answer text in the question.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L095",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Supplies a county to the literal county question; possible final-answer leakage is separate from surface completeness.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L096",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Explicitly chooses general practice, rejecting particular-period scope.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L097",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses 1969 album.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L098",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies United States Army.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L099",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies movie.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L100",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Explicitly states version does not matter; this is a scope preference rather than unknown.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L101",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Affirms that supplied information answers the question.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L102",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses 2021 film.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L103",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses music video.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L104",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives TV type, network, and year.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L105",
+    "surface_class": "partial",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies Lauren Tanner and the series but leaves the explicitly requested year unanswered.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L106",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Specifies the 2016 reboot.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L107",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Identifies biological mother rather than Kitty.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L108",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives full character name, one of the requested alternative identifying details.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L109",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms US SBA and historical rather than current scope; the question did not explicitly request a year.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L110",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses iPad Pro.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L111",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses woman from the offered alternatives.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L112",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives first-model-year scope and Japan.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L113",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Gives both all-platform and global scope.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L114",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses player-total interpretation.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L115",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms Cars Land attraction.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L116",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses judge rather than participant.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L117",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses international Test match.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L118",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses movie rather than biblical story.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L119",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Confirms 1995 film.",
+    "annotation_status": "assistant_provisional"
+  },
+  {
+    "blind_id": "L120",
+    "surface_class": "apparently_complete",
+    "has_explicit_unknown": false,
+    "has_useful_constraint_on_surface": "yes",
+    "rationale": "Chooses dedicated national breakfast-show interpretation.",
+    "annotation_status": "assistant_provisional"
+  }
+]

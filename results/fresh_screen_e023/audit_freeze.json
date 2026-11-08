@@ -1,0 +1,11 @@
+{
+  "files": {
+    "experiments/record_blind_e023.py": "07d75e3d694f4f708e0a1891ba1ad5ce9cc9bdce0bf0dffac092302cf1f3236a",
+    "results/fresh_screen_e023/manifest.json": "9f469609c8ece0d32179711a1026f9463307a8be7f01c93516b5e10451c89403",
+    "results/fresh_screen_e023/blind_audit.json": "2eda60e940a064dd003ce545099ca1b6fd59c200b1d5734fe6c6802e47b040c9",
+    "results/fresh_screen_e023/blind_interpretations.json": "9fa77013bd4e55e7849bae0d9d0c0db6ccebd6c9ef0778c374dbfcc5e4ab51f7"
+  },
+  "reference_comparison_existed_at_freeze": false,
+  "screen_outcomes_existed_at_freeze": false,
+  "reviewer": "single assistant; source reference fields/kinds/gold not displayed before interpretation; general ontology known; not independent human validation"
+}

@@ -1,0 +1,842 @@
+[
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00047",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00003",
+    "old_accuracy": 0.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00298",
+    "old_accuracy": 0.25,
+    "new_accuracy": 0.25,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00109",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00127",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00112",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00282",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00417",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00299",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00095",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00377",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00070",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00263",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00149",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00199",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00366",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00370",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00273",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00483",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00345",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00233",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00054",
+    "old_accuracy": 0.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00253",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00073",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00467",
+    "old_accuracy": 1.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00363",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00491",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00184",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00062",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00474",
+    "old_accuracy": 0.25,
+    "new_accuracy": 0.25,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00055",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00037",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00106",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00164",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00437",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00249",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00213",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00069",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00248",
+    "old_accuracy": 0.75,
+    "new_accuracy": 0.75,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00334",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00232",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00063",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00418",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00384",
+    "old_accuracy": 0.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00278",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00026",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00115",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00367",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00423",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00454",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00238",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00210",
+    "old_accuracy": 0.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00340",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00433",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00034",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00030",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00431",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00354",
+    "old_accuracy": 0.25,
+    "new_accuracy": 0.25,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00110",
+    "old_accuracy": 0.75,
+    "new_accuracy": 0.75,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00195",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00470",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00016",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00293",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00389",
+    "old_accuracy": 0.6666666666666666,
+    "new_accuracy": 0.6666666666666666,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00175",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "old_accuracy": 0.6666666666666666,
+    "new_accuracy": 0.6666666666666666,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00124",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00455",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00317",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00390",
+    "old_accuracy": 0.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00181",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00490",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00214",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00155",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00426",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00406",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00087",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00176",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00403",
+    "old_accuracy": 0.6666666666666666,
+    "new_accuracy": 0.6666666666666666,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00378",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00375",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00050",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00042",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00234",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00143",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00258",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00348",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": true
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00447",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00079",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00158",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00235",
+    "old_accuracy": 0.6666666666666666,
+    "new_accuracy": 0.6666666666666666,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00379",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00144",
+    "old_accuracy": 1.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00287",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00332",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00120",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00057",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00166",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00336",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00315",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00268",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00031",
+    "old_accuracy": 0.6666666666666666,
+    "new_accuracy": 0.6666666666666666,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00409",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00043",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00327",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00281",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00344",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00203",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00019",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00412",
+    "old_accuracy": 0.5,
+    "new_accuracy": 0.5,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00084",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00350",
+    "old_accuracy": 0.3333333333333333,
+    "new_accuracy": 0.3333333333333333,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00169",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00279",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00484",
+    "old_accuracy": 0.0,
+    "new_accuracy": 0.0,
+    "clean_known_error": false
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00425",
+    "old_accuracy": 1.0,
+    "new_accuracy": 1.0,
+    "clean_known_error": false
+  }
+]

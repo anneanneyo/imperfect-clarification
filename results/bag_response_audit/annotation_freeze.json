@@ -1,0 +1,8 @@
+{
+  "files_sha256": {
+    "lead": "db617bf25327b697208ffadf09e273ce84c138b6e0b82e2ccd096029e6eaf382",
+    "reviewer": "07bdd1642c4d01ec5b43bb1ca745ede22e6d5f47299953547927e86fd87da3c9"
+  },
+  "blind_pack_sha256": "fefa65d5979f3e55ecf607524c3d472d7b7196e5a57f8742aa7d823f5c2d75ef",
+  "freeze_note": "Both authors declared blind coding complete before outcome unblinding. Original labels immutable; adjudication, if needed, separate."
+}

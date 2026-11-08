@@ -1,0 +1,19 @@
+{
+  "selected_before_execution": true,
+  "seed_string": "E007-v1:",
+  "train_task_ids": [
+    "109",
+    "93",
+    "8",
+    "20",
+    "107",
+    "85",
+    "21",
+    "6",
+    "59",
+    "103",
+    "96",
+    "46"
+  ],
+  "source_commit": "fc0055dc4e0a316c3f83133267fbd6faaa770992"
+}

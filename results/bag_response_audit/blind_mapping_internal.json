@@ -1,0 +1,382 @@
+[
+  {
+    "blind_id": "B001",
+    "source_id": "1814750729939502814",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B002",
+    "source_id": "-3213284714543612704",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B003",
+    "source_id": "-8648065073471307674",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B004",
+    "source_id": "-1401070853739059360",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B005",
+    "source_id": "449370609603105131",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B006",
+    "source_id": "-8176622829765293104",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B007",
+    "source_id": "-7048505285207892697",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B008",
+    "source_id": "4233964653136094599",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B009",
+    "source_id": "1040777011551693796",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B010",
+    "source_id": "-8934331549930030728",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B011",
+    "source_id": "5478916398121681810",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B012",
+    "source_id": "-6082358069944180451",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B013",
+    "source_id": "7496793371054724086",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B014",
+    "source_id": "-5715491724683223701",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B015",
+    "source_id": "8962296811699148133",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B016",
+    "source_id": "1058745321400687717",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B017",
+    "source_id": "-4731464570467886433",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B018",
+    "source_id": "-7914934407583168124",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B019",
+    "source_id": "-4196197025985715858",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B020",
+    "source_id": "1878103752796630343",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B021",
+    "source_id": "7150599999316106461",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B022",
+    "source_id": "4480900736127210739",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B023",
+    "source_id": "-4545751866696079002",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B024",
+    "source_id": "2113696119798835355",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B025",
+    "source_id": "-3452385012217882108",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B026",
+    "source_id": "-279770337812755150",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B027",
+    "source_id": "-7717464895267084983",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B028",
+    "source_id": "4183252176965080529",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B029",
+    "source_id": "1695349174231804519",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B030",
+    "source_id": "-1703843779501228505",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B031",
+    "source_id": "-2569294946645420619",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B032",
+    "source_id": "-9023410961710068502",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B033",
+    "source_id": "6400044644383700926",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B034",
+    "source_id": "6972749244698896765",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B035",
+    "source_id": "955636187401991675",
+    "pilot_seen_by_eda": true
+  },
+  {
+    "blind_id": "B036",
+    "source_id": "-3348419416493937888",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B037",
+    "source_id": "2657851952953142133",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B038",
+    "source_id": "-2375350863120725800",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B039",
+    "source_id": "-1070362242275909255",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B040",
+    "source_id": "4757523269455004982",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B041",
+    "source_id": "6385308901094079734",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B042",
+    "source_id": "-4573737623326010858",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B043",
+    "source_id": "2470165841337520099",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B044",
+    "source_id": "-2460406457437939626",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B045",
+    "source_id": "-5074863101224855995",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B046",
+    "source_id": "-3673434529814952153",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B047",
+    "source_id": "4173446972612181668",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B048",
+    "source_id": "7813254335895169912",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B049",
+    "source_id": "-2824129131202796674",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B050",
+    "source_id": "8519077744252082469",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B051",
+    "source_id": "8690134227082764044",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B052",
+    "source_id": "-29876963762392843",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B053",
+    "source_id": "2048938326690984839",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B054",
+    "source_id": "2106848518123375268",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B055",
+    "source_id": "-7029078537681900678",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B056",
+    "source_id": "2248395039731877618",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B057",
+    "source_id": "-3176814404414677007",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B058",
+    "source_id": "-5262314682072820875",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B059",
+    "source_id": "2098904482757944074",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B060",
+    "source_id": "-2194308568409237102",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B061",
+    "source_id": "-1541618312286812568",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B062",
+    "source_id": "838755198336235725",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B063",
+    "source_id": "-8069899625747978823",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B064",
+    "source_id": "6776234528515962047",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B065",
+    "source_id": "39032392901600325",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B066",
+    "source_id": "6528147196703570266",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B067",
+    "source_id": "7376722717277534329",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B068",
+    "source_id": "-1553526002861565167",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B069",
+    "source_id": "-6009084797339061172",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B070",
+    "source_id": "-2886061734189281128",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B071",
+    "source_id": "267504983206791369",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B072",
+    "source_id": "8597246075505333050",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B073",
+    "source_id": "-4649654703638364295",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B074",
+    "source_id": "-3254745754392014990",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B075",
+    "source_id": "-2235196533462771212",
+    "pilot_seen_by_eda": false
+  },
+  {
+    "blind_id": "B076",
+    "source_id": "-3611913378590168865",
+    "pilot_seen_by_eda": false
+  }
+]

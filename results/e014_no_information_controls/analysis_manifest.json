@@ -1,0 +1,8 @@
+{
+  "files": {
+    "results/e014_no_information_controls/manifest.json": "ac591fa30277587a70951f3c46ddd8d43ab167f231a3dd9de2235e58a608487b",
+    "results/e014_no_information_controls/generations.jsonl": "00dc03300f2e45e544f0d0debf83a184fb434e797fe9d22a211237f2ad0cb43f",
+    "results/e014_no_information_controls/details.json": "b873bd14092e1888e8ed1ddc876f92f9ad29e9a4b0341ae36238fb9d4f9e5cf3",
+    "results/e014_no_information_controls/summary.json": "d1c459b30dd58379f5f180daab5ae3c5b57ad1a4dc94decb11aa6babb77f1b4c"
+  }
+}

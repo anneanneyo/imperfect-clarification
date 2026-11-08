@@ -1,0 +1,25 @@
+{
+  "dataset": "moganai/lavoir-dialogues",
+  "revision": "d2c66dc86c782fadccc14748d8fa073ca16a6090",
+  "createdAt": "2026-09-25T06:56:33.000Z",
+  "lastModified": "2026-09-25T07:23:55.000Z",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 12859,
+      "sha256": "b7c27d228eabb8c2534fdd0f9c0a3438739220c664e086342651b12a2bf8275b"
+    },
+    {
+      "path": "schemas/banking_support.json",
+      "bytes": 3968,
+      "sha256": "625280cca355d1644bd604dd77837d03637c2e087d2f36bdf913b31a19082e1d"
+    },
+    {
+      "path": "data/train/banking_support.jsonl",
+      "bytes": 7299811,
+      "sha256": "6641c847f59d539fc99de6dae24f92babeb0358c68699514528e23f3c8c71365"
+    }
+  ],
+  "scope": "banking_support train only; no test records downloaded",
+  "cache": "/private/tmp/lavoir-data-20261027"
+}

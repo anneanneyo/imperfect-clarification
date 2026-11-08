@@ -1,0 +1,16 @@
+{
+  "files": {
+    "results/heldout_value_e016/manifest.json": "e840949b60aa2ae20cfb9901b2d13f1b0f07865c0251809894f363e1b1d0a44e",
+    "results/heldout_value_e016/train_targets.json": "bbec7862b408877e2ac36e88d31d00a5f13b471e8a4164f48257d2d2a20d5970",
+    "results/heldout_value_e016/train_details.json": "0a703e96937b9277c746e35061ea7e4533b02ebb10cf435f9c370e197b7dfe4e",
+    "results/heldout_value_e016/model_metadata.json": "719bb80a9c9a142561c4ac6d461106596a2866fa45a20d9e0d84a2a74c224e75",
+    "results/heldout_value_e016/model.npz": "ee9b09d2ddc0722bcdca472986b8d01f6e582a7ecf3049919b97c412aad84869",
+    "results/heldout_value_e016/test_predictions.json": "b3fbf4fee347e6c1753f5a1f5b48d27112a153213060428d3fa1614e05642481",
+    "results/heldout_value_e016/shards/train_00/generations.jsonl": "08c5ec60eab265609e52292a296da3323db9418fd8ea2d23b521468feb51e09c",
+    "results/heldout_value_e016/shards/train_01/generations.jsonl": "820c8e300c1d85cfa5147935eb1885974f3d3e3decdd0fef0a86dd7817a61f8c"
+  },
+  "test_generations_existed_at_seal": false,
+  "train_components": 96,
+  "test_predictions": 48,
+  "timing": "Predictions sealed before any test inference"
+}

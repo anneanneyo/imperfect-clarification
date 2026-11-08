@@ -1,0 +1,49 @@
+{
+  "reviewer": "single assistant, unblinded post-outcome; all remaining disagreements; no independent human validation",
+  "cases": 67,
+  "fields": 90,
+  "assessments": {
+    "model_not_supported_by_text": 63,
+    "ambiguous_text_or_ontology": 9,
+    "gate_discarded_source_correct_value": 10,
+    "missed_explicit_fact": 2,
+    "model_supported_annotation_incomplete": 6
+  },
+  "primary_metrics_unchanged": true,
+  "by_dataset": {
+    "E014_dev": {
+      "cases": 11,
+      "fields": 15,
+      "assessments": {
+        "model_not_supported_by_text": 12,
+        "ambiguous_text_or_ontology": 2,
+        "gate_discarded_source_correct_value": 1
+      },
+      "optimistic_credit_sensitivity": {
+        "original_exact": 81,
+        "additional_credited_disagreements": 3,
+        "exact_if_all_these_credited": 84,
+        "total": 96,
+        "interpretation": "Post hoc sensitivity only; assume every mechanical/source/ambiguous disagreement correct; not a revised score or semantic accuracy bound."
+      }
+    },
+    "E016_train": {
+      "cases": 56,
+      "fields": 75,
+      "assessments": {
+        "model_not_supported_by_text": 51,
+        "gate_discarded_source_correct_value": 9,
+        "missed_explicit_fact": 2,
+        "ambiguous_text_or_ontology": 7,
+        "model_supported_annotation_incomplete": 6
+      },
+      "optimistic_credit_sensitivity": {
+        "original_exact": 309,
+        "additional_credited_disagreements": 22,
+        "exact_if_all_these_credited": 331,
+        "total": 384,
+        "interpretation": "Post hoc sensitivity only; assume every mechanical/source/ambiguous disagreement correct; not a revised score or semantic accuracy bound."
+      }
+    }
+  }
+}

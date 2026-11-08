@@ -1,0 +1,5062 @@
+[
+  {
+    "task": "ClarifyBench_A/0389df48.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "2212ba5c1ce6b6fdac81cdb40c06d8276cad27ca4dff4a3bfeb0c62a34ac2bf6",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "6cd13b0220656fe5020fb6251f0dbec6675550f13282e89710cc137a6bec6960",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "48fa37199e5ad1286858a7c23ddba227672e91cb51ddf959f5fca57aa44444f0",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "d5df2dd4d8f754cf5aca2ac10ccaa4123493bef8a8350e5909f0872c5bd64f19",
+      "initial_content_hash": "81a1d7aa3e08e156b412dac339dc4b62d6dbd634a63d26b6f2e4cfae7037ed29",
+      "state_hash": "d9bf82979156b1b1181ecd25c428360b46e4b0bf2d1cc00f6bd34b327b7ee1e4",
+      "content_hash": "a00368709434df7168e44faa491058f77a7219f332781fa907b2209551ef6f34",
+      "distinct_read_observations": 3,
+      "read_observation_count": 3,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/07f3d861.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "f53ce89c3b82528959c071de60fc1bd25eb3b6fcc69e591547f7b70f35d125a2",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        }
+      ],
+      "initial_operational_hash": "8b44633abed7fec28de38bf1c8540483cbf6e7d75426e9b869dd34463f7fd899",
+      "initial_content_hash": "a7215fdaa26b9ec63c4deba9f1d1ad92d7a6a795db5a291fb023f65e04d7bd25",
+      "state_hash": "8b44633abed7fec28de38bf1c8540483cbf6e7d75426e9b869dd34463f7fd899",
+      "content_hash": "a7215fdaa26b9ec63c4deba9f1d1ad92d7a6a795db5a291fb023f65e04d7bd25",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/0a9a8966.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "a032c2a70591ce2490c23005e8615b775cda418eac97ad0747c2186cc3aa5290",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "248de184e11229b6c944983860a9a00e1e5b22812db60f159638674fb0ef10a1",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 3,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "1767a47d0045f9ef3bf87e381ede076bd886cb0198ee882d31ea20652d43eaac",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        }
+      ],
+      "initial_operational_hash": "bf5389fb2020cc58e49c4baa7eef397ae19e697d5b38d774c7e4413b96d6be8f",
+      "initial_content_hash": "e8a45cd332e605623c55eee5a09ba1b144cb06bcb108a04af9398e7ca63bfff9",
+      "state_hash": "66ce2733f6a014dae621946224dbff9a5a04709124bdad7b7c3a0a5281554927",
+      "content_hash": "b208914c65aa44ebcd3985e59dd33dc5d05c8ff84ceea14d148873f8980017dd",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/11077344.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "f5405b143c9d96217934eec8e8cd5ba409e433fe5a6310346fffc68710db5d1d"
+        }
+      ],
+      "initial_operational_hash": "d30336ff0106aa87d092b75ce412fb1a80c4d10ae8500b2b7f344c327efda198",
+      "initial_content_hash": "a07125e13d11b5f73397322ec8eaf63b1de582d4c0fc6cb0108efa501affe180",
+      "state_hash": "d30336ff0106aa87d092b75ce412fb1a80c4d10ae8500b2b7f344c327efda198",
+      "content_hash": "a07125e13d11b5f73397322ec8eaf63b1de582d4c0fc6cb0108efa501affe180",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": true,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/1a62cf1b.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "14005099620de7de6bbf27470e975f3f2de906316a99963e84b58ed805f4f4eb",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 2,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "9867f3bf2da6942458198d15e15219abbf0dc6f71df5e0bfbee1cb80248aea52",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 4,
+          "tool": "wc",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "47ffd0973e9347897b2e8fac0af038788cd283a027e7d0182f65d81ab1a093e4"
+        }
+      ],
+      "initial_operational_hash": "b69e0fbb7a975fc1a8103a2c8aac550d8b52bfffedab80065b10b1b91e6bc394",
+      "initial_content_hash": "35c0577b7810195eef3e00e9747c34f2becc0b63c897a5cabf8fb0c42bfdfae2",
+      "state_hash": "abc9131efaa1b77d42a78b3ebf08186b26265f5f439537ac489c0ed271b1861b",
+      "content_hash": "df8fb9c7a719209efb4dcf0c87f1f46d6995a662bc23a6971260d2f3e4b44e91",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/1bf17f89.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 1,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "7751b66921b05c43a1283fb3131cafec02a266c5f0c90a588edd4bcb2228034d",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 3,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 4,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        }
+      ],
+      "initial_operational_hash": "8db1bbc72a290cab91fa8a1357569817948b9ceef2c0551cb60f61b5d30b885f",
+      "initial_content_hash": "6fa20b74c0f359f0fca54965d6d1f9b9d370ef4afa637a8361bdae2a134107db",
+      "state_hash": "86a560dded504e6df21c3b4d7c5b903c62f31fd76379fda3ebecd9347d63c818",
+      "content_hash": "e553292aa7446ccac76ec6a076e37063fe914b6ef102ad3d7ab3320286d828d5",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/1fab1ac0.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "d8ce085656e573846e8ffed50e40d9988e74818d18a9dd40ad67424125cb2c0a",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "6220786681ad39bbe61dda7ad230ffe25a139b1ce12c576358e214ffbbfebe61",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 2,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "404a86d2f3cd757c46078ec1d0e89a7b56818b8befb7516fc81b3d5ff0a7d933",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 3,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "80bd22029f2ff092fdf99e4d0a3992b8e88d17a6f781f5069fcf14e645543643",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        }
+      ],
+      "initial_operational_hash": "75f30e99a654bf6d8c4a0d1fc1b13e352739cea7428f7da195030444299c8a1a",
+      "initial_content_hash": "92ee59d12267b51ebebe66b9419c8609958582e3064473e0d9db50c778012b66",
+      "state_hash": "9689792c8c0261b55a56977c710965cd094d744e66e79b3630b10f9d5ba2ee13",
+      "content_hash": "92ee59d12267b51ebebe66b9419c8609958582e3064473e0d9db50c778012b66",
+      "distinct_read_observations": 3,
+      "read_observation_count": 3,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/20030cbb.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "ce76052b701d32831810d8ff128424c0f566b9b825b7918a232b4bd78e810636",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "e4feb80231423e1949492696ffa4d92b88301c66be35511237615e6bc4cd51a3"
+        }
+      ],
+      "initial_operational_hash": "0100c96d5213a826f800ab858a890290145d1fb397d89920bb8b01215a28237d",
+      "initial_content_hash": "cca1100ed3afcdaaf176e756d64bef17632f85e37513d4db0071920c5d4939e1",
+      "state_hash": "0100c96d5213a826f800ab858a890290145d1fb397d89920bb8b01215a28237d",
+      "content_hash": "cca1100ed3afcdaaf176e756d64bef17632f85e37513d4db0071920c5d4939e1",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/39df4ecd.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "9137a9d0840fd87d723b8c9f87846bfe2d17cdc98f07747270b7177ee1c43d66",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "1d2d3a3dca11b393bb36a7ccd8a67fa2e2ac67be151acc0f480eab5f569cbb95",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "607831509bc98fbdeb9dd52de2a61246bbc348fc8b9479add8f5740362b88e5c",
+      "initial_content_hash": "6828c61f5916b01234bbae34c7624314f041076f71c558f8ca927957d42928b9",
+      "state_hash": "af4cad45bf652d4155cb78f6e649bd73ecca607b6896a596fe7b8bf16df196c6",
+      "content_hash": "790d3b7b9dfa552506f4d6e024b2794b46771e112f92dafd0a96f02261ab2c11",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/3b8cca5e.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "97e9f15c6b3521ec72dda0c38090326c84f6c3212b4ad713fc34d28f2d14618b",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "22c9e077826cb8390b5caacc22edf79d70685fc705bc9c9591f710c6b1c30214"
+        }
+      ],
+      "initial_operational_hash": "76286a863c94f0c580a879205ba22c7caec8793e658dbd21592d6741d42ee170",
+      "initial_content_hash": "331ea3081bd5beacba40c33d8a3bede6e51fc4d330b6f6e4f2628adc4402c444",
+      "state_hash": "76286a863c94f0c580a879205ba22c7caec8793e658dbd21592d6741d42ee170",
+      "content_hash": "331ea3081bd5beacba40c33d8a3bede6e51fc4d330b6f6e4f2628adc4402c444",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/3e9f9a44.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "3b9e6582aa8b965d716f2d12c34ace3febc0b16b1628ff516da380183c67d19b",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "3b9e6582aa8b965d716f2d12c34ace3febc0b16b1628ff516da380183c67d19b",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        }
+      ],
+      "initial_operational_hash": "128b9f9dc536ee664554dfb758612019b12aa1eb2e4fb9b525df059b4a31e768",
+      "initial_content_hash": "cbe9f36aa863bb50782edfdbf4de11f9d5d338a648b5dae8c7dab0595fc7790d",
+      "state_hash": "128b9f9dc536ee664554dfb758612019b12aa1eb2e4fb9b525df059b4a31e768",
+      "content_hash": "cbe9f36aa863bb50782edfdbf4de11f9d5d338a648b5dae8c7dab0595fc7790d",
+      "distinct_read_observations": 1,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/3f5d368b.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 7,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "70be1f67984905567de0cb8256a1852d66763ac2f39f971d112de920b15ce2e8"
+        }
+      ],
+      "initial_operational_hash": "701f41f016650545ce34e1c86ee5141cbcaba39e7250cc221807c7d0572377ef",
+      "initial_content_hash": "f3cffb65984fef6fed61eec818356af062cf4ad57cea79a5bcc0176bd3a4f90f",
+      "state_hash": "9e9841c3409463bd05f7cca9d11dcec3cd574631c86619ceab2396f26e2b2ac5",
+      "content_hash": "ddffca0469fe39890d0b1e87d7a361a10bc66b570e239c99648b1b4e2570aa7c",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/4c1ff7d6.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 6,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "dad9fac6d9db9ae2c800499e4b70a1b39fb02447d0cf662466f89373ba28dccf",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "4ebd1d30856323cd1a923905c54a17fdf91f9bc9bef2b150055ead5736878aa1"
+        }
+      ],
+      "initial_operational_hash": "3b058379960624ae04ad3923c9be2f815af1e64861b674edc3bebd24604c34d3",
+      "initial_content_hash": "81e0248a8fb3b64f0a879a09978556bb06d7830b4ec45f6e6c94db7cd642e7ba",
+      "state_hash": "db9c59d01d1129044d393c3f2cbd87884d3bce3ca32339d72385f7d2617797ba",
+      "content_hash": "9ed7e855abc0a01e0d5a7fc35dd9302fd6ef3bd4e4afe76d09ef6cc7e7d6fe30",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/4df228b6.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": true,
+          "error": null,
+          "output_hash": "bfb796d301acb438ea041b6b0543b744259b2747f50e214886123b6881bafb4c",
+          "message_hash": "c958020de427f289b83e2028997e47b384c04b29df15a8c63d2f16f38a113bd0"
+        }
+      ],
+      "initial_operational_hash": "ff55010c4aea962f40002f570a6ac8e5798da4df3fff2712a065e298dcdfe2f0",
+      "initial_content_hash": "d041f1c7e3b18434de34b61f3ff16e213dda17c1ba0314c77a1824406e348272",
+      "state_hash": "ff55010c4aea962f40002f570a6ac8e5798da4df3fff2712a065e298dcdfe2f0",
+      "content_hash": "d041f1c7e3b18434de34b61f3ff16e213dda17c1ba0314c77a1824406e348272",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/51fe1486.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "0aa9edfbe69f4c499b8e9e26a79de1fc1d76da74ac51b42908a5da2eb65825af",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "68a16477b35de0ea5a26b08b6b0f3583f400ae56c7719d9524ac3c868c7a257f",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 2,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "3e74cf0b9099fd1ca570c29510b9f690da72bedea7acb2e26eeb18fca05bf9fe",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 3,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "16976c60b40e160e2d4afd4279027345fc7d98c1938205d66f926ea6a1fc4fac",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 4,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "7d8c2efb014258380de3fb57c86766d018d1e1d3365a7a233b556d2612b27010",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        }
+      ],
+      "initial_operational_hash": "99fea7a666305d4de9e95fae3e7d29702da60dd639a3b5f75aa21e35854b5a08",
+      "initial_content_hash": "e95e8aa4cd8c9a521a37c2c3bdaa95d9136a98c27df7f2125e17b7f421dc8bc7",
+      "state_hash": "584a07ae2e9bfec64077eff56dbb6f141f0428e8011d02a6678755571292d50b",
+      "content_hash": "4cf396aac8f926f88e954fa6758ccb64b8a216f98f4330745c5aabc114c79c26",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/64abbd0e.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "6fd98e07aba9c3ecca2666b9a52f59632e4841d350b6980cb8b4f3584067e137"
+        }
+      ],
+      "initial_operational_hash": "7555661bca59e7f10413dfcf2616ee9776fa02cc5bc342c9eeb9c86f9078b86b",
+      "initial_content_hash": "33e9c6438c6b3024ad01dd29c262e47b418d6eac59d5df0bc2117d5fb304ac40",
+      "state_hash": "7555661bca59e7f10413dfcf2616ee9776fa02cc5bc342c9eeb9c86f9078b86b",
+      "content_hash": "33e9c6438c6b3024ad01dd29c262e47b418d6eac59d5df0bc2117d5fb304ac40",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/6aee72d3.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "fe5b91a102e121045be96b0e0d4e7081c3d28b6c59e40f13924fd4594c9151ba",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "ee92c84dd6e85219f6fe7f57bf97e96521f47781972d2fc7af404369e57e6f21",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "2213c21288c5aaafc50de8e0bf3bf4be5b2e711df7f312134e2d523d5fc43108",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 3,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "280d12a1451317a4b8143e189f0ebfa58c53562ac8c2963101c2557c1cd413ae",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 4,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "2fc6c89a1add4fde11c62905deb6803b1007ff980f7b007f85f70fe5bcbd2582",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        }
+      ],
+      "initial_operational_hash": "1cdf9f8273d491af48bd3f6153cb671bd978157d75cfb73346febeeaed00b28e",
+      "initial_content_hash": "1448d971661512455efeb8420f59c0545bc40f98876ae06eb3736a7b737e66bb",
+      "state_hash": "ba94df57aea9097d674edda641c7ed5f564382de0dfc7a1215fe5d83596d50ef",
+      "content_hash": "e0065281dce7b2dd358e06d7801774c0ebb79df3fb92281b9522590693c75b6a",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/84017c88.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "1492e91cf33fc3210badca91a8d1fd9c6083ccca6eee0f51a16611ec1991a57c"
+        }
+      ],
+      "initial_operational_hash": "6dcc43c7ec47022e305c5c9b1cb32f355cc5e860673f48eaa50008fc44e90d20",
+      "initial_content_hash": "18c180af79a55811ea90d791192a791505d50c76b7a99e3acd24247ea64e989b",
+      "state_hash": "6dcc43c7ec47022e305c5c9b1cb32f355cc5e860673f48eaa50008fc44e90d20",
+      "content_hash": "18c180af79a55811ea90d791192a791505d50c76b7a99e3acd24247ea64e989b",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/844fff76.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "3fe0e3cc29d955d90c901e5c1b0a2a1f2e24a9382a6f8d8bc3dc539b0cea6274"
+        }
+      ],
+      "initial_operational_hash": "baba6a8b10491e545a0fdf5694f57b5286666fa49a38d3ab815a262f37b0caba",
+      "initial_content_hash": "bcd29dc9729f85910eadc475de7cdb4e6f269d85c568bf321227b742980c7418",
+      "state_hash": "baba6a8b10491e545a0fdf5694f57b5286666fa49a38d3ab815a262f37b0caba",
+      "content_hash": "bcd29dc9729f85910eadc475de7cdb4e6f269d85c568bf321227b742980c7418",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/8e7a852d.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "8cdfc925be9e525b76d95f8fcd6877b1577d8bcf6a00e6320b3ed5488b1564a5",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 2,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "d72d24a04da9d693c29d8bd015fee368b6d3e7eaa89940c6a72ead5c31dd0de7",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        }
+      ],
+      "initial_operational_hash": "0fd93ec07cbd7be64d2f0ce04b634835ec76a08735c7f97d518c7cd24fb2ad78",
+      "initial_content_hash": "f0cb4d04c25e950c5ad7f8ce6fbefde7c8a4b44591df85e4db34913175fedfaf",
+      "state_hash": "6484eb6549e2e37406222a88846d79b2f283cb24e98e51a1d3ade0766c2628ce",
+      "content_hash": "eebb802ee707c54f63659898c1d2a37b1dbfb8692645400a2fb76facca65f61c",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/9634c0b1.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": false,
+          "error": "EXECUTION_ERROR",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0c93fa5261e3b35e03b5431f7994ae24e01051b67032f1f7344597e32231561c"
+        }
+      ],
+      "initial_operational_hash": "e08f66d93b45d4601cfbfc89a83d0ae8e4248a62fa302a37e45e81fbbeca0ad4",
+      "initial_content_hash": "536d96e1b596e16dfaba541bc44f9c54c95d29bb476dc420a2c07d8e85ecb657",
+      "state_hash": "ed299f216cc67536b6b313b8e0b48dfe6f2745a621ec404353466addaaaf1fb7",
+      "content_hash": "be9cfdc7eae11275359655bcd590b189ba66d4b929a46063afb22b22ce6b0169",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": true,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/97cf33d2.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "1c09b20aa22e9067b1f7239d79b3bd0f140bdb6b89cfe6b5c1f61ad96d08d4a7",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 2,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "9b9db4404c8ff5049b956f7fe150a8278a351200caaac36ba54cddba3f1d0601",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "7f7b9037f85d629f5e67e77d29c0acbd6d1b105154e0c43c2ae72c4c4032c769",
+      "initial_content_hash": "322f792d0d6f8dd21623136d27256aa6d0f24e26b13b284fd42de323bb5e9729",
+      "state_hash": "90fdf59cb869c5a39ebf3cd32686d362a1c66a01355baf1ff881e9d2b9b0beb6",
+      "content_hash": "301f6c8d5f4a211b146297b76fd8124b00157eb8658db5c97af97ee928c83a34",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/9bd436bd.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        }
+      ],
+      "initial_operational_hash": "7ba76a131bdba28f91d99bce1496c4add5754d1c635ff2b0a3ea9e8454d4582f",
+      "initial_content_hash": "d1c23c24ecbd5c50663b07b956cdc6fdb4c74ae6f410d374d84d40b98783cd58",
+      "state_hash": "b157f242282fff267ae56cb9e7f87d07f94c12cb419fc7fd11e2639f5aa46584",
+      "content_hash": "0a92ee57fd380efeae6bcf7d33971880c89d543ff42cbe96601380cb19525a73",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/9cd832b4.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "0c1a7b3981bee7687cd48b987a0a206f46d01e3080599d5da8e8e050044ff34d",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "30d8904764d34bb0779f17a9a3215dd5544e88d35c8b006153b6bfc9454e7519"
+        }
+      ],
+      "initial_operational_hash": "57a410a2da66d375cbe97b2d66c54bd267c12ea55195ea1d35281c414dec686f",
+      "initial_content_hash": "9bc5c6080c996ccd60359c23efc595829c0dd2726c704e43f7a7f28d8bfa85ed",
+      "state_hash": "57a410a2da66d375cbe97b2d66c54bd267c12ea55195ea1d35281c414dec686f",
+      "content_hash": "9bc5c6080c996ccd60359c23efc595829c0dd2726c704e43f7a7f28d8bfa85ed",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/b5156d65.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "281241ecb84a7cce547a1e391f4585d53bf5e1f225d333adae15de4ecede1448"
+        }
+      ],
+      "initial_operational_hash": "5e2e1aaaf0bc06784975d06f20cef1ff32232aa6faf729ddff9a1b766acf8ed0",
+      "initial_content_hash": "20a9b2961988a232fcb0c74df4d2fecd9eda1baba24b7358c53e32d532ff7bd4",
+      "state_hash": "5e2e1aaaf0bc06784975d06f20cef1ff32232aa6faf729ddff9a1b766acf8ed0",
+      "content_hash": "20a9b2961988a232fcb0c74df4d2fecd9eda1baba24b7358c53e32d532ff7bd4",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/b7230971.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "b952343b4bc7b307dabb22fb6b754c92eaa466c1fbfd2f082a7f37b50601f657",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 1,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        }
+      ],
+      "initial_operational_hash": "857c45ef398489973d786217590efa1c79cf2025141edefeeefad2b18e49ad29",
+      "initial_content_hash": "23b9ea05b5e20adac3da18b4f6db4d19209c923b5da91d3665d04388b28afb82",
+      "state_hash": "a93ad3bdfbaab820c54f968bc600e0a7f1fb724febdd7f94b70a4b9771b486e2",
+      "content_hash": "42a778f9342b1deb3a44ea0a0accbc04500d73f1fdf4699adae9e1f8b213250d",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/b9a92201.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 6,
+      "planned": 6,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 2,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "27cc40ccb37f96a34f18fccc1193c9e9e33eec6dd9981c3ab3d290e5da46f252",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 4,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "b53f71edff78c364f88083a2f90e38dfb89b8526e3af70a00503ce1b7e954a40",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 5,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "dcab943320ba67b4632a8f78eb9ed7cd8c1dc8432cec6da6e92eda7ce4ff1c9b",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "cd99c19f5b5ed7dc9f5aef2075af0230f3af83a3cbfe284ab68dcd8affc3ceb9",
+      "initial_content_hash": "b52ce48fb16a332287011b8a1a16a672c7fb16955c9b440c9658b63d8a8cccb5",
+      "state_hash": "7ba45f7f8772530be8104115b2db4d82ef47353f8e041234fd2eb9e07f23ba67",
+      "content_hash": "f8a8988d53784f58da06e58c7d4caa2aed1dd61bab6dddea11957c4ba3c15109",
+      "distinct_read_observations": 4,
+      "read_observation_count": 4,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/c38f4a58.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "5121fdbe326309d8ed22fcf98878a8b2a68eb157cb746cc3af0741d0f62f629a"
+        }
+      ],
+      "initial_operational_hash": "f2dff4abf6c1aeebb37016b3d66694cd9b5627defc085590db1f1e4051e29c46",
+      "initial_content_hash": "998d9b983b71a4ed847384936078a0d049d2319638abf2665688012c119dcca4",
+      "state_hash": "f2dff4abf6c1aeebb37016b3d66694cd9b5627defc085590db1f1e4051e29c46",
+      "content_hash": "998d9b983b71a4ed847384936078a0d049d2319638abf2665688012c119dcca4",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/c63a0946.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "417579bde9e74b2ee2b6e9bc47fac6ecd1857e8e8ec97c0054c50b794b37d344",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        }
+      ],
+      "initial_operational_hash": "96d2c55caea4e07d2930532c3995edb786fdaaa225492b2be455e47f948e65e4",
+      "initial_content_hash": "effd2175e1399dc89502a6cfd42d0fb2a83dcd887f87ff03d50033e877499fb7",
+      "state_hash": "882f6bed63875c4f921d612778210dae4cab4d500719db927b42014d63a536ed",
+      "content_hash": "f95a8a5d2736c7a2c84da16bdde63c76e62fc64f27df045f7a6ef5a4fe0b0daa",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/d178f2a2.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "755f58e5151f3c2087eb60d342a6d8ed99ab7214c4865f55b2a303269959f166",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "00cc1f6c2827728c8a9f5b51ed558a241a947c713a38668d6afb1ed86ae622d4",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        }
+      ],
+      "initial_operational_hash": "2441aaba8e32f38b56b03dfd0159d5a9ba669df2c827a5ee5f91b25d82af2377",
+      "initial_content_hash": "b82cd3b6d16b20a3013a3c28ee186156e455490f671e2aacc71e43149608f45f",
+      "state_hash": "0f8b7dd12ed1ba09655807feb087b83018717cc186617d160d913e6c975f5bae",
+      "content_hash": "b82cd3b6d16b20a3013a3c28ee186156e455490f671e2aacc71e43149608f45f",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/d8f93ec0.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": true,
+          "error": null,
+          "output_hash": "34fc9ac35d886bf208ef6ae90dc4ff942ae013df69bd507caf778a0cd756e4b5",
+          "message_hash": "c958020de427f289b83e2028997e47b384c04b29df15a8c63d2f16f38a113bd0"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "8c2267160e8dccf5de8158b2c7229bd6b37e56bd11512b1a6d25630da1863595",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 2,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "7e1aed32b301bf25f33f91425c32940afa598ea15dd2256746bcd580f05f343f"
+        }
+      ],
+      "initial_operational_hash": "b7eb528b703a1d6bdaae08849a71fc8a70765d3fc13671f549106f2163f5ed06",
+      "initial_content_hash": "0fb39dad4a3a400aa4c865eec368f6ac4e509330b59d1549ab6c3dcdff6c11bc",
+      "state_hash": "ee0266d890379e404627d334f19a3597b3b89b274c17635d57c25fa2fef8f574",
+      "content_hash": "cedcf17b051344504b172459a1f703200a46d5e45ced4bf512e595d423516b11",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/db7b2af7.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "f87563cd9fb3fafb429a481bef6192a56398f5fbfc1b4eb3aee7652d11aa1a09",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f331c0abb47df3bafa3413bc6026d542ab1943bd11992e4197aa3effffbc461"
+        }
+      ],
+      "initial_operational_hash": "765876b5f6424aad1ede3f72623a3590f9e41b9480a1a2b75b17698ffe9fcf14",
+      "initial_content_hash": "d0e6fdcab6695b27111beb8afabfa5a95597abb513b938968feb97b892d81b56",
+      "state_hash": "765876b5f6424aad1ede3f72623a3590f9e41b9480a1a2b75b17698ffe9fcf14",
+      "content_hash": "d0e6fdcab6695b27111beb8afabfa5a95597abb513b938968feb97b892d81b56",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/dd43146b.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "1938393feb4f682af623b074eac7db25e14f02b7ec4cbab8bc92ec9ab30769ab",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        }
+      ],
+      "initial_operational_hash": "5e6ca70f755718038b7fec1ef1fe18990a51757890f3052ae5d49f5a8c76957a",
+      "initial_content_hash": "1394446c2cc2227c2f0465f20ad56fc3b98a1452c5e342baa6969cba310cfdbf",
+      "state_hash": "5e6ca70f755718038b7fec1ef1fe18990a51757890f3052ae5d49f5a8c76957a",
+      "content_hash": "1394446c2cc2227c2f0465f20ad56fc3b98a1452c5e342baa6969cba310cfdbf",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/e08fccdc.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "ae1068e1d05a61e8da5f131b1190cd4b5ab200ea8b39efbcdf71df7218398454",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "d73248cb471de554001963e5614c80fe147aba8b3ea3c3453c5a90220e63e6b3",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        }
+      ],
+      "initial_operational_hash": "927b3830665db188a0f754f65cd322d2751bbdf224e79ccb35130120ff9b13da",
+      "initial_content_hash": "55bb509ac34c7458053d304b57e349fd8d23387caa52d596e4f125cada70b340",
+      "state_hash": "927b3830665db188a0f754f65cd322d2751bbdf224e79ccb35130120ff9b13da",
+      "content_hash": "55bb509ac34c7458053d304b57e349fd8d23387caa52d596e4f125cada70b340",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/f50a5364.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "6f977e00cb6c8d60f82d1388162e5e369bff928189a7778e2e0f4d4f463fd19f",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "7f3d7551a75b2961bd0858559663801cf94828dc004d394636ed549aaa0d81ea",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "92e40117da2555f6c365b2d4d0a23153d5c9ce264285f6e65c59be9093e8fe9c",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 3,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "5a9c13d1e17de6d0884e0ea08d653af3a54e76d69cae4bb6a1b4ab0cff0a26fc",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 4,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "1bc99e4f24e912e2bab39fd9b463f33164b881d64fc387857573ec0077c5208d",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        }
+      ],
+      "initial_operational_hash": "44286f748334393a26635960f1cbbf5b9b3bafbddee2512d7839acb1bd307ba0",
+      "initial_content_hash": "c35630bc0cdf1ebf857ad24800093ab376fd3ec25e3028dc4ca25f144e86dbc7",
+      "state_hash": "14a31c0d2b634bf42c70aefadf8959a59a0d5711fd6003a852d7f5fc3fbbe6c8",
+      "content_hash": "488f6222d64d3587021f081c0a7b246f217aec1442a5a71f3e30a1ffeaeafcf4",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/f6a577b1.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "6418283d5e3ad0e7426b73eb0e5ff2a2e6d99b151a19f4bbdf698e84ed9f3ea9",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 1,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "2fc2bb40ff0286240c90f04bf36f56a96f1d1e682a4be2310c4f054bb2eca1d9",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "ff19b53ae3f94641104f01df2330315b0cda60dbdc2680756129cc98907b38ef",
+      "initial_content_hash": "569d513193de9e09e5f8971119a9e8c2046244c90b4d5a77dca08c15bdcd3f11",
+      "state_hash": "ff19b53ae3f94641104f01df2330315b0cda60dbdc2680756129cc98907b38ef",
+      "content_hash": "569d513193de9e09e5f8971119a9e8c2046244c90b4d5a77dca08c15bdcd3f11",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/f78a882c.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 3,
+      "planned": 6,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 2,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "bac9ad539a70c036e46723206a428365935d679b7f76234bd60eadf14daa9415"
+        }
+      ],
+      "initial_operational_hash": "e719101ae9a3de8dc2bfdefef7a7266878f29200279845acd24e31a9577d2c01",
+      "initial_content_hash": "c099b480008492266047e388c3006d3d10002ca261b3d89de21015d7b7e35ac0",
+      "state_hash": "da29a0a3fef409a7d3ca5ece9f65cb802d6bc158ed166d9908ea599036760d29",
+      "content_hash": "9acedc413828b3a8fbe067c79dfff68f0f01e3eafda67b014c85c33b5537951e",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_A/fdcbc1af.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "17492319ebff6326e69ae27da4ab8e9bc79d0c0f0afc45e4dc06ae601ea7c120",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        },
+        {
+          "index": 1,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "6486a93b52a07dd13d3e92c6d9c250c44ebc989734d756ae2a7e4806863780c6",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 2,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "9c978b74b0bc86e8553212e9e91205b3193b4400d0171359c0b127ea1b6c37b7",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "a2abea58adb1a790880a91d68bed3d4094e4e1caa2d6d0862ea7a9822a32f619",
+      "initial_content_hash": "3ff0fc319034d72a668b70d70b295c0730dad6946aebb7dceed00dee4e8f88ff",
+      "state_hash": "a2abea58adb1a790880a91d68bed3d4094e4e1caa2d6d0862ea7a9822a32f619",
+      "content_hash": "3ff0fc319034d72a668b70d70b295c0730dad6946aebb7dceed00dee4e8f88ff",
+      "distinct_read_observations": 3,
+      "read_observation_count": 3,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_A/ffe06ce2.json",
+    "split": "ClarifyBench_A",
+    "gold": {
+      "all_success": false,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "83451b1ad4c24c3ff6fc6023f3d02d280499316ed3acd8da06fe6a6c3dc188a3",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": false,
+          "error": "EXECUTION_ERROR",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0c93fa5261e3b35e03b5431f7994ae24e01051b67032f1f7344597e32231561c"
+        }
+      ],
+      "initial_operational_hash": "df9ef1f87f66a80eceb935a2e383f66e37d6c44689b303f6a50ef27d20dae363",
+      "initial_content_hash": "c0b7e907be8155617567fbb8266d7bd96779a3e1712d73701ae12b156658d601",
+      "state_hash": "df9ef1f87f66a80eceb935a2e383f66e37d6c44689b303f6a50ef27d20dae363",
+      "content_hash": "c0b7e907be8155617567fbb8266d7bd96779a3e1712d73701ae12b156658d601",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": true,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/12d63cfe.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "281241ecb84a7cce547a1e391f4585d53bf5e1f225d333adae15de4ecede1448"
+        }
+      ],
+      "initial_operational_hash": "5e2e1aaaf0bc06784975d06f20cef1ff32232aa6faf729ddff9a1b766acf8ed0",
+      "initial_content_hash": "20a9b2961988a232fcb0c74df4d2fecd9eda1baba24b7358c53e32d532ff7bd4",
+      "state_hash": "5e2e1aaaf0bc06784975d06f20cef1ff32232aa6faf729ddff9a1b766acf8ed0",
+      "content_hash": "20a9b2961988a232fcb0c74df4d2fecd9eda1baba24b7358c53e32d532ff7bd4",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/13eea8ea.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "6f977e00cb6c8d60f82d1388162e5e369bff928189a7778e2e0f4d4f463fd19f",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "7f3d7551a75b2961bd0858559663801cf94828dc004d394636ed549aaa0d81ea",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "92e40117da2555f6c365b2d4d0a23153d5c9ce264285f6e65c59be9093e8fe9c",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 3,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "5a9c13d1e17de6d0884e0ea08d653af3a54e76d69cae4bb6a1b4ab0cff0a26fc",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 4,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "1bc99e4f24e912e2bab39fd9b463f33164b881d64fc387857573ec0077c5208d",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        }
+      ],
+      "initial_operational_hash": "44286f748334393a26635960f1cbbf5b9b3bafbddee2512d7839acb1bd307ba0",
+      "initial_content_hash": "c35630bc0cdf1ebf857ad24800093ab376fd3ec25e3028dc4ca25f144e86dbc7",
+      "state_hash": "14a31c0d2b634bf42c70aefadf8959a59a0d5711fd6003a852d7f5fc3fbbe6c8",
+      "content_hash": "488f6222d64d3587021f081c0a7b246f217aec1442a5a71f3e30a1ffeaeafcf4",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/18514c30.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "a032c2a70591ce2490c23005e8615b775cda418eac97ad0747c2186cc3aa5290",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "248de184e11229b6c944983860a9a00e1e5b22812db60f159638674fb0ef10a1",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 3,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "1767a47d0045f9ef3bf87e381ede076bd886cb0198ee882d31ea20652d43eaac",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        }
+      ],
+      "initial_operational_hash": "bf5389fb2020cc58e49c4baa7eef397ae19e697d5b38d774c7e4413b96d6be8f",
+      "initial_content_hash": "e8a45cd332e605623c55eee5a09ba1b144cb06bcb108a04af9398e7ca63bfff9",
+      "state_hash": "66ce2733f6a014dae621946224dbff9a5a04709124bdad7b7c3a0a5281554927",
+      "content_hash": "b208914c65aa44ebcd3985e59dd33dc5d05c8ff84ceea14d148873f8980017dd",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/195de735.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "97e9f15c6b3521ec72dda0c38090326c84f6c3212b4ad713fc34d28f2d14618b",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "22c9e077826cb8390b5caacc22edf79d70685fc705bc9c9591f710c6b1c30214"
+        }
+      ],
+      "initial_operational_hash": "76286a863c94f0c580a879205ba22c7caec8793e658dbd21592d6741d42ee170",
+      "initial_content_hash": "331ea3081bd5beacba40c33d8a3bede6e51fc4d330b6f6e4f2628adc4402c444",
+      "state_hash": "76286a863c94f0c580a879205ba22c7caec8793e658dbd21592d6741d42ee170",
+      "content_hash": "331ea3081bd5beacba40c33d8a3bede6e51fc4d330b6f6e4f2628adc4402c444",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/2061513e.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "83451b1ad4c24c3ff6fc6023f3d02d280499316ed3acd8da06fe6a6c3dc188a3",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": false,
+          "error": "EXECUTION_ERROR",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0c93fa5261e3b35e03b5431f7994ae24e01051b67032f1f7344597e32231561c"
+        }
+      ],
+      "initial_operational_hash": "df9ef1f87f66a80eceb935a2e383f66e37d6c44689b303f6a50ef27d20dae363",
+      "initial_content_hash": "c0b7e907be8155617567fbb8266d7bd96779a3e1712d73701ae12b156658d601",
+      "state_hash": "df9ef1f87f66a80eceb935a2e383f66e37d6c44689b303f6a50ef27d20dae363",
+      "content_hash": "c0b7e907be8155617567fbb8266d7bd96779a3e1712d73701ae12b156658d601",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": true,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/268efa41.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        }
+      ],
+      "initial_operational_hash": "7ba76a131bdba28f91d99bce1496c4add5754d1c635ff2b0a3ea9e8454d4582f",
+      "initial_content_hash": "d1c23c24ecbd5c50663b07b956cdc6fdb4c74ae6f410d374d84d40b98783cd58",
+      "state_hash": "b157f242282fff267ae56cb9e7f87d07f94c12cb419fc7fd11e2639f5aa46584",
+      "content_hash": "0a92ee57fd380efeae6bcf7d33971880c89d543ff42cbe96601380cb19525a73",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/3299b536.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "1c09b20aa22e9067b1f7239d79b3bd0f140bdb6b89cfe6b5c1f61ad96d08d4a7",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 2,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "9b9db4404c8ff5049b956f7fe150a8278a351200caaac36ba54cddba3f1d0601",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "7f7b9037f85d629f5e67e77d29c0acbd6d1b105154e0c43c2ae72c4c4032c769",
+      "initial_content_hash": "322f792d0d6f8dd21623136d27256aa6d0f24e26b13b284fd42de323bb5e9729",
+      "state_hash": "90fdf59cb869c5a39ebf3cd32686d362a1c66a01355baf1ff881e9d2b9b0beb6",
+      "content_hash": "301f6c8d5f4a211b146297b76fd8124b00157eb8658db5c97af97ee928c83a34",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/32cde953.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "ce76052b701d32831810d8ff128424c0f566b9b825b7918a232b4bd78e810636",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "e4feb80231423e1949492696ffa4d92b88301c66be35511237615e6bc4cd51a3"
+        }
+      ],
+      "initial_operational_hash": "0100c96d5213a826f800ab858a890290145d1fb397d89920bb8b01215a28237d",
+      "initial_content_hash": "cca1100ed3afcdaaf176e756d64bef17632f85e37513d4db0071920c5d4939e1",
+      "state_hash": "0100c96d5213a826f800ab858a890290145d1fb397d89920bb8b01215a28237d",
+      "content_hash": "cca1100ed3afcdaaf176e756d64bef17632f85e37513d4db0071920c5d4939e1",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/35127c06.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 3,
+      "planned": 6,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 2,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "bac9ad539a70c036e46723206a428365935d679b7f76234bd60eadf14daa9415"
+        }
+      ],
+      "initial_operational_hash": "e719101ae9a3de8dc2bfdefef7a7266878f29200279845acd24e31a9577d2c01",
+      "initial_content_hash": "c099b480008492266047e388c3006d3d10002ca261b3d89de21015d7b7e35ac0",
+      "state_hash": "da29a0a3fef409a7d3ca5ece9f65cb802d6bc158ed166d9908ea599036760d29",
+      "content_hash": "9acedc413828b3a8fbe067c79dfff68f0f01e3eafda67b014c85c33b5537951e",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/5407f0c6.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "0c1a7b3981bee7687cd48b987a0a206f46d01e3080599d5da8e8e050044ff34d",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "30d8904764d34bb0779f17a9a3215dd5544e88d35c8b006153b6bfc9454e7519"
+        }
+      ],
+      "initial_operational_hash": "57a410a2da66d375cbe97b2d66c54bd267c12ea55195ea1d35281c414dec686f",
+      "initial_content_hash": "9bc5c6080c996ccd60359c23efc595829c0dd2726c704e43f7a7f28d8bfa85ed",
+      "state_hash": "57a410a2da66d375cbe97b2d66c54bd267c12ea55195ea1d35281c414dec686f",
+      "content_hash": "9bc5c6080c996ccd60359c23efc595829c0dd2726c704e43f7a7f28d8bfa85ed",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/542c7ed8.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "f87563cd9fb3fafb429a481bef6192a56398f5fbfc1b4eb3aee7652d11aa1a09",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f331c0abb47df3bafa3413bc6026d542ab1943bd11992e4197aa3effffbc461"
+        }
+      ],
+      "initial_operational_hash": "765876b5f6424aad1ede3f72623a3590f9e41b9480a1a2b75b17698ffe9fcf14",
+      "initial_content_hash": "d0e6fdcab6695b27111beb8afabfa5a95597abb513b938968feb97b892d81b56",
+      "state_hash": "765876b5f6424aad1ede3f72623a3590f9e41b9480a1a2b75b17698ffe9fcf14",
+      "content_hash": "d0e6fdcab6695b27111beb8afabfa5a95597abb513b938968feb97b892d81b56",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/589e0003.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "9137a9d0840fd87d723b8c9f87846bfe2d17cdc98f07747270b7177ee1c43d66",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "1d2d3a3dca11b393bb36a7ccd8a67fa2e2ac67be151acc0f480eab5f569cbb95",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "607831509bc98fbdeb9dd52de2a61246bbc348fc8b9479add8f5740362b88e5c",
+      "initial_content_hash": "6828c61f5916b01234bbae34c7624314f041076f71c558f8ca927957d42928b9",
+      "state_hash": "af4cad45bf652d4155cb78f6e649bd73ecca607b6896a596fe7b8bf16df196c6",
+      "content_hash": "790d3b7b9dfa552506f4d6e024b2794b46771e112f92dafd0a96f02261ab2c11",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/58f81cc9.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "303a283cbceb261b2668dfbec045b340c0045d9874ea8ade1ee82cf5b3cc423d"
+        }
+      ],
+      "initial_operational_hash": "9ebe32fb1734de7715ad0c795da01cfe042e787600c2515d7c7cd196ba62da33",
+      "initial_content_hash": "1a210681ea7805e84fdf7a995c6f92ae087f2ab9bd786bc67564b5bdb5f161bc",
+      "state_hash": "9ebe32fb1734de7715ad0c795da01cfe042e787600c2515d7c7cd196ba62da33",
+      "content_hash": "1a210681ea7805e84fdf7a995c6f92ae087f2ab9bd786bc67564b5bdb5f161bc",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/5bff73c4.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "417579bde9e74b2ee2b6e9bc47fac6ecd1857e8e8ec97c0054c50b794b37d344",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        }
+      ],
+      "initial_operational_hash": "96d2c55caea4e07d2930532c3995edb786fdaaa225492b2be455e47f948e65e4",
+      "initial_content_hash": "effd2175e1399dc89502a6cfd42d0fb2a83dcd887f87ff03d50033e877499fb7",
+      "state_hash": "882f6bed63875c4f921d612778210dae4cab4d500719db927b42014d63a536ed",
+      "content_hash": "f95a8a5d2736c7a2c84da16bdde63c76e62fc64f27df045f7a6ef5a4fe0b0daa",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/607722e5.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "1492e91cf33fc3210badca91a8d1fd9c6083ccca6eee0f51a16611ec1991a57c"
+        }
+      ],
+      "initial_operational_hash": "6dcc43c7ec47022e305c5c9b1cb32f355cc5e860673f48eaa50008fc44e90d20",
+      "initial_content_hash": "18c180af79a55811ea90d791192a791505d50c76b7a99e3acd24247ea64e989b",
+      "state_hash": "6dcc43c7ec47022e305c5c9b1cb32f355cc5e860673f48eaa50008fc44e90d20",
+      "content_hash": "18c180af79a55811ea90d791192a791505d50c76b7a99e3acd24247ea64e989b",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/64103bc3.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "d8ce085656e573846e8ffed50e40d9988e74818d18a9dd40ad67424125cb2c0a",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "6220786681ad39bbe61dda7ad230ffe25a139b1ce12c576358e214ffbbfebe61",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 2,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "404a86d2f3cd757c46078ec1d0e89a7b56818b8befb7516fc81b3d5ff0a7d933",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 3,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "80bd22029f2ff092fdf99e4d0a3992b8e88d17a6f781f5069fcf14e645543643",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        }
+      ],
+      "initial_operational_hash": "75f30e99a654bf6d8c4a0d1fc1b13e352739cea7428f7da195030444299c8a1a",
+      "initial_content_hash": "92ee59d12267b51ebebe66b9419c8609958582e3064473e0d9db50c778012b66",
+      "state_hash": "9689792c8c0261b55a56977c710965cd094d744e66e79b3630b10f9d5ba2ee13",
+      "content_hash": "92ee59d12267b51ebebe66b9419c8609958582e3064473e0d9db50c778012b66",
+      "distinct_read_observations": 3,
+      "read_observation_count": 3,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/6628cd81.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 7,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "dad9fac6d9db9ae2c800499e4b70a1b39fb02447d0cf662466f89373ba28dccf",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "4ebd1d30856323cd1a923905c54a17fdf91f9bc9bef2b150055ead5736878aa1"
+        }
+      ],
+      "initial_operational_hash": "3b058379960624ae04ad3923c9be2f815af1e64861b674edc3bebd24604c34d3",
+      "initial_content_hash": "81e0248a8fb3b64f0a879a09978556bb06d7830b4ec45f6e6c94db7cd642e7ba",
+      "state_hash": "db9c59d01d1129044d393c3f2cbd87884d3bce3ca32339d72385f7d2617797ba",
+      "content_hash": "9ed7e855abc0a01e0d5a7fc35dd9302fd6ef3bd4e4afe76d09ef6cc7e7d6fe30",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/6765f627.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "f53ce89c3b82528959c071de60fc1bd25eb3b6fcc69e591547f7b70f35d125a2",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        }
+      ],
+      "initial_operational_hash": "8b44633abed7fec28de38bf1c8540483cbf6e7d75426e9b869dd34463f7fd899",
+      "initial_content_hash": "a7215fdaa26b9ec63c4deba9f1d1ad92d7a6a795db5a291fb023f65e04d7bd25",
+      "state_hash": "8b44633abed7fec28de38bf1c8540483cbf6e7d75426e9b869dd34463f7fd899",
+      "content_hash": "a7215fdaa26b9ec63c4deba9f1d1ad92d7a6a795db5a291fb023f65e04d7bd25",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/6947d0f8.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "f5405b143c9d96217934eec8e8cd5ba409e433fe5a6310346fffc68710db5d1d"
+        }
+      ],
+      "initial_operational_hash": "d30336ff0106aa87d092b75ce412fb1a80c4d10ae8500b2b7f344c327efda198",
+      "initial_content_hash": "a07125e13d11b5f73397322ec8eaf63b1de582d4c0fc6cb0108efa501affe180",
+      "state_hash": "d30336ff0106aa87d092b75ce412fb1a80c4d10ae8500b2b7f344c327efda198",
+      "content_hash": "a07125e13d11b5f73397322ec8eaf63b1de582d4c0fc6cb0108efa501affe180",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": true,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/6c49793b.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "14005099620de7de6bbf27470e975f3f2de906316a99963e84b58ed805f4f4eb",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 2,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "9867f3bf2da6942458198d15e15219abbf0dc6f71df5e0bfbee1cb80248aea52",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 4,
+          "tool": "wc",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "47ffd0973e9347897b2e8fac0af038788cd283a027e7d0182f65d81ab1a093e4"
+        }
+      ],
+      "initial_operational_hash": "b69e0fbb7a975fc1a8103a2c8aac550d8b52bfffedab80065b10b1b91e6bc394",
+      "initial_content_hash": "35c0577b7810195eef3e00e9747c34f2becc0b63c897a5cabf8fb0c42bfdfae2",
+      "state_hash": "abc9131efaa1b77d42a78b3ebf08186b26265f5f439537ac489c0ed271b1861b",
+      "content_hash": "df8fb9c7a719209efb4dcf0c87f1f46d6995a662bc23a6971260d2f3e4b44e91",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/6d4f9844.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "6fd98e07aba9c3ecca2666b9a52f59632e4841d350b6980cb8b4f3584067e137"
+        }
+      ],
+      "initial_operational_hash": "7555661bca59e7f10413dfcf2616ee9776fa02cc5bc342c9eeb9c86f9078b86b",
+      "initial_content_hash": "33e9c6438c6b3024ad01dd29c262e47b418d6eac59d5df0bc2117d5fb304ac40",
+      "state_hash": "7555661bca59e7f10413dfcf2616ee9776fa02cc5bc342c9eeb9c86f9078b86b",
+      "content_hash": "33e9c6438c6b3024ad01dd29c262e47b418d6eac59d5df0bc2117d5fb304ac40",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/6e89266a.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "b952343b4bc7b307dabb22fb6b754c92eaa466c1fbfd2f082a7f37b50601f657",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 1,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        }
+      ],
+      "initial_operational_hash": "857c45ef398489973d786217590efa1c79cf2025141edefeeefad2b18e49ad29",
+      "initial_content_hash": "23b9ea05b5e20adac3da18b4f6db4d19209c923b5da91d3665d04388b28afb82",
+      "state_hash": "a93ad3bdfbaab820c54f968bc600e0a7f1fb724febdd7f94b70a4b9771b486e2",
+      "content_hash": "42a778f9342b1deb3a44ea0a0accbc04500d73f1fdf4699adae9e1f8b213250d",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/73c16143.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "17492319ebff6326e69ae27da4ab8e9bc79d0c0f0afc45e4dc06ae601ea7c120",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        },
+        {
+          "index": 1,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "6486a93b52a07dd13d3e92c6d9c250c44ebc989734d756ae2a7e4806863780c6",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 2,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "9c978b74b0bc86e8553212e9e91205b3193b4400d0171359c0b127ea1b6c37b7",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "a2abea58adb1a790880a91d68bed3d4094e4e1caa2d6d0862ea7a9822a32f619",
+      "initial_content_hash": "3ff0fc319034d72a668b70d70b295c0730dad6946aebb7dceed00dee4e8f88ff",
+      "state_hash": "a2abea58adb1a790880a91d68bed3d4094e4e1caa2d6d0862ea7a9822a32f619",
+      "content_hash": "3ff0fc319034d72a668b70d70b295c0730dad6946aebb7dceed00dee4e8f88ff",
+      "distinct_read_observations": 3,
+      "read_observation_count": 3,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/7f35dd0b.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "8cdfc925be9e525b76d95f8fcd6877b1577d8bcf6a00e6320b3ed5488b1564a5",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 2,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "d72d24a04da9d693c29d8bd015fee368b6d3e7eaa89940c6a72ead5c31dd0de7",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        }
+      ],
+      "initial_operational_hash": "0fd93ec07cbd7be64d2f0ce04b634835ec76a08735c7f97d518c7cd24fb2ad78",
+      "initial_content_hash": "f0cb4d04c25e950c5ad7f8ce6fbefde7c8a4b44591df85e4db34913175fedfaf",
+      "state_hash": "6484eb6549e2e37406222a88846d79b2f283cb24e98e51a1d3ade0766c2628ce",
+      "content_hash": "eebb802ee707c54f63659898c1d2a37b1dbfb8692645400a2fb76facca65f61c",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/7fddc343.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "6418283d5e3ad0e7426b73eb0e5ff2a2e6d99b151a19f4bbdf698e84ed9f3ea9",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 1,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "2fc2bb40ff0286240c90f04bf36f56a96f1d1e682a4be2310c4f054bb2eca1d9",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "ff19b53ae3f94641104f01df2330315b0cda60dbdc2680756129cc98907b38ef",
+      "initial_content_hash": "569d513193de9e09e5f8971119a9e8c2046244c90b4d5a77dca08c15bdcd3f11",
+      "state_hash": "ff19b53ae3f94641104f01df2330315b0cda60dbdc2680756129cc98907b38ef",
+      "content_hash": "569d513193de9e09e5f8971119a9e8c2046244c90b4d5a77dca08c15bdcd3f11",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/82eaeeef.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 1,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "7751b66921b05c43a1283fb3131cafec02a266c5f0c90a588edd4bcb2228034d",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 3,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 4,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        }
+      ],
+      "initial_operational_hash": "8db1bbc72a290cab91fa8a1357569817948b9ceef2c0551cb60f61b5d30b885f",
+      "initial_content_hash": "6fa20b74c0f359f0fca54965d6d1f9b9d370ef4afa637a8361bdae2a134107db",
+      "state_hash": "86a560dded504e6df21c3b4d7c5b903c62f31fd76379fda3ebecd9347d63c818",
+      "content_hash": "e553292aa7446ccac76ec6a076e37063fe914b6ef102ad3d7ab3320286d828d5",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/8e950aad.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 6,
+      "planned": 6,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 2,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "27cc40ccb37f96a34f18fccc1193c9e9e33eec6dd9981c3ab3d290e5da46f252",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 4,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "b53f71edff78c364f88083a2f90e38dfb89b8526e3af70a00503ce1b7e954a40",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 5,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "dcab943320ba67b4632a8f78eb9ed7cd8c1dc8432cec6da6e92eda7ce4ff1c9b",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "cd99c19f5b5ed7dc9f5aef2075af0230f3af83a3cbfe284ab68dcd8affc3ceb9",
+      "initial_content_hash": "b52ce48fb16a332287011b8a1a16a672c7fb16955c9b440c9658b63d8a8cccb5",
+      "state_hash": "7ba45f7f8772530be8104115b2db4d82ef47353f8e041234fd2eb9e07f23ba67",
+      "content_hash": "f8a8988d53784f58da06e58c7d4caa2aed1dd61bab6dddea11957c4ba3c15109",
+      "distinct_read_observations": 4,
+      "read_observation_count": 4,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/907b8a6b.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "5121fdbe326309d8ed22fcf98878a8b2a68eb157cb746cc3af0741d0f62f629a"
+        }
+      ],
+      "initial_operational_hash": "f2dff4abf6c1aeebb37016b3d66694cd9b5627defc085590db1f1e4051e29c46",
+      "initial_content_hash": "998d9b983b71a4ed847384936078a0d049d2319638abf2665688012c119dcca4",
+      "state_hash": "f2dff4abf6c1aeebb37016b3d66694cd9b5627defc085590db1f1e4051e29c46",
+      "content_hash": "998d9b983b71a4ed847384936078a0d049d2319638abf2665688012c119dcca4",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/91d7ff72.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": true,
+          "error": null,
+          "output_hash": "bfb796d301acb438ea041b6b0543b744259b2747f50e214886123b6881bafb4c",
+          "message_hash": "c958020de427f289b83e2028997e47b384c04b29df15a8c63d2f16f38a113bd0"
+        }
+      ],
+      "initial_operational_hash": "ff55010c4aea962f40002f570a6ac8e5798da4df3fff2712a065e298dcdfe2f0",
+      "initial_content_hash": "d041f1c7e3b18434de34b61f3ff16e213dda17c1ba0314c77a1824406e348272",
+      "state_hash": "ff55010c4aea962f40002f570a6ac8e5798da4df3fff2712a065e298dcdfe2f0",
+      "content_hash": "d041f1c7e3b18434de34b61f3ff16e213dda17c1ba0314c77a1824406e348272",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/a23dd344.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "fe5b91a102e121045be96b0e0d4e7081c3d28b6c59e40f13924fd4594c9151ba",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "ee92c84dd6e85219f6fe7f57bf97e96521f47781972d2fc7af404369e57e6f21",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "2213c21288c5aaafc50de8e0bf3bf4be5b2e711df7f312134e2d523d5fc43108",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 3,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "280d12a1451317a4b8143e189f0ebfa58c53562ac8c2963101c2557c1cd413ae",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 4,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "2fc6c89a1add4fde11c62905deb6803b1007ff980f7b007f85f70fe5bcbd2582",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        }
+      ],
+      "initial_operational_hash": "1cdf9f8273d491af48bd3f6153cb671bd978157d75cfb73346febeeaed00b28e",
+      "initial_content_hash": "1448d971661512455efeb8420f59c0545bc40f98876ae06eb3736a7b737e66bb",
+      "state_hash": "ba94df57aea9097d674edda641c7ed5f564382de0dfc7a1215fe5d83596d50ef",
+      "content_hash": "e0065281dce7b2dd358e06d7801774c0ebb79df3fb92281b9522590693c75b6a",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/a44eda68.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "2212ba5c1ce6b6fdac81cdb40c06d8276cad27ca4dff4a3bfeb0c62a34ac2bf6",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "6cd13b0220656fe5020fb6251f0dbec6675550f13282e89710cc137a6bec6960",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "48fa37199e5ad1286858a7c23ddba227672e91cb51ddf959f5fca57aa44444f0",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "d5df2dd4d8f754cf5aca2ac10ccaa4123493bef8a8350e5909f0872c5bd64f19",
+      "initial_content_hash": "81a1d7aa3e08e156b412dac339dc4b62d6dbd634a63d26b6f2e4cfae7037ed29",
+      "state_hash": "d9bf82979156b1b1181ecd25c428360b46e4b0bf2d1cc00f6bd34b327b7ee1e4",
+      "content_hash": "a00368709434df7168e44faa491058f77a7219f332781fa907b2209551ef6f34",
+      "distinct_read_observations": 3,
+      "read_observation_count": 3,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/b08ad52c.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "45c71a71b479fc9ed100f0f7cee0c74caf5758a75c72281546f92bfaa132f8a5",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        }
+      ],
+      "initial_operational_hash": "c7fad3ddce862254534fc473d01f2ba963ee97fbed9ee02ca35abfb0cdb0d628",
+      "initial_content_hash": "d9c7e7997249fe9a6d17fd2f0fb68987ea666e4847291ccc70af9d037ff2d31b",
+      "state_hash": "f392564465451493a9ea265cef784cd38dad63d1fb74a1eb9ca59fc4fdd7fdee",
+      "content_hash": "d9c7e7997249fe9a6d17fd2f0fb68987ea666e4847291ccc70af9d037ff2d31b",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/ca637a72.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "fb100d6c56032cf1c69b6da49ad29569272e45c9044a4d26ed2062b6d44e26ed",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 1,
+          "tool": "diff",
+          "success": true,
+          "error": null,
+          "output_hash": "34cc2b627e1fe32d1eb944768b7c01baf390922779e1dba2214035955519248c",
+          "message_hash": "c958020de427f289b83e2028997e47b384c04b29df15a8c63d2f16f38a113bd0"
+        }
+      ],
+      "initial_operational_hash": "afac21bdb7db3d7edb9a02fee61516b2e2cea223742cad2cb35f3843504be156",
+      "initial_content_hash": "c84c263d8ce29ed7c344ddfff1093f19cc18e07c2172d2fd06d7f143203d289e",
+      "state_hash": "afac21bdb7db3d7edb9a02fee61516b2e2cea223742cad2cb35f3843504be156",
+      "content_hash": "c84c263d8ce29ed7c344ddfff1093f19cc18e07c2172d2fd06d7f143203d289e",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/cc2d6a29.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "0aa9edfbe69f4c499b8e9e26a79de1fc1d76da74ac51b42908a5da2eb65825af",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "68a16477b35de0ea5a26b08b6b0f3583f400ae56c7719d9524ac3c868c7a257f",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 2,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "3e74cf0b9099fd1ca570c29510b9f690da72bedea7acb2e26eeb18fca05bf9fe",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 3,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "16976c60b40e160e2d4afd4279027345fc7d98c1938205d66f926ea6a1fc4fac",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 4,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "7d8c2efb014258380de3fb57c86766d018d1e1d3365a7a233b556d2612b27010",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        }
+      ],
+      "initial_operational_hash": "99fea7a666305d4de9e95fae3e7d29702da60dd639a3b5f75aa21e35854b5a08",
+      "initial_content_hash": "e95e8aa4cd8c9a521a37c2c3bdaa95d9136a98c27df7f2125e17b7f421dc8bc7",
+      "state_hash": "584a07ae2e9bfec64077eff56dbb6f141f0428e8011d02a6678755571292d50b",
+      "content_hash": "4cf396aac8f926f88e954fa6758ccb64b8a216f98f4330745c5aabc114c79c26",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/d26bbbfc.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 7,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "70be1f67984905567de0cb8256a1852d66763ac2f39f971d112de920b15ce2e8"
+        }
+      ],
+      "initial_operational_hash": "701f41f016650545ce34e1c86ee5141cbcaba39e7250cc221807c7d0572377ef",
+      "initial_content_hash": "f3cffb65984fef6fed61eec818356af062cf4ad57cea79a5bcc0176bd3a4f90f",
+      "state_hash": "9e9841c3409463bd05f7cca9d11dcec3cd574631c86619ceab2396f26e2b2ac5",
+      "content_hash": "ddffca0469fe39890d0b1e87d7a361a10bc66b570e239c99648b1b4e2570aa7c",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/d3c40be1.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "3b9e6582aa8b965d716f2d12c34ace3febc0b16b1628ff516da380183c67d19b",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "3b9e6582aa8b965d716f2d12c34ace3febc0b16b1628ff516da380183c67d19b",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        }
+      ],
+      "initial_operational_hash": "128b9f9dc536ee664554dfb758612019b12aa1eb2e4fb9b525df059b4a31e768",
+      "initial_content_hash": "cbe9f36aa863bb50782edfdbf4de11f9d5d338a648b5dae8c7dab0595fc7790d",
+      "state_hash": "128b9f9dc536ee664554dfb758612019b12aa1eb2e4fb9b525df059b4a31e768",
+      "content_hash": "cbe9f36aa863bb50782edfdbf4de11f9d5d338a648b5dae8c7dab0595fc7790d",
+      "distinct_read_observations": 1,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/dd152f26.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "ae1068e1d05a61e8da5f131b1190cd4b5ab200ea8b39efbcdf71df7218398454",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "d73248cb471de554001963e5614c80fe147aba8b3ea3c3453c5a90220e63e6b3",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        }
+      ],
+      "initial_operational_hash": "927b3830665db188a0f754f65cd322d2751bbdf224e79ccb35130120ff9b13da",
+      "initial_content_hash": "55bb509ac34c7458053d304b57e349fd8d23387caa52d596e4f125cada70b340",
+      "state_hash": "927b3830665db188a0f754f65cd322d2751bbdf224e79ccb35130120ff9b13da",
+      "content_hash": "55bb509ac34c7458053d304b57e349fd8d23387caa52d596e4f125cada70b340",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/dd2d90c2.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "1938393feb4f682af623b074eac7db25e14f02b7ec4cbab8bc92ec9ab30769ab",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        }
+      ],
+      "initial_operational_hash": "5e6ca70f755718038b7fec1ef1fe18990a51757890f3052ae5d49f5a8c76957a",
+      "initial_content_hash": "1394446c2cc2227c2f0465f20ad56fc3b98a1452c5e342baa6969cba310cfdbf",
+      "state_hash": "5e6ca70f755718038b7fec1ef1fe18990a51757890f3052ae5d49f5a8c76957a",
+      "content_hash": "1394446c2cc2227c2f0465f20ad56fc3b98a1452c5e342baa6969cba310cfdbf",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/e15f98ff.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "755f58e5151f3c2087eb60d342a6d8ed99ab7214c4865f55b2a303269959f166",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "00cc1f6c2827728c8a9f5b51ed558a241a947c713a38668d6afb1ed86ae622d4",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        }
+      ],
+      "initial_operational_hash": "2441aaba8e32f38b56b03dfd0159d5a9ba669df2c827a5ee5f91b25d82af2377",
+      "initial_content_hash": "b82cd3b6d16b20a3013a3c28ee186156e455490f671e2aacc71e43149608f45f",
+      "state_hash": "0f8b7dd12ed1ba09655807feb087b83018717cc186617d160d913e6c975f5bae",
+      "content_hash": "b82cd3b6d16b20a3013a3c28ee186156e455490f671e2aacc71e43149608f45f",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/e1dbd103.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "1d8b4e031c5fa784120ad2ce5e2baaff517c3213c76cf742d54de82579c16f31",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "78861af2a36cad5952069d767e225dcde4797218b0f3a7cd9e8237aa78cea18b",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 2,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "93529a1822d032f65855eeb705e565d163c8b37e56d61665ada76b822c9e5890",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 3,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "9bd366f5719d3bbb674de6be68e080d05ddb0ac0a9158ed87b8ec9a36058449c",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        }
+      ],
+      "initial_operational_hash": "f8eb6ee72c4febb1e8358a1d2f1a35c9f950b8733e864a09ac04545ac2c5fe3f",
+      "initial_content_hash": "aaf5cd61ebba2090ddef68ce94d07812d372f5f4ea8631c8188cb01a6983b14b",
+      "state_hash": "9b84f5d646039f0c6e275aa4c2e13673600a285ecff93bc43bf87ff3f0ff16e4",
+      "content_hash": "e935b56a7e849839801d1d5e24c63c9f3e2313a16917cae602e5dadc0cd37c85",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/e2f1f63f.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "3fe0e3cc29d955d90c901e5c1b0a2a1f2e24a9382a6f8d8bc3dc539b0cea6274"
+        }
+      ],
+      "initial_operational_hash": "baba6a8b10491e545a0fdf5694f57b5286666fa49a38d3ab815a262f37b0caba",
+      "initial_content_hash": "bcd29dc9729f85910eadc475de7cdb4e6f269d85c568bf321227b742980c7418",
+      "state_hash": "baba6a8b10491e545a0fdf5694f57b5286666fa49a38d3ab815a262f37b0caba",
+      "content_hash": "bcd29dc9729f85910eadc475de7cdb4e6f269d85c568bf321227b742980c7418",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_E/f0f260a6.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": true,
+          "error": null,
+          "output_hash": "34fc9ac35d886bf208ef6ae90dc4ff942ae013df69bd507caf778a0cd756e4b5",
+          "message_hash": "c958020de427f289b83e2028997e47b384c04b29df15a8c63d2f16f38a113bd0"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "8c2267160e8dccf5de8158b2c7229bd6b37e56bd11512b1a6d25630da1863595",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 2,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "7e1aed32b301bf25f33f91425c32940afa598ea15dd2256746bcd580f05f343f"
+        }
+      ],
+      "initial_operational_hash": "b7eb528b703a1d6bdaae08849a71fc8a70765d3fc13671f549106f2163f5ed06",
+      "initial_content_hash": "0fb39dad4a3a400aa4c865eec368f6ac4e509330b59d1549ab6c3dcdff6c11bc",
+      "state_hash": "ee0266d890379e404627d334f19a3597b3b89b274c17635d57c25fa2fef8f574",
+      "content_hash": "cedcf17b051344504b172459a1f703200a46d5e45ced4bf512e595d423516b11",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_E/ffef7c8e.json",
+    "split": "ClarifyBench_E",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": false,
+          "error": "EXECUTION_ERROR",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0c93fa5261e3b35e03b5431f7994ae24e01051b67032f1f7344597e32231561c"
+        }
+      ],
+      "initial_operational_hash": "e08f66d93b45d4601cfbfc89a83d0ae8e4248a62fa302a37e45e81fbbeca0ad4",
+      "initial_content_hash": "536d96e1b596e16dfaba541bc44f9c54c95d29bb476dc420a2c07d8e85ecb657",
+      "state_hash": "ed299f216cc67536b6b313b8e0b48dfe6f2745a621ec404353466addaaaf1fb7",
+      "content_hash": "be9cfdc7eae11275359655bcd590b189ba66d4b929a46063afb22b22ce6b0169",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": true,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/0179f6da.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 1,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "7751b66921b05c43a1283fb3131cafec02a266c5f0c90a588edd4bcb2228034d",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 3,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 4,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        }
+      ],
+      "initial_operational_hash": "8db1bbc72a290cab91fa8a1357569817948b9ceef2c0551cb60f61b5d30b885f",
+      "initial_content_hash": "6fa20b74c0f359f0fca54965d6d1f9b9d370ef4afa637a8361bdae2a134107db",
+      "state_hash": "86a560dded504e6df21c3b4d7c5b903c62f31fd76379fda3ebecd9347d63c818",
+      "content_hash": "e553292aa7446ccac76ec6a076e37063fe914b6ef102ad3d7ab3320286d828d5",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/0a7eb8eb.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "f87563cd9fb3fafb429a481bef6192a56398f5fbfc1b4eb3aee7652d11aa1a09",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f331c0abb47df3bafa3413bc6026d542ab1943bd11992e4197aa3effffbc461"
+        }
+      ],
+      "initial_operational_hash": "765876b5f6424aad1ede3f72623a3590f9e41b9480a1a2b75b17698ffe9fcf14",
+      "initial_content_hash": "d0e6fdcab6695b27111beb8afabfa5a95597abb513b938968feb97b892d81b56",
+      "state_hash": "765876b5f6424aad1ede3f72623a3590f9e41b9480a1a2b75b17698ffe9fcf14",
+      "content_hash": "d0e6fdcab6695b27111beb8afabfa5a95597abb513b938968feb97b892d81b56",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/1f1f7641.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": true,
+          "error": null,
+          "output_hash": "34fc9ac35d886bf208ef6ae90dc4ff942ae013df69bd507caf778a0cd756e4b5",
+          "message_hash": "c958020de427f289b83e2028997e47b384c04b29df15a8c63d2f16f38a113bd0"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "8c2267160e8dccf5de8158b2c7229bd6b37e56bd11512b1a6d25630da1863595",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 2,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "7e1aed32b301bf25f33f91425c32940afa598ea15dd2256746bcd580f05f343f"
+        }
+      ],
+      "initial_operational_hash": "b7eb528b703a1d6bdaae08849a71fc8a70765d3fc13671f549106f2163f5ed06",
+      "initial_content_hash": "0fb39dad4a3a400aa4c865eec368f6ac4e509330b59d1549ab6c3dcdff6c11bc",
+      "state_hash": "ee0266d890379e404627d334f19a3597b3b89b274c17635d57c25fa2fef8f574",
+      "content_hash": "cedcf17b051344504b172459a1f703200a46d5e45ced4bf512e595d423516b11",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/30f5e21f.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "mkdir",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "745066974b4f18e0974636d5b45f7fa0136eb04b7392b79302e88f0676d761fa"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "14005099620de7de6bbf27470e975f3f2de906316a99963e84b58ed805f4f4eb",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 2,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "9867f3bf2da6942458198d15e15219abbf0dc6f71df5e0bfbee1cb80248aea52",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 4,
+          "tool": "wc",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "47ffd0973e9347897b2e8fac0af038788cd283a027e7d0182f65d81ab1a093e4"
+        }
+      ],
+      "initial_operational_hash": "b69e0fbb7a975fc1a8103a2c8aac550d8b52bfffedab80065b10b1b91e6bc394",
+      "initial_content_hash": "35c0577b7810195eef3e00e9747c34f2becc0b63c897a5cabf8fb0c42bfdfae2",
+      "state_hash": "abc9131efaa1b77d42a78b3ebf08186b26265f5f439537ac489c0ed271b1861b",
+      "content_hash": "df8fb9c7a719209efb4dcf0c87f1f46d6995a662bc23a6971260d2f3e4b44e91",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/36023120.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "3fe0e3cc29d955d90c901e5c1b0a2a1f2e24a9382a6f8d8bc3dc539b0cea6274"
+        }
+      ],
+      "initial_operational_hash": "baba6a8b10491e545a0fdf5694f57b5286666fa49a38d3ab815a262f37b0caba",
+      "initial_content_hash": "bcd29dc9729f85910eadc475de7cdb4e6f269d85c568bf321227b742980c7418",
+      "state_hash": "baba6a8b10491e545a0fdf5694f57b5286666fa49a38d3ab815a262f37b0caba",
+      "content_hash": "bcd29dc9729f85910eadc475de7cdb4e6f269d85c568bf321227b742980c7418",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/3a18cd2f.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "d8ce085656e573846e8ffed50e40d9988e74818d18a9dd40ad67424125cb2c0a",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "6220786681ad39bbe61dda7ad230ffe25a139b1ce12c576358e214ffbbfebe61",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 2,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "404a86d2f3cd757c46078ec1d0e89a7b56818b8befb7516fc81b3d5ff0a7d933",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 3,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "80bd22029f2ff092fdf99e4d0a3992b8e88d17a6f781f5069fcf14e645543643",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        }
+      ],
+      "initial_operational_hash": "75f30e99a654bf6d8c4a0d1fc1b13e352739cea7428f7da195030444299c8a1a",
+      "initial_content_hash": "92ee59d12267b51ebebe66b9419c8609958582e3064473e0d9db50c778012b66",
+      "state_hash": "9689792c8c0261b55a56977c710965cd094d744e66e79b3630b10f9d5ba2ee13",
+      "content_hash": "92ee59d12267b51ebebe66b9419c8609958582e3064473e0d9db50c778012b66",
+      "distinct_read_observations": 3,
+      "read_observation_count": 3,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/3e7cf9d9.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cat",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "303a283cbceb261b2668dfbec045b340c0045d9874ea8ade1ee82cf5b3cc423d"
+        }
+      ],
+      "initial_operational_hash": "9ebe32fb1734de7715ad0c795da01cfe042e787600c2515d7c7cd196ba62da33",
+      "initial_content_hash": "1a210681ea7805e84fdf7a995c6f92ae087f2ab9bd786bc67564b5bdb5f161bc",
+      "state_hash": "9ebe32fb1734de7715ad0c795da01cfe042e787600c2515d7c7cd196ba62da33",
+      "content_hash": "1a210681ea7805e84fdf7a995c6f92ae087f2ab9bd786bc67564b5bdb5f161bc",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/44219767.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "1c09b20aa22e9067b1f7239d79b3bd0f140bdb6b89cfe6b5c1f61ad96d08d4a7",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 2,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "9b9db4404c8ff5049b956f7fe150a8278a351200caaac36ba54cddba3f1d0601",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "7f7b9037f85d629f5e67e77d29c0acbd6d1b105154e0c43c2ae72c4c4032c769",
+      "initial_content_hash": "322f792d0d6f8dd21623136d27256aa6d0f24e26b13b284fd42de323bb5e9729",
+      "state_hash": "90fdf59cb869c5a39ebf3cd32686d362a1c66a01355baf1ff881e9d2b9b0beb6",
+      "content_hash": "301f6c8d5f4a211b146297b76fd8124b00157eb8658db5c97af97ee928c83a34",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/47301f37.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "f53ce89c3b82528959c071de60fc1bd25eb3b6fcc69e591547f7b70f35d125a2",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        }
+      ],
+      "initial_operational_hash": "8b44633abed7fec28de38bf1c8540483cbf6e7d75426e9b869dd34463f7fd899",
+      "initial_content_hash": "a7215fdaa26b9ec63c4deba9f1d1ad92d7a6a795db5a291fb023f65e04d7bd25",
+      "state_hash": "8b44633abed7fec28de38bf1c8540483cbf6e7d75426e9b869dd34463f7fd899",
+      "content_hash": "a7215fdaa26b9ec63c4deba9f1d1ad92d7a6a795db5a291fb023f65e04d7bd25",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/48109fd8.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": true,
+          "error": null,
+          "output_hash": "bfb796d301acb438ea041b6b0543b744259b2747f50e214886123b6881bafb4c",
+          "message_hash": "c958020de427f289b83e2028997e47b384c04b29df15a8c63d2f16f38a113bd0"
+        }
+      ],
+      "initial_operational_hash": "ff55010c4aea962f40002f570a6ac8e5798da4df3fff2712a065e298dcdfe2f0",
+      "initial_content_hash": "d041f1c7e3b18434de34b61f3ff16e213dda17c1ba0314c77a1824406e348272",
+      "state_hash": "ff55010c4aea962f40002f570a6ac8e5798da4df3fff2712a065e298dcdfe2f0",
+      "content_hash": "d041f1c7e3b18434de34b61f3ff16e213dda17c1ba0314c77a1824406e348272",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/4ffdb6a5.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "fb100d6c56032cf1c69b6da49ad29569272e45c9044a4d26ed2062b6d44e26ed",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 1,
+          "tool": "diff",
+          "success": true,
+          "error": null,
+          "output_hash": "34cc2b627e1fe32d1eb944768b7c01baf390922779e1dba2214035955519248c",
+          "message_hash": "c958020de427f289b83e2028997e47b384c04b29df15a8c63d2f16f38a113bd0"
+        }
+      ],
+      "initial_operational_hash": "afac21bdb7db3d7edb9a02fee61516b2e2cea223742cad2cb35f3843504be156",
+      "initial_content_hash": "c84c263d8ce29ed7c344ddfff1093f19cc18e07c2172d2fd06d7f143203d289e",
+      "state_hash": "afac21bdb7db3d7edb9a02fee61516b2e2cea223742cad2cb35f3843504be156",
+      "content_hash": "c84c263d8ce29ed7c344ddfff1093f19cc18e07c2172d2fd06d7f143203d289e",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/685a3cd5.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        }
+      ],
+      "initial_operational_hash": "7ba76a131bdba28f91d99bce1496c4add5754d1c635ff2b0a3ea9e8454d4582f",
+      "initial_content_hash": "d1c23c24ecbd5c50663b07b956cdc6fdb4c74ae6f410d374d84d40b98783cd58",
+      "state_hash": "b157f242282fff267ae56cb9e7f87d07f94c12cb419fc7fd11e2639f5aa46584",
+      "content_hash": "0a92ee57fd380efeae6bcf7d33971880c89d543ff42cbe96601380cb19525a73",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/6deec4b6.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 2,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "5b5aa5f22a222f58155206f97f68f8e7b08b2a20294e8dd4d5887cb76c9bb45b",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "e08f66d93b45d4601cfbfc89a83d0ae8e4248a62fa302a37e45e81fbbeca0ad4",
+      "initial_content_hash": "536d96e1b596e16dfaba541bc44f9c54c95d29bb476dc420a2c07d8e85ecb657",
+      "state_hash": "611bfc9d9d0e08a64b593c8340ee26016936395359c13d7f01049bd4f2c370b1",
+      "content_hash": "2e60f329029631fb7614e4a43364c13e06f6c81b0f396d6e755dbcf3e54c2bce",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/700055fd.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 6,
+      "planned": 6,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 2,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "27cc40ccb37f96a34f18fccc1193c9e9e33eec6dd9981c3ab3d290e5da46f252",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 4,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "b53f71edff78c364f88083a2f90e38dfb89b8526e3af70a00503ce1b7e954a40",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 5,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "dcab943320ba67b4632a8f78eb9ed7cd8c1dc8432cec6da6e92eda7ce4ff1c9b",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "cd99c19f5b5ed7dc9f5aef2075af0230f3af83a3cbfe284ab68dcd8affc3ceb9",
+      "initial_content_hash": "b52ce48fb16a332287011b8a1a16a672c7fb16955c9b440c9658b63d8a8cccb5",
+      "state_hash": "7ba45f7f8772530be8104115b2db4d82ef47353f8e041234fd2eb9e07f23ba67",
+      "content_hash": "f8a8988d53784f58da06e58c7d4caa2aed1dd61bab6dddea11957c4ba3c15109",
+      "distinct_read_observations": 4,
+      "read_observation_count": 4,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/71e2a604.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "a032c2a70591ce2490c23005e8615b775cda418eac97ad0747c2186cc3aa5290",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "248de184e11229b6c944983860a9a00e1e5b22812db60f159638674fb0ef10a1",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 3,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "1767a47d0045f9ef3bf87e381ede076bd886cb0198ee882d31ea20652d43eaac",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        }
+      ],
+      "initial_operational_hash": "bf5389fb2020cc58e49c4baa7eef397ae19e697d5b38d774c7e4413b96d6be8f",
+      "initial_content_hash": "e8a45cd332e605623c55eee5a09ba1b144cb06bcb108a04af9398e7ca63bfff9",
+      "state_hash": "66ce2733f6a014dae621946224dbff9a5a04709124bdad7b7c3a0a5281554927",
+      "content_hash": "b208914c65aa44ebcd3985e59dd33dc5d05c8ff84ceea14d148873f8980017dd",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/758a24f7.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "1492e91cf33fc3210badca91a8d1fd9c6083ccca6eee0f51a16611ec1991a57c"
+        }
+      ],
+      "initial_operational_hash": "6dcc43c7ec47022e305c5c9b1cb32f355cc5e860673f48eaa50008fc44e90d20",
+      "initial_content_hash": "18c180af79a55811ea90d791192a791505d50c76b7a99e3acd24247ea64e989b",
+      "state_hash": "6dcc43c7ec47022e305c5c9b1cb32f355cc5e860673f48eaa50008fc44e90d20",
+      "content_hash": "18c180af79a55811ea90d791192a791505d50c76b7a99e3acd24247ea64e989b",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/7db092c5.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "97e9f15c6b3521ec72dda0c38090326c84f6c3212b4ad713fc34d28f2d14618b",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "22c9e077826cb8390b5caacc22edf79d70685fc705bc9c9591f710c6b1c30214"
+        }
+      ],
+      "initial_operational_hash": "76286a863c94f0c580a879205ba22c7caec8793e658dbd21592d6741d42ee170",
+      "initial_content_hash": "331ea3081bd5beacba40c33d8a3bede6e51fc4d330b6f6e4f2628adc4402c444",
+      "state_hash": "76286a863c94f0c580a879205ba22c7caec8793e658dbd21592d6741d42ee170",
+      "content_hash": "331ea3081bd5beacba40c33d8a3bede6e51fc4d330b6f6e4f2628adc4402c444",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/82694e7f.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "417579bde9e74b2ee2b6e9bc47fac6ecd1857e8e8ec97c0054c50b794b37d344",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        }
+      ],
+      "initial_operational_hash": "96d2c55caea4e07d2930532c3995edb786fdaaa225492b2be455e47f948e65e4",
+      "initial_content_hash": "effd2175e1399dc89502a6cfd42d0fb2a83dcd887f87ff03d50033e877499fb7",
+      "state_hash": "882f6bed63875c4f921d612778210dae4cab4d500719db927b42014d63a536ed",
+      "content_hash": "f95a8a5d2736c7a2c84da16bdde63c76e62fc64f27df045f7a6ef5a4fe0b0daa",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/8472a604.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "9137a9d0840fd87d723b8c9f87846bfe2d17cdc98f07747270b7177ee1c43d66",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 3,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "1d2d3a3dca11b393bb36a7ccd8a67fa2e2ac67be151acc0f480eab5f569cbb95",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "607831509bc98fbdeb9dd52de2a61246bbc348fc8b9479add8f5740362b88e5c",
+      "initial_content_hash": "6828c61f5916b01234bbae34c7624314f041076f71c558f8ca927957d42928b9",
+      "state_hash": "af4cad45bf652d4155cb78f6e649bd73ecca607b6896a596fe7b8bf16df196c6",
+      "content_hash": "790d3b7b9dfa552506f4d6e024b2794b46771e112f92dafd0a96f02261ab2c11",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/8af42930.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "fe5b91a102e121045be96b0e0d4e7081c3d28b6c59e40f13924fd4594c9151ba",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "ee92c84dd6e85219f6fe7f57bf97e96521f47781972d2fc7af404369e57e6f21",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "2213c21288c5aaafc50de8e0bf3bf4be5b2e711df7f312134e2d523d5fc43108",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 3,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "280d12a1451317a4b8143e189f0ebfa58c53562ac8c2963101c2557c1cd413ae",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 4,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "2fc6c89a1add4fde11c62905deb6803b1007ff980f7b007f85f70fe5bcbd2582",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        }
+      ],
+      "initial_operational_hash": "1cdf9f8273d491af48bd3f6153cb671bd978157d75cfb73346febeeaed00b28e",
+      "initial_content_hash": "1448d971661512455efeb8420f59c0545bc40f98876ae06eb3736a7b737e66bb",
+      "state_hash": "ba94df57aea9097d674edda641c7ed5f564382de0dfc7a1215fe5d83596d50ef",
+      "content_hash": "e0065281dce7b2dd358e06d7801774c0ebb79df3fb92281b9522590693c75b6a",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/8b782b52.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 4,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "1d8b4e031c5fa784120ad2ce5e2baaff517c3213c76cf742d54de82579c16f31",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "78861af2a36cad5952069d767e225dcde4797218b0f3a7cd9e8237aa78cea18b",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 2,
+          "tool": "cat",
+          "success": true,
+          "error": null,
+          "output_hash": "93529a1822d032f65855eeb705e565d163c8b37e56d61665ada76b822c9e5890",
+          "message_hash": "3cea9d4ea630860592b99b4a13216f026984dba32cf8c33a97b6ecb0baed157b"
+        },
+        {
+          "index": 3,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "9bd366f5719d3bbb674de6be68e080d05ddb0ac0a9158ed87b8ec9a36058449c",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        }
+      ],
+      "initial_operational_hash": "f8eb6ee72c4febb1e8358a1d2f1a35c9f950b8733e864a09ac04545ac2c5fe3f",
+      "initial_content_hash": "aaf5cd61ebba2090ddef68ce94d07812d372f5f4ea8631c8188cb01a6983b14b",
+      "state_hash": "9b84f5d646039f0c6e275aa4c2e13673600a285ecff93bc43bf87ff3f0ff16e4",
+      "content_hash": "e935b56a7e849839801d1d5e24c63c9f3e2313a16917cae602e5dadc0cd37c85",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/934a097f.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 3,
+      "planned": 6,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        },
+        {
+          "index": 1,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        },
+        {
+          "index": 2,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "bac9ad539a70c036e46723206a428365935d679b7f76234bd60eadf14daa9415"
+        }
+      ],
+      "initial_operational_hash": "e719101ae9a3de8dc2bfdefef7a7266878f29200279845acd24e31a9577d2c01",
+      "initial_content_hash": "c099b480008492266047e388c3006d3d10002ca261b3d89de21015d7b7e35ac0",
+      "state_hash": "da29a0a3fef409a7d3ca5ece9f65cb802d6bc158ed166d9908ea599036760d29",
+      "content_hash": "9acedc413828b3a8fbe067c79dfff68f0f01e3eafda67b014c85c33b5537951e",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/939743d5.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "d4685d165c88a5f757ba739abd668f94b5a585e757e4a5cae01157d0b62b3298",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "83451b1ad4c24c3ff6fc6023f3d02d280499316ed3acd8da06fe6a6c3dc188a3",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 2,
+          "tool": "echo",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "74c72ed614f2dbd8a9d89c216c14376632b07b212afdfaadf859da6f7cd3d6cd"
+        }
+      ],
+      "initial_operational_hash": "df9ef1f87f66a80eceb935a2e383f66e37d6c44689b303f6a50ef27d20dae363",
+      "initial_content_hash": "c0b7e907be8155617567fbb8266d7bd96779a3e1712d73701ae12b156658d601",
+      "state_hash": "b2ad75dc014c8ebd1cd2ccebab8816cef98395ac65e6941e4d9c1c601a4ff2fb",
+      "content_hash": "c05c85f76739ced6b8be58942cf70268cc715a52236d001ab34a26250dd56925",
+      "distinct_read_observations": 2,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/98a5346b.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 3,
+      "planned": 3,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "17492319ebff6326e69ae27da4ab8e9bc79d0c0f0afc45e4dc06ae601ea7c120",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        },
+        {
+          "index": 1,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "6486a93b52a07dd13d3e92c6d9c250c44ebc989734d756ae2a7e4806863780c6",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 2,
+          "tool": "wc",
+          "success": true,
+          "error": null,
+          "output_hash": "9c978b74b0bc86e8553212e9e91205b3193b4400d0171359c0b127ea1b6c37b7",
+          "message_hash": "b735727a05d15241b79fa4b299d17772afec35636aeb098b1a346c7d521de646"
+        }
+      ],
+      "initial_operational_hash": "a2abea58adb1a790880a91d68bed3d4094e4e1caa2d6d0862ea7a9822a32f619",
+      "initial_content_hash": "3ff0fc319034d72a668b70d70b295c0730dad6946aebb7dceed00dee4e8f88ff",
+      "state_hash": "a2abea58adb1a790880a91d68bed3d4094e4e1caa2d6d0862ea7a9822a32f619",
+      "content_hash": "3ff0fc319034d72a668b70d70b295c0730dad6946aebb7dceed00dee4e8f88ff",
+      "distinct_read_observations": 3,
+      "read_observation_count": 3,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/98f15230.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 5,
+      "planned": 5,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "6f977e00cb6c8d60f82d1388162e5e369bff928189a7778e2e0f4d4f463fd19f",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "7f3d7551a75b2961bd0858559663801cf94828dc004d394636ed549aaa0d81ea",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 2,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "92e40117da2555f6c365b2d4d0a23153d5c9ce264285f6e65c59be9093e8fe9c",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        },
+        {
+          "index": 3,
+          "tool": "mv",
+          "success": true,
+          "error": null,
+          "output_hash": "5a9c13d1e17de6d0884e0ea08d653af3a54e76d69cae4bb6a1b4ab0cff0a26fc",
+          "message_hash": "308ed3d2afdd6a78e417fae8bb711201c3d54cf71441d89d3d9863ee8514a1ce"
+        },
+        {
+          "index": 4,
+          "tool": "sort",
+          "success": true,
+          "error": null,
+          "output_hash": "1bc99e4f24e912e2bab39fd9b463f33164b881d64fc387857573ec0077c5208d",
+          "message_hash": "ceb863cb84987679276c9dddd467987fc22c19410bcd7436b0d0d3500c43419f"
+        }
+      ],
+      "initial_operational_hash": "44286f748334393a26635960f1cbbf5b9b3bafbddee2512d7839acb1bd307ba0",
+      "initial_content_hash": "c35630bc0cdf1ebf857ad24800093ab376fd3ec25e3028dc4ca25f144e86dbc7",
+      "state_hash": "14a31c0d2b634bf42c70aefadf8959a59a0d5711fd6003a852d7f5fc3fbbe6c8",
+      "content_hash": "488f6222d64d3587021f081c0a7b246f217aec1442a5a71f3e30a1ffeaeafcf4",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/b52706f0.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "755f58e5151f3c2087eb60d342a6d8ed99ab7214c4865f55b2a303269959f166",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "00cc1f6c2827728c8a9f5b51ed558a241a947c713a38668d6afb1ed86ae622d4",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        }
+      ],
+      "initial_operational_hash": "2441aaba8e32f38b56b03dfd0159d5a9ba669df2c827a5ee5f91b25d82af2377",
+      "initial_content_hash": "b82cd3b6d16b20a3013a3c28ee186156e455490f671e2aacc71e43149608f45f",
+      "state_hash": "0f8b7dd12ed1ba09655807feb087b83018717cc186617d160d913e6c975f5bae",
+      "content_hash": "b82cd3b6d16b20a3013a3c28ee186156e455490f671e2aacc71e43149608f45f",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/b6ef77fd.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "tail",
+          "success": true,
+          "error": null,
+          "output_hash": "b952343b4bc7b307dabb22fb6b754c92eaa466c1fbfd2f082a7f37b50601f657",
+          "message_hash": "99a200ac85aa1e7141ddfd1026d6e334474e789c24a5f99371db763cb8069894"
+        },
+        {
+          "index": 1,
+          "tool": "touch",
+          "success": true,
+          "error": null,
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "0f40cf8f01064f8e21ee2c21a15d91f96bbf97803268c0ed5d7689ce0b7090d5"
+        }
+      ],
+      "initial_operational_hash": "857c45ef398489973d786217590efa1c79cf2025141edefeeefad2b18e49ad29",
+      "initial_content_hash": "23b9ea05b5e20adac3da18b4f6db4d19209c923b5da91d3665d04388b28afb82",
+      "state_hash": "a93ad3bdfbaab820c54f968bc600e0a7f1fb724febdd7f94b70a4b9771b486e2",
+      "content_hash": "42a778f9342b1deb3a44ea0a0accbc04500d73f1fdf4699adae9e1f8b213250d",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/c1b60087.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "281241ecb84a7cce547a1e391f4585d53bf5e1f225d333adae15de4ecede1448"
+        }
+      ],
+      "initial_operational_hash": "5e2e1aaaf0bc06784975d06f20cef1ff32232aa6faf729ddff9a1b766acf8ed0",
+      "initial_content_hash": "20a9b2961988a232fcb0c74df4d2fecd9eda1baba24b7358c53e32d532ff7bd4",
+      "state_hash": "5e2e1aaaf0bc06784975d06f20cef1ff32232aa6faf729ddff9a1b766acf8ed0",
+      "content_hash": "20a9b2961988a232fcb0c74df4d2fecd9eda1baba24b7358c53e32d532ff7bd4",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/ca0a9dd2.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 7,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cp",
+          "success": true,
+          "error": null,
+          "output_hash": "dad9fac6d9db9ae2c800499e4b70a1b39fb02447d0cf662466f89373ba28dccf",
+          "message_hash": "0e0228853ab96b956e3bba09c4f4a122340c03d2c9fd209100ab8980931941ac"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "4ebd1d30856323cd1a923905c54a17fdf91f9bc9bef2b150055ead5736878aa1"
+        }
+      ],
+      "initial_operational_hash": "3b058379960624ae04ad3923c9be2f815af1e64861b674edc3bebd24604c34d3",
+      "initial_content_hash": "81e0248a8fb3b64f0a879a09978556bb06d7830b4ec45f6e6c94db7cd642e7ba",
+      "state_hash": "db9c59d01d1129044d393c3f2cbd87884d3bce3ca32339d72385f7d2617797ba",
+      "content_hash": "9ed7e855abc0a01e0d5a7fc35dd9302fd6ef3bd4e4afe76d09ef6cc7e7d6fe30",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": false,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/d607d901.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "diff",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "6fd98e07aba9c3ecca2666b9a52f59632e4841d350b6980cb8b4f3584067e137"
+        }
+      ],
+      "initial_operational_hash": "7555661bca59e7f10413dfcf2616ee9776fa02cc5bc342c9eeb9c86f9078b86b",
+      "initial_content_hash": "33e9c6438c6b3024ad01dd29c262e47b418d6eac59d5df0bc2117d5fb304ac40",
+      "state_hash": "7555661bca59e7f10413dfcf2616ee9776fa02cc5bc342c9eeb9c86f9078b86b",
+      "content_hash": "33e9c6438c6b3024ad01dd29c262e47b418d6eac59d5df0bc2117d5fb304ac40",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/ec432b48.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "find",
+          "success": true,
+          "error": null,
+          "output_hash": "ce76052b701d32831810d8ff128424c0f566b9b825b7918a232b4bd78e810636",
+          "message_hash": "5f10077e621dd579518810a8607c3b51db065ebaf931e6d91ac44e0b94f57085"
+        },
+        {
+          "index": 1,
+          "tool": "cp",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "e4feb80231423e1949492696ffa4d92b88301c66be35511237615e6bc4cd51a3"
+        }
+      ],
+      "initial_operational_hash": "0100c96d5213a826f800ab858a890290145d1fb397d89920bb8b01215a28237d",
+      "initial_content_hash": "cca1100ed3afcdaaf176e756d64bef17632f85e37513d4db0071920c5d4939e1",
+      "state_hash": "0100c96d5213a826f800ab858a890290145d1fb397d89920bb8b01215a28237d",
+      "content_hash": "cca1100ed3afcdaaf176e756d64bef17632f85e37513d4db0071920c5d4939e1",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 1
+  },
+  {
+    "task": "ClarifyBench_I/f2b794af.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": false,
+      "attempted": 2,
+      "planned": 4,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "ls",
+          "success": true,
+          "error": null,
+          "output_hash": "0c1a7b3981bee7687cd48b987a0a206f46d01e3080599d5da8e8e050044ff34d",
+          "message_hash": "55c715eedf96c8ee9da7dc58137293503b332d0cc61eb773cb8d3710a5d6260f"
+        },
+        {
+          "index": 1,
+          "tool": "mv",
+          "success": false,
+          "error": "OPERATION_FAILED",
+          "output_hash": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a",
+          "message_hash": "30d8904764d34bb0779f17a9a3215dd5544e88d35c8b006153b6bfc9454e7519"
+        }
+      ],
+      "initial_operational_hash": "57a410a2da66d375cbe97b2d66c54bd267c12ea55195ea1d35281c414dec686f",
+      "initial_content_hash": "9bc5c6080c996ccd60359c23efc595829c0dd2726c704e43f7a7f28d8bfa85ed",
+      "state_hash": "57a410a2da66d375cbe97b2d66c54bd267c12ea55195ea1d35281c414dec686f",
+      "content_hash": "9bc5c6080c996ccd60359c23efc595829c0dd2726c704e43f7a7f28d8bfa85ed",
+      "distinct_read_observations": 1,
+      "read_observation_count": 1,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/f91fbb96.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 2,
+      "planned": 2,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "3b9e6582aa8b965d716f2d12c34ace3febc0b16b1628ff516da380183c67d19b",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        },
+        {
+          "index": 1,
+          "tool": "grep",
+          "success": true,
+          "error": null,
+          "output_hash": "3b9e6582aa8b965d716f2d12c34ace3febc0b16b1628ff516da380183c67d19b",
+          "message_hash": "2df1067c42da8cc573a60356a586be14e59b1a371081567b519af1ad5d96abc4"
+        }
+      ],
+      "initial_operational_hash": "128b9f9dc536ee664554dfb758612019b12aa1eb2e4fb9b525df059b4a31e768",
+      "initial_content_hash": "cbe9f36aa863bb50782edfdbf4de11f9d5d338a648b5dae8c7dab0595fc7790d",
+      "state_hash": "128b9f9dc536ee664554dfb758612019b12aa1eb2e4fb9b525df059b4a31e768",
+      "content_hash": "cbe9f36aa863bb50782edfdbf4de11f9d5d338a648b5dae8c7dab0595fc7790d",
+      "distinct_read_observations": 1,
+      "read_observation_count": 2,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": true,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  },
+  {
+    "task": "ClarifyBench_I/fea1c739.json",
+    "split": "ClarifyBench_I",
+    "gold": {
+      "all_success": true,
+      "attempted": 1,
+      "planned": 1,
+      "steps": [
+        {
+          "index": 0,
+          "tool": "cd",
+          "success": true,
+          "error": null,
+          "output_hash": "45c71a71b479fc9ed100f0f7cee0c74caf5758a75c72281546f92bfaa132f8a5",
+          "message_hash": "f7c3f7bd429c1561630bc2b4b23d613bee6924478d25b090cc76f5959ae05760"
+        }
+      ],
+      "initial_operational_hash": "c7fad3ddce862254534fc473d01f2ba963ee97fbed9ee02ca35abfb0cdb0d628",
+      "initial_content_hash": "d9c7e7997249fe9a6d17fd2f0fb68987ea666e4847291ccc70af9d037ff2d31b",
+      "state_hash": "f392564465451493a9ea265cef784cd38dad63d1fb74a1eb9ca59fc4fdd7fdee",
+      "content_hash": "d9c7e7997249fe9a6d17fd2f0fb68987ea666e4847291ccc70af9d037ff2d31b",
+      "distinct_read_observations": 0,
+      "read_observation_count": 0,
+      "alias_count": 0,
+      "bad_parent_count": 0
+    },
+    "gold_content_state_unchanged": true,
+    "gold_operational_state_unchanged": false,
+    "has_DEFAULT_argument": false,
+    "successful_alternate_initial_cwd_count": 0
+  }
+]

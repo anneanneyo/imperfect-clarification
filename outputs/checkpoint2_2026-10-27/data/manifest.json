@@ -1,0 +1,41 @@
+{
+  "schema": "checkpoint2-manifest-v1",
+  "dataset_version": "e002-derived-v1",
+  "upstream_url": "https://github.com/dong-river/VOI_communication",
+  "upstream_commit": "27466a7832d5aafff82017a659e08942e18b01ae",
+  "upstream_raw_sha256": {
+    "train.json": "d270986be41fbdc1a058e19ef08d2371b77b7b1d570d92b3295b4d9091a7f8e3",
+    "eval.json": "5b504b16453dac64ed80aa426de2c75f843621245251289b83e74a83bc7502f5"
+  },
+  "input_sha256": {
+    "results/learn_question_value/training_data.json": "ec256feba71f912ba3ad082358c122abd041e3527abaeaddf0fec27d81844320",
+    "results/learn_question_value/splits.json": "df1d1a14ceba79f5541c55b70ae75680e1971ad4b24c4cedaf6c25a229a19c0d",
+    "results/learn_question_value/summary.json": "7da36069083d78abab25daf01ea46cf0ead3dbf45b05b5008398b5192fdab29a",
+    "results/learn_question_value/per_task.json": "930ae1fc7dfa4b015eff2daf87abad21ae179a79ea43858e5dc7110b1957f848",
+    "results/learn_question_value/model.npz": "68cd2533e5a724bbb7872928108c76489abced99d6db24e6b06a49ca01fcb53a"
+  },
+  "generator": "experiments/checkpoint2_eda.py",
+  "generator_sha256": "c1b937e25cdd998a06995458e52a3a32aada4ff01c4ee4cda113cb363c25a597",
+  "output_sha256": {
+    "data/question_values_v1.jsonl": "bd7091cc971ee8274cbe060b8a047489635b740c0dbe9cdcedea6d4f5812df51",
+    "analysis.json": "367883753a2bea2ac7d0271cf08e686897661194b2811aa633af8e32148a2de6",
+    "DATA_CARD.md": "59b098e0f21d859c4afa0f69d23ac4e9cdc36f71e930dd7a44e6312f94fda61f",
+    "REPRODUCE.md": "315573bbae5d44ef93b04b2696087cc5c4b6a1c4b309bacc44b6f4fd560232ec",
+    "figures/01_composition.png": "2fe9221d93b4e7b1f67b847cffe2ab13bdd8423808377041b73184a50df36ae4",
+    "figures/01_composition.svg": "052306938f910a5e789e5c454e19eea9d831646c679881196594c9df53378e61",
+    "figures/02_risk_and_gain.png": "f3fcaa1b590ede56d919e754aaeca0b47cb59cba0fdfbfdf6f0303c2b1036025",
+    "figures/02_risk_and_gain.svg": "771dd0b351c910169aad86adc3282a41ed97587721ea31f1fc1f286de535fda1",
+    "figures/03_ideal_and_imperfect.png": "80e3bfee904247289af3232c501ff36d8c58b7efa372c14743a6188f394b6091",
+    "figures/03_ideal_and_imperfect.svg": "bbde69d6f31e95309babacd4faf6991ae3d68674a259d2901d757488c4725994",
+    "figures/04_synthetic_answer_types.png": "f285f32cf0d3f0df8b092bf23697915119c0efedea69256978fd56d679dd1917",
+    "figures/04_synthetic_answer_types.svg": "4e8413125dd9e53e4cd1eb61514622376b181c80db9c1a4539ac769b855a441f",
+    "figures/05_questions_and_loss.png": "38fc37b54a11cabbf669729db6d2ec5384f9bfa21cc9fe0e2ee8c57131acf6fb",
+    "figures/05_questions_and_loss.svg": "7adbf4edecb66ba4bf717bbba0ee86611a5c960ab104e22daaf2943940efcd45"
+  },
+  "rows": 6496,
+  "tasks": 812,
+  "license_note": "Standalone upstream license not found; no redistribution permission asserted. Raw upstream data excluded.",
+  "no_llm_calls": true,
+  "no_human_responses": true,
+  "source_audit_status": "passed_with_declared_profile_overlap"
+}

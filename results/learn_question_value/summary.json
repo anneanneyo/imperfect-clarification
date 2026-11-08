@@ -1,0 +1,193 @@
+{
+  "status": "trained_structured_baseline_not_llm_or_novel_method",
+  "checks": "passed",
+  "commit": "27466a7832d5aafff82017a659e08942e18b01ae",
+  "split_counts": {
+    "fit": 577,
+    "validation": 145,
+    "holdout": 90
+  },
+  "population_records": 577,
+  "excluded_duplicates": [],
+  "selected_alpha": 10.0,
+  "validation_trials": [
+    {
+      "alpha": 0.01,
+      "validation_loss": 0.4077261241857408
+    },
+    {
+      "alpha": 0.1,
+      "validation_loss": 0.4077261241857408
+    },
+    {
+      "alpha": 1.0,
+      "validation_loss": 0.4077261241857408
+    },
+    {
+      "alpha": 10.0,
+      "validation_loss": 0.407715154843722
+    },
+    {
+      "alpha": 100.0,
+      "validation_loss": 0.40821533726767467
+    }
+  ],
+  "metrics": [
+    {
+      "cost": 0.0,
+      "method": "ideal",
+      "loss": 0.42475127363758897,
+      "ask_rate": 1.0,
+      "value_mse": 0.006149934435906081
+    },
+    {
+      "cost": 0.0,
+      "method": "calibrated_simple",
+      "loss": 0.4196687760928173,
+      "ask_rate": 1.0,
+      "value_mse": 8.44155069867852e-06
+    },
+    {
+      "cost": 0.0,
+      "method": "ridge",
+      "loss": 0.41963460509339495,
+      "ask_rate": 1.0,
+      "value_mse": 6.959554538601546e-06
+    },
+    {
+      "cost": 0.0,
+      "method": "oracle",
+      "loss": 0.41950332741190055,
+      "ask_rate": 1.0,
+      "value_mse": 0.0
+    },
+    {
+      "cost": 0.0,
+      "method": "oracle_discard_ambiguity",
+      "loss": 0.45884421485653765,
+      "ask_rate": 1.0,
+      "value_mse": 0.0006865501537858733
+    },
+    {
+      "cost": 0.0,
+      "method": "no_ask",
+      "loss": 0.5982054689004428,
+      "ask_rate": 0.0
+    },
+    {
+      "cost": 0.0,
+      "method": "random",
+      "loss": 0.5025048851879935,
+      "ask_rate": 1.0
+    },
+    {
+      "cost": 0.02,
+      "method": "ideal",
+      "loss": 0.4447512736375891,
+      "ask_rate": 1.0,
+      "value_mse": 0.006149934435906081
+    },
+    {
+      "cost": 0.02,
+      "method": "calibrated_simple",
+      "loss": 0.4396687760928173,
+      "ask_rate": 1.0,
+      "value_mse": 8.44155069867852e-06
+    },
+    {
+      "cost": 0.02,
+      "method": "ridge",
+      "loss": 0.4396346050933951,
+      "ask_rate": 1.0,
+      "value_mse": 6.959554538601546e-06
+    },
+    {
+      "cost": 0.02,
+      "method": "oracle",
+      "loss": 0.43950332741190073,
+      "ask_rate": 1.0,
+      "value_mse": 0.0
+    },
+    {
+      "cost": 0.02,
+      "method": "oracle_discard_ambiguity",
+      "loss": 0.4788442148565376,
+      "ask_rate": 1.0,
+      "value_mse": 0.0006865501537858733
+    },
+    {
+      "cost": 0.02,
+      "method": "no_ask",
+      "loss": 0.5982054689004428,
+      "ask_rate": 0.0
+    },
+    {
+      "cost": 0.02,
+      "method": "random",
+      "loss": 0.5225048851879934,
+      "ask_rate": 1.0
+    }
+  ],
+  "paired_contrasts": [
+    {
+      "cost": 0.0,
+      "contrast": "ridge minus ideal",
+      "mean": -0.0051166685441940965,
+      "ci95": [
+        -0.007878592373146526,
+        -0.0027150031869824644
+      ]
+    },
+    {
+      "cost": 0.0,
+      "contrast": "ridge minus calibrated_simple",
+      "mean": -3.417099942229804e-05,
+      "ci95": [
+        -0.00010251299826689413,
+        0.0
+      ]
+    },
+    {
+      "cost": 0.0,
+      "contrast": "ridge minus oracle",
+      "mean": 0.00013127768149431778,
+      "ci95": [
+        1.2998266897730943e-06,
+        0.00037884170999422036
+      ]
+    },
+    {
+      "cost": 0.02,
+      "contrast": "ridge minus ideal",
+      "mean": -0.005116668544194097,
+      "ci95": [
+        -0.00787859237314653,
+        -0.0027150031869824657
+      ]
+    },
+    {
+      "cost": 0.02,
+      "contrast": "ridge minus calibrated_simple",
+      "mean": -3.417099942229804e-05,
+      "ci95": [
+        -0.00010251299826689413,
+        0.0
+      ]
+    },
+    {
+      "cost": 0.02,
+      "contrast": "ridge minus oracle",
+      "mean": 0.00013127768149431778,
+      "ci95": [
+        1.2998266897730943e-06,
+        0.00037884170999422036
+      ]
+    }
+  ],
+  "numpy_version": "2.0.2",
+  "input_sha256": {
+    "train.json": "d270986be41fbdc1a058e19ef08d2371b77b7b1d570d92b3295b4d9091a7f8e3",
+    "eval.json": "5b504b16453dac64ed80aa426de2c75f843621245251289b83e74a83bc7502f5"
+  },
+  "code_sha256": "923b804fb964bbb3badf6b16661ab61340ac02b71d495e91b8bcfe835c035ee6"
+}

@@ -1,0 +1,1904 @@
+{
+  "annotator": "assistant, single-pass semantic review; not human validation",
+  "before_generation": true,
+  "units": 187,
+  "supported": 182,
+  "unclear": 5,
+  "contradiction": 0,
+  "primary_scope": "all selected cases",
+  "sensitivity_excluded_case_ids": [
+    "train/banking_support/00054",
+    "train/banking_support/00131",
+    "train/banking_support/00345"
+  ],
+  "decision": "Proceed with all rows and predeclared whole-case sensitivity. No definite goal contradiction; annotate semantic ambiguity rather than silently repair.",
+  "review_units_sha256": "93195db8dc0a28aba1f91f9b4c1872827423b751e1b09c4c913cd66e593a0e15",
+  "annotations": [
+    {
+      "review_id": "bde1563036395f125199c5d580c9493d3ebc09ee695d0895a043ea2a3499c8d3",
+      "index": 0,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00047/p0/a",
+        "train/banking_support/00047/p1/a",
+        "train/banking_support/00047/p2/a",
+        "train/banking_support/00047/p3/a"
+      ]
+    },
+    {
+      "review_id": "e0926e2b0ad42c76e658a76dd15d78b82272fa7e542c7888f258a2c85b8bce7b",
+      "index": 1,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00047/p0/a",
+        "train/banking_support/00047/p1/a",
+        "train/banking_support/00047/p2/a",
+        "train/banking_support/00047/p3/a"
+      ]
+    },
+    {
+      "review_id": "ea0368cce96d86d3df10cca932353032bd5a445b1062e6c0125495ab2c1be9e6",
+      "index": 2,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00047/p0/a",
+        "train/banking_support/00047/p1/a",
+        "train/banking_support/00047/p2/a",
+        "train/banking_support/00047/p3/a",
+        "train/banking_support/00345/p1/a"
+      ]
+    },
+    {
+      "review_id": "d9516bb7c7762e48c3c51502928e1989bc716b165c11f523bc5b5d33020dabb9",
+      "index": 3,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00047/p0/a",
+        "train/banking_support/00047/p1/a",
+        "train/banking_support/00047/p2/a",
+        "train/banking_support/00047/p3/a"
+      ]
+    },
+    {
+      "review_id": "14020dd184a7c240162fe7641211ff888a55c7a61e3a18b45bc90be894a832e8",
+      "index": 4,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00047/p0/a",
+        "train/banking_support/00047/p1/a",
+        "train/banking_support/00047/p2/a",
+        "train/banking_support/00047/p3/a"
+      ]
+    },
+    {
+      "review_id": "94959289c1a0b187dececbafc447a88d57d11c1c512ecadeae24882a530e81f7",
+      "index": 5,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00047/p0/a",
+        "train/banking_support/00047/p1/a",
+        "train/banking_support/00417/p0/a",
+        "train/banking_support/00417/p1/a"
+      ]
+    },
+    {
+      "review_id": "c88d9bf1feaf73d136c93d8c6b0349ae22f56b64e0bb5a77c0a0ac4bf6b7a87c",
+      "index": 6,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00047/p2/a"
+      ]
+    },
+    {
+      "review_id": "3043bf68bb8372ba05d2d28be579e0bc2d8153b403f617fc2ef80d55a6a1b771",
+      "index": 7,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00047/p3/a"
+      ]
+    },
+    {
+      "review_id": "77e604d82356270e1d92ccd72b02e100e0ab7da6ad3fe3bb4517a0cb4bb42a58",
+      "index": 8,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00003/p0/a",
+        "train/banking_support/00003/p1/a",
+        "train/banking_support/00003/p2/a",
+        "train/banking_support/00003/p3/a"
+      ]
+    },
+    {
+      "review_id": "3014aa217a3595eb111c25489ff872056ba59dd957379e1fc5539856a5e81e13",
+      "index": 9,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00003/p0/a",
+        "train/banking_support/00003/p1/a",
+        "train/banking_support/00003/p2/a",
+        "train/banking_support/00003/p3/a"
+      ]
+    },
+    {
+      "review_id": "99ce41a7e8a201e52c7e6ba8fa794037988bb746ffbb6b058eea26839bbe36ee",
+      "index": 10,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00003/p0/a",
+        "train/banking_support/00003/p1/a",
+        "train/banking_support/00003/p2/a",
+        "train/banking_support/00003/p3/a"
+      ]
+    },
+    {
+      "review_id": "4290b0250e75fdf4263a599942415b4d98505d9f09e41947c23c3dabc9cb8c2e",
+      "index": 11,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00003/p0/a",
+        "train/banking_support/00003/p1/a",
+        "train/banking_support/00003/p2/a",
+        "train/banking_support/00003/p3/a"
+      ]
+    },
+    {
+      "review_id": "3712a9d20fb896ede01d99e05da8bf83ca8b33a0426473308abca144f3d3ff35",
+      "index": 12,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00003/p0/a",
+        "train/banking_support/00003/p1/a",
+        "train/banking_support/00003/p2/a",
+        "train/banking_support/00003/p3/a"
+      ]
+    },
+    {
+      "review_id": "bb5977b3e4aab94b23832bdd9e19e115ce9dde9de98da769a24e686ec4e18ce9",
+      "index": 13,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00003/p0/a",
+        "train/banking_support/00003/p1/a",
+        "train/banking_support/00003/p2/a",
+        "train/banking_support/00003/p3/a"
+      ]
+    },
+    {
+      "review_id": "a97d65ad2114da7cbb3d7ce51ca65b47f1091ff9d2b154a56a6de47aba3a188b",
+      "index": 14,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p0/a",
+        "train/banking_support/00298/p1/a",
+        "train/banking_support/00298/p2/a",
+        "train/banking_support/00298/p3/a"
+      ]
+    },
+    {
+      "review_id": "7d94c30b5bb22d434b422b957ff3407a66879dbff369f284e301b450cdf400e3",
+      "index": 15,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p0/a",
+        "train/banking_support/00298/p1/a",
+        "train/banking_support/00298/p2/a",
+        "train/banking_support/00298/p3/a"
+      ]
+    },
+    {
+      "review_id": "2aa2e57def76033fe9344587a08bf3e70868f0de674d179c9d54dd1198f7dee6",
+      "index": 16,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p0/a",
+        "train/banking_support/00298/p3/a"
+      ]
+    },
+    {
+      "review_id": "9b484562468080c4085059fd804f92b0774e3adc613409aa7bf5e825f6885d11",
+      "index": 17,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p0/a",
+        "train/banking_support/00298/p1/a"
+      ]
+    },
+    {
+      "review_id": "133e71f0eef1def6e15c8a00aff6e821afe2f8125777eeea96bcb909b88bfd52",
+      "index": 18,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p0/a",
+        "train/banking_support/00298/p1/a",
+        "train/banking_support/00298/p2/a",
+        "train/banking_support/00298/p3/a"
+      ]
+    },
+    {
+      "review_id": "2f56910444aad9f92f3f06e48bcc0b0d81ee8c4565c3c8a410c4a25b0df493a2",
+      "index": 19,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p0/a",
+        "train/banking_support/00149/p0/a",
+        "train/banking_support/00149/p1/a"
+      ]
+    },
+    {
+      "review_id": "dcce2159ce882c886aee86d0d32773e816d17b182cac5b0c71dabfff23f0d936",
+      "index": 20,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p1/a"
+      ]
+    },
+    {
+      "review_id": "113dc96300ae0d5b7b8a65d31f441ad376703758552c3a85eaf9924e418e7f28",
+      "index": 21,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p1/a",
+        "train/banking_support/00263/p2/a"
+      ]
+    },
+    {
+      "review_id": "6ef7d509e250d1ff20e058e105cb4a6bcc89fdea28dfc556472bf1bb6eeceec4",
+      "index": 22,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p2/a"
+      ]
+    },
+    {
+      "review_id": "b00c50da513e1b3fce2b43c0d8f05c9c027ebe5ea5469d12bf9c72d76e0d1964",
+      "index": 23,
+      "label": "supported",
+      "note": "Binary full-support partial answer is uninformative; it does not contradict the true value.",
+      "source_ids": [
+        "train/banking_support/00298/p2/a"
+      ]
+    },
+    {
+      "review_id": "b65cac5392d3648bac718ca72b14b211c35c2818d071ce026fd180c146ae5b0c",
+      "index": 24,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p2/a"
+      ]
+    },
+    {
+      "review_id": "4356e8276740f217d4f91e2e89dcc9abe0b38c463ded709abfa1fa8cae4c7261",
+      "index": 25,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p3/a"
+      ]
+    },
+    {
+      "review_id": "54f4dfb71830a0ee0069135e364efd27aebf05e07f8c47d4f65132ca99ee9fb5",
+      "index": 26,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00298/p3/a",
+        "train/banking_support/00273/p1/a"
+      ]
+    },
+    {
+      "review_id": "f698c50838d293e9dea22a13599f8a8bd4c8f04351b0f2d7504192bbfafbc641",
+      "index": 27,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p0/a",
+        "train/banking_support/00109/p1/a"
+      ]
+    },
+    {
+      "review_id": "cbeb2f9deb6d17a0c08642be656b5f7a6eb17dc964f4687bcded757fa04a2724",
+      "index": 28,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p0/a"
+      ]
+    },
+    {
+      "review_id": "d62daa3a0ad6e7c5e94e5674280a17ff905072568d8fbc361fc10b31933f7113",
+      "index": 29,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p0/a"
+      ]
+    },
+    {
+      "review_id": "cb0c179f281b0f841d4037d782d716960659b8ec626d20de808926370d3e0a22",
+      "index": 30,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p0/a",
+        "train/banking_support/00109/p1/a",
+        "train/banking_support/00127/p0/a",
+        "train/banking_support/00127/p1/a",
+        "train/banking_support/00417/p0/a",
+        "train/banking_support/00417/p1/a",
+        "train/banking_support/00263/p1/a",
+        "train/banking_support/00263/p2/a",
+        "train/banking_support/00263/p3/a",
+        "train/banking_support/00233/p0/a",
+        "train/banking_support/00233/p1/a"
+      ]
+    },
+    {
+      "review_id": "016b3813404702f6a6fd9624f1bc296056d532e5541e33b8b8f7362c10de1ebf",
+      "index": 31,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p0/a"
+      ]
+    },
+    {
+      "review_id": "a657ba830fd9894682e6b08a8248ced507a331999f036f8afdeb157c7d1e0873",
+      "index": 32,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p0/a",
+        "train/banking_support/00109/p1/a"
+      ]
+    },
+    {
+      "review_id": "2a2d5048ca02f0418f1e09218e4842314f7479a81180ef159bc44371ed066752",
+      "index": 33,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p1/a"
+      ]
+    },
+    {
+      "review_id": "dddc95071d404457aeb9e332680b9cdcecadfd0107f753694c24c66c89491638",
+      "index": 34,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p1/a"
+      ]
+    },
+    {
+      "review_id": "8b38c3180bbc8f689a0b082447fedc0c267f3fd025f81b7d96621740ff2879ea",
+      "index": 35,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00109/p1/a"
+      ]
+    },
+    {
+      "review_id": "487697f5881a81652f9a31724e9610050576929330990f1d9fe870cba77456d8",
+      "index": 36,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00127/p0/a",
+        "train/banking_support/00127/p1/a"
+      ]
+    },
+    {
+      "review_id": "5db27a613e2b3b191d5d12ef8e8efcd5bb8d7834c2edd1c5f9aadac3382d83a9",
+      "index": 37,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00127/p0/a",
+        "train/banking_support/00127/p1/a"
+      ]
+    },
+    {
+      "review_id": "1e3d83ee29704e1f9da6c2799df34dc851c6813369520fa5e2313318961b3815",
+      "index": 38,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00127/p0/a"
+      ]
+    },
+    {
+      "review_id": "672e691f4ec768d0d55ace75b2ce509df5826e248479bd014b7ba92e42f1c82e",
+      "index": 39,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00127/p0/a",
+        "train/banking_support/00127/p1/a"
+      ]
+    },
+    {
+      "review_id": "57e08cc2374872f1188243b19556ea7edf7d31d01ef88ff40ec248cb33888870",
+      "index": 40,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00127/p0/a"
+      ]
+    },
+    {
+      "review_id": "33870f142e8a6b9a32bc39e2efbce5563887d6f0c2cf9d3d8adb470d8f0c9b6a",
+      "index": 41,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00127/p1/a"
+      ]
+    },
+    {
+      "review_id": "5326f375ce025ca5fbe57641c525e10fb8e920be31fa09f3250a87f9cb53faad",
+      "index": 42,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00127/p1/a"
+      ]
+    },
+    {
+      "review_id": "efcf2645c4c28bd3cb595215c3bde0544a2d71f55c5067a22f4dd7a5bcc2c672",
+      "index": 43,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00112/p0/a",
+        "train/banking_support/00112/p1/a",
+        "train/banking_support/00112/p2/a",
+        "train/banking_support/00112/p3/a"
+      ]
+    },
+    {
+      "review_id": "1422c0a83f1343348d834abe8f69423feae6517e9aeff361ed015d131cb17e44",
+      "index": 44,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00112/p0/a",
+        "train/banking_support/00112/p1/a",
+        "train/banking_support/00112/p2/a",
+        "train/banking_support/00112/p3/a"
+      ]
+    },
+    {
+      "review_id": "4e51c73bc99bf3cdec338f3d030522d8ef26a038fa71a5c888d45580aefaaf76",
+      "index": 45,
+      "label": "supported",
+      "note": "Loan is an impossible alternative under the schema given unrecognized_charge; uncertain user still includes the true card alternative. Do not infer a new incompatible goal.",
+      "source_ids": [
+        "train/banking_support/00112/p0/a"
+      ]
+    },
+    {
+      "review_id": "9d2a20f1e7fab7b4c7efcbf4b0556e36017ceb466dc93eb13f94ccd859baec08",
+      "index": 46,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00112/p0/a",
+        "train/banking_support/00112/p1/a",
+        "train/banking_support/00112/p2/a",
+        "train/banking_support/00112/p3/a"
+      ]
+    },
+    {
+      "review_id": "4dd3ee82246eec6da1a551ad8dd352d3422e990ba9cc81e0a9244849b4b6b834",
+      "index": 47,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00112/p0/a",
+        "train/banking_support/00112/p1/a",
+        "train/banking_support/00112/p2/a",
+        "train/banking_support/00112/p3/a"
+      ]
+    },
+    {
+      "review_id": "601a6d5bede769d1b75da6642990da838df8b87c8a97169bc1f84637c6448523",
+      "index": 48,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00112/p0/a",
+        "train/banking_support/00112/p1/a",
+        "train/banking_support/00112/p2/a",
+        "train/banking_support/00112/p3/a",
+        "train/banking_support/00377/p0/a"
+      ]
+    },
+    {
+      "review_id": "cdef567485054d2c6d9779bb03a36630124f26eb1accbdc20da76c9ef2088f35",
+      "index": 49,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00112/p1/a"
+      ]
+    },
+    {
+      "review_id": "4028847d66f2a3473be427ec479b03403dbc4acd3b03a4c0970c61a84f8b8827",
+      "index": 50,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00112/p2/a"
+      ]
+    },
+    {
+      "review_id": "d6e9dfd6261ecc7e0cc7b54a31d517a009ae95ee3e24d470933e304e008dd3ce",
+      "index": 51,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00112/p3/a"
+      ]
+    },
+    {
+      "review_id": "69ef740eddf76c83fc374c66f61e6900fec288b6073f783f9360908a0acdfb59",
+      "index": 52,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00282/p0/a",
+        "train/banking_support/00282/p1/a"
+      ]
+    },
+    {
+      "review_id": "26a8773dc27ef4a36268ddf6e9c4e59876bcbc9697d48357adec1c51fa4c7d2e",
+      "index": 53,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00282/p0/a",
+        "train/banking_support/00282/p1/a"
+      ]
+    },
+    {
+      "review_id": "d4be6ad8a57204969bcac21a5d8a127206652d39ea9beeb7caa1e65cfc11d9e3",
+      "index": 54,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00282/p0/a",
+        "train/banking_support/00282/p1/a"
+      ]
+    },
+    {
+      "review_id": "1e6fd8bed6918ce39511814345937159b84b6fd1bfe067c638259817d4b45244",
+      "index": 55,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00282/p0/a",
+        "train/banking_support/00282/p1/a",
+        "train/banking_support/00253/p0/a",
+        "train/banking_support/00253/p1/a",
+        "train/banking_support/00253/p2/a"
+      ]
+    },
+    {
+      "review_id": "3ac2bf01ec0f71679a32f5e65bb60766b36ac2c50408bc06ccc95dbb8319e1e7",
+      "index": 56,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00282/p0/a"
+      ]
+    },
+    {
+      "review_id": "374a43acdc9702875d30ed1d72c4bee6fc42af54c26c04dbe955fc9f59789988",
+      "index": 57,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00282/p0/a",
+        "train/banking_support/00282/p1/a"
+      ]
+    },
+    {
+      "review_id": "dac07038df7584e1a8d09b3aa116bdcc4d850f79675b6891e27885d2e97afeaa",
+      "index": 58,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00282/p1/a",
+        "train/banking_support/00366/p0/a",
+        "train/banking_support/00366/p1/a",
+        "train/banking_support/00366/p2/a"
+      ]
+    },
+    {
+      "review_id": "e0c7b8b70d8a9130cd9f31099bc358e2dc612fe169d9e46460464aa9c5cdc198",
+      "index": 59,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00417/p0/a",
+        "train/banking_support/00417/p1/a"
+      ]
+    },
+    {
+      "review_id": "7f122f22d60fae490380a7ea6f012517969d5c8432b1e27ada0dcf1a052361b8",
+      "index": 60,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00417/p0/a",
+        "train/banking_support/00417/p1/a"
+      ]
+    },
+    {
+      "review_id": "879317ecc1bfee44f574f23610108b3c6975471e8599d6b4db3e87e6f88e66c8",
+      "index": 61,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00417/p0/a",
+        "train/banking_support/00417/p1/a",
+        "train/banking_support/00273/p0/a",
+        "train/banking_support/00273/p1/a",
+        "train/banking_support/00273/p2/a"
+      ]
+    },
+    {
+      "review_id": "1814880895fdf1c1fe3a507d85542b2cf24962f656e7ddc6ab0539eb71e4ab9b",
+      "index": 62,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00417/p0/a",
+        "train/banking_support/00417/p1/a"
+      ]
+    },
+    {
+      "review_id": "3159f10b9d2da3f569f38c4112d3d337991580e8aea607de3643baf248bdd2f5",
+      "index": 63,
+      "label": "unclear",
+      "note": "Initial text adds a failed-login issue outside the schema while evidence is empty. This can influence interpretation; no explicit contradiction with any positive evidence.",
+      "source_ids": [
+        "train/banking_support/00131/p0/a"
+      ]
+    },
+    {
+      "review_id": "b96d9038fc3f51ca7e9f6d8ad46e2426b8c34487418556f869e74529f315c21d",
+      "index": 64,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00131/p0/a"
+      ]
+    },
+    {
+      "review_id": "8c91d41e950d98a0ddf28cff755966384ff47f19d012a598a058a5e28d67f55e",
+      "index": 65,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00131/p0/a",
+        "train/banking_support/00370/p1/a"
+      ]
+    },
+    {
+      "review_id": "1b28230803cea1ebe93c4f033211477e007fd12fadb066c69fec87fee903bad1",
+      "index": 66,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00131/p0/a"
+      ]
+    },
+    {
+      "review_id": "e41d69e823b674b6689e8290538cb6e26a5f945cd8c1cb000315cbb6d0e6fd47",
+      "index": 67,
+      "label": "unclear",
+      "note": "Answer reverses speaker perspective (you asking for compensation). Both binary values remain possible; no usable new constraint, but wording is unclear.",
+      "source_ids": [
+        "train/banking_support/00131/p0/a"
+      ]
+    },
+    {
+      "review_id": "b97c6ddf235721ff2233c0366a6147448d4236810859ab60c50f7a7fa636ff0a",
+      "index": 68,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00131/p0/a",
+        "train/banking_support/00370/p1/a"
+      ]
+    },
+    {
+      "review_id": "74cbf208be9afa5f5d88dac4a0dd15594a8edd2d78a2ac35c6b744f5eaffeb3d",
+      "index": 69,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00299/p0/a",
+        "train/banking_support/00299/p1/a"
+      ]
+    },
+    {
+      "review_id": "d2212ee91f33bce3d3eb1cc7336e18dc1187a41f5799865f30f15b2f9c775cc3",
+      "index": 70,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00299/p0/a",
+        "train/banking_support/00299/p1/a"
+      ]
+    },
+    {
+      "review_id": "11d2579d3d034882359ce1a7b308fdabee4c041533017157c39506feac14e65c",
+      "index": 71,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00299/p0/a",
+        "train/banking_support/00299/p1/a"
+      ]
+    },
+    {
+      "review_id": "911470788896dfe7ac752299da5cf6e8e7cf07274ea049af582a7dce021f1197",
+      "index": 72,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00299/p0/a",
+        "train/banking_support/00299/p1/a",
+        "train/banking_support/00095/p2/a",
+        "train/banking_support/00199/p0/a",
+        "train/banking_support/00366/p2/a",
+        "train/banking_support/00054/p0/a",
+        "train/banking_support/00054/p1/a"
+      ]
+    },
+    {
+      "review_id": "ea1a593f48be6513c03e6ad6c4eed62c87a51504d6740d06ec9eea63eea2a24d",
+      "index": 73,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00299/p0/a"
+      ]
+    },
+    {
+      "review_id": "07d4f2f49a3c9569be2cb4e4ac16dfeb399e6018f56b6bff43891477826abc5f",
+      "index": 74,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00299/p0/a"
+      ]
+    },
+    {
+      "review_id": "adb8fba6b657e14ca6c0696e759007b6b828565484822479b1c5e97826d2245b",
+      "index": 75,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00299/p1/a"
+      ]
+    },
+    {
+      "review_id": "5a18c52041497e9b0a9fae06d0c66e61346db5876387681d30a6f25b9b62c08b",
+      "index": 76,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00299/p1/a"
+      ]
+    },
+    {
+      "review_id": "f01afcde5f034fa117bd377e3e3b64a802bcbcc319e060ca2b21009938fd67aa",
+      "index": 77,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00095/p0/a",
+        "train/banking_support/00095/p2/a"
+      ]
+    },
+    {
+      "review_id": "d514ce30cf9d9d4b0950c30d6a8cc29c895cc2614302ffbb2489e287653d7482",
+      "index": 78,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00095/p0/a"
+      ]
+    },
+    {
+      "review_id": "936d3d4d6f6f235d9dbedcd602e0cb547ea1b4cb774e0417c0138e8e2d5e5241",
+      "index": 79,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00095/p0/a"
+      ]
+    },
+    {
+      "review_id": "4a54238760c6da26da70ec7fc3c21cab597b2efc3668a92258c7ffca68773498",
+      "index": 80,
+      "label": "supported",
+      "note": "Uncertainty over both binary outcomes is observationally equivalent to IDK in the schema.",
+      "source_ids": [
+        "train/banking_support/00095/p0/a"
+      ]
+    },
+    {
+      "review_id": "5efa84b79ce7c2f3a372aeaaad079794f0cdb9190f3405a6a8fb7b6ccb96f3d5",
+      "index": 81,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00095/p0/a"
+      ]
+    },
+    {
+      "review_id": "5ebdca72515c52be84ff0298649dd27537c9d1b9c756b1dbb209442aa1b8f4aa",
+      "index": 82,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00095/p0/a",
+        "train/banking_support/00095/p2/a"
+      ]
+    },
+    {
+      "review_id": "f47250eba9483f1cb0c2a95a2dbd9116e2fa2d9f8a75f668b0db22424bfe21f2",
+      "index": 83,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00095/p2/a"
+      ]
+    },
+    {
+      "review_id": "817d5d7417135a1f057ccb4cfd88329670ea23ac648d0087fb10fb8ea082dc29",
+      "index": 84,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00095/p2/a"
+      ]
+    },
+    {
+      "review_id": "177d9f9404fa52e938d92b183668ac20f7ade244aebc0a554dd397f875b4a823",
+      "index": 85,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00095/p2/a",
+        "train/banking_support/00199/p0/a"
+      ]
+    },
+    {
+      "review_id": "25cfc51b3f51382d045adaf9965b6d93237b557a1845131a482446e1de833fa4",
+      "index": 86,
+      "label": "supported",
+      "note": "Hedged change-request statement retains the named issue; schema does not encode confidence.",
+      "source_ids": [
+        "train/banking_support/00377/p0/a",
+        "train/banking_support/00377/p1/a",
+        "train/banking_support/00377/p2/a"
+      ]
+    },
+    {
+      "review_id": "35fb631fa683e5f0bcb445756f2ac3fb964878ee1d0e05aa1abadb9593cc55e7",
+      "index": 87,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00377/p0/a",
+        "train/banking_support/00377/p1/a",
+        "train/banking_support/00377/p2/a"
+      ]
+    },
+    {
+      "review_id": "25decdf95d773ac6793e556383c02274be9b961cd1a7725205d57eb2193b4cd2",
+      "index": 88,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00377/p0/a",
+        "train/banking_support/00377/p1/a",
+        "train/banking_support/00377/p2/a",
+        "train/banking_support/00149/p0/a",
+        "train/banking_support/00149/p1/a"
+      ]
+    },
+    {
+      "review_id": "dc54dde502d5a9028800916db97a04b03ce2588baf6fef3e0a6c9b658ba44f16",
+      "index": 89,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00377/p0/a"
+      ]
+    },
+    {
+      "review_id": "cfa97e797277da82841c8ba2ec2523d0a6b4325d8faac1991e903bef8f98a1ec",
+      "index": 90,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00377/p0/a",
+        "train/banking_support/00377/p1/a",
+        "train/banking_support/00377/p2/a"
+      ]
+    },
+    {
+      "review_id": "9bbdf38db62a6ae6d952ae12dbd03e86a7c0700d40bfc4fde715c42b4e3fbe7d",
+      "index": 91,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00377/p1/a",
+        "train/banking_support/00377/p2/a",
+        "train/banking_support/00149/p0/a",
+        "train/banking_support/00149/p1/a",
+        "train/banking_support/00366/p0/a",
+        "train/banking_support/00366/p3/a"
+      ]
+    },
+    {
+      "review_id": "239402023d425606bc7f7f482dd13335ad8b7144dffd19cf70c3c9c953322d8f",
+      "index": 92,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00377/p1/a"
+      ]
+    },
+    {
+      "review_id": "75abb5d1c3812275be6f14d389f0e2f8fe6e9ff2fd5f3e1888c1c45afa695331",
+      "index": 93,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00377/p2/a"
+      ]
+    },
+    {
+      "review_id": "506c0f924d3375321dd83e4225c38545f6060f96d9648c3b8a86f789c76699a6",
+      "index": 94,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p0/a",
+        "train/banking_support/00070/p1/a",
+        "train/banking_support/00070/p2/a",
+        "train/banking_support/00070/p3/a"
+      ]
+    },
+    {
+      "review_id": "4058731edd06b799a3ec993f810f6e0aefedd2da405c5a7bd96b624bd14b5641",
+      "index": 95,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p0/a",
+        "train/banking_support/00070/p1/a",
+        "train/banking_support/00070/p2/a",
+        "train/banking_support/00070/p3/a"
+      ]
+    },
+    {
+      "review_id": "7dca429b26a8fda7d4a78218fdb663af716c09bb82dcac27b40711fa9016833c",
+      "index": 96,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p0/a",
+        "train/banking_support/00070/p2/a"
+      ]
+    },
+    {
+      "review_id": "68cf7e13ef374f39dca8748b15915af853b88f143ab110dca9bbb7d0667ebbd9",
+      "index": 97,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p0/a",
+        "train/banking_support/00070/p1/a",
+        "train/banking_support/00070/p2/a",
+        "train/banking_support/00070/p3/a"
+      ]
+    },
+    {
+      "review_id": "a68c0041cf285e895eba68567f29ea9bc3740ac5f85ca88ba65f28cac241fc3e",
+      "index": 98,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p0/a",
+        "train/banking_support/00070/p1/a",
+        "train/banking_support/00070/p2/a",
+        "train/banking_support/00070/p3/a"
+      ]
+    },
+    {
+      "review_id": "979fd82c3987ef4add2952320e61ce011d78394c5bb6252b4491bc39f3820dc5",
+      "index": 99,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p0/a",
+        "train/banking_support/00070/p2/a"
+      ]
+    },
+    {
+      "review_id": "7229de4b1485f2c0ed871ce181ddeb2cd7ace323083270900d78f98df42d127d",
+      "index": 100,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p1/a",
+        "train/banking_support/00070/p3/a"
+      ]
+    },
+    {
+      "review_id": "aa727352449b6e5c51fd4b28d30da9e2f20b3d2ca47ad04edf02aaca3673117c",
+      "index": 101,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p1/a"
+      ]
+    },
+    {
+      "review_id": "ef6f688c6a198b896fc75310f707252aafaa2547a7439eb7c5ed0ef55466fc61",
+      "index": 102,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00070/p3/a"
+      ]
+    },
+    {
+      "review_id": "ceea6ad2ebeb502cdf8e0b36e1a8ee32892e5a1d99dffd7834d69575e4dfee4f",
+      "index": 103,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00263/p1/a",
+        "train/banking_support/00263/p2/a",
+        "train/banking_support/00263/p3/a"
+      ]
+    },
+    {
+      "review_id": "dfa6da3a08f489664458f67e00a555784010f23240f3db2e09badd7633704320",
+      "index": 104,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00263/p1/a",
+        "train/banking_support/00263/p2/a",
+        "train/banking_support/00263/p3/a"
+      ]
+    },
+    {
+      "review_id": "e5a466fc8fc3a1931883d204c4596267db8c1422664b9629ec44b4e80f3cf7c9",
+      "index": 105,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00263/p1/a",
+        "train/banking_support/00263/p2/a",
+        "train/banking_support/00263/p3/a"
+      ]
+    },
+    {
+      "review_id": "07b20a85fefc277f04c7066d8434aecebe9e4691f3cb84493c8d84a1c3d87e0f",
+      "index": 106,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00263/p1/a"
+      ]
+    },
+    {
+      "review_id": "e7e98f576336d10cda2a4e8f840f2bf2b9e0f3171f054a8eabcd8cb49c598573",
+      "index": 107,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00263/p1/a",
+        "train/banking_support/00263/p3/a"
+      ]
+    },
+    {
+      "review_id": "2e3a21f1bc30a8cfa8c04da4ea96092082349949ce6d6190b318080805c8a35d",
+      "index": 108,
+      "label": "supported",
+      "note": "Binary uncertainty; no posterior restriction beyond the current evidence.",
+      "source_ids": [
+        "train/banking_support/00263/p2/a"
+      ]
+    },
+    {
+      "review_id": "acc7d386fb7eaf030189dc5d5922c9e6f560f05e07c5032b79e2a39ddb72cd86",
+      "index": 109,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00263/p3/a"
+      ]
+    },
+    {
+      "review_id": "456df0cb5abbc801b04680f1a92e9a71b4274bf26e5f55f216b55538c129c207",
+      "index": 110,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00149/p0/a",
+        "train/banking_support/00149/p1/a"
+      ]
+    },
+    {
+      "review_id": "d30436de4a8aad024daf30b828251cf085bf201a12114999589c5e588dde3957",
+      "index": 111,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00149/p0/a",
+        "train/banking_support/00149/p1/a"
+      ]
+    },
+    {
+      "review_id": "eed80839e47957b22d6cbc4182dea252aa9cea209703b92e62345a7bfeb6b0cf",
+      "index": 112,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00149/p0/a",
+        "train/banking_support/00149/p1/a"
+      ]
+    },
+    {
+      "review_id": "d8437649fca1e9321cea1feebf61b96a3614d4124e33b7f0dccf35485f2d5bee",
+      "index": 113,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00199/p0/a",
+        "train/banking_support/00199/p1/a"
+      ]
+    },
+    {
+      "review_id": "159136b01d7280aa534e4e1185c785fc152fe7c040797dddf1707dd0cff3752c",
+      "index": 114,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00199/p0/a"
+      ]
+    },
+    {
+      "review_id": "a41b499655ba17c3066993882f82d7da2c15bbadeeeab05f396f77ed49817d96",
+      "index": 115,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00199/p0/a"
+      ]
+    },
+    {
+      "review_id": "f6843e6bdc5e5ae17c199936924e0270e4cab6b3485e5b15d2dcc15d48010c4b",
+      "index": 116,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00199/p0/a"
+      ]
+    },
+    {
+      "review_id": "41afa108e2c2a372fd24771dbaf32169fee8d340b81d34ae7489148dc94bcae7",
+      "index": 117,
+      "label": "supported",
+      "note": "Lost-card phrase supports both issue and card product.",
+      "source_ids": [
+        "train/banking_support/00199/p1/a"
+      ]
+    },
+    {
+      "review_id": "d1c8c11779cefb3f0efb44f50201b939985cdb30a62710b2f3469f23dc7d68c9",
+      "index": 118,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00199/p1/a"
+      ]
+    },
+    {
+      "review_id": "9b4710833e65888bcd1fcc13eaf966d6a542a91f5198e75fdc30f2502cb09a33",
+      "index": 119,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00199/p1/a"
+      ]
+    },
+    {
+      "review_id": "5216d1c86679246367b6fa2022ffbc0c141674501de77f714187113e75c213c4",
+      "index": 120,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00199/p1/a"
+      ]
+    },
+    {
+      "review_id": "89e819c36f089bfe2ef78ebc8b114352e2c195516cc802d5685b4c4da2400974",
+      "index": 121,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00199/p1/a"
+      ]
+    },
+    {
+      "review_id": "3f58a6d5f14130b1f6a74f4bf02cacf6e25d93ddcb564965b5475e2cc8c36180",
+      "index": 122,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p0/a",
+        "train/banking_support/00366/p1/a",
+        "train/banking_support/00366/p2/a",
+        "train/banking_support/00366/p3/a"
+      ]
+    },
+    {
+      "review_id": "319812c1e9b31fe43a5d5cf789e98722e111dfff67d16ef300c10d7cbe388cb0",
+      "index": 123,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p0/a"
+      ]
+    },
+    {
+      "review_id": "45b13f555ce73dfb488b54237f2e2382057e81c906bfb2d8ba12996caa580830",
+      "index": 124,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p0/a",
+        "train/banking_support/00366/p2/a"
+      ]
+    },
+    {
+      "review_id": "2cc4d39c867e327defef6760dfbf1c7f8c44be617f6d551d2954596c11e8c3e9",
+      "index": 125,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p0/a",
+        "train/banking_support/00366/p1/a",
+        "train/banking_support/00366/p2/a",
+        "train/banking_support/00366/p3/a",
+        "train/banking_support/00273/p2/a",
+        "train/banking_support/00345/p1/a",
+        "train/banking_support/00253/p2/a"
+      ]
+    },
+    {
+      "review_id": "260589ca28ffd7320dca4927e683171fe8c0a4ce5ff55b80a1cb30fa975dbdbe",
+      "index": 126,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p1/a"
+      ]
+    },
+    {
+      "review_id": "02bd946bebb16c6e7f5d6542138e261db0b51e8cf10affc8d45a886d5fd932d7",
+      "index": 127,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p1/a"
+      ]
+    },
+    {
+      "review_id": "5014f5d05b5aa7510172b2155bde743ba3fb432b09b7abc4e2d7b1a0ab70b737",
+      "index": 128,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p1/a"
+      ]
+    },
+    {
+      "review_id": "58682ed1e43d7c6c43ea5a3348fd35715a1091b9296a3a404758c076a22938af",
+      "index": 129,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p2/a"
+      ]
+    },
+    {
+      "review_id": "2cfa1de8e4e9d3b6584109c0e16b4682c7c31c563d536e7ca91c87d1d9963450",
+      "index": 130,
+      "label": "supported",
+      "note": "Greeting addresses Lucia although that is the user name. Stylistic speaker artifact, but failed_payment is explicit and unambiguous.",
+      "source_ids": [
+        "train/banking_support/00366/p3/a"
+      ]
+    },
+    {
+      "review_id": "b5d9b9e32323e660177cb63e610c7c6adff9529b016bf79b620bce21934dfb92",
+      "index": 131,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p3/a"
+      ]
+    },
+    {
+      "review_id": "80142017817cbfb0dd71da3f047b4bf1c38c1f7c29f7a075edbae544171b7b09",
+      "index": 132,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00366/p3/a"
+      ]
+    },
+    {
+      "review_id": "6064df09bc18bdeb900d9ce1835bf845ed7df9d56fcc724396f2af8b8279e153",
+      "index": 133,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00370/p0/a",
+        "train/banking_support/00370/p1/a"
+      ]
+    },
+    {
+      "review_id": "7a28e1781d44ae18ab381c9dbcdf8fbc8fc38743e5524e3b55df2500d90a0c99",
+      "index": 134,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00370/p0/a"
+      ]
+    },
+    {
+      "review_id": "1ba52bbb1e488fdaff46ab98b33e4623a7b6eefe395c2eec22f662e3ba5b8667",
+      "index": 135,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00370/p0/a"
+      ]
+    },
+    {
+      "review_id": "ba7092badaf532e97ad2552ae75a93688e243895e20930bd24d6f240e4f106e4",
+      "index": 136,
+      "label": "supported",
+      "note": "Uncertainty over both binary outcomes, not positive evidence that money left.",
+      "source_ids": [
+        "train/banking_support/00370/p0/a"
+      ]
+    },
+    {
+      "review_id": "8c80ccf6675ef1072a13fe44cfa8a61062f7388974952968c19b19fba3226429",
+      "index": 137,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00370/p0/a",
+        "train/banking_support/00370/p1/a"
+      ]
+    },
+    {
+      "review_id": "0cc4770f4d7655650c564f4f80f149e083a3a0b1949b2681dc71f80dbd8245c1",
+      "index": 138,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00370/p0/a"
+      ]
+    },
+    {
+      "review_id": "5c09a3e712580713e872728215ede42d07dcd824488f18473b58a36b41454290",
+      "index": 139,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00370/p1/a"
+      ]
+    },
+    {
+      "review_id": "f0dd229655b897c9c0e37bbec333faa34d74f54d8370eeb6a8bdf8a12fed9e45",
+      "index": 140,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00370/p1/a"
+      ]
+    },
+    {
+      "review_id": "f23182fb26631d16d892de1580d4365ca78048358ec883ad323f3f5804d7a79d",
+      "index": 141,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00273/p0/a",
+        "train/banking_support/00273/p1/a",
+        "train/banking_support/00273/p2/a"
+      ]
+    },
+    {
+      "review_id": "b5aded70a9571a6738464f1b2340a4e5e4d0c4cef785299a38e6936211546bf3",
+      "index": 142,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00273/p0/a",
+        "train/banking_support/00273/p1/a",
+        "train/banking_support/00273/p2/a"
+      ]
+    },
+    {
+      "review_id": "7062eb56d6778a734ce619ed4b32b34cabd4862a92c83c43f7a5c698a3c4b51a",
+      "index": 143,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00273/p0/a",
+        "train/banking_support/00273/p1/a",
+        "train/banking_support/00273/p2/a"
+      ]
+    },
+    {
+      "review_id": "8b56366eb1db0e46e9c23a5ea168d81aca58393798073aa0228e27ce2fe0867a",
+      "index": 144,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00273/p0/a",
+        "train/banking_support/00273/p1/a",
+        "train/banking_support/00273/p2/a"
+      ]
+    },
+    {
+      "review_id": "1b35869a11020c2171c8901835e69cf109601155d51f2b18495513d21d94c210",
+      "index": 145,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00273/p0/a"
+      ]
+    },
+    {
+      "review_id": "cee5a3e5fa0168ece069b9a35c0de866124aeb721b9c7491c6a3f475db549a14",
+      "index": 146,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00483/p0/a",
+        "train/banking_support/00483/p1/a",
+        "train/banking_support/00483/p2/a"
+      ]
+    },
+    {
+      "review_id": "3b1f48ccee82920f20c6c12b7214acb8f434461b8161c46c4fd98847a858fe0e",
+      "index": 147,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00483/p0/a"
+      ]
+    },
+    {
+      "review_id": "827a184fe16cb48bc831d6a5b0d8f21d2542b955ce07a46782688e238c0ed7ab",
+      "index": 148,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00483/p0/a",
+        "train/banking_support/00483/p1/a",
+        "train/banking_support/00483/p2/a"
+      ]
+    },
+    {
+      "review_id": "054031f3c1514166d1c8a2d16d239a11667ced08acdab9eba57ee04202109f83",
+      "index": 149,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00483/p0/a",
+        "train/banking_support/00483/p1/a",
+        "train/banking_support/00483/p2/a"
+      ]
+    },
+    {
+      "review_id": "14cf9d01f2c85c89d48cb633e701e20d11374a8d7657fb4e41fa8bbdfa4cf40e",
+      "index": 150,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00483/p0/a",
+        "train/banking_support/00483/p1/a",
+        "train/banking_support/00483/p2/a"
+      ]
+    },
+    {
+      "review_id": "762e2263a6d30cc8e0d9a6e4a4ac7f3f4a062b8b9acd21059ea3f0a7b6262b05",
+      "index": 151,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00483/p0/a",
+        "train/banking_support/00483/p1/a",
+        "train/banking_support/00483/p2/a"
+      ]
+    },
+    {
+      "review_id": "8d4ea8ec24d739e91d9d66e0018b86c1c8e01a2b9c6915d5b596e22ff6fe597a",
+      "index": 152,
+      "label": "supported",
+      "note": "Mentions two alternatives without committing to either; both represented in reveal.",
+      "source_ids": [
+        "train/banking_support/00483/p1/a"
+      ]
+    },
+    {
+      "review_id": "e0fc5e19e07ac08c53cc92646eb5fd4b4b5a02cbc96aef20f2c2ef5056445f9e",
+      "index": 153,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00483/p2/a"
+      ]
+    },
+    {
+      "review_id": "0c152bf53726ac1474bc700d0678e3f7eac0c095ab9a3e4d8dce3c45055a1c88",
+      "index": 154,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p0/a",
+        "train/banking_support/00345/p1/a",
+        "train/banking_support/00345/p2/a"
+      ]
+    },
+    {
+      "review_id": "411b8c282599eb393ded6a374405d71c955e69419f945c7ef9ab91f3ff185f85",
+      "index": 155,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p0/a"
+      ]
+    },
+    {
+      "review_id": "93ca0377c0c2dc97c07e17509ba9fdb77bcb15f3e368cb1f620ba9f07bd7890d",
+      "index": 156,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p0/a"
+      ]
+    },
+    {
+      "review_id": "6bfa109dbbd825549a9775e9a8ec6383490a28f96eb08e29df7d9afe011d05c7",
+      "index": 157,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p0/a"
+      ]
+    },
+    {
+      "review_id": "4185e5b6a0a50c9156edd53a2662c30f8a8e538845e549a915727d1b3f5f132c",
+      "index": 158,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p0/a"
+      ]
+    },
+    {
+      "review_id": "5eb1c5e3a7f9cc4c514354f5eacd65b467a89223829960c16b3ffbdd9eed76db",
+      "index": 159,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p0/a"
+      ]
+    },
+    {
+      "review_id": "7a87367638112f148813aa0bebdf82311d2347db76cf2456cfcc5836b7e2ee0d",
+      "index": 160,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p1/a",
+        "train/banking_support/00345/p2/a"
+      ]
+    },
+    {
+      "review_id": "3d0ceb471be1b1f73ccb80260967ab272175cbea2761145bd365db19f5a92295",
+      "index": 161,
+      "label": "unclear",
+      "note": "Answer refers to your account from a user turn. Both binary values remain possible; perspective is unclear.",
+      "source_ids": [
+        "train/banking_support/00345/p1/a"
+      ]
+    },
+    {
+      "review_id": "5ff7dd69d447aa6f23e706dfad74bc50435dce2c498b26f23a465931f29b3562",
+      "index": 162,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p1/a"
+      ]
+    },
+    {
+      "review_id": "44b62626ca33a97004b39ba56a3f3b813a929bdd74695a5372a4df38795f7cf3",
+      "index": 163,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p2/a"
+      ]
+    },
+    {
+      "review_id": "d428e71bae0a34ac5b688c8181c8f0b8204e2e7020eb647f60d14a6142749cd5",
+      "index": 164,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p2/a"
+      ]
+    },
+    {
+      "review_id": "159f290364fd0a807d8ba7d9f800eaf665f7a20b96d7af592ddb094d5ffdfa72",
+      "index": 165,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p2/a"
+      ]
+    },
+    {
+      "review_id": "f3e7cfbc7d85f9e877f3f0c911a387a89c9e0225adfd4dc99fad2824a94f2c6e",
+      "index": 166,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00345/p2/a"
+      ]
+    },
+    {
+      "review_id": "d5fff1b2da92d2605d74f43519238a5a9e3403aa7e39b524dbc6ab2ddb4b000e",
+      "index": 167,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00233/p0/a",
+        "train/banking_support/00233/p1/a"
+      ]
+    },
+    {
+      "review_id": "7cfd57aa8700803e200944db0375e04be4269aaabe977cba4d0ea0de18d7f243",
+      "index": 168,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00233/p0/a"
+      ]
+    },
+    {
+      "review_id": "8cc47bfd6bf43c824f236f97b0ad06001d77123319f82e459f5e10a45532021c",
+      "index": 169,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00233/p0/a",
+        "train/banking_support/00233/p1/a"
+      ]
+    },
+    {
+      "review_id": "212330d4993d5a2a1d513da533fcabfeb3691a6382fcdc349dc195c824bc6b8d",
+      "index": 170,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00233/p0/a",
+        "train/banking_support/00233/p1/a"
+      ]
+    },
+    {
+      "review_id": "e5b47773ecb390918f44caf9305c4488020478f278973c92cfb20ff156eee2f2",
+      "index": 171,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00233/p0/a",
+        "train/banking_support/00233/p1/a"
+      ]
+    },
+    {
+      "review_id": "fa94e281eb23a9488587d05ab50014120a171ac98916bd00fa3182d0fddce2d8",
+      "index": 172,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00233/p1/a"
+      ]
+    },
+    {
+      "review_id": "a33a7e5d4971aa3d9bcaeeb2d802c2af7cef0cca62f868a84244ad74399d6f0a",
+      "index": 173,
+      "label": "unclear",
+      "note": "Explicit fee-question framing coexists with unauthorized deduction. Fee dispute versus unrecognized charge is semantically ambiguous under exclusive issue labels.",
+      "source_ids": [
+        "train/banking_support/00054/p0/a",
+        "train/banking_support/00054/p1/a"
+      ]
+    },
+    {
+      "review_id": "2d8c151e8fae8eb08ce8a94cb3323a4da5bd685f53fbf34a305ec797b2683287",
+      "index": 174,
+      "label": "unclear",
+      "note": "Repeats fee-question framing and unauthorized deduction; same ambiguity as the initial message.",
+      "source_ids": [
+        "train/banking_support/00054/p0/a",
+        "train/banking_support/00054/p1/a"
+      ]
+    },
+    {
+      "review_id": "dfc9118183d96e20d4556c22898b80e3961b5e79e93d4fa07c32e6cf581376db",
+      "index": 175,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00054/p0/a",
+        "train/banking_support/00054/p1/a"
+      ]
+    },
+    {
+      "review_id": "ad0a147dae4458f5b3bec1f79d78805eb78f691adc7993908d7c8c1e6cd19f10",
+      "index": 176,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00054/p0/a",
+        "train/banking_support/00054/p1/a"
+      ]
+    },
+    {
+      "review_id": "72972f191c1382e3a688baa7bd94e374dd88490ec31525c5bbf29bae943ad30d",
+      "index": 177,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00054/p0/a"
+      ]
+    },
+    {
+      "review_id": "fef897433b1645eda68a6395327393e1fcb5791f669018c53df0c12345920f05",
+      "index": 178,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00054/p1/a"
+      ]
+    },
+    {
+      "review_id": "70fc29fd20d995c4dbd3237800205d70ac0c8c76055aa34bd40d72b676dbb5bf",
+      "index": 179,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00253/p0/a",
+        "train/banking_support/00253/p1/a",
+        "train/banking_support/00253/p2/a"
+      ]
+    },
+    {
+      "review_id": "fe95bc64ae1c24079ab38cc3983d733086c7b6710cc2f8d404f7261295af8d1b",
+      "index": 180,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00253/p0/a",
+        "train/banking_support/00253/p2/a"
+      ]
+    },
+    {
+      "review_id": "7766729b01d5cea39dce12ce9f0566dd48cfd002d3ae04531dd0651700ea7b47",
+      "index": 181,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00253/p0/a",
+        "train/banking_support/00253/p2/a"
+      ]
+    },
+    {
+      "review_id": "75941c677f68b5ff86bf976d0977df2ccaf6829d12f68d5fb71588f363fd4c16",
+      "index": 182,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00253/p0/a",
+        "train/banking_support/00253/p1/a",
+        "train/banking_support/00253/p2/a"
+      ]
+    },
+    {
+      "review_id": "f4bc8db94e8f018f03d63fe8580c1d3c9dfed443a0b6c2fac755ab7456289601",
+      "index": 183,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00253/p0/a"
+      ]
+    },
+    {
+      "review_id": "06986090e492b4c0b24465a11be277a4388922babce17eb591f75b55b0cc849b",
+      "index": 184,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00253/p1/a"
+      ]
+    },
+    {
+      "review_id": "b811cd5e6a4259163ea2570a923db28477ce8458b15f3de5fdc73080c0199d67",
+      "index": 185,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00253/p1/a"
+      ]
+    },
+    {
+      "review_id": "12a95081fad721c49b3e776016a6932b2ba40cc9274f818a18a3d6ba95b95bee",
+      "index": 186,
+      "label": "supported",
+      "note": "Read against requested slot and declared facts; no decisive mismatch identified.",
+      "source_ids": [
+        "train/banking_support/00253/p1/a"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-10-27",
+  "records_per_file": 1832,
+  "nonnull_generations_per_file": 76,
+  "key": "id (string)",
+  "user": {
+    "context": [
+      "question",
+      "clarification_q",
+      "reference",
+      "disambiguation"
+    ],
+    "generations": [
+      "reasoning",
+      "response",
+      "raw_response"
+    ]
+  },
+  "final": {
+    "context": [
+      "question",
+      "clarification_q",
+      "user_answer",
+      "reference",
+      "disambiguation"
+    ],
+    "generations": "list"
+  },
+  "judge": {
+    "context": [
+      "question",
+      "disambiguations",
+      "final_ref",
+      "final_all_refs",
+      "generation_candidate"
+    ],
+    "generations": [
+      "final",
+      "final_anyref"
+    ]
+  },
+  "read_scope": "Schema/count inspection; one nonnull example inspected. No categorical response rates or outcome statistics calculated here."
+}

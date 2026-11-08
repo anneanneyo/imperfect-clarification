@@ -1,0 +1,344 @@
+{
+  "protocol_sha256": "2507321fe44eca547634be23500377a2435a585c790a30c7c432a98143976d1b",
+  "train_families": 60,
+  "evaluation_families": 20,
+  "seeds": 30,
+  "observations_per_full_log": 1024,
+  "free_channel_parameters": 5,
+  "decomposition_cases": 400,
+  "max_decomposition_error": 5.551115123125783e-16,
+  "controls": {
+    "no_ask": {
+      "accuracy": 0.4225,
+      "utility": 0.4225,
+      "ask_rate": 0.0,
+      "question_counts": {
+        "no_ask": 20
+      }
+    },
+    "always_contents": {
+      "accuracy": 0.919125,
+      "utility": 0.8691249999999999,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 20
+      }
+    },
+    "oracle": {
+      "accuracy": 0.9262500000000001,
+      "utility": 0.8762500000000001,
+      "ask_rate": 1.0,
+      "question_counts": {
+        "contents": 17,
+        "count": 3
+      }
+    }
+  },
+  "aggregate": [
+    {
+      "budget": 0,
+      "method": "learned_contextual",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.919125,
+        "sd": 0.0,
+        "min": 0.919125,
+        "max": 0.919125
+      },
+      "utility": {
+        "mean": 0.8691249999999999,
+        "sd": 0.0,
+        "min": 0.8691249999999999,
+        "max": 0.8691249999999999
+      },
+      "oracle_gap": {
+        "mean": 0.007125000000000159,
+        "sd": 0.0,
+        "min": 0.007125000000000159,
+        "max": 0.007125000000000159
+      },
+      "value_mae": {
+        "mean": 0.11003240740740743,
+        "sd": 0.0,
+        "min": 0.11003240740740743,
+        "max": 0.11003240740740743
+      }
+    },
+    {
+      "budget": 0,
+      "method": "learned_fixed",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.919125,
+        "sd": 0.0,
+        "min": 0.919125,
+        "max": 0.919125
+      },
+      "utility": {
+        "mean": 0.8691249999999999,
+        "sd": 0.0,
+        "min": 0.8691249999999999,
+        "max": 0.8691249999999999
+      },
+      "oracle_gap": {
+        "mean": 0.007125000000000159,
+        "sd": 0.0,
+        "min": 0.007125000000000159,
+        "max": 0.007125000000000159
+      },
+      "value_mae": {
+        "mean": 0.11003240740740743,
+        "sd": 0.0,
+        "min": 0.11003240740740743,
+        "max": 0.11003240740740743
+      }
+    },
+    {
+      "budget": 16,
+      "method": "learned_contextual",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.9139541666666666,
+        "sd": 0.020124142821039807,
+        "min": 0.8565000000000002,
+        "max": 0.9262500000000001
+      },
+      "utility": {
+        "mean": 0.8639541666666666,
+        "sd": 0.020124142821039807,
+        "min": 0.8065000000000001,
+        "max": 0.8762500000000001
+      },
+      "oracle_gap": {
+        "mean": 0.012295833333333454,
+        "sd": 0.020124142821039807,
+        "min": 0.0,
+        "max": 0.06974999999999998
+      },
+      "value_mae": {
+        "mean": 0.0654093345825985,
+        "sd": 0.027532210090915582,
+        "min": 0.025685763888888914,
+        "max": 0.12151157407407409
+      }
+    },
+    {
+      "budget": 16,
+      "method": "learned_fixed",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.892025,
+        "sd": 0.05552649064899655,
+        "min": 0.769,
+        "max": 0.919125
+      },
+      "utility": {
+        "mean": 0.8420249999999999,
+        "sd": 0.05552649064899655,
+        "min": 0.719,
+        "max": 0.8691249999999999
+      },
+      "oracle_gap": {
+        "mean": 0.03422500000000015,
+        "sd": 0.05552649064899655,
+        "min": 0.007125000000000159,
+        "max": 0.1572500000000001
+      },
+      "value_mae": {
+        "mean": 0.0654093345825985,
+        "sd": 0.027532210090915582,
+        "min": 0.025685763888888914,
+        "max": 0.12151157407407409
+      }
+    },
+    {
+      "budget": 64,
+      "method": "learned_contextual",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.9228791666666667,
+        "sd": 0.008979891528733287,
+        "min": 0.8765000000000001,
+        "max": 0.9262500000000001
+      },
+      "utility": {
+        "mean": 0.8728791666666667,
+        "sd": 0.008979891528733287,
+        "min": 0.8265,
+        "max": 0.8762500000000001
+      },
+      "oracle_gap": {
+        "mean": 0.00337083333333346,
+        "sd": 0.008979891528733287,
+        "min": 0.0,
+        "max": 0.04975000000000007
+      },
+      "value_mae": {
+        "mean": 0.03868746654831088,
+        "sd": 0.014177665462439232,
+        "min": 0.018191703216374224,
+        "max": 0.06741793214954978
+      }
+    },
+    {
+      "budget": 64,
+      "method": "learned_fixed",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.9100916666666666,
+        "sd": 0.03459133233901963,
+        "min": 0.769,
+        "max": 0.919125
+      },
+      "utility": {
+        "mean": 0.8600916666666666,
+        "sd": 0.03459133233901963,
+        "min": 0.719,
+        "max": 0.8691249999999999
+      },
+      "oracle_gap": {
+        "mean": 0.01615833333333349,
+        "sd": 0.03459133233901963,
+        "min": 0.007125000000000159,
+        "max": 0.1572500000000001
+      },
+      "value_mae": {
+        "mean": 0.03868746654831088,
+        "sd": 0.014177665462439232,
+        "min": 0.018191703216374224,
+        "max": 0.06741793214954978
+      }
+    },
+    {
+      "budget": 256,
+      "method": "learned_contextual",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.9257500000000001,
+        "sd": 0.001048397792364376,
+        "min": 0.9225,
+        "max": 0.9262500000000001
+      },
+      "utility": {
+        "mean": 0.87575,
+        "sd": 0.001048397792364376,
+        "min": 0.8724999999999999,
+        "max": 0.8762500000000001
+      },
+      "oracle_gap": {
+        "mean": 0.0005000000000000856,
+        "sd": 0.001048397792364376,
+        "min": 0.0,
+        "max": 0.003750000000000142
+      },
+      "value_mae": {
+        "mean": 0.02119750120059753,
+        "sd": 0.0082226282889951,
+        "min": 0.008352667466052465,
+        "max": 0.03954681205924411
+      }
+    },
+    {
+      "budget": 256,
+      "method": "learned_fixed",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.919125,
+        "sd": 0.0,
+        "min": 0.919125,
+        "max": 0.919125
+      },
+      "utility": {
+        "mean": 0.8691249999999999,
+        "sd": 0.0,
+        "min": 0.8691249999999999,
+        "max": 0.8691249999999999
+      },
+      "oracle_gap": {
+        "mean": 0.007125000000000159,
+        "sd": 0.0,
+        "min": 0.007125000000000159,
+        "max": 0.007125000000000159
+      },
+      "value_mae": {
+        "mean": 0.02119750120059753,
+        "sd": 0.0082226282889951,
+        "min": 0.008352667466052465,
+        "max": 0.03954681205924411
+      }
+    },
+    {
+      "budget": 1024,
+      "method": "learned_contextual",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.92615,
+        "sd": 0.00038056219755368796,
+        "min": 0.9247500000000001,
+        "max": 0.9262500000000001
+      },
+      "utility": {
+        "mean": 0.87615,
+        "sd": 0.00038056219755368796,
+        "min": 0.87475,
+        "max": 0.8762500000000001
+      },
+      "oracle_gap": {
+        "mean": 0.00010000000000007781,
+        "sd": 0.00038056219755368796,
+        "min": 0.0,
+        "max": 0.0015000000000000568
+      },
+      "value_mae": {
+        "mean": 0.01096316259093112,
+        "sd": 0.004124013619561548,
+        "min": 0.004507934374406706,
+        "max": 0.020785205309585334
+      }
+    },
+    {
+      "budget": 1024,
+      "method": "learned_fixed",
+      "seeds": 30,
+      "accuracy": {
+        "mean": 0.919125,
+        "sd": 0.0,
+        "min": 0.919125,
+        "max": 0.919125
+      },
+      "utility": {
+        "mean": 0.8691249999999999,
+        "sd": 0.0,
+        "min": 0.8691249999999999,
+        "max": 0.8691249999999999
+      },
+      "oracle_gap": {
+        "mean": 0.007125000000000159,
+        "sd": 0.0,
+        "min": 0.007125000000000159,
+        "max": 0.007125000000000159
+      },
+      "value_mae": {
+        "mean": 0.01096316259093112,
+        "sd": 0.004124013619561548,
+        "min": 0.004507934374406706,
+        "max": 0.020785205309585334
+      }
+    }
+  ],
+  "feedback": "Only observed question and reply category; no latent goal, counterfactual or terminal reward supplied to fit.",
+  "known_privileges": [
+    "Uniform prior",
+    "All candidate order features",
+    "Exact within-category response shape R",
+    "Decision execution contract"
+  ],
+  "limitations": [
+    "Artificial fixed channel",
+    "Previously analyzed development evaluation families",
+    "Not an H3 or neural architecture comparison",
+    "Variation across seeds measures only training-log sampling",
+    "No full dialogue or human validation"
+  ],
+  "new_external_model_calls": 0
+}

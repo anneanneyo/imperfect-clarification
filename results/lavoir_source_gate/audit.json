@@ -1,0 +1,46 @@
+{
+  "scope": "One training workflow, not a benchmark evaluation",
+  "rows": 2546,
+  "underlying_cases": 486,
+  "rows_by_kind": {
+    "a": 1374,
+    "b": 893,
+    "c": 279
+  },
+  "positive_prior_worlds": 44,
+  "profile_gold_mismatches": 0,
+  "posterior_tolerance": 2e-09,
+  "posterior_mismatches": 0,
+  "probe_count": 11279,
+  "probe_kind_counts": {
+    "clean": 9811,
+    "partial": 543,
+    "extra": 422,
+    "unknown": 503
+  },
+  "empty_probe_answers": 0,
+  "negative_oracle_threshold": -1e-08,
+  "negative_oracle_values": 435,
+  "min_oracle_value": -0.3210672956322417,
+  "unique_visible_inputs": 1596,
+  "repeated_visible_groups": 522,
+  "same_visible_different_oracle_groups": 271,
+  "same_visible_no_common_top_question_groups": 122,
+  "max_same_input_top_question_agreement_numerator": 2397,
+  "max_same_input_top_question_agreement_denominator": 2546,
+  "max_same_input_top_question_agreement": 0.941476826394344,
+  "source_commit": "af79b0a7a7f9864343223d3f7bd40a02747d0c1f",
+  "source_files": {
+    "README.md": "665ef46cc2b68ccd0f503df243001d478050db74da3177afb3a9ac3d35544bdf",
+    "MODEL_CARD.md": "bbeba08cc7dd82658fac2aa1c9b90c659d0989dbc11b384f142ccb930bc23e8d",
+    "lavoir/targets.py": "7f870ab214f9dd686ef9cece9b18ccfb891ba7a909fb3dd1848a946e4122e83c",
+    "lavoir/model.py": "8cfce91737199cc95b0f156681618f64197dddfaab6494f5625cc717930a0900",
+    "lavoir/evaluate.py": "b6dc85442eccc134775c6b96aea494d598cbdbee3504c5a69f6f372fd37bb017",
+    "lavoir/policy.py": "6fca1542e0d7e8181464668b43d3a3ac4b5139ecb48494fd6f679c634f472ce3",
+    "lavoir/loss.py": "eed26e2f444af44e5a9f2bc6cb3c63b339ff0c0349b10718ee1ef72a71286e66"
+  },
+  "script_sha256": "ac0917fe6d4d92c8cf12ad4bd92fe74fb20a40752edd21fb2bdaa4b874be3700",
+  "oracle_recomputed": false,
+  "test_rows_read": 0,
+  "model_calls": 0
+}

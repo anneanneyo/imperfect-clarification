@@ -1,0 +1,63 @@
+{
+  "unique_generations": 48,
+  "length_outputs": 0,
+  "runtime_errors": 0,
+  "results": {
+    "all_cases": {
+      "repeat": {
+        "accuracy": 0.48263888888888934,
+        "upper_accuracy": 0.48263888888888934,
+        "base_accuracy": 0.49652777777777823,
+        "utility": 0.43263888888888913,
+        "label_change_mass": 0.0416666666666667,
+        "improvement_mass": 0.0,
+        "worsening_mass": 0.013888888888888899,
+        "missing_mass": 0.0,
+        "invalid_mass": 0.0,
+        "certain_improvement_mass": 0.0,
+        "cases": 24
+      },
+      "no_extra": {
+        "accuracy": 0.49652777777777823,
+        "upper_accuracy": 0.49652777777777823,
+        "base_accuracy": 0.49652777777777823,
+        "utility": 0.446527777777778,
+        "label_change_mass": 0.0,
+        "improvement_mass": 0.0,
+        "worsening_mass": 0.0,
+        "missing_mass": 0.0,
+        "invalid_mass": 0.0,
+        "certain_improvement_mass": 0.0,
+        "cases": 24
+      }
+    },
+    "predeclared_sensitivity": {
+      "repeat": {
+        "accuracy": 0.551587301587302,
+        "upper_accuracy": 0.551587301587302,
+        "base_accuracy": 0.5674603174603178,
+        "utility": 0.5015873015873017,
+        "label_change_mass": 0.04761904761904764,
+        "improvement_mass": 0.0,
+        "worsening_mass": 0.01587301587301588,
+        "missing_mass": 0.0,
+        "invalid_mass": 0.0,
+        "certain_improvement_mass": 0.0,
+        "cases": 21
+      },
+      "no_extra": {
+        "accuracy": 0.5674603174603178,
+        "upper_accuracy": 0.5674603174603178,
+        "base_accuracy": 0.5674603174603178,
+        "utility": 0.5174603174603176,
+        "label_change_mass": 0.0,
+        "improvement_mass": 0.0,
+        "worsening_mass": 0.0,
+        "missing_mass": 0.0,
+        "invalid_mass": 0.0,
+        "certain_improvement_mass": 0.0,
+        "cases": 21
+      }
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "log_files_verified": 30,
+  "observations_recounted": 30720,
+  "unique_seed_budget_estimates": 150,
+  "fitted_probability_values_verified": 2700,
+  "same_observations_and_estimates_for_both_learners": true,
+  "hidden_goal_field_absent": true,
+  "training_family_membership_verified": true,
+  "knowledge_source_spans_verified": 34,
+  "tagged_example_posteriors": [
+    0.6666666666666666,
+    0.6666666666666666
+  ],
+  "untagged_example_posteriors": [
+    0.8,
+    0.6923076923076923
+  ],
+  "verification_script_sha256": "0b37cc6c1ec08982ec269945ade0c2bf123b1a9c3d69ad2fb16105cdbe031314"
+}

@@ -1,0 +1,9 @@
+{
+  "files": {
+    "results/imperfect_reply_inventory_e021/cases.json": "02bae75148bc41912d1f02f4b7c4ac06b3cee98f5643e6a2f54c48be7d414235",
+    "results/imperfect_reply_inventory_e021/summary.json": "bba654a4a2f8f59bdac16a102d0ebe9b3091e757aa05ae9967a17c2f295e235a",
+    "results/imperfect_reply_inventory_e021/information_content.json": "a38e3605aab77a5752f8a5db52323f020013e9930bab82e56d4a7a97aaa712a6",
+    "results/heldout_value_e016/source_rows.json": "c6a0d39779c469029c434dce9044249d1b99cac0036b603ec0632f3c9e1fcfc9",
+    "results/heldout_value_e016/train_details.json": "0a703e96937b9277c746e35061ea7e4533b02ebb10cf435f9c370e197b7dfe4e"
+  }
+}

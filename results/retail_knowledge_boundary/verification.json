@@ -1,0 +1,25 @@
+{
+  "sample_tasks": 12,
+  "knowledge_atoms": 34,
+  "category_atom_counts": {
+    "privacy": 2,
+    "user_preference": 2,
+    "policy_boundary": 2,
+    "explicit_unknown": 3,
+    "user_constraint": 6,
+    "agent_lookup": 4,
+    "preference_order": 3,
+    "goal_transition": 3,
+    "user_objective": 2,
+    "unspecified_knowledge": 1,
+    "scripted_repair": 1,
+    "conditional_goal": 2,
+    "withheld_known_fact": 1,
+    "explicit_indifference": 1,
+    "conditional_preference": 1
+  },
+  "all_source_spans_verified": true,
+  "not_empirical_response_labels": true,
+  "source_pack_sha256": "e4e480c5be8721b1ef5581ff8ad6eae30567c6e9f2aeb27be6605bd010dbe279",
+  "annotations_sha256": "a4a46c5711320859cb55069a30642f55e9cca5f4e1c94e46b4799f89c7d4d8cf"
+}

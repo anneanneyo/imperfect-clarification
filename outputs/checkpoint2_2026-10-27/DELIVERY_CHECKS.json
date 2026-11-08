@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "date": "2026-10-27",
+  "pdf_pages": 7,
+  "pdf_all_pages_rendered_and_visually_reviewed": true,
+  "pdf_sha256": "1109e3035c7f57cfeda295745d3b73d7f0d742778d53f0c5f10724aab9ac56e7",
+  "isolated_unpacked_eda_run": "passed",
+  "isolated_data_and_ten_figure_files_byte_identical": true,
+  "all_saved_E002_metrics_replayed": true,
+  "raw_source_6496_labels_recomputed": true,
+  "no_new_model_calls": true,
+  "no_external_submission": true
+}

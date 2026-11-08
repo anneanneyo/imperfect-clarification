@@ -1,0 +1,102 @@
+{
+  "overall_sample_counts": {
+    "apparently_complete": 106,
+    "explicit_unknown_or_refusal": 6,
+    "partial": 3,
+    "unclear": 2,
+    "ambiguous": 3
+  },
+  "per_model": [
+    {
+      "model": "gemini-2.5-flash",
+      "n": 20,
+      "counts": {
+        "explicit_unknown_or_refusal": 1,
+        "apparently_complete": 17,
+        "ambiguous": 1,
+        "unclear": 1
+      }
+    },
+    {
+      "model": "olmo2-13b-instruct",
+      "n": 20,
+      "counts": {
+        "apparently_complete": 18,
+        "explicit_unknown_or_refusal": 1,
+        "partial": 1
+      }
+    },
+    {
+      "model": "olmo2-7b-instruct",
+      "n": 20,
+      "counts": {
+        "apparently_complete": 16,
+        "partial": 1,
+        "explicit_unknown_or_refusal": 3
+      }
+    },
+    {
+      "model": "olmo3-7b-instruct",
+      "n": 20,
+      "counts": {
+        "unclear": 1,
+        "apparently_complete": 17,
+        "ambiguous": 1,
+        "partial": 1
+      }
+    },
+    {
+      "model": "qwen3-14b",
+      "n": 20,
+      "counts": {
+        "apparently_complete": 18,
+        "explicit_unknown_or_refusal": 1,
+        "ambiguous": 1
+      }
+    },
+    {
+      "model": "qwen3-8b",
+      "n": 20,
+      "counts": {
+        "apparently_complete": 20
+      }
+    }
+  ],
+  "sample_lexical_vs_assistant_unknown": [
+    {
+      "lexical_marker": false,
+      "assistant_unknown": false,
+      "n": 114
+    },
+    {
+      "lexical_marker": true,
+      "assistant_unknown": true,
+      "n": 5
+    },
+    {
+      "lexical_marker": false,
+      "assistant_unknown": true,
+      "n": 1
+    }
+  ],
+  "excluding_previously_seen_counts": {
+    "apparently_complete": 86,
+    "explicit_unknown_or_refusal": 6,
+    "partial": 3,
+    "unclear": 2,
+    "ambiguous": 3
+  },
+  "limitations": "One provisional assistant review; 20/model, not pooled-population prevalence; no human or interrater validation. Some E008 examples previously seen. No outcome analysis.",
+  "annotation_freeze": {
+    "protocol_sha256": "f08464cea103454672c28f63e2e3f42fc741a37b2a128474966bc964951b670f",
+    "blind_pack_sha256": "f1ab7e01cb4b0b413fa0f6750bab5b2941282b264605adc1b8e22a2b96f16aae",
+    "annotations_lead_sha256": "5fc21c02e1f78775b2d49fa0343598c4018ec7f1ad79394c4ce3e7e9ade94297",
+    "status": "Single primary-assistant surface review completed before model/source mapping read or new outcomes loaded. Twenty sample records from Qwen3-8B were already read in E008, though identity hidden in this pack. No human or second-rater validation."
+  },
+  "E008_source_id_overlap": {
+    "sample_records_on_previously_examined_source_ids": 27,
+    "sample_unique_previously_examined_source_ids": 24,
+    "mapping_sha256": "9bda813576f40608d33f51269f7297969da83487c6d1167b53a105b2e01efbdb",
+    "note": "Same source problem can have a different clarification under a new model. Exposure to earlier source problems limits complete blindness, even when this response and outcome were unseen."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "files": {
+    "experiments/structured_facts_e019.py": "3720b183c2ff0c516f28124d07e9cd513475ae64902fe900c9add7190f3a5941",
+    "experiments/local_executor_e013.py": "e7c89b2fc3c1e88fa680d5a378e98578fdf63e2e541dfd10ddf080a966a05bca",
+    "research/E019_PROTOCOL.md": "24573765eb423edf9903ac5680f556154bdb24a3b15ed7c1d23ff9a42bcb6c3f",
+    "results/e019_contract_audit/summary.json": "b41b49c33080e8bbc1a4bac26e2ea075e621f9df8847acd9783c9e6372465cb2",
+    "results/e019_contract_audit/manifest.json": "a933be5c9fadf3ca398eb3e199442036a24c3e30b8541f2865b4367f1ba8f993",
+    "results/lavoir_executor_e014/details.json": "9b169a269a864970adfd44252b3b3e1aaa47213abe09ce7bff7c18448c459d4d",
+    "results/lavoir_executor_e014/source_rows.json": "bbae7ea9410552688f160901449986403e67120fa450c9a6f791847debf0ac16",
+    "results/heldout_value_e016/train_details.json": "0a703e96937b9277c746e35061ea7e4533b02ebb10cf435f9c370e197b7dfe4e",
+    "results/heldout_value_e016/source_rows.json": "c6a0d39779c469029c434dce9044249d1b99cac0036b603ec0632f3c9e1fcfc9",
+    "results/heldout_value_e016/schema.json": "625280cca355d1644bd604dd77837d03637c2e087d2f36bdf913b31a19082e1d",
+    "results/structured_facts_e019/cases.json": "eb17c349589b8c6ffba0245fc218a4f9111a21c1ec2bb7cc52ced972a5f37a16",
+    "results/structured_facts_e019/pack.json": "3878d2132f9761bb5def87932c92307a1c4c3a06358d85c6b90d2c7ea649c496",
+    "results/structured_facts_e019/rendered.json": "ee79b43fcf2940e3dfec17b08fa9b4ae2b6a7ef23ac2163d7d844fe3ca4e9977"
+  },
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "model_files": {
+    "README.md": "7b17ce562d7ea121c86d2ffdf660eed3726ac5b52cacfa9f1de11a65969f5657",
+    "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+    "chat_template.jinja": "40c21f34cf67d8c760ef72f8ad3ae5afad514299d4b06e91dd9a8d705af7b541",
+    "config.json": "574349e5a343236546fda55e4744a76e181f534182d7dc60ff1bad7e7a502849",
+    "generation_config.json": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "model.safetensors": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+    "model.safetensors.index.json": "388d811b8b7c2608dd04cce1bcb04a8bf715d19b42790894e6d3427ff429a777",
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "4397cc477eb6d79715ccd2000accd6b3531928f30029665832fa1b255f24d2b9",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "seed": 20261027,
+  "temperature": 0,
+  "max_tokens": 192,
+  "budget_seconds": 1800,
+  "unique_prompts": 120,
+  "E016_test_used": false,
+  "gate": {
+    "train_invalid_max": 0,
+    "train_slot_exact_min": 0.9,
+    "train_singleton_route_correct_min": 0.9
+  }
+}

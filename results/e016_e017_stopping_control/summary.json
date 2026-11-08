@@ -1,0 +1,143 @@
+{
+  "interpretation": "Exploratory diagnostic added during test inference, before aggregate outcomes were inspected; not an original confirmatory contrast.",
+  "methods": {
+    "lexical": {
+      "metrics": {
+        "full": {
+          "accuracy": 0.7100694444444444,
+          "utility": 0.6715277777777777,
+          "ask_rate": 0.7708333333333334,
+          "choices": {
+            "product": 25,
+            "no_ask": 11,
+            "issue": 4,
+            "money_gone": 8
+          }
+        },
+        "constant": {
+          "accuracy": 0.6423611111111112,
+          "utility": 0.5923611111111111,
+          "ask_rate": 1.0,
+          "choices": {
+            "product": 48
+          }
+        },
+        "matched_stop_constant": {
+          "accuracy": 0.6944444444444444,
+          "utility": 0.6559027777777777,
+          "ask_rate": 0.7708333333333334,
+          "choices": {
+            "product": 37,
+            "no_ask": 11
+          }
+        },
+        "always_ask": {
+          "accuracy": 0.6614583333333334,
+          "utility": 0.6114583333333333,
+          "ask_rate": 1.0,
+          "choices": {
+            "product": 28,
+            "issue": 6,
+            "money_gone": 12,
+            "customer_name": 1,
+            "compensation": 1
+          }
+        }
+      },
+      "utility_gain_over_constant": 0.07916666666666661,
+      "stopping_component": 0.06354166666666661,
+      "question_choice_component": 0.015625,
+      "paired": {
+        "matched_stop_constant": {
+          "difference": 0.015625,
+          "percentile95_interval": [
+            -0.07118055555555557,
+            0.10768229166666604
+          ],
+          "improved": 4,
+          "worse": 4,
+          "tied": 40
+        },
+        "always_ask": {
+          "difference": 0.06006944444444445,
+          "percentile95_interval": [
+            0.015277777777777784,
+            0.12014756944444434
+          ],
+          "improved": 11,
+          "worse": 0,
+          "tied": 37
+        }
+      }
+    },
+    "encoder": {
+      "metrics": {
+        "full": {
+          "accuracy": 0.6423611111111112,
+          "utility": 0.6017361111111111,
+          "ask_rate": 0.8125,
+          "choices": {
+            "product": 34,
+            "no_ask": 9,
+            "issue": 4,
+            "money_gone": 1
+          }
+        },
+        "constant": {
+          "accuracy": 0.6423611111111112,
+          "utility": 0.5923611111111111,
+          "ask_rate": 1.0,
+          "choices": {
+            "product": 48
+          }
+        },
+        "matched_stop_constant": {
+          "accuracy": 0.6371527777777778,
+          "utility": 0.5965277777777778,
+          "ask_rate": 0.8125,
+          "choices": {
+            "product": 39,
+            "no_ask": 9
+          }
+        },
+        "always_ask": {
+          "accuracy": 0.6371527777777778,
+          "utility": 0.5871527777777777,
+          "ask_rate": 1.0,
+          "choices": {
+            "product": 34,
+            "customer_name": 7,
+            "issue": 6,
+            "money_gone": 1
+          }
+        }
+      },
+      "utility_gain_over_constant": 0.009375000000000022,
+      "stopping_component": 0.004166666666666652,
+      "question_choice_component": 0.00520833333333337,
+      "paired": {
+        "matched_stop_constant": {
+          "difference": 0.005208333333333332,
+          "percentile95_interval": [
+            -0.057291666666666664,
+            0.06770833333333333
+          ],
+          "improved": 2,
+          "worse": 1,
+          "tied": 45
+        },
+        "always_ask": {
+          "difference": 0.014583333333333339,
+          "percentile95_interval": [
+            -0.04687499999999999,
+            0.07708333333333334
+          ],
+          "improved": 8,
+          "worse": 1,
+          "tied": 39
+        }
+      }
+    }
+  },
+  "same_ask_rate_and_gain_decomposition_verified": true
+}

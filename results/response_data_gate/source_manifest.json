@@ -1,0 +1,87 @@
+{
+  "date": "2026-10-27",
+  "sources": [
+    {
+      "name": "userville",
+      "repository": "https://github.com/sunnweiwei/PPP-Agent",
+      "commit": "abbb7b1594f90eb94cf9543878f88996b7cd21ac",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 4646,
+          "sha256": "52cca1ca6f47a4c05d20f824ac48f3518999475a9af2f0db19825d467656688e"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 11349,
+          "sha256": "836d4878944e61732fd2091c2886de63918a113345b43e08e425edf68b392281"
+        },
+        {
+          "path": "envs/userville.py",
+          "bytes": 19970,
+          "sha256": "a41abe68423373d6c455aa4a91ac4b712b50180e473607d9de85718659669bbf"
+        },
+        {
+          "path": "scripts/eval_func_loc.py",
+          "bytes": 9593,
+          "sha256": "c3e7499e6d4e63f1f9204bd1d619493abdf16177edcd859ef8506df7356a861c"
+        }
+      ]
+    },
+    {
+      "name": "clariti",
+      "repository": "https://github.com/sani903/Teaching-Effective-Clarification",
+      "commit": "9d0f37e57dfde021e6589388f362d45b5901a356",
+      "files": [
+        {
+          "path": "README.md",
+          "bytes": 2840,
+          "sha256": "7d7d826c63088e3ebc5321118b1e1dccaccbd97fd90c0617cf6cf9b0c184a2aa"
+        },
+        {
+          "path": "LICENSE",
+          "bytes": 1398,
+          "sha256": "90bd960a6d24cce8f64f3f2b9be5923d5b33e2650afd6fb683ced4be83e5bb94"
+        },
+        {
+          "path": "data/data.xlsx",
+          "bytes": 2952154,
+          "sha256": "2c0d086adb35fe383408055ed1ede2fd05c07e4bf6fa230782f99373bfb38a0f"
+        },
+        {
+          "path": "openhands/training/train.py",
+          "bytes": 72480,
+          "sha256": "398006d785c85ca77bafe80a1d6669704ccf6e974595326fb42426618865d2e8"
+        },
+        {
+          "path": "evaluation/benchmarks/swe_bench/run_infer.py",
+          "bytes": 39914,
+          "sha256": "1ff437a20b8096b3dcec0d388aa4ef9f9d4de0871715820aa0b0556588ca018f"
+        }
+      ]
+    }
+  ],
+  "public_drive_folder": "https://drive.google.com/drive/folders/1yJHQckiRTkshF8SScZHUK3sjp9SpqW2x",
+  "drive_folder_html_sha256": "805742b9b477e61927bf41830cbb1c5aedc15f5b0351f039dcc18a9a8198d1f9",
+  "listed_drive_files": [
+    {
+      "name": "test_ood.parquet",
+      "id": "1w4Zjne7mwu6iWtDH2KQI0UkTlNPz5WMW",
+      "bytes": 23848775,
+      "inspected": true
+    },
+    {
+      "name": "test_id.parquet",
+      "id": "10p9NM0Ed-NKbEytVKZ_0Qge6a4K3HPff",
+      "bytes": 37674306,
+      "inspected": false
+    },
+    {
+      "name": "train_12n1.parquet",
+      "id": "1tKcysQl-A8HcTS8wl2oS08NsVIGVqob3",
+      "bytes": 557270636,
+      "inspected": false
+    }
+  ],
+  "dependency_note": "Read-only analysis: bundled artifact-tool 2.8.58+ for XLSX; pyarrow 19.0.1 installed only into /private/tmp/clarification-data-audit-venv. Source projects not installed or executed; zero external model calls."
+}

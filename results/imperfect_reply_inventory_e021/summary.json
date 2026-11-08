@@ -1,0 +1,14 @@
+{
+  "status": "inventory only; no model generations; continuation conditional on E020 gate",
+  "source_records": {
+    "partial": 70,
+    "unknown": 62
+  },
+  "unique_dialogues": {
+    "partial": 67,
+    "unknown": 58
+  },
+  "unique_cases": 64,
+  "unknown_facts_unchanged": true,
+  "cases_with_partial_routes_changed": 21
+}

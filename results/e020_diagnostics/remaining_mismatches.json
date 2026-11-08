@@ -1,0 +1,1889 @@
+[
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00298",
+    "text": "I’m done dealing with this back-and-forth nonsense. I need to submit a change request immediately, and I am not interested in any compensation or refunds. Do not ask if I want my money back; I want the change processed. I have tried to resolve this through standard channels, but nothing has worked. I am frustrated with the lack of progress. Please stop wasting my time with irrelevant questions about refunds or money leaving the account. I just need the change to happen. Fix this now.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I need to submit a change request immediately",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00127",
+    "text": "Subject: Inquiry Regarding Account Fee and Refund Request\n\nDear Support Team,\n\nI am writing to formally address a question I have concerning a recent fee applied to my account. I believe this charge may be incorrect and requires your review.\n\nAdditionally, I am requesting that the amount in question be refunded to me as compensation for this error. I would appreciate your prompt attention to this matter to ensure the issue is resolved and the funds are returned to my account without delay.\n\nPlease let me know what further information or documentation you may need from me to facilitate this process. I look forward to your swift response.\n\nSincerely,\n\nA Valued Customer",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "concerning a recent fee applied to my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00127",
+    "text": "Subject: Inquiry Regarding Account Fee and Refund Request\n\nDear Support Team,\n\nI am writing to formally address a question I have concerning a recent fee applied to my account. I believe this charge may be incorrect and requires your review.\n\nAdditionally, I am requesting that the amount in question be refunded to me as compensation for this error. I would appreciate your prompt attention to this matter to ensure the issue is resolved and the funds are returned to my account without delay.\n\nPlease let me know what further information or documentation you may need from me to facilitate this process. I look forward to your swift response.\n\nSincerely,\n\nA Valued Customer",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "yes"
+    ],
+    "quote": "the amount in question be refunded to me as compensation for this error",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00112",
+    "text": "Dear Support Team,\n\nI am writing to seek assistance regarding a recent transaction. I have noticed an unrecognized charge appearing on my account statement. I confirm that the funds associated with this transaction have already left my account.\n\nPlease note that I am not requesting any monetary compensation or reimbursement for this matter. My current need is simply to address the presence of this unrecognized entry.\n\nI appreciate your prompt attention to this inquiry.\n\nSincerely,\n\nSamuel",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "I am writing to seek assistance regarding a recent transaction. I have noticed an unrecognized charge appearing on my account statement.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00282",
+    "text": "Dear Support Team,\n\nMy name is Mateo. I am writing to inquire about a matter concerning a loan product associated with my account. Please be advised that funds have already left my account in relation to this transaction. I require assistance regarding this specific issue. I look forward to your prompt response and guidance on how to proceed.\n\nSincerely,\n\nMateo",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "quote": "funds have already left my account in relation to this transaction",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "text": "Hello. I have a question about my account. I need some help with something, but I am not sure exactly what is happening. I tried to log in and it did not work properly. I am not native English speaker, so please be patient. Can you tell me how to fix this? I do not want to wait too long. Thank you for your help. I hope you can understand my problem. Please let me know what I should do next. I am ready to provide any information you need.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "lost_card",
+      "failed_payment"
+    ],
+    "quote": "I tried to log in and it did not work properly.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "text": "Hello. I have a question about my account. I need some help with something, but I am not sure exactly what is happening. I tried to log in and it did not work properly. I am not native English speaker, so please be patient. Can you tell me how to fix this? I do not want to wait too long. Thank you for your help. I hope you can understand my problem. Please let me know what I should do next. I am ready to provide any information you need.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card",
+      "current_account"
+    ],
+    "quote": "I tried to log in and it did not work properly.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00299",
+    "text": "hey, i need help. my card is lost. money has already left my account. pls check.",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "yes"
+    ],
+    "quote": "pls check",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00070",
+    "text": "Dear Support Team,\n\nI am writing to inquire about a fee that was charged to my account. Specifically, I would like to request that this amount be refunded as compensation. Please note that the funds in question have already been deducted from my account. I would appreciate your assistance in resolving this matter promptly.\n\nThank you for your time and help.\n\nSincerely,\n\nA Customer",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "a fee that was charged to my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00263",
+    "text": "Hello. I have a question about my account. I am asking about a fee. It is related to my loan. I checked my statement and I saw a charge. The money has already left my account. I want to know why this happened. Please help me with this fee question.",
+    "field": "issue",
+    "reference": [
+      "fee_question"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "quote": "I have a question about my account. I am asking about a fee. It is related to my loan. I checked my statement and I saw a charge. The money has already left my account. I want to know why this happened. Please help me with this fee question.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00483",
+    "text": "Hi, this is Leila. I’m reaching out because I need some help with my card. To be clear, I am not asking for any money back or compensation for this. Also, please note that no money has actually left my account yet. I just need assistance resolving the issue at hand. I’ve tried to figure this out on my own, but it’s becoming quite frustrating. I expect this to be sorted out quickly. Please let me know what steps I need to take or what information you need from me to proceed. I’m eager to get this resolved so I can stop dealing with this inconvenience. Thanks in advance for your prompt attention to this matter.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "lost_card"
+    ],
+    "quote": "I need some help with my card.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00345",
+    "text": "Look, I’m not going to repeat myself. I’ve tried everything on my end and nothing is working. This is incredibly frustrating and frankly, unacceptable. I just need some help with something specific, but I can’t seem to get through to anyone who actually knows what they’re doing. I am not interested in generic responses or being told to check my connection. I have a question about my account that needs immediate attention, and I’m tired of wasting my time. Please connect me to someone who can actually resolve this, because the current situation is unacceptable.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "quote": "I have a question about my account that needs immediate attention",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00345",
+    "text": "Look, I’m not going to repeat myself. I’ve tried everything on my end and nothing is working. This is incredibly frustrating and frankly, unacceptable. I just need some help with something specific, but I can’t seem to get through to anyone who actually knows what they’re doing. I am not interested in generic responses or being told to check my connection. I have a question about my account that needs immediate attention, and I’m tired of wasting my time. Please connect me to someone who can actually resolve this, because the current situation is unacceptable.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "I have a question about my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00345",
+    "text": "Look, I’m not going to repeat myself. I’ve tried everything on my end and nothing is working. This is incredibly frustrating and frankly, unacceptable. I just need some help with something specific, but I can’t seem to get through to anyone who actually knows what they’re doing. I am not interested in generic responses or being told to check my connection. I have a question about my account that needs immediate attention, and I’m tired of wasting my time. Please connect me to someone who can actually resolve this, because the current situation is unacceptable.",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "quote": "I have a question about my account that needs immediate attention",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00233",
+    "text": "hey hi it's lucas. i need some help with something regarding my card. i checked my account and i can see that the money has already left. i am not asking for any compensation or money back though. i just have a question about the card situation and i was hoping you could point me in the right direction or help me understand what's going on. let me know what i should do next. thanks",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "lost_card"
+    ],
+    "quote": "i need some help with something regarding my card",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00073",
+    "text": "Dear Support Team,\n\nMy name is Maya. I am writing to inquire about assistance regarding my account. I wish to clarify that this communication is not a request for monetary compensation or reimbursement.\n\nI would appreciate your guidance on how to proceed with this matter. Please let me know if you require any further information from my end to assist me.\n\nThank you for your time and attention.\n\nSincerely,\n\nMaya",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "change_request"
+    ],
+    "quote": "I would appreciate your guidance on how to proceed with this matter.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00467",
+    "text": "Hi, my name is Sara. I need help with a fee. The money was already taken from my account. I do not think this charge is right. I would like to get my money back as compensation. Please check my account and help me resolve this. I am not sure why the fee was applied, but I want it returned. Thank you for your time.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "The money was already taken from my account.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00363",
+    "text": "Hi, I’m reaching out because I have a question regarding a fee that appeared on my statement. I’ve been a customer for several years and usually monitor my transactions closely, so this one caught me off guard. I checked my account history and can confirm that the money has already left my account. I’m trying to understand what triggered this charge. I don’t want to assume it’s an error, but I need some clarification on why this specific fee was applied. Could you help me look into this? I’d appreciate any details you can provide so I can update my records. Thanks for your help.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "I checked my account history",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00363",
+    "text": "Hi, I’m reaching out because I have a question regarding a fee that appeared on my statement. I’ve been a customer for several years and usually monitor my transactions closely, so this one caught me off guard. I checked my account history and can confirm that the money has already left my account. I’m trying to understand what triggered this charge. I don’t want to assume it’s an error, but I need some clarification on why this specific fee was applied. Could you help me look into this? I’d appreciate any details you can provide so I can update my records. Thanks for your help.",
+    "field": "money_gone",
+    "reference": [
+      "yes"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "I can confirm that the money has already left my account.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "text": "Hello, I’m reaching out because I’m a bit lost and could really use some guidance. I’m not entirely sure what the specific details are that I need to provide, or if there is a particular form I should fill out first. I just have a general question about my account, but I’m unsure if this is the right channel for it. Could you please let me know how I should proceed? I want to make sure I give you the correct information without missing anything important, but I’m not quite sure what that entails. Any help you can offer in clarifying the next steps would be greatly appreciated.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "quote": "I just have a general question about my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "text": "Hello, I’m reaching out because I’m a bit lost and could really use some guidance. I’m not entirely sure what the specific details are that I need to provide, or if there is a particular form I should fill out first. I just have a general question about my account, but I’m unsure if this is the right channel for it. Could you please let me know how I should proceed? I want to make sure I give you the correct information without missing anything important, but I’m not quite sure what that entails. Any help you can offer in clarifying the next steps would be greatly appreciated.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card",
+      "current_account",
+      "savings"
+    ],
+    "quote": "a general question about my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00491",
+    "text": "Hi there, I’m Emre. I need some help with my card. I’ve noticed that money has already left my account in connection with this issue. I’m not sure exactly what happened or why this is occurring, but I wanted to get in touch as soon as possible. It’s been a bit worrying trying to track down what’s going on with my balance, especially since the funds are no longer in my possession. Could you please look into this for me? I’d really appreciate any information you can provide about the status of my card and the transaction. Thanks.",
+    "field": "product",
+    "reference": [
+      "card"
+    ],
+    "prediction": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "quote": "I need some help with my card.",
+    "quote_check": {
+      "narrowed": false,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00474",
+    "text": "Subject: Inquiry Regarding Account Services\n\nDear Support Team,\n\nI am writing to formally request assistance with my account. I have encountered a matter that requires clarification, but I wish to remain general in my initial contact until I can receive guidance on the appropriate channel for my specific situation.\n\nI am uncertain about the next steps and hope you can advise me on how to proceed. I am available to provide any further details once the correct department or procedure is identified.\n\nThank you for your time and attention to this matter. I look forward to your prompt response.\n\nSincerely,\n\nA Concerned Customer",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "quote": "I am uncertain about the next steps and hope you can advise me on how to proceed.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00106",
+    "text": "Hi, this is Diego. I have a question regarding my card.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "lost_card"
+    ],
+    "quote": "question regarding my card",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00249",
+    "text": "Hello, I’m having trouble with a transaction and I’m not entirely sure what’s going on. It seems like a payment didn’t go through correctly. I haven’t received any money back, so that isn’t the issue here. Also, I noticed that the funds haven’t actually left my account yet, which is a bit confusing for me. I’m not sure if this is normal or if I need to do something specific to fix it. Could you please help me understand what is happening with this failed transaction? I just want to make sure everything is okay. Thanks.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "the funds haven’t actually left my account yet",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00249",
+    "text": "Hello, I’m having trouble with a transaction and I’m not entirely sure what’s going on. It seems like a payment didn’t go through correctly. I haven’t received any money back, so that isn’t the issue here. Also, I noticed that the funds haven’t actually left my account yet, which is a bit confusing for me. I’m not sure if this is normal or if I need to do something specific to fix it. Could you please help me understand what is happening with this failed transaction? I just want to make sure everything is okay. Thanks.",
+    "field": "money_gone",
+    "reference": [
+      "no"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "the funds haven't actually left my account yet",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00248",
+    "text": "Hello, my name is Elena. I need some help with something regarding my current account.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "change_request"
+    ],
+    "quote": "I need some help with something regarding my current account.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00334",
+    "text": "Hello. I need some help. I want to ask if I can get money back as compensation. I am not sure about the details yet. Please let me know if this is possible. Thank you for your help.",
+    "field": "compensation",
+    "reference": [
+      "yes"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "I need some help. I want to ask if I can get money back as compensation.",
+    "quote_check": {
+      "narrowed": false,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00232",
+    "text": "Hi. I have a question about my account. I need some help with something. Please check if money has left my account. It has not. Also, I am not asking for money back as compensation. I just want to fix this. Please help me soon. Thank you.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "quote": "I need some help with something. Please check if money has left my account. It has not.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00232",
+    "text": "Hi. I have a question about my account. I need some help with something. Please check if money has left my account. It has not. Also, I am not asking for money back as compensation. I just want to fix this. Please help me soon. Thank you.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "I need some help with something. Please check if money has left my account. It has not.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00063",
+    "text": "*   I have a question about my loan.\n*   No money has left my account yet.\n*   I am not asking for any money back as compensation.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "change_request"
+    ],
+    "quote": "I have a question about my loan.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00278",
+    "text": "Hi there. My name is Lucia. I’m reaching out because I need to submit a change request regarding my account settings. I want to make sure this gets processed correctly and promptly. I am not looking for any financial compensation or refunds for this issue; I simply need the administrative update applied to my profile. Please let me know the next steps to finalize this change. I’d appreciate your assistance in getting this resolved quickly. Thank you for your time and help with this matter.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "regarding my account settings",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00278",
+    "text": "Hi there. My name is Lucia. I’m reaching out because I need to submit a change request regarding my account settings. I want to make sure this gets processed correctly and promptly. I am not looking for any financial compensation or refunds for this issue; I simply need the administrative update applied to my profile. Please let me know the next steps to finalize this change. I’d appreciate your assistance in getting this resolved quickly. Thank you for your time and help with this matter.",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "quote": "I am not looking for any financial compensation or refunds for this issue",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00115",
+    "text": "* My bank card is lost.\n* I am asking for money back as compensation.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "My bank card is lost.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00238",
+    "text": "hey, i need some help with something. i'm having an issue regarding my card. i'm not entirely sure what's going on, but it's related to the card specifically. i was hoping you could look into it for me and let me know what's up. i'm just trying to get this sorted out. please let me know when you're available to chat. i'll wait here. thanks.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question"
+    ],
+    "quote": "i'm having an issue regarding my card. i'm not entirely sure what's going on",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00210",
+    "text": "Hello. I have a question about my card. I noticed a fee on my account. The money has already left my account. I am not asking for money back as compensation. I just want to know why this happened. I do not understand the charge. Can you help me with this fee question? It is about my card. Please tell me more. Thank you.",
+    "field": "issue",
+    "reference": [
+      "fee_question"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "quote": "I have a question about my card. I noticed a fee on my account. The money has already left my account. I am not asking for money back as compensation. I just want to know why this happened. I do not understand the charge. Can you help me with this fee question? It is about my card.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00210",
+    "text": "Hello. I have a question about my card. I noticed a fee on my account. The money has already left my account. I am not asking for money back as compensation. I just want to know why this happened. I do not understand the charge. Can you help me with this fee question? It is about my card. Please tell me more. Thank you.",
+    "field": "product",
+    "reference": [
+      "card"
+    ],
+    "prediction": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "quote": "I have a question about my card. I noticed a fee on my account. The money has already left my account. I am not asking for money back as compensation. I just want to know why this happened. I do not understand the charge. Can you help me with this fee question? It is about my card.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00340",
+    "text": "Hi there. I’m currently sitting in a coffee shop waiting for a latte, but I noticed something odd on my account earlier. I see a charge that doesn’t look right to me, and I have a question about the fees associated with it. I checked my statement and confirmed that the money has already left my account. I am not asking for any money back or compensation for the inconvenience; I just want to understand why the fee was applied in the first place. Could you help clarify this for me?",
+    "field": "issue",
+    "reference": [
+      "fee_question"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "fee_question"
+    ],
+    "quote": "I see a charge that doesn’t look right to me, and I have a question about the fees associated with it.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00340",
+    "text": "Hi there. I’m currently sitting in a coffee shop waiting for a latte, but I noticed something odd on my account earlier. I see a charge that doesn’t look right to me, and I have a question about the fees associated with it. I checked my statement and confirmed that the money has already left my account. I am not asking for any money back or compensation for the inconvenience; I just want to understand why the fee was applied in the first place. Could you help clarify this for me?",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I see a charge that doesn’t look right to me",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00433",
+    "text": "hi there, this is omar. i have a question about a fee that was charged to me. yes, the money has already left my account. i am not asking for any money back as compensation though, just wanted to clear it up. thanks",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "a fee that was charged to me",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00034",
+    "text": "Dear Support Team,\n\nI am writing to seek assistance regarding my account. Specifically, I have encountered an unrecognized charge. I have verified the status of this transaction and can confirm that no money has left my account as a result. My name is Olivia.\n\nI would appreciate your guidance on how to proceed with this matter. Please let me know if you require any further details from my side to facilitate your review.\n\nThank you for your time and assistance.\n\nSincerely,\n\nOlivia",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "regarding my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00110",
+    "text": "Hi there, my name is Hannah. I noticed that the money has already left my account. I am writing because I have a question regarding my card. It seems there is an issue with it. On a separate note, I just had a really strong coffee that is keeping me wide awake, which is quite surprising since I usually struggle to stay alert in the morning. Anyway, back to the banking matter, could you please look into the card transaction for me? I would appreciate some assistance with this. Thank you.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "lost_card",
+      "failed_payment"
+    ],
+    "quote": "I noticed that the money has already left my account. I am writing because I have a question regarding my card. It seems there is an issue with it.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00110",
+    "text": "Hi there, my name is Hannah. I noticed that the money has already left my account. I am writing because I have a question regarding my card. It seems there is an issue with it. On a separate note, I just had a really strong coffee that is keeping me wide awake, which is quite surprising since I usually struggle to stay alert in the morning. Anyway, back to the banking matter, could you please look into the card transaction for me? I would appreciate some assistance with this. Thank you.",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "yes"
+    ],
+    "quote": "I am writing because I have a question regarding my card. It seems there is an issue with it.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00470",
+    "text": "Hi, this is Amara. I’m reaching out because I’m a bit confused about the status of my current account. I know that the money has already left my account, but I’m not entirely clear on what that means for my balance or next steps. I am not asking for any money back as compensation; I just want to understand the situation better. I’m sure there is something I’m missing, but I’m not sure which specific details or transaction IDs are important for you to look into. Could you please help me figure out what I should do next? Thanks for your help.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "quote": "I know that the money has already left my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00293",
+    "text": "Dear Support Team,\n\nI am writing to request assistance regarding my account. I have noticed an unrecognized charge on my statement. I can confirm that the funds in question have already left my account. Please note that I am not requesting a refund or any monetary compensation for this issue. I simply wish to report the transaction for your review.\n\nThank you for your time and attention to this matter.\n\nSincerely,\n\nA Valued Customer",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I am writing to request assistance regarding my account.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00389",
+    "text": "Dear Support Team,\n\nI am writing to request assistance regarding my card. I have a specific inquiry that requires your attention to be resolved properly. Please review my account details associated with this matter and provide the necessary guidance or documentation.\n\nI look forward to your prompt response to this issue. Thank you for your time and professional service in handling this request.\n\nSincerely,\n\nA Customer",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "quote": "I am writing to request assistance regarding my card.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00175",
+    "text": "Subject: Assistance Required\n\nDear Support Team,\n\nI am writing to request assistance with a matter concerning my account. My name is Kenji, and I have a question regarding my banking details.\n\nCould you please advise me on the next steps? I would appreciate your prompt attention to this inquiry. Please let me know if you require any additional information from my side to proceed.\n\nThank you for your help.\n\nSincerely,\n\nKenji",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "quote": "I have a question regarding my banking details",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "text": "Hi, I’m Kwame. I need some help with something regarding my account. It’s a bit urgent, to be honest. I’ve been staring at this screen for a while now trying to figure out the right place to ask, and honestly, it’s making my head spin a little. I just got back from my morning run and I’m still catching my breath, but I really need to get this sorted out before I can relax. Can you point me in the right direction? I have a question about my account details, but I’m not sure exactly where to start. Thanks for your patience.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "quote": "I have a question about my account details",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "text": "Hi, I’m Kwame. I need some help with something regarding my account. It’s a bit urgent, to be honest. I’ve been staring at this screen for a while now trying to figure out the right place to ask, and honestly, it’s making my head spin a little. I just got back from my morning run and I’m still catching my breath, but I really need to get this sorted out before I can relax. Can you point me in the right direction? I have a question about my account details, but I’m not sure exactly where to start. Thanks for your patience.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card",
+      "current_account",
+      "savings"
+    ],
+    "quote": "I have a question about my account details",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00455",
+    "text": "Hi there, I’m reaching out because I can’t find my card anywhere. I’ve looked everywhere, and it just seems to have vanished. On top of that, I noticed a transaction that I didn’t authorize, so it appears money has already left my account. I’m a bit confused about the whole situation and aren’t sure if I need to do anything specific right now or if the bank will handle it. Is there a form I need to fill out? Or do I just wait? I’m not entirely sure what steps are required in this case, so any guidance on what information matters would be really helpful. Thanks.",
+    "field": "issue",
+    "reference": [
+      "lost_card"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "lost_card"
+    ],
+    "quote": "I can’t find my card anywhere. I’ve looked everywhere, and it just seems to have vanished.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00455",
+    "text": "Hi there, I’m reaching out because I can’t find my card anywhere. I’ve looked everywhere, and it just seems to have vanished. On top of that, I noticed a transaction that I didn’t authorize, so it appears money has already left my account. I’m a bit confused about the whole situation and aren’t sure if I need to do anything specific right now or if the bank will handle it. Is there a form I need to fill out? Or do I just wait? I’m not entirely sure what steps are required in this case, so any guidance on what information matters would be really helpful. Thanks.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I can’t find my card anywhere. I’ve looked everywhere, and it just seems to have vanished.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00455",
+    "text": "Hi there, I’m reaching out because I can’t find my card anywhere. I’ve looked everywhere, and it just seems to have vanished. On top of that, I noticed a transaction that I didn’t authorize, so it appears money has already left my account. I’m a bit confused about the whole situation and aren’t sure if I need to do anything specific right now or if the bank will handle it. Is there a form I need to fill out? Or do I just wait? I’m not entirely sure what steps are required in this case, so any guidance on what information matters would be really helpful. Thanks.",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "yes"
+    ],
+    "quote": "I’m not entirely sure what steps are required in this case, so any guidance on what information matters would be really helpful.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00490",
+    "text": "Hi there, I’m Nadia. I need some help with my current account. I’ve been a loyal customer for quite a few years now, and this is the first time I’ve reached out for support on this specific product. I have a question that I’ve been turning over in my mind for a while, and I think it’s time I asked for clarity. I want to make sure I understand how everything works with my current account setup before I proceed further. Could you please guide me on the next steps? I’m happy to provide any necessary details you might need to locate my profile. I look forward to your assistance.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "change_request"
+    ],
+    "quote": "I have a question that I’ve been turning over in my mind for a while, and I think it’s time I asked for clarity.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00214",
+    "text": "Hi there, Samuel here. I’m writing from my desk where it’s currently pouring rain outside, which is making me regret leaving the house earlier. I need some help with something regarding my savings product. To clarify, no money has left my account yet. I have a question about my account and would appreciate your assistance. Please let me know how we can proceed. Thanks!",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question"
+    ],
+    "quote": "I have a question about my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00426",
+    "text": "I am writing to clarify if I am eligible for a refund in this situation. Please confirm whether my inquiry is classified as a request for monetary compensation. I am not seeking financial restitution at this time.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "quote": "I am writing to clarify if I am eligible for a refund in this situation. Please confirm whether my inquiry is classified as a request for monetary compensation.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00426",
+    "text": "I am writing to clarify if I am eligible for a refund in this situation. Please confirm whether my inquiry is classified as a request for monetary compensation. I am not seeking financial restitution at this time.",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "quote": "I am not seeking financial restitution at this time.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00087",
+    "text": "Hi there, I’m Olivia. I’m writing because I noticed a charge on my account that I don’t recognize. The money has already left my account, but I’m honestly not sure if that matters or not. I’m a bit confused about which details I should be focusing on to resolve this. I just need some help with something, but I’m not certain what specific information you need from me to look into this. Is there a particular form or detail I should provide? I’m not entirely sure what’s relevant here, so I’d appreciate any guidance on how to proceed with this unrecognized transaction.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "a charge on my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00176",
+    "text": "Hi there. I need some help with something regarding my card. I recently had a failed payment, and I’m a bit confused about the situation. I was wondering if I can get some money back as compensation for this issue? I’m not entirely sure what information or details are relevant here, so please let me know what you need from me to sort this out. I just want to understand why this happened and how we can resolve it. Thank you for your assistance.",
+    "field": "compensation",
+    "reference": [
+      "yes"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "I’m wondering if I can get some money back as compensation for this issue",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00403",
+    "text": "hi i have a question about my account i was wondering if i am asking for money back as compensation",
+    "field": "compensation",
+    "reference": [
+      "yes"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "i am asking for money back as compensation",
+    "quote_check": {
+      "narrowed": false,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00375",
+    "text": "Dear Customer Support,\n\nMy name is Ingrid. I am writing to request assistance regarding my bank card. I have lost my card and need guidance on the next steps to take. I am not asking for any monetary compensation or refund at this time; I simply require help securing the account and addressing the loss of the physical card.\n\nPlease advise me on how to proceed with reporting this incident and securing my card details. I look forward to your prompt response and instructions on how to resolve this matter effectively.\n\nSincerely,\n\nIngrid",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "quote": "I am not asking for any monetary compensation or refund at this time",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00234",
+    "text": "I need help with a lost card.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I need help with a lost card.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00143",
+    "text": "Dear Support Team,\n\nI am writing to request assistance regarding my current account. I have noticed an unrecognized charge on my statement and would appreciate your help in investigating this matter. Please note that I am not seeking any monetary compensation or reimbursement for this issue; my sole intention is to have the transaction clarified and resolved within my account records.\n\nThank you for your attention to this inquiry. I look forward to your prompt response.\n\nSincerely,\n\nDiego",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "quote": "I am not seeking any monetary compensation or reimbursement for this issue",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "text": "hey, i need some help with something. my account is acting up and i cant figure it out. is there anyone there who can look into this for me? it’s pretty urgent. i’ve tried logging in but it keeps saying error. i just want to get this sorted out asap. thanks.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "quote": "it keeps saying error",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "text": "hey, i need some help with something. my account is acting up and i cant figure it out. is there anyone there who can look into this for me? it’s pretty urgent. i’ve tried logging in but it keeps saying error. i just want to get this sorted out asap. thanks.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "my account is acting up",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00348",
+    "text": "Hi, my name is Liam. I have a problem with my current account. I tried to make a payment, but it failed. The money has already left my account. I am not asking for any money back as compensation. I just need some help with this issue. Please let me know what to do next. I want to fix this payment problem. Thank you.",
+    "field": "product",
+    "reference": [
+      "current_account"
+    ],
+    "prediction": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "quote": "my problem with my current account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00447",
+    "text": "Hi there. I’m Lucas. I need some help with something regarding my account. It seems like my card has been lost, but I am a bit confused about the situation. I noticed that money has already left my account, which is worrying me. I’m not entirely sure which details are important for you to resolve this, so I’m just sharing what I know. Could you please advise me on what to do next? I want to make sure everything is handled correctly, but I’m not sure what specific information you need from me right now. Thank you for your assistance.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "my card has been lost",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00079",
+    "text": "Mia here. I am writing to report an unrecognized charge on my current account. It is incredibly frustrating to see a transaction appear that I do not recognize. I need this resolved immediately. Please note that I am not asking for any money back as compensation; I simply want the issue clarified and corrected. This situation is unacceptable and I expect a prompt response regarding the status of this charge.",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "quote": "I am not asking for any money back as compensation",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00379",
+    "text": "Hi, I’m Tom. I was just walking past a bakery and saw the freshest croissants, which reminded me I need to grab lunch later. Anyway, I have a question about my card. I’m not asking for money back as compensation, and I know no money has left my account yet. I just need some help with something regarding the card. Could you point me in the right direction?",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "lost_card",
+      "fee_question",
+      "change_request"
+    ],
+    "quote": "I just need some help with something regarding the card",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00144",
+    "text": "Dear Support Team,\n\nMy name is Jonas. I am writing to request assistance regarding a recent transaction. I confirm that the funds in question have already left my account. Consequently, I would like to ask for money back as compensation for this incident.\n\nPlease let me know the next steps to process this request. I look forward to your prompt response.\n\nSincerely,\n\nJonas",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "quote": "I confirm that the funds in question have already left my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00144",
+    "text": "Dear Support Team,\n\nMy name is Jonas. I am writing to request assistance regarding a recent transaction. I confirm that the funds in question have already left my account. Consequently, I would like to ask for money back as compensation for this incident.\n\nPlease let me know the next steps to process this request. I look forward to your prompt response.\n\nSincerely,\n\nJonas",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "the funds in question have already left my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "text": "Hello. I am reaching out because I am extremely frustrated with the service I have received. I need immediate assistance with my account, but I am not asking for any money back as compensation. Please stop assuming I want a refund or that I am complaining about a specific product. I just want someone to listen to the issue I am facing right now. The current situation is unacceptable, and I expect this to be resolved today. Do not offer me generic responses or ask me to clarify which transaction or item I am referring to. I know exactly what the problem is, and I know it involves a failure on your end. I am angry and I want action, not questions. Please connect me with a supervisor who can actually help me resolve this matter immediately.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "quote": "I know exactly what the problem is, and I know it involves a failure on your end.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "text": "Hello. I am reaching out because I am extremely frustrated with the service I have received. I need immediate assistance with my account, but I am not asking for any money back as compensation. Please stop assuming I want a refund or that I am complaining about a specific product. I just want someone to listen to the issue I am facing right now. The current situation is unacceptable, and I expect this to be resolved today. Do not offer me generic responses or ask me to clarify which transaction or item I am referring to. I know exactly what the problem is, and I know it involves a failure on your end. I am angry and I want action, not questions. Please connect me with a supervisor who can actually help me resolve this matter immediately.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "quote": "I need immediate assistance with my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "text": "Hello. I am reaching out because I am extremely frustrated with the service I have received. I need immediate assistance with my account, but I am not asking for any money back as compensation. Please stop assuming I want a refund or that I am complaining about a specific product. I just want someone to listen to the issue I am facing right now. The current situation is unacceptable, and I expect this to be resolved today. Do not offer me generic responses or ask me to clarify which transaction or item I am referring to. I know exactly what the problem is, and I know it involves a failure on your end. I am angry and I want action, not questions. Please connect me with a supervisor who can actually help me resolve this matter immediately.",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "quote": "I am not asking for any money back as compensation",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00332",
+    "text": "Hi, its Amara here. I just noticed that money has already left my account. I wanted to check if you guys can help me sort this out. Just to be clear, I am not asking for money back as compensation or anything like that. I’m not sure what kind of problem it is exactly, or which product the issue is about, but I’d appreciate some guidance. Can someone let me know what my options are? Thanks.",
+    "field": "compensation",
+    "reference": [
+      "no"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "I’m not asking for money back as compensation or anything like that.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00057",
+    "text": "Hi there, it’s Liam. I’m checking on a card issue, and I can confirm the money has already left my account. Just a quick side note, my coffee got spilled on my shirt this morning, so I’m a bit distracted. But back to the main point: I need some help with something regarding this transaction. I have a question about my account details specifically related to the card product. I’m not looking to go into deep technical weeds right now, just trying to get clarity on where things stand. Could you help me out with this? Thanks.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "lost_card"
+    ],
+    "quote": "I’m checking on a card issue",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00057",
+    "text": "Hi there, it’s Liam. I’m checking on a card issue, and I can confirm the money has already left my account. Just a quick side note, my coffee got spilled on my shirt this morning, so I’m a bit distracted. But back to the main point: I need some help with something regarding this transaction. I have a question about my account details specifically related to the card product. I’m not looking to go into deep technical weeds right now, just trying to get clarity on where things stand. Could you help me out with this? Thanks.",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "yes"
+    ],
+    "quote": "I need some help with something regarding this transaction",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00166",
+    "text": "Hi there, I’m hoping you can help me sort out a confusion with a recent transaction. I attempted to pay for an item earlier today, but the payment didn’t go through as expected. I just wanted to clarify what happened with that specific failed payment. Also, please note that I am not asking for any money back or compensation for this issue; I’m simply trying to understand the status. I’d appreciate it if someone could look into why it failed so I can proceed correctly. Thanks for your assistance.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I attempted to pay for an item earlier today",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00166",
+    "text": "Hi there, I’m hoping you can help me sort out a confusion with a recent transaction. I attempted to pay for an item earlier today, but the payment didn’t go through as expected. I just wanted to clarify what happened with that specific failed payment. Also, please note that I am not asking for any money back or compensation for this issue; I’m simply trying to understand the status. I’d appreciate it if someone could look into why it failed so I can proceed correctly. Thanks for your assistance.",
+    "field": "compensation",
+    "reference": [
+      "no"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "I’m not asking for any money back or compensation for this issue",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00315",
+    "text": "Hello. I am writing to ask for assistance with my account, though I am not sure where to begin. I am feeling quite confused about the current situation and what information is actually relevant to share. I want to clarify that this is not a request for monetary compensation or a refund. I simply need some guidance to understand what is happening. Please let me know what details you need from me to look into this. I am happy to provide whatever is necessary, but I am unsure of the correct process. Thank you for your patience as I try to figure this out.",
+    "field": "compensation",
+    "reference": [
+      "no"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "I am not sure where to begin. I am feeling quite confused about the current situation",
+    "quote_check": {
+      "narrowed": false,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00031",
+    "text": "hey i’m looking for some help with something regarding my account. i wanted to ask if i can get money back as compensation for what happened. i’m not sure exactly how the process works or if i’m eligible, but i’d like to know if that’s an option. please let me know what you need from me to look into this. thanks",
+    "field": "compensation",
+    "reference": [
+      "yes"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "quote": "i’d like to know if i’m eligible, but i’d like to know if that’s an option",
+    "quote_check": {
+      "narrowed": false,
+      "quote_valid": false,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00327",
+    "text": "Hi there, my name is Lucia. I’m reaching out because I’m a bit confused about my account and I’m not entirely sure what information you’ll need from me to sort this out. I noticed something odd regarding my card, but I can’t pinpoint exactly what the issue is or why it’s happening. I haven’t noticed any money leaving my account, so that part seems fine. Also, just to clarify upfront, I’m not asking for any money back or compensation; I just want to understand what’s going on with the card activity. Could you let me know what details I should provide? I’m happy to share whatever is relevant, even if I’m not sure what matters. Thanks for your help.",
+    "field": "product",
+    "reference": [
+      "card"
+    ],
+    "prediction": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "quote": "I’m reaching out because I’m a bit confused about my account and I’m not entirely sure what information you’ll need from me to sort this out. I noticed something odd regarding my card",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": false,
+      "reset_to_unknown": true
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00281",
+    "text": "Hi, I need some help with my account. My name is Noah. I have lost my card. Please let me know what to do next. I want to make sure no one can use it. I checked my recent transactions, and I can confirm that no money has left my account yet. Everything is fine there, but the physical card is missing. Can you help me block it? I am not a native English speaker, so please be patient with my message. I just want to keep my money safe. Let me know the steps I need to take. Thank you for your help.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I have lost my card.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00344",
+    "text": "Hi, I need help with something on my account. I noticed a charge I don’t recognize. The money has already left my account, so I’m wondering if you can look into it. I’m not looking for any compensation or refund for inconvenience, just clarification on the transaction. By the way, I’m currently stuck in traffic and it’s raining cats and dogs, so I’m a bit frustrated. I just want to understand why this happened and if I can get it sorted out. Thanks.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "on my account",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00203",
+    "text": "Hi, I’m Arjun. I experienced a failed payment and I am asking for money back as compensation.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I experienced a failed payment",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00203",
+    "text": "Hi, I’m Arjun. I experienced a failed payment and I am asking for money back as compensation.",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "yes"
+    ],
+    "quote": "I am asking for money back as compensation",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00084",
+    "text": "Hi, my name is Omar. I have a question about my account regarding a lost card. Money has already left my account, but I am not asking for money back as compensation.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "regarding a lost card",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00350",
+    "text": "I am trying to make a payment but it has failed. I need assistance resolving this issue.",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "quote": "I am trying to make a payment but it has failed.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00279",
+    "text": "hi leila i'm writing about my account. the money has already left my account and i need some help with something regarding this.",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "yes"
+    ],
+    "quote": "i need some help with something regarding this",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00484",
+    "text": "Hi, I’m Chloe. I need help with a fee question regarding my card. I noticed a charge I wasn’t expecting, and I can confirm that the money has already left my account. I am not asking for money back as compensation right now, just trying to understand the transaction. Speaking of which, I’m currently drinking a very strong cup of coffee while sitting in a quiet corner of the library; it’s surprisingly peaceful here despite the usual noise outside. Anyway, back to the issue, could you clarify why this fee was applied? I just want some clarity on the statement. Thanks.",
+    "field": "issue",
+    "reference": [
+      "fee_question"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "fee_question"
+    ],
+    "quote": "I noticed a charge I wasn’t expecting, and I can confirm that the money has already left my account.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00425",
+    "text": "Hi there. My name is Hugo. I am writing to you because I have a question about my savings account. I do not want any money back as compensation, so please do not think that is what I need. Also, no money has left my account yet. I just want to ask something simple. I am not very good at English, so please be patient with me. I need some help with something regarding my savings. Please let me know how I can proceed or who can answer my question. Thank you for your time and help. I look forward to hearing from you soon.",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question"
+    ],
+    "quote": "I need some help with something regarding my savings.",
+    "quote_check": {
+      "narrowed": true,
+      "quote_valid": true,
+      "reset_to_unknown": false
+    }
+  }
+]

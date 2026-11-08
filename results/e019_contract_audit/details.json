@@ -1,0 +1,3803 @@
+[
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00047",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00003",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00298",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00109",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00127",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "complaints"
+    ],
+    "positive_prior_routes": [
+      "complaints"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00112",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00282",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "complaints",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00417",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00131",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00299",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00095",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00377",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00070",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "complaints"
+    ],
+    "positive_prior_routes": [
+      "complaints"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00263",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "complaints",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "complaints",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00149",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00199",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00366",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00370",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00273",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00483",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00345",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00233",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00054",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E014_dev",
+    "case_id": "train/banking_support/00253",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00073",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00467",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "complaints"
+    ],
+    "positive_prior_routes": [
+      "complaints"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00363",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00446",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00491",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00184",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "complaints"
+    ],
+    "positive_prior_routes": [
+      "complaints"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00062",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00474",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00055",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00037",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00106",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00164",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00437",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00249",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00213",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00069",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00248",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00334",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00232",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00063",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00418",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00384",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00278",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00026",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00115",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00367",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00423",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00454",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00238",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00210",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00340",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00433",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00034",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00030",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00431",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00354",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00110",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00195",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00470",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00016",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00293",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00389",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00175",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00222",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00124",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00455",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00317",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00390",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00181",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00490",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00214",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00155",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00426",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00406",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00087",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00176",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00403",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00378",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00375",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00050",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00042",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00234",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00143",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00116",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00258",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00348",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00447",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00079",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00158",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00235",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00379",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00144",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00302",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00287",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts"
+    ],
+    "positive_prior_routes": [
+      "accounts"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00332",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00120",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00057",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "cards",
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00166",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00336",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "complaints",
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "complaints",
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00315",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00268",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00031",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00409",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00043",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00327",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00281",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00344",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00203",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00019",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00412",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00084",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "fraud"
+    ],
+    "positive_prior_routes": [
+      "fraud"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00350",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00169",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00279",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards",
+      "complaints",
+      "fraud",
+      "loans"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00484",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "cards"
+    ]
+  },
+  {
+    "dataset": "E016_train",
+    "case_id": "train/banking_support/00425",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "all80_routes": [
+      "accounts",
+      "cards"
+    ],
+    "positive_prior_routes": [
+      "accounts",
+      "cards"
+    ]
+  }
+]

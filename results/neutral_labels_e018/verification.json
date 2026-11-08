@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "completed": true,
+  "prompts": 120,
+  "branches": 339,
+  "verifier_sha256": "2177bcf50b89d5a5467d4d1f1b0d19490b8495c7297c647afef34e5af727cb5b",
+  "manifest_sha256": "419a6e20baed82d884c1362770440b3640d605f0fb7c736c1e2c5a5a138b4e3c"
+}

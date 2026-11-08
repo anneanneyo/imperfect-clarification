@@ -1,0 +1,22 @@
+{
+  "documents_checked": [
+    "README.md",
+    "research/E010_RESULTS.md",
+    "research/E010_OUTCOME_REVIEW.md",
+    "research/E011_RESULTS.md",
+    "research/LITERATURE_FOLLOWUP_E010.md",
+    "research/NEXT_DECISIVE_EXPERIMENT.md",
+    "research/AUTONOMOUS_UPDATE_2026-10-27.md"
+  ],
+  "local_links_checked": 46,
+  "broken_links": [],
+  "document_hashes": {
+    "README.md": "13f4b89648c3fa8ad5970c38c9647a88d951a37b5d208360fde3138cf688a44b",
+    "research/E010_RESULTS.md": "bd9dca802c49c631a871ea4fb0b6cc25242f5073cf42efc1947600a517146bff",
+    "research/E010_OUTCOME_REVIEW.md": "903015e3bf45f5e089f7df21c7e82ba5332a9dbf98f024201544218ee065673c",
+    "research/E011_RESULTS.md": "a2266735971fe0a4c09ef6d9f26c9ddf1f06a917c7eec1458171c45c14c32b55",
+    "research/LITERATURE_FOLLOWUP_E010.md": "af5b24e4faf0144115f72ec359cd429f06a9465782c4c9d8fe0a42ccf8c98a44",
+    "research/NEXT_DECISIVE_EXPERIMENT.md": "8c8bdb10039c02c855e2d421424879d9171d7ea11dd88a4bf024b3fff9956666",
+    "research/AUTONOMOUS_UPDATE_2026-10-27.md": "3096fcb4b552f9943cf0c27ce39feaf9904dfcf1663748f5604283836fccec2b"
+  }
+}

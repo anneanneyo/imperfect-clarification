@@ -1,0 +1,1322 @@
+[
+  {
+    "task_id": "6",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "6",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "89f234376d5ae1f4abca4d353d9b6f4f40fca7dfc2cdde94715fa83d96b48b25",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "6",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "6",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 5,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "6",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "89f234376d5ae1f4abca4d353d9b6f4f40fca7dfc2cdde94715fa83d96b48b25",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "6",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "1154b50c0bdc6fe339c4178281853c5ff06f4442ba6a0552b8d3cb72f2cd2b76",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "6",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "89f234376d5ae1f4abca4d353d9b6f4f40fca7dfc2cdde94715fa83d96b48b25",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "6",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "89f234376d5ae1f4abca4d353d9b6f4f40fca7dfc2cdde94715fa83d96b48b25",
+    "errors": [
+      {
+        "action_index": 6,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Non-delivered order cannot be exchanged"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "93a40329b00e73855223e1e6c4a4e4143e082684b3fb75b0f9de0dc0d2000f2b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 5,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "93a40329b00e73855223e1e6c4a4e4143e082684b3fb75b0f9de0dc0d2000f2b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "5fad4790e9ba738d30d7059c945e4a9ae6e3e63f4d073c89871be0639569e000",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "93a40329b00e73855223e1e6c4a4e4143e082684b3fb75b0f9de0dc0d2000f2b",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "8",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "93a40329b00e73855223e1e6c4a4e4143e082684b3fb75b0f9de0dc0d2000f2b",
+    "errors": [
+      {
+        "action_index": 6,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Non-delivered order cannot be exchanged"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "20",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "20",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "b2cd1af5c0295a7ad902014621e73946d8abddd9b7b7f8473151d29fe59578ef",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 0,
+        "item_hash": "1a8b6099d24ae039430755eb94c92ca0dce624143cc772b8e6ef1429bb4d22e1",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 0,
+        "item_hash": "25d91f0bc1acabb0ee6168d9ddd04d656d32007be95b77ece12ae9236d39faae",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 0,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "20",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "20",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 8,
+        "tool": "modify_pending_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "20",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "b2cd1af5c0295a7ad902014621e73946d8abddd9b7b7f8473151d29fe59578ef",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 8,
+        "item_hash": "1a8b6099d24ae039430755eb94c92ca0dce624143cc772b8e6ef1429bb4d22e1",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 8,
+        "item_hash": "25d91f0bc1acabb0ee6168d9ddd04d656d32007be95b77ece12ae9236d39faae",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 8,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "20",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "cde0e2519e0bd1cc133b7c45bab93b925064e2deba4726f06bdf7fb0705cd2bc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 8,
+        "item_hash": "1a8b6099d24ae039430755eb94c92ca0dce624143cc772b8e6ef1429bb4d22e1",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 8,
+        "item_hash": "25d91f0bc1acabb0ee6168d9ddd04d656d32007be95b77ece12ae9236d39faae",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 8,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "20",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "b2cd1af5c0295a7ad902014621e73946d8abddd9b7b7f8473151d29fe59578ef",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 1,
+        "item_hash": "1a8b6099d24ae039430755eb94c92ca0dce624143cc772b8e6ef1429bb4d22e1",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 1,
+        "item_hash": "25d91f0bc1acabb0ee6168d9ddd04d656d32007be95b77ece12ae9236d39faae",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 1,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "20",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "b2cd1af5c0295a7ad902014621e73946d8abddd9b7b7f8473151d29fe59578ef",
+    "errors": [
+      {
+        "action_index": 9,
+        "tool": "modify_pending_order_items",
+        "type": "ValueError",
+        "message": "Non-pending order cannot be modified"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 8,
+        "item_hash": "1a8b6099d24ae039430755eb94c92ca0dce624143cc772b8e6ef1429bb4d22e1",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 8,
+        "item_hash": "25d91f0bc1acabb0ee6168d9ddd04d656d32007be95b77ece12ae9236d39faae",
+        "price_mismatch": true,
+        "options_mismatch": true
+      },
+      {
+        "action_index": 8,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "21",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "21",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "5e8f25f3d2b4a975eb3803640608fcfe5be0deeb247882ffec7fb220d95dc336",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 0,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "21",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "21",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 11,
+        "tool": "modify_pending_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "21",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "5e8f25f3d2b4a975eb3803640608fcfe5be0deeb247882ffec7fb220d95dc336",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 11,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "21",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "31a91690d7c1d0d2a4d686e1c69b8c756ca6e56d14240c83e0b2124a21bcd6b1",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 11,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "21",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "5e8f25f3d2b4a975eb3803640608fcfe5be0deeb247882ffec7fb220d95dc336",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 0,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "21",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "5e8f25f3d2b4a975eb3803640608fcfe5be0deeb247882ffec7fb220d95dc336",
+    "errors": [
+      {
+        "action_index": 12,
+        "tool": "modify_pending_order_items",
+        "type": "ValueError",
+        "message": "Non-pending order cannot be modified"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": [
+      {
+        "action_index": 11,
+        "item_hash": "9fa6786ee0fdf7d71b826c151e9ae85f3d2f9d7ed5ecc0ecd2022c21f586ac25",
+        "price_mismatch": true,
+        "options_mismatch": true
+      }
+    ]
+  },
+  {
+    "task_id": "46",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": false,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "46",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": false,
+    "db_matches_reference": true,
+    "state_hash": "6d68f46eae23e21397489180c58fcf49d89313fcc9985494e9a581c72908cd66",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "46",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": false,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 2,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "46",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": false,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 2,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 5,
+        "tool": "return_delivered_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "46",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": false,
+    "db_matches_reference": true,
+    "state_hash": "6d68f46eae23e21397489180c58fcf49d89313fcc9985494e9a581c72908cd66",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 2,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "46",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": false,
+    "db_matches_reference": false,
+    "state_hash": "97d4dd6aad0b0fc88e54c1af5c838c26e9ec7749f59446ec6e10c003d6b19917",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 2,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "46",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": false,
+    "db_matches_reference": true,
+    "state_hash": "6d68f46eae23e21397489180c58fcf49d89313fcc9985494e9a581c72908cd66",
+    "errors": [
+      {
+        "action_index": 4,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 5,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "46",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": false,
+    "db_matches_reference": true,
+    "state_hash": "6d68f46eae23e21397489180c58fcf49d89313fcc9985494e9a581c72908cd66",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 2,
+        "tool": "get_order_details",
+        "type": "ValueError",
+        "message": "Order not found"
+      },
+      {
+        "action_index": 6,
+        "tool": "return_delivered_order_items",
+        "type": "ValueError",
+        "message": "Non-delivered order cannot be returned"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "51298a2287de7eaebb23b1e95f6277e13920ca0b17779c42012e407fc4d7e594",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "e68f53eed5bf4cbce9216651faeebcae49081923ccf2cc3c6337ddffb0a19fc6",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "e68f53eed5bf4cbce9216651faeebcae49081923ccf2cc3c6337ddffb0a19fc6",
+    "errors": [
+      {
+        "action_index": 3,
+        "tool": "cancel_pending_order",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "51298a2287de7eaebb23b1e95f6277e13920ca0b17779c42012e407fc4d7e594",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "2bc98395480ee3723278308883c8445e6b023a0b53af057d9c5c0c1b052f22cd",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "51298a2287de7eaebb23b1e95f6277e13920ca0b17779c42012e407fc4d7e594",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "59",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "51298a2287de7eaebb23b1e95f6277e13920ca0b17779c42012e407fc4d7e594",
+    "errors": [
+      {
+        "action_index": 4,
+        "tool": "cancel_pending_order",
+        "type": "ValueError",
+        "message": "Non-pending order cannot be cancelled"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "c06329a18d3780b9c9327c32a0dbcfc10147f8ffa7f5bc34ee1dcbae35169834",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "modify_pending_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "c06329a18d3780b9c9327c32a0dbcfc10147f8ffa7f5bc34ee1dcbae35169834",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "4368b6a49fa5bbf08a1ca1a99a8d72a69046cd4842774c095f6ae725f3f36280",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "c06329a18d3780b9c9327c32a0dbcfc10147f8ffa7f5bc34ee1dcbae35169834",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "85",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "c06329a18d3780b9c9327c32a0dbcfc10147f8ffa7f5bc34ee1dcbae35169834",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "modify_pending_order_items",
+        "type": "ValueError",
+        "message": "Non-pending order cannot be modified"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "3bd9e4474efa1cd36e375d8853ddb1523fade5b45271d50c8667ab1f2866f5e9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "3bd9e4474efa1cd36e375d8853ddb1523fade5b45271d50c8667ab1f2866f5e9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "f90562dab1b8be23d2e35fa1725b569aff34c34975dc21fe66545a146b606fa7",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "3bd9e4474efa1cd36e375d8853ddb1523fade5b45271d50c8667ab1f2866f5e9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "93",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "3bd9e4474efa1cd36e375d8853ddb1523fade5b45271d50c8667ab1f2866f5e9",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Non-delivered order cannot be exchanged"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "72e131020f3d452e7982194a2e6ced348111dcc63853916d040e7574b2174e86",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "22c585caa705cdb1a0b66ed1aa4bd2174ae516ba70ebadfbda68de126a645776",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "22c585caa705cdb1a0b66ed1aa4bd2174ae516ba70ebadfbda68de126a645776",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "modify_pending_order_address",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "72e131020f3d452e7982194a2e6ced348111dcc63853916d040e7574b2174e86",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "a7fbb6723685c0c09e71e5f57c9cce800ccab0bc7fe9556f58add9e4b083bdbb",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "72e131020f3d452e7982194a2e6ced348111dcc63853916d040e7574b2174e86",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "96",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "72e131020f3d452e7982194a2e6ced348111dcc63853916d040e7574b2174e86",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "9eae8564e6f3dc234c628ca52e69dbc7682196d87cd4432a8999eb747399f680",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "1464781bff3324e3af90c96465b9a3ffb5986a38cbb51bbc0e31d32b6fac5103",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "1464781bff3324e3af90c96465b9a3ffb5986a38cbb51bbc0e31d32b6fac5103",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "return_delivered_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "9eae8564e6f3dc234c628ca52e69dbc7682196d87cd4432a8999eb747399f680",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "ff83c9b17d5ea29a773a891ae7f0c7bdbb4beeebc473be0589d5e120c2774b3a",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "9eae8564e6f3dc234c628ca52e69dbc7682196d87cd4432a8999eb747399f680",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "103",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "9eae8564e6f3dc234c628ca52e69dbc7682196d87cd4432a8999eb747399f680",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "return_delivered_order_items",
+        "type": "ValueError",
+        "message": "Non-delivered order cannot be returned"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "bee6fd04e1fc4d5876068d71fb3d4e13ee6d57358d4b85904cb69bc648f423e9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "971ddbae528b7360694a2112b5dbb2797dfcc04e2918e4ac5fb92071a08a53ee",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "971ddbae528b7360694a2112b5dbb2797dfcc04e2918e4ac5fb92071a08a53ee",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "bee6fd04e1fc4d5876068d71fb3d4e13ee6d57358d4b85904cb69bc648f423e9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "ad844c466f8c26a77888f1f829755ea62d58b1a611db0569fb1c60fac09759e4",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "bee6fd04e1fc4d5876068d71fb3d4e13ee6d57358d4b85904cb69bc648f423e9",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "107",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "bee6fd04e1fc4d5876068d71fb3d4e13ee6d57358d4b85904cb69bc648f423e9",
+    "errors": [
+      {
+        "action_index": 1,
+        "tool": "exchange_delivered_order_items",
+        "type": "ValueError",
+        "message": "Non-delivered order cannot be exchanged"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "variant": "no_action",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "3ca5bd70e621602e23d909c87f26224a1a486e75955d8a6da53721ec224b23dc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "variant": "write_only",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "ee8556e144b2ac2ba87f9160feaed6dc71da4cc623adf19b309cc39b6a15ee37",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "variant": "drop_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "21245f5f2683c60b934b6544af0447e34b961c11fe55341191bc4d8308d75632",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "variant": "wrong_write_id",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "21245f5f2683c60b934b6544af0447e34b961c11fe55341191bc4d8308d75632",
+    "errors": [
+      {
+        "action_index": 0,
+        "tool": "modify_pending_order_address",
+        "type": "ValueError",
+        "message": "Order not found"
+      }
+    ],
+    "all_calls_succeeded": false,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "variant": "extra_read",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "ee8556e144b2ac2ba87f9160feaed6dc71da4cc623adf19b309cc39b6a15ee37",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "variant": "extra_unrequested_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": false,
+    "state_hash": "b10f55f352fc6194c6eb77ee590ea2646b53bc1d26de6d081159424546f095cc",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "variant": "reverse",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "ee8556e144b2ac2ba87f9160feaed6dc71da4cc623adf19b309cc39b6a15ee37",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  },
+  {
+    "task_id": "109",
+    "variant": "duplicate_first_write",
+    "gold_all_calls_succeeded": true,
+    "db_matches_reference": true,
+    "state_hash": "ee8556e144b2ac2ba87f9160feaed6dc71da4cc623adf19b309cc39b6a15ee37",
+    "errors": [],
+    "all_calls_succeeded": true,
+    "changed_item_metadata_mismatches": []
+  }
+]

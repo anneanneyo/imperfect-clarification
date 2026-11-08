@@ -1,0 +1,345 @@
+[
+  {
+    "case": "repeat_tool_different_arguments",
+    "gold": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 2
+        }
+      }
+    ],
+    "actual": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 2
+        }
+      }
+    ],
+    "failed_attempt": false,
+    "own_toy_gold_state": 2,
+    "own_toy_actual_state": 2,
+    "own_toy_state_equal": true,
+    "metrics": {
+      "exact_match": false,
+      "tool_match_rate": 1.0,
+      "param_match_rate": 0.5,
+      "coverage_rate": 1.0,
+      "coverage_success": true,
+      "execution_success": true,
+      "success": false
+    },
+    "ordered_equal": true,
+    "multiset_equal": true,
+    "actual_call_count": 2,
+    "actual_hash": "fd0b4a9f3a49886b07db5c6b712281f7cf4468f9621c58d9a28f8ef6c5c94f10"
+  },
+  {
+    "case": "repeat_tool_identical_gold",
+    "gold": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "actual": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "failed_attempt": false,
+    "own_toy_gold_state": 1,
+    "own_toy_actual_state": 1,
+    "own_toy_state_equal": true,
+    "metrics": {
+      "exact_match": true,
+      "tool_match_rate": 1.0,
+      "param_match_rate": 1.0,
+      "coverage_rate": 1.0,
+      "coverage_success": true,
+      "execution_success": true,
+      "success": true
+    },
+    "ordered_equal": true,
+    "multiset_equal": true,
+    "actual_call_count": 2,
+    "actual_hash": "53f3f242a31797b73ad3bf319f8a14665936a013049418de255950ddcf47fd86"
+  },
+  {
+    "case": "missing_repeat_replaced_by_destructive_call",
+    "gold": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "actual": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "delete_value",
+        "parameters": {}
+      }
+    ],
+    "failed_attempt": false,
+    "own_toy_gold_state": 1,
+    "own_toy_actual_state": null,
+    "own_toy_state_equal": false,
+    "metrics": {
+      "exact_match": true,
+      "tool_match_rate": 1.0,
+      "param_match_rate": 1.0,
+      "coverage_rate": 1.0,
+      "coverage_success": true,
+      "execution_success": true,
+      "success": true
+    },
+    "ordered_equal": false,
+    "multiset_equal": false,
+    "actual_call_count": 2,
+    "actual_hash": "eabd5bcb363f3df185fbd68df61a04ccafed0342088fc568129ee650753cc1ca"
+  },
+  {
+    "case": "extra_destructive_call",
+    "gold": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "actual": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "delete_value",
+        "parameters": {}
+      }
+    ],
+    "failed_attempt": false,
+    "own_toy_gold_state": 1,
+    "own_toy_actual_state": null,
+    "own_toy_state_equal": false,
+    "metrics": {
+      "exact_match": false,
+      "tool_match_rate": 1.0,
+      "param_match_rate": 1.0,
+      "coverage_rate": 1.0,
+      "coverage_success": true,
+      "execution_success": true,
+      "success": false
+    },
+    "ordered_equal": false,
+    "multiset_equal": false,
+    "actual_call_count": 2,
+    "actual_hash": "eabd5bcb363f3df185fbd68df61a04ccafed0342088fc568129ee650753cc1ca"
+  },
+  {
+    "case": "reverse_dependent_actions",
+    "gold": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 2
+        }
+      }
+    ],
+    "actual": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 2
+        }
+      },
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "failed_attempt": false,
+    "own_toy_gold_state": 2,
+    "own_toy_actual_state": 1,
+    "own_toy_state_equal": false,
+    "metrics": {
+      "exact_match": false,
+      "tool_match_rate": 1.0,
+      "param_match_rate": 0.5,
+      "coverage_rate": 1.0,
+      "coverage_success": true,
+      "execution_success": true,
+      "success": false
+    },
+    "ordered_equal": false,
+    "multiset_equal": true,
+    "actual_call_count": 2,
+    "actual_hash": "c196568a8879290b3c860a46a6f18bd6b22982ff5720dc9e768ae5bdea329abe"
+  },
+  {
+    "case": "reverse_distinct_dependent_actions",
+    "gold": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      },
+      {
+        "tool_name": "add_value",
+        "parameters": {
+          "value": 2
+        }
+      }
+    ],
+    "actual": [
+      {
+        "tool_name": "add_value",
+        "parameters": {
+          "value": 2
+        }
+      },
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "failed_attempt": false,
+    "own_toy_gold_state": 3,
+    "own_toy_actual_state": 1,
+    "own_toy_state_equal": false,
+    "metrics": {
+      "exact_match": true,
+      "tool_match_rate": 1.0,
+      "param_match_rate": 1.0,
+      "coverage_rate": 1.0,
+      "coverage_success": true,
+      "execution_success": true,
+      "success": true
+    },
+    "ordered_equal": false,
+    "multiset_equal": true,
+    "actual_call_count": 2,
+    "actual_hash": "7d38f828d8092e82880c38a31f5b00a0fba1505892301eb07faea6eca9602d6c"
+  },
+  {
+    "case": "correct_final_after_failed_attempt",
+    "gold": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "actual": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "failed_attempt": true,
+    "own_toy_gold_state": 1,
+    "own_toy_actual_state": 1,
+    "own_toy_state_equal": true,
+    "metrics": {
+      "exact_match": true,
+      "tool_match_rate": 1.0,
+      "param_match_rate": 1.0,
+      "coverage_rate": 1.0,
+      "coverage_success": true,
+      "execution_success": false,
+      "success": false
+    },
+    "ordered_equal": true,
+    "multiset_equal": true,
+    "actual_call_count": 1,
+    "actual_hash": "d3d51011547d0fac517b0695d2f7bd67d04123440fa9416b2c6c590c48b87264"
+  },
+  {
+    "case": "drop_all_calls",
+    "gold": [
+      {
+        "tool_name": "set_value",
+        "parameters": {
+          "value": 1
+        }
+      }
+    ],
+    "actual": [],
+    "failed_attempt": false,
+    "own_toy_gold_state": 1,
+    "own_toy_actual_state": null,
+    "own_toy_state_equal": false,
+    "metrics": {
+      "exact_match": false,
+      "tool_match_rate": 0.0,
+      "param_match_rate": null,
+      "coverage_rate": null,
+      "coverage_success": null,
+      "execution_success": false,
+      "success": false
+    },
+    "ordered_equal": false,
+    "multiset_equal": false,
+    "actual_call_count": 0,
+    "actual_hash": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  }
+]

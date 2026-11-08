@@ -1,0 +1,40 @@
+{
+  "checked_on": "2026-10-27",
+  "source": "https://huggingface.co/datasets/jsbaan/bag-paper-data",
+  "commit": "58b2215ce80c74731d6d8dd3a843d2767943f569",
+  "license": "cc-by-sa-3.0",
+  "files": [
+    {
+      "path": "README.md",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/README.md",
+      "bytes": 778,
+      "sha256": "cf1b3bdfd13281a6e16459ab4ef862b782858cb49fbaddaeb624c484d204029c"
+    },
+    {
+      "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl",
+      "bytes": 1985792,
+      "sha256": "cda4e1767a38165efff010161506b6f82d7e93ea966ef6e3c318888b24940a49"
+    },
+    {
+      "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/final_qwen3-8b_gemini-2.5-flash_50_belief_prompt.jsonl",
+      "bytes": 2063312,
+      "sha256": "d13fdc8d6f57f361ec3b7f9daa734e4df0a699dc96ecd3fde815eb15a7aa754b"
+    },
+    {
+      "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief_prompt.jsonl",
+      "bytes": 1907985,
+      "sha256": "c639222364de519a10959dc7aef5def4bd848210553f72585cd1284b31000b5f"
+    }
+  ],
+  "github_code_commit": "745daa3734dbe803fb627be8dc03bfd102b441e2",
+  "github_code_repository": "https://github.com/jsbaan/belief-augmented-generation",
+  "paper": "https://arxiv.org/html/2605.25831v2",
+  "temporary_download_directory": "/private/tmp/bag-falsification-20261027",
+  "raw_data_copied_into_project": false,
+  "pilot_seen_id": "955636187401991675",
+  "human_responses": false,
+  "causal_question_value_identified": false
+}

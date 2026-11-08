@@ -1,0 +1,17 @@
+{
+  "verified": true,
+  "phase": "completed",
+  "train_components": 96,
+  "test_components": 48,
+  "profiles": 402,
+  "branch_joins": 2412,
+  "unique_prompts": 1324,
+  "exact_group_weight_sums": 864,
+  "train_test_text_disjoint": true,
+  "excluded_development_cases": 24,
+  "training_targets": 576,
+  "test_predictions": 48,
+  "max_svd_prediction_error": 4.440892098500626e-15,
+  "rational_metrics_and_bootstrap_verified": true,
+  "verifier_sha256": "961ec9859ee555f8f2cc300c7a11f8762523b3509910b8f31b683c1c43ba7427"
+}

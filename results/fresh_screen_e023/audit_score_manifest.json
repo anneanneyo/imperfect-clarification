@@ -1,0 +1,9 @@
+{
+  "files": {
+    "experiments/audit_text_e023.py": "7b9025e8f981383f439c0b06865b12319ec903c893ac935ca66733aabde975b1",
+    "results/fresh_screen_e023/audit_freeze.json": "7607d48ce23b9b700b72edce05cea47169112161adb41d990952ae99c2ee4384",
+    "results/fresh_screen_e023/audit_references.json": "f2d19a37b49bfc8fc252acae62af90cc8989ce6723d4ff1db68bcf1eabc7a011",
+    "results/fresh_screen_e023/audit_comparison.json": "1e6a02c15cc83ed3923fe5ff43099c09a40a7eec04089c2fc06b52ea245c81ea",
+    "results/fresh_screen_e023/audit_summary.json": "a7308b0318aa24414a642e6d908182808a32a57f3319704914c61781ba17136c"
+  }
+}

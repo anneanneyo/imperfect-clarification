@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "completed": true,
+  "source_and_prompt_joins": 120,
+  "independent_schema_rules": true,
+  "verifier_sha256": "4232acc6db700dcf99cfbfba6b6478515485010a8bf0f757aa09985c4152685b",
+  "manifest_sha256": "4c344a8b39bd4a9ef55fbd7cdbfdd4b27d3844a687789f5d382639e14ceab4e8"
+}

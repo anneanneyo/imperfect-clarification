@@ -1,0 +1,8 @@
+{
+  "verified": true,
+  "unique_prompts": 48,
+  "branches": 130,
+  "source_fact_copies_verified": true,
+  "phase": "inputs verified",
+  "verifier_sha256": "9246ad5b353c1fe50da25cb10d3797de311a8ae8b6f56b2178ef7cf83aa10bbc"
+}

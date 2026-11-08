@@ -1,0 +1,11 @@
+{
+  "files": {
+    "experiments/start_test_e016_e017.py": "0dc4bf41980c9b195e88638d115ffe5a51dfeaf5b7d4475dd187a603778b2b05",
+    "results/heldout_value_e016/fit_manifest.json": "82b16c83afd51efd3779a4cd1c5fde756ecdbaa7288913e85b2450a9b9c0a2a0",
+    "results/heldout_value_e016/test_predictions.json": "b3fbf4fee347e6c1753f5a1f5b48d27112a153213060428d3fa1614e05642481",
+    "results/encoder_value_e017/fit_manifest.json": "e301630bbbcdce0d72e4561550a93827bf541d4b0ec229d007c125f4c844bee0",
+    "results/encoder_value_e017/predictions.json": "bd963fef97214d8fdc4b52c54f4d407821c50db03079e45b35aab7b331d28cf5"
+  },
+  "started_unix_time": 1793106756.2674801,
+  "test_generations_existed_before_start": false
+}

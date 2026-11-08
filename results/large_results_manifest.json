@@ -1,0 +1,16 @@
+[
+  {
+    "path": "results/channel_shift_pilot/per_task.csv",
+    "archive": "results/channel_shift_pilot/per_task.csv.gz",
+    "sha256": "fb8ea4aae16855670cc5732629af3accca3bc7f44c1f82b5fb875b72d2608d12",
+    "bytes": 28679530,
+    "compressed_bytes": 3353104
+  },
+  {
+    "path": "results/channel_shift_pilot_scalar/per_task.csv",
+    "archive": "results/channel_shift_pilot_scalar/per_task.csv.gz",
+    "sha256": "0006ee96f801039a991854f30ca6bdbcb7fae68fc23de911a41d21ab8797de59",
+    "bytes": 30763869,
+    "compressed_bytes": 4631166
+  }
+]

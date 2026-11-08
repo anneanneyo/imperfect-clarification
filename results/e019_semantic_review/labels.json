@@ -1,0 +1,623 @@
+[
+  {
+    "case_id": "train/banking_support/00037",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Отказ от компенсации не сообщает, было ли списание."
+  },
+  {
+    "case_id": "train/banking_support/00234",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "assessment": "model_supported_annotation_incomplete",
+    "rationale": "Lost card прямо называет карту; списание и компенсация не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00234",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Lost card прямо называет карту; списание и компенсация не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00234",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Lost card прямо называет карту; списание и компенсация не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00143",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Неизвестное списание на statement не доказывает отсутствие движения денег; отказ от компенсации относится к другому полю."
+  },
+  {
+    "case_id": "train/banking_support/00176",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Failed payment не исключает списание; факт списания не указан."
+  },
+  {
+    "case_id": "train/banking_support/00166",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Тип продукта не назван; сбой платежа не означает отсутствие списания."
+  },
+  {
+    "case_id": "train/banking_support/00166",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Тип продукта не назван; сбой платежа не означает отсутствие списания."
+  },
+  {
+    "case_id": "train/banking_support/00279",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Списание названо, но не его причина, тип продукта или запрос компенсации."
+  },
+  {
+    "case_id": "train/banking_support/00279",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Списание названо, но не его причина, тип продукта или запрос компенсации."
+  },
+  {
+    "case_id": "train/banking_support/00279",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "yes"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Списание названо, но не его причина, тип продукта или запрос компенсации."
+  },
+  {
+    "case_id": "train/banking_support/00248",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "change_request",
+      "failed_payment"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Назван только current account; выбор двух типов проблемы и отрицаний не поддержан."
+  },
+  {
+    "case_id": "train/banking_support/00248",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Назван только current account; выбор двух типов проблемы и отрицаний не поддержан."
+  },
+  {
+    "case_id": "train/banking_support/00248",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Назван только current account; выбор двух типов проблемы и отрицаний не поддержан."
+  },
+  {
+    "case_id": "train/banking_support/00340",
+    "field": "issue",
+    "reference": [
+      "fee_question"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "fee_question"
+    ],
+    "assessment": "ambiguous_text_or_ontology",
+    "rationale": "Charge that does not look right допускает неоднозначность issue; карта не названа."
+  },
+  {
+    "case_id": "train/banking_support/00340",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Charge that does not look right допускает неоднозначность issue; карта не названа."
+  },
+  {
+    "case_id": "train/banking_support/00379",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "change_request"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Названа карта и два отрицания; тип проблемы не назван."
+  },
+  {
+    "case_id": "train/banking_support/00144",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Списание и компенсация указаны, но тип проблемы и тип счёта не названы."
+  },
+  {
+    "case_id": "train/banking_support/00144",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Списание и компенсация указаны, но тип проблемы и тип счёта не названы."
+  },
+  {
+    "case_id": "train/banking_support/00181",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Отсутствие списания не означает отказ от компенсации; просьба разрешить вопрос не задаёт её статус."
+  },
+  {
+    "case_id": "train/banking_support/00175",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question",
+      "change_request"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Общие account/banking details не задают ни тип продукта, ни issue, ни отрицания."
+  },
+  {
+    "case_id": "train/banking_support/00175",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Общие account/banking details не задают ни тип продукта, ни issue, ни отрицания."
+  },
+  {
+    "case_id": "train/banking_support/00175",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Общие account/banking details не задают ни тип продукта, ни issue, ни отрицания."
+  },
+  {
+    "case_id": "train/banking_support/00175",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Общие account/banking details не задают ни тип продукта, ни issue, ни отрицания."
+  },
+  {
+    "case_id": "train/banking_support/00490",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "change_request"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Current account указан, но общий вопрос не равен change_request; отрицания не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00490",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Current account указан, но общий вопрос не равен change_request; отрицания не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00490",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Current account указан, но общий вопрос не равен change_request; отрицания не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00334",
+    "field": "compensation",
+    "reference": [
+      "yes"
+    ],
+    "prediction": [
+      "yes",
+      "no"
+    ],
+    "assessment": "ambiguous_text_or_ontology",
+    "rationale": "Ask if I can get money back as compensation можно читать как просьбу или как вопрос о возможности; сохраняем спорность вместо объявления однозначной ошибки."
+  },
+  {
+    "case_id": "train/banking_support/00079",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Непризнанная операция и отказ от компенсации не доказывают money_gone=no."
+  },
+  {
+    "case_id": "train/banking_support/00026",
+    "field": "issue",
+    "reference": [
+      "lost_card"
+    ],
+    "prediction": [
+      "lost_card",
+      "failed_payment"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Lost card явно указан; добавление failed_payment не поддержано текстом."
+  },
+  {
+    "case_id": "train/banking_support/00425",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Savings и два отрицания названы; вопрос о комиссии не сообщён."
+  },
+  {
+    "case_id": "train/banking_support/00315",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Отказ от компенсации не сообщает отсутствие списания."
+  },
+  {
+    "case_id": "train/banking_support/00034",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "No money left указано; generic account не задаёт current_account, компенсация не обсуждается."
+  },
+  {
+    "case_id": "train/banking_support/00034",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "No money left указано; generic account не задаёт current_account, компенсация не обсуждается."
+  },
+  {
+    "case_id": "train/banking_support/00268",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Несанкционированное списание указано, но отказ от компенсации не сообщён."
+  },
+  {
+    "case_id": "train/banking_support/00116",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "failed_payment"
+    ],
+    "assessment": "ambiguous_text_or_ontology",
+    "rationale": "Login error выходит за перечисленные issue-категории; failed_payment не следует из текста. Остальные конкретизации также не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00116",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Login error выходит за перечисленные issue-категории; failed_payment не следует из текста. Остальные конкретизации также не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00116",
+    "field": "money_gone",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Login error выходит за перечисленные issue-категории; failed_payment не следует из текста. Остальные конкретизации также не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00116",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Login error выходит за перечисленные issue-категории; failed_payment не следует из текста. Остальные конкретизации также не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00293",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "card"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Непризнанная операция на account не задаёт продукт card."
+  },
+  {
+    "case_id": "train/banking_support/00467",
+    "field": "issue",
+    "reference": [
+      "fee_question"
+    ],
+    "prediction": [
+      "unrecognized_charge",
+      "fee_question"
+    ],
+    "assessment": "ambiguous_text_or_ontology",
+    "rationale": "Fee/charge is not right допускает спорную границу issue; current_account не назван."
+  },
+  {
+    "case_id": "train/banking_support/00467",
+    "field": "product",
+    "reference": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "prediction": [
+      "current_account"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Fee/charge is not right допускает спорную границу issue; current_account не назван."
+  },
+  {
+    "case_id": "train/banking_support/00214",
+    "field": "issue",
+    "reference": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "prediction": [
+      "fee_question"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Savings и отсутствие списания названы; комиссия и отказ от компенсации не сообщены."
+  },
+  {
+    "case_id": "train/banking_support/00214",
+    "field": "compensation",
+    "reference": [
+      "yes",
+      "no"
+    ],
+    "prediction": [
+      "no"
+    ],
+    "assessment": "model_not_supported_by_text",
+    "rationale": "Savings и отсутствие списания названы; комиссия и отказ от компенсации не сообщены."
+  }
+]

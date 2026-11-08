@@ -1,0 +1,16 @@
+{
+  "initial_cases": 485,
+  "initial_text_components": 481,
+  "excluded_components": 168,
+  "eligible_components": 313,
+  "screen_components": 96,
+  "screen_cases": 98,
+  "screen_profiles": 283,
+  "reserved_unscored_components": 217,
+  "screen_evidence_patterns": 54,
+  "screen_components_sharing_prior_evidence_pattern": 67,
+  "screen_evidence_conflicts": 0,
+  "blind_initial_units": 24,
+  "blind_reply_units": 12,
+  "reserve_outcomes_computed": false
+}

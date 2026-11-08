@@ -1,0 +1,1010 @@
+[
+  {
+    "group_id": "00368a6779b522c579f32dcd04c3ddedca124c1ffb7867fb988ad41184d69cee",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "007a57b55827bc8e3fe6d2439608bbf59a227b3ace9b00d47ad379a535bd369d",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "00af1066e5a60be230091f6c4fd6666a1cb56abf833ede46d96c536be13f27e1",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "00fe8ea157d0b7938aacdd48dcaaa513b716a53e2674bc825031fdae34ff5d45",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "021339c73785be096068c51a161e6a3f7b7ce2d9519ad96c6729e81d5cf23eb3",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "02e7cd15f5a57a1bc42c3a6be9d60b6ce4c9544b7fd9a00ac8d822a0184a7d02",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "030771fea61b52ebc0de2d3420ad3d261a35fa7b9f4e7bbcb09a135db25a2ba9",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "03cb17acfc730157bf099f6f65c06e8665ee8fe404924a2de80658759da6a1d4",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "0591776135f1aaacc25a404dcd8e69d581e8c57da9f1732d54eafe3e88f85022",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "05b955d94fb10d584740b21891f4f5352ae7bb52c251cec59048c26d6a88a10e",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"fee_question\"], \"product\": [\"current_account\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "05d08b131f0e51348531209341f381945e72c8b05a78fc1f9b296285e6296428",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"product\": [\"card\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "06f0ee3f55d0412afc7105bc586244d9ecd4de675aac94020405054c5715055c",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"money_gone\": [\"yes\"], \"product\": [\"loan\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "0745f2a83c31f012acb40042265dc51ae446c66a27885f34e24102d9d697b0ff",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "075430524efa1ee4a6be75019a3ac167273e4fe3c92aef30beb278c99c7f1945",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"money_gone\": [\"no\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "08e682b99eb3ae14fdc8c3d05ec8447c0c4e071319a4ff8c513c68bd68fa90d8",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "099116754edf5dd6562bca7c2cd1094ee95e9b22846aaee14fd07a1d742dffcd",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"change_request\"], \"money_gone\": [\"no\"], \"product\": [\"loan\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "09bb09f6feab3425bcc8e5c6cd5892bfe06e088f20f00af172b9fc307ac03fe9",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"product\": [\"current_account\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "0a4108500cef2fe2bc1e83c425cafe2cf2f0e0d07833586a0659d9b7b400ab75",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "0a95729044ca8bda82798d9fa5da2fba5df467835620ed4f8b81e99da90c6303",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"no\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "0cfcee89432822f51857ddb8605ca04ce9efa778297dd05f4024af8019249283",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"no\"], \"product\": [\"loan\"]}",
+    "style": "bullet points listing what happened",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "0d387757ceb0bef8886d6e904855a6178f39ba2133edad66929b2cbb382494ff",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "0e138290c867fa2675a1bf3d17d1a02200d17c8550f32263b71316b7ba7a9c18",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"], \"product\": [\"current_account\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "0fbbdc4db9d7096e17d17d6e7fb9e994f33305a90bd30cdf5f0d086e5a1dad80",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"change_request\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "101277689934d8c965b22fef3494d1316098a39a08cd0547fb6d4a1e0610d9ef",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "10b324203ea981e8e530a0fd61e07111b0f0aecf781bae172caaa248c1459dcd",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"lost_card\"]}",
+    "style": "bullet points listing what happened",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "132f6043ec41969a894de333bd50a55124e6befe90e4f281298e5a8f6ddaefdc",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "13862d683d457918684ffa55922f29d7ee9a6249b0ee8d4ef6bba41b0a5220ca",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "bullet points listing what happened",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "13eff5677040e3f836d6840f61177035c3d42eba40f3930850db8ec9757c1a96",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1409555a12e37b1785618dc1e5c07b0e72cb402ca4033b69a97c8cb4fe369e40",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"product\": [\"card\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "14d6decfd3e3f55c114984fd7d45493829c225ad3ae56667472ff0e26b913fb6",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "15d0b8d2fde27acae71dad47986fe1487fd252819ad708354c064ab70a0e04b7",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "15d4aecfc5b59397cdcbfc4d43ea39bfb3548fc98b3e1ad0338c0cd7344b11b0",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "16fee56c36df74ff51785fbf581118efcd69d53d69d2fcf9f469d456aa8130dc",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"no\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "180431608b939961631f491a10515adc2c3fa009a9d14e39ea78db5721744780",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1855c8c9b780a2f4ab34304f0ff687875b8098860008c22dc11ccdf35cfefcef",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "186f5d49352f74ba4f4af4bc15296d10e1bf519bc0cc9c30e822508edd519830",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"]}",
+    "style": "bullet points listing what happened",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "18830a3a26e3844d898f73790308dead43bdfab1c51f79e51e2163bb032fafc9",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "18d765ea11551da3dc070a8085d69099699f7803b1c237f594e046461f97457a",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "18dfe8cffbffd6192ced2d929da2944bdc16dc08669f0dae52584b8f79311d22",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"yes\"], \"product\": [\"current_account\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1934aeb78aefe95be00add575c6d1374fbbc31bacc89196ce56e5eda86954815",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1a41afb1b52ecfd36f57b527cf818dfc4b8b79aefa2826d968669daabb5657c9",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1a488571d993d0dda7d2004bdb63954c307b220fa5018b319a1e53380a1285b3",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"product\": [\"card\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1aadded4cfefaf6388a713f90cd314226602669d95dbcc03f0413a7c214a4fb4",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1ab22ad33c9185bb6482c4bfb66744845b3daadbc437e77c08624da6e158dd0e",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1b3c2ce5a124c588f6873498c843951fec0aa2c5a9179b32c85cd836d93557a7",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1bcf491e661407bd8cd43c2cf5d2645f37d328870bc6692f0c143b1baf8d04c4",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"lost_card\"], \"money_gone\": [\"yes\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1c0a6c28f9fdc9de61ceb89da9ed6800bbbbd032693e9a831952154521627c81",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1c21fe3402950e1b51b2aed8b975fb1665dffec69b8b7c9fa4b91d11f028c9bf",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"money_gone\": [\"yes\"], \"product\": [\"loan\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1d33f5d11796c0e3489a4931bf3807702ed7342489ccffe7315a19e16b8c072a",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"money_gone\": [\"no\"]}",
+    "style": "bullet points listing what happened",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1d377286e33d6ed708d87b116a8b11d39d59c6add32ccfdbf574d0707298b8bc",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"product\": [\"current_account\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1daf05aa7971698db93b445d3c4a611317849489df9ddb4f7bdbafeca8a95545",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"money_gone\": [\"no\"], \"product\": [\"savings\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1e90727fbe040fb34638658a522ff936152df9f157976b1c1b905a491cfab736",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1ec94a13b0c541b7d830a56c24db6347eba5fb423fded35f398d26bcbc0c3fca",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "1ee9a2353e7e198a2487d37724ac71cc86af50dda34759e8d1c570c83e82403e",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"failed_payment\"], \"money_gone\": [\"yes\"], \"product\": [\"current_account\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "215d2408f4c869d175e073c04f3043cf0c5dbea5fd04ea84efe51e4adb8382ca",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "216cb91c0c3cdb95bbf69843251571df81b3c1ea024408b47acd02cd1b725f52",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"failed_payment\"], \"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "227c77e0f73eada5753fed0444321d40533cda7428baf142208a59fc6e3862f8",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "23bc4c60dfad272ac618ae352ebde28c58ebf798d385607a6895f5ceba92c088",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "23d227845966905d24659ec8f3f67461c1d6122f7bcc38fb0e9a15761223aeaf",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"product\": [\"card\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "24f4f668eb4ef9b331a3c12be2b0b8d6f9e6ad317262ccb473fb938f2ed7a44b",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2734ce179e8d0454c786c0c57bd0f75944c0aac47e7a9a7733afd30aab324e41",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"product\": [\"card\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "274528fdecc07c9ee8711cc2925ed230fbfcff5af4cec8c4f44d6c8edc2ded97",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"lost_card\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "274a2211240fc71258a43804908d0d0c4989f8cd30d4155aff15855b89b590ae",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"product\": [\"current_account\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "28c7a9b25fe95e4e607fc6fd8307f844cd084e96cd1c483048d6823ba917d4ba",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "29c7843b5a768d9bb104dc8a782e4089afdce3f087de5ae352f70c0f0428fad4",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2a24a76f9f3948589b221d49dffef1e328813a19afcccc4006d3768106ce726d",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"money_gone\": [\"yes\"], \"product\": [\"current_account\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2a4e0f64601f34466e229f8cba44ffcfa477f0b0bc919e814e152d57866cca78",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"lost_card\"], \"money_gone\": [\"yes\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2adcff43e387af22394df8af3b9dc8c80a34e2ffa79388189a6054d0ccf367f1",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"product\": [\"current_account\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2ba12f74a926e351ba2ce1926822dfe5cae72b73a4076516bff9c357f1a3c644",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2c7746568e1dd66ed9ab30b63744e74cad762a67ef3c7a172a4d5d761d4f83d9",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2ce59cdca42f59dcf942b133d452a6b61b5524e69095a4df020f56e1ad72234e",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2d6f4235b3397c81436b29460fdf328abf3dde49c057c9c1b57d4ed4899a9ef1",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"money_gone\": [\"yes\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2da93896b2275b93799ff2f2f83bf5706b7b80223f8cdc09694b4bb22217a4fb",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2dc1f493c94749f37530dc6603b1d13af9ebb38cabde12c8f2156b0db4306d49",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"money_gone\": [\"yes\"], \"product\": [\"current_account\"]}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2e286c6fbab05e9c8de67c0fa3da24d16c6957be82b9c5a03b90d172c3d7e47a",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"yes\"]}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2e593ff1b234484bd859a0917393ca13846cf8e9f87b4ddf6cd46a745d546c1c",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "2fb9ed45405ee18cbf0f15c8de8adbb3474a181be74c5e559c6e1349332a4095",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "300493ffa1e179aa35b59d12c6303556489e8c1168d6cc970347367c9ee4465a",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "30186abe213133d6a0a03320ef3e9e261cb141e07f35bc7b03266981d3381149",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"money_gone\": [\"yes\"], \"product\": [\"savings\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "30a32044134bb0ee815cd54bc51a61d7ca8c05638ee11dbf87bb15d978e706e4",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "30d449b829f833dd39e66c512ce405a46c76aadb6e724834cef9735e914b0608",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "31a3884592dd4c3ec70d04f401e324700cd6b9c958c9897d5710e3fe08dca9f2",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "336a7a3af7d40bd6042a32ba1b58f2edf02daa4b31a0732098ca5a281d54b8d7",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "33ca54f01886fc287dd721b278e6afe9863cfd6dabde483201fe32522022c8cb",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "355033d15e5b4694f61cc1eb72ffaae8358cb91fb81e9ae4b40e998a975314a9",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "356c93ed947658310fc744c5d7e61777ebb9c274c42dcb3a8311051a5d1a458c",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"lost_card\"], \"money_gone\": [\"no\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "35f299c34f1e0a765f2adb9c01e94c41786dfbb0a39d1c7fac79db76a09df907",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "363d0b16fdfcdc32458e1c280c04874182dd39865325d2e74dcbdb3c6390c672",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"failed_payment\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "367981cbc7e26149617eabd72940d81388564aaec88e862748ffcbd1dfdeb18d",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "3808a07791e5c9a78ee453bb1e7135c4e698bcacf2e39ee6ef67da5c3eed4df0",
+    "split": "train",
+    "decisive_evidence_pattern": "{}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "3859bcdb59bd5e224ee6f8b43bdf1a86c7c4c8aac039277320f3eddc7668c187",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"yes\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "389c717fd2c420d7704654c1189fc633cd4a3a9928fae1cb21274d087932ad7d",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"issue\": [\"failed_payment\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "3913d39cd95035c5ccf4cb21c87fd1020187e17106f997e69bf7a588d82247c8",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"change_request\"], \"money_gone\": [\"no\"], \"product\": [\"loan\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "3a01b8097df23135f2f090618c40feb81415f97c6e75bc2f70f5ac8bdbc71a01",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"money_gone\": [\"yes\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "3aaaa373762c587f73d49fbe3c5937391cfe7aed00bd69eecb17a173702fd2f8",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "3b31f3a4f5668e3499cb3e9cb3363137f0fcd619fcbf2664de93d69cd1874175",
+    "split": "train",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"no\"], \"product\": [\"savings\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "3de41a5d94068e6b4afbffa7f927012474f7d02bb1dc0fab9f868605bb2f0897",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"change_request\"], \"money_gone\": [\"no\"], \"product\": [\"current_account\"]}",
+    "style": "bullet points listing what happened",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "3f15cf92be196fa878606b00fe64cc16411e7617129f19cab0adbdcf2baa1805",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"money_gone\": [\"yes\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "3f60b6f6519858d18daee4496fb6340c130139d3293f559a006cf731857ed491",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "402823a16cf2c44ebc2c7eff4040b18b3d5031317334c087c5cce962e4e67f88",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "4057ff28c9c5e11a4242bd4aa8136940354c3a1aae70d4a5bb46e38b697041ce",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"fee_question\"], \"money_gone\": [\"yes\"], \"product\": [\"loan\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "405907d48359778e5cb18c06ada7a1a9ae03a81e9bcc137a0a95a5c96250bb01",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "4218aa3087bd2f28a273333254247e0b49365b6a22dc9dc7df20a777f8e7a4cd",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "4299ebfe3b1eab1e26cde79ab17f55ddb68131278dd7acea2365e5c5a3e50a00",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"lost_card\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "43473215ecd8d3f19ef9460153d65e354637f54cb90f9a14921c4b628cdfe480",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "43c46ab9d071de734ed63ec5406d9d62cfa090e123c77a6a08038537763b8b44",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"product\": [\"card\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "43c5d0ed5f3e18792db0bc17d2718820ef89a9cd551177949431a9b77457433d",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "43c9c74e4386b07a32acf269b88305d4ad336012c74b51c1f111b82d949d392a",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "45b2fd84037e358f85072a9f5c24d06de3e568d181366e4089230e7c649cd76c",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "460e8cf13234c4514d709f0a08940f6946877cd7e2bce9dfc5542431fc9eaa31",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"money_gone\": [\"yes\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "461986234392db1e3b48dbaeaf8993854143757c42ddecb91c0d108e583ef8a0",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"failed_payment\"], \"money_gone\": [\"yes\"], \"product\": [\"card\"]}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "4632a04379a242eb5e673df974294ae017b98db6133e99177235c138b322c1b8",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "46e00c95b0476e5b81c7e38d6d9c3577110041044e0a3df7e841bdf9d3bdc1c9",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"money_gone\": [\"no\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "47042bdde21aad79bfdd987b20185e82cb2c7fde658ce4306ba251e32fd1aecf",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"], \"product\": [\"current_account\"]}",
+    "style": "casual chat message, lowercase, no punctuation care",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "472d76f8c8c87666202ba34ad60efb03adad92ab6bff015b0d9f6ac17824db79",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"yes\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "47bffa40f40caeeb8c2845ce33d75ed44274a5f01debe729973d9e3c838b87bb",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"yes\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "48f2ededa97a9ec7e9356dc6199925750f7a4a58c38a13032c44e6ce534522b9",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "499ea521e720a9b1f0e5f4cb280297d83df5f9acbf7dad2ba1d0bd52085aa863",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "4a265562a7a65da574e3e0d7764845c950b0ff659e10f6d192c72ff8fa54f4a4",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "4a9874dc403ef324a872d07b1b97240119a2e49ae7bc309bad362d43ec76a059",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "4aef98126486f80193b180b57c9c20e858a2b23b492f0f749a91170ec168d376",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "4c646fca194875632ec98877f019c5eb09ce724ad0d79f5c344f44d69fc8fb98",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"failed_payment\"], \"product\": [\"loan\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "4d056fab70ed52b74664ffee76a003ed9f64f040befb07a7573298c042d50074",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "4e2cb325184f6998bcdb468b9b1e020ebc0252ce4022c80ca67f4d76e722b0b6",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"no\"], \"product\": [\"current_account\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "4e3a371dce96ddc7a561bcff14d7fc349fdb95a398eeba057c2dfc2c3881efcc",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"product\": [\"savings\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "4e806509c00e170172eed1d9ff92b95adcff9a3f3752b262e56049873728ad2d",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"fee_question\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "4f29e11566d1236a621124400b2f6d8f81b920f342eeb2947a6edfa9b53d05f7",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"yes\"], \"money_gone\": [\"no\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "4f2e44a565bf71f1ea444180a4c482b707ec8e6dcabfd98cfda100e3bfd14dc3",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "bullet points listing what happened",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "4f3a592286bf796d818a189416f25b8a7a909e879745b64ffb2ec7eb5d22e8bf",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"change_request\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "506952bce8f556f3ee4eccbf3c18ca58b650fe4639dc8924bd62ee8579d07486",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"change_request\"], \"money_gone\": [\"no\"], \"product\": [\"loan\"]}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "50b0ed2a5f8a8b3d3c2cd9e161e07d59e0c3900e5ef2548bfba680050772530b",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "bullet points listing what happened",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "50e524f8c3446523dfafe588a0489757118f31fcf70b22a59c06ae873d7031b8",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"fee_question\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "5138affd8bc8b4de086db96773e1fcf58fd87f2fd52bc6f29dd711f86d1aeb1f",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"issue\": [\"lost_card\"], \"money_gone\": [\"no\"]}",
+    "style": "detailed, with some background story",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "52536a2792743c3f77654960412dc5544282ae8836a67c2b445f22ea9335bc3f",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "with a few typos and informal grammar",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "52a64eaeadbcc9bb1c1f7d208e927ae384a795e1cc991529ff1d9fcf7b9758a6",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "formal, like a business email with a greeting and sign-off",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "52b26596e8dc4e543aace77e3e4f912e4a3624b513a8dd2662b4a1e12fb1b74a",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"product\": [\"loan\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "52dd6363457b5eb04927f870b2dcde987d59f4ba658a781646132278c4f7a51b",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "short and to the point, one or two sentences",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "53cd0478dce3b34d9e915e021ebc6e989e2f84e5779b3f0714b4309d007c55e7",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"money_gone\": [\"yes\"]}",
+    "style": "written by a non-native English speaker, simple words",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "544958719eb0d787731c358ea094e817be3a9fab68963d7e8c341e3443dec1fb",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"product\": [\"card\"]}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "54f7205edaafd0045503d161f7dcfe309fb87b5b66d4f521f1c550d9974f4411",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"product\": [\"current_account\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": false
+  },
+  {
+    "group_id": "565d3ab79288948730f2b73c1f910d5df491f00bfa41d9cd19a3327d0dbfeb24",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"lost_card\"], \"money_gone\": [\"no\"], \"product\": [\"card\"]}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "56e359eea560d17cb46eafe4f34cc9f5e51608f4e183f8a9577dcefd80584af8",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "including an irrelevant side detail about their day",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "576f143b9d713e7a3c142a0412643373ef217117a16cdba77853b74a8134a871",
+    "split": "test",
+    "decisive_evidence_pattern": "{\"compensation\": [\"no\"], \"issue\": [\"unrecognized_charge\"], \"money_gone\": [\"yes\"]}",
+    "style": "frustrated and slightly angry",
+    "pattern_present_in_train": true
+  },
+  {
+    "group_id": "57b3ef0784ec9459c21a530a51c725eead1800d0e103e43fdcd684291eb7a7a8",
+    "split": "test",
+    "decisive_evidence_pattern": "{}",
+    "style": "polite but confused, not sure what information matters",
+    "pattern_present_in_train": true
+  }
+]

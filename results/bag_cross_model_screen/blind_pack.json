@@ -1,0 +1,722 @@
+[
+  {
+    "blind_id": "L001",
+    "original_query": "Who plays papi jr in beverly hills chihuahua 2?",
+    "clarification_question": "Could you please clarify whether you are asking about the dog actor cast as Papi Jr., the voice actor for Papi Jr., or both? This will help provide the most accurate and helpful information.",
+    "user_answer": "I'm asking about the voice actor."
+  },
+  {
+    "blind_id": "L002",
+    "original_query": "Who is the best rushing quarterback of all time?",
+    "clarification_question": "Could you specify your criteria for determining the \"best rushing quarterback of all time\"? Are you interested in raw rushing totals, rushing yards per game, impact on the team's success, or some other measure?",
+    "user_answer": "I'm interested in raw rushing totals."
+  },
+  {
+    "blind_id": "L003",
+    "original_query": "Who made it through the divisional finals world of dance?",
+    "clarification_question": "Could you clarify which season or specific event of *World of Dance* you're referring to? The term \"divisional finals\" isn't consistently used in the show's format, and the structure has varied across seasons. This will help me provide the most accurate information.",
+    "user_answer": "I'm referring to season three."
+  },
+  {
+    "blind_id": "L004",
+    "original_query": "What is the current gross national product of the us?",
+    "clarification_question": "The Gross National Product (GNP) data is released quarterly. Are you looking for the most recently reported quarter, or a specific quarter?",
+    "user_answer": "I don't know"
+  },
+  {
+    "blind_id": "L005",
+    "original_query": "Who made it through the divisional finals world of dance?",
+    "clarification_question": "Could you please specify which season or region of *World of Dance* you are referring to? This will help me provide a more accurate answer about who made it through the divisional finals.",
+    "user_answer": "I'm referring to season three."
+  },
+  {
+    "blind_id": "L006",
+    "original_query": "What is the name of the airport in antigua?",
+    "clarification_question": "Could you clarify if you need the current name of the airport in Antigua and Barbuda, or are you also interested in historical names it may have had? This ensures I provide the most accurate and helpful information.",
+    "user_answer": "I'm looking for the current name of the airport."
+  },
+  {
+    "blind_id": "L007",
+    "original_query": "When did presidents start swearing on the bible?",
+    "clarification_question": "To provide you with accurate information, could you please specify whether you are asking when the practice of presidents placing their hand on a Bible during inauguration ceremonies first started, if it's constitutionally required, or if you want to know about notable exceptions or variations to this tradition?",
+    "user_answer": "I'm asking when the practice of presidents placing their hand on a Bible during inauguration ceremonies first started."
+  },
+  {
+    "blind_id": "L008",
+    "original_query": "Who wrote love and war by tamar braxton?",
+    "clarification_question": "Could you please specify whether you are asking about the songwriting of the song \"Love and War\" as it appeared on a specific album by Tamar Braxton, or if you are interested in the songwriting for any version of \"Love and War\" she performed or was associated with? This clarification will help address the discrepancies in the information you've received.",
+    "user_answer": "I'm interested in the songwriting for any version of \"Love and War\" she performed or was associated with."
+  },
+  {
+    "blind_id": "L009",
+    "original_query": "Who won gold in rio paraolympic high jump?",
+    "clarification_question": "The Paralympic high jump events at the Rio 2016 Games had different gold medalists across various classifications. To give you the correct answer, I need to know which specific classification you're interested in.\n\nFor example, were you looking for:\n*   Men's T42 High Jump?\n*   Men's T47 High Jump?\n*   Men's T13 High Jump?\n\nOnce you provide the classification, I can tell you the exact gold medalist.",
+    "user_answer": "I'm interested in the T47 classification."
+  },
+  {
+    "blind_id": "L010",
+    "original_query": "When was the first film made in america?",
+    "clarification_question": "To answer your question accurately, could you please clarify what you mean by \"film made in America\"? Are you asking about the very first motion picture recorded on American soil, the first film produced by an American company, or perhaps the first film with a narrative storyline made in America?",
+    "user_answer": "I'm asking about the very first motion picture recorded on American soil."
+  },
+  {
+    "blind_id": "L011",
+    "original_query": "Who sings lead on anna by the beatles?",
+    "clarification_question": "Could you please clarify if you're referring to \"Anna (Go to Him)\" or a different song titled \"Anna\" by The Beatles?",
+    "user_answer": "I'm referring to \"Anna (Go to Him)\"."
+  },
+  {
+    "blind_id": "L012",
+    "original_query": "Who sang the orange is the new black theme song?",
+    "clarification_question": "Clarification needed: Could you specify whether you're looking for the theme song used in the actual opening sequence of \"Orange Is the New Black\" across all seasons? Also, if yes, which answer provides the most accurate information about it?",
+    "user_answer": "Yes, I'm looking for the theme song used in the actual opening sequence of \"Orange Is the New Black\" across all seasons."
+  },
+  {
+    "blind_id": "L013",
+    "original_query": "When was ed sheeran's song perfect released?",
+    "clarification_question": "Could you please specify whether you're asking about the first release of \"Perfect\" as a standalone single or its initial inclusion in an album, or a particular re-release?",
+    "user_answer": "I'm asking about a particular re-release."
+  },
+  {
+    "blind_id": "L014",
+    "original_query": "Who sings better than i in joseph king of dreams?",
+    "clarification_question": "Could you clarify whether you're referring to a specific song, a musical, or a fictional work? This will help me provide a more accurate answer.",
+    "user_answer": "I'm referring to the animated film \"Joseph: King of Dreams\"."
+  },
+  {
+    "blind_id": "L015",
+    "original_query": "Who is the caddy in the greatest game ever played?",
+    "clarification_question": "Could you clarify which event you're referring to as \"the greatest game ever played\"? This phrase is often associated with the 1913 U.S. Open (where Francis Ouimet won) or the 1958 U.S. Open (where Arnold Palmer won). Let me know, and I can provide the correct answer!",
+    "user_answer": "I'm referring to the 1913 U.S. Open where Francis Ouimet won."
+  },
+  {
+    "blind_id": "L016",
+    "original_query": "When was the last time michigan was in the elite eight?",
+    "clarification_question": "Could you clarify whether you're asking about the men's or women's basketball team, and whether you're looking for the most recent year or a specific year? This will help me provide the most accurate answer.",
+    "user_answer": "I'm asking about the men's basketball team, and I'm looking for the most recent year."
+  },
+  {
+    "blind_id": "L017",
+    "original_query": "Who were the original twins in everybody loves raymond?",
+    "clarification_question": "To clarify, could you specify which episode, character, or reference you have in mind when you refer to \"the original twins\" in Everybody Loves Raymond? This will help me give you the most accurate answer.",
+    "user_answer": "I'm referring to the characters who were twins from the very beginning of the show's run."
+  },
+  {
+    "blind_id": "L018",
+    "original_query": "Who sings evermore in the movie beauty and the beast?",
+    "clarification_question": "Could you please specify which version of \"Beauty and the Beast\" you're inquiring about (1991 animated film or 2017 live-action remake) and whether you're interested in the performing artist or the character that sings \"Evermore\" in the context of that version?",
+    "user_answer": "I'm interested in the 2017 live-action remake and the character that sings \"Evermore\"."
+  },
+  {
+    "blind_id": "L019",
+    "original_query": "Who is the most payed player in the nba?",
+    "clarification_question": "Could you clarify whether you're asking about the highest annual salary, total career earnings, or total compensation (including endorsements)? This will help me provide the most accurate answer.",
+    "user_answer": "I'm asking about the highest annual salary."
+  },
+  {
+    "blind_id": "L020",
+    "original_query": "Who gets mandy pregnant in season 2 of shameless?",
+    "clarification_question": "Could you clarify whether you're referring to the U.S. or UK version of *Shameless*? The character Mandy and her storyline differ significantly between the two versions of the show.",
+    "user_answer": "I'm referring to the UK version of Shameless."
+  },
+  {
+    "blind_id": "L021",
+    "original_query": "When does the diary of a wimpy kid the getaway come out?",
+    "clarification_question": "Could you clarify whether you are asking about the book, a movie adaptation, a video game, or another medium for \"The Diary of a Wimpy Kid: The Getaway,\" and in which country or publisher you are referring to? This will help me provide the most accurate and up-to-date information.",
+    "user_answer": "I'm asking about the book. I don't have a specific country or publisher in mind, just the general release."
+  },
+  {
+    "blind_id": "L022",
+    "original_query": "Who plays chef jeff on switched at birth?",
+    "clarification_question": "Could it be possible that there is a mix-up with the character's name or the show they are from? \"Switched at Birth\" does not feature a character named Chef Jeff. If you are referring to another television series or if Chef Jeff is a minor or obscure character, additional context would be helpful to provide an accurate answer. Alternatively, if this character is from another source or was only seen briefly, could you please double-check the spelling or provide more details?",
+    "user_answer": "No, I'm pretty sure it's \"Switched at Birth\" and the character is Chef Jeff."
+  },
+  {
+    "blind_id": "L023",
+    "original_query": "Where was in the dark tv series filmed?",
+    "clarification_question": "Based on the provided information, it seems there is a mix of conflicting and corroborative details regarding the filming locations of \"The Dark\" series. Some answers suggest filming in Europe (Norway, Czech Republic, Ireland), while others point towards Germany (Hinterpeschlag/Leipzig area, Hessen around Frankfurt am Main, Ludwigsburg area), and still, others indicate South Africa. Given these details, would you be able to clarify the primary filming locations for \"The Dark\"?\n\nFINAL RESPONSE: \"The Dark\" was primarily filmed in several locations within Germany, including Leipzig, the area around Hinterpeschlag and Ludwigsburg, and Görlitz. The initial conflicting information seems to stem from a mix of where different scenes were shot and the diverse infrastructure and landscapes that various European countries provide, making some locations suitable for filming certain scenes. However, considering the primary filming locations outlined by the detailed candidate answers, it is definitive that the main set was established in Germany, primarily focusing on Leipzig and the surrounding Hinterpeschlag area for production. South Africa, as suggested in one answer, may not align with the majority of the detailed information regarding the show's filming locations, and additional verification might be needed to confirm any filming in this region or if those locations were used for specific scenes or purposes outside the main production.",
+    "user_answer": "I don't know"
+  },
+  {
+    "blind_id": "L024",
+    "original_query": "How many episodes are in ben 10 alien force season 1?",
+    "clarification_question": "Based on the information provided and considering the inconsistencies, it seems there may be some confusion regarding the episode count for the first season of \"Ben 10: Alien Force.\" Most reliable sources, including the official Cartoon Network and DVD release information, cite a total of 26 episodes for the first season. This could include extended episodes or special features aired later. If you could provide more context or clarify the source of the 13-episode count, I could offer a more precise answer.",
+    "user_answer": "I'm referring to the production season, not the broadcast season."
+  },
+  {
+    "blind_id": "L025",
+    "original_query": "Who won the men's figure skating 2018 olympics?",
+    "clarification_question": "Could you please specify the source of your information regarding the winner of the men's figure skating event at the 2018 Olympics? This would help me verify the most accurate and recent details.",
+    "user_answer": "I don't have a source, I'm asking you."
+  },
+  {
+    "blind_id": "L026",
+    "original_query": "When did harry potter open at universal orlando?",
+    "clarification_question": "Could you clarify whether you're asking about the opening date of the entire Wizarding World of Harry Potter, a specific section like Diagon Alley or Hogsmeade, or a particular attraction such as the Escape from Gringotts ride?",
+    "user_answer": "I'm asking about the Diagon Alley section."
+  },
+  {
+    "blind_id": "L027",
+    "original_query": "Who won the best actor award for the oscars?",
+    "clarification_question": "Could you please specify the year for which you are asking about the Best Actor Oscar winner? This will help me provide the most accurate information.",
+    "user_answer": "2016"
+  },
+  {
+    "blind_id": "L028",
+    "original_query": "When were the first us immigration laws passed?",
+    "clarification_question": "Could you please clarify what you mean by \"first\" and \"significant\" in the context of U.S. immigration laws? Also, would you like information on any specific provisions or effects these laws had?",
+    "user_answer": "By \"first\", I mean the first *general* immigration law. I'm not looking for \"significant\" laws, just the very first general one. I also don't need information on specific provisions or effects."
+  },
+  {
+    "blind_id": "L029",
+    "original_query": "When do they stop selling beer in wisconsin?",
+    "clarification_question": "Are you asking about buying beer from a store (off-premise) or at a bar/restaurant (on-premise), and are you interested in weekday or weekend hours?",
+    "user_answer": "I'm interested in buying beer at a bar or restaurant, and I'm looking for the general daily cutoff time."
+  },
+  {
+    "blind_id": "L030",
+    "original_query": "Who won the lincoln horse race last year?",
+    "clarification_question": "It seems there is no widely recognized horse race called the \"Lincoln Horse Race.\" Could you provide more details, such as the location, date, or any additional context about the race you're asking about? This would help me find the most accurate information for you.",
+    "user_answer": "I'm looking for the winner of the Lincoln horse race in 2017."
+  },
+  {
+    "blind_id": "L031",
+    "original_query": "How many episodes in season 4 agents of shield?",
+    "clarification_question": "I apologize for the confusion as the information provided in the candidate answers varies significantly. Could you please clarify whether you are asking for the number of episodes as originally broadcast on ABC in the United States, the count available on a specific streaming platform such as Netflix, or the latest episode count according to the most recent and accurate data up to the time of my latest update? This clarification will help provide the most relevant and accurate information for your query.",
+    "user_answer": "I'm asking for the number of episodes as originally broadcast on ABC in the United States."
+  },
+  {
+    "blind_id": "L032",
+    "original_query": "Who sang for your love i would do anything?",
+    "clarification_question": "There are several songs with titles very similar to \"For Your Love I Would Do Anything,\" performed by different artists across various genres and decades. Could you provide any more details, such as the genre of music or the approximate decade the song was released?",
+    "user_answer": "It's a cover song, and I think it was popular in the 80s or 90s."
+  },
+  {
+    "blind_id": "L033",
+    "original_query": "Where does the movie jeepers creepers take place?",
+    "clarification_question": "Based on your request, I would like to clarify the setting of \"Jeepers Creepers.\" The movie is generally set within the state of Florida in the United States, predominantly in and around regions that accurately portray rural Floridian landscapes. The story begins in and around Darryville, later transitioning across various parts of Florida as the protagonists try to evade the terrifying Creeper. For the most accurate depiction, \"Jeepers Creepers\" primarily occurs in and around central and southern Florida, taking advantage of the rural and swampy terrains across different areas, including but not limited to stretches of Interstate 75, Pahokee, Tallahassee, and various rural backroads that characterize Florida's road system. If you'd like more specificity or another aspect of this clarifiction explained, please let me know.",
+    "user_answer": "I was actually asking about the third movie, *Jeepers Creepers 3*."
+  },
+  {
+    "blind_id": "L034",
+    "original_query": "Who sings the theme song for the show half and half?",
+    "clarification_question": "Could you clarify which version of the show \"Half and Half\" you are referring to? For example, are you asking about the animated Nickelodeon series from the 2000s, the 1989–2000 live-action sitcom, or another adaptation? This will help me give you the correct answer.",
+    "user_answer": "I'm referring to the live-action sitcom."
+  },
+  {
+    "blind_id": "L035",
+    "original_query": "Who sings with eric church mixed drinks about feelings?",
+    "clarification_question": "Could you clarify if you're referring to a specific live performance, version of the song, or a particular lyric? This will help me provide a more accurate answer.",
+    "user_answer": "I'm asking about the studio version of the song."
+  },
+  {
+    "blind_id": "L036",
+    "original_query": "Who plays barbara on girlfriends guide to divorce?",
+    "clarification_question": "Did you mean the CBS TV series \"Girlfriends' Guide to Divorce\" or another show entirely? If you are indeed referring to the Bravo series, Lisa Edelstein is the actress who plays the lead character, Abby McCarthy, whose ex-husband's new wife's name could possibly create confusion with the character name you're inquiring about. Please clarify the show and character to receive the accurate information.",
+    "user_answer": "I meant the Bravo TV series \"Girlfriends' Guide to Divorce\". I'm looking for who plays the character Barbara."
+  },
+  {
+    "blind_id": "L037",
+    "original_query": "Who sang i don't want to live without your love?",
+    "clarification_question": "Could you clarify which version of \"I Don't Want to Live Without Your Love\" you're interested in—the original recording or the most widely recognized pop version?",
+    "user_answer": "I'm interested in the most widely recognized pop version."
+  },
+  {
+    "blind_id": "L038",
+    "original_query": "First us president to fly in an airplane?",
+    "clarification_question": "Are you asking about the first U.S. President to fly in an airplane at any time, or specifically while they were in office?",
+    "user_answer": "I'm asking about the first U.S. President to fly in an airplane while they were in office."
+  },
+  {
+    "blind_id": "L039",
+    "original_query": "Who plays pearl in the scarlet letter movie?",
+    "clarification_question": "Can you specify which movie adaptation of \"The Scarlet Letter\" you are asking about, as there have been multiple versions featuring different actors as Pearl? This will help in providing the most accurate and relevant answer.",
+    "user_answer": "I'm asking about the 1995 movie."
+  },
+  {
+    "blind_id": "L040",
+    "original_query": "Who wrote if you've got the money?",
+    "clarification_question": "Could you clarify which version of \"If You've Got the Money, I've Got the Time\" you're referring to? There are multiple songs with similar titles, each with different writers and release dates.",
+    "user_answer": "I'm referring to the version on the album \"Panic Prevention\"."
+  },
+  {
+    "blind_id": "L041",
+    "original_query": "When did ben stone leave law and order?",
+    "clarification_question": "There are multiple characters named Ben Stone within the Law & Order universe. Are you referring to Ben Stone from the original Law & Order series or Ben Stone from Law & Order: Special Victims Unit?",
+    "user_answer": "I'm referring to Ben Stone from the original Law & Order series."
+  },
+  {
+    "blind_id": "L042",
+    "original_query": "Who plays dr hunt on grey's anatomy?",
+    "clarification_question": "Could you please clarify which character you are referring to as \"Dr. Hunt\"? There are multiple characters with similar names or nicknames on *Grey's Anatomy*, and clarifying this will help provide an accurate answer.",
+    "user_answer": "I'm referring to Owen Hunt."
+  },
+  {
+    "blind_id": "L043",
+    "original_query": "When was put your head on my shoulder made?",
+    "clarification_question": "Could you please specify which version of \"Put Your Head on My Shoulder\" you're asking about? There are multiple songs with the same title by different artists, each with different release dates.",
+    "user_answer": "I'm asking about the version by The Beach Boys."
+  },
+  {
+    "blind_id": "L044",
+    "original_query": "Who is the first woman governor in india?",
+    "clarification_question": "Could you please specify if you're asking about the first woman to ever hold the title of Governor in the entire history of post-independence India, or are you seeking information about the first woman to hold the office of Governor of a state? Additionally, clarification on any other details, like the distinction between states versus union territories, would greatly help in providing the most accurate and relevant information.",
+    "user_answer": "I'm asking about the first woman to ever hold the title of Governor in the entire history of post-independence India."
+  },
+  {
+    "blind_id": "L045",
+    "original_query": "Who was the lead architect that designed the world trade center and when was he born?",
+    "clarification_question": "To provide an accurate answer, could you clarify whether you are asking about the lead architect for the original 1973 World Trade Center towers (before the 1998 attacks), or the architect involved in later designs or post-9/11 reconstruction? Also, do you mean the main structural engineer or the lead architect in the traditional sense (overseeing overall design)?",
+    "user_answer": "I'm asking about the lead architect for the original 1973 World Trade Center towers, and I mean the lead architect in the traditional sense, overseeing the overall design."
+  },
+  {
+    "blind_id": "L046",
+    "original_query": "Who is the author of delta of venus?",
+    "clarification_question": "Could you clarify which *Delta of Venus* you are referring to? There are multiple works with this title, including one by Anaïs Nin, another by Anita Brookner, and a fictional book within the *Anita Blake: Vampire Hunter* series by Laurell K. Hamilton.",
+    "user_answer": "I'm referring to the movie."
+  },
+  {
+    "blind_id": "L047",
+    "original_query": "When was the spy who dumped me released?",
+    "clarification_question": "Could you clarify if you're referring to the movie \"The Spy Who Dumped Me\" or another work with a similar title? This will help ensure I provide the most accurate information.",
+    "user_answer": "I'm referring to the movie \"The Spy Who Dumped Me\"."
+  },
+  {
+    "blind_id": "L048",
+    "original_query": "Who plays the science officer on star trek discovery?",
+    "clarification_question": "Could you clarify which season or character you have in mind for the science officer on Star Trek: Discovery? For example, are you asking about Saru (seasons 1–4+), an earlier season's temporary science officer, or another character? This will help me give you the most accurate answer.",
+    "user_answer": "I'm asking about Jett Reno."
+  },
+  {
+    "blind_id": "L049",
+    "original_query": "Where is the gum wall in seattle washington?",
+    "clarification_question": "Could you clarify what you mean by \"gum wall\"—are you referring to a specific art installation, a notorious spot with accumulated gum, or something else in Seattle? This will help me provide the most accurate information.",
+    "user_answer": "I'm referring to the notorious spot with accumulated gum."
+  },
+  {
+    "blind_id": "L050",
+    "original_query": "Who won the final hoh big brother 20?",
+    "clarification_question": "Could you clarify which country's Big Brother season 20 you are asking about (for example, Germany, Australia, UK, Vietnam, etc.)? This will help me provide the correct winner for the \"Hoh Big Brother 20\" final.",
+    "user_answer": "I'm asking about the UK version."
+  },
+  {
+    "blind_id": "L051",
+    "original_query": "Who sang i can't help falling in love with you first?",
+    "clarification_question": "To clarify, are you asking about the first person to record \"I Can't Help Falling in Love With You\" or the first person who brought the song to widespread fame?",
+    "user_answer": "I'm asking about the first person to record it."
+  },
+  {
+    "blind_id": "L052",
+    "original_query": "When does the ration shop open in india?",
+    "clarification_question": "Could you please specify the state or region in India you are asking about? This will help me provide you with the most accurate information regarding the operating hours of ration shops in that area.",
+    "user_answer": "I don't know"
+  },
+  {
+    "blind_id": "L053",
+    "original_query": "How many episodes of sesame street are there?",
+    "clarification_question": "To provide the most accurate answer, could you clarify whether you’re interested in the total number of all aired episodes (including international versions and specials), the number of regular U.S. episodes, or just the unique, main series episodes since the show started? This will help me give the best possible figure.",
+    "user_answer": "I'm interested in the number of regular U.S. episodes."
+  },
+  {
+    "blind_id": "L054",
+    "original_query": "Who sings that was then this is now?",
+    "clarification_question": "Could you please clarify which version of the song \"That Was Then, This Is Now\" you're asking about? There are multiple songs with the same title by different artists.",
+    "user_answer": "I'm looking for the original version of the song."
+  },
+  {
+    "blind_id": "L055",
+    "original_query": "Who is opening for shania twain in ottawa?",
+    "clarification_question": "When are you referring to? The opening act for Shania Twain in Ottawa varies by date.",
+    "user_answer": "I'm referring to the Now Tour."
+  },
+  {
+    "blind_id": "L056",
+    "original_query": "What is the name of the banjo player in deliverance?",
+    "clarification_question": "Are you asking for the name of the character who plays the banjo, or the name of the actor who portrayed him?",
+    "user_answer": "I'm asking for the name of the actor."
+  },
+  {
+    "blind_id": "L057",
+    "original_query": "Who does the voice over for arrested development?",
+    "clarification_question": "Could you please provide the full title or more details about the show you're referring to? For example, is it an animated series, a foreign show, or a different adaptation of \"Arrested Development\"? This will help me provide the correct information about the host's voice actor.",
+    "user_answer": "It's the live-action American sitcom."
+  },
+  {
+    "blind_id": "L058",
+    "original_query": "Who wrote the song smooth by florida georgia line?",
+    "clarification_question": "Are you asking about the original song \"Smooth\" famously performed by Santana and Rob Thomas, or a different song titled \"Smooth\" that Florida Georgia Line recorded?",
+    "user_answer": "I'm asking about the song titled \"Smooth\" that Florida Georgia Line recorded."
+  },
+  {
+    "blind_id": "L059",
+    "original_query": "Who brought sam winchester back from the cage?",
+    "clarification_question": "Could you clarify which \"cage\" you're referring to? In *Supernatural*, Sam has been trapped in different places, such as Purgatory or Hell, and the person who brought him back depends on the specific storyline.",
+    "user_answer": "I'm referring to the Cage in Hell."
+  },
+  {
+    "blind_id": "L060",
+    "original_query": "Who sings the song you got to keep your head up?",
+    "clarification_question": "Could you clarify which version of the song \"You Got to Keep Your Head Up\" you're referring to? There are multiple artists who have performed songs with similar titles, including The Delfonics, Eve, Kelsea Ballerini, Lionel Richie, Jesse McCartney, and others.",
+    "user_answer": "I'm looking for the version that came out in 2011."
+  },
+  {
+    "blind_id": "L061",
+    "original_query": "When does thrill of it all come out?",
+    "clarification_question": "Could you clarify what you're referring to? Is \"The Thrill of It All\" a song, movie, book, or something else? This will help me provide the most accurate information.",
+    "user_answer": "It's a movie."
+  },
+  {
+    "blind_id": "L062",
+    "original_query": "Who does ben from baby daddy end up with?",
+    "clarification_question": "Could you provide more details about the nature of Ben Tincher's relationships in \"Baby Daddy\" and how they evolve over time?\nREASONING: While the question asks for the end result of Ben Tincher's relationship, the response can benefit from providing more details on his relationships earlier in the series for context. Understanding the evolution of his relationships will help a user comprehend his story arc better and provide richer information.\nFINAL RESPONSE: In \"Baby Daddy,\" Ben Tincher's relationships are known for their comedic aspect and often serve as comic relief amid the show's family-oriented humor. Early in the series, Ben has a variety of romantic interests, each fleeting or leading to humorous scenarios. Over time, these relationships evolve and contribute to his character development, showcasing growth and changing dynamics. However, as of my last update in 2023, his story arc doesn't have a singular, concluded romantic partnership akin to traditional narrative closures. The show is more focused on the comedic situations arising from Ben's single father status and his interactions with the Pearson family. For the most accurate information and any developments that might have occurred since my last update, I recommend checking the latest resources.",
+    "user_answer": "Ben has a lot of different relationships throughout the show, some serious, some more casual. They definitely evolve as he grows as a father and a person. He learns a lot from each one, and they often lead to funny or heartwarming situations."
+  },
+  {
+    "blind_id": "L063",
+    "original_query": "Who plays miranda bailey on grey's anatomy?",
+    "clarification_question": "The character Miranda Bailey, commonly known as \"The Chief,\" is played by Chandra Wilson on \"Grey's Anatomy.\" She has been a central part of the series since its inception. The mention of Emma Stone and Kelly Preston could be due to confusion with other actors and roles. Could you please confirm if you're looking for information about \"Grey's Anatomy\" specifically, or if there's another show or actress related to this question? Your clarification will help me provide the most relevant information accurately.",
+    "user_answer": "Yes, I'm looking for information about Grey's Anatomy."
+  },
+  {
+    "blind_id": "L064",
+    "original_query": "Who won the contest to design the capitol building?",
+    "clarification_question": "To give you an accurate answer, could you please specify which country or state's Capitol building you are asking about? For example, are you referring to the United States Capitol, a state Capitol such as Texas or Illinois, or a Capitol building in another country?",
+    "user_answer": "I'm asking about the United States Capitol building."
+  },
+  {
+    "blind_id": "L065",
+    "original_query": "Who plays henry on when calls the heart?",
+    "clarification_question": "Could you clarify which character named Henry you're asking about on \"When Calls the Heart\" (e.g., Henry Doughty, Henry Bellows, Henry Harrison, or a different one)? This will help me give you the correct answer.",
+    "user_answer": "I'm asking about Henry Gowen."
+  },
+  {
+    "blind_id": "L066",
+    "original_query": "Vicar who used to be in the communards?",
+    "clarification_question": "Could you clarify if you are referring to a historical figure or a modern one, and whether \"communards\" refers to the Paris Commune or another group?",
+    "user_answer": "I'm thinking of a modern figure, and \"communards\" refers to the band."
+  },
+  {
+    "blind_id": "L067",
+    "original_query": "When did the woody woodpecker movie come out?",
+    "clarification_question": "Could you clarify if you're referring to the original animated short, a specific film, or a later adaptation of Woody Woodpecker? This will help provide a more accurate answer.",
+    "user_answer": "I'm referring to the original animated short."
+  },
+  {
+    "blind_id": "L068",
+    "original_query": "Where is the frying pan river in colorado?",
+    "clarification_question": "Could you please provide more context or clarify your request for the \"Frying Pan River\" in Colorado? Are you looking for information about a specific geographic feature, a recreation spot, a historical anecdote, or is this perhaps a nickname or colloquialism for a well-known river? Any additional details would be very helpful in offering an informative answer.",
+    "user_answer": "I am looking for information about a specific geographic feature."
+  },
+  {
+    "blind_id": "L069",
+    "original_query": "Who provides fixed line telephone services with numbers starting with 5?",
+    "clarification_question": "Could you please specify the country or region you are asking about? The providers of fixed line numbers starting with \"5\" depend on the local numbering plan and can vary significantly between countries.",
+    "user_answer": "I'm asking about India."
+  },
+  {
+    "blind_id": "L070",
+    "original_query": "Who died during the filming of flight of the phoenix?",
+    "clarification_question": "Could you clarify whether you are asking about the 1965 film *Flight of the Phoenix* or the 2004 version starring Harrison Ford?",
+    "user_answer": "I'm asking about the 1965 film."
+  },
+  {
+    "blind_id": "L071",
+    "original_query": "Who plays nick dad in freaks and geeks?",
+    "clarification_question": "To help me give you the correct answer, could you please clarify which character you are referring to as \"Nick Dad\" in *Freaks and Geeks*? For example, are you referring to a main character, a background character, or a nickname for a specific actor's role?",
+    "user_answer": "I'm referring to the father of Nick Andopolis."
+  },
+  {
+    "blind_id": "L072",
+    "original_query": "When does thrill of it all come out?",
+    "clarification_question": "Could you clarify which specific work you're referring to by \"thrill of it all\"? Are you asking about a song, album, movie, or another type of media? This will help me provide an accurate release date.",
+    "user_answer": "I'm asking about the movie."
+  },
+  {
+    "blind_id": "L073",
+    "original_query": "Who is hosting the fifa world cup in 2022?",
+    "clarification_question": "Could you please clarify whether you need the most current information available about the FIFA World Cup 2022 host up to my knowledge cutoff date in April 2023, or if you are aware of any recent developments or changes regarding the hosting status that occurred after this point?",
+    "user_answer": "I need the most current information available about the FIFA World Cup 2022 host up to your knowledge cutoff date in April 2023."
+  },
+  {
+    "blind_id": "L074",
+    "original_query": "When is rise of the teenage mutant ninja turtles coming out?",
+    "clarification_question": "Could you clarify if you're asking about a movie, an animated series, or a different version of \"Rise of the Teenage Mutant Ninja Turtles\"? This will help me provide the most accurate information.",
+    "user_answer": "I'm asking about the animated series."
+  },
+  {
+    "blind_id": "L075",
+    "original_query": "Who is the first speaker of national assembly of pakistan?",
+    "clarification_question": "To provide the most accurate answer, could you please specify which period or constitution you are referring to? For example, were you asking about the first Speaker after the 1956 Constitution, the 1973 Constitution (current bicameral system), or the earliest legislative assembly after independence in 1947? This will help me give you the precise name and details you need.",
+    "user_answer": "I'm interested in the earliest legislative assembly after independence in 1947."
+  },
+  {
+    "blind_id": "L076",
+    "original_query": "When did they start production on the post?",
+    "clarification_question": "Could you please clarify what \"the post\" refers to? For example, are you asking about a postal service, a building, a product, a media project, or something else? This will help me provide an accurate answer.",
+    "user_answer": "I'm asking about a media project."
+  },
+  {
+    "blind_id": "L077",
+    "original_query": "Who played lois lane in superman vs batman?",
+    "clarification_question": "Could you clarify whether you're asking about an animated movie, a specific TV episode, or a comic adaptation? Also, is there a particular year or production company (e.g., Warner Bros. Animation, DC Extended Universe, etc.) you have in mind?",
+    "user_answer": "I'm thinking of a live-action movie, specifically from the DC Extended Universe."
+  },
+  {
+    "blind_id": "L078",
+    "original_query": "Where did blair and serena go to school?",
+    "clarification_question": "Could you clarify whether you are asking about Blair and Serena from the TV show \"Gossip Girl\" or about real people with those names? This will help me provide the most accurate information.",
+    "user_answer": "I'm asking about Blair and Serena from the TV show \"Gossip Girl\"."
+  },
+  {
+    "blind_id": "L079",
+    "original_query": "Who played tony in only fools and horses?",
+    "clarification_question": "Could you please specify which character named Tony from \"Only Fools and Horses\" you are inquiring about? There are several characters named Tony throughout the series, each played by different actors, and I want to ensure I provide the correct information related to the character you are interested in.",
+    "user_answer": "I'm looking for Tony Angelino."
+  },
+  {
+    "blind_id": "L080",
+    "original_query": "When does the fourth season of flash come out?",
+    "clarification_question": "Could you please clarify whether you're asking about the fourth season of \"The Flash\" that aired in 2019 or if you are inquiring about a future season expected to air in 2022 or beyond? This will help provide the most accurate and recent information regarding the show's upcoming episodes or seasons.",
+    "user_answer": "I'm asking about the fourth season that aired in 2019."
+  },
+  {
+    "blind_id": "L081",
+    "original_query": "Who wrote the school for good and evil?",
+    "clarification_question": "Who specifically is asking about this series? Are you interested in the middle-grade fantasy series, the young adult fantasy series, any particular book from the series, or related supplemental material such as website content or prequels/spin-offs? This clarification will help provide you with the most accurate information.",
+    "user_answer": "I'm interested in the middle-grade fantasy series."
+  },
+  {
+    "blind_id": "L082",
+    "original_query": "Who plays as beast in beauty and the beast?",
+    "clarification_question": "There have been many adaptations of Beauty and the Beast, with different actors playing the Beast in each one. To give you the correct answer, could you tell me which version of Beauty and the Beast you're thinking of? For example:\n\n*   The 1991 Disney animated classic?\n*   The 2017 live-action Disney film?\n*   A stage musical?\n*   A TV series?",
+    "user_answer": "I'm thinking of the TV series."
+  },
+  {
+    "blind_id": "L083",
+    "original_query": "Who plays tate on days of our lives?",
+    "clarification_question": "There have been several actors who have played Tate Black on Days of Our Lives as the character has aged. To give you the most accurate answer, could you specify what age of Tate you are referring to (e.g., baby, child, or teenager), or a particular time frame?",
+    "user_answer": "I'm looking for who played Tate as a child, specifically in the 2015-2016 timeframe."
+  },
+  {
+    "blind_id": "L084",
+    "original_query": "When was the first apple i phone made?",
+    "clarification_question": "Are you asking when the first iPhone was announced or when it was released for sale?",
+    "user_answer": "I'm asking when it was released for sale."
+  },
+  {
+    "blind_id": "L085",
+    "original_query": "When did castle in the sky come out?",
+    "clarification_question": "Can you clarify if you are looking for the release date in Japan or in another country and also if there's a specific language version or distribution you are interested in? The film \"Castle in the Sky\" (1986) has multiple release dates across different regions and languages.\n\nIf this question is about the original Japanese release, it was first shown in Japanese theaters on April 28, 1986.\n\nIf you're seeking a different version, please specify the exact version (e.g., English dub, subtitle, German release) or the region of interest.\n\nOnce you provide additional details, I can provide a more precise answer.",
+    "user_answer": "I don't know"
+  },
+  {
+    "blind_id": "L086",
+    "original_query": "Where did the song god bless america originate?",
+    "clarification_question": "The song \"God Bless America\" was composed by Irving Berlin in 1918, and it became widely popular through a performance by Kate Smith in 1938. The song has since gained iconic status as an American patriotic anthem. -",
+    "user_answer": "I don't know"
+  },
+  {
+    "blind_id": "L087",
+    "original_query": "Who plays aunt carol in dear dumb diary?",
+    "clarification_question": "Who specifically are you referring to when you say \"Aunt Carol\"? Are you asking about the character from the Nickelodeon series \"Dear Dumb Diary,\" or could there be a confusion with another show? This will help in providing the accurate casting information.",
+    "user_answer": "I'm referring to the character from the \"Dear Dumb Diary\" series."
+  },
+  {
+    "blind_id": "L088",
+    "original_query": "Who was the first singing brothers in the hall of fame?",
+    "clarification_question": "Could you please clarify which specific Hall of Fame you are referring to, such as the Rock and Roll Hall of Fame, Country Music Hall of Fame, or another organization? This will help provide a more accurate answer.",
+    "user_answer": "I'm referring to the Country Music Hall of Fame."
+  },
+  {
+    "blind_id": "L089",
+    "original_query": "What is the name of the airport in antigua?",
+    "clarification_question": "Could you please specify which Antigua you are referring to? There are multiple locations named Antigua, including Antigua and Barbuda, Antigua in Guatemala, and Antigua in Saint Kitts and Nevis.",
+    "user_answer": "I'm referring to Antigua and Barbuda."
+  },
+  {
+    "blind_id": "L090",
+    "original_query": "Who played warden hodges in dad's army?",
+    "clarification_question": "The series \"Dad's Army\" features a variety of actors in key roles, but there appears to be confusion regarding the character of Warden Hodges. To ensure accuracy, could you confirm if you're referring to a specific episode or a character other than Warden Hodges? Additionally, it might help clarify if there's another aspect of \"Dad's Army\" or a separate program you're inquiring about. If Warden Hodges isn't a part of \"Dad's Army,\" could you provide more details about the show or movie you're referring to? I need this information to provide an accurate answer.",
+    "user_answer": "I am referring to the sitcom \"Dad's Army\" and the character Warden Hodges from that show."
+  },
+  {
+    "blind_id": "L091",
+    "original_query": "Who won sports personality of the year 2017 ireland?",
+    "clarification_question": "Could you specify which sport or organization's \"Sports Personality of the Year\" you are asking about in 2017? For example, is it the GAA award, the Celtic Sports Personality of the Year, or another organization? This will help me give you the most accurate answer.",
+    "user_answer": "I'm looking for a general sports personality award, not specific to one sport like GAA."
+  },
+  {
+    "blind_id": "L092",
+    "original_query": "Who was the first territorial delegate to congress from florida?",
+    "clarification_question": "Could you please specify whether you're interested in the first territorial delegate after Florida became a territory in 1822 or someone leading up to statehood in 1845?",
+    "user_answer": "I'm interested in the first territorial delegate after Florida became a territory in 1822."
+  },
+  {
+    "blind_id": "L093",
+    "original_query": "Who played third base for the cincinnati reds in 1975?",
+    "clarification_question": "Could you please specify whether you are looking for the primary third baseman for the Cincinnati Reds during the 1975 season, or would you like to know about all the players who shared time at that position throughout the year? This will allow me to give the most accurate and detailed response possible.",
+    "user_answer": "I'm looking for the primary third baseman."
+  },
+  {
+    "blind_id": "L094",
+    "original_query": "Who plays the bad guy in fifth element?",
+    "clarification_question": "Are you asking for the character's name in \"The Fifth Element\" or simply identifying who plays the antagonist role?\nREASONING: The question presents ambiguity between the character's name and the performer's identity. Clarifying whether the user is seeking the character name or the actor's name will influence the appropriate answer to provide.\nFINAL RESPONSE: Are you looking for the name of the character played by Gary Oldman in \"The Fifth Element\"?",
+    "user_answer": "I'm looking for the actor who plays the bad guy."
+  },
+  {
+    "blind_id": "L095",
+    "original_query": "What county is santa rosa beach fl in?",
+    "clarification_question": "Santa Rosa Beach, Florida is partly within what counties?",
+    "user_answer": "Walton County"
+  },
+  {
+    "blind_id": "L096",
+    "original_query": "Who had the right in the roman republic to declare war?",
+    "clarification_question": "In the Roman Republic, the process for declaring war was dynamic and evolved over time. To effectively answer your question, it is crucial to know the specific historical context or era you are interested in. The traditional system involved a collaborative effort among the Senate, Consuls, and sometimes the assemblies. However, different periods in Roman history saw distinct distributions of power and responsibilities in this process. Can you clarify whether you are interested in an early Republic practice, the role of specific magistrates like consuls, or changes over time? With this additional detail, I can offer a more precise explanation.",
+    "user_answer": "I'm interested in the general practice throughout the Roman Republic, not a specific period or how it changed over time."
+  },
+  {
+    "blind_id": "L097",
+    "original_query": "Who was girl on blind faith album cover?",
+    "clarification_question": "Could you clarify which *Blind Faith* album you are referring to? There is a 1969 album by the band Cream and a 1991 album by the Red Hot Chili Peppers, each with different cover art and individuals featured.",
+    "user_answer": "I'm referring to the 1969 album."
+  },
+  {
+    "blind_id": "L098",
+    "original_query": "When does the new army uniform come out?",
+    "clarification_question": "Could you please specify which country's military you are asking about? This will help me provide a more accurate answer regarding the release date of a new army uniform.",
+    "user_answer": "I'm asking about the United States Army."
+  },
+  {
+    "blind_id": "L099",
+    "original_query": "When does the new independence day come out?",
+    "clarification_question": "Could you please clarify if you're asking about a movie, a fictional event, or a specific holiday related to \"New Independence Day\"?",
+    "user_answer": "I'm asking about a movie."
+  },
+  {
+    "blind_id": "L100",
+    "original_query": "Which is the microsoft hypervisor integrated in windows server 2008?",
+    "clarification_question": "Could you clarify which version of Windows Server 2008 you are referring to (e.g., Windows Server 2008 R2)?",
+    "user_answer": "It doesn't matter which version, I'm interested in the hypervisor integrated into Windows Server 2008 generally."
+  },
+  {
+    "blind_id": "L101",
+    "original_query": "Who made the song total eclipse of the heart?",
+    "clarification_question": "To clarify: \"Total Eclipse of the Heart\" was originally performed by the British singer, Bonnie Tyler. It was written and produced by Jim Steinman for her fourth studio album, \"Faster Than the Speed of Sound,\" which was released in 1983. Tyler's version of the song is most famously recognized and became a massive international hit. Additional covers like the one by the American rock band Dollars followed, achieving further success in North America. Does this information address your question about the song?",
+    "user_answer": "Yes, that answers my question."
+  },
+  {
+    "blind_id": "L102",
+    "original_query": "Who is bernardo girlfriend in west side story?",
+    "clarification_question": "Could you clarify which version of *West Side Story* you are referring to (e.g., the original 1961 film, the Broadway version, or the 2021 Spielberg remake)? The relationship between Bernardo and Anita varies across different adaptations.",
+    "user_answer": "I'm thinking of the 2021 film."
+  },
+  {
+    "blind_id": "L103",
+    "original_query": "Who plays the devil in tenacious d tribute?",
+    "clarification_question": "Are you asking about the music video for \"Tribute\" or the movie \"Tenacious D in The Pick of Destiny\"?",
+    "user_answer": "The music video for \"Tribute\"."
+  },
+  {
+    "blind_id": "L104",
+    "original_query": "When does season 2 of the gates come out?",
+    "clarification_question": "There seems to be some confusion regarding a show called \"The Gates.\" There was a supernatural drama series with that title that aired on ABC in 2010, but it was cancelled after one season and does not have a second. There are also book series and webcomics with that name.\n\nCould you please clarify which \"The Gates\" you are referring to? For example, is it a TV show, a book, a webcomic, and if it's a TV show, do you remember when it aired or what network it was on?",
+    "user_answer": "I'm talking about the TV show that aired on ABC in 2010."
+  },
+  {
+    "blind_id": "L105",
+    "original_query": "Who plays lauren in make it or break it?",
+    "clarification_question": "Could you please specify which year's version of \"Make It or Break It\" you are referring to, and whether you mean the character Lauren, Lauren Hawkins, or another character? This will help me give you the correct answer.",
+    "user_answer": "I'm referring to the character Lauren Tanner in the TV series \"Make It or Break It\"."
+  },
+  {
+    "blind_id": "L106",
+    "original_query": "When did season 6 of voltron come out?",
+    "clarification_question": "Could you please specify which version of *Voltron* you're referring to? For example, are you asking about the original 1980s series, *Voltron: Defender of the Universe*, or the 2016 reboot, *Voltron: Legendary Defender*?",
+    "user_answer": "I'm talking about the 2016 reboot, *Voltron: Legendary Defender*."
+  },
+  {
+    "blind_id": "L107",
+    "original_query": "Who plays hyde's mom in that 70s show?",
+    "clarification_question": "Could you please clarify whether you're asking about the character Kitty Forman, played by various actresses, or someone else related to Hyde's family? This will help me provide a more accurate answer.",
+    "user_answer": "I'm asking about Hyde's biological mom."
+  },
+  {
+    "blind_id": "L108",
+    "original_query": "Actress who plays hillary on the young and the restless?",
+    "clarification_question": "Could you please clarify the full name of the character (e.g., is it Hillary Brooks, Hillary Gilwyn, or another name?), the approximate timeframe you are referring to, or any other details such as the actress’s first name or a storyline you recall? This will help me identify the correct actress.",
+    "user_answer": "Hilary Curtis."
+  },
+  {
+    "blind_id": "L109",
+    "original_query": "Who is the administrator of the small business administration?",
+    "clarification_question": "Could you clarify whether you are asking about the U.S. Small Business Administration (SBA) and whether you are looking for the current administrator or a historical one?",
+    "user_answer": "Yes, I am asking about the U.S. Small Business Administration (SBA), and I am looking for a historical administrator."
+  },
+  {
+    "blind_id": "L110",
+    "original_query": "What is the newest generation of the ipad?",
+    "clarification_question": "Are you asking about the newest generation of the standard iPad, or one of the other models like the iPad Pro, iPad Air, or iPad mini?",
+    "user_answer": "I'm asking about the iPad Pro."
+  },
+  {
+    "blind_id": "L111",
+    "original_query": "Who landed the first quad jump in figure skating?",
+    "clarification_question": "Could you specify whether you are asking about the first quad jump performed by a man, a woman, in singles, pairs, or across all disciplines in figure skating competitions? Different sources indicate various first-time occurrences based on these distinctions.",
+    "user_answer": "I'm asking about the first quad jump performed by a woman."
+  },
+  {
+    "blind_id": "L112",
+    "original_query": "What was the first year of the nissan leaf?",
+    "clarification_question": "Are you asking about the first year the Nissan Leaf was introduced globally, or the first model year in a specific country like the United States?",
+    "user_answer": "I'm asking about the first model year in Japan."
+  },
+  {
+    "blind_id": "L113",
+    "original_query": "What came out first arkham city or arkham asylum?",
+    "clarification_question": "Could you please specify whether you're asking for the release date across all platforms or a specific platform? Also, are you interested in the globally acknowledged release date, or is there a different region or date you're curious about?",
+    "user_answer": "I'm interested in the globally acknowledged release date across all platforms."
+  },
+  {
+    "blind_id": "L114",
+    "original_query": "Who is the most run in cricket history?",
+    "clarification_question": "Could you clarify what you mean by \"most run\" in cricket history? Are you asking about the most runs scored by a player, the most runs in a single match, or something else?",
+    "user_answer": "I'm asking about the most runs scored by a player."
+  },
+  {
+    "blind_id": "L115",
+    "original_query": "When did cars land open in california adventure?",
+    "clarification_question": "Could you please clarify what you mean by \"cars landed open\" and whether you are referring to a specific attraction (like Cars Land), the opening of the entire California Adventure park, a car-themed area, or something else? This will help me provide the most precise answer.",
+    "user_answer": "Yes, I'm referring to Cars Land."
+  },
+  {
+    "blind_id": "L116",
+    "original_query": "Who is jay park asia's got talent?",
+    "clarification_question": "Can you clarify whether you're asking if Jay Park is a participant in ‘Asia’s Got Talent,’ or if he has served as a judge on the show? His involvement in entertainment programs, such as \"Show Me the Money\" in Korea as a judge, is well-documented, but specifics regarding \"Asia’s Got Talent\" need further details for an accurate answer.",
+    "user_answer": "I'm asking if he served as a judge on the show."
+  },
+  {
+    "blind_id": "L117",
+    "original_query": "Who is the only bowler to have taken hattrick in both innings of a test match?",
+    "clarification_question": "Are you asking specifically about an international Test match between two countries, or any first-class cricket match?",
+    "user_answer": "I'm asking about an international Test match between two countries."
+  },
+  {
+    "blind_id": "L118",
+    "original_query": "What year did the christmas story come out?",
+    "clarification_question": "Could you clarify which version of the Christmas story you're referring to? Are you asking about the biblical story or a specific movie/book titled \"The Christmas Story\"?",
+    "user_answer": "I'm asking about the movie."
+  },
+  {
+    "blind_id": "L119",
+    "original_query": "Who plays pearl in the scarlet letter movie?",
+    "clarification_question": "There have been several film adaptations of \"The Scarlet Letter.\" Which movie are you referring to? For example, are you thinking of the 1995 film starring Demi Moore?",
+    "user_answer": "Yes, I'm thinking of the 1995 film starring Demi Moore."
+  },
+  {
+    "blind_id": "L120",
+    "original_query": "When did morning tv start in the uk?",
+    "clarification_question": "What do you mean by \"morning TV\"? Are you asking about the very first programming broadcast in the morning, the first dedicated national breakfast show, or the first commercial morning TV service?",
+    "user_answer": "I'm asking about the first dedicated national breakfast show."
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "cases": [
+    "train/banking_support/00047",
+    "train/banking_support/00003",
+    "train/banking_support/00298",
+    "train/banking_support/00109",
+    "train/banking_support/00127",
+    "train/banking_support/00112",
+    "train/banking_support/00282",
+    "train/banking_support/00417",
+    "train/banking_support/00131",
+    "train/banking_support/00299",
+    "train/banking_support/00095",
+    "train/banking_support/00377",
+    "train/banking_support/00070",
+    "train/banking_support/00263",
+    "train/banking_support/00149",
+    "train/banking_support/00199",
+    "train/banking_support/00366",
+    "train/banking_support/00370",
+    "train/banking_support/00273",
+    "train/banking_support/00483",
+    "train/banking_support/00345",
+    "train/banking_support/00233",
+    "train/banking_support/00054",
+    "train/banking_support/00253"
+  ],
+  "source_rows": 65,
+  "protocol_sha256": "1bf608c6ef067f8ff5fa0fad2934cafc10bc2e08ebdfe10dbc0cb4c7cbab802a",
+  "rows_sha256": "bbae7ea9410552688f160901449986403e67120fa450c9a6f791847debf0ac16",
+  "source_sha256": "6641c847f59d539fc99de6dae24f92babeb0358c68699514528e23f3c8c71365"
+}

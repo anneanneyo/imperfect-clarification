@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "completed": true,
+  "source_cases": 120,
+  "prompt_inputs_verified": true,
+  "generic_rule_interpreter_used": true,
+  "verifier_sha256": "ccfbb24caf1eb1b9231e28d03af755ddcbcd83b07361ec8ad362c530f3b35d50",
+  "manifest_sha256": "03b4d99f8fa3745ec7fc10d8f368a9e51bfedf0bf9d35a81d8fed9b35feca8e9",
+  "constrained_unknown_diagnostic": {
+    "E014_dev": {
+      "constrained": {
+        "slots": 54,
+        "exact": 53,
+        "exact_rate": 0.9814814814814815
+      },
+      "unknown": {
+        "slots": 42,
+        "exact": 22,
+        "exact_rate": 0.5238095238095238
+      }
+    },
+    "E016_train": {
+      "constrained": {
+        "slots": 202,
+        "exact": 195,
+        "exact_rate": 0.9653465346534653
+      },
+      "unknown": {
+        "slots": 182,
+        "exact": 74,
+        "exact_rate": 0.4065934065934066
+      }
+    }
+  }
+}

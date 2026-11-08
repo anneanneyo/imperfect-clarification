@@ -1,0 +1,12 @@
+{
+  "files": {
+    "experiments/record_e020_review.py": "588e507878e15ab9db52f9c6c78a93543c84c8dd11c785c51186688ccc39a407",
+    "results/e020_diagnostics/remaining_mismatches.json": "2f49fbc6ce5c1fb6bc4b901ac845eff740d5d0653cdacfb2b14546fc4ebef36d",
+    "results/evidence_facts_e020/details.json": "99786bd83866b7711b6a7525d5fe8d669812cc75082994a3a899ea892760900c",
+    "results/evidence_facts_e020/verification.json": "22b271d4c8c066a15c5bab1f5aaf89a39b6a4f33defa995284ccb3f4b15aa873",
+    "results/e020_semantic_review/labels.json": "f794aa891be880761641c5a42cf44e6a4db9de5163265a07393a8f512cc5ac93",
+    "results/e020_semantic_review/summary.json": "283a051010bf3260426976870895813f84e71c42d1b96e04b1e42fa40cde3e75",
+    "results/e020_semantic_review/quote_gate_details.json": "a9cbfe3f1fc6429ecb310d320eb9ab922fc684870d02929ed083124d56ac8d77",
+    "results/e020_semantic_review/quote_gate_summary.json": "50882e7e617a20169fcaea51087aa77c2e42ae667e170b11929c30c83dc1f5d7"
+  }
+}

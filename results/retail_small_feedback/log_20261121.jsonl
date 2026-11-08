@@ -1,0 +1,1024 @@
+{"step": 0, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 24362]}
+{"step": 1, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 25308]}
+{"step": 2, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 126989]}
+{"step": 3, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 4, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Makeup Kit"]}
+{"step": 5, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9077472"]}
+{"step": 6, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf"]}
+{"step": 7, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 8, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Hiking Boots"]}
+{"step": 9, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 34836]}
+{"step": 10, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 11, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Makeup Kit"]}
+{"step": 12, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 13, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 14, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 15, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3761872"]}
+{"step": 16, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 25903]}
+{"step": 17, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 18, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 19, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 20, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 21, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 22, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 23, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 24, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Makeup Kit"]}
+{"step": 25, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 26, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 27, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 28, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 29, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5432440"]}
+{"step": 30, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Office Chair", "Smart Thermostat", "Tea Kettle", "Tea Kettle"]}
+{"step": 31, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5056519"]}
+{"step": 32, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Skateboard"]}
+{"step": 33, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 34, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 35, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 36, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 37, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Makeup Kit"]}
+{"step": 38, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 39, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 40, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 126989]}
+{"step": 41, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Electric Toothbrush"]}
+{"step": 42, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 43, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 44, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 26111]}
+{"step": 45, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Espresso Machine"]}
+{"step": 46, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 144908]}
+{"step": 47, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 48, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 49, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 50, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bluetooth Speaker", "Espresso Machine", "Tablet", "Wireless Earbuds"]}
+{"step": 51, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Makeup Kit"]}
+{"step": 52, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 53, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 54, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 55, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 56, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 342245]}
+{"step": 57, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 58, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 59, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 19096]}
+{"step": 60, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 61, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 62, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 63, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Water Bottle"]}
+{"step": 64, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 39143]}
+{"step": 65, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 66, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 67, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 68, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 69, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 70, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 619169]}
+{"step": 71, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 72, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 73, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 39726]}
+{"step": 74, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 75, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 76, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 77, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 175864]}
+{"step": 78, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W1787190"]}
+{"step": 79, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 80, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 81, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 72734]}
+{"step": 82, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 90446]}
+{"step": 83, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W7555783"]}
+{"step": 84, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 93475]}
+{"step": 85, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 86, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 87, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 88, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W1092119"]}
+{"step": 89, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 10927]}
+{"step": 90, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 91, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5282037"]}
+{"step": 92, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 93, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 94, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 95, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 96, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 97, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 98, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 99, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 100, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Digital Camera"]}
+{"step": 101, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Digital Camera"]}
+{"step": 102, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "Headphones", "Laptop", "Skateboard", "Sunglasses"]}
+{"step": 103, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5481803"]}
+{"step": 104, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 105, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 106, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Running Shoes"]}
+{"step": 107, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 175864]}
+{"step": 108, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 109, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 110, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Perfume"]}
+{"step": 111, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 112, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 113, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 114, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 115, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Water Bottle"]}
+{"step": 116, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Headphones", "Laptop", "Laptop", "Office Chair", "Patio Umbrella"]}
+{"step": 117, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 118, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 119, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 120, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Headphones", "Headphones"]}
+{"step": 121, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 122, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 323402]}
+{"step": 123, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 122982]}
+{"step": 124, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 125, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 126, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Office Chair", "Water Bottle", "Wristwatch"]}
+{"step": 127, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 128, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 129, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 130, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 131, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Digital Camera"]}
+{"step": 132, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W1298962"]}
+{"step": 133, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 615360]}
+{"step": 134, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 135, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Makeup Kit"]}
+{"step": 136, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 137, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 138, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 139, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 140, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 141, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Cycling Helmet"]}
+{"step": 142, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Office Chair"]}
+{"step": 143, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 144, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Mechanical Keyboard"]}
+{"step": 145, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 146, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 147, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8327915"]}
+{"step": 148, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 149, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 150, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 151, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "Hiking Boots", "Laptop"]}
+{"step": 152, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 153, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 154, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 155, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 41698]}
+{"step": 156, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Garden Hose", "Hiking Boots", "Office Chair"]}
+{"step": 157, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 431569]}
+{"step": 158, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Backpack"]}
+{"step": 159, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 160, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 619169]}
+{"step": 161, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 162, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Headphones", "Luggage Set", "Vacuum Cleaner"]}
+{"step": 163, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 164, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 142067]}
+{"step": 165, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 59643]}
+{"step": 166, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 31660]}
+{"step": 167, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 168, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 37797]}
+{"step": 169, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Electric Toothbrush", "Makeup Kit", "Patio Umbrella", "Smart Watch", "Sunglasses"]}
+{"step": 170, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 171, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 172, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 173, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 59857]}
+{"step": 174, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 175, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Smartphone", "Tea Kettle"]}
+{"step": 176, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 177, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 384486]}
+{"step": 178, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 179, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 141270]}
+{"step": 180, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 181, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 141459]}
+{"step": 182, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 183, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 184, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9527030"]}
+{"step": 185, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 16428]}
+{"step": 186, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Sneakers"]}
+{"step": 187, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 188, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3746173"]}
+{"step": 189, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Garden Hose", "Garden Hose"]}
+{"step": 190, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Headphones", "Luggage Set", "Vacuum Cleaner"]}
+{"step": 191, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 192, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 193, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Headphones"]}
+{"step": 194, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Fleece Jacket", "Hiking Boots", "Mechanical Keyboard"]}
+{"step": 195, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 196, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 197, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 198, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 270353]}
+{"step": 199, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 107431]}
+{"step": 200, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Electric Kettle", "Headphones", "Yoga Mat"]}
+{"step": 201, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 202, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Desk Lamp", "Electric Kettle", "Gaming Mouse", "Headphones", "Luggage Set"]}
+{"step": 203, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 44470]}
+{"step": 204, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 205, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W2624389"]}
+{"step": 206, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W6385395"]}
+{"step": 207, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 208, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Vacuum Cleaner"]}
+{"step": 209, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 210, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 211, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 212, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "T-Shirt"]}
+{"step": 213, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Action Camera", "Cycling Helmet", "Electric Kettle", "Hiking Boots", "Wristwatch"]}
+{"step": 214, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 215, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 18950]}
+{"step": 216, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 217, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 218, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 219, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 220, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 221, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 222, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 223, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Wristwatch"]}
+{"step": 224, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4633848"]}
+{"step": 225, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 226, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet"]}
+{"step": 227, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4111999"]}
+{"step": 228, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3130816"]}
+{"step": 229, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 230, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Office Chair"]}
+{"step": 231, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 232, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Perfume"]}
+{"step": 233, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 234, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 235, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 236, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 237, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W7538230"]}
+{"step": 238, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Gaming Mouse", "Office Chair", "Pet Bed"]}
+{"step": 239, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 19096]}
+{"step": 240, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 241, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 242, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9284598"]}
+{"step": 243, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 244, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 245, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 246, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Espresso Machine"]}
+{"step": 247, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 248, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 249, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 88158]}
+{"step": 250, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 251, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Espresso Machine", "Wristwatch"]}
+{"step": 252, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 14945]}
+{"step": 253, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Fleece Jacket", "Mechanical Keyboard", "Mechanical Keyboard", "Vacuum Cleaner", "Water Bottle"]}
+{"step": 254, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 255, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 256, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 257, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 258, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Tablet"]}
+{"step": 259, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 260, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 261, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W6975922"]}
+{"step": 262, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Espresso Machine"]}
+{"step": 263, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 264, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 265, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "E-Reader", "Makeup Kit", "Running Shoes"]}
+{"step": 266, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Espresso Machine"]}
+{"step": 267, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Smartphone", "Tea Kettle"]}
+{"step": 268, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Skateboard"]}
+{"step": 269, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Jigsaw Puzzle", "Mechanical Keyboard", "Smart Thermostat", "Wireless Earbuds"]}
+{"step": 270, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 271, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 272, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 273, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4633848"]}
+{"step": 274, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 275, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Portable Charger"]}
+{"step": 276, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 277, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 278, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 279, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 280, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 281, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 282, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 283, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 284, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 5327]}
+{"step": 285, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 286, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 615360]}
+{"step": 287, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 34816]}
+{"step": 288, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Electric Kettle"]}
+{"step": 289, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bicycle", "Grill", "Headphones", "Pet Bed", "Tablet"]}
+{"step": 290, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 291, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 292, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Sneakers"]}
+{"step": 293, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 81368]}
+{"step": 294, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 267440]}
+{"step": 295, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Hiking Boots"]}
+{"step": 296, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 297, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 298, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9432206"]}
+{"step": 299, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Electric Toothbrush"]}
+{"step": 300, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 301, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 302, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 303, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 304, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Wireless Earbuds"]}
+{"step": 305, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 306, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 307, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 308, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Air Purifier"]}
+{"step": 309, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W1129578"]}
+{"step": 310, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 311, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Espresso Machine"]}
+{"step": 312, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 313, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9583042"]}
+{"step": 314, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 121361]}
+{"step": 315, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 321475]}
+{"step": 316, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 317, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 257385]}
+{"step": 318, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 319, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 320, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 321, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Fleece Jacket", "Hiking Boots", "Mechanical Keyboard"]}
+{"step": 322, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 323, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Smartphone", "Tea Kettle"]}
+{"step": 324, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Bookshelf"]}
+{"step": 325, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 326, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 327, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "LED Light Bulb"]}
+{"step": 328, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 329, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 330, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 46647]}
+{"step": 331, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 332, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Luggage Set"]}
+{"step": 333, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Perfume"]}
+{"step": 334, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 335, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 336, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 18203]}
+{"step": 337, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Office Chair", "Perfume", "Sunglasses"]}
+{"step": 338, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Dumbbell Set", "Dumbbell Set", "Running Shoes", "Tea Kettle"]}
+{"step": 339, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 340, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Garden Hose"]}
+{"step": 341, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9962383"]}
+{"step": 342, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 255063]}
+{"step": 343, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 344, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Wireless Earbuds"]}
+{"step": 345, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3381155"]}
+{"step": 346, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 347, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Office Chair", "Smart Thermostat", "Tea Kettle", "Tea Kettle"]}
+{"step": 348, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 349, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 114242]}
+{"step": 350, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 351, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "E-Reader", "Makeup Kit", "Running Shoes"]}
+{"step": 352, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 353, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 354, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 199467]}
+{"step": 355, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 356, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 357, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 358, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8732376"]}
+{"step": 359, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 360, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 361, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "E-Reader", "Makeup Kit", "Running Shoes"]}
+{"step": 362, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 26111]}
+{"step": 363, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 364, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 141270]}
+{"step": 365, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9767156"]}
+{"step": 366, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 367, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 368, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 369, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 370, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 106593]}
+{"step": 371, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Tea Kettle"]}
+{"step": 372, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 14945]}
+{"step": 373, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 374, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Fleece Jacket", "Mechanical Keyboard", "Mechanical Keyboard", "Vacuum Cleaner", "Water Bottle"]}
+{"step": 375, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 376, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 377, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 62560]}
+{"step": 378, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 442277]}
+{"step": 379, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 380, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 381, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 382, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Garden Hose"]}
+{"step": 383, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 384, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 385, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 386, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 59643]}
+{"step": 387, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Electric Toothbrush"]}
+{"step": 388, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 389, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 390, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W1654931"]}
+{"step": 391, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 392, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 393, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 394, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 442277]}
+{"step": 395, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 396, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 397, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W6236251"]}
+{"step": 398, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 399, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 400, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 401, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 402, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 107431]}
+{"step": 403, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W2000719"]}
+{"step": 404, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 405, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Makeup Kit"]}
+{"step": 406, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 407, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 255063]}
+{"step": 408, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 409, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 410, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 75670]}
+{"step": 411, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 412, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 413, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 414, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 415, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 416, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 417, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9667707"]}
+{"step": 418, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Dumbbell Set", "Dumbbell Set", "Gaming Mouse", "Water Bottle"]}
+{"step": 419, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Grill", "Running Shoes"]}
+{"step": 420, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3007862"]}
+{"step": 421, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8665881"]}
+{"step": 422, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 423, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Wireless Earbuds"]}
+{"step": 424, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 425, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 14945]}
+{"step": 426, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 427, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Dumbbell Set", "Vacuum Cleaner"]}
+{"step": 428, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 438926]}
+{"step": 429, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 430, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 431, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W6116680"]}
+{"step": 432, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 433, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 434, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Backpack"]}
+{"step": 435, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 436, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 437, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Smart Watch"]}
+{"step": 438, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 439, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Gaming Mouse", "T-Shirt"]}
+{"step": 440, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 441, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bluetooth Speaker", "Electric Kettle", "Electric Kettle", "Garden Hose"]}
+{"step": 442, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 443, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "T-Shirt"]}
+{"step": 444, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Patio Umbrella"]}
+{"step": 445, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 446, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Mechanical Keyboard"]}
+{"step": 447, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3130816"]}
+{"step": 448, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 449, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 450, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Bluetooth Speaker"]}
+{"step": 451, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Vacuum Cleaner"]}
+{"step": 452, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9077472"]}
+{"step": 453, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Dumbbell Set", "Dumbbell Set", "Running Shoes", "Tea Kettle"]}
+{"step": 454, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 455, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 456, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 457, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 458, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Patio Umbrella"]}
+{"step": 459, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 102460]}
+{"step": 460, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Backpack"]}
+{"step": 461, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 462, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Digital Camera", "Indoor Security Camera", "Laptop", "Mechanical Keyboard", "Sneakers"]}
+{"step": 463, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 464, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 465, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Office Chair"]}
+{"step": 466, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 59857]}
+{"step": 467, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 468, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 469, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 470, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 471, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 472, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 473, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 474, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Headphones", "Headphones"]}
+{"step": 475, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 127194]}
+{"step": 476, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 41698]}
+{"step": 477, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 5327]}
+{"step": 478, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 479, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Espresso Machine", "Wristwatch"]}
+{"step": 480, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 481, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Water Bottle"]}
+{"step": 482, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 483, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 137782]}
+{"step": 484, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 8438]}
+{"step": 485, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 486, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 487, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 488, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 489, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 490, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Air Purifier"]}
+{"step": 491, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 492, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 493, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Tablet"]}
+{"step": 494, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 495, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 496, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 141270]}
+{"step": 497, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 498, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 499, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 90446]}
+{"step": 500, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Pet Bed"]}
+{"step": 501, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 502, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 503, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 504, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Espresso Machine", "Garden Hose"]}
+{"step": 505, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 506, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 507, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 508, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Running Shoes", "Vacuum Cleaner"]}
+{"step": 509, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 510, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 511, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 512, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet"]}
+{"step": 513, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 514, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 515, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 516, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 143440]}
+{"step": 517, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 518, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W2601346"]}
+{"step": 519, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Laptop"]}
+{"step": 520, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 188354]}
+{"step": 521, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 522, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 523, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 524, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 525, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W7170967"]}
+{"step": 526, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W2624389"]}
+{"step": 527, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4776164"]}
+{"step": 528, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 529, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 530, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W7044833"]}
+{"step": 531, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "Backpack", "Electric Kettle", "Electric Toothbrush", "Espresso Machine"]}
+{"step": 532, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Backpack", "Grill", "Jigsaw Puzzle", "Perfume", "Smart Watch"]}
+{"step": 533, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bluetooth Speaker"]}
+{"step": 534, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 219809]}
+{"step": 535, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 536, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Electric Kettle"]}
+{"step": 537, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 538, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 539, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 540, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 541, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 542, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 543, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 544, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 545, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 546, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 93475]}
+{"step": 547, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 141270]}
+{"step": 548, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 549, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 142067]}
+{"step": 550, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Jigsaw Puzzle"]}
+{"step": 551, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "LED Light Bulb", "Sunglasses", "Tablet"]}
+{"step": 552, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Espresso Machine", "Gaming Mouse"]}
+{"step": 553, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Backpack", "Grill", "Jigsaw Puzzle", "Perfume", "Smart Watch"]}
+{"step": 554, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 555, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 556, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 557, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 558, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Desk Lamp"]}
+{"step": 559, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 560, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 34816]}
+{"step": 561, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 562, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 563, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W1547606"]}
+{"step": 564, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Garden Hose", "Garden Hose"]}
+{"step": 565, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 566, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 567, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Smartphone", "Tea Kettle"]}
+{"step": 568, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 569, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 570, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 571, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Action Camera", "Cycling Helmet", "Electric Kettle", "Hiking Boots", "Wristwatch"]}
+{"step": 572, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 573, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Luggage Set"]}
+{"step": 574, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Patio Umbrella"]}
+{"step": 575, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 576, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Digital Camera"]}
+{"step": 577, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 578, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 579, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 580, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 581, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Makeup Kit"]}
+{"step": 582, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5183325"]}
+{"step": 583, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 584, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Vacuum Cleaner"]}
+{"step": 585, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Mechanical Keyboard", "Tea Kettle"]}
+{"step": 586, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 587, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 39143]}
+{"step": 588, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 589, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "LED Light Bulb", "Mechanical Keyboard"]}
+{"step": 590, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Grill"]}
+{"step": 591, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8268610"]}
+{"step": 592, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 593, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 594, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 595, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 142067]}
+{"step": 596, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Wireless Earbuds"]}
+{"step": 597, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 598, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 599, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 600, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 601, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Headphones", "Luggage Set", "Vacuum Cleaner"]}
+{"step": 602, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 603, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Garden Hose", "Hiking Boots", "Office Chair"]}
+{"step": 604, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 605, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 606, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 607, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 608, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 609, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Garden Hose", "Makeup Kit"]}
+{"step": 610, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Digital Camera", "Digital Camera", "Espresso Machine", "Sneakers", "Vacuum Cleaner"]}
+{"step": 611, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 612, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 613, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Yoga Mat"]}
+{"step": 614, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Luggage Set"]}
+{"step": 615, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 616, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 109748]}
+{"step": 617, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 618, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 619, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 620, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 267440]}
+{"step": 621, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 622, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 623, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Yoga Mat"]}
+{"step": 624, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9583042"]}
+{"step": 625, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 148451]}
+{"step": 626, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4111999"]}
+{"step": 627, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Air Purifier"]}
+{"step": 628, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 629, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Notebook"]}
+{"step": 630, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 631, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 632, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 633, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 634, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Fleece Jacket", "T-Shirt"]}
+{"step": 635, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 636, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "LED Light Bulb", "Mechanical Keyboard"]}
+{"step": 637, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Air Purifier"]}
+{"step": 638, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 639, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Espresso Machine", "Skateboard"]}
+{"step": 640, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 641, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Tea Kettle"]}
+{"step": 642, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 643, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 615360]}
+{"step": 644, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Espresso Machine"]}
+{"step": 645, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 646, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 393054]}
+{"step": 647, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 267440]}
+{"step": 648, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Jigsaw Puzzle"]}
+{"step": 649, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W6940125"]}
+{"step": 650, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 651, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Action Camera", "Bookshelf", "Jigsaw Puzzle", "Jigsaw Puzzle", "Sunglasses"]}
+{"step": 652, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 653, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 654, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 431569]}
+{"step": 655, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 431569]}
+{"step": 656, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 657, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 658, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Hiking Boots"]}
+{"step": 659, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 660, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 661, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 662, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9667707"]}
+{"step": 663, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 664, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 665, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W6385395"]}
+{"step": 666, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "LED Light Bulb"]}
+{"step": 667, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4160705"]}
+{"step": 668, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 127236]}
+{"step": 669, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 670, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 671, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Wireless Earbuds"]}
+{"step": 672, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "LED Light Bulb", "Mechanical Keyboard"]}
+{"step": 673, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 674, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Perfume"]}
+{"step": 675, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 676, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 677, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 678, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 679, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 680, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 142067]}
+{"step": 681, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 682, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 683, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Luggage Set"]}
+{"step": 684, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 386428]}
+{"step": 685, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 686, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 259482]}
+{"step": 687, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 688, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Dumbbell Set", "Vacuum Cleaner"]}
+{"step": 689, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 690, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 691, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 692, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 693, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 694, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Garden Hose", "Hiking Boots", "Office Chair"]}
+{"step": 695, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 188354]}
+{"step": 696, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 148502]}
+{"step": 697, "family_hash": "1a0419eba66e687b344db2f4e03e0fdd146af1d8dc0504b343eb88c61514c999", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 698, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 699, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 700, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8642391"]}
+{"step": 701, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 702, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 703, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 704, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 705, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 706, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 707, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 708, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Garden Hose", "Garden Hose"]}
+{"step": 709, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Vacuum Cleaner"]}
+{"step": 710, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Gaming Mouse", "Hiking Boots"]}
+{"step": 711, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 175864]}
+{"step": 712, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 713, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 714, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 715, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 716, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 717, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8770097"]}
+{"step": 718, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Portable Charger"]}
+{"step": 719, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Mechanical Keyboard"]}
+{"step": 720, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 272665]}
+{"step": 721, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3579467"]}
+{"step": 722, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 723, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 724, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 725, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 726, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Fleece Jacket", "Luggage Set", "Portable Charger", "Running Shoes"]}
+{"step": 727, "family_hash": "4e585d7f8ef5a682e80dedbba69c549dbc310ca7cfa7a447576b28312282910f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 728, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9667707"]}
+{"step": 729, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 730, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 731, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 732, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 57636]}
+{"step": 733, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Office Chair", "Smart Thermostat", "Tea Kettle", "Tea Kettle"]}
+{"step": 734, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 735, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W2974929"]}
+{"step": 736, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 737, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 738, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Desk Lamp", "Perfume", "Skateboard"]}
+{"step": 739, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Cycling Helmet"]}
+{"step": 740, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 741, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 742, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "E-Reader", "Espresso Machine", "Indoor Security Camera"]}
+{"step": 743, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Espresso Machine", "Wristwatch"]}
+{"step": 744, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 745, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 115264]}
+{"step": 746, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 747, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Makeup Kit", "Mechanical Keyboard", "Portable Charger"]}
+{"step": 748, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 749, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 750, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 94383]}
+{"step": 751, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 752, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 753, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 754, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9373487"]}
+{"step": 755, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 304136]}
+{"step": 756, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 757, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 758, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 619169]}
+{"step": 759, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 760, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 761, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 762, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 763, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 25903]}
+{"step": 764, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 765, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 766, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 75670]}
+{"step": 767, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5432440"]}
+{"step": 768, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Perfume"]}
+{"step": 769, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Backpack", "Cycling Helmet", "Tea Kettle", "Wireless Earbuds"]}
+{"step": 770, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3510092"]}
+{"step": 771, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 772, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 773, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 774, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 775, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 143440]}
+{"step": 776, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 137782]}
+{"step": 777, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 778, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 9825]}
+{"step": 779, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 353275]}
+{"step": 780, "family_hash": "1d55d1196ab419a7f3a25e29824fe584f20d894a4a9271275f2822890a4217c1", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Electric Kettle", "Hiking Boots"]}
+{"step": 781, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 782, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bluetooth Speaker", "Espresso Machine", "Tablet", "Wireless Earbuds"]}
+{"step": 783, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 144908]}
+{"step": 784, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 78770]}
+{"step": 785, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 188354]}
+{"step": 786, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 188354]}
+{"step": 787, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8661412"]}
+{"step": 788, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Yoga Mat"]}
+{"step": 789, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 790, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Digital Camera", "Water Bottle"]}
+{"step": 791, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 90446]}
+{"step": 792, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Tablet"]}
+{"step": 793, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Action Camera", "Sunglasses"]}
+{"step": 794, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 795, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5320242"]}
+{"step": 796, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Action Camera", "Sunglasses"]}
+{"step": 797, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Garden Hose", "Garden Hose"]}
+{"step": 798, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 799, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 800, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Fleece Jacket", "Makeup Kit", "Portable Charger", "Smartphone", "T-Shirt"]}
+{"step": 801, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 802, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 803, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3657213"]}
+{"step": 804, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 64210]}
+{"step": 805, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Wireless Earbuds"]}
+{"step": 806, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Fleece Jacket"]}
+{"step": 807, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 323290]}
+{"step": 808, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 809, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 810, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 59643]}
+{"step": 811, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 41698]}
+{"step": 812, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Action Camera", "Laptop"]}
+{"step": 813, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 814, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 420786]}
+{"step": 815, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 816, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 817, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 818, "family_hash": "a568f63d29af408652b9425aa8080f576b3b687b5313d0b841415c97d14b464c", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "E-Reader", "Espresso Machine", "Indoor Security Camera"]}
+{"step": 819, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "LED Light Bulb", "Sunglasses", "Tablet"]}
+{"step": 820, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 821, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 822, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 823, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 824, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Headphones"]}
+{"step": 825, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 58926]}
+{"step": 826, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 827, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Dumbbell Set", "Dumbbell Set", "Running Shoes", "Tea Kettle"]}
+{"step": 828, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 829, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Wristwatch"]}
+{"step": 830, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "Digital Camera", "Dumbbell Set", "Luggage Set"]}
+{"step": 831, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 832, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 833, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "E-Reader"]}
+{"step": 834, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 313110]}
+{"step": 835, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 491415]}
+{"step": 836, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Digital Camera"]}
+{"step": 837, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Espresso Machine"]}
+{"step": 838, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 839, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 46647]}
+{"step": 840, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 841, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Hiking Boots"]}
+{"step": 842, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Backpack", "Espresso Machine", "Smartphone", "Wall Clock", "Wireless Earbuds"]}
+{"step": 843, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Fleece Jacket", "Luggage Set", "Portable Charger", "Running Shoes"]}
+{"step": 844, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 845, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 846, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 847, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Espresso Machine"]}
+{"step": 848, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 491476]}
+{"step": 849, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Sneakers"]}
+{"step": 850, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 851, "family_hash": "30b7cd8949e37b5761abf9349c1784b1f3714bfe2b1a0d4220d71a19fdb19e1b", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Perfume"]}
+{"step": 852, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 173126]}
+{"step": 853, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 126989]}
+{"step": 854, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Gaming Mouse", "Laptop"]}
+{"step": 855, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 856, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 615360]}
+{"step": 857, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Yoga Mat"]}
+{"step": 858, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3579467"]}
+{"step": 859, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 860, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 861, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Luggage Set"]}
+{"step": 862, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Smart Watch"]}
+{"step": 863, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 864, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 142067]}
+{"step": 865, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Espresso Machine", "Skateboard"]}
+{"step": 866, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Espresso Machine"]}
+{"step": 867, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 868, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3761872"]}
+{"step": 869, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 870, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 126989]}
+{"step": 871, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 872, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9222585"]}
+{"step": 873, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Bookshelf"]}
+{"step": 874, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9015076"]}
+{"step": 875, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 876, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Fleece Jacket"]}
+{"step": 877, "family_hash": "bd3838e1553b77812a3deaca5fa1ee3f6759101434754b3fd21969a3d6cdb7e4", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W6724985"]}
+{"step": 878, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 879, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 25903]}
+{"step": 880, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 881, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 882, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 130675]}
+{"step": 883, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 884, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5320242"]}
+{"step": 885, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 886, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bluetooth Speaker"]}
+{"step": 887, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 888, "family_hash": "0ab31f280d25ecf4bfb0e290536d4d015aa9c3e67ab81d20441598fab9468b77", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 889, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 890, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 891, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 323290]}
+{"step": 892, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 893, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 894, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 895, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 896, "family_hash": "6a102d9a305e88c0a73ada765284747a8f0c5bf640018a14a64783d0be7ac8c5", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Makeup Kit"]}
+{"step": 897, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 148502]}
+{"step": 898, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 899, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9077472"]}
+{"step": 900, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 901, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 902, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 45101]}
+{"step": 903, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9962383"]}
+{"step": 904, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 905, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 906, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5282037"]}
+{"step": 907, "family_hash": "67d002c4546761966e04fe504e2358aa193d8ceb67a67d53b4c0cb83ee9dcaed", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 228629]}
+{"step": 908, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 34836]}
+{"step": 909, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 910, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 911, "family_hash": "235f7962ea1c64d2a8f44157726e47be2f24275eb201246b7692056e9d27a1c0", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 912, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 913, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 914, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "Hiking Boots", "Laptop"]}
+{"step": 915, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 916, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "count", "question_propensity": 0.25, "reply": ["count", 5]}
+{"step": 917, "family_hash": "a352656a384906fd8b82ae90ba4e742b400974dec52ee35bca72346583369420", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 37797]}
+{"step": 918, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 919, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 920, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 921, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8883368"]}
+{"step": 922, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Gaming Mouse"]}
+{"step": 923, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 924, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 925, "family_hash": "43b682a9fcb3756d7dd12da4b45cef1f44d9ea2536e058aa62cca536ee054b96", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9474165"]}
+{"step": 926, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Yoga Mat"]}
+{"step": 927, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4633848"]}
+{"step": 928, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Digital Camera", "Skateboard", "Smart Watch"]}
+{"step": 929, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 930, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 931, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 932, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 933, "family_hash": "1b16d141b80b70d75a2899359c5e4f630760182a6e93a662fec4cde326743879", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 934, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 935, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 936, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 30828]}
+{"step": 937, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Backpack"]}
+{"step": 938, "family_hash": "b8060a03d9df5c4378e0b7d71182bf45c37f09a846c83edb03f6ecf4049c8afb", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 939, "family_hash": "82bb8eac005eead9d43335147563521132e8e62fa535b53761aef8645bba7670", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 940, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 941, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "count", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 942, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 943, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 944, "family_hash": "81f9494d2b901de4c5e97d35b7c747d0846f9950d62aad67bfc80645ccb5f3e8", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Dumbbell Set", "Garden Hose", "Luggage Set", "Perfume"]}
+{"step": 945, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Headphones"]}
+{"step": 946, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Gaming Mouse", "Garden Hose", "Grill", "Jigsaw Puzzle"]}
+{"step": 947, "family_hash": "18dde9bc452f8c8309ff38ade03bd8458dcbc99d11b88afb59d972c0998609db", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 442277]}
+{"step": 948, "family_hash": "71ea25d468512b006461abf8ca9b115fb176aa4c3a1af4f4f9c64925ca2f1ef7", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 114381]}
+{"step": 949, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W3376947"]}
+{"step": 950, "family_hash": "6e94d0b61bec28a44c66b1cb0b5701df45f61d083a99b8d982409d8e635d91ae", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 307893]}
+{"step": 951, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 952, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Luggage Set", "Portable Charger", "Skateboard"]}
+{"step": 953, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Smart Thermostat", "Smartphone", "Tablet", "Wall Clock"]}
+{"step": 954, "family_hash": "540689fa65e1edca37cb9fa44afa5578d416c713e21472ce1f0763883d255aa2", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 429975]}
+{"step": 955, "family_hash": "908f272188a59225d7a498d20372e83e8db8c01d7c2c6dcc067d38e4fc243f7b", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 956, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8883368"]}
+{"step": 957, "family_hash": "f7fb681fcbf755887679fe9de22208b6cfad0d2e765c4f2941f968af93b2b31f", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 971541]}
+{"step": 958, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 959, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 960, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 64210]}
+{"step": 961, "family_hash": "7d0123a353317f1722e1f1f74244a5cb3408a5039c3414b8f05a3eebcf0fe2c6", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 962, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 62779]}
+{"step": 963, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 964, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 965, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Yoga Mat"]}
+{"step": 966, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 127194]}
+{"step": 967, "family_hash": "77e42c313e12fa9a088a6bd445e46030780497646eac448e3005c1b5152745ae", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4155745"]}
+{"step": 968, "family_hash": "2dfba113d7af5da1970b6725201bc93136d2d67cbc19ce74c69458e7f6d4e362", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 969, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Makeup Kit"]}
+{"step": 970, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 971, "family_hash": "e3ad3b953a47fccfdb9927cf2e29b48e8b6541562530a1fcee8f4b9d7563d8db", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4423731"]}
+{"step": 972, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 973, "family_hash": "334b523eaa4ad8e29b99ca8493762e5591983030375213aa67ec9046b333c399", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 974, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W8665881"]}
+{"step": 975, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Electric Kettle", "Headphones", "Yoga Mat"]}
+{"step": 976, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 18203]}
+{"step": 977, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "contents", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 978, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 979, "family_hash": "32cf614d1cbdfbce93a7dfa2f83d3b6ab8207684d0c04f2ef8b8ab30a6f3adbd", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 257385]}
+{"step": 980, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Cycling Helmet", "Tea Kettle"]}
+{"step": 981, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 982, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Dumbbell Set"]}
+{"step": 983, "family_hash": "c1a7f20db6775930ad7a9daae8232fe478527ee2dddd7a3b3f6616dfba4a1b1f", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 984, "family_hash": "a463da40b89bf09a78ecbd0ea3ca5ab4bbb988281180f1f8d57dd66c08a17c36", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 985, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 219809]}
+{"step": 986, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 491476]}
+{"step": 987, "family_hash": "8648b6a0463fcf955e8010eef28330a0eae0e45b6f75f80fa1217e85ef43e275", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 68997]}
+{"step": 988, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W7170967"]}
+{"step": 989, "family_hash": "9f1abcc3ff5de3222173fbbe0ad3d95c2e3f32d20ed3ca22773defbdfa891272", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 34836]}
+{"step": 990, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 19270]}
+{"step": 991, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 992, "family_hash": "ad3c8ff9bd53752bee4792c8806d439edbcda3f9ea03cf6e7e75a5bcf76fc86e", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Bookshelf", "Fleece Jacket", "Grill"]}
+{"step": 993, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 994, "family_hash": "d88340be55e864178e4f45b6e5b5bd775c08a17388754f6630f3ab120216f4f9", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 995, "family_hash": "9d9fb8f19e46bce08fd76d90821ebe5049eb2c355423ed948a8d7b26c6c5ead9", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "T-Shirt"]}
+{"step": 996, "family_hash": "3e7518900aadddd1059616303aaea0305f009c60ccba9b3f6ad16e9559df999b", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Luggage Set", "Portable Charger", "Skateboard"]}
+{"step": 997, "family_hash": "f1368f78ad65ab6a727fa9cdbe2315435393840348f1774267a0ce3efdae552e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 998, "family_hash": "0219c7301b21be48856785a0af6d2ac748035f3cd6897cc209236083decc481a", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W9667707"]}
+{"step": 999, "family_hash": "324dbad703e3301a8e2e92228107852e66bb63022750fe172280b806495d6786", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 1000, "family_hash": "a557a842361f3f9e624a74f9d69c3a27aac18fa1397683c53dd72895b7fedb49", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Wireless Earbuds"]}
+{"step": 1001, "family_hash": "4a334a1dcb74b41da7942b02154b42dfb0b2220b4b8a185afc67d3e9116cdd19", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Air Purifier", "Hiking Boots", "Laptop"]}
+{"step": 1002, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4096800"]}
+{"step": 1003, "family_hash": "fe576320f7a09e5c133e404de7cb3961e0acedd4834a2c243743c76f27925715", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 1004, "family_hash": "778530c961653e69054cdbc93c9344aa1a8b3877b99ea3b98b54113d025fb107", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W5442520"]}
+{"step": 1005, "family_hash": "801b336cace1c6fec8c3ddfc9f2e7effae168fa6413d942212185f982ccc253f", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Mechanical Keyboard"]}
+{"step": 1006, "family_hash": "fdfd364cabdf36f3d5f327c1522d91ced28b78f2450f3cacaf343a1043267f81", "question": "count", "question_propensity": 0.25, "reply": ["count", 3]}
+{"step": 1007, "family_hash": "6a1b2efaa3cf05354f869d30d32bb4cf5a47daa1bd6b233fc4d2e7353ecc3472", "question": "count", "question_propensity": 0.25, "reply": ["count", 1]}
+{"step": 1008, "family_hash": "05e8954d79e062735993ea9ead62e90ace19736175bd531545985f913f207f56", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Gaming Mouse", "Office Chair", "Pet Bed"]}
+{"step": 1009, "family_hash": "7b88e68f0c747a0f8298c944ecd846ac55780ffd830ce68498590d41ee2221ee", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 148502]}
+{"step": 1010, "family_hash": "7b5ff25b87b64dd2b14706843e959877ac2f2ebcfb2605c9937706e2a3c0d5c9", "question": "contents", "question_propensity": 0.25, "reply": ["full_names", "Electric Kettle"]}
+{"step": 1011, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W4514908"]}
+{"step": 1012, "family_hash": "2483ecaab4ea11c547fd63501e53d8e5e69f4de0fdf220a5fa280ecb2fb91e18", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 1013, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 14945]}
+{"step": 1014, "family_hash": "f87e2b17b3d46b1a2da15ef0a0f35aa9330746ddeecdd9e15a4cdd1acb24f490", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Sneakers"]}
+{"step": 1015, "family_hash": "c68f7f7ff27c2e16ac0e603486b70c0b29f6d8e3fbf48c3c96aa4ba1901c833a", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 1016, "family_hash": "8d7b4cf7d2a5a51630497173ecdca74a1e9bb0796ff052f0de664c9d4714b548", "question": "count", "question_propensity": 0.25, "reply": ["count", 4]}
+{"step": 1017, "family_hash": "27bd27b48177ab1c5a6d29aebc10cea9570424634d843c13b9daf2be44dd500a", "question": "total", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 1018, "family_hash": "0d643011c9def3d732107df181f315900449d59c5f95d68bf9b65c0a1b56cbbc", "question": "contents", "question_propensity": 0.25, "reply": ["one_name", "Vacuum Cleaner"]}
+{"step": 1019, "family_hash": "88e2dc2f64ab8d84c2a72b2878aa8dd578ae3285fc42c2c3ceaac5628af24e2d", "question": "count", "question_propensity": 0.25, "reply": ["count", 2]}
+{"step": 1020, "family_hash": "cbb18b6b5aa7332dea20f050d25ded1e66c9e024f3043c613c7b0406fa38908d", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 1021, "family_hash": "29a3d741403a4019e0d27767c0f2373dc563098ebe6628f5320c7f8d8d355e6e", "question": "order_id", "question_propensity": 0.25, "reply": ["idk"]}
+{"step": 1022, "family_hash": "0d7dcf857936aa1ba9864e9f50e46c3db3ed56770aa231191c75644162db3dba", "question": "order_id", "question_propensity": 0.25, "reply": ["order_id", "#W7430166"]}
+{"step": 1023, "family_hash": "025c4a9f3c81fb13942ee7b336e260d2f321046b812ed2f6fcfc167ffb83de68", "question": "total", "question_propensity": 0.25, "reply": ["total_cents", 615360]}

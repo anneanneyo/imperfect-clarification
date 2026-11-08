@@ -1,0 +1,29 @@
+{
+  "resets": 53,
+  "effect_counts": {
+    "helps": 43,
+    "hurts": 10
+  },
+  "by_dataset": {
+    "E014_dev": {
+      "length>160": {
+        "hurts": 1
+      },
+      "null": {
+        "helps": 8
+      }
+    },
+    "E016_train": {
+      "length>160": {
+        "hurts": 3
+      },
+      "not_substring": {
+        "hurts": 6,
+        "helps": 1
+      },
+      "null": {
+        "helps": 34
+      }
+    }
+  }
+}

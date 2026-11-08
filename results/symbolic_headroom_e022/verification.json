@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "branches_verified": 1644,
+  "groups": 96,
+  "integer_joint_mass": true,
+  "independent_banking_rules": true,
+  "all_metrics_recomputed": true,
+  "verifier_sha256": "136de642ec09b3fbca2ea2f82a3186c88c9dd94a95243d1496b14efd578a76bd",
+  "manifest_sha256": "e263fd08e911fc36f962c7110e244878fce9b345424df1492c9aaf853bf061ca"
+}

@@ -1,0 +1,36 @@
+{
+  "train_components": 96,
+  "test_components": 48,
+  "distinct_decisive_patterns_train": 51,
+  "distinct_decisive_patterns_test": 31,
+  "shared_patterns": 12,
+  "test_components_with_training_pattern": 29,
+  "styles": {
+    "train": {
+      "formal, like a business email with a greeting and sign-off": 11,
+      "written by a non-native English speaker, simple words": 9,
+      "detailed, with some background story": 7,
+      "polite but confused, not sure what information matters": 16,
+      "with a few typos and informal grammar": 5,
+      "short and to the point, one or two sentences": 13,
+      "casual chat message, lowercase, no punctuation care": 9,
+      "bullet points listing what happened": 5,
+      "including an irrelevant side detail about their day": 13,
+      "frustrated and slightly angry": 8
+    },
+    "test": {
+      "bullet points listing what happened": 3,
+      "formal, like a business email with a greeting and sign-off": 4,
+      "with a few typos and informal grammar": 6,
+      "detailed, with some background story": 4,
+      "written by a non-native English speaker, simple words": 7,
+      "short and to the point, one or two sentences": 5,
+      "polite but confused, not sure what information matters": 4,
+      "casual chat message, lowercase, no punctuation care": 1,
+      "including an irrelevant side detail about their day": 7,
+      "frustrated and slightly angry": 7
+    }
+  },
+  "test_generations_exist_at_audit": false,
+  "interpretation": "Exact texts are disjoint; this is not a held-out task-rule or semantic-evidence-pattern split. Privileged evidence used for reporting only; no exclusions or feature additions."
+}

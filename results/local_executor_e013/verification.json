@@ -1,0 +1,12 @@
+{
+  "status": "complete verified",
+  "families": 6,
+  "unique_prompts": 129,
+  "joint_values_recomputed": 337,
+  "source_and_manifest_hashes_valid": true,
+  "verifier_sha256": "e1e6196209882f0bdf8aae4290ac0aa8eebf74cb259f38352420ac87687f6fb3",
+  "generated": 129,
+  "invalid": 0,
+  "selected_order_states": 15,
+  "metrics_recomputed": true
+}

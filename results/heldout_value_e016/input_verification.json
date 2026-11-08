@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "phase": "inputs verified",
+  "train_components": 96,
+  "test_components": 48,
+  "profiles": 402,
+  "branch_joins": 2412,
+  "unique_prompts": 1324,
+  "exact_group_weight_sums": 864,
+  "train_test_text_disjoint": true,
+  "excluded_development_cases": 24,
+  "verifier_sha256": "bb1c378278120174047ef38188ee384f245318b3fad43ff7b5a6a237897b3180"
+}

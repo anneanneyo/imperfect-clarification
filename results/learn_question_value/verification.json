@@ -1,0 +1,7 @@
+{
+  "split_disjointness": "passed",
+  "fit_validation_profile_disjointness": "passed",
+  "serialized_model_replay": "passed",
+  "option_permutation_invariance": "passed",
+  "ridge_vs_simple_different_questions": 2
+}

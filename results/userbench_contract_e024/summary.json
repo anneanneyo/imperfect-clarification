@@ -1,0 +1,26 @@
+{
+  "source_revision": "80506d2ab484cab843e60a2401ff3e0290d05b87",
+  "handmade_trajectories": 12,
+  "one_choice_termination_mismatches": [
+    "H2",
+    "H9"
+  ],
+  "injected_unknown_reply": {
+    "reward": 0.2,
+    "terminated": false,
+    "truncated": false,
+    "episode_complete": false,
+    "feedback": "I don't know.",
+    "remaining_best": [
+      "H1"
+    ],
+    "choices": [],
+    "remaining_preferences": 0,
+    "elicited_preferences": 1
+  },
+  "llm_calls": 0,
+  "benchmark_tasks_loaded": 0,
+  "source_functions_unmodified": true,
+  "upstream_package_imported": false,
+  "scope": "Handmade contract probe; not agent evaluation or measured frequency of user-simulator failures."
+}

@@ -1,0 +1,1011 @@
+[
+  {
+    "case_id": "train/banking_support/00298",
+    "dataset": "E014_dev",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00282",
+    "dataset": "E014_dev",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00131",
+    "dataset": "E014_dev",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00131",
+    "dataset": "E014_dev",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00377",
+    "dataset": "E014_dev",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00377",
+    "dataset": "E014_dev",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00263",
+    "dataset": "E014_dev",
+    "field": "issue",
+    "reason": "length>160",
+    "effect": "hurts",
+    "quote": "I have a question about my account. I am asking about a fee. It is related to my loan. I checked my statement and I saw a charge. The money has already left my account. I want to know why this happened. Please help me with this fee question.",
+    "raw": [
+      "fee_question"
+    ],
+    "gated": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "reference": [
+      "fee_question"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00263",
+    "dataset": "E014_dev",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00345",
+    "dataset": "E014_dev",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00073",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00363",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "not_substring",
+    "effect": "hurts",
+    "quote": "I can confirm that the money has already left my account.",
+    "raw": [
+      "yes"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00363",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00446",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00446",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00474",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00474",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00037",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00249",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "not_substring",
+    "effect": "hurts",
+    "quote": "the funds haven't actually left my account yet",
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00213",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00248",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00248",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00115",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00210",
+    "dataset": "E016_train",
+    "field": "issue",
+    "reason": "length>160",
+    "effect": "hurts",
+    "quote": "I have a question about my card. I noticed a fee on my account. The money has already left my account. I am not asking for money back as compensation. I just want to know why this happened. I do not understand the charge. Can you help me with this fee question? It is about my card.",
+    "raw": [
+      "fee_question"
+    ],
+    "gated": [
+      "unrecognized_charge",
+      "lost_card",
+      "fee_question",
+      "change_request",
+      "failed_payment"
+    ],
+    "reference": [
+      "fee_question"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00210",
+    "dataset": "E016_train",
+    "field": "product",
+    "reason": "length>160",
+    "effect": "hurts",
+    "quote": "I have a question about my card. I noticed a fee on my account. The money has already left my account. I am not asking for money back as compensation. I just want to know why this happened. I do not understand the charge. Can you help me with this fee question? It is about my card.",
+    "raw": [
+      "card"
+    ],
+    "gated": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "reference": [
+      "card"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00034",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00389",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00389",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00175",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00175",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00222",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00222",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00490",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00490",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00214",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00406",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00087",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00176",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00176",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "not_substring",
+    "effect": "hurts",
+    "quote": "I’m wondering if I can get some money back as compensation for this issue",
+    "raw": [
+      "yes"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00234",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00234",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00116",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00116",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00348",
+    "dataset": "E016_train",
+    "field": "product",
+    "reason": "not_substring",
+    "effect": "hurts",
+    "quote": "my problem with my current account",
+    "raw": [
+      "current_account"
+    ],
+    "gated": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "reference": [
+      "current_account"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00447",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00158",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00332",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "not_substring",
+    "effect": "hurts",
+    "quote": "I’m not asking for money back as compensation or anything like that.",
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00166",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "not_substring",
+    "effect": "helps",
+    "quote": "I’m not asking for any money back or compensation",
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00166",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "not_substring",
+    "effect": "hurts",
+    "quote": "I’m not asking for any money back or compensation for this issue",
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00268",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00327",
+    "dataset": "E016_train",
+    "field": "product",
+    "reason": "length>160",
+    "effect": "hurts",
+    "quote": "I’m reaching out because I’m a bit confused about my account and I’m not entirely sure what information you’ll need from me to sort this out. I noticed something odd regarding my card",
+    "raw": [
+      "card"
+    ],
+    "gated": [
+      "card",
+      "current_account",
+      "loan",
+      "savings"
+    ],
+    "reference": [
+      "card"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00281",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00350",
+    "dataset": "E016_train",
+    "field": "money_gone",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  },
+  {
+    "case_id": "train/banking_support/00350",
+    "dataset": "E016_train",
+    "field": "compensation",
+    "reason": "null",
+    "effect": "helps",
+    "quote": null,
+    "raw": [
+      "no"
+    ],
+    "gated": [
+      "yes",
+      "no"
+    ],
+    "reference": [
+      "yes",
+      "no"
+    ]
+  }
+]

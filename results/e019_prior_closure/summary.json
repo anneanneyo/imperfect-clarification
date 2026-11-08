@@ -1,0 +1,12 @@
+{
+  "E014_dev": {
+    "total_unknown_contractions": 20,
+    "excludes_possible_values": 18,
+    "consistent_with_conditional_support": 2
+  },
+  "E016_train": {
+    "total_unknown_contractions": 108,
+    "excludes_possible_values": 101,
+    "consistent_with_conditional_support": 7
+  }
+}

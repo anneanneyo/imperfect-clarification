@@ -1,0 +1,122 @@
+[
+  {
+    "seed": 20261027,
+    "target": "no_shift",
+    "source": "02b613ac2ec8fec41c01723c95d3acd1b99b82a7743d92a5655ca4c99dc1153c",
+    "adaptation": "1295fb2b4d70b5194d0c7fe36031f19aa6d434143fc06bb45d9e9073d2cadfd2"
+  },
+  {
+    "seed": 20261027,
+    "target": "selective_shift",
+    "source": "02b613ac2ec8fec41c01723c95d3acd1b99b82a7743d92a5655ca4c99dc1153c",
+    "adaptation": "638942bb4658614c5f9f60b93a61e3dd67d243e445f5129b258cbcaf6ea3898f"
+  },
+  {
+    "seed": 20261028,
+    "target": "no_shift",
+    "source": "6707a80bc0724dc9874a3ba1adaf9d2c932abcbf55f05b3ac418f3b528ec69c6",
+    "adaptation": "9c8f004eea9e37a46b260986886e5e36195de437024697cff59e1412a522984d"
+  },
+  {
+    "seed": 20261028,
+    "target": "selective_shift",
+    "source": "6707a80bc0724dc9874a3ba1adaf9d2c932abcbf55f05b3ac418f3b528ec69c6",
+    "adaptation": "b106a2b8adefc2dba713a5191e393cd49153b0598590db21cd9ccb4831d86c2c"
+  },
+  {
+    "seed": 20261029,
+    "target": "no_shift",
+    "source": "e5a622b3a723d4f8cafd5725dbbcadc61be25eccf900bca2a6b7700808aabc55",
+    "adaptation": "081eab29bd7e99d8065bc23d42b1e958ef7e395d7ef68d16f90c78f78ce3cfb6"
+  },
+  {
+    "seed": 20261029,
+    "target": "selective_shift",
+    "source": "e5a622b3a723d4f8cafd5725dbbcadc61be25eccf900bca2a6b7700808aabc55",
+    "adaptation": "f3d7f3516e5fd80d0aacaf5b4411b003301fa354bc6f73be082458b09631868a"
+  },
+  {
+    "seed": 20261030,
+    "target": "no_shift",
+    "source": "e0c36b43293eb7fe8d368dbffb7835730e40cfade9502dc895d59e0bea35181b",
+    "adaptation": "28002c7e96954d9517ef9900bba7a7dc30453480cc29a93ae24753b5adcba08f"
+  },
+  {
+    "seed": 20261030,
+    "target": "selective_shift",
+    "source": "e0c36b43293eb7fe8d368dbffb7835730e40cfade9502dc895d59e0bea35181b",
+    "adaptation": "99a7a38626ea6559f7393e02e8c012e6d3e3919fd471e8c10b78c10c125d9f0a"
+  },
+  {
+    "seed": 20261031,
+    "target": "no_shift",
+    "source": "0f52124bada0f045618dd433b08792b32ece1ac4489d2d49e05b5680bb69a4b3",
+    "adaptation": "31707feac358e86e42c8d706cdbd7ad938432f829fd49d27d116b89c7d6588f2"
+  },
+  {
+    "seed": 20261031,
+    "target": "selective_shift",
+    "source": "0f52124bada0f045618dd433b08792b32ece1ac4489d2d49e05b5680bb69a4b3",
+    "adaptation": "19b3c3b214072b8a97f2cc3648478eb57bb85e7fe116e6887152a392ec7b0741"
+  },
+  {
+    "seed": 20261032,
+    "target": "no_shift",
+    "source": "ba13afc346187b509ed8c609b6fa55c47a58ed23d22210980081e13f76a65b5d",
+    "adaptation": "dc968f658a4d65b9e8b1bb37699bae62bf2efcbf2e3015a0fcb9d66bb592d653"
+  },
+  {
+    "seed": 20261032,
+    "target": "selective_shift",
+    "source": "ba13afc346187b509ed8c609b6fa55c47a58ed23d22210980081e13f76a65b5d",
+    "adaptation": "0892ae7c54a3c9f74217a459b7aa6d5e1e80621632d7603037bf8a93a52fa6ed"
+  },
+  {
+    "seed": 20261033,
+    "target": "no_shift",
+    "source": "cdab6f062b0febacabf0aaf82043a34eeabbb7d9dc986cc81c040e1fb61e5960",
+    "adaptation": "a50f45e62df80701636fc2a6752cbd67cb619cd315bdc3d5812a8b1dbc301cbd"
+  },
+  {
+    "seed": 20261033,
+    "target": "selective_shift",
+    "source": "cdab6f062b0febacabf0aaf82043a34eeabbb7d9dc986cc81c040e1fb61e5960",
+    "adaptation": "d2261d0a74849dd18bf18e32ce4045d97f007d3b8cfa3504a52c58d722ddaeb6"
+  },
+  {
+    "seed": 20261034,
+    "target": "no_shift",
+    "source": "dd71fe2af2d2369c3db779e6cd63442172a956e9462dd6fc36da6b58a509079a",
+    "adaptation": "af902a23006f0b374917da178b6f86ccaef17be7d950fbe0247856d9861b2107"
+  },
+  {
+    "seed": 20261034,
+    "target": "selective_shift",
+    "source": "dd71fe2af2d2369c3db779e6cd63442172a956e9462dd6fc36da6b58a509079a",
+    "adaptation": "451dee5635587d938909cc22fef795d94edf58d1abd27d604b84a39cbd18aee0"
+  },
+  {
+    "seed": 20261035,
+    "target": "no_shift",
+    "source": "40694ed22439df81fc8c5e90efc926b0251de33d3b5d903219e95d2e6cfc0a95",
+    "adaptation": "b838f05e9fccc5d5bf2912430b37b7f64ed48807420b7bf77db7e8e0612ecc35"
+  },
+  {
+    "seed": 20261035,
+    "target": "selective_shift",
+    "source": "40694ed22439df81fc8c5e90efc926b0251de33d3b5d903219e95d2e6cfc0a95",
+    "adaptation": "59c23bcbdc351e32d98c3b472dfbd2961b323f5211cbb71072a8c87b1d6d3569"
+  },
+  {
+    "seed": 20261036,
+    "target": "no_shift",
+    "source": "0decf2e9724f7cffcf8cf68384906ed7f923cc53c9886c144e7fe69e785b9f5d",
+    "adaptation": "db563171d518e7fec871731da6e319ad0ed13dbc55c2822fe96e8f7b5751e835"
+  },
+  {
+    "seed": 20261036,
+    "target": "selective_shift",
+    "source": "0decf2e9724f7cffcf8cf68384906ed7f923cc53c9886c144e7fe69e785b9f5d",
+    "adaptation": "273eb10e56682fbc6278927cf8831d037a2d4552b07fbf0190d8a7097be2d5bf"
+  }
+]

@@ -1,0 +1,46 @@
+{
+  "full_worlds": 80,
+  "positive_prior_worlds": 44,
+  "prior_mass_exact": "1",
+  "all_partial_fact_states_verified": 4185,
+  "invalid_parser_cases_verified": 31,
+  "source_cases": 120,
+  "all80_vs_source_support_mismatches": [
+    "train/banking_support/00282",
+    "train/banking_support/00063",
+    "train/banking_support/00181",
+    "train/banking_support/00214",
+    "train/banking_support/00336"
+  ],
+  "datasets": {
+    "E014_dev": {
+      "cases": 24,
+      "all80_singleton_routes": 12,
+      "source_prior_singleton_routes": 12,
+      "constrained_slots": 54,
+      "partial_slots": 0,
+      "unknown_slots": 42,
+      "support_size_histogram": {
+        "1": 12,
+        "3": 2,
+        "5": 8,
+        "2": 2
+      }
+    },
+    "E016_train": {
+      "cases": 96,
+      "all80_singleton_routes": 38,
+      "source_prior_singleton_routes": 39,
+      "constrained_slots": 202,
+      "partial_slots": 0,
+      "unknown_slots": 182,
+      "support_size_histogram": {
+        "4": 10,
+        "1": 38,
+        "5": 23,
+        "3": 17,
+        "2": 8
+      }
+    }
+  }
+}

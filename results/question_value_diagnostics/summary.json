@@ -1,0 +1,259 @@
+{
+  "status": "posthoc_diagnostic_not_new_method",
+  "seed": 20261020,
+  "decomposition": {
+    "fit": {
+      "tasks": 577,
+      "pairs": 4616,
+      "max_decomposition_error": 8.153200337090993e-16,
+      "partial_to_exact_ratio_quantiles": [
+        -6.4059868521263975e-12,
+        0.37892656542542147,
+        0.4657821488216742,
+        0.4963987172072974,
+        0.7839492048964655
+      ],
+      "simple_value_mae": 0.002054001775246613,
+      "simple_selection_disagreements": 32,
+      "simple_mean_selection_regret": 0.00011137873240240498,
+      "simple_max_selection_regret": 0.007654610051993166,
+      "selection_certified_by_margin": 264,
+      "oracle_margin_quantiles": [
+        1.4298093587605809e-05,
+        0.004284228769497467,
+        0.008970103986135264,
+        0.019967937608318886,
+        0.13517647313691486
+      ],
+      "simple_loss": 0.4131063527283595,
+      "oracle_loss": 0.41299497399595714
+    },
+    "validation": {
+      "tasks": 145,
+      "pairs": 1160,
+      "max_decomposition_error": 9.159339953157541e-16,
+      "partial_to_exact_ratio_quantiles": [
+        -3.5032740597357597e-13,
+        0.38362431248698226,
+        0.46744212063746793,
+        0.4976040026338043,
+        0.6770155064778138
+      ],
+      "simple_value_mae": 0.0020781772069717705,
+      "simple_selection_disagreements": 7,
+      "simple_mean_selection_regret": 7.618418693599122e-05,
+      "simple_max_selection_regret": 0.004561871750433183,
+      "selection_certified_by_margin": 78,
+      "oracle_margin_quantiles": [
+        1.5597920277193866e-05,
+        0.00417504332755636,
+        0.010857019064124729,
+        0.021359185441941098,
+        0.09046141247833604
+      ],
+      "simple_loss": 0.4077621691268751,
+      "oracle_loss": 0.4076859849399391
+    },
+    "holdout": {
+      "tasks": 90,
+      "pairs": 720,
+      "max_decomposition_error": 5.898059818321144e-16,
+      "partial_to_exact_ratio_quantiles": [
+        -1.2132550856218742e-13,
+        0.36088092496566126,
+        0.4623636645416068,
+        0.49519763627157937,
+        0.7514680483592359
+      ],
+      "simple_value_mae": 0.0020715853268056497,
+      "simple_selection_disagreements": 6,
+      "simple_mean_selection_regret": 0.00016544868091661612,
+      "simple_max_selection_regret": 0.01046577123050263,
+      "selection_certified_by_margin": 46,
+      "oracle_margin_quantiles": [
+        6.239168110921955e-05,
+        0.0037100303292893003,
+        0.009145875216637803,
+        0.018878032928942773,
+        0.062059480069324324
+      ],
+      "simple_loss": 0.4196687760928173,
+      "oracle_loss": 0.41950332741190055
+    }
+  },
+  "matched_rate_stress": [
+    {
+      "strength": -1.0,
+      "tasks": 90,
+      "question_disagreements": 14,
+      "selection_gap_correct_executor": 0.0009144276642638805,
+      "executor_gap_fixed_pooled_question": 0.0008856174938528355,
+      "total_gap_pooled_system": 0.0018000451581167162,
+      "negative_gain_selected_questions": 0,
+      "oracle_mean_gain": 0.1594768382019562
+    },
+    {
+      "strength": -0.5,
+      "tasks": 90,
+      "question_disagreements": 7,
+      "selection_gap_correct_executor": 0.0002615583467455175,
+      "executor_gap_fixed_pooled_question": 0.00024053407749748988,
+      "total_gap_pooled_system": 0.0005020924242430074,
+      "negative_gain_selected_questions": 0,
+      "oracle_mean_gain": 0.1686915596904339
+    },
+    {
+      "strength": 0.0,
+      "tasks": 90,
+      "question_disagreements": 0,
+      "selection_gap_correct_executor": 0.0,
+      "executor_gap_fixed_pooled_question": 1.1410625530869664e-17,
+      "total_gap_pooled_system": 1.1410625530869664e-17,
+      "negative_gain_selected_questions": 0,
+      "oracle_mean_gain": 0.1787021414885423
+    },
+    {
+      "strength": 0.5,
+      "tasks": 90,
+      "question_disagreements": 10,
+      "selection_gap_correct_executor": 0.00046586940981120683,
+      "executor_gap_fixed_pooled_question": 0.0002667424657102075,
+      "total_gap_pooled_system": 0.0007326118755214144,
+      "negative_gain_selected_questions": 0,
+      "oracle_mean_gain": 0.18994742758641503
+    },
+    {
+      "strength": 1.0,
+      "tasks": 90,
+      "question_disagreements": 15,
+      "selection_gap_correct_executor": 0.0013146475852294575,
+      "executor_gap_fixed_pooled_question": 0.0012650718728298258,
+      "total_gap_pooled_system": 0.002579719458059283,
+      "negative_gain_selected_questions": 0,
+      "oracle_mean_gain": 0.20230720939130437
+    }
+  ],
+  "counterexamples": {
+    "truthful_ambiguous_nonidentification": {
+      "states": [
+        0,
+        1,
+        2
+      ],
+      "pairs": [
+        [
+          0,
+          1
+        ],
+        [
+          1,
+          2
+        ],
+        [
+          0,
+          2
+        ]
+      ],
+      "prior": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "channel_A": [
+        [
+          0.8,
+          0.0,
+          0.2
+        ],
+        [
+          0.2,
+          0.8,
+          0.0
+        ],
+        [
+          0.0,
+          0.2,
+          0.8
+        ]
+      ],
+      "channel_B": [
+        [
+          0.2,
+          0.0,
+          0.8
+        ],
+        [
+          0.8,
+          0.2,
+          0.0
+        ],
+        [
+          0.0,
+          0.8,
+          0.2
+        ]
+      ],
+      "response_marginal_both": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "no_ask_reward": 0.3333333333333333,
+      "fixed_A_executor_reward_in_A": 0.8,
+      "fixed_A_executor_reward_in_B": 0.2,
+      "fixed_executor_gain_A": 0.46666666666666673,
+      "fixed_executor_gain_B": -0.1333333333333333,
+      "correct_B_executor_reward_in_B": 0.8,
+      "pair_uniform_executor_reward_both": 0.5,
+      "scope": "one answer per independent user; no revealed state or task reward; fixed executor"
+    },
+    "exact_sign_is_not_full_information": {
+      "scores": [
+        [
+          0.5,
+          0.1
+        ],
+        [
+          0.5,
+          0.2
+        ],
+        [
+          0.5,
+          2.0
+        ],
+        [
+          0.5,
+          3.0
+        ]
+      ],
+      "channel": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          0.0,
+          1.0
+        ],
+        [
+          1.0,
+          0.0
+        ],
+        [
+          1.0,
+          0.0
+        ]
+      ],
+      "exact_sign_gain": 2.220446049250313e-16,
+      "endogenous_gain": 0.17500000000000004
+    },
+    "randomized_finite_checks": 100
+  },
+  "upstream_commit": "27466a7832d5aafff82017a659e08942e18b01ae",
+  "input_sha256": {
+    "results/learn_question_value/training_data.json": "ec256feba71f912ba3ad082358c122abd041e3527abaeaddf0fec27d81844320",
+    "results/learn_question_value/splits.json": "df1d1a14ceba79f5541c55b70ae75680e1971ad4b24c4cedaf6c25a229a19c0d",
+    "results/learn_question_value/model.npz": "68cd2533e5a724bbb7872928108c76489abced99d6db24e6b06a49ca01fcb53a"
+  },
+  "code_sha256": "1df3672e6a5290161f2bd1e976e985f6b334e637b5f35930a575f5defe615e0e"
+}

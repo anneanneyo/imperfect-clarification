@@ -1,0 +1,2417 @@
+{
+  "rule": "first 24 by SHA256(E019-review-v1:case_id) among all 60 train cases with any E019 mismatch; targeted post-outcome assistant review, not blinded or human annotation",
+  "pool_cases": 60,
+  "cases": [
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00037",
+      "text": "Hello. My name is Tom. I have a question about my current account. I am not asking for money back as compensation. I just need some help with a fee question. Can you please explain this to me? I want to understand what is happening with my account. Thank you for your help.",
+      "source_ids": [
+        "train/banking_support/00037/p0/a",
+        "train/banking_support/00037/p1/a",
+        "train/banking_support/00037/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "fee_question"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts"
+      ],
+      "posterior_support": [
+        "accounts"
+      ],
+      "old_teams": [
+        "complaints",
+        "complaints",
+        "complaints"
+      ],
+      "gold": [
+        "accounts",
+        "accounts",
+        "accounts"
+      ],
+      "prompt_id": "2dc7efe7f4b30aaac549113523f67c3999ad3816dd3819c9567de09bea969185",
+      "predicted_facts": {
+        "issue": [
+          "fee_question"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": true,
+      "reference_singleton": true,
+      "singleton_correct": true,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00234",
+      "text": "I need help with a lost card.",
+      "source_ids": [
+        "train/banking_support/00234/p0/a",
+        "train/banking_support/00234/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "lost_card"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "cards",
+        "fraud"
+      ],
+      "posterior_support": [
+        "cards",
+        "fraud"
+      ],
+      "old_teams": [
+        "cards",
+        "cards"
+      ],
+      "gold": [
+        "cards",
+        "cards"
+      ],
+      "prompt_id": "f474d8de105f105cb6c194c83d68e6d8e7f110eaf0899832f03b131731e63f0a",
+      "predicted_facts": {
+        "issue": [
+          "lost_card"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "cards"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00143",
+      "text": "Dear Support Team,\n\nI am writing to request assistance regarding my current account. I have noticed an unrecognized charge on my statement and would appreciate your help in investigating this matter. Please note that I am not seeking any monetary compensation or reimbursement for this issue; my sole intention is to have the transaction clarified and resolved within my account records.\n\nThank you for your attention to this inquiry. I look forward to your prompt response.\n\nSincerely,\n\nDiego",
+      "source_ids": [
+        "train/banking_support/00143/p0/a",
+        "train/banking_support/00143/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "cards",
+        "fraud"
+      ],
+      "posterior_support": [
+        "cards",
+        "fraud"
+      ],
+      "old_teams": [
+        "cards",
+        "cards"
+      ],
+      "gold": [
+        "cards",
+        "fraud"
+      ],
+      "prompt_id": "8cbfd0519301ee9634bfecc232bc9183d8f37ccebb925c243b4e72954ff8b573",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "cards"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00176",
+      "text": "Hi there. I need some help with something regarding my card. I recently had a failed payment, and I’m a bit confused about the situation. I was wondering if I can get some money back as compensation for this issue? I’m not entirely sure what information or details are relevant here, so please let me know what you need from me to sort this out. I just want to understand why this happened and how we can resolve it. Thank you for your assistance.",
+      "source_ids": [
+        "train/banking_support/00176/p0/a",
+        "train/banking_support/00176/p1/a",
+        "train/banking_support/00176/p2/a",
+        "train/banking_support/00176/p3/a"
+      ],
+      "facts": {
+        "issue": [
+          "failed_payment"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "routes": [
+        "cards"
+      ],
+      "posterior_support": [
+        "cards"
+      ],
+      "old_teams": [
+        "complaints",
+        "complaints",
+        "complaints",
+        "complaints"
+      ],
+      "gold": [
+        "cards",
+        "cards",
+        "cards",
+        "cards"
+      ],
+      "prompt_id": "452c815d66899ef1cec50f5e98ae1a1a735bca4571338fdab0052efb50777050",
+      "predicted_facts": {
+        "issue": [
+          "failed_payment"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "predicted_routes": [
+        "cards"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": true,
+      "reference_singleton": true,
+      "singleton_correct": true,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00166",
+      "text": "Hi there, I’m hoping you can help me sort out a confusion with a recent transaction. I attempted to pay for an item earlier today, but the payment didn’t go through as expected. I just wanted to clarify what happened with that specific failed payment. Also, please note that I am not asking for any money back or compensation for this issue; I’m simply trying to understand the status. I’d appreciate it if someone could look into why it failed so I can proceed correctly. Thanks for your assistance.",
+      "source_ids": [
+        "train/banking_support/00166/p0/a",
+        "train/banking_support/00166/p1/a",
+        "train/banking_support/00166/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "loans"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "cards",
+        "accounts",
+        "cards"
+      ],
+      "prompt_id": "1c0cad211b6aef976fede169cd40bfa7de394dd87fb653d8fbb26476f7935ae1",
+      "predicted_facts": {
+        "issue": [
+          "failed_payment"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00279",
+      "text": "hi leila i'm writing about my account. the money has already left my account and i need some help with something regarding this.",
+      "source_ids": [
+        "train/banking_support/00279/p0/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "old_teams": [
+        "fraud"
+      ],
+      "gold": [
+        "fraud"
+      ],
+      "prompt_id": "010c1c2b383e4a8cda5c6c379cf9bc3968eb2fe0022767350ee485cb5e065ab4",
+      "predicted_facts": {
+        "issue": [
+          "failed_payment"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00248",
+      "text": "Hello, my name is Elena. I need some help with something regarding my current account.",
+      "source_ids": [
+        "train/banking_support/00248/p0/a",
+        "train/banking_support/00248/p1/a",
+        "train/banking_support/00248/p2/a",
+        "train/banking_support/00248/p3/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts",
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "accounts",
+        "accounts",
+        "complaints",
+        "accounts"
+      ],
+      "prompt_id": "cb62c73f8a350764ea0131daf46bb747668346b7f5654b9b25fcb1ad9ad5b624",
+      "predicted_facts": {
+        "issue": [
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00340",
+      "text": "Hi there. I’m currently sitting in a coffee shop waiting for a latte, but I noticed something odd on my account earlier. I see a charge that doesn’t look right to me, and I have a question about the fees associated with it. I checked my statement and confirmed that the money has already left my account. I am not asking for any money back or compensation for the inconvenience; I just want to understand why the fee was applied in the first place. Could you help clarify this for me?",
+      "source_ids": [
+        "train/banking_support/00340/p0/a",
+        "train/banking_support/00340/p1/a",
+        "train/banking_support/00340/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "fee_question"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "loans"
+      ],
+      "old_teams": [
+        "fraud",
+        "fraud",
+        "fraud"
+      ],
+      "gold": [
+        "loans",
+        "loans",
+        "accounts"
+      ],
+      "prompt_id": "02d888d352a0271b5037e8942deacd1b11635621a0a78cead67cc7b4cc052cce",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge",
+          "fee_question"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "cards",
+        "fraud"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": false,
+          "missed_constraint": true,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00379",
+      "text": "Hi, I’m Tom. I was just walking past a bakery and saw the freshest croissants, which reminded me I need to grab lunch later. Anyway, I have a question about my card. I’m not asking for money back as compensation, and I know no money has left my account yet. I just need some help with something regarding the card. Could you point me in the right direction?",
+      "source_ids": [
+        "train/banking_support/00379/p0/a",
+        "train/banking_support/00379/p1/a",
+        "train/banking_support/00379/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "cards"
+      ],
+      "posterior_support": [
+        "cards"
+      ],
+      "old_teams": [
+        "cards",
+        "cards",
+        "cards"
+      ],
+      "gold": [
+        "cards",
+        "cards",
+        "cards"
+      ],
+      "prompt_id": "169c48a4add85832cd798421fc2be52a57627dea1d22d8f6ae57efd4be2764d5",
+      "predicted_facts": {
+        "issue": [
+          "change_request"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "cards"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": true,
+      "reference_singleton": true,
+      "singleton_correct": true,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00144",
+      "text": "Dear Support Team,\n\nMy name is Jonas. I am writing to request assistance regarding a recent transaction. I confirm that the funds in question have already left my account. Consequently, I would like to ask for money back as compensation for this incident.\n\nPlease let me know the next steps to process this request. I look forward to your prompt response.\n\nSincerely,\n\nJonas",
+      "source_ids": [
+        "train/banking_support/00144/p0/a",
+        "train/banking_support/00144/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "old_teams": [
+        "complaints",
+        "complaints"
+      ],
+      "gold": [
+        "complaints",
+        "complaints"
+      ],
+      "prompt_id": "8afadce4ce2c7ed97e44d1490f177bf5f7d66464e64470e58958bbe442df1538",
+      "predicted_facts": {
+        "issue": [
+          "failed_payment"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00181",
+      "text": "*   My name is Ines.\n*   I am writing to report an issue with a recent transaction.\n*   The funds have not yet left my account.\n*   I need assistance resolving this matter.",
+      "source_ids": [
+        "train/banking_support/00181/p0/a",
+        "train/banking_support/00181/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "loans"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "cards",
+        "loans"
+      ],
+      "prompt_id": "5547d2e901851404ff345590953c45ea3950b73fb7a548e7e301d7816c955a4c",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts",
+        "cards",
+        "loans"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00175",
+      "text": "Subject: Assistance Required\n\nDear Support Team,\n\nI am writing to request assistance with a matter concerning my account. My name is Kenji, and I have a question regarding my banking details.\n\nCould you please advise me on the next steps? I would appreciate your prompt attention to this inquiry. Please let me know if you require any additional information from my side to proceed.\n\nThank you for your help.\n\nSincerely,\n\nKenji",
+      "source_ids": [
+        "train/banking_support/00175/p0/a",
+        "train/banking_support/00175/p1/a",
+        "train/banking_support/00175/p2/a",
+        "train/banking_support/00175/p3/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts",
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "fraud",
+        "accounts",
+        "cards",
+        "accounts"
+      ],
+      "prompt_id": "a77133e3a61e4f1bbcb50a1edad87144d0c6048ddeaf4c32c87c9ffb7920e6b9",
+      "predicted_facts": {
+        "issue": [
+          "fee_question",
+          "change_request"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00490",
+      "text": "Hi there, I’m Nadia. I need some help with my current account. I’ve been a loyal customer for quite a few years now, and this is the first time I’ve reached out for support on this specific product. I have a question that I’ve been turning over in my mind for a while, and I think it’s time I asked for clarity. I want to make sure I understand how everything works with my current account setup before I proceed further. Could you please guide me on the next steps? I’m happy to provide any necessary details you might need to locate my profile. I look forward to your assistance.",
+      "source_ids": [
+        "train/banking_support/00490/p0/a",
+        "train/banking_support/00490/p1/a",
+        "train/banking_support/00490/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "complaints",
+        "accounts",
+        "fraud"
+      ],
+      "prompt_id": "0e31773d11e6029127ab52dcdbf2812c77f209fefeaa66d7f55f8cd3116e6706",
+      "predicted_facts": {
+        "issue": [
+          "change_request"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00334",
+      "text": "Hello. I need some help. I want to ask if I can get money back as compensation. I am not sure about the details yet. Please let me know if this is possible. Thank you for your help.",
+      "source_ids": [
+        "train/banking_support/00334/p0/a",
+        "train/banking_support/00334/p1/a",
+        "train/banking_support/00334/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "old_teams": [
+        "complaints",
+        "complaints",
+        "complaints"
+      ],
+      "gold": [
+        "fraud",
+        "cards",
+        "cards"
+      ],
+      "prompt_id": "41816809ab212f20afe055a28aba6db6468a7d6f70d60111b39c4243b95fb7ff",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": false,
+          "missed_constraint": true,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": true,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00079",
+      "text": "Mia here. I am writing to report an unrecognized charge on my current account. It is incredibly frustrating to see a transaction appear that I do not recognize. I need this resolved immediately. Please note that I am not asking for any money back as compensation; I simply want the issue clarified and corrected. This situation is unacceptable and I expect a prompt response regarding the status of this charge.",
+      "source_ids": [
+        "train/banking_support/00079/p0/a",
+        "train/banking_support/00079/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "cards",
+        "fraud"
+      ],
+      "posterior_support": [
+        "cards",
+        "fraud"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "cards",
+        "fraud"
+      ],
+      "prompt_id": "a381e473c4bb2994952810b0b5e891e8c6b46ec89b9b809bb9a0be9284f24384",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "cards"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00026",
+      "text": "Hi, I’m Grace. I need some help with something regarding my card. It seems lost. I noticed that money has already left my account. I’m not entirely sure if that’s related or if I’m just confusing things, but I thought I should mention it. I am not asking for any money back as compensation, so please don’t worry about that part. I’m just a bit confused about what information is actually important for you to know right now. Could you let me know what I should do next? Thanks.",
+      "source_ids": [
+        "train/banking_support/00026/p0/a",
+        "train/banking_support/00026/p1/a",
+        "train/banking_support/00026/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "lost_card"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "fraud"
+      ],
+      "posterior_support": [
+        "fraud"
+      ],
+      "old_teams": [
+        "fraud",
+        "fraud",
+        "fraud"
+      ],
+      "gold": [
+        "fraud",
+        "fraud",
+        "fraud"
+      ],
+      "prompt_id": "9be8a067de63a46213b5826650504fcd218eaf62b35a9e4c27c6343284af4a75",
+      "predicted_facts": {
+        "issue": [
+          "lost_card",
+          "failed_payment"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "cards",
+        "fraud"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": false,
+          "missed_constraint": true,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": true,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": true,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00425",
+      "text": "Hi there. My name is Hugo. I am writing to you because I have a question about my savings account. I do not want any money back as compensation, so please do not think that is what I need. Also, no money has left my account yet. I just want to ask something simple. I am not very good at English, so please be patient with me. I need some help with something regarding my savings. Please let me know how I can proceed or who can answer my question. Thank you for your time and help. I look forward to hearing from you soon.",
+      "source_ids": [
+        "train/banking_support/00425/p0/a",
+        "train/banking_support/00425/p1/a",
+        "train/banking_support/00425/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "savings"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "accounts",
+        "accounts",
+        "accounts"
+      ],
+      "prompt_id": "ac8f6dfa7793e650fdae8d89a455ef05d85f90541ca6877211eaf1254e571314",
+      "predicted_facts": {
+        "issue": [
+          "fee_question"
+        ],
+        "product": [
+          "savings"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00315",
+      "text": "Hello. I am writing to ask for assistance with my account, though I am not sure where to begin. I am feeling quite confused about the current situation and what information is actually relevant to share. I want to clarify that this is not a request for monetary compensation or a refund. I simply need some guidance to understand what is happening. Please let me know what details you need from me to look into this. I am happy to provide whatever is necessary, but I am unsure of the correct process. Thank you for your patience as I try to figure this out.",
+      "source_ids": [
+        "train/banking_support/00315/p0/a",
+        "train/banking_support/00315/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "fraud",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "fraud",
+        "loans"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "cards",
+        "cards"
+      ],
+      "prompt_id": "253c102ca06495b24e354b063e3d3a63cd2967839f29f53109c09a2e300c6c82",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts",
+        "cards",
+        "loans"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00034",
+      "text": "Dear Support Team,\n\nI am writing to seek assistance regarding my account. Specifically, I have encountered an unrecognized charge. I have verified the status of this transaction and can confirm that no money has left my account as a result. My name is Olivia.\n\nI would appreciate your guidance on how to proceed with this matter. Please let me know if you require any further details from my side to facilitate your review.\n\nThank you for your time and assistance.\n\nSincerely,\n\nOlivia",
+      "source_ids": [
+        "train/banking_support/00034/p0/a",
+        "train/banking_support/00034/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "cards"
+      ],
+      "posterior_support": [
+        "cards"
+      ],
+      "old_teams": [
+        "cards",
+        "cards"
+      ],
+      "gold": [
+        "cards",
+        "cards"
+      ],
+      "prompt_id": "4a07680fd9944cff60b1ebca48faca353ba9e8eda11454cd7ccab55f6145d6b1",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "cards"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": true,
+      "reference_singleton": true,
+      "singleton_correct": true,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00268",
+      "text": "Hi there. I’m looking for some help with a card issue. I noticed a charge on my account that I don’t recognize. The money has already left my account, so it’s not just a pending transaction. I’m a bit confused about what details I actually need to provide to resolve this. Is it sufficient to just tell you the amount, or do you need the date and time as well? I’m not entirely sure which pieces of information are relevant here, so I wanted to check with you first. Please let me know what you need from me to look into this unauthorized transaction. Thanks for your help.",
+      "source_ids": [
+        "train/banking_support/00268/p0/a",
+        "train/banking_support/00268/p1/a",
+        "train/banking_support/00268/p2/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "fraud"
+      ],
+      "posterior_support": [
+        "fraud"
+      ],
+      "old_teams": [
+        "fraud",
+        "fraud",
+        "fraud"
+      ],
+      "gold": [
+        "fraud",
+        "fraud",
+        "fraud"
+      ],
+      "prompt_id": "84ee061ad47e27de0f22a7939074d0cedc689bfecce29e7cc9a9f8b5a9293a24",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "fraud"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": true,
+      "reference_singleton": true,
+      "singleton_correct": true,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00116",
+      "text": "hey, i need some help with something. my account is acting up and i cant figure it out. is there anyone there who can look into this for me? it’s pretty urgent. i’ve tried logging in but it keeps saying error. i just want to get this sorted out asap. thanks.",
+      "source_ids": [
+        "train/banking_support/00116/p1/a",
+        "train/banking_support/00116/p2/a",
+        "train/banking_support/00116/p3/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes",
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards",
+        "complaints",
+        "fraud",
+        "loans"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "complaints",
+        "fraud",
+        "fraud"
+      ],
+      "prompt_id": "a91653b0983118488b1103358d489d9ff89ee44abf04da87248a082117af782b",
+      "predicted_facts": {
+        "issue": [
+          "failed_payment"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00293",
+      "text": "Dear Support Team,\n\nI am writing to request assistance regarding my account. I have noticed an unrecognized charge on my statement. I can confirm that the funds in question have already left my account. Please note that I am not requesting a refund or any monetary compensation for this issue. I simply wish to report the transaction for your review.\n\nThank you for your time and attention to this matter.\n\nSincerely,\n\nA Valued Customer",
+      "source_ids": [
+        "train/banking_support/00293/p0/a",
+        "train/banking_support/00293/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "routes": [
+        "fraud"
+      ],
+      "posterior_support": [
+        "fraud"
+      ],
+      "old_teams": [
+        "fraud",
+        "fraud"
+      ],
+      "gold": [
+        "fraud",
+        "fraud"
+      ],
+      "prompt_id": "b7e458ece46599d18067daa15c1dec04b143a2ea37d7459e387d5dadf89eaaad",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge"
+        ],
+        "product": [
+          "card"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "fraud"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": true,
+      "reference_singleton": true,
+      "singleton_correct": true,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00467",
+      "text": "Hi, my name is Sara. I need help with a fee. The money was already taken from my account. I do not think this charge is right. I would like to get my money back as compensation. Please check my account and help me resolve this. I am not sure why the fee was applied, but I want it returned. Thank you for your time.",
+      "source_ids": [
+        "train/banking_support/00467/p0/a",
+        "train/banking_support/00467/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "fee_question"
+        ],
+        "product": [
+          "card",
+          "current_account",
+          "loan",
+          "savings"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "routes": [
+        "complaints"
+      ],
+      "posterior_support": [
+        "complaints"
+      ],
+      "old_teams": [
+        "complaints",
+        "complaints"
+      ],
+      "gold": [
+        "complaints",
+        "complaints"
+      ],
+      "prompt_id": "5eaa49f0d64c8ad7a0cba4238ede8b2b95b0233dfcbb7a47630b33dd8123242b",
+      "predicted_facts": {
+        "issue": [
+          "unrecognized_charge",
+          "fee_question"
+        ],
+        "product": [
+          "current_account"
+        ],
+        "money_gone": [
+          "yes"
+        ],
+        "compensation": [
+          "yes"
+        ]
+      },
+      "predicted_routes": [
+        "complaints",
+        "fraud"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": false,
+          "missed_constraint": true,
+          "invalid": false
+        },
+        "product": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": true,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": true,
+      "excludes_reference_route": false
+    },
+    {
+      "dataset": "E016_train",
+      "case_id": "train/banking_support/00214",
+      "text": "Hi there, Samuel here. I’m writing from my desk where it’s currently pouring rain outside, which is making me regret leaving the house earlier. I need some help with something regarding my savings product. To clarify, no money has left my account yet. I have a question about my account and would appreciate your assistance. Please let me know how we can proceed. Thanks!",
+      "source_ids": [
+        "train/banking_support/00214/p0/a",
+        "train/banking_support/00214/p1/a"
+      ],
+      "facts": {
+        "issue": [
+          "unrecognized_charge",
+          "lost_card",
+          "fee_question",
+          "change_request",
+          "failed_payment"
+        ],
+        "product": [
+          "savings"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "yes",
+          "no"
+        ]
+      },
+      "routes": [
+        "accounts",
+        "cards",
+        "complaints"
+      ],
+      "posterior_support": [
+        "accounts",
+        "cards"
+      ],
+      "old_teams": [
+        "accounts",
+        "accounts"
+      ],
+      "gold": [
+        "accounts",
+        "accounts"
+      ],
+      "prompt_id": "20666c49dcef825e5c851baa469ba4034611cf0372f1053ba5cc23b623318b87",
+      "predicted_facts": {
+        "issue": [
+          "fee_question"
+        ],
+        "product": [
+          "savings"
+        ],
+        "money_gone": [
+          "no"
+        ],
+        "compensation": [
+          "no"
+        ]
+      },
+      "predicted_routes": [
+        "accounts"
+      ],
+      "invalid": false,
+      "fields": {
+        "issue": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "product": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "money_gone": {
+          "exact": true,
+          "unsupported_exclusion": false,
+          "missed_constraint": false,
+          "invalid": false
+        },
+        "compensation": {
+          "exact": false,
+          "unsupported_exclusion": true,
+          "missed_constraint": false,
+          "invalid": false
+        }
+      },
+      "all_fields_exact": false,
+      "route_set_exact": false,
+      "reference_singleton": false,
+      "singleton_correct": false,
+      "singleton_wrong": false,
+      "singleton_ambiguous": false,
+      "excludes_reference_route": true
+    }
+  ]
+}

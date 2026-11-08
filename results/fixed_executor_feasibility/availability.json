@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-27",
+  "revision": "58b2215ce80c74731d6d8dd3a843d2767943f569",
+  "listing_url": "https://huggingface.co/api/datasets/jsbaan/bag-paper-data/tree/58b2215ce80c74731d6d8dd3a843d2767943f569/dev?limit=1000",
+  "pre_outcome_inventory": true,
+  "baseline_E008_outcomes_previously_seen": true,
+  "configurations": {
+    "belief": {
+      "user": {
+        "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "1a200a80d7ddcb9c2d92700334beded1ca59ce9a",
+          "size": 1985792,
+          "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl"
+        }
+      },
+      "final": {
+        "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "f1d1b95bf2f4542d0c7df3e2b5bfa5b6f910ffb9",
+          "size": 2063312,
+          "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief_prompt.jsonl"
+        }
+      },
+      "judge": {
+        "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "1d1d7504a1130578dfe4f8913cc9e3320eca86de",
+          "size": 1907985,
+          "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief_prompt.jsonl"
+        }
+      }
+    },
+    "prompt": {
+      "user": {
+        "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "9f363acb229bae2726ef7327a03821901edd5c64",
+          "size": 2191727,
+          "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_prompt.jsonl"
+        }
+      },
+      "final": {
+        "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_prompt_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "40f216f7f29688c5abf4f1a36da728259046c73a",
+          "size": 2089247,
+          "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_prompt_prompt.jsonl"
+        }
+      },
+      "judge": {
+        "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_prompt_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "713ca28d3cbbf80427e9a951fc70e25762f7c295",
+          "size": 1890889,
+          "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_prompt_prompt.jsonl"
+        }
+      }
+    },
+    "belief6": {
+      "user": {
+        "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief6.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "b93fc22cbd4377ff1fb14b4676be76b353853565",
+          "size": 5530263,
+          "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief6.jsonl"
+        }
+      },
+      "final": {
+        "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief6_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "3bf44aeae167ca115c91a54cddb6e16a344abcc0",
+          "size": 4091206,
+          "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief6_prompt.jsonl"
+        }
+      },
+      "judge": {
+        "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief6_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "2c638fbac8f76f8f6df08ed48d47c0ca2f2c3da2",
+          "size": 3464961,
+          "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief6_prompt.jsonl"
+        }
+      }
+    },
+    "belief7": {
+      "user": {
+        "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief7.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "6d25949d882c8a8b57acb0e6fa2b37590b50bb5a",
+          "size": 4687895,
+          "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief7.jsonl"
+        }
+      },
+      "final": {
+        "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief7_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "5323c717bc35366b601c3ba2ff1c108148923bd8",
+          "size": 3634501,
+          "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief7_prompt.jsonl"
+        }
+      },
+      "judge": {
+        "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief7_prompt.jsonl",
+        "available": true,
+        "metadata": {
+          "type": "file",
+          "oid": "baf868ba275ad82e071eb8f745b4e2bff2bee431",
+          "size": 3054498,
+          "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief7_prompt.jsonl"
+        }
+      }
+    }
+  }
+}

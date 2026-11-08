@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-08",
+  "repository": "https://github.com/anneanneyo/imperfect-clarification",
+  "local_directory": "/Users/annagubareva/Documents/ChatGPT/imperfect-clarification",
+  "branch": "codex/research-e023",
+  "base_commit": "94fe21c5905d148656d612e499940f5fa8a33ddc",
+  "unchanged_imported_files": 601,
+  "changed_frozen_files": [],
+  "mutable_documents_updated": [
+    "research/METHODS_WORKING_DRAFT.md",
+    "research/NEXT_DECISIVE_EXPERIMENT.md",
+    "research/PROJECT_STATUS.md",
+    "research/START_HERE.md"
+  ],
+  "curator_correction_preserved": true,
+  "e023_independent_verifier_passed": true,
+  "e024_frozen_hashes_and_transitions_passed": true,
+  "e021_replay_run": false,
+  "remote_branch_created": false,
+  "remote_write_status": "GitHub create_branch returned 403 Resource not accessible by integration; no further remote write attempted."
+}

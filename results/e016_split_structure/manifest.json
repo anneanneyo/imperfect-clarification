@@ -1,0 +1,9 @@
+{
+  "files": {
+    "experiments/audit_e016_split_structure.py": "088e2340af0a2e2bd095c3379b06c21eae7711bf8ac0f333dbc16c81c9a32af5",
+    "results/heldout_value_e016/components.json": "f6cbfd63a0c7ac92b48a28239843747ffc6319396881ea10da1268bbb2a4caf6",
+    "results/heldout_value_e016/source_rows.json": "c6a0d39779c469029c434dce9044249d1b99cac0036b603ec0632f3c9e1fcfc9",
+    "results/e016_split_structure/groups.json": "ce433122131878f9351652d40226083cfafd2e5a99880eb23bfa712b63df2ef7",
+    "results/e016_split_structure/summary.json": "272e4f2999c9790b20f8575076502e411831cda3e9fa35bebb78401f22d8912c"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "phase": "completed",
+  "input_components": 144,
+  "no_hidden_labels_in_inputs": true,
+  "feature_dimension": 2560,
+  "train_components": 96,
+  "test_predictions": 48,
+  "max_svd_prediction_error": 1.2212453270876722e-15,
+  "sealed_before_test_start_witness": true,
+  "metrics_and_bootstrap_verified": true,
+  "verifier_sha256": "93a009913b75143518013f37b9998ef5aabdc878bc1ebce59db5e16c9bec5905"
+}

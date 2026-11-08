@@ -1,0 +1,130 @@
+{
+  "source_revision": "58b2215ce80c74731d6d8dd3a843d2767943f569",
+  "source_files_verified": 12,
+  "valid_outcome_links": 1004,
+  "eligible_pair_records": 452,
+  "eligible_unique_tasks": 376,
+  "freezes_unchanged": true,
+  "pair_recount": [
+    {
+      "a": "belief",
+      "b": "prompt",
+      "n": 0,
+      "cells": {}
+    },
+    {
+      "a": "belief",
+      "b": "belief6",
+      "n": 48,
+      "cells": {
+        "(1, 1)": 7,
+        "(0, 0)": 35,
+        "(0, 1)": 6
+      }
+    },
+    {
+      "a": "belief",
+      "b": "belief7",
+      "n": 39,
+      "cells": {
+        "(1, 1)": 6,
+        "(0, 0)": 28,
+        "(1, 0)": 2,
+        "(0, 1)": 3
+      }
+    },
+    {
+      "a": "prompt",
+      "b": "belief6",
+      "n": 0,
+      "cells": {}
+    },
+    {
+      "a": "prompt",
+      "b": "belief7",
+      "n": 0,
+      "cells": {}
+    },
+    {
+      "a": "belief6",
+      "b": "belief7",
+      "n": 365,
+      "cells": {
+        "(1, 1)": 29,
+        "(0, 0)": 300,
+        "(1, 0)": 19,
+        "(0, 1)": 17
+      }
+    }
+  ],
+  "posthoc_core_review_n": 48,
+  "core_reference_supported": 5,
+  "partial_core_overlap": 2,
+  "core_review_judge_cells": [
+    {
+      "core": 0,
+      "judge": 0,
+      "n": 40
+    },
+    {
+      "core": 0,
+      "judge": 1,
+      "n": 3
+    },
+    {
+      "core": 1,
+      "judge": 0,
+      "n": 2
+    },
+    {
+      "core": 1,
+      "judge": 1,
+      "n": 3
+    }
+  ],
+  "disagreements": [
+    {
+      "blind_id": "P006",
+      "target_verdict": 0,
+      "core_reference_supported": true,
+      "rationale": "Affirms Dan Marino for NFL 1984; additional league answers and statistics are not validated.",
+      "source_id": "7634609581781474486",
+      "variant": "belief6"
+    },
+    {
+      "blind_id": "P017",
+      "target_verdict": 1,
+      "core_reference_supported": false,
+      "rationale": "Names England and discusses a different year, not Australia in 2013.",
+      "source_id": "-4254999198664550087",
+      "variant": "belief7"
+    },
+    {
+      "blind_id": "P018",
+      "target_verdict": 0,
+      "core_reference_supported": true,
+      "rationale": "Affirms University of Texas at Austin; accompanying career facts are not validated.",
+      "source_id": "-3822269585900887053",
+      "variant": "belief6"
+    },
+    {
+      "blind_id": "P022",
+      "target_verdict": 1,
+      "core_reference_supported": false,
+      "rationale": "Includes Los Angeles as filming location but omits Marfa from the composite reference.",
+      "source_id": "-2062683767584007187",
+      "variant": "belief7"
+    },
+    {
+      "blind_id": "P027",
+      "target_verdict": 1,
+      "core_reference_supported": false,
+      "rationale": "Attributes the book to OBrien alone, not to a committee including him.",
+      "source_id": "8566894936587956100",
+      "variant": "belief6"
+    }
+  ],
+  "core_review_sha256": "a3fa73ed8c9b3cdaa0dd732b5b2064d4a30be65f526db41f13a4803497e1d4f5",
+  "verification_script_sha256": "f974c3598bb1071b3ebad432e5a40df547e2a729bb31777205ec2ef7012fa913",
+  "no_new_external_model_calls": true
+}

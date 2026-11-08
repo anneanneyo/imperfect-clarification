@@ -1,0 +1,8 @@
+{
+  "files": {
+    "results/e019_semantic_review/selection.json": "366004d722210ba6a935fc60940fb3f2c848c1e9f5ec50a14ac04ea8cc6175f0",
+    "results/e019_semantic_review/labels.json": "1d5fbe8f045e10e8aba26dcf4138bb4923f8947419ee4c638f297bf3de78a69d",
+    "results/e019_semantic_review/summary.json": "9d2725a684e2e7a65e2e710ef1de299a17669ed4d9d236361d4f4e1c100db028",
+    "results/structured_facts_e019/details.json": "e7ad3fb150a205a6df212e794c695b14bc5473355eda776e052bb8710e09411d"
+  }
+}

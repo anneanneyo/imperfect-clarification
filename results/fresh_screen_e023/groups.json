@@ -1,0 +1,1631 @@
+[
+  {
+    "group_id": "a4f126adf3b9d5e414cfeb6b0c444541cb1240b9d335761af5f9df22be553df1",
+    "cases": [
+      "train/banking_support/00397"
+    ],
+    "source_ids": [
+      "train/banking_support/00397/p0/a",
+      "train/banking_support/00397/p1/a",
+      "train/banking_support/00397/p2/a"
+    ],
+    "normalized_text_sha256": "310146b735e5ea85d5c0691527b85435ac925a4395a0b469d407c3f62fb80329",
+    "evidence_fingerprints": [
+      "ca799199e3de8e6d672137162362449eb63d09a2d9259775144970fe040adf33"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "015e7e060612f73c0a86e35dac87c40df92ffae4a8a42cc32068a9d1b5055296"
+  },
+  {
+    "group_id": "91ab521d18fd88d622d0955beabded3d77496a9eb885e4ee4ccf3a52ae9e2e6a",
+    "cases": [
+      "train/banking_support/00093"
+    ],
+    "source_ids": [
+      "train/banking_support/00093/p0/a",
+      "train/banking_support/00093/p1/a",
+      "train/banking_support/00093/p2/a"
+    ],
+    "normalized_text_sha256": "7c159ecff2ea38e04848b6980b59cb90ffd3b5c20e459f40665aacbe579c2620",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "01bc0599e05033fb3b4c0554ade839fce725d4dcfcf80a85096409854692c8ae"
+  },
+  {
+    "group_id": "b287d341502ed995b6ba3c410b3f84644eeec97bfe64bb02141dd3b8b872830b",
+    "cases": [
+      "train/banking_support/00331"
+    ],
+    "source_ids": [
+      "train/banking_support/00331/p0/a",
+      "train/banking_support/00331/p1/a"
+    ],
+    "normalized_text_sha256": "9c54030e935d8f0097e04f073eda318ad2a874418181407affd10d7629c8e16f",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "020986fb59f4fa331e9c4c346788680d4986129486b5462a61adf88a0cf0c0e8"
+  },
+  {
+    "group_id": "7c897ee7189e6e3b9c468275ffca59ace4ef27a0fffa472a069ef96a24b19082",
+    "cases": [
+      "train/banking_support/00202"
+    ],
+    "source_ids": [
+      "train/banking_support/00202/p0/a",
+      "train/banking_support/00202/p1/a",
+      "train/banking_support/00202/p2/a"
+    ],
+    "normalized_text_sha256": "4b31b38b800f15e1204e64147382e457232d860f8d7271d17861ef71b270bf58",
+    "evidence_fingerprints": [
+      "f6d996db5a9f715662eea3f155177803a1434f6b95371bdb1cb6d3e5478b02bb"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "02231140ba66e163ced11bb2f4c40716dfe1bc600c0a543d41f6d8dfcf8df61a"
+  },
+  {
+    "group_id": "c917d021ae08e5e3c7d4889de08b137f996cf98037170014da4709f039a53597",
+    "cases": [
+      "train/banking_support/00041"
+    ],
+    "source_ids": [
+      "train/banking_support/00041/p0/a",
+      "train/banking_support/00041/p1/a",
+      "train/banking_support/00041/p2/a",
+      "train/banking_support/00041/p3/a"
+    ],
+    "normalized_text_sha256": "1d94da336ba5b644cac62546c7c383ce136227a4adc987fd2e40460a13778cba",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "03062fde90fcefefefa671e1c977e85a3354da6698b65318959037f0eabcdb5d"
+  },
+  {
+    "group_id": "7113ae997b77152713595df0cf3ed27fae45a946d54e4c7684751404e44d14e0",
+    "cases": [
+      "train/banking_support/00453"
+    ],
+    "source_ids": [
+      "train/banking_support/00453/p0/a",
+      "train/banking_support/00453/p1/a",
+      "train/banking_support/00453/p2/a"
+    ],
+    "normalized_text_sha256": "d44ede424dea703752d745e3387f546a5a0a734c2f293616f4beffd8ecd36c50",
+    "evidence_fingerprints": [
+      "0638543bbbebe24495344e70b2cd2dadc2c4628e4bab4128531d9c7bdb35ddd4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "03c12673fd923123e0cb22506ef663fa166b9202071f6bcd8a37a394605e47f8"
+  },
+  {
+    "group_id": "eebf4507a24b5af538e32ae24436d6a93b4d7a342c9a8d03f246445faf88da6e",
+    "cases": [
+      "train/banking_support/00071"
+    ],
+    "source_ids": [
+      "train/banking_support/00071/p0/a",
+      "train/banking_support/00071/p1/a",
+      "train/banking_support/00071/p2/a"
+    ],
+    "normalized_text_sha256": "9d9faadd5167e531659c86bde7108a22d7738ab916a40fb7c0b80f90f2781185",
+    "evidence_fingerprints": [
+      "e51904c24124f667dc99c714c3709ef36e71210218c8369176702bf1b2c38836"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "03e90e7c7df6abbb4f9f37b41cd53cf2c197e3e147da457c71c3fa3fd95bb33a"
+  },
+  {
+    "group_id": "6c62ec00435408af64886749ab81dd75bb795570c34b8dc6755797552ea42238",
+    "cases": [
+      "train/banking_support/00346"
+    ],
+    "source_ids": [
+      "train/banking_support/00346/p0/a",
+      "train/banking_support/00346/p1/a",
+      "train/banking_support/00346/p2/a"
+    ],
+    "normalized_text_sha256": "3f19a82066653d82aaaec98d779e03f0814363933841b4de20d78ac109feb5b2",
+    "evidence_fingerprints": [
+      "a06db83b45a7a694554ebc72f1d43add012d462bc3a1ece2889e12dc56c6487d"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "04515d71488b3cdcf900541163e157136bc6fda0988409b6c87c2019055c2145"
+  },
+  {
+    "group_id": "6377dfc87a84c5fb224e1e2cf79164a3ccf81171d2ccb7148ef1e2168c0bc44b",
+    "cases": [
+      "train/banking_support/00103"
+    ],
+    "source_ids": [
+      "train/banking_support/00103/p0/a",
+      "train/banking_support/00103/p1/a"
+    ],
+    "normalized_text_sha256": "3e0b0048ee2245790be8f0918f3dd6914242719b6561e8dad0b9c0e0a60875cb",
+    "evidence_fingerprints": [
+      "d4f2e0e7d57245dc1d2d0be59c44d52572c0b009bf555b91f39e5f7c3f184c82"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "047db34b53d1965fb30fa6d8e835d26d6a1b0e9dced0fde2ba607d84165d93c7"
+  },
+  {
+    "group_id": "ea3e0f06efcacdc3a0cc9e631ff93b1e6da727bda5eff155c935401352c434a4",
+    "cases": [
+      "train/banking_support/00212"
+    ],
+    "source_ids": [
+      "train/banking_support/00212/p0/a",
+      "train/banking_support/00212/p1/a"
+    ],
+    "normalized_text_sha256": "0276d13b2a7751b36dd70c92a385ec123a159b705bd09c748379d3b565163a21",
+    "evidence_fingerprints": [
+      "db407fee80d9d0a316a5faee73ec349e42f64eccb1925feb42c03249f1e6f42c"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "04ae2598743a9dcd488def4de72197db43ed9d9fd6eb82dece4e58814da5b0be"
+  },
+  {
+    "group_id": "60c4fba383b25b98775bd16409059050f2a17c447356c817b67a02529392a3f9",
+    "cases": [
+      "train/banking_support/00456"
+    ],
+    "source_ids": [
+      "train/banking_support/00456/p0/a",
+      "train/banking_support/00456/p1/a",
+      "train/banking_support/00456/p2/a",
+      "train/banking_support/00456/p3/a"
+    ],
+    "normalized_text_sha256": "e11d163eeda15fa23b705f7cc3352aded9ac72d7a4f9425b0c22ea22d352aa4f",
+    "evidence_fingerprints": [
+      "c637f6f0ec1c63467a91d4a95d7640ea8c8a1b728fe7f572f807f84180d86a5d"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0628bffb27d33ceb97d66bfb618a8cedde441bc82e01e774df4c126c7c664c97"
+  },
+  {
+    "group_id": "a7e33a33156707f62e3be1eeeba82c137ae51add0a93e354df3fa501bb4b4200",
+    "cases": [
+      "train/banking_support/00303"
+    ],
+    "source_ids": [
+      "train/banking_support/00303/p0/a",
+      "train/banking_support/00303/p1/a"
+    ],
+    "normalized_text_sha256": "2946fc682450f2dd46e1d5b11d0d7366a1297dfbbf082987dc84920cab3ca54e",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "075b6a74614c86f1a9f46dd02c8202ca27e20c9c10cb1ae1e0b1de0d7d7fbb6c"
+  },
+  {
+    "group_id": "eb664ad6028e0eeaeb659bc3bee1b5833e496f2ef1d44463df4dea4ff0944eca",
+    "cases": [
+      "train/banking_support/00480"
+    ],
+    "source_ids": [
+      "train/banking_support/00480/p0/a",
+      "train/banking_support/00480/p1/a",
+      "train/banking_support/00480/p2/a",
+      "train/banking_support/00480/p3/a"
+    ],
+    "normalized_text_sha256": "98dfc7f2777b4a9671f57ef8474b5ac67c0f88dfc0870c884bc1ea8a091910fb",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "079ae3361a179bc06f4a8b112c7d7cb34869c68ce3e5ffb5e2cde310317caad7"
+  },
+  {
+    "group_id": "a6d2641346fff125cc4c5bf17c15223bac9f061da8a004a25350bff8de8eea78",
+    "cases": [
+      "train/banking_support/00114"
+    ],
+    "source_ids": [
+      "train/banking_support/00114/p0/a",
+      "train/banking_support/00114/p1/a"
+    ],
+    "normalized_text_sha256": "85269849ac8e6ee6bd8aa01381fff8be695c49bfe99f436b8751a6aed318107a",
+    "evidence_fingerprints": [
+      "3c9d5db51e6cc1deb86ae7512c487bdcfeb5b47d85ae2c2ba43bd7b6a07da71b"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0805cc589c591dfbfe74c4ea0bedc157810abcd2d0b23054b0f7159a5ff91080"
+  },
+  {
+    "group_id": "d80b1bccafd7239171e83056df5794477221986bce4e2dbb8274fadc7bca15c9",
+    "cases": [
+      "train/banking_support/00241"
+    ],
+    "source_ids": [
+      "train/banking_support/00241/p0/a",
+      "train/banking_support/00241/p1/a"
+    ],
+    "normalized_text_sha256": "d99ce077f59850dbf7bf3b7d062a40d1f9f2f53d58340d49ec51db0a286952d8",
+    "evidence_fingerprints": [
+      "a4f89b6556517b47fd90aeaf83c0c1bdeb5b58eeb18a7d12131afaf46604db38"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0867208cb07741e0cb0ba3af0b38fc08f4dff59a0273e08f0332913b84e35a5c"
+  },
+  {
+    "group_id": "b609cfe49c8ca2fe3a227f163b1059caced7741dd1efeee8d90909449d6afbf3",
+    "cases": [
+      "train/banking_support/00101"
+    ],
+    "source_ids": [
+      "train/banking_support/00101/p0/a",
+      "train/banking_support/00101/p1/a"
+    ],
+    "normalized_text_sha256": "3ce74e8fd7dd8584d01f5880d274539f0233291ccad9f86406f1827aa18a2366",
+    "evidence_fingerprints": [
+      "a8604142fd020eaeadd5f89e194436580da789eeda6a19cea7ab2e6222ba2973"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0a0f194679fa54a699e1e0fe3ae88cdab82b6bd930ea5a0d0802d76c779e1612"
+  },
+  {
+    "group_id": "6b557f45252d22b7e61ee5a68c2f73208aaf3c5cd442b00d521743628b71232a",
+    "cases": [
+      "train/banking_support/00290"
+    ],
+    "source_ids": [
+      "train/banking_support/00290/p0/a",
+      "train/banking_support/00290/p1/a"
+    ],
+    "normalized_text_sha256": "60af04ef4961cbb43f1001a740ddc6f72b6f2690a72da844fb62cdb0b50b40dc",
+    "evidence_fingerprints": [
+      "3f66d1530b4f73b89b325dd6f9c56f4d4264dd677997535bc03480101aff7bd8"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0a71711bf868f2bb5517eb7a6427db0d5acf519c84c0ed581ae229ca197e5fc9"
+  },
+  {
+    "group_id": "696fcd08649a54b8fc412988ba728909fcdda381856946a2765c777356c06465",
+    "cases": [
+      "train/banking_support/00056"
+    ],
+    "source_ids": [
+      "train/banking_support/00056/p0/a",
+      "train/banking_support/00056/p1/a"
+    ],
+    "normalized_text_sha256": "840e183bd951ef6a242f99a63bc11395de0f2817e58cff7ceb72036ee9ee13ab",
+    "evidence_fingerprints": [
+      "4bb2c21496f885244e19aa0b907a141d06cf67ec4f9acbde55ae5630e96dadc3"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0acd5373ad8599e613cecf4d982bcc877e46a689d126434119f9778a2acad34a"
+  },
+  {
+    "group_id": "6c90a5c27396946b3d7e4f808346958501a145d272f7fbc77371bdb3ade31c11",
+    "cases": [
+      "train/banking_support/00129"
+    ],
+    "source_ids": [
+      "train/banking_support/00129/p0/a",
+      "train/banking_support/00129/p1/a",
+      "train/banking_support/00129/p2/a"
+    ],
+    "normalized_text_sha256": "6ffe066383f569611b461a39fede217116fcf0110df180528957f2cc4979a21f",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0ad0a01db9d473e4c8997685e1558c48199d4ff74a244c4d697eba306d61b52e"
+  },
+  {
+    "group_id": "fc084cd64a865c53e168a8d34e027d1e94b779266ad94acb7581954386f2da1a",
+    "cases": [
+      "train/banking_support/00242"
+    ],
+    "source_ids": [
+      "train/banking_support/00242/p0/a",
+      "train/banking_support/00242/p1/a"
+    ],
+    "normalized_text_sha256": "ec07c434d262d45aa18e13e05aff3a10b89dfa89a01a66148335af5c7d06aacc",
+    "evidence_fingerprints": [
+      "890ba465729b6d6099e24670df31eeaab5f9d63ddcd355a32c8bac2084bdc64b"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0b3e54e925f3936d8552ca1f9c7c0890c370df746c97adfa168f8466f262363d"
+  },
+  {
+    "group_id": "e683dfbcf90986a8842f788c2bc15cedeb46398430c2bbfd74085be685bd033f",
+    "cases": [
+      "train/banking_support/00436"
+    ],
+    "source_ids": [
+      "train/banking_support/00436/p0/a",
+      "train/banking_support/00436/p1/a"
+    ],
+    "normalized_text_sha256": "67f2bf63081dff43fade62075dc0b8dd1839e74a2e1755d57843113b4f610966",
+    "evidence_fingerprints": [
+      "ab2d9102e20d0be1922d1fcb69a57fb955e6aec96f36e939139c9835ae391ec3"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0b981a01a117b1a7f2bd3e6ec9e61b167d3d44578241ed93d4012d0a48409547"
+  },
+  {
+    "group_id": "faf33ba6215828001c1a59ba3f8587c363f7c7b52580408f76b512ab7501edbd",
+    "cases": [
+      "train/banking_support/00152"
+    ],
+    "source_ids": [
+      "train/banking_support/00152/p0/a",
+      "train/banking_support/00152/p1/a",
+      "train/banking_support/00152/p2/a"
+    ],
+    "normalized_text_sha256": "00c1d8d28634e4eae4f5be81b8e80897b627ef64ac2a07eb62a9e140f246b05a",
+    "evidence_fingerprints": [
+      "59230495d7b86067da8a97d9e79abeee35c36a506b2b0248e54a637b843521e7"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0ba1dcf41860df09da89553d99b4625f0e8249a6f9bf8e0922539c6385518f7b"
+  },
+  {
+    "group_id": "832e5e1fa0c0d6f540b4a575098472c25d4d12764ab742b3754ea974563b0d31",
+    "cases": [
+      "train/banking_support/00275"
+    ],
+    "source_ids": [
+      "train/banking_support/00275/p0/a",
+      "train/banking_support/00275/p1/a",
+      "train/banking_support/00275/p2/a",
+      "train/banking_support/00275/p3/a"
+    ],
+    "normalized_text_sha256": "e42db9a8dfca526e87fc39acf4cdba2ee5e6884bc5e0c6c2d0f73f227a54a0ee",
+    "evidence_fingerprints": [
+      "ccd38042e092a92f906333607f6b8bdd227c33250a3e5aafd49c7e046f469034"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0ba75a649ff45940046ad3a8c76e2f24d24acf7750e361525865135e4c738882"
+  },
+  {
+    "group_id": "6963b0210f5e8374ad1ee96074a8501e7d50a78975ade2e29aad32ca01b1b116",
+    "cases": [
+      "train/banking_support/00438"
+    ],
+    "source_ids": [
+      "train/banking_support/00438/p0/a",
+      "train/banking_support/00438/p1/a"
+    ],
+    "normalized_text_sha256": "32a8c39ea9c199b806d312d9bc5ce80feaf3e305961b6b1c3418955dc743b70a",
+    "evidence_fingerprints": [
+      "b5fba250e252d53b7b89e72043249951edcd747d3629996890e7c4227c8d849a"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0bf2f4645e8c426ada939119965b949878a7f721e8bd1cfc6f836508db863981"
+  },
+  {
+    "group_id": "b80fa393e30547988969fedc0226bf9cc05475eaff78710169fd9c685a90b48e",
+    "cases": [
+      "train/banking_support/00260"
+    ],
+    "source_ids": [
+      "train/banking_support/00260/p0/a",
+      "train/banking_support/00260/p1/a",
+      "train/banking_support/00260/p3/a"
+    ],
+    "normalized_text_sha256": "1372871ac720a2b6d6608ea5639f0cbe74c452428227a083d07ac44298a24ab4",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0cd8ac56caa1dfce507b2e7ecf4e6c9dadd0ea234260837151826edd084ed62e"
+  },
+  {
+    "group_id": "5a6bef4e0647025e39fe5f31a11c4fe6d2f0f37239de1e4d2b3047317db4dd07",
+    "cases": [
+      "train/banking_support/00385"
+    ],
+    "source_ids": [
+      "train/banking_support/00385/p0/a",
+      "train/banking_support/00385/p1/a",
+      "train/banking_support/00385/p2/a",
+      "train/banking_support/00385/p3/a"
+    ],
+    "normalized_text_sha256": "9150125d7340d5ddccc8c9550af2999da16559ac2e63c9153add2bdfd806cf0a",
+    "evidence_fingerprints": [
+      "5eeb250bf552def5f24cb62e7be8fcdfc2c2558df0749b58572daad5153b07cc"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0d506e180940b72584503da024b6b85c717e4141d4fe799cf22c9c5ac4a8c257"
+  },
+  {
+    "group_id": "d3a7bf6d8e241bcbbec8be134f23be08210df42c05c6eb69aec3013a7473dbc9",
+    "cases": [
+      "train/banking_support/00189"
+    ],
+    "source_ids": [
+      "train/banking_support/00189/p0/a",
+      "train/banking_support/00189/p1/a",
+      "train/banking_support/00189/p2/a",
+      "train/banking_support/00189/p3/a"
+    ],
+    "normalized_text_sha256": "c7be04f1fca87850d99df029ede9d6a48e6d190d35e73894c4dd8dd468482fc5",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "0ddc5e9bd90818e3c3abd0af3026eb490dc35bcebe17d680725ac0a0050cd173"
+  },
+  {
+    "group_id": "5886a3797009e3208b0d69ed03d471cb662b3eae9c22180d1bce3b2c27a27a01",
+    "cases": [
+      "train/banking_support/00365"
+    ],
+    "source_ids": [
+      "train/banking_support/00365/p0/a",
+      "train/banking_support/00365/p1/a",
+      "train/banking_support/00365/p2/a"
+    ],
+    "normalized_text_sha256": "8b7a623454f43d13dd6ec2f61572d1c9793175d7e1f8ee8b06fbaa1286841f27",
+    "evidence_fingerprints": [
+      "3da9d1e9c1e3abcefea3378dd8a5d08185652c1a3a2db45a43e13cd33e899f54"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "12c407b88c8d3b4dbb40286df7bf192807d5e539106210941c51ddc616ee5d46"
+  },
+  {
+    "group_id": "613a269be2558efa3c926faec8bcf915b4cd70f73681d6022836e6da32db4dbf",
+    "cases": [
+      "train/banking_support/00075"
+    ],
+    "source_ids": [
+      "train/banking_support/00075/p0/a",
+      "train/banking_support/00075/p2/a",
+      "train/banking_support/00075/p3/a"
+    ],
+    "normalized_text_sha256": "f7c58f6753f6031bf4a78226cdae75d07ca740a71908053bb494361ef248beac",
+    "evidence_fingerprints": [
+      "ab2d9102e20d0be1922d1fcb69a57fb955e6aec96f36e939139c9835ae391ec3"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "135b63b13c5800b6842750b1155286984cacce095f7d2c814ef812c47f9f8fe2"
+  },
+  {
+    "group_id": "9248cc7a3522dcb2d26370c0d22b262574d0dfccfab9e092c0b6976fa29a6825",
+    "cases": [
+      "train/banking_support/00444"
+    ],
+    "source_ids": [
+      "train/banking_support/00444/p0/a",
+      "train/banking_support/00444/p1/a",
+      "train/banking_support/00444/p2/a",
+      "train/banking_support/00444/p3/a"
+    ],
+    "normalized_text_sha256": "5681b09f04950f2ad50bd683541a686bf9f316ef6458671deec8f1ec24a33474",
+    "evidence_fingerprints": [
+      "e51904c24124f667dc99c714c3709ef36e71210218c8369176702bf1b2c38836"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "16ac801bd667d12ddb4baa03a7e48de9e88748e28a68fe6ec9b634ee09e4da63"
+  },
+  {
+    "group_id": "d41f91f924cd37b0398098a33fffea4ebbd8b3fde488ffbbe5fc71d7818ca4b0",
+    "cases": [
+      "train/banking_support/00443"
+    ],
+    "source_ids": [
+      "train/banking_support/00443/p0/a",
+      "train/banking_support/00443/p1/a",
+      "train/banking_support/00443/p2/a",
+      "train/banking_support/00443/p3/a"
+    ],
+    "normalized_text_sha256": "1f6f96dbb092d221c0e6a0f6f11b173c10b50c8b64f94ca5700c4e37cfc829a2",
+    "evidence_fingerprints": [
+      "c653dd515e34ef51acf3db97cb3ceaf017235ccdf7e05b1cfc432e80b5bdcbe6"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "182fd3778e9f178ae24f8036629a5ada610692b6b7d39cfac285db2b22ead79a"
+  },
+  {
+    "group_id": "a3325e807af842ba79cbf6ee173b13b1497bfdadb0c602b605175f24141a27f3",
+    "cases": [
+      "train/banking_support/00271"
+    ],
+    "source_ids": [
+      "train/banking_support/00271/p0/a",
+      "train/banking_support/00271/p1/a"
+    ],
+    "normalized_text_sha256": "35be599be61ed773d86e50e01a46a4476c813884ce9fc8a5aab0bf66a5c60564",
+    "evidence_fingerprints": [
+      "96c1c939f61fad4164a443a7a8c034747147ccf3c0ce6a040a8f0c47f5a52687"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "194d43560edd90dcfb6bdb4c229238525ce8675a465ddf05eb0bb921e0186921"
+  },
+  {
+    "group_id": "fb7f720e2521ae0b4c7e96559a4c04a33c21b6954965daba564f735515f932ff",
+    "cases": [
+      "train/banking_support/00419"
+    ],
+    "source_ids": [
+      "train/banking_support/00419/p0/a",
+      "train/banking_support/00419/p1/a"
+    ],
+    "normalized_text_sha256": "a0798e855757a4f430b80fb5ab6c861ece2ee6a2c990ce90af7d36c9a7bdc452",
+    "evidence_fingerprints": [
+      "d4f2e0e7d57245dc1d2d0be59c44d52572c0b009bf555b91f39e5f7c3f184c82"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "19850359139a2201daf35733f6c9059aa6d62dd833f4482c3ea1fb93c425dfbe"
+  },
+  {
+    "group_id": "a602ae7eb2534eda295dcf1f628e6e05d925d815ddc537dbc0e93d540628bfae",
+    "cases": [
+      "train/banking_support/00257"
+    ],
+    "source_ids": [
+      "train/banking_support/00257/p0/a",
+      "train/banking_support/00257/p1/a",
+      "train/banking_support/00257/p2/a",
+      "train/banking_support/00257/p3/a"
+    ],
+    "normalized_text_sha256": "45c0758d6484b82a0b42614f1a6b2123a331b43a4caa7caf8f56de5f97454220",
+    "evidence_fingerprints": [
+      "e9f1854cc9aa5dd99b721287e51275fc0e667db86cf858e43cf7b10e8a0df18f"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "1b04c83750ae64baa0970e1183cdab094e8d40b5bcb8996330e24eda8b0e82e2"
+  },
+  {
+    "group_id": "e8df7c70b7529e35f081ff2c5a7c2921a6d53b315397c8826d73ddacec0dbfd3",
+    "cases": [
+      "train/banking_support/00092"
+    ],
+    "source_ids": [
+      "train/banking_support/00092/p0/a",
+      "train/banking_support/00092/p1/a",
+      "train/banking_support/00092/p2/a",
+      "train/banking_support/00092/p3/a"
+    ],
+    "normalized_text_sha256": "87dd57e6100fb0c9693791639883dc2b8ffeb55a5b167a6859e33ce709438fc5",
+    "evidence_fingerprints": [
+      "cc41a697cfc85c5203c8da468e155a508f0b0e309bc86dcf2586f3fde24bb39e"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "1bcc98bf2149d4e6cee488ba07d233f4503fced1629ca4c8e4383057b0644a35"
+  },
+  {
+    "group_id": "61a06effb7107a7462d65230afced496e89fa026394780f9ade34446484c8444",
+    "cases": [
+      "train/banking_support/00204"
+    ],
+    "source_ids": [
+      "train/banking_support/00204/p0/a",
+      "train/banking_support/00204/p1/a"
+    ],
+    "normalized_text_sha256": "6d5bc6b4323c9115ace8053d9dc6bc1f2246cc62157fb301f0058fe022238d79",
+    "evidence_fingerprints": [
+      "59230495d7b86067da8a97d9e79abeee35c36a506b2b0248e54a637b843521e7"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "1cc02978bbd3f94fb4909935901b7dd39a7ca90df91b73267f1151b74332a36c"
+  },
+  {
+    "group_id": "eb17444993f314237d3e27273afedd9121a1878d97ee6ad379c0244d76921908",
+    "cases": [
+      "train/banking_support/00220"
+    ],
+    "source_ids": [
+      "train/banking_support/00220/p0/a",
+      "train/banking_support/00220/p2/a",
+      "train/banking_support/00220/p3/a"
+    ],
+    "normalized_text_sha256": "c35076cc32cef8f137a00194c08c9fd1d0617e0edeb1132fc60631032488eb1a",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "1db8c3bc798f783c4d8767f6d4e85e89e51a2c81930354f3a4b79955d5b4d3b0"
+  },
+  {
+    "group_id": "76b54d4d05d44b0b46006c9f5e94ecba8840652b8520b1363c6be024c5f57537",
+    "cases": [
+      "train/banking_support/00218"
+    ],
+    "source_ids": [
+      "train/banking_support/00218/p0/a",
+      "train/banking_support/00218/p1/a",
+      "train/banking_support/00218/p2/a",
+      "train/banking_support/00218/p3/a"
+    ],
+    "normalized_text_sha256": "3c40034610d7b38f133abf56cf223728f7756b86d903a107362e327ab43900d1",
+    "evidence_fingerprints": [
+      "ab2d9102e20d0be1922d1fcb69a57fb955e6aec96f36e939139c9835ae391ec3"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "1decbb2db1ff100567f2fad66f00df75136fe5cd292a54e6fdfbac906e92eb49"
+  },
+  {
+    "group_id": "f98ce28e8c04aaa3d4b55dedb7db6dcf9ad31f036dc026dd321c4ad0247c8c9b",
+    "cases": [
+      "train/banking_support/00428"
+    ],
+    "source_ids": [
+      "train/banking_support/00428/p0/a",
+      "train/banking_support/00428/p1/a"
+    ],
+    "normalized_text_sha256": "fe5dfbd8276b2d7483703891d2d0f5a67df91c591f6618961485584d04b39445",
+    "evidence_fingerprints": [
+      "fcd1362f50450094395d73312b3ecea585ea298b1baf6591ad110d48c0aedd58"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "1e7bd85544ce3e1630bfd5829c7e6e4010e7d75a010df2803d358653f3c9aaa1"
+  },
+  {
+    "group_id": "5913eb0a8076fa27c39d958c9b31dce0f41bed93762c3f117ba5b5ad21546b54",
+    "cases": [
+      "train/banking_support/00495"
+    ],
+    "source_ids": [
+      "train/banking_support/00495/p0/a",
+      "train/banking_support/00495/p1/a"
+    ],
+    "normalized_text_sha256": "f47ce35ae4fb060d006ef17f34517ed01ac79954467f1caf405786ab6f6ba24e",
+    "evidence_fingerprints": [
+      "d29d4966b85c8fec129f7c17600e59afe3fe36dac595acfe212c06a157f6b5cb"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "1ee7ed60e6fbd0da72e039a15738f728649b7954c669f826db1942a219a93505"
+  },
+  {
+    "group_id": "83926cde9e704617d815e308cc2d22b3d185faba60707414e38568710c17d8c8",
+    "cases": [
+      "train/banking_support/00025"
+    ],
+    "source_ids": [
+      "train/banking_support/00025/p0/a",
+      "train/banking_support/00025/p1/a",
+      "train/banking_support/00025/p2/a",
+      "train/banking_support/00025/p3/a"
+    ],
+    "normalized_text_sha256": "e2893d644d5c56a6e2d81f2726fae7dda0a9680a5fe799b298032585d561ce75",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "1f14a5a58bb64166cee552378131490a797dac9de7bc625b4acfa8d0f30cdddc"
+  },
+  {
+    "group_id": "7913a28a0ca8af9b95603863271727136d59c784c52eaf660f4a7f0ed6b64757",
+    "cases": [
+      "train/banking_support/00364"
+    ],
+    "source_ids": [
+      "train/banking_support/00364/p0/a",
+      "train/banking_support/00364/p1/a",
+      "train/banking_support/00364/p2/a",
+      "train/banking_support/00364/p3/a"
+    ],
+    "normalized_text_sha256": "c4105acaeebd9d194430b14f807d98eb8b12056aa51cb2e404681062414393ec",
+    "evidence_fingerprints": [
+      "5ebbda1b5b4c55fab3fa9ccbee4c233ac7b80178dc2ac4e7ba966c528863edc0"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "20a3c5aaa08310697a202c6e3dbc3d2c10f001ec3fc4238f8218bf2ef389995c"
+  },
+  {
+    "group_id": "5a905fa0a4ae78bbfb33f293d3218e1861d79eb8926b3d2e6e080daa40380abc",
+    "cases": [
+      "train/banking_support/00393"
+    ],
+    "source_ids": [
+      "train/banking_support/00393/p0/a",
+      "train/banking_support/00393/p1/a"
+    ],
+    "normalized_text_sha256": "13a8a02797425c311354b42c323e97964940d73147c140c015320e62f28187f4",
+    "evidence_fingerprints": [
+      "d68a9a0e520977aa722bfe505960d0df8dd7c153b7695daee087ceb0e477b334"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "229f646a3eda212b729fcb5fa757b8872234a81351fe442accebb04cca30b78e"
+  },
+  {
+    "group_id": "da3beba3539a4bdf49f95ac062dd6144376df332c7c25c7a1d50ade65ab7d420",
+    "cases": [
+      "train/banking_support/00457"
+    ],
+    "source_ids": [
+      "train/banking_support/00457/p0/a",
+      "train/banking_support/00457/p1/a"
+    ],
+    "normalized_text_sha256": "cce24d6f51c02485a865a9bcd63794d2e584fa671d198981d45fca88803118aa",
+    "evidence_fingerprints": [
+      "7eac37d71ba6cff84cf2693b76a0d897353a977fe254e354b03aec1e0cea56c8"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "239eba4b3ed9969b7dfe7b878d37941e969e3b48f6bace740913bf41dd7a1103"
+  },
+  {
+    "group_id": "676d6d9cc1013df1af32eb1a9c277a5d8c95f1a203fc5790525a7e46aa981984",
+    "cases": [
+      "train/banking_support/00179"
+    ],
+    "source_ids": [
+      "train/banking_support/00179/p0/a",
+      "train/banking_support/00179/p1/a",
+      "train/banking_support/00179/p2/a"
+    ],
+    "normalized_text_sha256": "81f54fcc51f9a924a13fbad2870bd4761a179f20fa15bba29bff9be85351078c",
+    "evidence_fingerprints": [
+      "5eeb250bf552def5f24cb62e7be8fcdfc2c2558df0749b58572daad5153b07cc"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "253b913b62f49bcbdbc99ab7c2789f6bca41435ab222ca26348d82de04f6b0d6"
+  },
+  {
+    "group_id": "e05ce1a4b05dc2694b6a510564a0b3e61cfe6414783e28d5d1e388c96ff888cd",
+    "cases": [
+      "train/banking_support/00252"
+    ],
+    "source_ids": [
+      "train/banking_support/00252/p0/a",
+      "train/banking_support/00252/p1/a",
+      "train/banking_support/00252/p2/a",
+      "train/banking_support/00252/p3/a"
+    ],
+    "normalized_text_sha256": "925bf4a1be017c0a994447d18ef133e934dba3f16992c4c0ff058db4b0b0ba67",
+    "evidence_fingerprints": [
+      "7eac37d71ba6cff84cf2693b76a0d897353a977fe254e354b03aec1e0cea56c8"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2572b9f6bd973d6d3d4cef653ed9d1a26766ca09f2d5b0ed009534ace97d7624"
+  },
+  {
+    "group_id": "7fb1d8123bf0b41a2ca493a998883dc15921a5dc4c5cfe50fdea2e110a2a32bc",
+    "cases": [
+      "train/banking_support/00494"
+    ],
+    "source_ids": [
+      "train/banking_support/00494/p0/a",
+      "train/banking_support/00494/p1/a"
+    ],
+    "normalized_text_sha256": "2e457ff91d1580f82fdadd38151c0d48b1dd3d6782a3fe9d29004a2c7ff42fa2",
+    "evidence_fingerprints": [
+      "f53e09e90aa77a529f1cd5737edb7412ec507690fdc3f32dd5f2905a8aec12f9"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "25ea86b60751b49c5f09266f3bb6eb029aa0c1ee031e764897cde9578f039b2d"
+  },
+  {
+    "group_id": "a07cd9d6201706bb96bfa3f01cd6f5e4c6922b52b1e42550f0e1589b27a287cf",
+    "cases": [
+      "train/banking_support/00102"
+    ],
+    "source_ids": [
+      "train/banking_support/00102/p1/a",
+      "train/banking_support/00102/p2/a",
+      "train/banking_support/00102/p3/a"
+    ],
+    "normalized_text_sha256": "c8637b4ba7faa4a0e4ef8a86d970e7f92dc9bcadf0a0de878dad93bd3eee9c70",
+    "evidence_fingerprints": [
+      "028d9f68b8e25b54f8d92a8048546d1d72a60c55c7ccf1a9f6b59f861d2139e5"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "266ef59ae5ec2c11af6e45295667bc107a247458ba0dfd06d0384f6c3ca9d743"
+  },
+  {
+    "group_id": "d647a4b718dc886d4a692f6fb55ee8dcaa17ef2de180f1a34156ef65475972e9",
+    "cases": [
+      "train/banking_support/00373"
+    ],
+    "source_ids": [
+      "train/banking_support/00373/p0/a",
+      "train/banking_support/00373/p1/a",
+      "train/banking_support/00373/p2/a",
+      "train/banking_support/00373/p3/a"
+    ],
+    "normalized_text_sha256": "30604d6d40eb12b570a9296f2f316abffc04efdaf09401e022bd397077e4bfa4",
+    "evidence_fingerprints": [
+      "570e26b17d1e82fb209bd28b7c8e6d3dafca6538618785f4587fe9c3644ec4f3"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2780bf6e804344c6a2a78b06645544652e4e1b6a772676b9b2432dc0bdb851fd"
+  },
+  {
+    "group_id": "759d38dc38712c7312190d4c0eec2a3e1988283ab4d986fb887c63b73e93bfbe",
+    "cases": [
+      "train/banking_support/00420"
+    ],
+    "source_ids": [
+      "train/banking_support/00420/p0/a",
+      "train/banking_support/00420/p1/a",
+      "train/banking_support/00420/p2/a",
+      "train/banking_support/00420/p3/a"
+    ],
+    "normalized_text_sha256": "dd1a3f67cf27197246745450773e8420241d411409ac224fe7f6890f4275b72c",
+    "evidence_fingerprints": [
+      "2bca6fe46f05a83fa8afb895cd365d7c6565845b0d0e45c3be8b9ebe19ebc529"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "282cd6f6cef668ad93c23286cbf0ee9e19aafc6b4f2609728f0e031eb10d0ad2"
+  },
+  {
+    "group_id": "f22a4c93f9a610c56697c2a98a57de9c32ecb99e689cfe729a5bf386343ca82a",
+    "cases": [
+      "train/banking_support/00404"
+    ],
+    "source_ids": [
+      "train/banking_support/00404/p0/a",
+      "train/banking_support/00404/p1/a"
+    ],
+    "normalized_text_sha256": "ca494b5da00ba8b91d9d1863d21a54b4c46690131f71fa32020fd13d0a3f2dfe",
+    "evidence_fingerprints": [
+      "b5fba250e252d53b7b89e72043249951edcd747d3629996890e7c4227c8d849a"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "28d0671e655bbde73c93a56fe36c3c443d94c2305c0bcf2a8788ea4121ecd8d6"
+  },
+  {
+    "group_id": "f0b779a79acf57f6f428bcbc6d9967e5bd7803ed2cadc37aca7b5ff875e81ee1",
+    "cases": [
+      "train/banking_support/00023"
+    ],
+    "source_ids": [
+      "train/banking_support/00023/p0/a",
+      "train/banking_support/00023/p1/a",
+      "train/banking_support/00023/p2/a",
+      "train/banking_support/00023/p3/a"
+    ],
+    "normalized_text_sha256": "10035d90030637ca5def143c1f349642bb76ef533b812ff248fad5d4c1f83d07",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "295ae03cfce8182ddba7765c0584db72546d11ae302aafedd1a72a283f2d22d3"
+  },
+  {
+    "group_id": "7b9ba8edeefaac3df194b9580afbf6c61debc7743775e3c7afbd268454583151",
+    "cases": [
+      "train/banking_support/00086"
+    ],
+    "source_ids": [
+      "train/banking_support/00086/p0/a",
+      "train/banking_support/00086/p1/a"
+    ],
+    "normalized_text_sha256": "78d8ed2cc93b88204c77e7bfa87e8a738e677725e556e2235e3ede1a0522c2af",
+    "evidence_fingerprints": [
+      "70ca7f9c8b6c2e005b7e3c6c34281cd8aec3001d6382c94cc165ba4be04c391a"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "29f5e9ed708a5b749ace6a92e7456b7b5c5e9bc636f4a7c6ca74e5ad7975d29a"
+  },
+  {
+    "group_id": "f93a517e6a20be52d496d8af1f1685a928636fd078f6e6a78e359cb38754c5fb",
+    "cases": [
+      "train/banking_support/00039"
+    ],
+    "source_ids": [
+      "train/banking_support/00039/p0/a",
+      "train/banking_support/00039/p1/a"
+    ],
+    "normalized_text_sha256": "6f0b83d65a72cd564beea4064ca84a71b6501eab49254703788a4c31d33155a4",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2a44e75df873ae45e7d07bcba848803e6d3fcf32ce5e7684bd85cf2e15af2e7b"
+  },
+  {
+    "group_id": "71f64f84bd108d2afb956e4ba751d1a43fbd79afbe0317e78e52c19a7490011d",
+    "cases": [
+      "train/banking_support/00304"
+    ],
+    "source_ids": [
+      "train/banking_support/00304/p2/a"
+    ],
+    "normalized_text_sha256": "fd6e8d5f0598ba1ba43585796b1652e37c2c3af567898c1e2a972b2bfb080e1e",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2add781bac78571d71e6c4cb9af8262061fe17fc8d51a45d14b3344175f8f27e"
+  },
+  {
+    "group_id": "e77cf150205be6c5bff9d8ed16fd07db0c49ea9d30facfb237718d8ee227fe09",
+    "cases": [
+      "train/banking_support/00488"
+    ],
+    "source_ids": [
+      "train/banking_support/00488/p0/a",
+      "train/banking_support/00488/p1/a"
+    ],
+    "normalized_text_sha256": "3c3a279fd6c51bf0fdc739018a2f8d260fa3a1aa399d24a5f2e119981389b6b5",
+    "evidence_fingerprints": [
+      "028d9f68b8e25b54f8d92a8048546d1d72a60c55c7ccf1a9f6b59f861d2139e5"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2b184d690e9e853b5e51ce37eb516ea800074db075d53c38a11a047519a7e73d"
+  },
+  {
+    "group_id": "abca86decaa7aaa292297d9721d176c41cded463b9b898ae5f237f821b8f0b3d",
+    "cases": [
+      "train/banking_support/00083"
+    ],
+    "source_ids": [
+      "train/banking_support/00083/p0/a",
+      "train/banking_support/00083/p1/a",
+      "train/banking_support/00083/p2/a",
+      "train/banking_support/00083/p3/a"
+    ],
+    "normalized_text_sha256": "55b6b58f0991162eaaf5e140731510defdd207d4420278bb23e3781b99434bde",
+    "evidence_fingerprints": [
+      "cc41a697cfc85c5203c8da468e155a508f0b0e309bc86dcf2586f3fde24bb39e"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2bef1daf9af11469a51a324760cf9d620673368d1346d6ded6ca1bf164b2cb03"
+  },
+  {
+    "group_id": "e4e25b9b881e9fe58dfab40607e12d0f587100380b934d75200274221bf8fd88",
+    "cases": [
+      "train/banking_support/00028"
+    ],
+    "source_ids": [
+      "train/banking_support/00028/p0/a",
+      "train/banking_support/00028/p1/a"
+    ],
+    "normalized_text_sha256": "2c93ff7aadb3297889d5e158baf14672631a1784921c535772ce0fb96dffa60d",
+    "evidence_fingerprints": [
+      "f53e09e90aa77a529f1cd5737edb7412ec507690fdc3f32dd5f2905a8aec12f9"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2d37993efa5961ae3c5bd039933772849dc8ffb6f0f8e85175ee052b9b550e9d"
+  },
+  {
+    "group_id": "fe439f191e00330032e8128180bea95793032f87a92190b8441ce39a6d8b1c19",
+    "cases": [
+      "train/banking_support/00479"
+    ],
+    "source_ids": [
+      "train/banking_support/00479/p0/a",
+      "train/banking_support/00479/p1/a",
+      "train/banking_support/00479/p2/a"
+    ],
+    "normalized_text_sha256": "e23ebbe63a7af957a8232915401a327adda14a6f3ce3f0c0aee5b5163b1d14bf",
+    "evidence_fingerprints": [
+      "d097d0a118a37bb55fdfa9b5a298459160eb87bbd3b1699b77f8bbb9dea5306c"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2d66f46114dbc30a0bc0589bbb8174d4402db1a19cf59592cbfcfd51e277c4d5"
+  },
+  {
+    "group_id": "a3e8c723c67c52cf1fd8cc056de610c064c145e70efe40a91bdd925a9502bd41",
+    "cases": [
+      "train/banking_support/00371"
+    ],
+    "source_ids": [
+      "train/banking_support/00371/p0/a",
+      "train/banking_support/00371/p1/a"
+    ],
+    "normalized_text_sha256": "b8450c14673c6c5915d38d9833386dbae0b5ada6b32159aafada4762e51bf146",
+    "evidence_fingerprints": [
+      "e51904c24124f667dc99c714c3709ef36e71210218c8369176702bf1b2c38836"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2d7e654d9fde6c4e78d68e7ebca6144041822d4c7e1d3ca6631e904ef93284ea"
+  },
+  {
+    "group_id": "f6525ce9b9d5670a710b07ebb96e6e5f939b0a2981d6c7505a51aadbe23a30c3",
+    "cases": [
+      "train/banking_support/00464"
+    ],
+    "source_ids": [
+      "train/banking_support/00464/p0/a",
+      "train/banking_support/00464/p1/a",
+      "train/banking_support/00464/p2/a",
+      "train/banking_support/00464/p3/a"
+    ],
+    "normalized_text_sha256": "a3afa80bd3ea0879bdb7d07c374f8e79901623da47086e2358bfc84169a4324d",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2e2f3d487f3e7d191f04a31da53e1a947cc1af2f2b63acb5f37d325838ea8b84"
+  },
+  {
+    "group_id": "7b7150390a25b7c30915cbfdb1556d77e1b024407cea5f198278b645352d3008",
+    "cases": [
+      "train/banking_support/00005",
+      "train/banking_support/00153",
+      "train/banking_support/00160"
+    ],
+    "source_ids": [
+      "train/banking_support/00005/p0/a",
+      "train/banking_support/00005/p1/a",
+      "train/banking_support/00153/p0/a",
+      "train/banking_support/00153/p1/a",
+      "train/banking_support/00160/p0/a",
+      "train/banking_support/00160/p1/a",
+      "train/banking_support/00160/p2/a",
+      "train/banking_support/00160/p3/a"
+    ],
+    "normalized_text_sha256": "04a3300756fca075c2dd12dc5b65aa7874e5caba2cf34dd1335d456775e56256",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2fcd9c240abd63ce3d700525129101652c808af5cc681771c08064686371746f"
+  },
+  {
+    "group_id": "df528a3c1c5ca9cabf36cf73c9c1d8c47d39ab866fdc3c3f6131902f8c123e2a",
+    "cases": [
+      "train/banking_support/00018"
+    ],
+    "source_ids": [
+      "train/banking_support/00018/p0/a",
+      "train/banking_support/00018/p1/a",
+      "train/banking_support/00018/p2/a",
+      "train/banking_support/00018/p3/a"
+    ],
+    "normalized_text_sha256": "a773b594349869a4479d96cbce4b83bc1e97c7f8b110f6215075457f07246ff1",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "2ff37ce4997ffee3966c26e1d17bfa485a06c8833b520c0d1601a5823b91b335"
+  },
+  {
+    "group_id": "7f7c1318fcedb830fbf554dce4bebefbb43d6d850e3cd4e0acb481d756a15dc4",
+    "cases": [
+      "train/banking_support/00489"
+    ],
+    "source_ids": [
+      "train/banking_support/00489/p0/a",
+      "train/banking_support/00489/p1/a"
+    ],
+    "normalized_text_sha256": "2bc84636a317453abde447d19e03bc9bcbc2f8de167e4f5a91ae36b0654a2749",
+    "evidence_fingerprints": [
+      "fcd9b3885755de9bbbddd929b5cb6ae402837e96ee98880e35770c518c4b9480"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "304615c125bb91a68ecea8edb7f3739172af5bdc761696e424e592be4bf0bd2b"
+  },
+  {
+    "group_id": "bffb28f97e31d3f469bca878ff4d1e762831d89bcfef1afee64732028d26558d",
+    "cases": [
+      "train/banking_support/00392"
+    ],
+    "source_ids": [
+      "train/banking_support/00392/p0/a",
+      "train/banking_support/00392/p1/a"
+    ],
+    "normalized_text_sha256": "571c3b9565f0e0726ad9905e2ec9467f02d0d2c06d50ab0efcf78fc418d2752a",
+    "evidence_fingerprints": [
+      "332f5573dc7866cd78a09ceb6461feb9c87aef6ba949eb67d6fa32df3ca6a540"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "31ddd31b590a5175cb00668d0811e409dad6c5170c23895dba7bc07a78477517"
+  },
+  {
+    "group_id": "af88964cafc49fa17aa9c28aef767d563a48e8a48701b27de9a443d19ed7af94",
+    "cases": [
+      "train/banking_support/00285"
+    ],
+    "source_ids": [
+      "train/banking_support/00285/p0/a",
+      "train/banking_support/00285/p1/a",
+      "train/banking_support/00285/p2/a",
+      "train/banking_support/00285/p3/a"
+    ],
+    "normalized_text_sha256": "09a7a84a161c9af203e9dc6c3387a6c18fd51c36226d6292a4db2006f1b98368",
+    "evidence_fingerprints": [
+      "e240e9a677792a92da64840f6ce035c6c2bbb4b48fd50e11bb244acb3f2b521e"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "32cd57ca9b00628313cc225282629db7143ea14c05762a6b034c255fae27ae44"
+  },
+  {
+    "group_id": "69d4bd1b7d7c3d78cb3c7adcc9f1505483e21c88f29905a5361da0c52c0f8f93",
+    "cases": [
+      "train/banking_support/00170"
+    ],
+    "source_ids": [
+      "train/banking_support/00170/p0/a",
+      "train/banking_support/00170/p1/a",
+      "train/banking_support/00170/p2/a"
+    ],
+    "normalized_text_sha256": "63ff6dff652d44c5d651190dc3eb94c8e145d738e5d0f5c9ec55c3762dae150b",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "331b1cb35925df4600835509b6057c166bb09bdf42423289d8897b8f3bdf57f2"
+  },
+  {
+    "group_id": "e3d498d9232839638d12265cd4505dce58419ce1f520df7cb50fddd7cfbc7fed",
+    "cases": [
+      "train/banking_support/00328"
+    ],
+    "source_ids": [
+      "train/banking_support/00328/p0/a",
+      "train/banking_support/00328/p1/a",
+      "train/banking_support/00328/p2/a",
+      "train/banking_support/00328/p3/a"
+    ],
+    "normalized_text_sha256": "b891666303b90d3d75f665f60b3232eb5108e5e0e968f28a3573db352fad43ae",
+    "evidence_fingerprints": [
+      "fcd1362f50450094395d73312b3ecea585ea298b1baf6591ad110d48c0aedd58"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "34733e06566a9f2aff07fccb847c5dc0b6e2a241729ca87ab9f339af44b9fbae"
+  },
+  {
+    "group_id": "99000e44a5d48a6f0c390fc45910160cffe86a684929e8db2c7be99cd4efca26",
+    "cases": [
+      "train/banking_support/00104"
+    ],
+    "source_ids": [
+      "train/banking_support/00104/p0/a",
+      "train/banking_support/00104/p1/a"
+    ],
+    "normalized_text_sha256": "b8882db4e47f33cefd3a618c10a57953b06c44c12ef45150b2969ee0b42255c3",
+    "evidence_fingerprints": [
+      "910a0f80804ea9db8044a20a0cc002270d1489ae526f894879174d1aec4fc446"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "34d09b32ea7c83753d28205759bd367b920c35958bfede30cf2e2d0f2a12814e"
+  },
+  {
+    "group_id": "b258a8e6262beddac93e167be4f1f9be21fcc2d202d790ee96cf79b81b19f91a",
+    "cases": [
+      "train/banking_support/00382"
+    ],
+    "source_ids": [
+      "train/banking_support/00382/p1/a",
+      "train/banking_support/00382/p2/a"
+    ],
+    "normalized_text_sha256": "c2677bf8f03815b13207bb8943ac1f1b59b0cf08c72f5d7e112fa6753b3d8bfd",
+    "evidence_fingerprints": [
+      "028d9f68b8e25b54f8d92a8048546d1d72a60c55c7ccf1a9f6b59f861d2139e5"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "35f0fcd593434dddbd461071863fcb324e385f90a92776018fc506eb4571a7b1"
+  },
+  {
+    "group_id": "980bf3cb68be0cc9243fa116cd6588f51e60121f5fb3b8d63657b172b3107ad9",
+    "cases": [
+      "train/banking_support/00200"
+    ],
+    "source_ids": [
+      "train/banking_support/00200/p0/a",
+      "train/banking_support/00200/p1/a",
+      "train/banking_support/00200/p2/a"
+    ],
+    "normalized_text_sha256": "7c6339fb1b5e50c3ff1e8b6b0b0229fac8ea3740f88a32672c2cd81727b20bb9",
+    "evidence_fingerprints": [
+      "4bb2c21496f885244e19aa0b907a141d06cf67ec4f9acbde55ae5630e96dadc3"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3615cddeaf04fadd75e1a6283ea9db80bdf02bca3bf0feb89650083f14df57e4"
+  },
+  {
+    "group_id": "5c6a53fdc4f46b9ac6e5495d7dd60529ed56dc00aace12c50c8a1b1ceeba978c",
+    "cases": [
+      "train/banking_support/00297"
+    ],
+    "source_ids": [
+      "train/banking_support/00297/p0/a",
+      "train/banking_support/00297/p1/a",
+      "train/banking_support/00297/p2/a"
+    ],
+    "normalized_text_sha256": "42fbf9e0ab9403056f163cf86df9a45f668c170b144770517a6da125865fe780",
+    "evidence_fingerprints": [
+      "f0090a7707364be7a4705363d75bb5700e6ed454c3fd4c064cc46a4a5ce1429d"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "369cd54d75c868dbdabf7524755dad820cc3f4b1dcf247c17dd96672c92da317"
+  },
+  {
+    "group_id": "c1606df0a0de6ac76b72ccb63d703af6936f2298e109a7800edb21092d485152",
+    "cases": [
+      "train/banking_support/00078"
+    ],
+    "source_ids": [
+      "train/banking_support/00078/p0/a",
+      "train/banking_support/00078/p1/a",
+      "train/banking_support/00078/p2/a",
+      "train/banking_support/00078/p3/a"
+    ],
+    "normalized_text_sha256": "f5c3fe7783eddac93e09f9690341051f5e6425a833d51ef1ea9434cb32c0689b",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3745ccec86a492fe0218a948d768a36562567bae84c4d7b890033c7a0daa2c7c"
+  },
+  {
+    "group_id": "866263624bbf5632a57adace09a93cff72288736c5fabadab408abb80050b68d",
+    "cases": [
+      "train/banking_support/00064"
+    ],
+    "source_ids": [
+      "train/banking_support/00064/p0/a",
+      "train/banking_support/00064/p2/a"
+    ],
+    "normalized_text_sha256": "0026ea4a5425862c5db5b228ed0171bef87c2a7662e55e6135abc943a8dcb1c2",
+    "evidence_fingerprints": [
+      "d4f2e0e7d57245dc1d2d0be59c44d52572c0b009bf555b91f39e5f7c3f184c82"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "37c019eb6e3c02f8760ea059bd9466156c740ebfafc922d80374e089e289e59d"
+  },
+  {
+    "group_id": "f9cddd57d5c6fc91aa629269432878ca1e35c6493966493085488fde9a912cd3",
+    "cases": [
+      "train/banking_support/00219"
+    ],
+    "source_ids": [
+      "train/banking_support/00219/p0/a",
+      "train/banking_support/00219/p1/a"
+    ],
+    "normalized_text_sha256": "e67d6f6443c9962543651e9bd1685da138fee723dbe09d9fcef13e1cf5e5ffb8",
+    "evidence_fingerprints": [
+      "d2ed354865833df765af5fcd7eb517a127ee4b99a0b2b89ed0879e0edb5482c4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "37c173bd4be2703d85b3cbb2dfc11fe27e454f652715dc8b224dfd84ef27bb4b"
+  },
+  {
+    "group_id": "9627d31f3cdce8f0463f4f2cbb6456a83437d08c5db8e67ce1163232fdefc30a",
+    "cases": [
+      "train/banking_support/00080"
+    ],
+    "source_ids": [
+      "train/banking_support/00080/p0/a",
+      "train/banking_support/00080/p1/a",
+      "train/banking_support/00080/p2/a"
+    ],
+    "normalized_text_sha256": "e1a94e89abfe6042a7e66763b2b49a9c5098779d3c88fd0d4d7fccbe65858e82",
+    "evidence_fingerprints": [
+      "667e53e00071cdb44b4fd320a137679a781faaf2c21e61c168b727a8b6426f82"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "393ec448888f8e9d2b775a21a45f070d8c8db7e5b5934640017688fc551e8919"
+  },
+  {
+    "group_id": "bcbc4dbf36ce00247982d91b6ef736ff6a32d331736d565dd7b104169694b369",
+    "cases": [
+      "train/banking_support/00240"
+    ],
+    "source_ids": [
+      "train/banking_support/00240/p0/a",
+      "train/banking_support/00240/p1/a",
+      "train/banking_support/00240/p2/a"
+    ],
+    "normalized_text_sha256": "651f29feba75291a806353338db9622f2016a2e7c1a853e0873410ee236a70bc",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "39898a8b3e0afc80924a2d1f9706ce75be7c75a7acee6afd1cedb74d8d65f4bd"
+  },
+  {
+    "group_id": "c919642784e90399e56c064611e9bb4515c0061d62fc566192847a13463fd961",
+    "cases": [
+      "train/banking_support/00227"
+    ],
+    "source_ids": [
+      "train/banking_support/00227/p0/a",
+      "train/banking_support/00227/p1/a",
+      "train/banking_support/00227/p2/a"
+    ],
+    "normalized_text_sha256": "513b6d1458ceaafe51e75de16fdeb30f2ab04476bf3b7c305931e8241f1bd409",
+    "evidence_fingerprints": [
+      "52a417bf88c87202ffdb4bfda1c5a2854d1e7f6ff1f91afdfd00ce9295d9ac24"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "39e99b99d9f851d74768aac952cd61e5dffffdd1f22754c43c344a16f117d29a"
+  },
+  {
+    "group_id": "ccc62286c1e1521c90cc83db981f5005cac00d595a483c04ab46a56508a2aeeb",
+    "cases": [
+      "train/banking_support/00498"
+    ],
+    "source_ids": [
+      "train/banking_support/00498/p0/a",
+      "train/banking_support/00498/p1/a",
+      "train/banking_support/00498/p2/a",
+      "train/banking_support/00498/p3/a"
+    ],
+    "normalized_text_sha256": "0d66b8ada193af36e014e8783d9e0af8d8ac524e3cd7c9e13a87a5d29ba7e57e",
+    "evidence_fingerprints": [
+      "a14d0fd3e6116949475074d572d4f8a46b79cd14745fa558bf855ba15be71756"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3b4646cc4d161500c7fafd56ad8f7772af57bf9d4641d488f7d4b51fbc85d717"
+  },
+  {
+    "group_id": "d7db99857ca15ef7a0fe610aefa8cf4fe3d97780198714ec605c816f586c9ef0",
+    "cases": [
+      "train/banking_support/00319"
+    ],
+    "source_ids": [
+      "train/banking_support/00319/p0/a",
+      "train/banking_support/00319/p1/a",
+      "train/banking_support/00319/p2/a"
+    ],
+    "normalized_text_sha256": "3ff131d91aad8b4e769ba98681baf7d6870e72aee0150337debad9b37f774851",
+    "evidence_fingerprints": [
+      "332f5573dc7866cd78a09ceb6461feb9c87aef6ba949eb67d6fa32df3ca6a540"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3bd2d6d6c3144e1b411b59a6032ac646aa8520ec95fc2a25f9214498e15af5ac"
+  },
+  {
+    "group_id": "eac76f3ce7f427cd0584ee5a2fa006fd8ae0481522eb25bfa5a807fe76f05176",
+    "cases": [
+      "train/banking_support/00435"
+    ],
+    "source_ids": [
+      "train/banking_support/00435/p0/a",
+      "train/banking_support/00435/p1/a"
+    ],
+    "normalized_text_sha256": "c9708e89a9efdd387ac695c506974292d8d6406855fc1cea8d73818444bb76dc",
+    "evidence_fingerprints": [
+      "9f563f8118927b37ab847d9f21c1fd960c3e5ebe86f61c7ddf3b3007edcfcf01"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3d59af9e706420e43a6d857a9ea13499d4048adcb67bcf0026f5b4cae11a6fe3"
+  },
+  {
+    "group_id": "ff111782ba8ce40509a93f9626feafc2fdca937d28c1ad427cee4a51307eb54d",
+    "cases": [
+      "train/banking_support/00081"
+    ],
+    "source_ids": [
+      "train/banking_support/00081/p0/a",
+      "train/banking_support/00081/p1/a",
+      "train/banking_support/00081/p2/a",
+      "train/banking_support/00081/p3/a"
+    ],
+    "normalized_text_sha256": "025dd2b65885270b35ce07472ea2427c25b899c0694af0bb16ac02620cb22c86",
+    "evidence_fingerprints": [
+      "f53e09e90aa77a529f1cd5737edb7412ec507690fdc3f32dd5f2905a8aec12f9"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3dfb1bc2c5cddd2e31bdf93453890ab113afc7136f91f06edafe0cb82aecec82"
+  },
+  {
+    "group_id": "d602c3e4f4b12ef29c493a7181c5c39397c9ec23781321a9c3e00704859399fa",
+    "cases": [
+      "train/banking_support/00277"
+    ],
+    "source_ids": [
+      "train/banking_support/00277/p0/a",
+      "train/banking_support/00277/p1/a",
+      "train/banking_support/00277/p2/a",
+      "train/banking_support/00277/p3/a"
+    ],
+    "normalized_text_sha256": "b10bcc52b27260b2caff3ecf0013c4a35b08afff0d0cf10a9722c6a4569491c2",
+    "evidence_fingerprints": [
+      "2a6b05f48b1324270607ae392a1538a4a42c375f245ba37daf1413176b2638c8"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3eae52c368652da815bbdb087faef8d40c1cb6e6191965af40a7c0e17b80525b"
+  },
+  {
+    "group_id": "ee15464b6dfd3cfa5bf1ad093a067ded67d40337810d3acf1ed7101149f8542e",
+    "cases": [
+      "train/banking_support/00335"
+    ],
+    "source_ids": [
+      "train/banking_support/00335/p0/a"
+    ],
+    "normalized_text_sha256": "652899f9bd0dc504dabbac08e308e9e55310b4775229726c00d54e442659909a",
+    "evidence_fingerprints": [
+      "a96e13171a9a7e71ca4c814132b108880d126a4e76de70cd900f9e28f2a82fb4"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3efa0af3420d0fefe56a0040e176ed245e0440388cf51789a1e59fa2a734472b"
+  },
+  {
+    "group_id": "f0dfc8c49950469066ae75161c1e6311b14e47c5460e721909d46c8ac81fcc43",
+    "cases": [
+      "train/banking_support/00360"
+    ],
+    "source_ids": [
+      "train/banking_support/00360/p0/a",
+      "train/banking_support/00360/p1/a",
+      "train/banking_support/00360/p2/a"
+    ],
+    "normalized_text_sha256": "4dcb8dc706bda3b5e6a409af5ada555eba33c4c8fb581e308a1a763871389f02",
+    "evidence_fingerprints": [
+      "4f9b63712ac9905d42d2d65384d8d51c35a4ab6d28e868ae9d253a99d524f071"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3fa1bb5f95362b39bea98b57eba745b94aadbff542561ed4a7ed5d57d1a095fd"
+  },
+  {
+    "group_id": "699941bc243c569b31cda7e1b09f4a7e9d9d47fad84247ee5cceb730668e623b",
+    "cases": [
+      "train/banking_support/00312"
+    ],
+    "source_ids": [
+      "train/banking_support/00312/p0/a",
+      "train/banking_support/00312/p1/a",
+      "train/banking_support/00312/p2/a",
+      "train/banking_support/00312/p3/a"
+    ],
+    "normalized_text_sha256": "daf679f8b6095ffee4f34b2aec082d3ed8ebc9728dd1a97a539a77a4daea8bcc",
+    "evidence_fingerprints": [
+      "5155c096519f7e9ddf5d18cbbbe27d5bd9cc9b2ea77d01e9b1163af33be04066"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "3fd4c1fcf5edbee3bff44fc475a29e7e9858109cf6ab6e5e3bbe67919a16b2f6"
+  },
+  {
+    "group_id": "d6ac23e8f214c13479aea21bf8ed5b009e20a70a3d303a2bb988132a6ec1e451",
+    "cases": [
+      "train/banking_support/00185"
+    ],
+    "source_ids": [
+      "train/banking_support/00185/p0/a",
+      "train/banking_support/00185/p1/a",
+      "train/banking_support/00185/p2/a",
+      "train/banking_support/00185/p3/a"
+    ],
+    "normalized_text_sha256": "f90468a05e00a6fe996c8ca6896ff4e892421b08de5bde26de1fe8e43d25a5ac",
+    "evidence_fingerprints": [
+      "cc41a697cfc85c5203c8da468e155a508f0b0e309bc86dcf2586f3fde24bb39e"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "41452306049d54c5a9edd08871be2a97c8eb3bcbfb73a4123ac5b69008cc03d8"
+  },
+  {
+    "group_id": "8a9fc5f3808bcc830ac1e8adc7172477b55615ef4450818051f17a755737fa1f",
+    "cases": [
+      "train/banking_support/00134"
+    ],
+    "source_ids": [
+      "train/banking_support/00134/p0/a",
+      "train/banking_support/00134/p1/a"
+    ],
+    "normalized_text_sha256": "de1e3d444e5f120618ed46d51045f63df19a82885cbad57dce97f34eb1656de7",
+    "evidence_fingerprints": [
+      "3968521a390ca10a2ced50caca132611bcd9ea0de0454b5b62ddb7df19e4bfa3"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "42222cb72baa838ec2bc13bcf25debd4cb044357bc14ed30c663de10e0b331f3"
+  },
+  {
+    "group_id": "cb3fe2940798510c57f66eca6fe8dedea7883d0ccc016d01358a7bcd9a8b9738",
+    "cases": [
+      "train/banking_support/00196"
+    ],
+    "source_ids": [
+      "train/banking_support/00196/p0/a",
+      "train/banking_support/00196/p1/a",
+      "train/banking_support/00196/p2/a",
+      "train/banking_support/00196/p3/a"
+    ],
+    "normalized_text_sha256": "7b3f605bd9a20f1a931a0ba77ef22cf94186e4b4483c7e00913082066bc2de76",
+    "evidence_fingerprints": [
+      "910a0f80804ea9db8044a20a0cc002270d1489ae526f894879174d1aec4fc446"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "42eb14ebf095fb73fef7f3320d7a29c9aff2176dd14a74940bf87c0c1e985ac5"
+  },
+  {
+    "group_id": "a52ff828a9a3a0c6491656a147a1886367cee4e6a317d394accb453e94ec93ce",
+    "cases": [
+      "train/banking_support/00362"
+    ],
+    "source_ids": [
+      "train/banking_support/00362/p0/a",
+      "train/banking_support/00362/p1/a",
+      "train/banking_support/00362/p2/a"
+    ],
+    "normalized_text_sha256": "fd68d0e3edcf935af87e01745ba8819da5ff4c1838218e6726cb45b7b20f0b56",
+    "evidence_fingerprints": [
+      "890ba465729b6d6099e24670df31eeaab5f9d63ddcd355a32c8bac2084bdc64b"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "43cfb12c57ef8014a97a6c7f72b3d5e18c1b36a055c64b7e4d1f85b65ded92d0"
+  },
+  {
+    "group_id": "8ebd43dc0fec087c66418799d941971b3689a309829c82a1846547e1bf9ee76b",
+    "cases": [
+      "train/banking_support/00006"
+    ],
+    "source_ids": [
+      "train/banking_support/00006/p0/a",
+      "train/banking_support/00006/p1/a",
+      "train/banking_support/00006/p2/a",
+      "train/banking_support/00006/p3/a"
+    ],
+    "normalized_text_sha256": "cfc06efcfdc7eff21b7e4f6457635c47f4d643711c4a6c3876340ef5abfcbf10",
+    "evidence_fingerprints": [
+      "f0554c28349af599ef4750badbbc03ee4c463a8aa6c1a1427efe50ac3c8f1f0a"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "44b5eca33df018ea9a8d471ae4f624ce499d9dcae4334410da8b2a7d07bf4bc3"
+  },
+  {
+    "group_id": "96cc5896f33d4512470403bd32189b64099c488297f8658f4117ff7948e83bb0",
+    "cases": [
+      "train/banking_support/00216"
+    ],
+    "source_ids": [
+      "train/banking_support/00216/p0/a",
+      "train/banking_support/00216/p1/a",
+      "train/banking_support/00216/p2/a",
+      "train/banking_support/00216/p3/a"
+    ],
+    "normalized_text_sha256": "8764a7c06d8572e30f8d50cbb47e1bd314bdb3906f6bd8f78441d458aa037712",
+    "evidence_fingerprints": [
+      "d4f2e0e7d57245dc1d2d0be59c44d52572c0b009bf555b91f39e5f7c3f184c82"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "455791667ca791d65029f320d03274d1c9f897adbaa7b3a22dc95af2b1cf1578"
+  },
+  {
+    "group_id": "e3ac9b1edfe3cf141014f3fa1bba8b4133def59056a27e7a903e6ec79f4d6caf",
+    "cases": [
+      "train/banking_support/00209"
+    ],
+    "source_ids": [
+      "train/banking_support/00209/p0/a",
+      "train/banking_support/00209/p1/a",
+      "train/banking_support/00209/p2/a",
+      "train/banking_support/00209/p3/a"
+    ],
+    "normalized_text_sha256": "6761e49aee748e4edea1103772e2681ef8792988d9e324e7c6f45294c1fb1bb4",
+    "evidence_fingerprints": [
+      "65ec3d3573e6751d92694d2c28207ae9f2bb41315d3406196407fa6d8225c6eb"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "4680eae1df79c033035db9bade1418a86a42d0ff51ae2784f977d78d827c58b3"
+  },
+  {
+    "group_id": "eef8dbab3ed30118d7fecbf23c8b9ec75b014b0ba8ce73f5478a84e796b6e298",
+    "cases": [
+      "train/banking_support/00266"
+    ],
+    "source_ids": [
+      "train/banking_support/00266/p0/a",
+      "train/banking_support/00266/p1/a"
+    ],
+    "normalized_text_sha256": "ace3c396be088d124e09048119a8d34cbd19c1834b72f6fa3d2554a1bd276239",
+    "evidence_fingerprints": [
+      "7ea9cca5bb6237aa9f3897be1e3cd97a37fef3e58a00d5ff22de690d1c930b78"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "46a6325aa116c7afec21cfad58657897268e6a36acf60ec4b3955ffcaeda91e8"
+  },
+  {
+    "group_id": "8898db08c081cf53383343eecb05df4e30566ca0f495483d0f0dfeb05d9c4316",
+    "cases": [
+      "train/banking_support/00128"
+    ],
+    "source_ids": [
+      "train/banking_support/00128/p0/a"
+    ],
+    "normalized_text_sha256": "757d1192bec56c8f50ecf347633983ba04b0b6bf4899cdffd1c068d0b1111051",
+    "evidence_fingerprints": [
+      "028d9f68b8e25b54f8d92a8048546d1d72a60c55c7ccf1a9f6b59f861d2139e5"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "46bddfcbb0ffc36bfc085a5b2017b2e239334e75d885bffc98f63d37070a9fa8"
+  },
+  {
+    "group_id": "8091291ba30c4b0e9f744fb20a6a82eabbf624d0b7f43dd0fb7c8735d181f369",
+    "cases": [
+      "train/banking_support/00107"
+    ],
+    "source_ids": [
+      "train/banking_support/00107/p0/a",
+      "train/banking_support/00107/p1/a"
+    ],
+    "normalized_text_sha256": "059a9b0cf5fafafab1476f786773516bd7b63baa980477af51ea9e69e1282214",
+    "evidence_fingerprints": [
+      "0bc2c3bcf15159b17353baf1ca2cfe0bc8f27b8d77b53c2f267cf97ef506d116"
+    ],
+    "evidence_conflict": false,
+    "rank_score": "492d86993b33e63ae7a3fe301c2f30f243a0d389b692cdb896cd81dd3060bad0"
+  }
+]

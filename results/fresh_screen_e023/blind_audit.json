@@ -1,0 +1,422 @@
+[
+  {
+    "unit_id": "I-c29bdfc47672a302",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nI hope this message finds you well.\n\nMy name is Hannah. I am writing to you today because I require some assistance with a matter regarding my banking affairs. I have encountered a situation that needs your professional attention and expertise to resolve.\n\nPlease let me know what information you require from my side to proceed with this inquiry. I am available to provide any necessary details to facilitate a prompt resolution.\n\nThank you for your time and assistance.\n\nSincerely,\n\nHannah"
+      }
+    ]
+  },
+  {
+    "unit_id": "I-5d757d55823fe529",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, I am having trouble with a failed payment. Could you please help me resolve this issue?"
+      }
+    ]
+  },
+  {
+    "unit_id": "I-16f9b183cabc1c5f",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I need some help with something regarding my account. Could you please assist me?"
+      }
+    ]
+  },
+  {
+    "unit_id": "I-a96e68031aaa87bc",
+    "messages": [
+      {
+        "role": "user",
+        "content": "My money hasn’t left my account yet, so what is going on? I’ve been trying to resolve this for hours. I need immediate assistance. I don’t want to hear excuses about processing times or technical issues. Just tell me what needs to be done to fix this right now. I am extremely frustrated with the lack of clear information. Stop asking me to wait and start solving the problem. I expect this to be handled immediately. Do not tell me to call another department. I am here, I am ready, and I need a solution now. This is unacceptable."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-554ad279982f14db",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I’m sitting on my couch with a cup of coffee that is rapidly getting cold, and I just realized I have a question about my account. I need some help with something, but I haven’t quite figured out the specifics yet. I was just scrolling through the app while waiting for my toast to pop up, and something looked a bit off, or maybe I’m just overthinking it. Could you point me in the right direction? I’m not sure where to start, so any guidance on how to proceed would be appreciated. I can provide more details once we’re connected, but for now, I just need a bit of assistance."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-e9a23a27227af49e",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, my name is Ravi. I’m reaching out because I’m feeling a bit lost regarding my account. There seems to be something off, but I’m not entirely sure what the specific issue is. I’m confused about which details are actually important for you to know to help me. I’m not sure if I should be looking at balances, transaction histories, or something else. I just know that I need some assistance right now, but I don’t quite understand what information you need from me to get this sorted out. Could you please guide me? I want to make sure I’m providing the right context without missing anything crucial. Thank you for your patience with my confusion."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-f65d2fe8dd9a9f07",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi there, its me, mehmet. i need some help with my loan. yeah, i already know the money has left my account, but i just wanted to check in on it. everything else seems fine, but i wanted to make sure. thanks!"
+      }
+    ]
+  },
+  {
+    "unit_id": "I-00063a2fe2a70432",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey, im mehmet. need some help with something on my savings. its a change request. money hasnt left my account yet so no worries there. also i am not asking for money back as compensation or anything like that. just need to sort this change out. let me know what you need from me to proceed. thanks."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-e021b244ba37e60f",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I have a quick question regarding a fee on my account. I am not looking for any compensation or refund, just some clarification. I’ve been meaning to reach out sooner, but I got distracted trying to assemble my new IKEA bookshelf; the instructions were confusing. Anyway, back to the bank issue. I noticed a charge I didn’t fully understand and would like to know why it was applied. Could you help me look into this? I’d appreciate any details you can provide about the specific fee. Thanks."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-112fda116b5db182",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I have a question about a fee on my card. I noticed the money has already left my account. I am not asking for any compensation."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-3117df63e0d73709",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi, i’m hannah. i need some help with something. i have a question about my savings account fees. i noticed a charge i didn’t expect. yes, the money has already left my account. i’m not asking for that money back as compensation or anything, i just want to understand why it happened. could you check on this for me? thanks."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-a46b30b110aa1cfd",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, I need assistance regarding a loan. Please let me know how to proceed."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-c3ef6a53bd046287",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, i have a quick fee question regarding my loan. i noticed that money has already left my account, which is confusing me. since this charge seems incorrect, i would like to ask for the money back as compensation. could you please help me sort this out? thanks, pavel"
+      }
+    ]
+  },
+  {
+    "unit_id": "I-0565ba3c1028aad4",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I’m Elena. My day has been surprisingly busy with a sudden rainstorm that caught me completely off guard, so I’m sitting here drying off while trying to sort this out. I have a question regarding my current account and need some assistance. I am not looking for any monetary compensation or refund for this matter. I just need clarity on how to proceed. Could you please guide me on the next steps? Thanks."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-bddbf797873c6b89",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I’m Kenji. I have a question about a fee. I can confirm that the money has already left my account. I am asking for the money back as compensation."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-34ff5de35a8beccd",
+    "messages": [
+      {
+        "role": "user",
+        "content": "*   I am writing to clarify the nature of my inquiry.\n*   Please note that I am not requesting any monetary compensation or refund for the situation.\n*   I need assistance resolving the issue, but I am not seeking financial redress.\n*   I would appreciate guidance on the next steps to take regarding this matter."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-3e64f7509fd654e9",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, my name is Lucas. I am writing to express my frustration with the service I have received. I am not asking for any financial compensation or money back. I just want my issue resolved properly. The current situation is unacceptable, and I am quite angry about how this has been handled so far. Please let me know who can actually help me with this matter. I expect a prompt response and a genuine solution, not just standard excuses. I have been waiting long enough, and I need someone to take this seriously immediately."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-cfefefb8060f18a4",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, this is Sofia. I’m extremely frustrated because I’ve been waiting far too long for a resolution. It is clear that the money has already left my account, yet I still have no clarity on the status of this transaction. This issue concerns my card. I am not here to discuss technicalities or blame; I simply need this fixed immediately. Specifically, I am asking for money back as compensation for the trouble and stress this situation has caused me. My patience has run out, and I expect a concrete solution and the refund without further delay. Please handle this with the urgency it deserves."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-f928fb3833e404e9",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey i need some help with something"
+      }
+    ]
+  },
+  {
+    "unit_id": "I-3f083b14904306bb",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need help with my card. Please advise."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-2c3e89eefb2565c5",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello. My name is Hannah. I need some help with something. I see a charge on my statement that I do not recognize. I am not sure what this is for. I would like to know more about it. Please let me know what is happening. I am writing to ask for assistance regarding this unrecognized charge. I hope you can help me understand this transaction. Thank you."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-332a0789b3653583",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am incredibly frustrated with the loan situation. You need to fix this immediately. I have tried contacting support multiple times and get nowhere. The loan itself is causing me significant stress and inconvenience. I don’t want excuses or long wait times. I just want this resolved. This level of service is unacceptable. Please escalate this to someone who can actually help. I am done waiting in circles. Do not tell me to check my email again. I have done that. I need a direct answer now. This is about the loan product specifically, and the issues surrounding it are unacceptable. Fix it."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-ba1578bff17a0c57",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I’m Mateo. I need help with an unrecognized charge on my current account. The money has already left my account, and I am asking for it back as compensation."
+      }
+    ]
+  },
+  {
+    "unit_id": "I-e033afb1c14b0df1",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Yusuf. I am writing regarding an issue with my current account. I have noticed an unrecognized charge on my statement. Please note that the money in question has not yet left my account.\n\nI would appreciate your assistance in clarifying this matter. Could you please investigate this discrepancy?\n\nThank you for your time and help.\n\nSincerely,\n\nYusuf"
+      }
+    ]
+  },
+  {
+    "unit_id": "R-209da78ae9a20dc6",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I need some help with something regarding my account. Could you please assist me?"
+      },
+      {
+        "role": "assistant",
+        "content": "Are you asking us to compensate you for this?"
+      },
+      {
+        "role": "user",
+        "content": "I’m not sure if that’s what you mean."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-43af2a37e07e3241",
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am absolutely done with this nonsense. I am writing to you about my loan, and I need this resolved immediately. Do not misunderstand: I am not asking for any money back or compensation. I do not want a refund. I just want the loan situation fixed so I can stop dealing with your incompetent staff. I have tried calling, I have tried emailing, and nothing gets done. My first name is irrelevant to the fact that you have failed to provide basic service. I expect a competent agent to take over this chat right now and actually solve the issue with the loan product I hold with your bank. Stop wasting my time with automated responses or transfers. Fix it. Now."
+      },
+      {
+        "role": "assistant",
+        "content": "Has any money already left your account?"
+      },
+      {
+        "role": "user",
+        "content": "I honestly don't know if any money has left my account, I just want this resolved. Please stop asking questions and fix the loan situation now."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-497d90ec0854edf7",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey i need some help with something"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you tell me what exactly went wrong?"
+      },
+      {
+        "role": "user",
+        "content": "It's an unrecognized charge. No, I'm not asking for a refund."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-507d5e377ab40186",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello. My name is Hannah. I need some help with something. I see a charge on my statement that I do not recognize. I am not sure what this is for. I would like to know more about it. Please let me know what is happening. I am writing to ask for assistance regarding this unrecognized charge. I hope you can help me understand this transaction. Thank you."
+      },
+      {
+        "role": "assistant",
+        "content": "Are you asking us to compensate you for this?"
+      },
+      {
+        "role": "user",
+        "content": "I’m not sure if I’m asking for compensation or not. I just want to understand what the charge is for."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-5b2680dcc464a9b1",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I have a question about my loan. I’m currently sitting in my car waiting for an appointment that is probably running late again, which is just typical for this time of week. Anyway, back to the bank stuff. I need some help with the loan product specifically. I’m not sure if I should be contacting support directly or if there is a different process I’m missing. Please let me know how I can proceed. Thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Are you asking us to compensate you for this?"
+      },
+      {
+        "role": "user",
+        "content": "I'm not entirely sure if that's what you mean, or if it’s something else entirely."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-61e5fe4f5278d031",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I have a quick question regarding a fee on my account. I am not looking for any compensation or refund, just some clarification. I’ve been meaning to reach out sooner, but I got distracted trying to assemble my new IKEA bookshelf; the instructions were confusing. Anyway, back to the bank issue. I noticed a charge I didn’t fully understand and would like to know why it was applied. Could you help me look into this? I’d appreciate any details you can provide about the specific fee. Thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Which of your products is this about: a card, a current account, a loan or a savings account?"
+      },
+      {
+        "role": "user",
+        "content": "This is regarding my card. And to confirm, I am not asking for any compensation or a refund."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-6ab13290e7563ad8",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi, i’m hannah. i need some help with something. i have a question about my savings account fees. i noticed a charge i didn’t expect. yes, the money has already left my account. i’m not asking for that money back as compensation or anything, i just want to understand why it happened. could you check on this for me? thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Has any money already left your account?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, the money has already left my account. I just want to understand why the charge happened."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-6baf718dde74f89a",
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey, i need some help with my card. it seems like money has already left my account. i’m not sure what exactly happened, but the funds are gone. can you please look into this for me? i’m a bit confused about the status. thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you tell me what exactly went wrong?"
+      },
+      {
+        "role": "user",
+        "content": "It was a lost card."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-7600dd20326de5f7",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I’m sitting on my couch with a cup of coffee that is rapidly getting cold, and I just realized I have a question about my account. I need some help with something, but I haven’t quite figured out the specifics yet. I was just scrolling through the app while waiting for my toast to pop up, and something looked a bit off, or maybe I’m just overthinking it. Could you point me in the right direction? I’m not sure where to start, so any guidance on how to proceed would be appreciated. I can provide more details once we’re connected, but for now, I just need a bit of assistance."
+      },
+      {
+        "role": "assistant",
+        "content": "Has any money already left your account?"
+      },
+      {
+        "role": "user",
+        "content": "No, no money has left my account yet. It’s a change request."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-7a7b178f55a8e549",
+    "messages": [
+      {
+        "role": "user",
+        "content": "*   I am contacting you regarding an issue with my current account.\n*   Money has already left my account.\n*   I am not asking for any compensation or refund for this matter.\n*   Please advise on the next steps."
+      },
+      {
+        "role": "assistant",
+        "content": "Which of your products is this about: a card, a current account, a loan or a savings account?"
+      },
+      {
+        "role": "user",
+        "content": "The issue is about my current account."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-b93a27bc5d1c07bb",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Leila. I am writing to you today regarding my current account. I require assistance with this specific product. Please review my account details and let me know how we can proceed. I look forward to your prompt response.\n\nSincerely,\n\nLeila"
+      },
+      {
+        "role": "assistant",
+        "content": "Has any money already left your account?"
+      },
+      {
+        "role": "user",
+        "content": "It is hard to say for sure if funds have left the account yet, as it is still unclear."
+      }
+    ]
+  },
+  {
+    "unit_id": "R-f89480751a6befc9",
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jonas here. I’ve been trying to get this sorted out for ages and I’m honestly getting fed up with the lack of progress. It’s been way too long for something that should have been resolved weeks ago. I don’t care about the technical details or the internal processes right now; I just want a concrete answer on what is actually going on. My patience is running thin, and I’m losing confidence in the service I’ve been paying for. Please stop giving me vague updates and tell me exactly when this will be fixed. I expect immediate attention to this matter because the current level of support is unacceptable."
+      },
+      {
+        "role": "assistant",
+        "content": "Which of your products is this about: a card, a current account, a loan or a savings account?"
+      },
+      {
+        "role": "user",
+        "content": "Honestly, I’m not entirely sure if this is related to the savings account or the current account. It could be either one, and I’m still trying to pin down exactly which product is involved."
+      }
+    ]
+  }
+]

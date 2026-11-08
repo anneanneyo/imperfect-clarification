@@ -1,0 +1,15 @@
+{
+  "status": "local_mock_checks_passed",
+  "network_calls": 0,
+  "checks": [
+    "decode",
+    "incomplete_rejected",
+    "call_limit",
+    "resume",
+    "payload_allowlist",
+    "scoring",
+    "constant_answer_zero_gain",
+    "model_mixing_rejected",
+    "stop_on_error"
+  ]
+}

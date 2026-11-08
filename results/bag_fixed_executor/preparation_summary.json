@@ -1,0 +1,193 @@
+{
+  "variants": {
+    "belief": {
+      "rows": 1832,
+      "active_replies": 76,
+      "eligible_branches": 49,
+      "exclusion_reasons": {
+        "missing_or_invalid_explicit_goal": 27
+      },
+      "batch_sizes": {
+        "107": 76
+      }
+    },
+    "prompt": {
+      "rows": 1832,
+      "active_replies": 145,
+      "eligible_branches": 0,
+      "exclusion_reasons": {
+        "unexpected_final_prompt": 145,
+        "processed_prompt_not_verified": 145,
+        "unexpected_final_prompt_mode": 145,
+        "missing_or_invalid_explicit_goal": 52
+      },
+      "batch_sizes": {
+        "107": 145
+      }
+    },
+    "belief6": {
+      "rows": 1832,
+      "active_replies": 1025,
+      "eligible_branches": 558,
+      "exclusion_reasons": {
+        "missing_or_invalid_explicit_goal": 467
+      },
+      "batch_sizes": {
+        "107": 1025
+      }
+    },
+    "belief7": {
+      "rows": 1832,
+      "active_replies": 770,
+      "eligible_branches": 397,
+      "exclusion_reasons": {
+        "missing_or_invalid_explicit_goal": 373
+      },
+      "batch_sizes": {
+        "107": 770
+      }
+    }
+  },
+  "all_source_id_sets_equal": true,
+  "pairs": [
+    {
+      "a": "belief",
+      "b": "prompt",
+      "active_union": 190,
+      "active_intersection": 31,
+      "eligible": 0,
+      "different_question": 0,
+      "identical_prompt": 0,
+      "same_question_different_answer": 0,
+      "strict_config_match": 0,
+      "exclusions": {
+        "ineligible_b": 31,
+        "mismatch_executor_config_hash": 31,
+        "ineligible_a": 11
+      }
+    },
+    {
+      "a": "belief",
+      "b": "belief6",
+      "active_union": 1028,
+      "active_intersection": 73,
+      "eligible": 48,
+      "different_question": 48,
+      "identical_prompt": 0,
+      "same_question_different_answer": 0,
+      "strict_config_match": 48,
+      "exclusions": {
+        "ineligible_a": 25,
+        "ineligible_b": 25
+      }
+    },
+    {
+      "a": "belief",
+      "b": "belief7",
+      "active_union": 784,
+      "active_intersection": 62,
+      "eligible": 39,
+      "different_question": 39,
+      "identical_prompt": 0,
+      "same_question_different_answer": 0,
+      "strict_config_match": 39,
+      "exclusions": {
+        "ineligible_a": 23,
+        "ineligible_b": 23
+      }
+    },
+    {
+      "a": "prompt",
+      "b": "belief6",
+      "active_union": 1073,
+      "active_intersection": 97,
+      "eligible": 0,
+      "different_question": 0,
+      "identical_prompt": 0,
+      "same_question_different_answer": 0,
+      "strict_config_match": 0,
+      "exclusions": {
+        "ineligible_a": 97,
+        "mismatch_executor_config_hash": 97,
+        "ineligible_b": 37
+      }
+    },
+    {
+      "a": "prompt",
+      "b": "belief7",
+      "active_union": 835,
+      "active_intersection": 80,
+      "eligible": 0,
+      "different_question": 0,
+      "identical_prompt": 0,
+      "same_question_different_answer": 0,
+      "strict_config_match": 0,
+      "exclusions": {
+        "ineligible_a": 80,
+        "mismatch_executor_config_hash": 80,
+        "ineligible_b": 33
+      }
+    },
+    {
+      "a": "belief6",
+      "b": "belief7",
+      "active_union": 1090,
+      "active_intersection": 705,
+      "eligible": 365,
+      "different_question": 365,
+      "identical_prompt": 0,
+      "same_question_different_answer": 0,
+      "strict_config_match": 365,
+      "exclusions": {
+        "ineligible_a": 340,
+        "ineligible_b": 340
+      }
+    }
+  ],
+  "unique_eligible_source_ids": 376,
+  "unique_different_question_source_ids": 376,
+  "annotation_sample_source_ids": 24,
+  "annotation_sample_branches": 48,
+  "executor_configs": {
+    "026795633bda9a44d3d4dac742d49251be361e00e2c1b91883a1ad0013cb6353": {
+      "model_name": "qwen3-8b",
+      "assistant_model": "qwen3-8b",
+      "mode": "final",
+      "direct_prompt": "vanilla",
+      "final_prompt": "prompt",
+      "use_8bit": true,
+      "sampling": "recommended",
+      "resolved_generation_params": {
+        "n_samples": 1,
+        "max_input_tokens": 1024,
+        "max_new_tokens": 512,
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "enable_thinking": false
+      }
+    },
+    "7af218c0d05dc3a6dbfdcd26b0b9a5b79f900e2261ab8d21f1d2e63d0ab0a966": {
+      "model_name": "qwen3-8b",
+      "assistant_model": "qwen3-8b",
+      "mode": "final",
+      "direct_prompt": "sentence",
+      "final_prompt": "prompt",
+      "use_8bit": true,
+      "sampling": "recommended",
+      "resolved_generation_params": {
+        "n_samples": 1,
+        "max_input_tokens": 1024,
+        "max_new_tokens": 512,
+        "temperature": 0.7,
+        "top_p": 0.8,
+        "top_k": 20,
+        "min_p": 0.0,
+        "enable_thinking": false
+      }
+    }
+  },
+  "new_outcomes_inspected": false,
+  "new_external_model_calls": 0
+}

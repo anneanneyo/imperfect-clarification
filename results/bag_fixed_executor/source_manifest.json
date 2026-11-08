@@ -1,0 +1,105 @@
+{
+  "revision": "58b2215ce80c74731d6d8dd3a843d2767943f569",
+  "files": [
+    {
+      "variant": "belief",
+      "stage": "user",
+      "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_qwen3-8b_gemini-2.5-flash_50_belief.jsonl",
+      "sha256": "cda4e1767a38165efff010161506b6f82d7e93ea966ef6e3c318888b24940a49",
+      "bytes": 1985792
+    },
+    {
+      "variant": "belief",
+      "stage": "final",
+      "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/final_qwen3-8b_gemini-2.5-flash_50_belief_prompt.jsonl",
+      "sha256": "d13fdc8d6f57f361ec3b7f9daa734e4df0a699dc96ecd3fde815eb15a7aa754b",
+      "bytes": 2063312
+    },
+    {
+      "variant": "belief",
+      "stage": "judge",
+      "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief_prompt.jsonl",
+      "sha256": "c639222364de519a10959dc7aef5def4bd848210553f72585cd1284b31000b5f",
+      "bytes": 1907985
+    },
+    {
+      "variant": "prompt",
+      "stage": "user",
+      "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_qwen3-8b_gemini-2.5-flash_50_prompt.jsonl",
+      "sha256": "365d36e4b9d0363a3862f8ca549ebc8804da98f5bc0c6008229ce2fc502441c1",
+      "bytes": 2191727
+    },
+    {
+      "variant": "prompt",
+      "stage": "final",
+      "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_prompt_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/final_qwen3-8b_gemini-2.5-flash_50_prompt_prompt.jsonl",
+      "sha256": "b3be0e9312f2a973dd53d1207cb73e19830afe8b7b8913e119d8a54d12b92f31",
+      "bytes": 2089247
+    },
+    {
+      "variant": "prompt",
+      "stage": "judge",
+      "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_prompt_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_prompt_prompt.jsonl",
+      "sha256": "76e0ab34b236429b8f06ee0f95aa9b64f3ce204634ccfe395b733cc155c74ea3",
+      "bytes": 1890889
+    },
+    {
+      "variant": "belief6",
+      "stage": "user",
+      "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief6.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_qwen3-8b_gemini-2.5-flash_50_belief6.jsonl",
+      "sha256": "53b2827bee75ff3a05d6628a6c74b75f9455b6e07e15cc68650ad359b8e56cee",
+      "bytes": 5530263
+    },
+    {
+      "variant": "belief6",
+      "stage": "final",
+      "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief6_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/final_qwen3-8b_gemini-2.5-flash_50_belief6_prompt.jsonl",
+      "sha256": "133e89e21e7dbe8e0e6dc1931d9fd299460d8ddf1f636b3425f904f1ff4ff7c2",
+      "bytes": 4091206
+    },
+    {
+      "variant": "belief6",
+      "stage": "judge",
+      "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief6_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief6_prompt.jsonl",
+      "sha256": "45b21c38376bf423b6bae178b6b22da0d566b58c665ebb1e16037d486fd1785a",
+      "bytes": 3464961
+    },
+    {
+      "variant": "belief7",
+      "stage": "user",
+      "path": "dev/user_qwen3-8b_gemini-2.5-flash_50_belief7.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/user_qwen3-8b_gemini-2.5-flash_50_belief7.jsonl",
+      "sha256": "73721dbf01eba481f491c445e72587a7760597792ec570101ac575fe88856f63",
+      "bytes": 4687895
+    },
+    {
+      "variant": "belief7",
+      "stage": "final",
+      "path": "dev/final_qwen3-8b_gemini-2.5-flash_50_belief7_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/final_qwen3-8b_gemini-2.5-flash_50_belief7_prompt.jsonl",
+      "sha256": "ed1d5dd1e7e5d8da66c37de7e5952a1c569b344e26d4d4ddcd26c59c3cf5db2d",
+      "bytes": 3634501
+    },
+    {
+      "variant": "belief7",
+      "stage": "judge",
+      "path": "dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief7_prompt.jsonl",
+      "url": "https://huggingface.co/datasets/jsbaan/bag-paper-data/resolve/58b2215ce80c74731d6d8dd3a843d2767943f569/dev/judge_final_qwen3-8b_gemini-2.5-flash_gemini-2.5-flash_50_belief7_prompt.jsonl",
+      "sha256": "0aa3f2bc6599e7550449947baa8f8d340e35b3f712cff7fc825d685818dc9696",
+      "bytes": 3054498
+    }
+  ],
+  "availability_sha256": "c64d8d08441fe111ceed35230832a276e30f81c01dc74bc2620f727861773e3d",
+  "protocol_sha256": "630d9a296d057d2bfcf87dd8fade3a65fd6551381cdaeb1daad61d62a4cbb471",
+  "code_sha256": "4df6b381472a814a84676fa5f4e4b2097c20eac8a759e311da67f467e9a5df79",
+  "license": "CC BY-SA 3.0 per source card; credit jsbaan/BAG and AmbigQA (Min et al., 2020). Raw full logs remain outside the project."
+}

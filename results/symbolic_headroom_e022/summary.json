@@ -1,0 +1,126 @@
+{
+  "groups": 96,
+  "profiles": 274,
+  "positive_prior_worlds": 44,
+  "branch_rows": 1644,
+  "constant_questions": {
+    "issue": {
+      "fraction": "109/144",
+      "value": 0.7569444444444444
+    },
+    "product": {
+      "fraction": "103/128",
+      "value": 0.8046875
+    },
+    "money_gone": {
+      "fraction": "73/96",
+      "value": 0.7604166666666666
+    },
+    "compensation": {
+      "fraction": "809/1152",
+      "value": 0.7022569444444444
+    },
+    "customer_name": {
+      "fraction": "787/1152",
+      "value": 0.6831597222222222
+    }
+  },
+  "no_ask": {
+    "fraction": "787/1152",
+    "value": 0.6831597222222222
+  },
+  "best_constant": {
+    "question": "product",
+    "accuracy": {
+      "fraction": "103/128",
+      "value": 0.8046875
+    }
+  },
+  "published_aware_oracle": {
+    "accuracy": {
+      "fraction": "1037/1152",
+      "value": 0.9001736111111112
+    },
+    "question_counts": {
+      "issue": 66,
+      "product": 19,
+      "compensation": 2,
+      "money_gone": 9
+    }
+  },
+  "complete_answer_selector_on_published": {
+    "accuracy": {
+      "fraction": "1019/1152",
+      "value": 0.8845486111111112
+    },
+    "question_counts": {
+      "issue": 65,
+      "product": 22,
+      "compensation": 2,
+      "money_gone": 7
+    },
+    "optimal_tie_range": [
+      {
+        "fraction": "1019/1152",
+        "value": 0.8845486111111112
+      },
+      {
+        "fraction": "1033/1152",
+        "value": 0.8967013888888888
+      }
+    ]
+  },
+  "aware_minus_fixed": {
+    "fraction": "55/576",
+    "value": 0.0954861111111111
+  },
+  "aware_minus_complete_selector": {
+    "fraction": "1/64",
+    "value": 0.015625
+  },
+  "groups_with_question_accuracy_difference": 48,
+  "groups_aware_better_than_fixed": 19,
+  "groups_changed_choice": 10,
+  "probe_kinds_unweighted": {
+    "partial": {
+      "probes": 70,
+      "facts_changed": 46,
+      "action_changed": 15,
+      "correct_before": 33,
+      "correct_after": 36,
+      "improved": 7,
+      "worsened": 4
+    },
+    "clean": {
+      "probes": 1192,
+      "facts_changed": 350,
+      "action_changed": 139,
+      "correct_before": 834,
+      "correct_after": 903,
+      "improved": 86,
+      "worsened": 17
+    },
+    "extra": {
+      "probes": 46,
+      "facts_changed": 46,
+      "action_changed": 22,
+      "correct_before": 20,
+      "correct_after": 33,
+      "improved": 15,
+      "worsened": 2
+    },
+    "unknown": {
+      "probes": 62,
+      "facts_changed": 0,
+      "action_changed": 0,
+      "correct_before": 28,
+      "correct_after": 28,
+      "improved": 0,
+      "worsened": 0
+    }
+  },
+  "trained_method": false,
+  "empirical_bayes_ceiling": false,
+  "new_model_calls": 0,
+  "source_prior_equals_evaluation_weights": false
+}

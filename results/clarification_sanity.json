@@ -1,0 +1,183 @@
+{
+  "status": "constructed_diagnostic_not_empirical_evidence",
+  "checks": "passed",
+  "assumptions": [
+    "exact prior",
+    "Bayes-optimal executor shared by all selectors",
+    "true channel available to IG and EVSI selectors",
+    "one question at most",
+    "zero question cost",
+    "no learned method",
+    "actual channel used for every post-answer decision"
+  ],
+  "rows": [
+    {
+      "exact_answer_probability": 0,
+      "method": "no_question",
+      "question": null,
+      "questions": 0,
+      "expected_loss": 0.5
+    },
+    {
+      "exact_answer_probability": 0,
+      "method": "ideal_answer_selector",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.5
+    },
+    {
+      "exact_answer_probability": 0,
+      "method": "information_gain_known_channel",
+      "question": "minor",
+      "questions": 1,
+      "expected_loss": 0.45
+    },
+    {
+      "exact_answer_probability": 0,
+      "method": "bayesian_evsi_known_channel",
+      "question": "important",
+      "questions": 1,
+      "expected_loss": 0.095
+    },
+    {
+      "exact_answer_probability": 0.2,
+      "method": "no_question",
+      "question": null,
+      "questions": 0,
+      "expected_loss": 0.5
+    },
+    {
+      "exact_answer_probability": 0.2,
+      "method": "ideal_answer_selector",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.4
+    },
+    {
+      "exact_answer_probability": 0.2,
+      "method": "information_gain_known_channel",
+      "question": "minor",
+      "questions": 1,
+      "expected_loss": 0.45
+    },
+    {
+      "exact_answer_probability": 0.2,
+      "method": "bayesian_evsi_known_channel",
+      "question": "important",
+      "questions": 1,
+      "expected_loss": 0.095
+    },
+    {
+      "exact_answer_probability": 0.5,
+      "method": "no_question",
+      "question": null,
+      "questions": 0,
+      "expected_loss": 0.5
+    },
+    {
+      "exact_answer_probability": 0.5,
+      "method": "ideal_answer_selector",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.25
+    },
+    {
+      "exact_answer_probability": 0.5,
+      "method": "information_gain_known_channel",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.25
+    },
+    {
+      "exact_answer_probability": 0.5,
+      "method": "bayesian_evsi_known_channel",
+      "question": "important",
+      "questions": 1,
+      "expected_loss": 0.095
+    },
+    {
+      "exact_answer_probability": 0.8,
+      "method": "no_question",
+      "question": null,
+      "questions": 0,
+      "expected_loss": 0.5
+    },
+    {
+      "exact_answer_probability": 0.8,
+      "method": "ideal_answer_selector",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.09999999999999998
+    },
+    {
+      "exact_answer_probability": 0.8,
+      "method": "information_gain_known_channel",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.09999999999999998
+    },
+    {
+      "exact_answer_probability": 0.8,
+      "method": "bayesian_evsi_known_channel",
+      "question": "important",
+      "questions": 1,
+      "expected_loss": 0.095
+    },
+    {
+      "exact_answer_probability": 0.9,
+      "method": "no_question",
+      "question": null,
+      "questions": 0,
+      "expected_loss": 0.5
+    },
+    {
+      "exact_answer_probability": 0.9,
+      "method": "ideal_answer_selector",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.04999999999999999
+    },
+    {
+      "exact_answer_probability": 0.9,
+      "method": "information_gain_known_channel",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.04999999999999999
+    },
+    {
+      "exact_answer_probability": 0.9,
+      "method": "bayesian_evsi_known_channel",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.04999999999999999
+    },
+    {
+      "exact_answer_probability": 1,
+      "method": "no_question",
+      "question": null,
+      "questions": 0,
+      "expected_loss": 0.5
+    },
+    {
+      "exact_answer_probability": 1,
+      "method": "ideal_answer_selector",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.0
+    },
+    {
+      "exact_answer_probability": 1,
+      "method": "information_gain_known_channel",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.0
+    },
+    {
+      "exact_answer_probability": 1,
+      "method": "bayesian_evsi_known_channel",
+      "question": "exact",
+      "questions": 1,
+      "expected_loss": 0.0
+    }
+  ]
+}

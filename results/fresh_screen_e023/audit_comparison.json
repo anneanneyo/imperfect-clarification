@@ -1,0 +1,2088 @@
+[
+  {
+    "unit_id": "I-c29bdfc47672a302",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00093/p1/a"
+    ],
+    "group_id": "91ab521d18fd88d622d0955beabded3d77496a9eb885e4ee4ccf3a52ae9e2e6a",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nI hope this message finds you well.\n\nMy name is Hannah. I am writing to you today because I require some assistance with a matter regarding my banking affairs. I have encountered a situation that needs your professional attention and expertise to resolve.\n\nPlease let me know what information you require from my side to proceed with this inquiry. I am available to provide any necessary details to facilitate a prompt resolution.\n\nThank you for your time and assistance.\n\nSincerely,\n\nHannah"
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Общая просьба; четыре решающих факта не сообщены.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-5d757d55823fe529",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00397/p0/a"
+    ],
+    "group_id": "a4f126adf3b9d5e414cfeb6b0c444541cb1240b9d335761af5f9df22be553df1",
+    "facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, I am having trouble with a failed payment. Could you please help me resolve this issue?"
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Прямо указан failed payment; списание не сообщено.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-16f9b183cabc1c5f",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00018/p2/a"
+    ],
+    "group_id": "df528a3c1c5ca9cabf36cf73c9c1d8c47d39ab866fdc3c3f6131902f8c123e2a",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I need some help with something regarding my account. Could you please assist me?"
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Account без типа; общая просьба.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-a96e68031aaa87bc",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00436/p0/a"
+    ],
+    "group_id": "e683dfbcf90986a8842f788c2bc15cedeb46398430c2bbfd74085be685bd033f",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "My money hasn’t left my account yet, so what is going on? I’ve been trying to resolve this for hours. I need immediate assistance. I don’t want to hear excuses about processing times or technical issues. Just tell me what needs to be done to fix this right now. I am extremely frustrated with the lack of clear information. Stop asking me to wait and start solving the problem. I expect this to be handled immediately. Do not tell me to call another department. I am here, I am ready, and I need a solution now. This is unacceptable."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Деньги ещё не ушли; раздражение и processing times не задают тип проблемы.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-554ad279982f14db",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00303/p0/a"
+    ],
+    "group_id": "a7e33a33156707f62e3be1eeeba82c137ae51add0a93e354df3fa501bb4b4200",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I’m sitting on my couch with a cup of coffee that is rapidly getting cold, and I just realized I have a question about my account. I need some help with something, but I haven’t quite figured out the specifics yet. I was just scrolling through the app while waiting for my toast to pop up, and something looked a bit off, or maybe I’m just overthinking it. Could you point me in the right direction? I’m not sure where to start, so any guidance on how to proceed would be appreciated. I can provide more details once we’re connected, but for now, I just need a bit of assistance."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Общая неопределённая просьба; looked off не задаёт категорию.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-e9a23a27227af49e",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00129/p2/a"
+    ],
+    "group_id": "6c90a5c27396946b3d7e4f808346958501a145d272f7fbc77371bdb3ade31c11",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, my name is Ravi. I’m reaching out because I’m feeling a bit lost regarding my account. There seems to be something off, but I’m not entirely sure what the specific issue is. I’m confused about which details are actually important for you to know to help me. I’m not sure if I should be looking at balances, transaction histories, or something else. I just know that I need some assistance right now, but I don’t quite understand what information you need from me to get this sorted out. Could you please guide me? I want to make sure I’m providing the right context without missing anything crucial. Thank you for your patience with my confusion."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Feeling lost означает растерянность, не lost card. Тип продукта не сообщён.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-f65d2fe8dd9a9f07",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00080/p2/a"
+    ],
+    "group_id": "9627d31f3cdce8f0463f4f2cbb6456a83437d08c5db8e67ce1163232fdefc30a",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi there, its me, mehmet. i need some help with my loan. yeah, i already know the money has left my account, but i just wanted to check in on it. everything else seems fine, but i wanted to make sure. thanks!"
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Loan и факт ухода денег явно названы; тип проблемы и компенсация нет.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-00063a2fe2a70432",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00479/p2/a"
+    ],
+    "group_id": "fe439f191e00330032e8128180bea95793032f87a92190b8441ce39a6d8b1c19",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey, im mehmet. need some help with something on my savings. its a change request. money hasnt left my account yet so no worries there. also i am not asking for money back as compensation or anything like that. just need to sort this change out. let me know what you need from me to proceed. thanks."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Все четыре факта явно сообщены.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-e021b244ba37e60f",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00297/p0/a"
+    ],
+    "group_id": "5c6a53fdc4f46b9ac6e5495d7dd60529ed56dc00aace12c50c8a1b1ceeba978c",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I have a quick question regarding a fee on my account. I am not looking for any compensation or refund, just some clarification. I’ve been meaning to reach out sooner, but I got distracted trying to assemble my new IKEA bookshelf; the instructions were confusing. Anyway, back to the bank issue. I noticed a charge I didn’t fully understand and would like to know why it was applied. Could you help me look into this? I’d appreciate any details you can provide about the specific fee. Thanks."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Явный вопрос о комиссии и отказ от компенсации; account не задаёт продукт, posted status не сообщён.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-112fda116b5db182",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00227/p0/a"
+    ],
+    "group_id": "c919642784e90399e56c064611e9bb4515c0061d62fc566192847a13463fd961",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "I have a question about a fee on my card. I noticed the money has already left my account. I am not asking for any compensation."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Все четыре факта явно сообщены.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-3117df63e0d73709",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00219/p0/a"
+    ],
+    "group_id": "f9cddd57d5c6fc91aa629269432878ca1e35c6493966493085488fde9a912cd3",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi, i’m hannah. i need some help with something. i have a question about my savings account fees. i noticed a charge i didn’t expect. yes, the money has already left my account. i’m not asking for that money back as compensation or anything, i just want to understand why it happened. could you check on this for me? thanks."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Явный вопрос о комиссии savings; unexpected charge не добавляет однозначно другую категорию.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-a46b30b110aa1cfd",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00494/p1/a"
+    ],
+    "group_id": "7fb1d8123bf0b41a2ca493a998883dc15921a5dc4c5cfe50fdea2e110a2a32bc",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello, I need assistance regarding a loan. Please let me know how to proceed."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Назван только loan.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-c3ef6a53bd046287",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00271/p0/a"
+    ],
+    "group_id": "a3325e807af842ba79cbf6ee173b13b1497bfdadb0c602b605175f24141a27f3",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, i have a quick fee question regarding my loan. i noticed that money has already left my account, which is confusing me. since this charge seems incorrect, i would like to ask for the money back as compensation. could you please help me sort this out? thanks, pavel"
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Явный fee question, loan, списание и просьба о компенсации.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-0565ba3c1028aad4",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00104/p0/a"
+    ],
+    "group_id": "99000e44a5d48a6f0c390fc45910160cffe86a684929e8db2c7be99cd4efca26",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I’m Elena. My day has been surprisingly busy with a sudden rainstorm that caught me completely off guard, so I’m sitting here drying off while trying to sort this out. I have a question regarding my current account and need some assistance. I am not looking for any monetary compensation or refund for this matter. I just need clarity on how to proceed. Could you please guide me on the next steps? Thanks."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Продукт и отказ названы; остальные факты не заданы.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-bddbf797873c6b89",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00107/p1/a"
+    ],
+    "group_id": "8091291ba30c4b0e9f744fb20a6a82eabbf624d0b7f43dd0fb7c8735d181f369",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I’m Kenji. I have a question about a fee. I can confirm that the money has already left my account. I am asking for the money back as compensation."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Названы комиссия, списание, компенсация; продукт неизвестен.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-34ff5de35a8beccd",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00488/p0/a"
+    ],
+    "group_id": "e77cf150205be6c5bff9d8ed16fd07db0c49ea9d30facfb237718d8ee227fe09",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "*   I am writing to clarify the nature of my inquiry.\n*   Please note that I am not requesting any monetary compensation or refund for the situation.\n*   I need assistance resolving the issue, but I am not seeking financial redress.\n*   I would appreciate guidance on the next steps to take regarding this matter."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Явный отказ от компенсации; общая просьба не задаёт issue.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-3e64f7509fd654e9",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00128/p0/a"
+    ],
+    "group_id": "8898db08c081cf53383343eecb05df4e30566ca0f495483d0f0dfeb05d9c4316",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, my name is Lucas. I am writing to express my frustration with the service I have received. I am not asking for any financial compensation or money back. I just want my issue resolved properly. The current situation is unacceptable, and I am quite angry about how this has been handled so far. Please let me know who can actually help me with this matter. I expect a prompt response and a genuine solution, not just standard excuses. I have been waiting long enough, and I need someone to take this seriously immediately."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Отказ от компенсации; эмоции не задают тип проблемы.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-cfefefb8060f18a4",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00319/p1/a"
+    ],
+    "group_id": "d7db99857ca15ef7a0fe610aefa8cf4fe3d97780198714ec605c816f586c9ef0",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, this is Sofia. I’m extremely frustrated because I’ve been waiting far too long for a resolution. It is clear that the money has already left my account, yet I still have no clarity on the status of this transaction. This issue concerns my card. I am not here to discuss technicalities or blame; I simply need this fixed immediately. Specifically, I am asking for money back as compensation for the trouble and stress this situation has caused me. My patience has run out, and I expect a concrete solution and the refund without further delay. Please handle this with the urgency it deserves."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Карта, уход денег и компенсация явно названы; тип проблемы нет.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-f928fb3833e404e9",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00005/p0/a"
+    ],
+    "group_id": "7b7150390a25b7c30915cbfdb1556d77e1b024407cea5f198278b645352d3008",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey i need some help with something"
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Полностью общая просьба.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-3f083b14904306bb",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00373/p1/a"
+    ],
+    "group_id": "d647a4b718dc886d4a692f6fb55ee8dcaa17ef2de180f1a34156ef65475972e9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "I need help with my card. Please advise."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Карта названа, её потеря не сообщена.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-2c3e89eefb2565c5",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00241/p0/a"
+    ],
+    "group_id": "d80b1bccafd7239171e83056df5794477221986bce4e2dbb8274fadc7bca15c9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello. My name is Hannah. I need some help with something. I see a charge on my statement that I do not recognize. I am not sure what this is for. I would like to know more about it. Please let me know what is happening. I am writing to ask for assistance regarding this unrecognized charge. I hope you can help me understand this transaction. Thank you."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Прямо unrecognized charge; generic statement не задаёт продукт или posted status.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-332a0789b3653583",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00028/p0/a"
+    ],
+    "group_id": "e4e25b9b881e9fe58dfab40607e12d0f587100380b934d75200274221bf8fd88",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am incredibly frustrated with the loan situation. You need to fix this immediately. I have tried contacting support multiple times and get nowhere. The loan itself is causing me significant stress and inconvenience. I don’t want excuses or long wait times. I just want this resolved. This level of service is unacceptable. Please escalate this to someone who can actually help. I am done waiting in circles. Do not tell me to check my email again. I have done that. I need a direct answer now. This is about the loan product specifically, and the issues surrounding it are unacceptable. Fix it."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Назван loan, но не характер проблемы, списание или компенсация.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-ba1578bff17a0c57",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00277/p1/a"
+    ],
+    "group_id": "d602c3e4f4b12ef29c493a7181c5c39397c9ec23781321a9c3e00704859399fa",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I’m Mateo. I need help with an unrecognized charge on my current account. The money has already left my account, and I am asking for it back as compensation."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Все четыре факта явно названы.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "I-e033afb1c14b0df1",
+    "type": "initial",
+    "source_ids": [
+      "train/banking_support/00209/p2/a"
+    ],
+    "group_id": "e3ac9b1edfe3cf141014f3fa1bba8b4133def59056a27e7a903e6ec79f4d6caf",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Yusuf. I am writing regarding an issue with my current account. I have noticed an unrecognized charge on my statement. Please note that the money in question has not yet left my account.\n\nI would appreciate your assistance in clarifying this matter. Could you please investigate this discrepancy?\n\nThank you for your time and help.\n\nSincerely,\n\nYusuf"
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Непризнанная операция и current account названы, деньги ещё не ушли; компенсация не обсуждается.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-209da78ae9a20dc6",
+    "type": "reply",
+    "kind": "unknown",
+    "question": "compensation",
+    "source_ids": [
+      "train/banking_support/00018/p2/a"
+    ],
+    "group_id": "df528a3c1c5ca9cabf36cf73c9c1d8c47d39ab866fdc3c3f6131902f8c123e2a",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi, I need some help with something regarding my account. Could you please assist me?"
+      },
+      {
+        "role": "assistant",
+        "content": "Are you asking us to compensate you for this?"
+      },
+      {
+        "role": "user",
+        "content": "I’m not sure if that’s what you mean."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Неясность смысла вопроса не означает согласие или отказ от компенсации.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-43af2a37e07e3241",
+    "type": "reply",
+    "kind": "unknown",
+    "question": "money_gone",
+    "source_ids": [
+      "train/banking_support/00362/p2/a"
+    ],
+    "group_id": "a52ff828a9a3a0c6491656a147a1886367cee4e6a317d394accb453e94ec93ce",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "I am absolutely done with this nonsense. I am writing to you about my loan, and I need this resolved immediately. Do not misunderstand: I am not asking for any money back or compensation. I do not want a refund. I just want the loan situation fixed so I can stop dealing with your incompetent staff. I have tried calling, I have tried emailing, and nothing gets done. My first name is irrelevant to the fact that you have failed to provide basic service. I expect a competent agent to take over this chat right now and actually solve the issue with the loan product I hold with your bank. Stop wasting my time with automated responses or transfers. Fix it. Now."
+      },
+      {
+        "role": "assistant",
+        "content": "Has any money already left your account?"
+      },
+      {
+        "role": "user",
+        "content": "I honestly don't know if any money has left my account, I just want this resolved. Please stop asking questions and fix the loan situation now."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Сохраняется loan и отказ от компенсации; ответ money unknown.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-497d90ec0854edf7",
+    "type": "reply",
+    "kind": "extra",
+    "question": "issue",
+    "source_ids": [
+      "train/banking_support/00160/p3/a"
+    ],
+    "group_id": "7b7150390a25b7c30915cbfdb1556d77e1b024407cea5f198278b645352d3008",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey i need some help with something"
+      },
+      {
+        "role": "assistant",
+        "content": "Could you tell me what exactly went wrong?"
+      },
+      {
+        "role": "user",
+        "content": "It's an unrecognized charge. No, I'm not asking for a refund."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Ответ добавляет unrecognized charge и явный отказ от refund.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-507d5e377ab40186",
+    "type": "reply",
+    "kind": "unknown",
+    "question": "compensation",
+    "source_ids": [
+      "train/banking_support/00241/p0/a"
+    ],
+    "group_id": "d80b1bccafd7239171e83056df5794477221986bce4e2dbb8274fadc7bca15c9",
+    "facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hello. My name is Hannah. I need some help with something. I see a charge on my statement that I do not recognize. I am not sure what this is for. I would like to know more about it. Please let me know what is happening. I am writing to ask for assistance regarding this unrecognized charge. I hope you can help me understand this transaction. Thank you."
+      },
+      {
+        "role": "assistant",
+        "content": "Are you asking us to compensate you for this?"
+      },
+      {
+        "role": "user",
+        "content": "I’m not sure if I’m asking for compensation or not. I just want to understand what the charge is for."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Issue сохраняется; явная неопределённость компенсации не является отказом.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-5b2680dcc464a9b1",
+    "type": "reply",
+    "kind": "partial",
+    "question": "compensation",
+    "source_ids": [
+      "train/banking_support/00081/p3/a"
+    ],
+    "group_id": "ff111782ba8ce40509a93f9626feafc2fdca937d28c1ad427cee4a51307eb54d",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I have a question about my loan. I’m currently sitting in my car waiting for an appointment that is probably running late again, which is just typical for this time of week. Anyway, back to the bank stuff. I need some help with the loan product specifically. I’m not sure if I should be contacting support directly or if there is a different process I’m missing. Please let me know how I can proceed. Thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Are you asking us to compensate you for this?"
+      },
+      {
+        "role": "user",
+        "content": "I'm not entirely sure if that's what you mean, or if it’s something else entirely."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "loan"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Loan остаётся известным; ответ на вопрос о компенсации неинформативен.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-61e5fe4f5278d031",
+    "type": "reply",
+    "kind": "extra",
+    "question": "product",
+    "source_ids": [
+      "train/banking_support/00297/p1/a"
+    ],
+    "group_id": "5c6a53fdc4f46b9ac6e5495d7dd60529ed56dc00aace12c50c8a1b1ceeba978c",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I have a quick question regarding a fee on my account. I am not looking for any compensation or refund, just some clarification. I’ve been meaning to reach out sooner, but I got distracted trying to assemble my new IKEA bookshelf; the instructions were confusing. Anyway, back to the bank issue. I noticed a charge I didn’t fully understand and would like to know why it was applied. Could you help me look into this? I’d appreciate any details you can provide about the specific fee. Thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Which of your products is this about: a card, a current account, a loan or a savings account?"
+      },
+      {
+        "role": "user",
+        "content": "This is regarding my card. And to confirm, I am not asking for any compensation or a refund."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Ответ называет карту и повторяет отказ; деньги не сообщены.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-6ab13290e7563ad8",
+    "type": "reply",
+    "kind": "clean",
+    "question": "money_gone",
+    "source_ids": [
+      "train/banking_support/00219/p0/a",
+      "train/banking_support/00219/p1/a"
+    ],
+    "group_id": "f9cddd57d5c6fc91aa629269432878ca1e35c6493966493085488fde9a912cd3",
+    "facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "hi, i’m hannah. i need some help with something. i have a question about my savings account fees. i noticed a charge i didn’t expect. yes, the money has already left my account. i’m not asking for that money back as compensation or anything, i just want to understand why it happened. could you check on this for me? thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Has any money already left your account?"
+      },
+      {
+        "role": "user",
+        "content": "Yes, the money has already left my account. I just want to understand why the charge happened."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "fee_question"
+      ],
+      "product": [
+        "savings"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Ответ повторяет уже известное списание, остальные явные факты сохраняются.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-6baf718dde74f89a",
+    "type": "reply",
+    "kind": "clean",
+    "question": "issue",
+    "source_ids": [
+      "train/banking_support/00393/p0/a"
+    ],
+    "group_id": "5a905fa0a4ae78bbfb33f293d3218e1861d79eb8926b3d2e6e080daa40380abc",
+    "facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "hey, i need some help with my card. it seems like money has already left my account. i’m not sure what exactly happened, but the funds are gone. can you please look into this for me? i’m a bit confused about the status. thanks."
+      },
+      {
+        "role": "assistant",
+        "content": "Could you tell me what exactly went wrong?"
+      },
+      {
+        "role": "user",
+        "content": "It was a lost card."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "lost_card"
+      ],
+      "product": [
+        "card"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Ответ добавляет lost card; исходные карта и уход денег сохраняются.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-7600dd20326de5f7",
+    "type": "reply",
+    "kind": "extra",
+    "question": "money_gone",
+    "source_ids": [
+      "train/banking_support/00303/p0/a"
+    ],
+    "group_id": "a7e33a33156707f62e3be1eeeba82c137ae51add0a93e354df3fa501bb4b4200",
+    "facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Hi there. I’m sitting on my couch with a cup of coffee that is rapidly getting cold, and I just realized I have a question about my account. I need some help with something, but I haven’t quite figured out the specifics yet. I was just scrolling through the app while waiting for my toast to pop up, and something looked a bit off, or maybe I’m just overthinking it. Could you point me in the right direction? I’m not sure where to start, so any guidance on how to proceed would be appreciated. I can provide more details once we’re connected, but for now, I just need a bit of assistance."
+      },
+      {
+        "role": "assistant",
+        "content": "Has any money already left your account?"
+      },
+      {
+        "role": "user",
+        "content": "No, no money has left my account yet. It’s a change request."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "change_request"
+      ],
+      "product": [
+        "card",
+        "current_account",
+        "loan",
+        "savings"
+      ],
+      "money_gone": [
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Ответ сообщает change request и отсутствие списания; тип продукта не назван.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-7a7b178f55a8e549",
+    "type": "reply",
+    "kind": "clean",
+    "question": "product",
+    "source_ids": [
+      "train/banking_support/00114/p0/a",
+      "train/banking_support/00114/p1/a"
+    ],
+    "group_id": "a6d2641346fff125cc4c5bf17c15223bac9f061da8a004a25350bff8de8eea78",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "*   I am contacting you regarding an issue with my current account.\n*   Money has already left my account.\n*   I am not asking for any compensation or refund for this matter.\n*   Please advise on the next steps."
+      },
+      {
+        "role": "assistant",
+        "content": "Which of your products is this about: a card, a current account, a loan or a savings account?"
+      },
+      {
+        "role": "user",
+        "content": "The issue is about my current account."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes"
+      ],
+      "compensation": [
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Ответ повторяет current account, остальные исходные факты сохраняются.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-b93a27bc5d1c07bb",
+    "type": "reply",
+    "kind": "partial",
+    "question": "money_gone",
+    "source_ids": [
+      "train/banking_support/00134/p0/a"
+    ],
+    "group_id": "8a9fc5f3808bcc830ac1e8adc7172477b55615ef4450818051f17a755737fa1f",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Dear Support Team,\n\nMy name is Leila. I am writing to you today regarding my current account. I require assistance with this specific product. Please review my account details and let me know how we can proceed. I look forward to your prompt response.\n\nSincerely,\n\nLeila"
+      },
+      {
+        "role": "assistant",
+        "content": "Has any money already left your account?"
+      },
+      {
+        "role": "user",
+        "content": "It is hard to say for sure if funds have left the account yet, as it is still unclear."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [],
+    "blind_rationale": "Ответ оставляет списание неизвестным; current account известен ранее.",
+    "disagreeing_fields": []
+  },
+  {
+    "unit_id": "R-f89480751a6befc9",
+    "type": "reply",
+    "kind": "partial",
+    "question": "product",
+    "source_ids": [
+      "train/banking_support/00041/p3/a"
+    ],
+    "group_id": "c917d021ae08e5e3c7d4889de08b137f996cf98037170014da4709f039a53597",
+    "facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "messages": [
+      {
+        "role": "user",
+        "content": "Jonas here. I’ve been trying to get this sorted out for ages and I’m honestly getting fed up with the lack of progress. It’s been way too long for something that should have been resolved weeks ago. I don’t care about the technical details or the internal processes right now; I just want a concrete answer on what is actually going on. My patience is running thin, and I’m losing confidence in the service I’ve been paying for. Please stop giving me vague updates and tell me exactly when this will be fixed. I expect immediate attention to this matter because the current level of support is unacceptable."
+      },
+      {
+        "role": "assistant",
+        "content": "Which of your products is this about: a card, a current account, a loan or a savings account?"
+      },
+      {
+        "role": "user",
+        "content": "Honestly, I’m not entirely sure if this is related to the savings account or the current account. It could be either one, and I’m still trying to pin down exactly which product is involved."
+      }
+    ],
+    "blind_facts": {
+      "issue": [
+        "unrecognized_charge",
+        "lost_card",
+        "fee_question",
+        "change_request",
+        "failed_payment"
+      ],
+      "product": [
+        "current_account",
+        "savings"
+      ],
+      "money_gone": [
+        "yes",
+        "no"
+      ],
+      "compensation": [
+        "yes",
+        "no"
+      ]
+    },
+    "blind_ambiguous_fields": [
+      "product"
+    ],
+    "blind_rationale": "Прямо предложены savings/current account как две альтернативы; буквальная исчерпывающая трактовка является контрактом набора, не универсальным смыслом неуверенной речи.",
+    "disagreeing_fields": []
+  }
+]

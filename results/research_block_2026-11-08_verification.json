@@ -1,0 +1,34 @@
+{
+  "completed": true,
+  "checked_manifests": [
+    "results/evidence_facts_e020/manifest.json",
+    "results/evidence_facts_e020/score_manifest.json",
+    "results/e020_diagnostics/manifest.json",
+    "results/e020_semantic_review/manifest.json",
+    "results/e019_semantic_review/manifest.json",
+    "results/e019_prior_closure/manifest.json",
+    "results/imperfect_reply_inventory_e021/manifest.json",
+    "results/symbolic_headroom_e022/manifest.json",
+    "results/symbolic_headroom_e022/score_manifest.json"
+  ],
+  "frozen_files_unchanged": true,
+  "local_report_links_verified": 84,
+  "E020_generations": 120,
+  "E020_gate_passed": false,
+  "E021_model_run": false,
+  "E022_branch_rows": 1644,
+  "E022_improved_components_over_complete_selector": 5,
+  "E022_strict_outside_complete_optimum": 1,
+  "review_is_independent_human_annotation": false,
+  "report_files": {
+    "research/E020_RESULTS.md": "d2f3a679d76306006d4ffb80e365e1e1f2f196d847b0cfa0197081f2ffbc0944",
+    "research/E022_RESULTS.md": "5fe87d26b83bc90e7e85e1cf5bda7d3a20cc6b55d52a312d0c81970468241213",
+    "research/REPORT_2026-11-08.md": "5fae416949f71b457377fad7895e9f4e677b3deeda7c4c427ce97d12d2edc3b4",
+    "research/E021_STATUS.md": "503b2aefb3d6b30cd14228a221b6b303bf56e1cd9c38c20f7576ef9f5bf9a31f",
+    "research/PROJECT_STATUS.md": "cc78304e97349a35e8e9e29b2c59c598c8d0eeb3a38ac6ff99ceee1efaaba530",
+    "research/NEXT_DECISIVE_EXPERIMENT.md": "aea8216bfff7ad673b8a9f8e6e2add3d58dd067fddf8b9bdab2f7cc4e0088140",
+    "README.md": "5fa1c5518ae332831459a1520966c8393fd81208f1c13309c3bf35038993ed55",
+    "research/START_HERE.md": "076e583e4df53662f4dc0cd900297e8fabf87a385d45a4e70b286499ee99a783",
+    "research/METHODS_WORKING_DRAFT.md": "15efd211d1e829d1528a49c0a1fdffa12613c46b9f2de3394e734cae4e282479"
+  }
+}

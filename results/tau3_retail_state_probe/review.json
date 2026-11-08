@@ -1,0 +1,146 @@
+{
+  "scope": "independent_domain_component_review_not_official_score",
+  "source_commit": "fc0055dc4e0a316c3f83133267fbd6faaa770992",
+  "checks": {
+    "source_hashes_verified": true,
+    "ast_method_bodies_preserved_by_selection": true,
+    "deepcopy_raw_db_unchanged_after_replays": true,
+    "metadata_identity_based_independent_confirmation": true,
+    "sampled_write_only_matches_all_12": true,
+    "main_replay_continues_after_errors": true,
+    "pydantic_preserves_all_raw_db_fields": true,
+    "all_9_bad_items_use_last_requested_variant_metadata": true
+  },
+  "changed_objects": [
+    {
+      "task_id": "20",
+      "verified_mismatches": 3,
+      "matches_main_state": true,
+      "identity_based_check": true
+    },
+    {
+      "task_id": "21",
+      "verified_mismatches": 1,
+      "matches_main_state": true,
+      "identity_based_check": true
+    },
+    {
+      "task_id": "36",
+      "verified_mismatches": 2,
+      "matches_main_state": true,
+      "identity_based_check": true
+    },
+    {
+      "task_id": "37",
+      "verified_mismatches": 2,
+      "matches_main_state": true,
+      "identity_based_check": true
+    },
+    {
+      "task_id": "100",
+      "verified_mismatches": 1,
+      "matches_main_state": true,
+      "identity_based_check": true
+    }
+  ],
+  "write_only_replays": [
+    {
+      "task_id": "109",
+      "state_matches_reference": true,
+      "calls": 3,
+      "errors": 0
+    },
+    {
+      "task_id": "93",
+      "state_matches_reference": true,
+      "calls": 1,
+      "errors": 0
+    },
+    {
+      "task_id": "8",
+      "state_matches_reference": true,
+      "calls": 1,
+      "errors": 0
+    },
+    {
+      "task_id": "20",
+      "state_matches_reference": true,
+      "calls": 1,
+      "errors": 0
+    },
+    {
+      "task_id": "107",
+      "state_matches_reference": true,
+      "calls": 2,
+      "errors": 0
+    },
+    {
+      "task_id": "85",
+      "state_matches_reference": true,
+      "calls": 1,
+      "errors": 0
+    },
+    {
+      "task_id": "21",
+      "state_matches_reference": true,
+      "calls": 1,
+      "errors": 0
+    },
+    {
+      "task_id": "6",
+      "state_matches_reference": true,
+      "calls": 1,
+      "errors": 0
+    },
+    {
+      "task_id": "59",
+      "state_matches_reference": true,
+      "calls": 2,
+      "errors": 0
+    },
+    {
+      "task_id": "103",
+      "state_matches_reference": true,
+      "calls": 4,
+      "errors": 0
+    },
+    {
+      "task_id": "96",
+      "state_matches_reference": true,
+      "calls": 2,
+      "errors": 0
+    },
+    {
+      "task_id": "46",
+      "state_matches_reference": true,
+      "calls": 1,
+      "errors": 0
+    }
+  ],
+  "extra_write_touches_referenced_user_in_fixture_ids": [],
+  "expected_read_errors_explicit_in_scenario": [
+    "46",
+    "47",
+    "67",
+    "68"
+  ],
+  "multiple_identifier_scenarios": [
+    "35",
+    "54",
+    "55"
+  ],
+  "mutating_gold_errors": {
+    "64": "failed exchange followed by successful modify_pending_order_items; fallback, not automatic invalid task",
+    "105": "only exchange action fails insufficient gift-card balance while NL assertion requires both exchanges"
+  },
+  "remaining_error_task_ids_for_interpretation": [
+    "2",
+    "3",
+    "4",
+    "37",
+    "38",
+    "39"
+  ],
+  "main_script_sha256": "d9241f1c8d3ee3ba4271d9caccd257ef985ee0017acea9cd1e57064b110c525f",
+  "metadata_validation_repair": "changed-object identity and before/after state replace first match by new_id; domain methods, fixtures and outcome comparisons unchanged"
+}

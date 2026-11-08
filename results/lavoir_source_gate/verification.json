@@ -1,0 +1,10 @@
+{
+  "verified": true,
+  "posterior_values_recomputed": 12730,
+  "rational_prior_worlds": 44,
+  "agreement_ceiling_count": 2397,
+  "total_rows": 2546,
+  "incompatible_groups": 122,
+  "audit_sha256": "521cdf7ba105dc9d3500a2c9365e3a3509f87874abe1832745f9d43b922747ee",
+  "verifier_sha256": "6d5359274763dc6d6beb398c7e96e3949ed9001c0a274f88bbba2dcc29a3bb89"
+}

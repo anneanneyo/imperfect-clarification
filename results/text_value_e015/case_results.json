@@ -1,0 +1,1850 @@
+[
+  {
+    "case_id": "train/banking_support/00047",
+    "fold": 0,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.3474595326336933,
+    "constant_mae": 0.43719806763285024,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00003",
+    "fold": 1,
+    "target_accuracy": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.2,
+        "utility": 0.15000000000000002,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.4471410413770716,
+    "constant_mae": 0.5446859903381642,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00298",
+    "fold": 2,
+    "target_accuracy": [
+      0.25,
+      0.25,
+      1.0,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.25,
+        "utility": 0.25,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.4,
+        "utility": 0.35000000000000003,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.3263898316993193,
+    "constant_mae": 0.3272946859903382,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00109",
+    "fold": 3,
+    "target_accuracy": [
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.6,
+        "utility": 0.5499999999999999,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.1489130006151836,
+    "constant_mae": 0.107487922705314,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00127",
+    "fold": 4,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      0.5,
+      0.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.7,
+        "utility": 0.6499999999999999,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.4070247174946891,
+    "constant_mae": 0.4287439613526571,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00112",
+    "fold": 5,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      0.75,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.75,
+        "utility": 0.7,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.95,
+        "utility": 0.8999999999999999,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.3596661661921234,
+    "constant_mae": 0.393719806763285,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00282",
+    "fold": 6,
+    "target_accuracy": [
+      0.0,
+      0.5,
+      0.5,
+      0.0,
+      0.5,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.3,
+        "utility": 0.25,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.35457446261574793,
+    "constant_mae": 0.3454106280193237,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00417",
+    "fold": 7,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.38674960753166626,
+    "constant_mae": 0.43719806763285024,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00131",
+    "fold": 8,
+    "target_accuracy": [
+      0.0,
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.2,
+        "utility": 0.15000000000000002,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.4966854794392889,
+    "constant_mae": 0.5893719806763286,
+    "sensitivity_excluded": true
+  },
+  {
+    "case_id": "train/banking_support/00299",
+    "fold": 9,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.4012606875256308,
+    "constant_mae": 0.43719806763285024,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00095",
+    "fold": 10,
+    "target_accuracy": [
+      0.0,
+      0.5,
+      0.5,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.3,
+        "utility": 0.25,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.26850882929908443,
+    "constant_mae": 0.3454106280193237,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00377",
+    "fold": 11,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.4925180491616777,
+    "constant_mae": 0.43719806763285024,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00070",
+    "fold": 12,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.47359016159219597,
+    "constant_mae": 0.43719806763285024,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00263",
+    "fold": 13,
+    "target_accuracy": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.3333333333333333,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.4,
+        "utility": 0.35000000000000003,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.21629209930333268,
+    "constant_mae": 0.24516908212560387,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00149",
+    "fold": 14,
+    "target_accuracy": [
+      0.0,
+      1.0,
+      1.0,
+      0.0,
+      0.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.6,
+        "utility": 0.5499999999999999,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.4533802605203507,
+    "constant_mae": 0.46618357487922707,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00199",
+    "fold": 15,
+    "target_accuracy": [
+      0.0,
+      0.5,
+      0.0,
+      0.5,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.2,
+        "utility": 0.15000000000000002,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.398135238289163,
+    "constant_mae": 0.4323671497584541,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00366",
+    "fold": 16,
+    "target_accuracy": [
+      0.0,
+      0.25,
+      0.5,
+      0.25,
+      0.5,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.25,
+        "utility": 0.2,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.3,
+        "utility": 0.25,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.28402880708766215,
+    "constant_mae": 0.3454106280193237,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00370",
+    "fold": 17,
+    "target_accuracy": [
+      0.5,
+      0.5,
+      1.0,
+      0.5,
+      0.5,
+      0.5
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.5,
+        "utility": 0.5,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.5,
+        "utility": 0.45,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.6,
+        "utility": 0.5499999999999999,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.17222567878865666,
+    "constant_mae": 0.1111111111111111,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00273",
+    "fold": 18,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.2858407410775761,
+    "constant_mae": 0.43719806763285024,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00483",
+    "fold": 19,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.43797666252026785,
+    "constant_mae": 0.43719806763285024,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00345",
+    "fold": 20,
+    "target_accuracy": [
+      0.0,
+      0.6666666666666666,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.29744938972395063,
+    "constant_mae": 0.31642512077294693,
+    "sensitivity_excluded": true
+  },
+  {
+    "case_id": "train/banking_support/00233",
+    "fold": 21,
+    "target_accuracy": [
+      1.0,
+      1.0,
+      0.0,
+      1.0,
+      0.0,
+      1.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.6,
+        "utility": 0.5499999999999999,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "no_ask",
+        "accuracy": 1.0,
+        "utility": 1.0,
+        "ask_rate": 0
+      }
+    },
+    "ridge_mae": 0.4872259114452957,
+    "constant_mae": 0.5120772946859903,
+    "sensitivity_excluded": false
+  },
+  {
+    "case_id": "train/banking_support/00054",
+    "fold": 22,
+    "target_accuracy": [
+      0.0,
+      0.0,
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.0,
+        "utility": 0.0,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.2,
+        "utility": 0.15000000000000002,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "product",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.483443271948758,
+    "constant_mae": 0.5446859903381642,
+    "sensitivity_excluded": true
+  },
+  {
+    "case_id": "train/banking_support/00253",
+    "fold": 23,
+    "target_accuracy": [
+      0.3333333333333333,
+      1.0,
+      0.0,
+      0.3333333333333333,
+      0.6666666666666666,
+      0.3333333333333333
+    ],
+    "metrics": {
+      "ridge": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "train_constant": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "no_ask": {
+        "question": "no_ask",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.3333333333333333,
+        "ask_rate": 0
+      },
+      "issue": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      },
+      "product": {
+        "question": "product",
+        "accuracy": 0.0,
+        "utility": -0.05,
+        "ask_rate": 1
+      },
+      "money_gone": {
+        "question": "money_gone",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "compensation": {
+        "question": "compensation",
+        "accuracy": 0.6666666666666666,
+        "utility": 0.6166666666666666,
+        "ask_rate": 1
+      },
+      "customer_name": {
+        "question": "customer_name",
+        "accuracy": 0.3333333333333333,
+        "utility": 0.2833333333333333,
+        "ask_rate": 1
+      },
+      "random_question": {
+        "question": "uniform_random",
+        "accuracy": 0.4666666666666666,
+        "utility": 0.41666666666666663,
+        "ask_rate": 1
+      },
+      "case_posthoc_oracle": {
+        "question": "issue",
+        "accuracy": 1.0,
+        "utility": 0.95,
+        "ask_rate": 1
+      }
+    },
+    "ridge_mae": 0.31601842397313,
+    "constant_mae": 0.2958937198067633,
+    "sensitivity_excluded": false
+  }
+]

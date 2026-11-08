@@ -1,0 +1,174 @@
+{
+  "source_commit": "a85d4f9df1fc87d05c713fd408f8a57d72bcc348",
+  "task_count": 602,
+  "empty_paths": [
+    "ClarifyBench/ClarifyBench_A/1aebdf65.json",
+    "ClarifyBench/ClarifyBench_E/7f84ca77.json"
+  ],
+  "model_calls": 0,
+  "status": "structural_audit_only_not_final_test",
+  "schemes": {
+    "exact_environment_and_goal": {
+      "group_count": 331,
+      "max_size": 3,
+      "size_histogram": {
+        "1": 125,
+        "2": 141,
+        "3": 65
+      }
+    },
+    "same_environment": {
+      "group_count": 261,
+      "max_size": 31,
+      "size_histogram": {
+        "1": 70,
+        "2": 105,
+        "3": 76,
+        "4": 1,
+        "5": 2,
+        "6": 4,
+        "9": 1,
+        "16": 1,
+        "31": 1
+      }
+    },
+    "conservative_connected": {
+      "group_count": 254,
+      "max_size": 31,
+      "size_histogram": {
+        "1": 68,
+        "2": 100,
+        "3": 74,
+        "5": 4,
+        "6": 3,
+        "7": 1,
+        "8": 1,
+        "12": 1,
+        "16": 1,
+        "31": 1
+      }
+    }
+  },
+  "by_domain": {
+    "DocumentPlugin": {
+      "rows": 134,
+      "types": {
+        "A": 49,
+        "E": 49,
+        "I": 36
+      },
+      "environment_count": 92,
+      "semantic_goal_count": 92,
+      "environment_goal_count": 92,
+      "conservative_group_count": 92
+    },
+    "GorillaFileSystem": {
+      "rows": 116,
+      "types": {
+        "A": 39,
+        "E": 43,
+        "I": 34
+      },
+      "environment_count": 43,
+      "semantic_goal_count": 46,
+      "environment_goal_count": 46,
+      "conservative_group_count": 42
+    },
+    "TradingBot": {
+      "rows": 124,
+      "types": {
+        "A": 46,
+        "E": 49,
+        "I": 29
+      },
+      "environment_count": 34,
+      "semantic_goal_count": 49,
+      "environment_goal_count": 54,
+      "conservative_group_count": 29
+    },
+    "TravelAPI": {
+      "rows": 104,
+      "types": {
+        "A": 40,
+        "E": 50,
+        "I": 14
+      },
+      "environment_count": 52,
+      "semantic_goal_count": 65,
+      "environment_goal_count": 65,
+      "conservative_group_count": 52
+    },
+    "VehicleControlAPI": {
+      "rows": 124,
+      "types": {
+        "A": 39,
+        "E": 50,
+        "I": 35
+      },
+      "environment_count": 40,
+      "semantic_goal_count": 73,
+      "environment_goal_count": 74,
+      "conservative_group_count": 39
+    }
+  },
+  "cross_subset_overlap": {
+    "environment": {
+      "A_E": 165,
+      "A_I": 95,
+      "E_I": 103
+    },
+    "semantic_goal": {
+      "A_E": 177,
+      "A_I": 76,
+      "E_I": 86
+    },
+    "environment_goal": {
+      "A_E": 178,
+      "A_I": 74,
+      "E_I": 84
+    },
+    "initial_query": {
+      "A_E": 101,
+      "A_I": 8,
+      "E_I": 10
+    }
+  },
+  "context_goal_multiplicity": {
+    "visible_initial_context": {
+      "context_count": 487,
+      "contexts_with_distinct_call_sequences": 3,
+      "affected_rows": 6,
+      "groups": [
+        [
+          "A/4c1ff7d6",
+          "E/6628cd81"
+        ],
+        [
+          "A/524c81ac",
+          "E/47c03f04"
+        ],
+        [
+          "A/e68cf5f8",
+          "E/682e6aca"
+        ]
+      ]
+    },
+    "offline_full_scenario_context": {
+      "context_count": 602,
+      "contexts_with_distinct_call_sequences": 0,
+      "affected_rows": 0,
+      "groups": []
+    }
+  },
+  "sample": {
+    "count": 10,
+    "byte_identical_to_main": 10
+  },
+  "rows_manifest_sha256": "aa57f268d547ed15d6d644dbb995feccb21a9bf3eca38ba3cf225769466a0aa2",
+  "checks": {
+    "unique_record_ids": true,
+    "all_declared_group_edges_preserved": true,
+    "no_task_text_saved": true,
+    "no_split_claim": true
+  }
+}

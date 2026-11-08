@@ -1,0 +1,253 @@
+{
+  "groups": 96,
+  "cases": 98,
+  "profiles": 283,
+  "branch_rows": 1698,
+  "channels": [
+    "published",
+    "complete",
+    "repair_partial",
+    "repair_unknown",
+    "repair_both",
+    "remove_extra"
+  ],
+  "no_ask": {
+    "fraction": "389/576",
+    "value": 0.6753472222222222
+  },
+  "constant_questions": {
+    "issue": {
+      "fraction": "101/144",
+      "value": 0.7013888888888888
+    },
+    "product": {
+      "fraction": "37/48",
+      "value": 0.7708333333333334
+    },
+    "money_gone": {
+      "fraction": "13/18",
+      "value": 0.7222222222222222
+    },
+    "compensation": {
+      "fraction": "787/1152",
+      "value": 0.6831597222222222
+    },
+    "customer_name": {
+      "fraction": "389/576",
+      "value": 0.6753472222222222
+    }
+  },
+  "best_constant": {
+    "question": "product",
+    "accuracy": {
+      "fraction": "37/48",
+      "value": 0.7708333333333334
+    }
+  },
+  "published_aware_oracle": {
+    "fraction": "11/12",
+    "value": 0.9166666666666666
+  },
+  "aware_minus_fixed": {
+    "fraction": "7/48",
+    "value": 0.14583333333333334
+  },
+  "groups_question_values_differ": 57,
+  "contrasts": {
+    "published": {
+      "published_accuracy": {
+        "fraction": "11/12",
+        "value": 0.9166666666666666
+      },
+      "optimal_tie_range": [
+        {
+          "fraction": "11/12",
+          "value": 0.9166666666666666
+        },
+        {
+          "fraction": "11/12",
+          "value": 0.9166666666666666
+        }
+      ],
+      "mean_strict_regret": {
+        "fraction": "0",
+        "value": 0.0
+      },
+      "mean_fixed_order_regret": {
+        "fraction": "0",
+        "value": 0.0
+      },
+      "strict_components": 0,
+      "fixed_order_improved_components": 0,
+      "changed_choice_components": 0
+    },
+    "complete": {
+      "published_accuracy": {
+        "fraction": "57/64",
+        "value": 0.890625
+      },
+      "optimal_tie_range": [
+        {
+          "fraction": "1007/1152",
+          "value": 0.8741319444444444
+        },
+        {
+          "fraction": "175/192",
+          "value": 0.9114583333333334
+        }
+      ],
+      "mean_strict_regret": {
+        "fraction": "1/192",
+        "value": 0.005208333333333333
+      },
+      "mean_fixed_order_regret": {
+        "fraction": "5/192",
+        "value": 0.026041666666666668
+      },
+      "strict_components": 1,
+      "fixed_order_improved_components": 5,
+      "changed_choice_components": 7
+    },
+    "repair_partial": {
+      "published_accuracy": {
+        "fraction": "29/32",
+        "value": 0.90625
+      },
+      "optimal_tie_range": [
+        {
+          "fraction": "65/72",
+          "value": 0.9027777777777778
+        },
+        {
+          "fraction": "11/12",
+          "value": 0.9166666666666666
+        }
+      ],
+      "mean_strict_regret": {
+        "fraction": "0",
+        "value": 0.0
+      },
+      "mean_fixed_order_regret": {
+        "fraction": "1/96",
+        "value": 0.010416666666666666
+      },
+      "strict_components": 0,
+      "fixed_order_improved_components": 3,
+      "changed_choice_components": 5
+    },
+    "repair_unknown": {
+      "published_accuracy": {
+        "fraction": "117/128",
+        "value": 0.9140625
+      },
+      "optimal_tie_range": [
+        {
+          "fraction": "523/576",
+          "value": 0.9079861111111112
+        },
+        {
+          "fraction": "11/12",
+          "value": 0.9166666666666666
+        }
+      ],
+      "mean_strict_regret": {
+        "fraction": "0",
+        "value": 0.0
+      },
+      "mean_fixed_order_regret": {
+        "fraction": "1/384",
+        "value": 0.0026041666666666665
+      },
+      "strict_components": 0,
+      "fixed_order_improved_components": 1,
+      "changed_choice_components": 1
+    },
+    "repair_both": {
+      "published_accuracy": {
+        "fraction": "29/32",
+        "value": 0.90625
+      },
+      "optimal_tie_range": [
+        {
+          "fraction": "1025/1152",
+          "value": 0.8897569444444444
+        },
+        {
+          "fraction": "11/12",
+          "value": 0.9166666666666666
+        }
+      ],
+      "mean_strict_regret": {
+        "fraction": "0",
+        "value": 0.0
+      },
+      "mean_fixed_order_regret": {
+        "fraction": "1/96",
+        "value": 0.010416666666666666
+      },
+      "strict_components": 0,
+      "fixed_order_improved_components": 3,
+      "changed_choice_components": 5
+    },
+    "remove_extra": {
+      "published_accuracy": {
+        "fraction": "43/48",
+        "value": 0.8958333333333334
+      },
+      "optimal_tie_range": [
+        {
+          "fraction": "57/64",
+          "value": 0.890625
+        },
+        {
+          "fraction": "11/12",
+          "value": 0.9166666666666666
+        }
+      ],
+      "mean_strict_regret": {
+        "fraction": "0",
+        "value": 0.0
+      },
+      "mean_fixed_order_regret": {
+        "fraction": "1/48",
+        "value": 0.020833333333333332
+      },
+      "strict_components": 0,
+      "fixed_order_improved_components": 3,
+      "changed_choice_components": 4
+    }
+  },
+  "probe_kinds_unweighted": {
+    "clean": {
+      "probes": 1196,
+      "facts_changed": 412,
+      "action_changed": 160,
+      "improved": 85,
+      "worsened": 45
+    },
+    "extra": {
+      "probes": 70,
+      "facts_changed": 70,
+      "action_changed": 31,
+      "improved": 25,
+      "worsened": 2
+    },
+    "partial": {
+      "probes": 74,
+      "facts_changed": 30,
+      "action_changed": 11,
+      "improved": 5,
+      "worsened": 1
+    },
+    "unknown": {
+      "probes": 75,
+      "facts_changed": 0,
+      "action_changed": 0,
+      "improved": 0,
+      "worsened": 0
+    }
+  },
+  "resource_gate_passed": false,
+  "reserve_outcomes_computed": false,
+  "trained_method": false
+}

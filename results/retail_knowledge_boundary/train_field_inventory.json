@@ -1,0 +1,10 @@
+{
+  "train_tasks": 74,
+  "source_sha256": "8e03ebce7901bd6218e7a7dc3105faa9324091a68058f7fe61c65262868812e8",
+  "counts": {
+    "forgot_or_unknown_email": 51,
+    "no_email": 3,
+    "unspecified": 20
+  },
+  "caution": "Text field inventory only; constraints elsewhere in instructions are not covered."
+}

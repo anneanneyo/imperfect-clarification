@@ -1,0 +1,13 @@
+{
+  "files": {
+    "experiments/stopping_control_e016_e017.py": "2a559d68b7dbb5c40466d29e8f16f82e9ce82cda0fa2b3c6d5080f54838e4f05",
+    "results/heldout_value_e016/test_predictions.json": "b3fbf4fee347e6c1753f5a1f5b48d27112a153213060428d3fa1614e05642481",
+    "results/encoder_value_e017/predictions.json": "bd963fef97214d8fdc4b52c54f4d407821c50db03079e45b35aab7b331d28cf5",
+    "results/e016_e017_stopping_control/policies.json": "ebd0b3575a38a2e9998ebea356dc265160a4efee777cb9da22acfeb64f3b31af"
+  },
+  "sealed_unix_time": 1793107345.439221,
+  "test_generations_had_started": true,
+  "primary_scores_existed": false,
+  "status": "Exploratory diagnostic added during test inference, before aggregate outcomes were inspected; not an original confirmatory contrast.",
+  "scope": "Same stopping decisions and ask rate as each frozen selector, replace every asked question with the training-chosen constant. Also compare forced best predicted question."
+}

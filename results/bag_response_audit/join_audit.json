@@ -1,0 +1,2282 @@
+[
+  {
+    "source_id": "1814750729939502814",
+    "blind_id": "B001",
+    "source_lines": {
+      "user": 190,
+      "final": 190,
+      "judge": 190,
+      "clarify": 190
+    },
+    "field_hashes": {
+      "original_query": "32df8e74c701b47ec33dfa74a833345db096ad194372cda476770e436070ccd8",
+      "clarification_question": "9e6981dd0731a36cab41050e4ecd01508dfe40b5128ce174eb3712256b718763",
+      "user_answer": "b4815be67b61b21d9870530595c178c53f0647031a714b9d7515c6c90d0393fa",
+      "prediction": "ffaad68b055fa4a56c52aa33e0afa54763bb79edd9950ee0f0b114b87c57b8d4",
+      "selected_references": "08e36722efbcde5342e8b1fce85191ae7f8c3cb57dc84e28ed90cbd3c3646dfb",
+      "judge_target_reference": "90e9b165ae38ecf1ebc1d90997878b74d71f28a56c0598e042426b6f5ae4b34b"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-3213284714543612704",
+    "blind_id": "B002",
+    "source_lines": {
+      "user": 582,
+      "final": 582,
+      "judge": 582,
+      "clarify": 582
+    },
+    "field_hashes": {
+      "original_query": "9c952c40ed251d63d9dc806a17711703743f97e578753a9f717dc65be34d2d7d",
+      "clarification_question": "50c6131b38f3caa706889f39653d0183ffd584b580c0a83509573bf173fa85ab",
+      "user_answer": "742c018cc944d552bc1ffe0110cad52564982a5c4702a7a3bab57261879f9f8a",
+      "prediction": "58cf4c5360c181e4feaaab51123d984f702bbc8b851eea7fdb43dbba073a43d0",
+      "selected_references": "e11a5f7df329808aba3f0638373d29c474d59c1018c5bef086c1923757067333",
+      "judge_target_reference": "7948f79eb15c98b2c5965b818523419af821b879002491907c82a4c90030ce26"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-8648065073471307674",
+    "blind_id": "B003",
+    "source_lines": {
+      "user": 1448,
+      "final": 1448,
+      "judge": 1448,
+      "clarify": 1448
+    },
+    "field_hashes": {
+      "original_query": "a1cd91aa31072ef4262c8ca213ea9b41f9fc6e22235b872c5c4509c7a916c259",
+      "clarification_question": "0ce3522e86401b283ee55652107cbb7bd78ef17a73f8675edfbe6c35302c43b1",
+      "user_answer": "07a0b1bfecab5364baf5c0623edd50c677789f234816d71d1cf99f9a31144812",
+      "prediction": "c7d39b070bb4674e0391602add2a66cb311510b6be79fcadd236ad9980e297c3",
+      "selected_references": "39cc9c0f94536cb8943be0e6ae654b6e873fb46d79e106bf740f3ffdd245c56a",
+      "judge_target_reference": "e23f9bf498fea9d9de3f3b9e5d10255a577aad88412963c66e968ed7abd22f9f"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-1401070853739059360",
+    "blind_id": "B004",
+    "source_lines": {
+      "user": 1250,
+      "final": 1250,
+      "judge": 1250,
+      "clarify": 1250
+    },
+    "field_hashes": {
+      "original_query": "9807e0af5c7dfecdafa4a8738a95d4f3374c08b8e31e6195813138a4308dc271",
+      "clarification_question": "0905ccfdef1ff5264ac0cc364db02cb4c679fff88babb3d407779b00adbbf1d7",
+      "user_answer": "9e75369b8f5d3cfec3756bdabcd1aeff0e981f6b738059ba6c765f5b4a847c75",
+      "prediction": "7756132e94487b4a9c74d3adefe16088544529d946e7c2c1051fd3092a0187a6",
+      "selected_references": "4ea506cf68505734e209130e0e5a42866ffd291d998cb97f57be87e39ebe929d",
+      "judge_target_reference": "0c72ab4eddd791348a631c99651e2bb437719f539e9f0946438fb08c0be4fa4c"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "449370609603105131",
+    "blind_id": "B005",
+    "source_lines": {
+      "user": 242,
+      "final": 242,
+      "judge": 242,
+      "clarify": 242
+    },
+    "field_hashes": {
+      "original_query": "507777894c04b4044edffd8e94030724d873bfe4435ca37f7d3b967c0ffe1ad8",
+      "clarification_question": "febe4154cba587235e655e0b61fa30c7f9081a0e76ba60f195adb735287b076f",
+      "user_answer": "a4bd4db56f1d4bac252dd8e10b268ab542e262cf9bdb80caf0135687c6fd22cc",
+      "prediction": "5a0e70881407c09554fde51b64ba4698ef4c6933c7cc5dc2864ecce0ed1dfa1b",
+      "selected_references": "a366fbcad02f176db96affd0cbaec01275c7fc24f63af157c77d7dfba7355d4d",
+      "judge_target_reference": "c6221adad6eefa4d6360741d2fa0cebd2c11e2f186311ae6da66d770e615fb6e"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-8176622829765293104",
+    "blind_id": "B006",
+    "source_lines": {
+      "user": 544,
+      "final": 544,
+      "judge": 544,
+      "clarify": 544
+    },
+    "field_hashes": {
+      "original_query": "d48b66982f7515a36c5986ee17e296717f0c2690b7e1374b5588f309fe1de797",
+      "clarification_question": "f360e29adc8aabb51cfd1000638e54c62d11a6785580dae73da17044547c3976",
+      "user_answer": "48b6049b651c5f984dfaefe61003801c701904f382b036de482b057dd6e9f90c",
+      "prediction": "abe973c1af0d8542cb1c594b72eb561053827cce01007d332c1ee6cc7f6163aa",
+      "selected_references": "bbf44524372c2ff085d8518f31b0c8719293e3567c32f8e2c8ba9c64c059426c",
+      "judge_target_reference": "e0880815a28f5fde78a7a0fb4ec68d09636ca0b84045217e951066f14e2ed311"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-7048505285207892697",
+    "blind_id": "B007",
+    "source_lines": {
+      "user": 643,
+      "final": 643,
+      "judge": 643,
+      "clarify": 643
+    },
+    "field_hashes": {
+      "original_query": "5b992424a4ddabcce11becadae2f7506b0422291ba43883f44df5c7b2dd214f4",
+      "clarification_question": "6e26cc8ff974eab76d0cfb4849cdcaedaeb9b3a4ab13649ac13ffabae5022055",
+      "user_answer": "b57f1846860e7148973ec40e161193fb2054c7fd5a971df07c798211e3500123",
+      "prediction": "73dce9f574d05c4ed8aa0ed98f76a97fd6794ad21ebee77caed5603f03f159d6",
+      "selected_references": "5cf2700cb4dc91f5ef235ae0d805db73d22bccdda3bf8098b6ac1e05bc3737be",
+      "judge_target_reference": "fd3548368d03d388ab8a53f92c5a803cdf68acf30d4c14d0225b2cf6989c5407"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "4233964653136094599",
+    "blind_id": "B008",
+    "source_lines": {
+      "user": 532,
+      "final": 532,
+      "judge": 532,
+      "clarify": 532
+    },
+    "field_hashes": {
+      "original_query": "ef58661e88e4b9b730037768c9cb5f9ec806b11407fb6577f1e20a8f21f80c58",
+      "clarification_question": "4e688024a9a0622a5237f1886dbddb618f6b1566c9bd13a226a4cab0ea7455d6",
+      "user_answer": "58a4a2f04c05658d6ff3165e005a0822d755ad6219278bcea3fc70133a6f8003",
+      "prediction": "034d60fe8cdf4816ef566f21af1ffa0b79d0573d3e31e35a3ab38a8cc46a07c1",
+      "selected_references": "1324406d1b57d3ed44215d6e6dff57feffc12382dda55012b367e436b57cdfc8",
+      "judge_target_reference": "840f59245b99b7995ad21d50374e45b017a2c1842a09566e6d86881d80caeddd"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "1040777011551693796",
+    "blind_id": "B009",
+    "source_lines": {
+      "user": 640,
+      "final": 640,
+      "judge": 640,
+      "clarify": 640
+    },
+    "field_hashes": {
+      "original_query": "898f306a411a6e7d0957243444c03d92c5dabf55b93ff6c9152ae4b453865508",
+      "clarification_question": "c50f83a265a3b4d67755f2d91e9e3b51db2682d21d7a072f98addccb6b737d93",
+      "user_answer": "0b989a4d94d188bbb4c14df5b961b270ec58ffa8e597ff3178b5b079fd67094e",
+      "prediction": "7cabd10efa5dac759d73021c18300b9ab19ff17bcb6ec8bd58234ffd35861cbf",
+      "selected_references": "ae8d0603201d4c4814a75aa55de5ea7f8c0ed95b360784e244aaa182061f1716",
+      "judge_target_reference": "96e8c87816ce3a1da34553b6ba8c59cfca0750b81b792f6a809cfb2df1c24c2a"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-8934331549930030728",
+    "blind_id": "B010",
+    "source_lines": {
+      "user": 373,
+      "final": 373,
+      "judge": 373,
+      "clarify": 373
+    },
+    "field_hashes": {
+      "original_query": "19d2d486fb98ce8f470f12a9d860464cc6082c7a7cfc8119c5601a99959386a4",
+      "clarification_question": "21aeb925a99527bbb4ac02bd47277dc196fde20f53541e6141b60fe6ea972d07",
+      "user_answer": "65d3aef90ebcf84ddcbee44765fa0078d0c6ab366421e388ad97ffa1f6a9a7a8",
+      "prediction": "1bd4dd10d9ba3a53d21d06ea0b21aba1f500f22cf948897df8527c826ba8790e",
+      "selected_references": "003c2d359a7eccb0e8737aebaa05aa5d8db9e3fe226400f54590ceded50f6ce5",
+      "judge_target_reference": "3d8c98ac27bf09a6e29ae7b193f6d4c34727d444861a90e0053d81d30fe208b5"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "5478916398121681810",
+    "blind_id": "B011",
+    "source_lines": {
+      "user": 398,
+      "final": 398,
+      "judge": 398,
+      "clarify": 398
+    },
+    "field_hashes": {
+      "original_query": "86ebd779cde9a99350c090a1ab98a59e62cd88244b77b1148dc0f73e2e634a4f",
+      "clarification_question": "711eff189532f110c5f419e42a4b88f1a7f817c738153ddb824201636366c748",
+      "user_answer": "1f93064b2962b673181e2f65cb7112240c36c5e25ef9116ee9f9280454c6a038",
+      "prediction": "d00b2516e7b1034d8a32e49232c83f267cf40611e7472dfb7710c82c74a02cc9",
+      "selected_references": "5e5221c7c8c016e7d920a939b135c807165b28fada73cf3503198f20723f8c70",
+      "judge_target_reference": "5592d0a79daa46a873973bfa2e466b6619076c640c8e05761797a48f50112097"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-6082358069944180451",
+    "blind_id": "B012",
+    "source_lines": {
+      "user": 166,
+      "final": 166,
+      "judge": 166,
+      "clarify": 166
+    },
+    "field_hashes": {
+      "original_query": "20305961464f199bc56eb011afeb3f9572eb09f8593b922d9e5c8f9f8b09bd37",
+      "clarification_question": "b7b85feb7411a032d0def39c76ded615bc9dc2baf6f13c52b06fa2756460d2a7",
+      "user_answer": "d0b5ca391786299e467c54da75f8bb0b458d59d0aab47459ec18bcd45d6410ca",
+      "prediction": "3eb6f6613c8c762ca455b8a33b904dfc1adba92f9479ed5522c5be5481a543a2",
+      "selected_references": "61475173f8d1881200fab1bcf3623a3346869937b201505d649ceadd21fba08f",
+      "judge_target_reference": "6b2e6881e10a3fed2c0b335c67455b00a858c2179d73b3dd61e9a1d8f0a11305"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "7496793371054724086",
+    "blind_id": "B013",
+    "source_lines": {
+      "user": 937,
+      "final": 937,
+      "judge": 937,
+      "clarify": 937
+    },
+    "field_hashes": {
+      "original_query": "8a438adfb7085fa016f3bd13b7b756237bd8419d84bd722a58bb156b4a78f7d3",
+      "clarification_question": "cc18d897ed2a24183ac2742e8d00eaf5f7ea4de1015f9769620b6353f510c396",
+      "user_answer": "5a93cb8aaa437e7b9ff44abe726bd7c891ddf6e655117cf988e1ab82ea0f7881",
+      "prediction": "fa5409e8e11733ac38702d64d206e1fc7070e300e4cd1a282709e075be8e6725",
+      "selected_references": "80d1d22f2b58ae457c21eb2a687dc130bd532e6097a996fc9466535d65752455",
+      "judge_target_reference": "8989a60291b1456f9e3105d3eb1139c0fea4ffd4d7ec79ee0be7ebd217c52267"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-5715491724683223701",
+    "blind_id": "B014",
+    "source_lines": {
+      "user": 101,
+      "final": 101,
+      "judge": 101,
+      "clarify": 101
+    },
+    "field_hashes": {
+      "original_query": "0435e8d7103c96db02046ea228c38641f8b9d6f796d2077893dc0ec4cf7d84ae",
+      "clarification_question": "2c184cb3c08a51c4f5ddaf2573da2d0a29538b7bbfe0315689b19d7ffcfc3234",
+      "user_answer": "42f99ce3693e76afb78504109e5584e592a1bb9835c4f25665d9a4a303d6a288",
+      "prediction": "1084ea3435719f251db3eec8df6b0fc5e9fce1ffc5baa70881c55a7ccc23a3c4",
+      "selected_references": "470afd8c76a2e33a0fedd7f3998abf43a44d32f8602cf317aa3b7ab2b1d7df5d",
+      "judge_target_reference": "5c60db02c483b6eb6b2fbc9db14fe06bc6eeb0bdfed3cc32158363c3e4951665"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "8962296811699148133",
+    "blind_id": "B015",
+    "source_lines": {
+      "user": 679,
+      "final": 679,
+      "judge": 679,
+      "clarify": 679
+    },
+    "field_hashes": {
+      "original_query": "694b505529bd5df32e9ac8c2a48b178964925e82f365545348a45409bc00b453",
+      "clarification_question": "2a3e38bd6f8389de279d2942bba9845083b295c7b7a87bb8a39746313462fe5e",
+      "user_answer": "f8fc939218a3e3edbc2c43b77d2c29e2856bce5d28cbfb42b5324af6a0b1b65b",
+      "prediction": "7ac0cc9718eb878f8927fbfb9b93bcf953e82594270b35127d96a9ddf9a12584",
+      "selected_references": "b8c7fb494b0a514546f7478b7db27fcbc1464192677c38c3d0516e9c76348724",
+      "judge_target_reference": "cf31a8fe7217a2d7476b1f0e650bbab7e1b808c7959879ace9ea76bf8f9532e9"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "1058745321400687717",
+    "blind_id": "B016",
+    "source_lines": {
+      "user": 428,
+      "final": 428,
+      "judge": 428,
+      "clarify": 428
+    },
+    "field_hashes": {
+      "original_query": "569222a70a6d411ab2cb0b8e9e1de80827ca9bd989f706658ef2e20e3e3eb954",
+      "clarification_question": "1191a94f82493e70893c22c0217bd0d93e5f891e8bc1399454f6d1604eb2b499",
+      "user_answer": "831e0522ceac334ef0c6aad5f7a6414c723cc311dcbbd2bf2a44c46d400db425",
+      "prediction": "46b6248a5ec15058e8f84993fac2ac6db8fabc0184e65ab941f3c2fb875f1ee7",
+      "selected_references": "3ec17d8adc3d51b18356eeb6f557961ff6ad393a6004648dc59e276f6543e39e",
+      "judge_target_reference": "fa078dddb1dbc4c0c09dc84868593eca80e0ec060d47e8b814c29befce9135c1"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-4731464570467886433",
+    "blind_id": "B017",
+    "source_lines": {
+      "user": 621,
+      "final": 621,
+      "judge": 621,
+      "clarify": 621
+    },
+    "field_hashes": {
+      "original_query": "e4350f325da548990adf5c496fc8b44f1fad7f684101d0548ad5691310acc6ee",
+      "clarification_question": "727102d99d3ca79d6391babc6ac614bc67020b8cf03235ddcf9c8ec39818d286",
+      "user_answer": "92a12be61f93fef9357dc02b4b43b7cbd47a0878f116b01d15f16d013db63b12",
+      "prediction": "67d304e9bac0e9e5a4770d8b43ced8313899ca85a6dc4717cc7e9c9c4146dbda",
+      "selected_references": "c48d775d82c1987eb819dda3819eaaec92a3b00b81ac61157dd22912bec6d2c9",
+      "judge_target_reference": "c419ceba9b52b91071dbe380e502b8465b0a88d7f89110bbb5f815624d3d1e54"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-7914934407583168124",
+    "blind_id": "B018",
+    "source_lines": {
+      "user": 1388,
+      "final": 1388,
+      "judge": 1388,
+      "clarify": 1388
+    },
+    "field_hashes": {
+      "original_query": "70b03b00489a69cdc6c5f47f00ce53fbb2479c053fba3ad624fed3570a30c269",
+      "clarification_question": "ac1eda23ecc6fe488ebc234542ba322d93076eea46adb197a0d1d56d7e914814",
+      "user_answer": "481784baa2ecd6fdc375e416f7d63f93d83530ed6b09f3ea325cf7b9168aeaae",
+      "prediction": "6a2382b019c889811b66cf5281d110a3e5bf1ba098b4f2f75e9a496ae7ed6de3",
+      "selected_references": "8a8a50ee27e99d7ca6ebde3629c009b5f6124e543d6499465622639d7523b2c0",
+      "judge_target_reference": "95dec3ef5b4fb67af4458fad3264a884d3e4aaea1c6fba17d641e3c148a7f2ac"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-4196197025985715858",
+    "blind_id": "B019",
+    "source_lines": {
+      "user": 1427,
+      "final": 1427,
+      "judge": 1427,
+      "clarify": 1427
+    },
+    "field_hashes": {
+      "original_query": "46f1567c43051100d1ce2d86e1cebae754df500bb475641a5ca96a3837f73e66",
+      "clarification_question": "de4e877c4377a31444cc86f23343884030e5279d63a671f2fb89dd1e3a0e7efa",
+      "user_answer": "900d6cbdbba7c6ea0f680e32ab492de62af4e8957bb446759a02df3c244cead6",
+      "prediction": "06125bf0914b206dea617def061414259cf01c00794f92479beb600fa45a7159",
+      "selected_references": "cc1f38a2f90e99364ecc3099880d834008920b01137a5ea0970b31ebad515c95",
+      "judge_target_reference": "af9653e825ca3ba8c38c5700f46fada962fa39b79a8651b91011a3000c2f6451"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "1878103752796630343",
+    "blind_id": "B020",
+    "source_lines": {
+      "user": 178,
+      "final": 178,
+      "judge": 178,
+      "clarify": 178
+    },
+    "field_hashes": {
+      "original_query": "cddfc28d51246cb203033a0cb1558caa69857ca0701cadee9ce62888c604eb1a",
+      "clarification_question": "a0cb0d9c635a76499a241bf1c49d618b116e9918ec2b81120a63200043803cf6",
+      "user_answer": "0ab33727f378140a92b3fefb7debf2288ead1b80887547c044e5b2daa30bfd9d",
+      "prediction": "f6e8b1521a31f7961ef26e35c59b25818e0dab5308c222f5dc00e06fc31ddc38",
+      "selected_references": "f3081e1f84908ae03009e09d8ac495386ee711bd6bdb824343b755b119b93b7a",
+      "judge_target_reference": "c82021fe952203919ece7e704d1a402944f86d4425eda16b87384afc5e7240cd"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "7150599999316106461",
+    "blind_id": "B021",
+    "source_lines": {
+      "user": 402,
+      "final": 402,
+      "judge": 402,
+      "clarify": 402
+    },
+    "field_hashes": {
+      "original_query": "8f06c10310249b006968db42d295e7a920f1636c6bfe395acf061b10c7c130ab",
+      "clarification_question": "76b47effaa2c2699aa3f92ad8ac11e259c8d8551b962a16eb44cee5ede3ccbff",
+      "user_answer": "a76723d8099e8038120c89314833512891f41578fa030adf715a507fd498f1a3",
+      "prediction": "53bb89cb1a0ad544475f44cfb1c3715895d401e89af6e1b94c2cf3a691c1cb43",
+      "selected_references": "39f744c21aa7dcc19116f8b03acc06e03f2909cf5b504b2dd33b6ce04078b75e",
+      "judge_target_reference": "729409ad089529be8db10922b8d9b23ffba4b4dcb3b18eff40c92ff7e118c791"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "4480900736127210739",
+    "blind_id": "B022",
+    "source_lines": {
+      "user": 926,
+      "final": 926,
+      "judge": 926,
+      "clarify": 926
+    },
+    "field_hashes": {
+      "original_query": "ffdf9874ab5dbb7dda50cb63e0083435b747935509ba64d7b275a42b03b03149",
+      "clarification_question": "9da58af8873aad119c162b1af4dcd1a563d8734ae3090038985068ec7f868239",
+      "user_answer": "14a7fe5fd8d23e92381f42e5041f24b155b78cfe694a2825def3f3f60741e7b3",
+      "prediction": "d4df73eba20a458f39ae555628781e0f66bd0775b6e4cdcbf406aae7d0815644",
+      "selected_references": "b100c1ca0d6816a2a2fa7f215ae522e738848aa314343860bb2ab5f95cac199f",
+      "judge_target_reference": "cfa59ebedc64ddba953252e7ee6991a755e4614af88a83fc9fcac2cb6f5b7667"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-4545751866696079002",
+    "blind_id": "B023",
+    "source_lines": {
+      "user": 749,
+      "final": 749,
+      "judge": 749,
+      "clarify": 749
+    },
+    "field_hashes": {
+      "original_query": "a25cc38af78d55fab1a6280a16bebabf8bdfe0ca85ad30dac8fbf37903185b62",
+      "clarification_question": "32d552e2dc749d27eaa916ff1e2e618ea4edfed869aee9ac9a53b3b443c6adaa",
+      "user_answer": "232b3655d3c6b16dca88519aed11f8e91333f6d7ec00e50256c3b97a407c39de",
+      "prediction": "cb69423d5e7f2d58203986e9d226d1111572a7fed4d84ed8d127fb49bb73644b",
+      "selected_references": "18110be9e12376899eb112ce47f776c560d5aa14cbc9c3f542dfdce26b7a6481",
+      "judge_target_reference": "136308aebebfc36d77a7e9d3535528b65ac8c46f094806508de62d91b5ab5256"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "2113696119798835355",
+    "blind_id": "B024",
+    "source_lines": {
+      "user": 1762,
+      "final": 1762,
+      "judge": 1762,
+      "clarify": 1762
+    },
+    "field_hashes": {
+      "original_query": "10fd5445f138d6f3b87e8532d383ac67f17c846d0a7a5be516a389bd3332279a",
+      "clarification_question": "99464be5c9e5859fc6ae167fd00d8780a9869620b3ee8ee125639457f08552c3",
+      "user_answer": "1a24d28437463f8a97af30af4d08b2565875dfbf2271d77d0a83867370cefae6",
+      "prediction": "cf282ed4329a55b224a9b3816c37f501cadce0bfa3c557d2dff4b222cccc88a7",
+      "selected_references": "0fcca3bc8e7e028aa5e2f35ef1e73157393f3f3604e65f8261c736b2d251c8c9",
+      "judge_target_reference": "ec3117663a6a050284f23c616ebbafd07fb636b751090223819eb7a9fc4003b6"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-3452385012217882108",
+    "blind_id": "B025",
+    "source_lines": {
+      "user": 326,
+      "final": 326,
+      "judge": 326,
+      "clarify": 326
+    },
+    "field_hashes": {
+      "original_query": "5cff8bf90b3fd15863e3e456701c5ce63415a334cd72c799ffa5a0b091960e15",
+      "clarification_question": "2b7fe9cd0ef8981d91e2837ed3fd4bf6d457167b111f342ef62c322a673f567b",
+      "user_answer": "e97c7d00b2d6b963d6a438bd00a395b71c7c41b73b0e078cad98cb5c6ddb0e54",
+      "prediction": "8cc5af4cd49ead424cacd3ee2b20932715911837fe29a8f0e9e722da2a32c0ee",
+      "selected_references": "c90171a256c7ffe344dbda0061c6c206861573ad14a6770024ac37a98b9202d0",
+      "judge_target_reference": "9245866dd8bbf4405c3646b53d3101b4d1948f2a22c249ec22008ed522d12952"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-279770337812755150",
+    "blind_id": "B026",
+    "source_lines": {
+      "user": 890,
+      "final": 890,
+      "judge": 890,
+      "clarify": 890
+    },
+    "field_hashes": {
+      "original_query": "5e5a93ed6156883c1e43ad572a950abb328b4f1cefd034fa3ca3281dced4045b",
+      "clarification_question": "a3d97ae826d5e8ac621ab10ee3aa6616b72589c06739cdf0a7d1d629c93d295b",
+      "user_answer": "e280d3cd4c2cfc9c12f8ec84590adf1ab1e0788ec5284e3925176cfb3f1ff79e",
+      "prediction": "fc92a3220cc2c7784ed13a4aa5462ae9770a6f3936db493dfe3b1730a3bfdb34",
+      "selected_references": "50fb3846273a774aca5487e81c78476eaadaecff0526cb7fe6304a2784966533",
+      "judge_target_reference": "ce862e45678a7cf9cea81969d71bb9ecde95eec0feb698b7089268091f148c43"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-7717464895267084983",
+    "blind_id": "B027",
+    "source_lines": {
+      "user": 882,
+      "final": 882,
+      "judge": 882,
+      "clarify": 882
+    },
+    "field_hashes": {
+      "original_query": "afe938f05b8c2f7327b95658d6af0f1464174269e2fd322f32631f2b62dde5ad",
+      "clarification_question": "49795d4d8af2e378a303e0d35240a23839e1333e54d69e9e1688855e20379eda",
+      "user_answer": "7ec40198adb40673209ebcb50c18d32bb50edf7fc99c5eb9640523f2c03f9ed5",
+      "prediction": "967580172f7a25570140d73a6f678b161a965133b9f29042ace7614bba2e86a6",
+      "selected_references": "8e9aa1ed41b6435e71dd40789d202433b2960f35fa71a129ca3c994009cc4659",
+      "judge_target_reference": "b0166de5efba4fcd9393461f479c57968029b8ef551606bb12c22c14999521c1"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "4183252176965080529",
+    "blind_id": "B028",
+    "source_lines": {
+      "user": 1038,
+      "final": 1038,
+      "judge": 1038,
+      "clarify": 1038
+    },
+    "field_hashes": {
+      "original_query": "6b1d41a0872b63eb43374a627c644c02a3da7677f01a20a76eee97e736a63dd8",
+      "clarification_question": "72d2b23add094cf56d1d03d0e68aec15cb0f6a919b47ae9545caed3f99bfc035",
+      "user_answer": "85b746192679cf3f10f65be9c5d6cb33e729363fbfd4e450e09131f4558fdfeb",
+      "prediction": "4d04b768ce96c1f99424c49a7d1b5ee6c819ce84111506f7c883f6a9e4106cbb",
+      "selected_references": "89b96968345ba0e023427f58d79d865ea78090c97d779920ddfe1c8df9ea2920",
+      "judge_target_reference": "81c8888800612ba8890a556216bf0eb44f6dabe7224edf23096b36bb376adcc9"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "1695349174231804519",
+    "blind_id": "B029",
+    "source_lines": {
+      "user": 755,
+      "final": 755,
+      "judge": 755,
+      "clarify": 755
+    },
+    "field_hashes": {
+      "original_query": "94d41847cddd1d3c8a08ae05b8c36ec16b09d3a6d78d18e6164826976ba34c51",
+      "clarification_question": "ec89ff8ef5c659e7c1d8c3e03bce51eaaa947ceaeb7b56c9bd5143bd1e960661",
+      "user_answer": "c79e010757f7c6eb254413960a35c7af635118c8bfc9730b06c2ef4096a86390",
+      "prediction": "f4e4100e1952eae403f98e347cc3acef2c3223a379a875501c8655a431535133",
+      "selected_references": "a8887ca6647a23be2cd2c4d690eb734637b910b0cbc31727ecc47d11ee32b2a1",
+      "judge_target_reference": "6b7becf56eb10b0c4e9536a5669f3c3893b55f9321ba88e9f89c5d9121cd4c30"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-1703843779501228505",
+    "blind_id": "B030",
+    "source_lines": {
+      "user": 623,
+      "final": 623,
+      "judge": 623,
+      "clarify": 623
+    },
+    "field_hashes": {
+      "original_query": "d9cf1dea12f931048ac051442c7e549ecdeb119904fbd67d668338d5a999e74d",
+      "clarification_question": "f0b10a53be8ef4f3d5d1b2c909dbf53ce7ab19be7b4f980fa153f6e58bb23f6a",
+      "user_answer": "e2029d1298f7e37a802d7f9a4de98adc6b3f3c954b19ca2f4074c123242b8457",
+      "prediction": "2945ab73ff89dd459ee6a462ff7034956c10637cca83da258928795413dc7a94",
+      "selected_references": "2418a9eb8d0d6ca5bddedae160c04ffe3fa240395ea593719c19650183101e4b",
+      "judge_target_reference": "6a86b6590fdee876c5bc6830e1df3448d7b66398a156e0116eee751ae202387e"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-2569294946645420619",
+    "blind_id": "B031",
+    "source_lines": {
+      "user": 381,
+      "final": 381,
+      "judge": 381,
+      "clarify": 381
+    },
+    "field_hashes": {
+      "original_query": "8c54a32561dc9370568de1287bfb302982e4bb7478859eb5ba4ffa8821305d19",
+      "clarification_question": "7a4d0c04ad749e745ec2e0feb43a498013343a1778116190307380b5d46b3e91",
+      "user_answer": "5515fd307c14be8bd524c30eb8744298948f2c4541520fb9dd789e43d679b07e",
+      "prediction": "f246ae8b33be60d1265dbf66af661b0b9d52e9e5dcca81ba2f69f1a199688fc7",
+      "selected_references": "768e2013458cd2296e5f77e62279e65e72359fe5ed2f68e96f364bda453ba88d",
+      "judge_target_reference": "30f27f742df53f14ade36b3aac352171e8ba82ae4fb16c51126caf0b92330c12"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-9023410961710068502",
+    "blind_id": "B032",
+    "source_lines": {
+      "user": 372,
+      "final": 372,
+      "judge": 372,
+      "clarify": 372
+    },
+    "field_hashes": {
+      "original_query": "396b09ca36776c74bc4b3ad4b6e9e4678d603d88ec0ae5104bc50680027b3a19",
+      "clarification_question": "eddd59958e900ba48b6c91f686f894443f9e9ca9081acb24c4578c716daaca35",
+      "user_answer": "3a7e590e66053e2b0f23ada019bc968d317d72d6a09929d45edeb872bbc144ae",
+      "prediction": "6bb31b77aaa9bf2a52ff4230b339ec67274c5cf90415e72ac2f741b0c8ccd1bf",
+      "selected_references": "63890608306f8d3569883603f3f78e36ae73d59325780ce3e05cba7025e6fb60",
+      "judge_target_reference": "f98267c1a0cf8ed7758bc3bb4d553043c233877a477c1bf7529646542206e3eb"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "6400044644383700926",
+    "blind_id": "B033",
+    "source_lines": {
+      "user": 608,
+      "final": 608,
+      "judge": 608,
+      "clarify": 608
+    },
+    "field_hashes": {
+      "original_query": "d5f9284fa48be4c48f00e5814619890d4c6cd38a1c307b1e0da8c09e5d1f04cb",
+      "clarification_question": "afcf6f99c12e7cae4111bb0de03aa31f30723094a930c876aa2d34f5e375c684",
+      "user_answer": "2923a5d6b0e2657cdbb1517ab69f3530012caf1035fdafdd343d6ae79dc03d9e",
+      "prediction": "957020bf370753ff6d5f5dda1179dd9edb1be6e81abfd6997124e6d3a00828c1",
+      "selected_references": "c53ce7f334fbb49f1d1aeafd0bc15e4cdf7a5ac44634c78e5c637bf90ce9f16d",
+      "judge_target_reference": "b2f54260c1a5beef468bf83bf2507eb59d8d0ac738eeab95f03b9e028d1c3188"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "6972749244698896765",
+    "blind_id": "B034",
+    "source_lines": {
+      "user": 1791,
+      "final": 1791,
+      "judge": 1791,
+      "clarify": 1791
+    },
+    "field_hashes": {
+      "original_query": "a9daae980ef0c2759435346ace2b7d14d5432baec281e4e213d73cdb9a843cba",
+      "clarification_question": "1a2d38ab34a8d113bec583b0bf995d0ea14f50e20529ff4c02a42f0f636080ee",
+      "user_answer": "ce193923d9b37228a7fe983a7875ab904c07831308acebe916e4e70a60dcdfd6",
+      "prediction": "951efef6ae4f197b8be77489928e10e855bf699e116d137c924d16b9b4299b33",
+      "selected_references": "265ae9fa7101813f41ff05e27d7a9613943337699287b9f7cfd69431bb5ada5c",
+      "judge_target_reference": "38723ed2a06bd77dcd5f314bbfdc77cd9281f05bf844a33fb8447af0b354d80d"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "955636187401991675",
+    "blind_id": "B035",
+    "source_lines": {
+      "user": 25,
+      "final": 25,
+      "judge": 25,
+      "clarify": 25
+    },
+    "field_hashes": {
+      "original_query": "d384161e31e3bf2246bf9376811862fe8f4219531d4623adbcd63d9d9b59e443",
+      "clarification_question": "df8f69c9db4be4523b55fc963f28795498f63856a91293ba380e6ba86e9528fe",
+      "user_answer": "2d6f0822c071f7a87583d8032ded3b5712c8a00daff24421134bcdd1212e0e16",
+      "prediction": "b963c1e2adf61eb4f3d23403d329a2f7ab016e77148288db6a1ea1d05ac4960f",
+      "selected_references": "b8521021ec68a522e521720870bbf07dc1209d14c500843aebd757ecb76b7872",
+      "judge_target_reference": "6b4d910046ab28b2a899c40f43d700abd680ea6b566c1d64092cfd49a46198cf"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-3348419416493937888",
+    "blind_id": "B036",
+    "source_lines": {
+      "user": 56,
+      "final": 56,
+      "judge": 56,
+      "clarify": 56
+    },
+    "field_hashes": {
+      "original_query": "ee502ff810d905b3e1b10885a1f96d258811602fd5aa38d7e2a4bfbf853f99a4",
+      "clarification_question": "360899e644406f1a18d05fd266723b4b4bf3561608928b9cdd2fcf0d8bbf06eb",
+      "user_answer": "af3a38e752debc40ae3f6b0feaced5bd89feaeafb2c1bb7e1ee78cffa89b3621",
+      "prediction": "71a9eee6038526f0fabf1003669c99ac1abe035b792c5232f7ece2bd4162523f",
+      "selected_references": "afd964efdc09efe2212b0ebdabf2e3c43c35555f8faff846a392b8a2c131ad58",
+      "judge_target_reference": "ceebb164269e746cdb0f41a661a0e157a81af3c64c77e0a1e77ecfdba576fdc9"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "2657851952953142133",
+    "blind_id": "B037",
+    "source_lines": {
+      "user": 1650,
+      "final": 1650,
+      "judge": 1650,
+      "clarify": 1650
+    },
+    "field_hashes": {
+      "original_query": "17a4e31e9827b03c4377956c71c90d9d44c3974472327f4e509217f11b4bd195",
+      "clarification_question": "d40d028ef98bab93b2b037ad44802cbb1deb0b243d08a53c51a0bc5dae55dbef",
+      "user_answer": "6f90bca5eff244027616247440ea24d94c42f7bfb79142f9332961362a68d7af",
+      "prediction": "e51895e68fcc2c975ad42743fb4f8c9c7a0002559bb122bc9c6fdabcdf8cf659",
+      "selected_references": "8f91b9754a1fde008138c0322339e52cd4f9622ba7f41b3a92ac4dbd1c6e3e7c",
+      "judge_target_reference": "8b8f9d1acfb500753bf6f4defa1b8199dc8549cc87751282f5636fd614eb0ad4"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-2375350863120725800",
+    "blind_id": "B038",
+    "source_lines": {
+      "user": 911,
+      "final": 911,
+      "judge": 911,
+      "clarify": 911
+    },
+    "field_hashes": {
+      "original_query": "99ec788b351b31d31d84eb23932d425f17980a4d2a9a4c2a197584a09570b497",
+      "clarification_question": "dddd883d6ef85af58c5dae901647b595292d2c5c64a782ad6dbc91a86a6231fd",
+      "user_answer": "965056ca8bc5e6019c1b08391c50a6a10501539f972616f0f223fb1165f7bd46",
+      "prediction": "99407d5d98991300ebc43457520d657a91ec1a0fcf2230f212df8472f884bdf6",
+      "selected_references": "c0ae242f95e79fd10a7749fc24e0d89a6adaf81fa57f55e84d1293441fab2a9b",
+      "judge_target_reference": "0cdc0cb38938439081fdac7ec2943fb8d3b05d2ce10bf86aeee03d49880fb1d0"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-1070362242275909255",
+    "blind_id": "B039",
+    "source_lines": {
+      "user": 724,
+      "final": 724,
+      "judge": 724,
+      "clarify": 724
+    },
+    "field_hashes": {
+      "original_query": "56c672710e08d2bd7422594ab5f2ef7e70130d98bfddec0fd4d32166d2038929",
+      "clarification_question": "81d2d95b72c3d74992da507287e9f2e81c62bd6bc632dd16206976b0e4f0ed36",
+      "user_answer": "32c457dceb29d46cde2a8ce6499fe6258d4a092cf6ed988cc738301b8602f6e0",
+      "prediction": "fb45ef3c00e9b5d6d93be43cdd5618a50bfe22d5e043b04aedadb4ed282dfcb7",
+      "selected_references": "93722b6e44e7980bb5023f631454221a8072ee027914592d7a9a28e21b4b96be",
+      "judge_target_reference": "581caa85b4a32bf161da926a5ffd0cacef09a281be9e8621b8cef45a389b1401"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "4757523269455004982",
+    "blind_id": "B040",
+    "source_lines": {
+      "user": 592,
+      "final": 592,
+      "judge": 592,
+      "clarify": 592
+    },
+    "field_hashes": {
+      "original_query": "b1e33b96fdd357d44023c6d3b3e7c2b6fa97f2cd1f61a5640e6dcc08cc781a91",
+      "clarification_question": "2244f46206db5a5a98624f51acceab32d7586c872ba9015fc3800f5d2a87a28b",
+      "user_answer": "115871e4538f52a9fdd09815851753387ec16af33ebc5fb92515edd2e2071684",
+      "prediction": "ded26193c37869afb97d0cc9758c361915806c936ac7d0bd46be33a4e0ab2bae",
+      "selected_references": "6f4e5529a0b5a72eb1360f54a25d0ddef5aa7a053d61034ac48889e241aac902",
+      "judge_target_reference": "bedccd12b2857b9018126fac3b5f45597405dce43e5e1308deded2965b339e5c"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "6385308901094079734",
+    "blind_id": "B041",
+    "source_lines": {
+      "user": 1731,
+      "final": 1731,
+      "judge": 1731,
+      "clarify": 1731
+    },
+    "field_hashes": {
+      "original_query": "a2d76ce9428e192a84df0bf60a3d3df4ab6ed822fd39e83bd23470ab1e65234e",
+      "clarification_question": "955f1a733b67e85dd52e17512bf9fbc32cfc0a07a9c95fe8f0b8d12338d94ad3",
+      "user_answer": "bbb828dc795ea4911ab79121d85847dcd984bf71ad4b88fc5eee69cf04efb653",
+      "prediction": "ef21a826eb8604957a39abd4411e5ca085cb8d63a557f7d413e6de33e947f4d4",
+      "selected_references": "1accde6673f97c7a37bae078ecbf41219e5c0dfe4a7e968c92615486e6db6c13",
+      "judge_target_reference": "6a8e456a970b543438724b206991067b18f418e1c174c8933f10db629dbd4968"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-4573737623326010858",
+    "blind_id": "B042",
+    "source_lines": {
+      "user": 1753,
+      "final": 1753,
+      "judge": 1753,
+      "clarify": 1753
+    },
+    "field_hashes": {
+      "original_query": "34e1e338f1e3086d55e9458813c27f0c2f70b3156cb29bdaa3d5b709a3388fb3",
+      "clarification_question": "fd367a98d20501bc0984f1a19fe81a8dfa075748f664257f5d2922fa0c92cb2c",
+      "user_answer": "083ad665567a5cca2963f1dab1fc30412319177bf74ff1989d2a0fe1f1b3b76f",
+      "prediction": "e301882db2120042beaccf5a17b7680a12a43a95c4c48ce9bc5381d18120f862",
+      "selected_references": "d003455fdeecf8b4197061a55dc3251038765a10e878a658348d6b61640483a5",
+      "judge_target_reference": "7a0f990c6bb9dd9cce18829da1d4a3a5e3a7cf79cbe306699092904d3ba88e97"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "2470165841337520099",
+    "blind_id": "B043",
+    "source_lines": {
+      "user": 522,
+      "final": 522,
+      "judge": 522,
+      "clarify": 522
+    },
+    "field_hashes": {
+      "original_query": "39d674c37bcfbccdd233b1d34716b77ef29e1ff463c70542d097fa75b76426ce",
+      "clarification_question": "5b45ce6347913ae26047173de5b51ba10d81d6496cff1e3fc36aebb65b425593",
+      "user_answer": "b1a3ea6e2dedcc415d0bb51fb4b5137fe24a94dca76656ce3de0edb8c2524173",
+      "prediction": "d82f4cde4133b7767e100b510af7395bd27dcc26f39c2af55d8a280281a035a3",
+      "selected_references": "608dcfaab1efaa620566621da6e8afccad070ced20daa32ea1a5b10d40cc41c4",
+      "judge_target_reference": "0be02e9eacb9f1aa70f110b8ce9973e986ed572cce1f4e69c7022fec5308436c"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-2460406457437939626",
+    "blind_id": "B044",
+    "source_lines": {
+      "user": 627,
+      "final": 627,
+      "judge": 627,
+      "clarify": 627
+    },
+    "field_hashes": {
+      "original_query": "08e5376e186a2347e5ad090060972981dee74d060056ccef5306f8d15e03d648",
+      "clarification_question": "ae98ddd337ee75550b9e7b1f0ec95d4342327c9c63da10f4a6b28cff93791066",
+      "user_answer": "16ae8b0bd2aecc80971ac9839ca114ebf2a57236989e17252abe470becafa293",
+      "prediction": "c161549a64ceca8a55fc74eecb613fcc8fe75a75627ccaabe735870ff2f43e83",
+      "selected_references": "b0c56872fcdd983882416d873c0dc326fbcfba85db6e5cd2a2bbd7cde9095ba0",
+      "judge_target_reference": "a4aae7db019ca119d0fb73567e2b621278fcda7f4137c8c865af23f852061502"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-5074863101224855995",
+    "blind_id": "B045",
+    "source_lines": {
+      "user": 1228,
+      "final": 1228,
+      "judge": 1228,
+      "clarify": 1228
+    },
+    "field_hashes": {
+      "original_query": "6a81dad945bf9035136c70b50b1f02c045fa5c3f8733975177d1b92750e618a5",
+      "clarification_question": "04cf8e843f74b13bb0a4628ecb929e44fa2c0a98062a72c6e19cd1482a055dd4",
+      "user_answer": "634606e67c29bf0b701212bfc3f22224bf9a4734629b6ef80bf7eb8a32bf4983",
+      "prediction": "e7ab39bccd669da5bbfe1b2cf47206311b6145f72202525da5b75df249e6d3a0",
+      "selected_references": "ba645ae4e8578ace72eb0c9ee9acc8aefa0a2499464096f57c525c24ba8c1a56",
+      "judge_target_reference": "108451b757b1924a9595e0b63292873400621ee9e8ac71933a9c56c055312f42"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-3673434529814952153",
+    "blind_id": "B046",
+    "source_lines": {
+      "user": 1751,
+      "final": 1751,
+      "judge": 1751,
+      "clarify": 1751
+    },
+    "field_hashes": {
+      "original_query": "a1b336e1a1b53a9a7c60347e08aa2e9ec4300d491fbc1ce0f06ccb004739e696",
+      "clarification_question": "68f79254c5eb710732265a5bbe23ebcbf2b0d8a10f722de5c6c450cdb5d48997",
+      "user_answer": "fb89f11c62c7e42614d0cd10752245617449a56c86d3de49305793891cf2d9e3",
+      "prediction": "315939fba6db76a7ac6ed86e27f94da14237a64836be12252b6da35e1dbd6441",
+      "selected_references": "3bbb379ae5b1d904eb7a2f5dcd73b6b3a31856dc5ba7a75986c31468935a9d3d",
+      "judge_target_reference": "c4e6eb6362cd15f7cff4192a8117df84ecd598d4af51d127dd403e8a7c325025"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "4173446972612181668",
+    "blind_id": "B047",
+    "source_lines": {
+      "user": 1564,
+      "final": 1564,
+      "judge": 1564,
+      "clarify": 1564
+    },
+    "field_hashes": {
+      "original_query": "7ae33787129aea919545cb74fb43cfa2e90a589da8cbe673f312d69620959207",
+      "clarification_question": "34a6d85175fe73074ee35fc1e9ec2c76d9e9b11d4be5fdbeec692472e9e35de9",
+      "user_answer": "7c9f74eed39cd7087fcb790417f79730dde17fc2b7569fd3901448630b1d90e7",
+      "prediction": "add776b8b34515201c9a9774b64ea198de000fdea5d3922fda498fb13fe98c34",
+      "selected_references": "d3754b975ee2c92463a1bcb66eecfdd487403885eb72706beb9c35a982ecf824",
+      "judge_target_reference": "499e135ad5afd8c3c26556245c60e7200a7e07878aa6cc84ae4f6504173badd6"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "7813254335895169912",
+    "blind_id": "B048",
+    "source_lines": {
+      "user": 1410,
+      "final": 1410,
+      "judge": 1410,
+      "clarify": 1410
+    },
+    "field_hashes": {
+      "original_query": "6c67e991cd0077fd0122c9331311ab7523b847ac247e07e19ba9bd0b0a4629d9",
+      "clarification_question": "63d2f6287700f7e0ec1207fd4f45ed602f13848bcae34a16d2622c5d0e82e94e",
+      "user_answer": "3626ff5084c3c7e7fdea4c6d75cfa3ae735e20868aef9854e044f2f855a76bac",
+      "prediction": "cfbf50ee5dfb70609c41a43dfb679c28517630600a485975362d63ed3e93d69f",
+      "selected_references": "1f8f215e26c58d9c42186c6a743c6172eac24609535fcf0f034aab9146f1cf67",
+      "judge_target_reference": "bd6c3720e075e32d7f7dd43f2dfcfc8402303b24a1291ccbe27562559c572503"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-2824129131202796674",
+    "blind_id": "B049",
+    "source_lines": {
+      "user": 294,
+      "final": 294,
+      "judge": 294,
+      "clarify": 294
+    },
+    "field_hashes": {
+      "original_query": "cc974c31257d9089d6718bb620483642f35bcc008924bb673317207756f4ba42",
+      "clarification_question": "891872f2351054cfb93fff6fc66e27fb0a815ac7093120170400756a4e8d89d7",
+      "user_answer": "fb89f11c62c7e42614d0cd10752245617449a56c86d3de49305793891cf2d9e3",
+      "prediction": "36e8608d0e9b28543f202f3d646993ba10646b406954b860e2cbbeeda53034cb",
+      "selected_references": "afd964efdc09efe2212b0ebdabf2e3c43c35555f8faff846a392b8a2c131ad58",
+      "judge_target_reference": "ceebb164269e746cdb0f41a661a0e157a81af3c64c77e0a1e77ecfdba576fdc9"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "8519077744252082469",
+    "blind_id": "B050",
+    "source_lines": {
+      "user": 1117,
+      "final": 1117,
+      "judge": 1117,
+      "clarify": 1117
+    },
+    "field_hashes": {
+      "original_query": "81afad27d73090afe6aebe31cf779c552d7103223f7594065fd930627494a130",
+      "clarification_question": "724ba762f117f0fef47b6dc3d245a44855cbe7847d8b46db85b29364b5dbce9a",
+      "user_answer": "8bbce10d4e4366894b8e3ac75a93bdceafd67323556441772aacef4cc4b8c403",
+      "prediction": "7bde7f96b4f7b43dce89ba655ae866fefe57d01e64613059dace59ee3f004b62",
+      "selected_references": "2c74c8a3eb9d48a752a7e032163bf10a9808261200e62ed4e0e4a044bef5e1c2",
+      "judge_target_reference": "fd9ff2d90bff06118ff4ad93357383741efc5bf4484be2cdb8e960034d62cf6d"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "8690134227082764044",
+    "blind_id": "B051",
+    "source_lines": {
+      "user": 30,
+      "final": 30,
+      "judge": 30,
+      "clarify": 30
+    },
+    "field_hashes": {
+      "original_query": "f07061f8aa1735430ce0eb1b11dd19a68590e717c4ed7dcc26120bb77f261b9b",
+      "clarification_question": "76a6ecae1f132ce8ce1421fab21fa163c5dc83542b504dd7b32e3d01eb9c244c",
+      "user_answer": "b9a468bfc8c3f2d2a551c7919cd8fa6684fb847f4936d9a7d31a9aba8665ca82",
+      "prediction": "87f48f0d35a695e3cfeb6059a86567565be0b95206ccf9c1205929edd8e442cd",
+      "selected_references": "62428fb3da439c36e5cc9080174e4793065a3fce257a14fc1a8d496eadb849a3",
+      "judge_target_reference": "8e4cd9127e5600ca04c41228a88f8074ea336c0643cd7d8ea29664c970e0989e"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-29876963762392843",
+    "blind_id": "B052",
+    "source_lines": {
+      "user": 1105,
+      "final": 1105,
+      "judge": 1105,
+      "clarify": 1105
+    },
+    "field_hashes": {
+      "original_query": "91490b32c7651a1a6543c758803ebdf4b2f59baa4ffa414a0960cd3239de782d",
+      "clarification_question": "38762da415e4da3a395a9e9859c5e2c6301a8f2be0fb9908e785883134a977d7",
+      "user_answer": "bc31dbbe824861a4a2a85434a314e5f88cd2b70e598d9ae41a1092e7c3e5617e",
+      "prediction": "dccfc5681c459b1c21b1e4942b8a646a7b6f8ed20ddffca77e941504a152a3a8",
+      "selected_references": "df452d40e856ad890c71b293e34b14804bf1d1db7181689c42ecd9ba1c95c56c",
+      "judge_target_reference": "ff970e3dfc77988c943a25e7c926fb1fa9d83597f10f2bb150bde939fb685a81"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "2048938326690984839",
+    "blind_id": "B053",
+    "source_lines": {
+      "user": 1346,
+      "final": 1346,
+      "judge": 1346,
+      "clarify": 1346
+    },
+    "field_hashes": {
+      "original_query": "a6add8d75e528fa148bf430c6b91739d00da3f2faed76d0b5aff8a25ad306435",
+      "clarification_question": "24ef1ea15646e9928a7db91cd9424c3156550f0be1c6f02aad1400d4872443ff",
+      "user_answer": "5428d4bef820f025961be5599cbd47f6046e2f984f62809a3315d4b7fb71126d",
+      "prediction": "c2069b596917e7cf88d3df4b4086bf1d852cb1de24903dc114b1fa8f7f0c3b41",
+      "selected_references": "245befaa4daa0e4fdd7bf4d5373737bae368f57f7d3a035d7bf84705884b1843",
+      "judge_target_reference": "b6dd0886dfe7afbeb09d7a8553b467fc20bace77db836eb0a4bb36996072b289"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "2106848518123375268",
+    "blind_id": "B054",
+    "source_lines": {
+      "user": 433,
+      "final": 433,
+      "judge": 433,
+      "clarify": 433
+    },
+    "field_hashes": {
+      "original_query": "b81df48c8c403f7724dcaa1af3ba3478153bd1c1ccc6cbe02389b44c3d5390c5",
+      "clarification_question": "bf4e8d96d994158444e4868315bbe0c26869c55ffc56b41474c9d0ca29961cf0",
+      "user_answer": "b39a30df4362593732575984b4857124bc6bd2e3067039aa45bc24c286107a96",
+      "prediction": "c62916f13171a4702d3ad7a59a7cbafef4dee261eae7413b2dad4b49845d7b0e",
+      "selected_references": "fd4adbcc2c85d32fd55023216b256f26de167377deb78acc8b5a71ab75f04d1f",
+      "judge_target_reference": "396dc6a415c16c88bcd3df042a0da4173c9e019fc97fcc366db1a0eb7d1ec535"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-7029078537681900678",
+    "blind_id": "B055",
+    "source_lines": {
+      "user": 838,
+      "final": 838,
+      "judge": 838,
+      "clarify": 838
+    },
+    "field_hashes": {
+      "original_query": "5b2b55e7c843fc4cad872ff101d544fbfaf3d50f20ea658e0145fee6e4cca041",
+      "clarification_question": "d92a674c7305c73410bf198662e350a2aa0bb8c13b06a58a85f011cf7f7f062b",
+      "user_answer": "79213cb46fd9b79b49272ccbffb8e24ae3c4ee33b4541ca514a38ec9d7523cca",
+      "prediction": "49ffcbba2d7f923d3cd20b0b7a4cace4bf1e1ba29e9c742f8ba2b0c8b9464eb5",
+      "selected_references": "35a198d0ba185d11eb36619bb5c8e75cc169339c0102427451c2372caf9a3666",
+      "judge_target_reference": "6d0d6aa4ad77c02240d7fd51d8cadc958a5036fe1ab0b9a99ec773cd4466d50d"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "2248395039731877618",
+    "blind_id": "B056",
+    "source_lines": {
+      "user": 107,
+      "final": 107,
+      "judge": 107,
+      "clarify": 107
+    },
+    "field_hashes": {
+      "original_query": "7c12d8546caa442c51985cdc30ab33da15b17aa73a7c19ea5ecce3cb582a887d",
+      "clarification_question": "d10d3ad42ae0f5e2a004c581bf5e55d6799af453466df03b395328d9e2918e18",
+      "user_answer": "65d3aef90ebcf84ddcbee44765fa0078d0c6ab366421e388ad97ffa1f6a9a7a8",
+      "prediction": "4566f1757900d1087be1cd4c79d5c3132e32529e282aaddfea020f38412bce03",
+      "selected_references": "aa4792e421384087e4850d3cc32d7e73f86f43cfcc59a2e5e66256bb008942df",
+      "judge_target_reference": "13c5112fa36ef39342ef1c2bc33096724901c8c4db605e2d596771121fe56ad3"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-3176814404414677007",
+    "blind_id": "B057",
+    "source_lines": {
+      "user": 1700,
+      "final": 1700,
+      "judge": 1700,
+      "clarify": 1700
+    },
+    "field_hashes": {
+      "original_query": "180dabc2c965dbf29607566c98ec4121496f117eed64cfe192a58f5722d927f0",
+      "clarification_question": "a1fddaa10e20e6669c0329583bb3abd73642a914d6f975a6d1e04965b1ebab1f",
+      "user_answer": "56feb5507996e0c3c428bd8efc0240c512abd75cad14a6d6be33e694648c65d6",
+      "prediction": "5f8e576cd0ddfe995000177bca27f4f9cb0b21e119852e47608e2cd374acbf01",
+      "selected_references": "5f939d10cb7eb211ca38d8e214caae97c6916641864c872791aaec8face2eab1",
+      "judge_target_reference": "994e0d5335d16f7bbae27371fb6e06a5170364a412887244fd46dc6853c0bbef"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-5262314682072820875",
+    "blind_id": "B058",
+    "source_lines": {
+      "user": 1045,
+      "final": 1045,
+      "judge": 1045,
+      "clarify": 1045
+    },
+    "field_hashes": {
+      "original_query": "d2c9e113b758ef04ada4c3e54b8d53726b3a7f11293a8e5cb0bfcf4a2162fce1",
+      "clarification_question": "2bcc8cca50b633f56ef90e065537b8b93af45cb031e9e113d5dbe712dd1eb1fb",
+      "user_answer": "3f8cb04d32f812ffae775ccc37e2f5fc02644c4428d76f83744cdce0f50c3f64",
+      "prediction": "10769a9f7473366f3dc088c567728145a2ebd68bcc34ba053a5c35bfd1e60ddb",
+      "selected_references": "9017a332e45ba69adfc35322e0e451c3de3583cba6adfa42d93407a04d90c39f",
+      "judge_target_reference": "93599687a66a7cc10afe20e008f349542ff752977073451eeade47fba0581551"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "2098904482757944074",
+    "blind_id": "B059",
+    "source_lines": {
+      "user": 1627,
+      "final": 1627,
+      "judge": 1627,
+      "clarify": 1627
+    },
+    "field_hashes": {
+      "original_query": "0d0aa563dbc73abb27ee2c18e26e27464c93ed627ec0341e338c2f25aa932a31",
+      "clarification_question": "540df676a5470f7577f3b2ceaacb20e5807039f12d3b7732e65f8c7988e071aa",
+      "user_answer": "3586d25da079711b0182db46099049e982994f1f52df27386cad7266cc04b1a7",
+      "prediction": "7dda1b09f1f694678a823a6503cadf2493f39f23657116eb071b6ecf1af9ff3b",
+      "selected_references": "19bce9af075941e4716e75b1b31e49d6c792f1357dcd8ccae1bdc33330562bd3",
+      "judge_target_reference": "02a9c4ccf7311785b31bf48f5e5656c49a08ab6d2387fe4593673d060d2b0a87"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-2194308568409237102",
+    "blind_id": "B060",
+    "source_lines": {
+      "user": 57,
+      "final": 57,
+      "judge": 57,
+      "clarify": 57
+    },
+    "field_hashes": {
+      "original_query": "0b4d41004766087cad78aaff7571c7099b7e403b1b43fc82c49abc1c78f7bead",
+      "clarification_question": "b599591d04d04bdcd52650682b884b29015567c8192f6b49e93db44feabd4a32",
+      "user_answer": "cb61f794a6184124ef9ad7d01b28baf9305d2157977100de9816febab8f82e33",
+      "prediction": "b2d00489251d7d2f49001bd95778dd08d5203b9cc97305e9cf159ebe08d39a77",
+      "selected_references": "3f06a21d211121ef7db4cc80bc7f210a912b0dc14981609891ac6483b80d8eca",
+      "judge_target_reference": "0255b3778afa557ff6356572c5e17b2ed4d31c07dadb4bfe9c7535c433d397a4"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-1541618312286812568",
+    "blind_id": "B061",
+    "source_lines": {
+      "user": 730,
+      "final": 730,
+      "judge": 730,
+      "clarify": 730
+    },
+    "field_hashes": {
+      "original_query": "efff1b41a8dd80ec61f0e37be81150988cb5e311dfb75c88ab670b98fcb9483c",
+      "clarification_question": "aa1563b96b3c25f15ebde69c049ff29eb33a74bec60e7bbdfb1d63f47d5743c1",
+      "user_answer": "27b6534c8d91e19dfd4af432434040f16b6476f4cc44056452b8792e07e1e0b0",
+      "prediction": "e29ac8f6766fdda7a87ccd33b56e3da316644b91cf693b1d314ebeb4707f8943",
+      "selected_references": "5e07a0cdd8e01a72fefae9930ccbd61b478143fc38bb2fdfa6587962380f09e9",
+      "judge_target_reference": "803ec8add3498ac66633e5fdbf8f47d69858594c8820ab43a85dd692fc73e5ba"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "838755198336235725",
+    "blind_id": "B062",
+    "source_lines": {
+      "user": 100,
+      "final": 100,
+      "judge": 100,
+      "clarify": 100
+    },
+    "field_hashes": {
+      "original_query": "8ee4e9bd64da2cb51b4883b80c2fb4c9d0646e115955263654518be18bfd65ab",
+      "clarification_question": "a4809257c4fc566829b0074ce4d58f49dd10da403c4a519b9b047939001970d0",
+      "user_answer": "5e62b371669e405567b1ef77a276b2b97927d9d3fb9ed2911803a5273f447eb8",
+      "prediction": "394d0611cbfd1cf11629de48bdc30df98f33d53b91625d2185c66ff26a2c34d1",
+      "selected_references": "ade1afa5328e7ad0d9f7f9e5cf4dcc6a25d6cf4ce158d9b4881c50b05c556ec1",
+      "judge_target_reference": "2eb9ea3beea4aa1883331c1500cf781667381212dadea76b5c5f18e5657a2186"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-8069899625747978823",
+    "blind_id": "B063",
+    "source_lines": {
+      "user": 1563,
+      "final": 1563,
+      "judge": 1563,
+      "clarify": 1563
+    },
+    "field_hashes": {
+      "original_query": "53226b5bcfade30062016307b8f32025d7dcbd98a023710700a6ae7f6c75dfe1",
+      "clarification_question": "c7a8c702eafb8c6e15f946ebb0da8803e58daa8519581aaf9633972649ec7ba3",
+      "user_answer": "e7538f21b259581b020c948d98e539f36c7e30883c52e666e6493f905d3f0346",
+      "prediction": "9c6026ae33f7abdad6cb2d639c40f7839ed80aa0870b400afb331388859cd18c",
+      "selected_references": "60358f2148bfaf8b7e6250b66671fdbee56515fdcad4cf07aaeee177b623011b",
+      "judge_target_reference": "4c591f540c98444cb8da4a588731abc9b2d7053146e48ab3b38c5e5474d4637e"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "6776234528515962047",
+    "blind_id": "B064",
+    "source_lines": {
+      "user": 1289,
+      "final": 1289,
+      "judge": 1289,
+      "clarify": 1289
+    },
+    "field_hashes": {
+      "original_query": "f09e8695e8561d4044404b41b0c1f4eb5be42f55a2b6f97c37765964ec6dbad1",
+      "clarification_question": "980b87c052f4fce401fc3a4617689bc9a283ef3fcb62f3a14fd90267fcd50c89",
+      "user_answer": "ea349b58bff2f0a96514f65dfe9fab541cf235feee958663c1747d82cd78cd54",
+      "prediction": "ba20484962cc59c62fd3e2d639c11c79b9c49e81cbdc53d30f65c8c728a50ed8",
+      "selected_references": "79cf628aa1037e895d7ca2fd4024b639f6693a070159abdec7237664f80bd6e0",
+      "judge_target_reference": "581533c8ebf1091ea7ec34ebd91f25cfeb8fc500652d1754e6be4651efab9f15"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "39032392901600325",
+    "blind_id": "B065",
+    "source_lines": {
+      "user": 1116,
+      "final": 1116,
+      "judge": 1116,
+      "clarify": 1116
+    },
+    "field_hashes": {
+      "original_query": "1fccdc928e9b3c15e19e6b2d4dbd6c3bc911b4463475a1246458af2b2c8e27c3",
+      "clarification_question": "5a2bbc93107548cb11bcc18ad7406a3d45e76a7fa0fcba24f82c04c7a1c64f93",
+      "user_answer": "0eace711db0887c5eacb61c3fbc582cbb47774c205463664d714158b3fc12af4",
+      "prediction": "4ac112476447b66cf4d005684015614054e3e77c58d28ed4abcbd62b95758160",
+      "selected_references": "c3b1268fa5349fbd753fdfad4c4330b0beded1f1ac96e7c8b1a01a072a91be63",
+      "judge_target_reference": "36ac6a25761c90e43e3fd6ea95f1d65059c324d19d85861cf9b730a2179d25fd"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "6528147196703570266",
+    "blind_id": "B066",
+    "source_lines": {
+      "user": 241,
+      "final": 241,
+      "judge": 241,
+      "clarify": 241
+    },
+    "field_hashes": {
+      "original_query": "e7520dd4344a45ad619ba599761f514f596e5795ed4bd80d86c0e09ad80c6c3c",
+      "clarification_question": "043d6d680c40bd528f103d83b3384e168dbea7c01a8442a2c7b3939c85af59a1",
+      "user_answer": "d0724ef82d855339c2f6eed14757ccf5476001d3c41cfc21010eae9a7c8ce011",
+      "prediction": "53629f97efec84f229b901718c4184d5592fb429b032395ab46a849f59674b19",
+      "selected_references": "ac752c4aba91e79bd60f85659df1a8956c526edd422a853f02b4e358c13d6b59",
+      "judge_target_reference": "1b9e469b314bcbd06ddc41a6259dddbda9c81db2a14c443654baa7069abc35c5"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "7376722717277534329",
+    "blind_id": "B067",
+    "source_lines": {
+      "user": 1562,
+      "final": 1562,
+      "judge": 1562,
+      "clarify": 1562
+    },
+    "field_hashes": {
+      "original_query": "5eaf6d3d7ac4fb857941d81328a53db006d9fd525708868f0c8e3694340ba48f",
+      "clarification_question": "1b7ce1a3ada90f34130a8bcc47de2e235a254b45bb5a3487423f95f8ab192843",
+      "user_answer": "45b7f2de6c830623fb8ad9ad16c835d5d6a006ec4f5b05d19f7c9ad6014309cf",
+      "prediction": "0a1d5be5a9681c28c4f387efe28088e0ac13e5fd8dfcda92c29e9737fe9d271e",
+      "selected_references": "0a3ecc944fd1f238e455e64d766ee9e7756eb9b86e7242950c8bd933db13b273",
+      "judge_target_reference": "88509f973381f3795984178bc39d1dea2436abd8ea398417a57dea48c8d0a67a"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-1553526002861565167",
+    "blind_id": "B068",
+    "source_lines": {
+      "user": 447,
+      "final": 447,
+      "judge": 447,
+      "clarify": 447
+    },
+    "field_hashes": {
+      "original_query": "89686147e4d7fb42974e86e19f64a1ac9bf0f97f102fdb87a09236ac947ae460",
+      "clarification_question": "f018b1344d488e670184e6163a3d5a1c87af613272e231e7b8462a3a51a1799a",
+      "user_answer": "117e6ddb9f63b6c1d45843f8348dceae921875019e042957003d5b373915b218",
+      "prediction": "06d23bf5b527b077b7c0151dc8908b5100890c0a523fe2a5ed3026f3a20e35a4",
+      "selected_references": "7bbc6ee30da225db11424f933f281517bb5cbf092b7bc4670cd44817b6ce4143",
+      "judge_target_reference": "0c71c57dbdb5a9c0d956c697195dc8d2f36f709b3bba54eb80549458792488a4"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-6009084797339061172",
+    "blind_id": "B069",
+    "source_lines": {
+      "user": 1820,
+      "final": 1820,
+      "judge": 1820,
+      "clarify": 1820
+    },
+    "field_hashes": {
+      "original_query": "e938768ea622e8b80d5bbc3a79cf8c6c6160cb48095f466574862a982ba12d1e",
+      "clarification_question": "5d43241a8bdc06af602e891146ceb683ffaf0039bb8c9b00fe72dc937a760870",
+      "user_answer": "fb645e5f93d76326df39dc14d1f9b5ce447b4702095accd97f53e954ed20a0b2",
+      "prediction": "244bd6a360be6efa6432554451a3ceda0fe147fbbb9c3ac635c0f3dd42f9ffc6",
+      "selected_references": "3be617d631997f48ada5938720d6eb8d66cd49710be3cb7e3fe4bd448f1f6ef7",
+      "judge_target_reference": "39463fdc7b80fcf47dcad376282938ab2ffbafd918a57ede68969479a2136007"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-2886061734189281128",
+    "blind_id": "B070",
+    "source_lines": {
+      "user": 1602,
+      "final": 1602,
+      "judge": 1602,
+      "clarify": 1602
+    },
+    "field_hashes": {
+      "original_query": "2ae0706ba9b4b06590c0486a592561ba10c629cc1cc029bd3f01d5b10f443d01",
+      "clarification_question": "899ccc6652973142bf2fdbcdb07ae2081fd879157e6cb59071e8157fe1d205ca",
+      "user_answer": "85cd8aa1e9119957838e5e4a9fae5aef83bfb89b582c006b898925ffd5bcb94d",
+      "prediction": "bd8926f2d339a52b7820f7738249cf18062b220164d7e6708fb1cb0798d92108",
+      "selected_references": "25fca715f08cf6ed5728157e42c92294182fd70cf426158fc60010d730811a59",
+      "judge_target_reference": "a2a423f753d94ee3f2c23c9ec0b58f9f9939ee87d3804fa178f582ac3355b884"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "267504983206791369",
+    "blind_id": "B071",
+    "source_lines": {
+      "user": 27,
+      "final": 27,
+      "judge": 27,
+      "clarify": 27
+    },
+    "field_hashes": {
+      "original_query": "c78327363aca984d3e236d9c4876f7f709de0490e13c33f683eecc517ae4a767",
+      "clarification_question": "5d758c357cf9bd48e800ba5dab4d7aa4e0e39cf58cd70ef51f5a78c5f370eeb4",
+      "user_answer": "93abd41cd19b2df3311ecd1d5100bb18d81d25ed4f687b8176108fb139f3b82d",
+      "prediction": "13ee1d346ced23ce225177e378f626e8ba5846f8798cfcce98bdc5a2f61c9d57",
+      "selected_references": "5e7fe5a0e163548aa38f823b9c80428842cd448d903b6b43ac0c5e809a55661e",
+      "judge_target_reference": "c28e42d96b947502d9ff5405e01a869aeeff5aec51e2bca638f1b3bf1fe4cf30"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "8597246075505333050",
+    "blind_id": "B072",
+    "source_lines": {
+      "user": 317,
+      "final": 317,
+      "judge": 317,
+      "clarify": 317
+    },
+    "field_hashes": {
+      "original_query": "9ef0e3381c32037f9a83eae1da7f041929a3d2962c101fb64ff28a99d32d7169",
+      "clarification_question": "5bfc1b94a22972674094eda1ab642a0aceb4c2da324fe8dece1bb078415a1227",
+      "user_answer": "dd0dd937e3a1154974732e65c51bd2c7451fec11dee228d9a9b9b983cf051a1c",
+      "prediction": "881d7ca50f4b1244c16d836ad2a2ef34accca1d69d635b995e1661bf63668e63",
+      "selected_references": "729e753b968b05fc87f0dc5627e5fcaa916aa854528215e9a421cdca21b854ff",
+      "judge_target_reference": "023e792db058ea0f1aa76c123def1eb52696e9210879d1e02b80733d597a7644"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-4649654703638364295",
+    "blind_id": "B073",
+    "source_lines": {
+      "user": 358,
+      "final": 358,
+      "judge": 358,
+      "clarify": 358
+    },
+    "field_hashes": {
+      "original_query": "12c308cb9d9f9a91a96b97d6cf26e5d1ef733b712b4068277f6c069b3a80b15f",
+      "clarification_question": "18a0bb157b55d9813921d1e321abbf5d5c9415e3b0ae2688f39bb7b6d8931747",
+      "user_answer": "e3703af80834db4c6c0bc5564a2fb37df719c48c86729703413e7436b70b09dd",
+      "prediction": "a6ab047849f8e644e256b32f3a9e6c49f0a05691c92f304ad5c7680043579913",
+      "selected_references": "1ce6e8c0c44569ed96754156bb98f19fb1bc1aa93c4ff2ed9e473df51504933c",
+      "judge_target_reference": "f04221af45418e85bd6212311395e5b91ea02b2bd751be8d1c8a5e6ba44b24e1"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-3254745754392014990",
+    "blind_id": "B074",
+    "source_lines": {
+      "user": 1005,
+      "final": 1005,
+      "judge": 1005,
+      "clarify": 1005
+    },
+    "field_hashes": {
+      "original_query": "1df61f34ba57863cbb1f3479c114fe37eff475aa7e6f1ebb210e59ee190abf49",
+      "clarification_question": "8a14af6d53fbd8f5088f76c7643e30df2f8f93907faa4d4063fbf287d4936f99",
+      "user_answer": "39bdef42f5dc7a5d6c572267a2b545b5ec13b7a6731eea61d5842861bc42292b",
+      "prediction": "c47de0e075a31e4670580d338ec36c51af6a3ad01fd9489720381fe15bd47b31",
+      "selected_references": "1704a3a9f2a079320b6bfab81b036a34a1497dd5f94c2f4d71957f0c9485da39",
+      "judge_target_reference": "49106a8146389a146b5e6d9341f7effbecaab170a56e2e02f2f71b1c46b1b411"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-2235196533462771212",
+    "blind_id": "B075",
+    "source_lines": {
+      "user": 1553,
+      "final": 1553,
+      "judge": 1553,
+      "clarify": 1553
+    },
+    "field_hashes": {
+      "original_query": "972ae11efe3b8a23cc84dad21f85adbc520bb8de20f2478cefe56a7fafc64700",
+      "clarification_question": "16db0d3576fb8505d2ff93615b7f70d921be8524b0834ddc79c597d0c7d6c8f9",
+      "user_answer": "36b4af1becf54b1f81271c0020a5fc57c015a59e3c0d6c1126a94977dde5fbe7",
+      "prediction": "4f93ee0935488a75d5413aca04146c8bd468408e6a360d3191c44af7de757966",
+      "selected_references": "c4afdde50545d1ac07fd9376e1c225067b888153c0e099d471ca71d18a8b6e10",
+      "judge_target_reference": "0e5800f112fce6bc6ceeaef7cfca81d1e13c05e23d8d971389f7cc2c5400e4e0"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  },
+  {
+    "source_id": "-3611913378590168865",
+    "blind_id": "B076",
+    "source_lines": {
+      "user": 404,
+      "final": 404,
+      "judge": 404,
+      "clarify": 404
+    },
+    "field_hashes": {
+      "original_query": "40ab200869ebed1edc56da0257b81d38e3dc34c7cc8e75b4eb5c6b3f194ec584",
+      "clarification_question": "06c666ea90a776df038db8e767e40e0464f019bb5a32a35873fbb5fa202f482f",
+      "user_answer": "b64cfa1fb061237b948e64077c4730ca0930ef3d4b3c991aebf9ba3b25fa2ef1",
+      "prediction": "853bb1d46ccdf45a1c6a1455cdd2a078fb8ccafc8df1156e7d55bfe083d88e75",
+      "selected_references": "6f739241c4acab2ce48c5edcc05479ae8b82a4606fbbad7100cf7b31beb8b79b",
+      "judge_target_reference": "63a01d69ff7d2a87e64cb074d94320a0e7bbfae1fd0dc5c1143c3a10ff2e122e"
+    },
+    "checks": {
+      "same_question_user_final": true,
+      "same_question_user_judge": true,
+      "same_clarification_user_final": true,
+      "same_response_user_final": true,
+      "same_prediction_final_judge": true,
+      "same_selected_references_user_final": true,
+      "same_disambiguation_user_final": true,
+      "judge_ref_present_in_user_refs": true
+    },
+    "status": "usable",
+    "exclusion_reasons": []
+  }
+]

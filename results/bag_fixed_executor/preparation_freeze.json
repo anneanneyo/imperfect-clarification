@@ -1,0 +1,11 @@
+{
+  "protocol_sha256": "630d9a296d057d2bfcf87dd8fade3a65fd6551381cdaeb1daad61d62a4cbb471",
+  "source_manifest_sha256": "2eaec3260e49b6de933a6c98799e65575aac46d7193814da26a0a88299d56502",
+  "artifact_sha256": {
+    "branches.json": "9bb09bcca4a7d90e20b6dc4898f1b1820becac6df2041a6605c42992d021cd3f",
+    "pairs.json": "f3d8cfe0f13bcf31751f0044217841f540ae41d457aec48fec9cc332771eb1d2",
+    "blind_pack.json": "7b0e74bfd810e44d7db7a9e381d5c910c8ea5cb381f2351e093c45607191f5a3",
+    "mapping_internal.json": "eda476c7381d3a2c42a6d708db2634dbc0e71d91f776e1e243dbf91405746293"
+  },
+  "note": "Eligibility and sample frozen without inspecting new predictions or judge outcomes. Baseline belief previously analyzed in E008."
+}

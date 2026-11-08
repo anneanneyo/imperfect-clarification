@@ -1,0 +1,13 @@
+{
+  "verified": true,
+  "phase": "completed",
+  "folds": 24,
+  "source_target_values": 144,
+  "vocabulary_entries_checked": 27265,
+  "max_svd_prediction_error": 1.887379141862766e-15,
+  "heldout_label_mutation_checks": 24,
+  "train_only_preprocessing": true,
+  "groups_disjoint": true,
+  "rational_metric_checks": true,
+  "verifier_sha256": "4958ca0ecc433f95db81d257675ae2fed589d4dedfc524d47e461c8cba01ebe8"
+}

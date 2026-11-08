@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-27",
+  "code_manifest_checks": {
+    "experiments/bag_response_audit.py": {
+      "matches_manifest": true,
+      "sha256": "d7ebfdc464b557a3211b65cc90ab5d452d67c0dac93e52f726565c28db7d39ce"
+    },
+    "experiments/bag_cross_model_screen.py": {
+      "matches_manifest": true,
+      "sha256": "94e2b21a371e934d4b3efb9dc9f9507f889db8b553aa5d276c0261b1ac45a4d5"
+    },
+    "experiments/userville_data_inventory.py": {
+      "matches_manifest": true,
+      "sha256": "19d1bd12169304bdd6e9d213f622af52a29f5148251226f49a58e40c27c6de02"
+    },
+    "experiments/clariti_table_inventory.mjs": {
+      "matches_manifest": true,
+      "sha256": "8439ade56462fdda4cdfd1ae441d786400214da460f792373194abf5b9f00c7b"
+    }
+  },
+  "document_link_checks": [
+    {
+      "file": "README.md",
+      "local_links_resolve": true
+    },
+    {
+      "file": "research/AUTONOMOUS_UPDATE_2026-10-27.md",
+      "local_links_resolve": true
+    },
+    {
+      "file": "research/E008_RESULTS.md",
+      "local_links_resolve": true
+    },
+    {
+      "file": "research/E009_RESULTS.md",
+      "local_links_resolve": true
+    },
+    {
+      "file": "research/RESPONSE_DATA_GATE_2026-10-27.md",
+      "local_links_resolve": true
+    },
+    {
+      "file": "research/NEXT_DECISIVE_EXPERIMENT.md",
+      "local_links_resolve": true
+    }
+  ],
+  "independent_raw_E009_count": {
+    "replies": 2282,
+    "source_ids": 1392,
+    "matches_summary": true
+  },
+  "frozen_annotations_unchanged": true,
+  "E008_policy_rows_verified": 1832,
+  "E008_joined_responses": 76,
+  "new_external_model_calls": 0,
+  "scope": "E008 policy extension, UserVille/CLARITI inventories, E009 screen and documentation. Earlier E006/E007 checks not rerun because code unchanged."
+}
