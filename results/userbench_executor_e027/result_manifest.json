@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": {
+    "executor_choices.json": "06c23b044b2a94d33de64f5c8c519850427159cafdb2e956d7911a8e1459f7d3",
+    "executor_scores.json": "72c167d58b5a559ec07f8b0532a34adc8c868684c469e94f00757d4d668bb43a",
+    "heuristic_traces.json": "70cf95583b034a3c0b07a40a12d65e9449cc6a3ee119a67e89327767afbb4761",
+    "question_outcomes.json": "841c7e5c033c73fef9fe918f1f647a7b8924d1f9d181d53efac08466991afba7",
+    "ranking_details.json": "8bd974f969a5ed0f36945100bfda6eed2151014a1ebf39a6c238d608b62bfd7a",
+    "summary.json": "400e1b99837d0cf7845bf5be6006b8681b52055699d74f49600c72acb38b3aab"
+  },
+  "input_manifest_sha256": "d2689db138b4ef3b0f4325a26ff632e4077ab0364b7a1b49a3e26af927ee9be6",
+  "review_manifest_sha256": "a75f0c8737d77dd88926178dd9b6e8f3d794d399040bacf65b2d13b587450c3d",
+  "reviewed_truth_sha256": "104120a62a5f205db533b3355bb074db6544f88d8091a28bc2a329f3a532a3ae",
+  "run_sha256": {
+    "generations.jsonl": "55b54a76beff905388af12e10dde9621c5ec3504997ae34d07d13ac01b11eb00",
+    "run_status.json": "b1735698b6f8dc312b0215f76d15b2bb792468fe6fcb41af01badde1c21ebf18",
+    "started.jsonl": "9f8d6a88c778ae8400903e4cc4f83abf18e6c0430570f8186d1b93bd628398f5"
+  }
+}

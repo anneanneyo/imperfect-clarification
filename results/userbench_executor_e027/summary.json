@@ -1,0 +1,513 @@
+{
+  "all_aspects_diagnostic_caveat": "full/partial applied to all four aspects is a four-question diagnostic, not the one-question comparison",
+  "all_aspects_same_mask_diagnostic": {
+    "lexical_price": {
+      "first_only": {
+        "semantic_lower": "113/288",
+        "semantic_upper": "149/288",
+        "source_acceptable": "113/288",
+        "source_best": "13/72",
+        "valid": "1"
+      },
+      "full": {
+        "semantic_lower": "7/16",
+        "semantic_upper": "29/48",
+        "source_acceptable": "11/24",
+        "source_best": "17/72",
+        "valid": "1"
+      },
+      "no_information": {
+        "semantic_lower": "115/576",
+        "semantic_upper": "175/576",
+        "source_acceptable": "7/36",
+        "source_best": "35/288",
+        "valid": "1"
+      },
+      "second_only": {
+        "semantic_lower": "15/64",
+        "semantic_upper": "73/192",
+        "source_acceptable": "25/96",
+        "source_best": "1/6",
+        "valid": "1"
+      }
+    },
+    "qwen3_4b": {
+      "first_only": {
+        "semantic_lower": "7/16",
+        "semantic_upper": "9/16",
+        "source_acceptable": "1/2",
+        "source_best": "1/4",
+        "valid": "1"
+      },
+      "full": {
+        "semantic_lower": "1/2",
+        "semantic_upper": "17/24",
+        "source_acceptable": "31/48",
+        "source_best": "7/24",
+        "valid": "1"
+      },
+      "no_information": {
+        "semantic_lower": "7/48",
+        "semantic_upper": "5/24",
+        "source_acceptable": "5/24",
+        "source_best": "1/12",
+        "valid": "1"
+      },
+      "second_only": {
+        "semantic_lower": "1/3",
+        "semantic_upper": "1/2",
+        "source_acceptable": "7/16",
+        "source_best": "11/48",
+        "valid": "1"
+      }
+    },
+    "uniform": {
+      "first_only": {
+        "semantic_lower": "119/864",
+        "semantic_upper": "49/216",
+        "source_acceptable": "1/6",
+        "source_best": "1/18",
+        "valid": "1"
+      },
+      "full": {
+        "semantic_lower": "119/864",
+        "semantic_upper": "49/216",
+        "source_acceptable": "1/6",
+        "source_best": "1/18",
+        "valid": "1"
+      },
+      "no_information": {
+        "semantic_lower": "119/864",
+        "semantic_upper": "49/216",
+        "source_acceptable": "1/6",
+        "source_best": "1/18",
+        "valid": "1"
+      },
+      "second_only": {
+        "semantic_lower": "119/864",
+        "semantic_upper": "49/216",
+        "source_acceptable": "1/6",
+        "source_best": "1/18",
+        "valid": "1"
+      }
+    }
+  },
+  "constant_one_question": {
+    "lexical_price": {
+      "first_only": {
+        "flight": {
+          "semantic_lower": "127/576",
+          "semantic_upper": "187/576",
+          "source_acceptable": "7/36",
+          "source_best": "29/288",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "139/576",
+          "semantic_upper": "199/576",
+          "source_acceptable": "17/72",
+          "source_best": "47/288",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "163/576",
+          "semantic_upper": "223/576",
+          "source_acceptable": "5/18",
+          "source_best": "53/288",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "71/288",
+          "semantic_upper": "107/288",
+          "source_acceptable": "77/288",
+          "source_best": "7/72",
+          "valid": "1"
+        }
+      },
+      "full": {
+        "flight": {
+          "semantic_lower": "127/576",
+          "semantic_upper": "211/576",
+          "source_acceptable": "31/144",
+          "source_best": "35/288",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "139/576",
+          "semantic_upper": "199/576",
+          "source_acceptable": "17/72",
+          "source_best": "47/288",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "175/576",
+          "semantic_upper": "235/576",
+          "source_acceptable": "43/144",
+          "source_best": "59/288",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "13/48",
+          "semantic_upper": "19/48",
+          "source_acceptable": "7/24",
+          "source_best": "1/9",
+          "valid": "1"
+        }
+      },
+      "second_only": {
+        "flight": {
+          "semantic_lower": "115/576",
+          "semantic_upper": "199/576",
+          "source_acceptable": "31/144",
+          "source_best": "41/288",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "115/576",
+          "semantic_upper": "175/576",
+          "source_acceptable": "7/36",
+          "source_best": "35/288",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "115/576",
+          "semantic_upper": "175/576",
+          "source_acceptable": "7/36",
+          "source_best": "35/288",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "15/64",
+          "semantic_upper": "65/192",
+          "source_acceptable": "23/96",
+          "source_best": "7/48",
+          "valid": "1"
+        }
+      }
+    },
+    "qwen3_4b": {
+      "first_only": {
+        "flight": {
+          "semantic_lower": "5/24",
+          "semantic_upper": "13/48",
+          "source_acceptable": "11/48",
+          "source_best": "5/48",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "5/24",
+          "semantic_upper": "7/24",
+          "source_acceptable": "13/48",
+          "source_best": "7/48",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "5/24",
+          "semantic_upper": "7/24",
+          "source_acceptable": "7/24",
+          "source_best": "1/8",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "1/4",
+          "semantic_upper": "1/3",
+          "source_acceptable": "1/3",
+          "source_best": "1/8",
+          "valid": "1"
+        }
+      },
+      "full": {
+        "flight": {
+          "semantic_lower": "5/24",
+          "semantic_upper": "5/16",
+          "source_acceptable": "1/4",
+          "source_best": "1/16",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "11/48",
+          "semantic_upper": "1/3",
+          "source_acceptable": "1/3",
+          "source_best": "1/6",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "5/24",
+          "semantic_upper": "7/24",
+          "source_acceptable": "7/24",
+          "source_best": "7/48",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "7/24",
+          "semantic_upper": "19/48",
+          "source_acceptable": "19/48",
+          "source_best": "1/6",
+          "valid": "1"
+        }
+      },
+      "second_only": {
+        "flight": {
+          "semantic_lower": "5/24",
+          "semantic_upper": "1/3",
+          "source_acceptable": "13/48",
+          "source_best": "1/12",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "3/16",
+          "semantic_upper": "13/48",
+          "source_acceptable": "13/48",
+          "source_best": "1/8",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "1/6",
+          "semantic_upper": "11/48",
+          "source_acceptable": "11/48",
+          "source_best": "5/48",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "5/24",
+          "semantic_upper": "7/24",
+          "source_acceptable": "7/24",
+          "source_best": "1/6",
+          "valid": "1"
+        }
+      }
+    },
+    "uniform": {
+      "first_only": {
+        "flight": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        }
+      },
+      "full": {
+        "flight": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        }
+      },
+      "second_only": {
+        "flight": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "lodging": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "rental_car": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        },
+        "restaurant": {
+          "semantic_lower": "119/864",
+          "semantic_upper": "49/216",
+          "source_acceptable": "1/6",
+          "source_best": "1/18",
+          "valid": "1"
+        }
+      }
+    }
+  },
+  "elapsed_seconds": 1385.0116985409986,
+  "information_transitions": {
+    "lexical_price": {
+      "first_only": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 1,
+        "semantic_certified_helps": 10,
+        "source_acceptable_harms": 1,
+        "source_acceptable_helps": 11
+      },
+      "full": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 3,
+        "semantic_certified_helps": 15,
+        "source_acceptable_harms": 3,
+        "source_acceptable_helps": 17
+      },
+      "second_only": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 2,
+        "semantic_certified_helps": 5,
+        "source_acceptable_harms": 2,
+        "source_acceptable_helps": 6
+      }
+    },
+    "qwen3_4b": {
+      "first_only": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 0,
+        "semantic_certified_helps": 14,
+        "source_acceptable_harms": 1,
+        "source_acceptable_helps": 15
+      },
+      "full": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 0,
+        "semantic_certified_helps": 17,
+        "source_acceptable_harms": 1,
+        "source_acceptable_helps": 22
+      },
+      "second_only": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 0,
+        "semantic_certified_helps": 9,
+        "source_acceptable_harms": 2,
+        "source_acceptable_helps": 13
+      }
+    },
+    "uniform": {
+      "first_only": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 0,
+        "semantic_certified_helps": 0,
+        "source_acceptable_harms": 0,
+        "source_acceptable_helps": 0
+      },
+      "full": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 0,
+        "semantic_certified_helps": 0,
+        "source_acceptable_harms": 0,
+        "source_acceptable_helps": 0
+      },
+      "second_only": {
+        "aspect_transitions": 48,
+        "semantic_certified_harms": 0,
+        "semantic_certified_helps": 0,
+        "source_acceptable_harms": 0,
+        "source_acceptable_helps": 0
+      }
+    }
+  },
+  "limitations": [
+    "provisional semantics",
+    "known development tasks with template overlap",
+    "synthetic information masks, no response probabilities",
+    "aspect-factorized choices",
+    "oracle question ranks use hidden outcomes"
+  ],
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "model_generated_tokens": 1536,
+  "model_invalid_outputs": 0,
+  "model_invalid_scheduled_choices": 0,
+  "model_length_finishes": 0,
+  "model_prompt_tokens": 344745,
+  "model_runtime_errors": 0,
+  "official_test_tasks_evaluated": 0,
+  "paid_api_calls": 0,
+  "peak_memory_gb": 3.18776052,
+  "ranking_diagnostics": {
+    "lexical_price": {
+      "robust_semantic_reversals": {
+        "first_only": [],
+        "second_only": [
+          "E025-04"
+        ]
+      },
+      "source_acceptable_mean_strict_gap": {
+        "first_only": "0",
+        "second_only": "0"
+      },
+      "source_acceptable_positive_strict_gaps": {
+        "first_only": [],
+        "second_only": []
+      }
+    },
+    "qwen3_4b": {
+      "robust_semantic_reversals": {
+        "first_only": [],
+        "second_only": []
+      },
+      "source_acceptable_mean_strict_gap": {
+        "first_only": "0",
+        "second_only": "1/48"
+      },
+      "source_acceptable_positive_strict_gaps": {
+        "first_only": [],
+        "second_only": [
+          "E025-08"
+        ]
+      }
+    },
+    "uniform": {
+      "robust_semantic_reversals": {
+        "first_only": [],
+        "second_only": []
+      },
+      "source_acceptable_mean_strict_gap": {
+        "first_only": "0",
+        "second_only": "0"
+      },
+      "source_acceptable_positive_strict_gaps": {
+        "first_only": [],
+        "second_only": []
+      }
+    }
+  },
+  "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "scope": "same 12 development tasks; fixed-mask replay; no learned question selector",
+  "unique_model_calls": 192
+}

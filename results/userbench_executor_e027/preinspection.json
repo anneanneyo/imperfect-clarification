@@ -1,0 +1,5 @@
+{
+  "protocol_sha256": "f69ab6186cab9becde15304ff0e0d6d77c5ff9e0765efce08a83a506269779f2",
+  "parent_commit": "8691baf17899f16f3fe04dbfa4596a99bb9451aa",
+  "phase": "before E027 executor outputs and outcome scores"
+}

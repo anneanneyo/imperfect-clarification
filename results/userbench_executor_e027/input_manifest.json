@@ -1,0 +1,47 @@
+{
+  "budget_seconds": 3600,
+  "code_sha256": {
+    "experiments/analyze_executor_e027.py": "b1712d62f7b014dfed6707b73a313d5ab3b5db78dc4e9c9eed0461d0feef58c7",
+    "experiments/executors_e027.py": "cf1691b20db43d88f7b0902c106d57f3314c77539994a047a5c6156066f60835",
+    "experiments/prepare_executor_e027.py": "e0055cd99e5c017341e9baca1872a76ef35e351dcfffa3427521e351fcae8c22",
+    "experiments/run_executor_e027.py": "2b582cb5b76b5960198f2e35cb2c5646b310a91b01f5dff47e2f12e93d5c13d7"
+  },
+  "input_sha256": {
+    "research/E027_PROTOCOL.md": "f69ab6186cab9becde15304ff0e0d6d77c5ff9e0765efce08a83a506269779f2",
+    "results/userbench_executor_e027/preinspection.json": "a0a8d9317421d6b86bfbf1641a72b00262b0929d47963f3d276d3f78d67f60a6",
+    "results/userbench_executor_e027/public_inputs.jsonl": "71d4ccfb3b7620dc7ac148e77e7a2149ad4a5d2d785a1e04f8f6ff5c11fa446c",
+    "results/userbench_executor_e027/rendering_hashes.json": "8fda332ba0ddfff5d718f9beb0bbaa80fb6ca37c5f4ac731b6957597a46c9672",
+    "results/userbench_executor_e027/requirements.lock.txt": "daf51615b4c703062a696ce21abdcd95951cc21cf91509fa662e9a6eee99776a",
+    "results/userbench_executor_e027/schedule.json": "ae4caa6dbaab99bf1e51d56d688f009b0bb69039fb991f823ac350f0ffac9fa7",
+    "results/userbench_train_e025/private_cases.json": "2c91c2a5077523c35522ce1feb9dd815113a5e9ed4a83d9cf3c3c9261d8ae237",
+    "results/userbench_train_e025/public_cases.json": "1be6ca3659a81d6ea518d89314a8c279c20efb5bb98543f58066f714e29d8612"
+  },
+  "max_input_tokens": 2203,
+  "max_tokens": 64,
+  "model": "mlx-community/Qwen3-4B-Instruct-2507-4bit",
+  "model_files": {
+    "README.md": "7b17ce562d7ea121c86d2ffdf660eed3726ac5b52cacfa9f1de11a65969f5657",
+    "added_tokens.json": "c0284b582e14987fbd3d5a2cb2bd139084371ed9acbae488829a1c900833c680",
+    "chat_template.jinja": "40c21f34cf67d8c760ef72f8ad3ae5afad514299d4b06e91dd9a8d705af7b541",
+    "config.json": "574349e5a343236546fda55e4744a76e181f534182d7dc60ff1bad7e7a502849",
+    "generation_config.json": "835fffe355c9438e7a25be099b3fccaa98350b83451f9fd2d99512e74f1ade48",
+    "merges.txt": "8831e4f1a044471340f7c0a83d7bd71306a5b867e95fd870f74d0c5308a904d5",
+    "model.safetensors": "2a73c6c248601ab904e035548abd8e6abb65ea27dcb5f342fb0a8910eb44173f",
+    "model.safetensors.index.json": "388d811b8b7c2608dd04cce1bcb04a8bf715d19b42790894e6d3427ff429a777",
+    "special_tokens_map.json": "76862e765266b85aa9459767e33cbaf13970f327a0e88d1c65846c2ddd3a1ecd",
+    "tokenizer.json": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4",
+    "tokenizer_config.json": "4397cc477eb6d79715ccd2000accd6b3531928f30029665832fa1b255f24d2b9",
+    "vocab.json": "ca10d7e9fb3ed18575dd1e277a2579c16d108e32f27439684afa0e10b1440910"
+  },
+  "platform": "macOS-14.7.1-arm64-arm-64bit",
+  "python": "3.12.14 (main, Aug 25 2026, 13:50:33) [Clang 22.1.3 ]",
+  "revision": "50d427756c6b1b2fe0c0a10f67fbda1fc8e82c1b",
+  "runtime": {
+    "mlx": "0.32.4",
+    "mlx-lm": "0.32.2",
+    "transformers": "5.21.0"
+  },
+  "seed": 20261108,
+  "temperature": 0,
+  "unique_inputs": 192
+}

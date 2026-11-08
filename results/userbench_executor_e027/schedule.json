@@ -1,0 +1,1154 @@
+[
+  {
+    "aspect": "flight",
+    "case_id": "E025-01",
+    "id": "537ec50e941620f478a00ab98380d8d67f7da1095348b277109c61b9e1f196fc",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-01",
+    "id": "38ec34aa45acfaf9198166b8f1ac75475e421e95b5490eab0c3ce5a6688f85c4",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-01",
+    "id": "4694498aeb97543b417d148fda76094a806713f4ef6db90399d202023526e6fc",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-01",
+    "id": "4d6ba0ab53c31a95d52eef932ef47f70fd04c643db1ac376476e6c95030ae8cd",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-01",
+    "id": "86649138b0750845530afdd09f6965f73560db0fb2c45d8fc1d0785bbcacf271",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-01",
+    "id": "d1d58f110e57c9f48621eb020c31d06c817f8db0145c84980fe6ae71b6198608",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-01",
+    "id": "5b3d33a9c5cef4406c09655d7da8b9ebdca484ec67ce1c7ada34b41bb7aaa97d",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-01",
+    "id": "96516e61c4c3f8b645c94729604c49eddf14c36d7815363665cf9135a003bfbe",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-01",
+    "id": "3cc9cf55162c327dfa5136080f4c5a5f7f882a699792155e298ab2a02217b6ce",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-01",
+    "id": "c09033244d5f6a3d084128e83beb66d3a08bdc4b2a9002626d44fdf956879123",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-01",
+    "id": "42be5637383c9fba07596bb81e5555990953ad4a0e008028cef66255d80d928e",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-01",
+    "id": "b122bf435d861320aa618651aa3d03cfcf109dd8e7510f32787b4066c1e1906d",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-01",
+    "id": "7fc13887bb53367ed2c01fda0f305facaa3ce5b432ca2235bafc9e616cf3a078",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-01",
+    "id": "29b1ac2b1d0d607e7698b657d86e6060ffea66a22ba7fb5ab00c7522c6af059b",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-01",
+    "id": "68a226902033b117c195145b07e9ce235e0b0c905ff337830ef9098b5b8775f7",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-01",
+    "id": "7bc89f14371e9d8bc42c0ccd78ee44134b32099700d08c0e5c70a77c5a8b3f84",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-02",
+    "id": "7d5d6af371ef50a7db7bc1862308b9686dc597f9a50ccc12b5c254e0479f9328",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-02",
+    "id": "f019bc6150465d64f3d37a6a1419f9b16fbfb17788a5bdd337a4833bd1547a71",
+    "mask": "full"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-02",
+    "id": "df2813c6f338b385cc8950874f2380b52ed91da601c4f6444a182332b7326f45",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-02",
+    "id": "c50d50739a17f18da7082c645fded6704fc9193335fbf034b4be50591ae150ea",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-02",
+    "id": "a5560d7b40423423d2445dc35628308da06712edbfd1067ac8ff66e757b5a124",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-02",
+    "id": "9c978b88c6eca19357d4d764e180ed60cd6cd7fa3f8cbe77534d601cf815dde6",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-02",
+    "id": "284ad8dbf448527e04eedd8c919d2dc426c40436964faf41f29e2cf2c50e9162",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-02",
+    "id": "8340ccaff3f44216ffa636626d7ac348c6ccf8ad7f06e689fabb1fc456378542",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-02",
+    "id": "7ef5dbc20defbe95a0af6e0278ff37b1edf492de62748ef203780dea9903fdc8",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-02",
+    "id": "c438e8289fae06babb6b1e3b831efcba48ad2547bbb6ef1d0720b3299177bde2",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-02",
+    "id": "0fac6e6f92318821f1b8fd38f94d88ab63b58749942560972c33b0fcb7fcfff1",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-02",
+    "id": "85e5902826ab0739f9dca8bdc3bb3949bd2323651417fa9a8431863976cd4783",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-02",
+    "id": "c9310cb3686ecb8c9b6d14e3f34e0bfe3c0ec5612314b7e5736875de36a6033a",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-02",
+    "id": "86c3017d70fe096a2d8ddb73203bea71a4494c1f8224cdefe9ac35fa348b8290",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-02",
+    "id": "f6b93d92ca2579e2b2daf7df26a4df5dd288aa5d27d6aac03961deb5d267143f",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-02",
+    "id": "678b46298b693cc798604b59def72fa87ee1673a5b21a7ecab4d70ffe31fe35c",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-03",
+    "id": "74478d5a0ed2f233f4e126b3d3e172835fd7fbe7f01b64d8ddc6dbb6ce892797",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-03",
+    "id": "69a0ab81de04e4bc7c56624b9d1bbc3ffad73d78aab9fbb75cdda51133b33124",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-03",
+    "id": "0e099b6df7610fb486ab0ae664b335d736bd7964d16b62113961c153f7d348e0",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-03",
+    "id": "e91956b8a02dc93617926e262c9c482e7c72e1155c63bde235e7b8ca3f8a0b58",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-03",
+    "id": "bf753ecdba36a6990e5def6a1edb2d5e7d09d575c2e1a12729c6af413e7a905a",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-03",
+    "id": "cea9d52844c0d036c4457d48fe27d84ba9b3dda9fd3e17fab44d51ddae35e0ef",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-03",
+    "id": "53da6d2256d006221c6b0d8d56f7988b8474146a52302a1be75dbc863a9134ce",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-03",
+    "id": "9e3ce2a7cec47d1d7eb962c6fddfa2df792380a7f4cfb27ab8f74f7bd6c0a8e5",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-03",
+    "id": "b8940a1262ea9c8c96d740b4e051284162c79b74860a868498b287fd411beade",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-03",
+    "id": "9e68d42a4b39e98b77aa55c00fddac7f1802bea25bd4fd44f42cf2cec816fb0c",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-03",
+    "id": "a62eefbf3ba65205d50e93035301237d2d1bb99f7104bdffa003dc84ed373a0f",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-03",
+    "id": "2f9010223ea483ae75325fc24eedf8c03d3c0397e7bb0949f7fe23452039bd76",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-03",
+    "id": "65420ca0008bee850cbc8da367914bf66ef69defa9e715e02c5861584a1a4408",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-03",
+    "id": "61e3b0cfe6d363bae93dec357431cebb6fc99d826ecda3a4cb050fbb43b87aef",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-03",
+    "id": "09540584ef25ea60068b4e476180077cc871c9edcdb81f72e3aacc9e9c2216d3",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-03",
+    "id": "8461fecc73d5aa406d4b452d0fd9d3b52a1bdd0a7a5e365f82e30018ba4ad5ca",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-04",
+    "id": "f890e7eb7651a7dda3400990cd1b1532337f8b8ae8b01f30e78c701208114844",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-04",
+    "id": "bc99e97de9be2b5ce0447897eb6d18e149c4168ff5b59f7c412ec17a51938071",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-04",
+    "id": "1f9fa0765b54abbe4af66ebc495aae0e6b40139bd2dc0123e7036edc410ad00f",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-04",
+    "id": "a3f518fe1d182d36dbcdeb8b80fdb222d2a146702418abe12e1e8b7646aacce7",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-04",
+    "id": "f1b94fcdc8da53e96acd863ae2acc019c5e85c7e5f0d981643fbc9d11fec9e6c",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-04",
+    "id": "2692b90e97d189fe7f068d87faf5bcf67a7d6629bc01c5edde636831d0ba5102",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-04",
+    "id": "d87004f06e69691f25f6b3344b0e7bd5be561efde83efe3dec35361d77a94874",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-04",
+    "id": "340bcd0c9ec214e17194cfbb65e8b426bd5204a8b97b2a1d122ce8942e298db7",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-04",
+    "id": "fb6decad8a8ebe9e4338bbb663050080f224a131ebba439ee3b1619ceffd84f5",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-04",
+    "id": "100274bda993691c2baa38d54d679a3ae621d00c239f064da67f36139dc8bcc2",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-04",
+    "id": "dcbedaa0afd4bc89f48c6a1bd1f0087fd6f524b3f868f9597d663bbe812c1009",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-04",
+    "id": "6ad11447f069e9c27db5e958f463978ce8c1c9f8ad0561bf25810e8a8781da0c",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-04",
+    "id": "e2b74607c918f3ee692fe26fbf565cfd20883ae98702d0d20716cd11f24cdc08",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-04",
+    "id": "744a7c3bc076be2e573f47fd90ca9d536a5445b560334cfafdea6db2e92f69ff",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-04",
+    "id": "d5ca7e210b6127d38a0ed91e8381595c6af76d19a4943c06277559b6ec4f72da",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-04",
+    "id": "9104f245773a7a02817b73a4f37640998ed9d80ee7c78579214a249043069e1c",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-05",
+    "id": "304e5d99ab8654e98f779918a2d32ad183c08d9f050500b6e75eb020e7a10ca9",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-05",
+    "id": "56f67cf749744f5894dbaa876dfab0f63c444ba2100b111da70d8f9fd54d075c",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-05",
+    "id": "edf28f654bdcc4f5bcb39024affb6b76129df10e4f40f9c38dbca61440aeeda2",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-05",
+    "id": "1eba8cb9ba601153eabeab4bd84367e264a636bf66800008e807054c82e13a26",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-05",
+    "id": "0a8223aed783828764bec430a60ded538d6d5cfc8239c97b8f29e533366d41bb",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-05",
+    "id": "4e103872d0f0b722f4ecafed7fd0028f5d3859ec4880384af9db4bbcb500dc8c",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-05",
+    "id": "1641a124144e1c9a09bd8fd7d0535297be414af66c1d2b09512d9514dcfb94be",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-05",
+    "id": "a3917faae54f4e9bc6a7f9a1ce90ee7a1ee6c379fcddef8d5c93f3720fdb6747",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-05",
+    "id": "26cc50d1a821b73408b03630d86a84862f4c51f141dfdf32757b5348fed4d898",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-05",
+    "id": "e354410746aa11f7abc2a173b704069b79ed2170cd20e5db1510b4c392c4495f",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-05",
+    "id": "a608ae2c4a0e624da847cd0ee62c0ebc9070278d68379659fe15e4cfbe55bbb9",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-05",
+    "id": "0df12870341ef1b8fa82b445d8a19d9247edfcbe8a6d9d7944eb5a161efde907",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-05",
+    "id": "a416bb9f4eb2510e024a5d5ea12b733f8b089bd5709881eaefb949686da31a41",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-05",
+    "id": "8bcf0db968cdb3e6fc9e2760a6988be3297913591533fdff1e2eef59c2099cb8",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-05",
+    "id": "53936ad5d4909c1db6f75bfc6e816f8068ec0297ad076c53b9bda5a7af9748e1",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-05",
+    "id": "fa6717b7b452b617465c106f5420bb8966b788d569e034f324d4947f05118613",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-06",
+    "id": "425e4118675d2494d33a22ecd87fea3ce53074ecbee98610c5136c56624a0dd4",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-06",
+    "id": "bb7383d267896f586896c2455e4209dc6b8fd348fc7385180538815af0992324",
+    "mask": "full"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-06",
+    "id": "727250b5b8d74859cf28691b60a226680fbb902490e4953c8d32ea0ab341d8bb",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-06",
+    "id": "3cb5110573c88950f121809df9a1ce1e973e9875138a8c4c4a89d5c57687c234",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-06",
+    "id": "ffb321d027ea3616d5c53d828f581b203529f1e53442ede78385e5db6bfe1c95",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-06",
+    "id": "63d4ac01a3dc543ea88285eb5666c1dd4fecf84c9d2424208311b0b1666f9028",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-06",
+    "id": "69cd21fb2ae818116894cfb3c3877d45bbb7c30edf3e85465233a18bc0622c51",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-06",
+    "id": "97885eaed8c295ccb12c1a01784a8926864103d14f7a245eee55009ff2693ff1",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-06",
+    "id": "c38a07feda64ccb28b6a8ce198ed2331309d527342f216717049c0b452d91ee7",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-06",
+    "id": "a3753b4a39e8a74684227ea20bc7aa25af7c3266ad0af59937f02b9b38de0227",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-06",
+    "id": "1a3670aff4139fe2af6d5ea4fe18769e3fd68b002da4cd5cf8721320a97dffac",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-06",
+    "id": "43948cbae3bb2654939790e4ee73f3d10342a132ed7e6d116b404426400d5d96",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-06",
+    "id": "56db87ede056dafd124c1ef40963992a30ea0e1414b957e9c8f62dcc53a4e7aa",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-06",
+    "id": "aab7e31ba78e2af7f9e1d78c776e9be5ffae3a78958f2a5cac779890c070c7b7",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-06",
+    "id": "c74bfb1a3a2cb4cf368930277399bf5a52dde945258f92c3015a44e0451575f6",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-06",
+    "id": "4dae24ded9745eb41804406ec586dc652d1f665efa5a50cadf1d6dab5a3176b7",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-07",
+    "id": "53dfa25228e928b2afe5ac157ab15067cd51028f8c3953fe33abe7e3d64677d0",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-07",
+    "id": "cbe5333ddc44ea8a8a855e08e6789cbc6073e12b735d9c8745fa178bc1ff53a5",
+    "mask": "full"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-07",
+    "id": "6737fb8eebc1a2134bcd29ee409770fbe25022f90b5b247675105afd08c05807",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-07",
+    "id": "a1147a6aa703f610cb82bf9a6cd1eeaa1ce99a8e50a6a78d0a1a7fd39336ef48",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-07",
+    "id": "f61c3faccc31667c3118ca3d9c8291ac714ae34071cf176d813a9c73aabdbb46",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-07",
+    "id": "178df7fbc8b6dd77d6b246075a3f085bb63a91c7803613f10d994898a27b14c2",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-07",
+    "id": "6c7495191d5e9aa5c9b3943944930fd5c28c962c3fb5807a87e6e15d717a55e4",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-07",
+    "id": "33f8eb9aa37bb3d27c72d80ca44822f78be764a50ede7a96df7ff768671bcda4",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-07",
+    "id": "0c7f446c3711fbb6bd13029333c5138ce2c26c63b0fad3f0bd1504383ef4980b",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-07",
+    "id": "f305688d2e268721b66e5af7dd3d9ff6f32eae17cd4beae813f73ff0d4bb694a",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-07",
+    "id": "3fb7ab993466b999d7a52f321fc12ca3ae2fbe9fdb8ffe8c47552a9839320ebe",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-07",
+    "id": "6a537efa3e1594c70e781797a013e1df4030e2e31d8713141af305a771d8325a",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-07",
+    "id": "ecc86b45b0cec873ce5587c0e9d94aa74368b25059a7c1498d90b3be6b76dbd0",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-07",
+    "id": "273c214f9726049d94215b069a68effcfbeecd28b513b01d8fe3a7d59942254d",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-07",
+    "id": "de9850e69ae2d77ecc131b228bf6cfd3a7a6679e7c93ea96c0fa8cea7346012e",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-07",
+    "id": "ada10767d18134d490dcc4e67e21594e1abeada51653813319daedb4079fd609",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-08",
+    "id": "5fce7c745eda7937fb5dbf0ecce432677be57b609b43867d92e74a40333acf57",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-08",
+    "id": "822a48080b9181fc41033111a9bf22fec63f6558b6122a723783c44294160019",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-08",
+    "id": "2ff7bed00225e2ce4ed0ecbf5ded7cb9cd2dec09ff4f5ad8e8077f2e39e529af",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-08",
+    "id": "c08f95251ddaea36fe8670308d8dba594e67e63329f9b06983a1a33c089e0f30",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-08",
+    "id": "46c9e9e43e473925d2ceda8061c120839a9c6ceb8c0ec337b00856e373e41b04",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-08",
+    "id": "0e0ab3b408ca0eedb09e881a15aa0272b636fceb7aeece6191c4f09da916f6e5",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-08",
+    "id": "f41beaf631d648d22421ca24a777cf5a1ad64fbc3974a221406203c619e7b4d1",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-08",
+    "id": "06c87d350c8769c7cfc72d5d5bf701d3a93bb8234ffca98014eaa840255dd69f",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-08",
+    "id": "b61b3370c6925862661e89f6db92905126e9c8d851c6d27e0bb08882673d8de0",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-08",
+    "id": "f1e0dfb3d881278a87470da4992739412d7f617ee0935d06468357dfc4598324",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-08",
+    "id": "2393ff0964d7f06fc6f624cd1dbf75014472ea592fd30cb0c9aa3e22c7486742",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-08",
+    "id": "0769cdbe26a891690d2394ba26de5850fbdfd23f25d4bb9de336a597c9828201",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-08",
+    "id": "7f0c041e12d577c01c056db9e4d1bb034c59a1430fdf509f424c7bf733909c96",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-08",
+    "id": "744d94aea8bb776c1fece6d118a22228c7241fb2d13bf83ad2f8e92850c7b4bf",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-08",
+    "id": "35d2e0278e70b2f4a80043915448d5cb5bd0c63277299bce8be4f2e6a7dfdb7c",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-08",
+    "id": "1b4ae6f542f3d2f639d9c4cc5568c6bbd599b5baca6cf070ae2f3ae74fec2f4f",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-09",
+    "id": "ab3d26119a61be9d0f31a88e4daf658ca0cdc902b321df20a707aa02365336b1",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-09",
+    "id": "9d978b4ec2553b3926ef2dbfae99665648e4cdbb234d20410880f7dd76d19a5a",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-09",
+    "id": "41fc387a248a596e32cab309913a99735410551f2a61ca37ce4aa341b0848435",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-09",
+    "id": "ca5cbf4957825dd37f4f17c406b9f7b5a17fd3bc7dd9dcd974beb00055cab7fd",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-09",
+    "id": "23438250d5fb2ea2891ff8b2bdacb264c11c92bc54846202b0e9edca22fdf528",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-09",
+    "id": "8ac9d1f88deca1a8a15230aa8f4356fc738b5dbe2558b274effee748d46dea5e",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-09",
+    "id": "c5a39864ed703a4e7c22fcdaa4e8f8e63e3c687d1c3b757004d63241e04c91ae",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-09",
+    "id": "9cd871c3174e0bf3bb388e09c7111831bd04132d6c4418e0ced935efd56c8a34",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-09",
+    "id": "0823ce64ce8425ab52000af6358a77174b67afebe02d754f2a17b435b40460f6",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-09",
+    "id": "169122156ebbad0e8046781ff2f2036d779fc9cd0444300f1954a1fc791ce169",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-09",
+    "id": "2c347e5f772cd7be2a059cd496e13d45c57f8b6074d1c5f19a5de35456065f2e",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-09",
+    "id": "d003a555c5a7fc195c2b954b1de8661d98c2e59a6ea89940376ebbb3e6e70975",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-09",
+    "id": "d10e2fb01f7f2a4015ba4a302a1062bf31380c5c1eac46841324aa1d64f88bc9",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-09",
+    "id": "0526ea6e2128b6c2d9d1a9d1f6b10af16ad52b068422ade86d6745f8e0b5a8b9",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-09",
+    "id": "9ce94697350dc8ff100565386866df8530b912e47097f0e8a8d3c14eb8e1c3d0",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-09",
+    "id": "631f12834c654005aea788e84da68b0991ff59a253da6764e6b4fbef535d0496",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-10",
+    "id": "c3011e02a68e3490d813c4ac6281edc369517ad006527fc7b98164855cb566f7",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-10",
+    "id": "570e47d49bab175c20bb58f925811fdc4c59aaf337d2e6c2132335f9e5a6e672",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-10",
+    "id": "a209031dfd217c139ae7a696ab4c5c32738331efcb927260d1334141d15e66a3",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-10",
+    "id": "b47df2d69f2b6f61da41d986a79f58c8a9547bd7d87e1f71485ce948b6180045",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-10",
+    "id": "c4b4194deb01cb0c8890c07991718f6e3910bda8c5250c1ecc28431aa6ef6d31",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-10",
+    "id": "4f019d9e411a07d066ad3c92757333f5f35985855fe8774fb48016b8bab02238",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-10",
+    "id": "6631082b282308c5c3f56e490a015810b5889687f9807663089cc423fb70f63c",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-10",
+    "id": "4b62bcf2b5ebc69f4e9ef2f1fbd861a2a5f1a3f48ba6e4ad8573da206a9c78f5",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-10",
+    "id": "184e6b91a84302cd3ceba1e4285e1a26165d6a60eea50fbf7f437559bdb5b176",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-10",
+    "id": "8e6369771b3c09299fc785f22972c4f40927c907aec3f891f1a7b1149dd46fc7",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-10",
+    "id": "f6e25080a013c05537d6338d51f2dc8031d708f827016aa2366843d0743770fc",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-10",
+    "id": "63dad9b66b69c1c9bc39609a89766bc3a38914ae51c3e86e012c4e4f5077bf50",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-10",
+    "id": "9fdcca8be673d031669af32c3769893ba87d6dd8215a9046796442858f8da312",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-10",
+    "id": "831abe88fb43afed7cbfc1f464f3689d22d3fb3089cc06f76c0043c36aa64340",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-10",
+    "id": "7c0d5b6289e46e1d953f46b969a92526acf59545b094c7c226f9a3348c238658",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-10",
+    "id": "b5729161bbc31db30a213448c158d2c9dd3c21c30a435274515306ab18d01a79",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-11",
+    "id": "a291a8f6d5122ff3789b44480a6f038c9161fd8d22bba7ad40a286237f3d33c1",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-11",
+    "id": "2615eb8a5e73cd5c52ca421ca7ba1e341c14a26ac557f84c44dbbf07a0407d4f",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-11",
+    "id": "b3632b4954bf6797b8aae7e14ea449e6804ba4f437bd6c09c0bf484fd86a41ef",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-11",
+    "id": "449a70e3310cb3b11d54e8ee4a1ade8186b20666666597ef84dcc4a210fd891f",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-11",
+    "id": "c6b0c168e7171cad46fcead2eae4c8239c70e71d2f51425a8ef01dc07a5d913c",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-11",
+    "id": "d8e27559e64ffcd997c6788dfce5ae5f3576363ceb2013df90d22614f347adfb",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-11",
+    "id": "1056e5c5ee22196366a76b51315fb0c23f00d502088625667e0a3f9c6bf39ac7",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-11",
+    "id": "6f2b67c0edcad396ba498480a4568e56c81aa68cc59ead9df74f557e153ba9e8",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-11",
+    "id": "d33b80d28463062bdb9cc4cdb9e14315dbbc7402dd29ac38e799c93d4568e7d0",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-11",
+    "id": "1c65ac90ea86e353f209d5a69e4899ccbda658c18dbb293c85fc45baf733b3ce",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-11",
+    "id": "6d619b9ae2e2321ce17c323a79e4bb9c0880a2a7c3d50824a52710cf6737db88",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-11",
+    "id": "cf0d71b29b1089d37585c713bbb89b9a3e1bf6f67b7cd3ea6f69d585c4332b80",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-11",
+    "id": "6c609f55d84da8eaacf95b2c189b476eed5fd2a868e8d4d825cb8b10b0c3dfbd",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-11",
+    "id": "659fb3a0d08c490cba75fbe74187c2b035796265745d49b604dfac69713e3e42",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-11",
+    "id": "e68d5f3b0e5a992d6947e5fee14b6dd0beb7cf848aa67ef92d4faba646e53fac",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-11",
+    "id": "e2d7017d6b4d0bf2a8921fe0284e6bdcff46ef7bba7d3b35987465361fff5f5c",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-12",
+    "id": "10b0ce8432eba7bd1e89f1b54103ffd6b43a394894b710d019f3f3d96c07f12a",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-12",
+    "id": "dbe896e14b3cd4fc23425f3e808130d45c0c51ac8424c4431acb77b3bcb636b8",
+    "mask": "full"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-12",
+    "id": "35b80ec80d0efcb70339e597584b7ef23fbd5c01430cb9dcc03fe3bdcd663b58",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-12",
+    "id": "35a7c5238c98480b2fc0a9f4a760aec62f4f3b057fb41681a0d26fe1f39b9632",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-12",
+    "id": "f200a9e40ccbe5cf98e7497f73e1369ea6ea9da926e7e10b08a1cccbefa3c5dd",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-12",
+    "id": "5f49cbe0ce1f8f7b70e6e8096900846992be7e436bf784ad8551fdc121790b21",
+    "mask": "full"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-12",
+    "id": "98245eaf2f4c53a007d7c4d3af5d94a5a72fc7f37eebd20d3984015f091938f0",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-12",
+    "id": "f1e28138e7918c7879facca99bb06076d5653fb496da60222c9bc3403962b1b5",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-12",
+    "id": "e244ae39809f5a3df89ddf0142f197031301eb18894f1f15f141be8a264c46d9",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-12",
+    "id": "10c3a764352d1e8e2a67f581a4154ccb3e86d24ae459faecac71985b7a297dce",
+    "mask": "full"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-12",
+    "id": "265a48aead9ca92ea3f2fa100db258bc80e993b1420a8300e7f5eaf87e425290",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-12",
+    "id": "271524b502b75ba786c765971c23f7863e955313af0274850f859dc25a32b6a4",
+    "mask": "second_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-12",
+    "id": "5924f86bdd29955bf2dd2f5c94b66759efb47fc723cea53fd209f460a60af978",
+    "mask": "no_information"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-12",
+    "id": "2db3f448a30eac0ea82cfd56bdd1957f6ca54b6d0113b4fef2ca985694befec0",
+    "mask": "full"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-12",
+    "id": "e7b710e97d0925debee5d8996d75c3b181c2dd184497e0e02e5821bb8abac621",
+    "mask": "first_only"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-12",
+    "id": "f711c26aaae47b50dc7960017513fcc8f7f6c629b3745044dc33ef893cb41056",
+    "mask": "second_only"
+  }
+]
