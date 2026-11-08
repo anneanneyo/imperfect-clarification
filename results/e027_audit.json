@@ -1,0 +1,2544 @@
+{
+  "verified": {
+    "choice_scores": 576,
+    "question_outcomes": 576,
+    "rankings": 36
+  },
+  "boundary": "Saved heuristic distributions and provisional semantic labels are not independently reconstructed.",
+  "by_mask": {
+    "no_information": {
+      "semantic_counts": {
+        "F": 38,
+        "T": 7,
+        "U": 3
+      },
+      "violates_revealed_rule": 0,
+      "source_acceptable": 10
+    },
+    "full": {
+      "semantic_counts": {
+        "F": 14,
+        "T": 24,
+        "U": 10
+      },
+      "violates_revealed_rule": 14,
+      "source_acceptable": 31
+    },
+    "first_only": {
+      "semantic_counts": {
+        "F": 21,
+        "T": 21,
+        "U": 6
+      },
+      "violates_revealed_rule": 12,
+      "source_acceptable": 24
+    },
+    "second_only": {
+      "semantic_counts": {
+        "F": 24,
+        "T": 16,
+        "U": 8
+      },
+      "violates_revealed_rule": 12,
+      "source_acceptable": 21
+    }
+  },
+  "selected_options": [
+    {
+      "case": "E025-01",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-01",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-01",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O09",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-01",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O01",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O15",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-01",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O17",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-01",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O01",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-01",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O18",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-01",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "apartment",
+      "mask": "no_information",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "apartment",
+      "mask": "full",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "apartment",
+      "mask": "first_only",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "apartment",
+      "mask": "second_only",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O08",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O17",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O08",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O17",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O09",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-02",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O06",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O09",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O03",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O16",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O03",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-02",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O16",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O07",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O17",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O08",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O17",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O08",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O13",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O08",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O16",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O16",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O12",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O12",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O07",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O02",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O02",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-03",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O07",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-04",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O04",
+      "source_acceptable": true,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O17",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O17",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O09",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O01",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O03",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-04",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O03",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-04",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O03",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O06",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O06",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O06",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O06",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O08",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-04",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O08",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-04",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O16",
+      "source_acceptable": false,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O07",
+      "source_acceptable": false,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O07",
+      "source_acceptable": false,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O02",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O13",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O13",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O13",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O05",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O17",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-05",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O11",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "apartment",
+      "mask": "no_information",
+      "chosen": "O16",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "apartment",
+      "mask": "full",
+      "chosen": "O16",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-06",
+      "aspect": "apartment",
+      "mask": "first_only",
+      "chosen": "O16",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-06",
+      "aspect": "apartment",
+      "mask": "second_only",
+      "chosen": "O16",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-06",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O06",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O12",
+      "source_acceptable": false,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O06",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O14",
+      "source_acceptable": false,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O06",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O06",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O08",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O08",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-06",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-07",
+      "aspect": "apartment",
+      "mask": "no_information",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "T",
+        "U"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "apartment",
+      "mask": "full",
+      "chosen": "O10",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "T",
+        "U"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "apartment",
+      "mask": "first_only",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "T",
+        "U"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "apartment",
+      "mask": "second_only",
+      "chosen": "O10",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "T",
+        "U"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O14",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-07",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O15",
+      "source_acceptable": false,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-07",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-07",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O08",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O18",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O17",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-07",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O08",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-08",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "T",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O09",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O18",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O11",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O15",
+      "source_acceptable": false,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O18",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-08",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O04",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O04",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O15",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O17",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-08",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-09",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O11",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O11",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O11",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O11",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-09",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O01",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-09",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-09",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O02",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-09",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O02",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-09",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O02",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-09",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O02",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O15",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O18",
+      "source_acceptable": false,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O15",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O18",
+      "source_acceptable": false,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-10",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-10",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O04",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-10",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-10",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-10",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O14",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-10",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-10",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O03",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-10",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O11",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O01",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O09",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O09",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O09",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-11",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-11",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O13",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-11",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O12",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O02",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O02",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-11",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O06",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "flight",
+      "mask": "no_information",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "flight",
+      "mask": "full",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "flight",
+      "mask": "first_only",
+      "chosen": "O18",
+      "source_acceptable": false,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "flight",
+      "mask": "second_only",
+      "chosen": "O07",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "hotel",
+      "mask": "no_information",
+      "chosen": "O10",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "hotel",
+      "mask": "full",
+      "chosen": "O14",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "hotel",
+      "mask": "first_only",
+      "chosen": "O11",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "hotel",
+      "mask": "second_only",
+      "chosen": "O10",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "rental_car",
+      "mask": "no_information",
+      "chosen": "O05",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "rental_car",
+      "mask": "full",
+      "chosen": "O03",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "rental_car",
+      "mask": "first_only",
+      "chosen": "O10",
+      "source_acceptable": true,
+      "semantic": "U",
+      "criterion_values": [
+        "U",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "rental_car",
+      "mask": "second_only",
+      "chosen": "O09",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "U",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    },
+    {
+      "case": "E025-12",
+      "aspect": "restaurant",
+      "mask": "no_information",
+      "chosen": "O03",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "restaurant",
+      "mask": "full",
+      "chosen": "O13",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "restaurant",
+      "mask": "first_only",
+      "chosen": "O13",
+      "source_acceptable": true,
+      "semantic": "T",
+      "criterion_values": [
+        "T",
+        "T"
+      ],
+      "violates_revealed_rule": false
+    },
+    {
+      "case": "E025-12",
+      "aspect": "restaurant",
+      "mask": "second_only",
+      "chosen": "O02",
+      "source_acceptable": false,
+      "semantic": "F",
+      "criterion_values": [
+        "F",
+        "F"
+      ],
+      "violates_revealed_rule": true
+    }
+  ]
+}
