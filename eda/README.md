@@ -4,7 +4,7 @@
 
 - [Notebook с результатами](../EDA.ipynb).
 - [Практическая ценность, PDF](../output/pdf/practical_value.pdf).
-- [Апдейт руководителю](../updates/2026-11-08.md).
+- [Разбор ошибок модели](../research/E027_ERROR_ANALYSIS.md).
 
 ## Запуск
 
