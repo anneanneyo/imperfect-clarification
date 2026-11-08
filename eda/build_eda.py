@@ -2,11 +2,10 @@
 from pathlib import Path
 import nbformat as nb
 from nbclient import NotebookClient
-from reportlab.pdfgen import canvas
 from reportlab.pdfbase import pdfmetrics
 from reportlab.pdfbase.ttfonts import TTFont
 from reportlab.lib.pagesizes import A4
-from reportlab.platypus import SimpleDocTemplate,Paragraph,Spacer
+from reportlab.platypus import SimpleDocTemplate,Paragraph
 from reportlab.lib.styles import ParagraphStyle
 ROOT=Path(__file__).resolve().parents[1]
 cells=[]
@@ -136,18 +135,56 @@ md('## 7. Выводы\n\n- В данных есть ошибки числовы
 n=nb.v4.new_notebook(cells=cells,metadata={'kernelspec':{'display_name':'Python 3','language':'python','name':'python3'}})
 NotebookClient(n,timeout=240,kernel_name='python3',resources={'metadata':{'path':str(ROOT)}}).execute()
 nb.write(n,ROOT/'EDA.ipynb')
+from reportlab.lib import colors
 from matplotlib.font_manager import findfont, FontProperties
-pdfmetrics.registerFont(TTFont('Arial',findfont(FontProperties(family='DejaVu Sans'))))
-pdfmetrics.registerFont(TTFont('ArialBold',findfont(FontProperties(family='DejaVu Sans',weight='bold'))))
-out=ROOT/'output/pdf/practical_value.pdf';out.parent.mkdir(parents=True,exist_ok=True)
-style=ParagraphStyle('Body',fontName='Arial',fontSize=10.5,leading=15,spaceAfter=10)
-heading=ParagraphStyle('Title',fontName='ArialBold',fontSize=16,leading=21,spaceAfter=18)
-paras=[('Практическая ценность проекта',heading),('Выбор уточняющего вопроса при неполном ответе пользователя. Анна Губарева, 8 ноября 2026.',style),
-('Задача. Помощник при выборе услуги или товара часто получает неполный запрос. Уточнения тратят время, а ответы бывают частичными. Мы исследуем, можно ли выбирать вопрос по ожидаемому улучшению конечной рекомендации, учитывая, что ответ может не раскрыть все необходимые сведения.',style),
-('Кому это полезно. Возможные пользователи - сервисы подбора поездок и товаров, службы поддержки и внутренние помощники. Например, вопрос о номере с кухней может оказаться полезнее вопроса о виде из окна, если он сильнее меняет доступный набор подходящих гостиниц. Польза для человека - меньше лишних вопросов и меньше рекомендаций, противоречащих его условиям.',style),
-('Что можно реализовать. Прототип получает запрос, историю, варианты решения и доступные уточнения; возвращает вопрос либо предлагает действовать. Начать можно с ограниченного каталога и явных условий. Сейчас готов экспериментальный протокол и локальная проверка исполнителя. Обученного оценщика пользы вопроса и проверки в реальном сервисе пока нет.',style),
-('Основные ограничения. Синтетический пользователь не заменяет ответы людей. В данных встречаются спорные эталоны и повторяющиеся шаблоны; 12 разобранных задач недостаточно для оценки обобщения. Реальные цены и доступность услуг меняются. Текст может не содержать сведений, нужных для проверки рекомендации. Личные предпочтения следует хранить минимально необходимое время и не передавать внешним сервисам без согласия. Для решений с существенными последствиями потребуется подтверждение человеком.',style),
-('Как оценивать результат. При одинаковом бюджете вопросов сравнивать долю подходящих конечных решений, нарушения обязательных условий, число уточнений и отказы пользователя. Дополнительно измерять время ответа и вычислительные затраты. После локального этапа нужна проверка на новых задачах и добровольных пользователях. Сравнения: без уточнения, один постоянный вопрос, простая эвристика и обученный выбор вопроса.',style),
-('Исследовательская ценность. Даже при отсутствии улучшения важно установить, когда уточнение бесполезно из-за неполного ответа, ошибок понимания или неверной метрики. Эти причины требуют разных решений. Публикационный вклад и преимущество предлагаемого подхода пока не установлены.',style)]
-SimpleDocTemplate(str(out),pagesize=A4,leftMargin=45,rightMargin=45,topMargin=40,bottomMargin=35).build([Paragraph(t,s) for t,s in paras])
-print('Created executed EDA.ipynb and',out)
+
+pdfmetrics.registerFont(TTFont('Body', findfont(FontProperties(family='DejaVu Sans'))))
+pdfmetrics.registerFont(TTFont('Bold', findfont(FontProperties(family='DejaVu Sans', weight='bold'))))
+out = ROOT / 'output/pdf/practical_value.pdf'
+out.parent.mkdir(parents=True, exist_ok=True)
+
+ink = colors.HexColor('#17212D')
+muted = colors.HexColor('#4E5C6B')
+accent = colors.HexColor('#125B50')
+title = ParagraphStyle('Title', fontName='Bold', fontSize=24, leading=29,
+                       textColor=ink, spaceAfter=9)
+meta = ParagraphStyle('Meta', fontName='Body', fontSize=10, leading=15,
+                      textColor=muted, spaceAfter=23)
+body = ParagraphStyle('Body', fontName='Body', fontSize=11, leading=17,
+                      textColor=ink)
+section = ParagraphStyle('Section', fontName='Bold', fontSize=12, leading=17,
+                         textColor=accent, spaceBefore=16, spaceAfter=5)
+
+story = [
+    Paragraph('Когда стоит переспросить?', title),
+    Paragraph('Анна Губарева · Годовой проект · 8 ноября 2026', meta),
+    Paragraph(
+        'Человек просит подобрать жильё для поездки. У помощника есть каталог, '
+        'но он пока не знает, нужна ли кухня и насколько важна близость к метро. '
+        'Если можно задать один вопрос, какой из ответов сильнее повлияет на выбор?', body),
+    Paragraph('Кому это поможет', section),
+    Paragraph(
+        'Сервису подбора жилья и его пользователям. Например, ответ «кухня нужна, '
+        'а насчёт района пока не знаю» уже позволяет убрать часть вариантов. '
+        'Если кухня есть во всех доступных номерах, вопрос о ней мало что даст. '
+        'Мы хотим проверить, можно ли оценить такую разницу до ответа пользователя.', body),
+    Paragraph('Что можно сделать сейчас', section),
+    Paragraph(
+        'Первую версию можно проверить на каталоге с ценами, удобствами и коротким '
+        'списком вопросов. Самое трудное в реальном сервисе - понять, какие ответы '
+        'обычно дают люди, и вовремя обновлять каталог. Если сведения о кухне '
+        'пропущены или устарели, даже удачное уточнение может привести к плохой '
+        'рекомендации. Пока у нас есть только пробные результаты на синтетических задачах.', body),
+    Paragraph('Как проверить пользу', section),
+    Paragraph(
+        'При одном вопросе на задачу сравнить два способа: всегда задавать один '
+        'и тот же вопрос или выбирать его по запросу и вариантам в каталоге. '
+        'Основная метрика - доля рекомендаций, которые удовлетворяют обязательным '
+        'условиям пользователя. Отдельно сравнить с подбором без уточнений. '
+        'В тесте с людьми можно также измерить, как часто они бросают подбор после вопроса.', body),
+]
+doc = SimpleDocTemplate(str(out), pagesize=A4, leftMargin=62, rightMargin=62,
+                        topMargin=65, bottomMargin=54,
+                        title='Когда стоит переспросить?', author='Анна Губарева')
+doc.build(story)
+print('Created executed EDA.ipynb and', out)
