@@ -1,6 +1,6 @@
-# Статус проекта после E026
+# Статус проекта после E027
 
-8 ноября 2026. Рабочая ветка проекта — `codex/research-e023` в репозитории `anneanneyo/imperfect-clarification`. [Ветка на GitHub](https://github.com/anneanneyo/imperfect-clarification/tree/codex/research-e023), [новый отчёт E026](REPORT_2026-11-08_E026.md), [аудит E025](REPORT_2026-11-08_E025.md), [следующий шаг](NEXT_DECISIVE_EXPERIMENT.md).
+8 ноября 2026. Рабочая ветка проекта — `main` в репозитории `anneanneyo/imperfect-clarification`. [Ветка на GitHub](https://github.com/anneanneyo/imperfect-clarification/tree/main), [новый отчёт E026](REPORT_2026-11-08_E026.md), [аудит E025](REPORT_2026-11-08_E025.md), [следующий шаг](NEXT_DECISIVE_EXPERIMENT.md).
 
 Цель сохраняется: выбирать вопросы по ожидаемому улучшению конечного решения при частичных, неоднозначных и неизвестных ответах. Подтверждённого нового метода, переноса на независимую агентную среду и готовой статьи пока нет.
 
