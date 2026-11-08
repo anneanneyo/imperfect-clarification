@@ -1,0 +1,33 @@
+{
+  "train_row_count": 96,
+  "train_id_unique_count": 96,
+  "selection_rule": "sha256(E025| + task_id), then task_id, first 12",
+  "selected_ids": [
+    "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103",
+    "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64",
+    "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33",
+    "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102",
+    "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75",
+    "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32",
+    "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45",
+    "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64",
+    "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103",
+    "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106",
+    "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41",
+    "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  ],
+  "selected_id_hashes": {
+    "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103": "00bbfdfd095307b7fdc753e2d47c801149278a9977dca0147bb984e95c114247",
+    "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64": "03b1ab5b0486b73ed815eb68325355de28a4bbc1b85c05b6e234bf4b0989bd99",
+    "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33": "0555138c26e594cc57f2ea51aaaa10dc3d121fcb7061ea343d51e3e24898cda3",
+    "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102": "0cafa5ae98c453a62952f0e3b94798956bc3a69310ff814654b7f75eb059f932",
+    "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75": "10aaf1adc691252df004b7f714e9bac89a649a6294e03ff911d8c6018048ad3c",
+    "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32": "12124dd764f52d4aafbfb9532202435760e1af5fee08c514505ce90f76b513bd",
+    "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45": "128df6bfd18ca5af3a6c0c9977593fe5a149adb2c065456c9ca38feaebd67ba7",
+    "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64": "12ca38b5803e425ee4c789194824700d7cb5a218ae4695eb9566520f0f948a28",
+    "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103": "19ecf5bc8fe8a7974014e63387fd9fada6fada3760c46cc79cd2c9d4477641a8",
+    "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106": "1d1f5051fb4d6fb2207bcf9981172a1d183c51eddbb4209ad07bd45dc06b6b29",
+    "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41": "1ecd469b5b29760a442a55685cc84c660403025079540339fe684d544ca4b0bf",
+    "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84": "205a19eefcd31b456f737497eb99cf73a42a70ad60d673375a981263861b9a1e"
+  }
+}

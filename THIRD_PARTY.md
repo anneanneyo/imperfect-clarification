@@ -10,7 +10,9 @@
 
 ## UserBench
 
-Источник: [SalesforceAIResearch/UserBench](https://github.com/SalesforceAIResearch/UserBench/tree/80506d2ab484cab843e60a2401ff3e0290d05b87), commit `80506d2ab484cab843e60a2401ff3e0290d05b87`, [LICENSE.txt](https://github.com/SalesforceAIResearch/UserBench/blob/80506d2ab484cab843e60a2401ff3e0290d05b87/LICENSE.txt). E024 загружает три закреплённых исходных файла отдельно, проверяет их хеши и исполняет выбранные функции на нашем ручном fixture. Полный код и benchmark-данные здесь не распространяются; fixture и полученные переходы состояния — диагностические материалы этого проекта.
+Источник: [SalesforceAIResearch/UserBench](https://github.com/SalesforceAIResearch/UserBench/tree/80506d2ab484cab843e60a2401ff3e0290d05b87), commit `80506d2ab484cab843e60a2401ff3e0290d05b87`, [LICENSE.txt](https://github.com/SalesforceAIResearch/UserBench/blob/80506d2ab484cab843e60a2401ff3e0290d05b87/LICENSE.txt). Copyright (c) 2024 Salesforce, Inc.; Apache License 2.0. [Побайтная копия лицензии](third_party/userbench/LICENSE.txt), [описание изменений](third_party/userbench/README.md).
+
+E024 загружает закреплённые исходники отдельно и исполняет выбранные функции на нашем ручном fixture. E025 содержит ограниченные фрагменты и производные данные 12 официальных train-задач: предпочтения, видимые варианты и доказательства аудита. Изменения: отбор по ID-хешу, удаление скрытых полей из публичного представления, переназначение ID, перемешивание вариантов, отдельный оценщик и диагностические сводки. Полные upstream-репозиторий и corpus остаются во внешнем cache. Исходные source-метки сохранены; замечания к их семантике — наша интерпретация, не исправленные авторские метки.
 
 ## Более ранние этапы
 

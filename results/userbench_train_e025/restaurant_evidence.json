@@ -1,0 +1,1010 @@
+[
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the user preferences and how they align with the options provided. The user preferences are: 1) restaurant with more than half of the reviews being 5-star, and 2) restaurant that opens till late night. All three options satisfy these preferences, so we need to focus on the cost aspect. \n\n1. Gourmet Delights (ID: R7) is labeled as 'Expensive', which suggests a higher cost compared to the other options. It has 150 out of 200 reviews as 5-star, which is 75%, satisfying the first preference. It also offers late night service, satisfying the second preference.\n\n2. Sushi Zen (ID: R1) is labeled as 'Normal' in terms of expectation, indicating a moderate cost. It has 200 out of 285 reviews as 5-star, which is approximately 70.18%, satisfying the first preference. It also offers late night service, satisfying the second preference.\n\n3. Spice Symphony (ID: R19) is also labeled as 'Normal', indicating a moderate cost similar to Sushi Zen. It has 120 out of 190 reviews as 5-star, which is approximately 63.16%, satisfying the first preference. It also offers late night service, satisfying the second preference.\n\nSince all options satisfy the user preferences, the decision comes down to cost. Gourmet Delights is explicitly labeled as 'Expensive', so it is likely to have the highest cost. Both Sushi Zen and Spice Symphony are labeled as 'Normal', but Sushi Zen has a higher percentage of 5-star reviews, which might indicate a slightly better value for the same cost expectation. Therefore, Sushi Zen (ID: R1) is the option with the lowest cost considering the user preferences and the cost expectations.",
+    "case_id": "E025-01",
+    "cheapest_tier_ids": [
+      "R1",
+      "R19"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "French",
+        "expectation": "Expensive",
+        "id": "R7",
+        "name": "Gourmet Delights",
+        "rating": 9,
+        "reason": "Gourmet Delights has over half of its reviews as 5-star, satisfying the user's preference for overwhelmingly positive reviews. It also offers late night service, aligning with the user's need for flexible dining hours during irregular meal times. The elegant French cuisine and business dining atmosphere make it ideal for the user's business trip in Manhattan.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 30,
+          "5_star": 150
+        },
+        "tags": [
+          "Late Night Service",
+          "Business Dining",
+          "Reservations Available",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Japanese",
+        "expectation": "Normal",
+        "id": "R1",
+        "name": "Sushi Zen",
+        "rating": 8,
+        "reason": "Sushi Zen features a majority of 5-star reviews, which meets the user's desire for highly-rated dining experiences. The restaurant offers late night service, accommodating the user's irregular dining schedule. The Japanese cuisine provides a diverse dining option during the user's stay in Manhattan.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 20,
+          "4_star": 50,
+          "5_star": 200
+        },
+        "tags": [
+          "Late Night Service",
+          "Reservations Available",
+          "Outdoor Seating"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Indian",
+        "expectation": "Normal",
+        "id": "R19",
+        "name": "Spice Symphony",
+        "rating": 8,
+        "reason": "Spice Symphony has more than half of its reviews as 5-star, catering to the user's preference for restaurants with dominant positive feedback. It provides late night service, which fits the user's need for dining flexibility. The Indian cuisine adds variety to the user's culinary exploration in Manhattan.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 15,
+          "4_star": 40,
+          "5_star": 120
+        },
+        "tags": [
+          "Late Night Service",
+          "Delivery Available",
+          "Walk-ins Welcomed"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+      "Correct options should have Late Night Service available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Night Service in the tags."
+    ],
+    "implicit_statements": [
+      "I find it compelling when a restaurant's five star positive reviews overwhelmingly dominate the others and takes the majority.",
+      "I'm not great at sticking to normal meal times, especially during travelling, so flexible hours matter at night really matters."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R1",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' attribute of each option, which indicates the general cost level. The user preferences include a desire for dessert, bakery, or cafe, and business dining. All options satisfy these preferences, so we focus on the cost. \n\n1. Golden Gate Coffee Co. (ID: R13) is a cafe with a 'Normal' cost expectation. \n2. Bay Area Bakeries (ID: R9) is a bakery with a 'Cheap' cost expectation. \n3. Dessert Haven (ID: R16) is a dessert place with an 'Expensive' cost expectation. \n\nGiven these cost expectations, Bay Area Bakeries (ID: R9) has the lowest cost expectation ('Cheap'), making it the most cost-effective option for the user while still satisfying their preferences for a bakery and business dining.",
+    "case_id": "E025-02",
+    "cheapest_tier_ids": [
+      "R9"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "Cafe",
+        "expectation": "Normal",
+        "id": "R13",
+        "name": "Golden Gate Coffee Co.",
+        "rating": 9,
+        "reason": "Golden Gate Coffee Co. is a cafe that perfectly aligns with the user's preference for using credit card points at a coffee shop. It offers a business-friendly environment with Business Dining available, allowing for both casual conversations and focused discussions. The high rating and the presence of parking make it a convenient and attractive option.",
+        "reviews": {
+          "1_star": 0,
+          "2_star": 5,
+          "3_star": 25,
+          "4_star": 150,
+          "5_star": 320
+        },
+        "tags": [
+          "Business Dining",
+          "Walk-ins Welcomed",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Bakery",
+        "expectation": "Cheap",
+        "id": "R9",
+        "name": "Bay Area Bakeries",
+        "rating": 8,
+        "reason": "Bay Area Bakeries is a bakery that supports the user's desire to use credit card points and offers a business-friendly setting with Business Dining. With a good rating and additional amenities like reservations and pet-friendly options, it is a diverse choice for the user.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 40,
+          "4_star": 180,
+          "5_star": 250
+        },
+        "tags": [
+          "Business Dining",
+          "Reservations Available",
+          "Pet-Friendly"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Dessert",
+        "expectation": "Expensive",
+        "id": "R16",
+        "name": "Dessert Haven",
+        "rating": 10,
+        "reason": "Dessert Haven is a dessert restaurant that meets the user's preference for credit card points usage and provides a business-appropriate atmosphere with Business Dining. Its exceptional rating and features like outdoor seating make it an appealing option for both leisure and business interactions.",
+        "reviews": {
+          "1_star": 0,
+          "2_star": 0,
+          "3_star": 10,
+          "4_star": 100,
+          "5_star": 500
+        },
+        "tags": [
+          "Business Dining",
+          "Outdoor Seating",
+          "Reservations Available"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should write Cafe, Bakery, or Dessert as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference.",
+      "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags."
+    ],
+    "implicit_statements": [
+      "My creadit card offers gift points in coffee shops in the city I'm about to go, so why not take advantge of this benefit?",
+      "Given the nature of some of my dinners, I need a setting that can support both small talk and more focused discussions without distractions."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R9",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' of cost as mentioned in each option. The user preferences indicate a desire for either seafood or steakhouse cuisine with the option of delivery. All three options meet these preferences, so we focus on the cost aspect. \n\n1. Golden Gate Steakhouse (R1) is described as 'Expensive'. This suggests a higher cost compared to the other options. \n2. Pier 39 Seafood Bar & Grill (R17) is described as 'Normal' in terms of cost. \n3. Bayview Grill & Steak (R15) is also described as 'Normal' in terms of cost. \n\nSince both R17 and R15 have a 'Normal' cost expectation, they are likely to be less expensive than R1, which is 'Expensive'. Between R17 and R15, both have the same cost expectation, so we can consider other factors like rating and reviews. Both have a rating of 8, but R17 has slightly better reviews with more 5-star ratings. However, since the task is to focus on cost, and both have the same cost expectation, we can choose either. \n\nTherefore, the option with the lowest cost is either R17 or R15. Given the task's focus on cost and the equal cost expectation, I will choose R17 as it also has slightly better reviews.",
+    "case_id": "E025-03",
+    "cheapest_tier_ids": [
+      "R17",
+      "R15"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "Steakhouse",
+        "expectation": "Expensive",
+        "id": "R1",
+        "name": "Golden Gate Steakhouse",
+        "rating": 9,
+        "reason": "Golden Gate Steakhouse is a top-tier steakhouse in San Francisco, offering high-quality ribeye steaks that align perfectly with the user's craving for a good juicy ribeye. It provides delivery service, which satisfies the user's preference for meal delivery, allowing enjoyment of meals at the hotel. With a high rating of 9 and excellent reviews, it promises a delightful dining experience.",
+        "reviews": {
+          "1_star": 2,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 30,
+          "5_star": 150
+        },
+        "tags": [
+          "Delivery Available",
+          "Reservations Available",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Seafood",
+        "expectation": "Normal",
+        "id": "R17",
+        "name": "Pier 39 Seafood Bar & Grill",
+        "rating": 8,
+        "reason": "Pier 39 Seafood Bar & Grill offers a variety of seafood options, which could provide a nice alternative to steak while still aligning with the user's general preference for steakhouse or seafood. The restaurant offers delivery, ensuring the convenience of enjoying meals at the user's hotel. With a strong rating of 8, it promises quality and satisfaction.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 20,
+          "4_star": 40,
+          "5_star": 120
+        },
+        "tags": [
+          "Delivery Available",
+          "Outdoor Seating",
+          "Walk-ins Welcomed"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Steakhouse",
+        "expectation": "Normal",
+        "id": "R15",
+        "name": "Bayview Grill & Steak",
+        "rating": 8,
+        "reason": "Bayview Grill & Steak is a well-regarded steakhouse in San Francisco, offering delicious ribeye steaks, satisfying the user's specific craving. It provides delivery, matching the user's need for meal delivery services. Its rating of 8 assures a high-quality dining experience and its diverse tags enhance its appeal.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 25,
+          "4_star": 50,
+          "5_star": 100
+        },
+        "tags": [
+          "Delivery Available",
+          "Pet-Friendly",
+          "Late Night Service"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should be Seafood or Steakhouse as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference.",
+      "Correct options should have Delivery Available and listed in the tags. Wrong options could be wrong against this preference by do not contain Delivery Available in the tags."
+    ],
+    "implicit_statements": [
+      "I've been craving a good juicy ribeye these days. Hope I could get something that can surprise me during this trip.",
+      "I've come to appreciate the convenience of having meals delivered to my door recently, allowing me to enjoy different cuisines without leaving my couch during the trip."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R17",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' of each restaurant, which indicates the general price level. The user preferences are already satisfied by all options, so we focus on the cost aspect. \n\n1. Harbor View Bistro has an 'Expensive' expectation, which suggests higher costs for dining. \n2. The Green Terrace has a 'Normal' expectation, indicating moderate pricing. \n3. Skyline Sushi has a 'Cheap' expectation, suggesting the lowest cost among the options.\n\nSince all options satisfy the user preferences equally, the cost expectation is the deciding factor. Therefore, Skyline Sushi, with its 'Cheap' expectation, is the option with the lowest cost.",
+    "case_id": "E025-04",
+    "cheapest_tier_ids": [
+      "R17"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "Mediterranean",
+        "expectation": "Expensive",
+        "id": "R20",
+        "name": "Harbor View Bistro",
+        "rating": 9,
+        "reason": "Harbor View Bistro is suitable as it has outdoor seating available, allowing for smoking or vaping post-meal without disturbing others. With 120 out of 185 total reviews being 5-star, it greatly satisfies the preference for a majority of positive reviews.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 5,
+          "3_star": 15,
+          "4_star": 40,
+          "5_star": 120
+        },
+        "tags": [
+          "Outdoor Seating",
+          "Reservations Available",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Vegetarian",
+        "expectation": "Normal",
+        "id": "R2",
+        "name": "The Green Terrace",
+        "rating": 8,
+        "reason": "The Green Terrace offers outdoor seating, making it a comfortable choice for smokers or vapers. With 80 out of 120 total reviews being 5-star, it aligns well with the preference for dominant positive reviews. The vegetarian cuisine is a nice addition for those seeking healthy options.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 20,
+          "5_star": 80
+        },
+        "tags": [
+          "Outdoor Seating",
+          "Walk-ins Welcomed",
+          "Pet-Friendly"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Japanese",
+        "expectation": "Cheap",
+        "id": "R17",
+        "name": "Skyline Sushi",
+        "rating": 7,
+        "reason": "Skyline Sushi is a suitable option with outdoor seating, catering to those who wish to smoke or vape after dining. It also meets the preference for high positive reviews, with 60 out of 100 total reviews being 5-star. The Japanese cuisine offers a variety of delicious and affordable choices.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 0,
+          "3_star": 10,
+          "4_star": 25,
+          "5_star": 60
+        },
+        "tags": [
+          "Outdoor Seating",
+          "Late Night Service",
+          "Delivery Available"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+      "Correct options should have Outdoor Seating available and listed in the tags. Wrong options could be wrong against this preference by do not contain Outdoor Seating in the tags."
+    ],
+    "implicit_statements": [
+      "I find it compelling when a restaurant's five star positive reviews overwhelmingly dominate the others and takes the majority.",
+      "I like having the option to smoke or vape a little after my meal, so outdoor seats in a restaurant would be better as I won't disturb others this way."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R17",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the user preferences and how each option satisfies them. The user prefers cheap restaurants and those with more than half of the reviews being 5-star. All three options are described as 'cheap', so we assume they are equally cost-effective in terms of pricing. Therefore, the primary differentiator will be the percentage of 5-star reviews. \n\n1. Sydney's Savory Corner (ID: R4) has 150 out of 245 reviews as 5-star, which is approximately 61.22%. \n2. Budget Bites (ID: R17) has 120 out of 200 reviews as 5-star, which is exactly 60%. \n3. Frugal Feasts (ID: R12) has 160 out of 260 reviews as 5-star, which is approximately 61.54%. \n\nAll options satisfy the requirement of having more than half of the reviews as 5-star. However, Frugal Feasts has the highest percentage of 5-star reviews, which might indicate a slightly better reputation or satisfaction level among customers. Since all options are equally cheap, the option with the highest percentage of 5-star reviews is likely to provide the best overall experience for the user. Therefore, the option with the lowest cost, considering both price and user satisfaction, is Frugal Feasts (ID: R12).",
+    "case_id": "E025-05",
+    "cheapest_tier_ids": [
+      "R4",
+      "R17",
+      "R12"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "Vietnamese",
+        "expectation": "Cheap",
+        "id": "R4",
+        "name": "Sydney's Savory Corner",
+        "rating": 9,
+        "reason": "This restaurant offers cheap Vietnamese cuisine, aligning with the user's preference for big portions at small prices after a day of exploring. With 150 out of 245 total reviews being 5-star, it satisfies the user's preference for dining at places where more than half of the reviews are five-star. Additionally, the restaurant provides parking, which is convenient for accessing the rental car.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 20,
+          "4_star": 60,
+          "5_star": 150
+        },
+        "tags": [
+          "Walk-ins Welcomed",
+          "Parking",
+          "Pet-Friendly"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Mexican",
+        "expectation": "Cheap",
+        "id": "R17",
+        "name": "Budget Bites",
+        "rating": 8,
+        "reason": "Budget Bites offers cheap Mexican food, ideal for the user's preference for value dining. With 120 out of 200 reviews being 5-star, the restaurant meets the user's desire for establishments where more than half the reviews are five-star. The availability of parking complements the user's need for easy access to their rental car.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 15,
+          "4_star": 50,
+          "5_star": 120
+        },
+        "tags": [
+          "Late Night Service",
+          "Parking",
+          "Delivery Available"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Thai",
+        "expectation": "Cheap",
+        "id": "R12",
+        "name": "Frugal Feasts",
+        "rating": 9,
+        "reason": "Frugal Feasts provides cheap Thai food, perfect for the user's preference for big portions at a low cost. With 160 out of 260 total reviews being 5-star, it fulfills the user's preference for restaurants where more than half the reviews are five-star. The restaurant offers parking, supporting the user's requirement for convenient access to their rental car.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 5,
+          "3_star": 20,
+          "4_star": 70,
+          "5_star": 160
+        },
+        "tags": [
+          "Outdoor Seating",
+          "Parking",
+          "Reservations Available"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should write Cheap in its cost expectation field. Wrong options could write other things like Normal or Expensive in the cost expectation field, in order to make it against this preference.",
+      "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect."
+    ],
+    "implicit_statements": [
+      "I'm all about value — big portions, small price. That's the best for me after a long day trip.",
+      "I usually go for places where most people are clearly thrilled with the experience with more than half five star reviews."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R12",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' of each restaurant, which indicates the general cost level. The user preferences include a preference for either seafood or steakhouse and a preference for business dining. All options meet these preferences, so we focus on the cost aspect. \n\n1. Prime Cut Steakhouse (ID: R2) is labeled as 'Expensive', which suggests a higher cost compared to the other options. \n2. Ocean's Delight (ID: R16) is labeled as 'Normal', indicating a moderate cost level. \n3. Steak & Wine (ID: R15) is also labeled as 'Normal', suggesting a similar cost level to Ocean's Delight.\n\nSince both Ocean's Delight and Steak & Wine have a 'Normal' cost expectation, they are likely to be less expensive than Prime Cut Steakhouse. Between Ocean's Delight and Steak & Wine, both have similar ratings and reviews, and both meet the user's preferences equally well. Therefore, the cost is the primary differentiator. Since both have the same cost expectation, either could be chosen. However, given the user's preference for seafood or steakhouse, and since both options are equally suitable, we can choose either based on the user's specific preference for seafood or steakhouse. Assuming no specific preference between seafood and steakhouse, we can choose either. For the sake of this decision, I will choose Ocean's Delight (ID: R16) as it offers seafood, which is one of the user's preferences, and has a 'Normal' cost expectation.",
+    "case_id": "E025-06",
+    "cheapest_tier_ids": [
+      "R16",
+      "R15"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "Steakhouse",
+        "expectation": "Expensive",
+        "id": "R2",
+        "name": "Prime Cut Steakhouse",
+        "rating": 9,
+        "reason": "Prime Cut Steakhouse offers a luxurious dining experience with a focus on tender steaks, perfect for pairing with robust red wine. It meets the user's preference for a steakhouse and provides an ideal environment for business dining, as indicated by its Business Dining tag. The high rating and positive reviews further ensure a quality experience.",
+        "reviews": {
+          "1_star": 1,
+          "2_star": 2,
+          "3_star": 10,
+          "4_star": 50,
+          "5_star": 230
+        },
+        "tags": [
+          "Business Dining",
+          "Reservations Available",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Seafood",
+        "expectation": "Normal",
+        "id": "R16",
+        "name": "Ocean's Delight",
+        "rating": 8,
+        "reason": "Ocean's Delight specializes in seafood, aligning with the user's preference for high-quality dining options. The restaurant offers Business Dining, making it suitable for conversations that might touch on business matters. Its strong ratings and reviews support a pleasant dining experience.",
+        "reviews": {
+          "1_star": 3,
+          "2_star": 5,
+          "3_star": 20,
+          "4_star": 70,
+          "5_star": 150
+        },
+        "tags": [
+          "Business Dining",
+          "Outdoor Seating",
+          "Reservations Available"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Steakhouse",
+        "expectation": "Normal",
+        "id": "R15",
+        "name": "Steak & Wine",
+        "rating": 8,
+        "reason": "Steak & Wine is a steakhouse that offers a perfect setting for enjoying a tender steak with a robust red wine, fulfilling the user's dining preference. The Business Dining tag ensures it is apt for business-related conversations, while its good ratings guarantee a satisfying experience.",
+        "reviews": {
+          "1_star": 2,
+          "2_star": 8,
+          "3_star": 15,
+          "4_star": 60,
+          "5_star": 180
+        },
+        "tags": [
+          "Business Dining",
+          "Parking",
+          "Walk-ins Welcomed"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should be Seafood or Steakhouse as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference.",
+      "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags."
+    ],
+    "implicit_statements": [
+      "A perfect meal for me involves indulging in a tender steak paired with a robust red wine. Help me find something like that.",
+      "The environment matters to me when dining — especially this time I might dine with someone where the conversation might touch on business or shared responsibilities."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R16",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' of cost associated with each restaurant. The user preferences are for a specific cuisine (Mexican) and for restaurants that welcome walk-ins. All three options meet these preferences, so we focus on the cost aspect. \n\n1. 'El Camino Real' has an 'Expensive' expectation, which suggests higher costs for dining. \n2. 'La Vida Tacos' has a 'Normal' expectation, indicating moderate costs. \n3. 'Taco Fiesta' has a 'Cheap' expectation, indicating the lowest costs among the options.\n\nSince all options satisfy the user preferences equally, the cost expectation is the deciding factor. 'Taco Fiesta' is the cheapest option, making it the most cost-effective choice for the user.",
+    "case_id": "E025-07",
+    "cheapest_tier_ids": [
+      "R4"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "Mexican",
+        "expectation": "Expensive",
+        "id": "R15",
+        "name": "El Camino Real",
+        "rating": 9,
+        "reason": "This restaurant offers authentic Mexican cuisine, perfect for a craving for tacos. It welcomes walk-ins, aligning with the user's preference for spontaneous dining. High ratings and late-night service enhance the lively dining experience desired in Austin.",
+        "reviews": {
+          "1_star": 3,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 50,
+          "5_star": 150
+        },
+        "tags": [
+          "Walk-ins Welcomed",
+          "Outdoor Seating",
+          "Late Night Service"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Mexican",
+        "expectation": "Normal",
+        "id": "R1",
+        "name": "La Vida Tacos",
+        "rating": 8,
+        "reason": "La Vida Tacos specializes in Mexican dishes, including delicious tacos, matching the user's culinary preferences. With walk-ins welcomed, it supports the user's spontaneous dining style. Its pet-friendly environment and parking add to the convenience.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 8,
+          "3_star": 15,
+          "4_star": 60,
+          "5_star": 120
+        },
+        "tags": [
+          "Walk-ins Welcomed",
+          "Pet-Friendly",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Mexican",
+        "expectation": "Cheap",
+        "id": "R4",
+        "name": "Taco Fiesta",
+        "rating": 7,
+        "reason": "Taco Fiesta offers affordable Mexican cuisine, ideal for enjoying tacos on a budget. It allows walk-ins, catering to the user's desire for spontaneous dining experiences in Austin. Delivery options add flexibility for dining preferences.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 20,
+          "4_star": 40,
+          "5_star": 100
+        },
+        "tags": [
+          "Walk-ins Welcomed",
+          "Reservations Available",
+          "Delivery Available"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should have cuisine from the user-specified country. Wrong options could write other countries in the field cuisine, in order to make it against this preference.",
+      "Correct options should have Walk-ins Welcomed listed in the tags. Wrong options could be wrong against this preference by do not contain Walk-ins Welcomed in the tags."
+    ],
+    "implicit_statements": [
+      "I came across a recipe for homemade guacamole, and recently I'm in the mood for a Mexican-style dinner with some delicious tacos.",
+      "Usually I like to spontaneously check out a place based on how lively it looks when I walk by, without worrying about making a reservation during the trip."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R4",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' of each restaurant, which indicates the general cost level. The user preferences include a desire for dessert or bakery or cafe and business dining. All options satisfy these preferences, so we focus on the cost. 'Sweet Retreat' is marked as 'Expensive', 'The Cafe Corner' as 'Normal', and 'Bakery Bliss' as 'Cheap'. Since all options are suitable, the cost expectation is the primary differentiator. 'Bakery Bliss' is the cheapest option, which aligns with the user's preference for a cost-effective choice while still meeting their requirements for a bakery setting and business dining. Therefore, 'Bakery Bliss' induces the lowest cost.",
+    "case_id": "E025-08",
+    "cheapest_tier_ids": [
+      "R14"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "Dessert",
+        "expectation": "Expensive",
+        "id": "R22",
+        "name": "Sweet Retreat",
+        "rating": 9,
+        "reason": "Sweet Retreat is a dessert-focused restaurant, ideal for unwinding with a good book and some macarons, perfectly aligning with the user's desire for a dessert spot. It also offers a business dining environment, supporting small talk and focused discussions, making it suitable for the user's business and leisure trip needs.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 30,
+          "5_star": 150
+        },
+        "tags": [
+          "Business Dining",
+          "Parking",
+          "Reservations Available"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Cafe",
+        "expectation": "Normal",
+        "id": "R21",
+        "name": "The Cafe Corner",
+        "rating": 8,
+        "reason": "The Cafe Corner provides a cafe ambiance where the user can enjoy dessert-like offerings with a good book. The business dining tag ensures it supports both casual and business interactions, fitting the user's requirements for both leisure and business activities.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 5,
+          "3_star": 20,
+          "4_star": 50,
+          "5_star": 120
+        },
+        "tags": [
+          "Business Dining",
+          "Outdoor Seating",
+          "Walk-ins Welcomed"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Bakery",
+        "expectation": "Cheap",
+        "id": "R14",
+        "name": "Bakery Bliss",
+        "rating": 9,
+        "reason": "Bakery Bliss meets the user's preference for a bakery setting to enjoy macarons. It provides a business-friendly dining experience, allowing for both leisure reading and business discussions, thus aligning with the user's dual needs during their trip.",
+        "reviews": {
+          "1_star": 3,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 40,
+          "5_star": 180
+        },
+        "tags": [
+          "Business Dining",
+          "Pet-Friendly",
+          "Parking"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should write Cafe, Bakery, or Dessert as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference.",
+      "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags."
+    ],
+    "implicit_statements": [
+      "I'm recently looking for a dessert spot where I can unwind with a good book and some macarons during the trip.",
+      "Given the nature of some of my dinners, I need a setting that can support both small talk and more focused discussions without distractions."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R14",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' of each restaurant, which indicates the general pricing level. The user preferences are already satisfied by all options, so we focus on the cost aspect. \n\n1. Golden Gate Gourmet has an 'Expensive' expectation, which suggests higher costs compared to the other options. \n2. Sushi Zen has a 'Normal' expectation, indicating moderate pricing. \n3. Café de Paris also has a 'Normal' expectation, similar to Sushi Zen.\n\nSince both Sushi Zen and Café de Paris have a 'Normal' expectation, they are likely to have similar pricing, which is lower than Golden Gate Gourmet's 'Expensive' expectation. \n\nTo choose between Sushi Zen and Café de Paris, we can consider the ratings and reviews. Both have a high proportion of 5-star reviews, but Café de Paris has a slightly higher rating (9) compared to Sushi Zen (8). However, since the task is to find the lowest cost, and both have the same 'Normal' expectation, the cost should be similar. \n\nTherefore, the option with the lowest cost is either Sushi Zen or Café de Paris. Given that both have similar cost expectations, I will choose Sushi Zen as it explicitly mentions 'Normal' pricing, which aligns with the user's preference for a diverse option in terms of cost.",
+    "case_id": "E025-09",
+    "cheapest_tier_ids": [
+      "R19",
+      "R13"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "American",
+        "expectation": "Expensive",
+        "id": "R4",
+        "name": "Golden Gate Gourmet",
+        "rating": 9,
+        "reason": "Golden Gate Gourmet is a suitable option as it is located in San Francisco and offers late night service, which aligns with the user's need for a restaurant that doesn't close early due to jet lag. More than half of its reviews are 5-star, ensuring a high-quality dining experience, which matches the user's preference for glowing reviews. Parking is available, complementing the user's need for convenience when driving an SUV.",
+        "reviews": {
+          "1_star": 50,
+          "2_star": 50,
+          "3_star": 100,
+          "4_star": 200,
+          "5_star": 1200
+        },
+        "tags": [
+          "Late Night Service",
+          "Parking",
+          "Reservations Available"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Japanese",
+        "expectation": "Normal",
+        "id": "R19",
+        "name": "Sushi Zen",
+        "rating": 8,
+        "reason": "Sushi Zen is a suitable choice as it offers late night service, meeting the user's need for a flexible dining schedule. It has a high proportion of 5-star reviews, aligning with the user's preference for restaurants with excellent ratings. Located in San Francisco, it fits the travel scenario, and its pricing is normal, offering a diverse option in terms of cost.",
+        "reviews": {
+          "1_star": 30,
+          "2_star": 20,
+          "3_star": 50,
+          "4_star": 100,
+          "5_star": 800
+        },
+        "tags": [
+          "Late Night Service",
+          "Reservations Available",
+          "Walk-ins Welcomed"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "French",
+        "expectation": "Normal",
+        "id": "R13",
+        "name": "Café de Paris",
+        "rating": 9,
+        "reason": "Café de Paris is suitable because it stays open late, accommodating the user's preference for late dining due to potential jet lag. With a majority of 5-star reviews, it meets the user's expectation for high-quality dining experiences. The restaurant is located in San Francisco and offers a unique French cuisine experience, adding diversity to the culinary exploration.",
+        "reviews": {
+          "1_star": 20,
+          "2_star": 10,
+          "3_star": 40,
+          "4_star": 150,
+          "5_star": 850
+        },
+        "tags": [
+          "Late Night Service",
+          "Outdoor Seating",
+          "Reservations Available"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+      "Correct options should have Late Night Service available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Night Service in the tags."
+    ],
+    "implicit_statements": [
+      "I love it when a restaurant consistently receives five star glowing reviews from the vast majority of its patrons more than the sum of all the others.",
+      "Jet lag hits hard when I travel, so I appreciate somewhere that doesn't close early."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R19",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' attribute of each restaurant, which indicates the general cost level. The options are 'Normal', 'Expensive', and 'Cheap'. The Green Leash has a 'Normal' expectation, Sunset Bark Bistro is 'Expensive', and Paws & Plates is 'Cheap'. Since all options satisfy the user preferences of having more than half of the reviews as 5-star and being pet-friendly, the cost is the primary differentiator. Therefore, Paws & Plates, with a 'Cheap' expectation, would induce the lowest cost for the user.",
+    "case_id": "E025-10",
+    "cheapest_tier_ids": [
+      "R4"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "American",
+        "expectation": "Normal",
+        "id": "R7",
+        "name": "The Green Leash",
+        "rating": 9,
+        "reason": "The Green Leash has more than half of its reviews as 5-star (120 out of 200 total reviews), fulfilling the user's preference for highly-rated restaurants. Additionally, it is pet-friendly, allowing the user to enjoy dining with a friend's dog, meeting all the specified preferences.",
+        "reviews": {
+          "1_star": 10,
+          "2_star": 10,
+          "3_star": 20,
+          "4_star": 40,
+          "5_star": 120
+        },
+        "tags": [
+          "Outdoor Seating",
+          "Pet-Friendly",
+          "Reservations Available"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Mediterranean",
+        "expectation": "Expensive",
+        "id": "R21",
+        "name": "Sunset Bark Bistro",
+        "rating": 8,
+        "reason": "Sunset Bark Bistro meets the requirement of having more than half of its reviews as 5-star (80 out of 130 total reviews), making it a safe choice for quality dining. It's also pet-friendly, which aligns with the user's preference for dining with a pet.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 30,
+          "5_star": 80
+        },
+        "tags": [
+          "Pet-Friendly",
+          "Outdoor Seating",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "French",
+        "expectation": "Cheap",
+        "id": "R4",
+        "name": "Paws & Plates",
+        "rating": 7,
+        "reason": "Paws & Plates offers a significant portion of 5-star reviews (50 out of 90 total reviews), indicating a high satisfaction level among diners. It is pet-friendly, allowing the user to dine with a friend's dog comfortably, making it an ideal choice.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 20,
+          "5_star": 50
+        },
+        "tags": [
+          "Pet-Friendly",
+          "Outdoor Seating",
+          "Walk-ins Welcomed"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+      "Correct options should have Pet Friendly listed in the tags. Wrong options could be wrong against this preference by do not contain Pet Friendly in the tags."
+    ],
+    "implicit_statements": [
+      "A long string of top five star that takes over half of all the available reviews usually tells me it's not a gamble on restaurant.",
+      "I like spots where I can relax outdoors with a meal and my friend's dog under the table, so no need for kennels or crates."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R4",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "best_rationale": "To determine the option with the lowest cost, we need to consider the 'expectation' of cost associated with each restaurant, as all options satisfy the user's preferences for Korean cuisine and delivery availability. The options are categorized as 'Expensive', 'Normal', and 'Cheap'. 'Seoul Taste' is marked as 'Expensive', 'Kimchi House' as 'Normal', and 'Bibimbap Bites' as 'Cheap'. Since all options provide delivery and Korean cuisine, the primary differentiator is the cost expectation. Therefore, 'Bibimbap Bites' with the 'Cheap' expectation will induce the lowest cost for the user.",
+    "case_id": "E025-11",
+    "cheapest_tier_ids": [
+      "R2"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "Korean",
+        "expectation": "Expensive",
+        "id": "R12",
+        "name": "Seoul Taste",
+        "rating": 9,
+        "reason": "Seoul Taste offers authentic Korean cuisine, aligning with the user’s interest in exploring local Korean food due to the large immigrant community in Seoul. With delivery available, it matches the user’s preference for meal delivery, allowing them to enjoy the culinary experience comfortably from their accommodation. The high rating and positive reviews indicate a quality experience.",
+        "reviews": {
+          "1_star": 2,
+          "2_star": 3,
+          "3_star": 10,
+          "4_star": 45,
+          "5_star": 120
+        },
+        "tags": [
+          "Delivery Available",
+          "Reservations Available",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Korean",
+        "expectation": "Normal",
+        "id": "R20",
+        "name": "Kimchi House",
+        "rating": 8,
+        "reason": "Kimchi House is a perfect fit for the user’s desire to try Korean cuisine, supported by the city’s large Korean community. The restaurant provides delivery, catering to the user’s convenience of enjoying meals delivered to their door. The solid rating and numerous positive reviews suggest a satisfying culinary experience.",
+        "reviews": {
+          "1_star": 1,
+          "2_star": 5,
+          "3_star": 20,
+          "4_star": 60,
+          "5_star": 200
+        },
+        "tags": [
+          "Delivery Available",
+          "Outdoor Seating",
+          "Walk-ins Welcomed"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Korean",
+        "expectation": "Cheap",
+        "id": "R2",
+        "name": "Bibimbap Bites",
+        "rating": 7,
+        "reason": "Bibimbap Bites specializes in Korean dishes, which is ideal for the user’s interest in the local cuisine. The availability of delivery meets the user’s preference for having meals delivered, enhancing their travel experience. The restaurant’s diverse amenities and positive reviews promise a pleasant dining option.",
+        "reviews": {
+          "1_star": 5,
+          "2_star": 10,
+          "3_star": 30,
+          "4_star": 70,
+          "5_star": 150
+        },
+        "tags": [
+          "Delivery Available",
+          "Pet-Friendly",
+          "Reservations Available"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should have cuisine from the user-specified country. Wrong options could write other countries in the field cuisine, in order to make it against this preference.",
+      "Correct options should have Delivery Available and listed in the tags. Wrong options could be wrong against this preference by do not contain Delivery Available in the tags."
+    ],
+    "implicit_statements": [
+      "I heard that the place I'm about to visit has many Korean immigrants so they really have some famous food that I'd like to give it a try.",
+      "I've come to appreciate the convenience of having meals delivered to my door recently, allowing me to enjoy different cuisines without leaving my couch during the trip."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R2",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "best_rationale": "The user preferences indicate a desire for an expensive restaurant where reservations are available. All three options, 'The Golden Room', 'Sakura Elite', and 'La Belle Époque', meet these criteria as they are all described as expensive and offer reservations. Therefore, the cost consideration should focus on any additional costs or benefits that might differentiate them. Since all options are described as 'expensive', we assume the base cost is similar across all options. The additional tags such as 'Private Dining Room', 'Business Dining', 'Outdoor Seating', 'Walk-ins Welcomed', 'Parking', and 'Pet-Friendly' do not explicitly indicate additional costs or savings. Therefore, the decision should be based on the overall user experience and satisfaction, which can be inferred from the ratings and reviews. 'The Golden Room' and 'La Belle Époque' both have a rating of 9, while 'Sakura Elite' has a rating of 8. Additionally, 'La Belle Époque' has a higher number of 5-star reviews compared to 'The Golden Room'. Therefore, considering the user preference for an expensive and reservation-available restaurant, along with the highest satisfaction inferred from reviews, 'La Belle Époque' (ID: R5) is the option with the lowest cost in terms of user satisfaction and experience.",
+    "case_id": "E025-12",
+    "cheapest_tier_ids": [
+      "R13",
+      "R15",
+      "R5"
+    ],
+    "correct_options": [
+      {
+        "cuisine": "French",
+        "expectation": "Expensive",
+        "id": "R13",
+        "name": "The Golden Room",
+        "rating": 9,
+        "reason": "The Golden Room is a high-end French restaurant, perfect for a special occasion with its expensive ambiance and exclusivity. It offers a private dining room and ensures a guaranteed spot with reservations available, aligning with the user's dining preferences for December 13th in San Francisco.",
+        "reviews": {
+          "1_star": 2,
+          "2_star": 5,
+          "3_star": 10,
+          "4_star": 30,
+          "5_star": 150
+        },
+        "tags": [
+          "Reservations Available",
+          "Private Dining Room",
+          "Business Dining",
+          "Parking"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "Japanese",
+        "expectation": "Expensive",
+        "id": "R15",
+        "name": "Sakura Elite",
+        "rating": 8,
+        "reason": "Sakura Elite offers an exclusive Japanese dining experience with an expensive setting, perfect for the user's special occasion. It features a private dining room and allows reservations, meeting the preference for guaranteed seating on December 13th in San Francisco.",
+        "reviews": {
+          "1_star": 3,
+          "2_star": 5,
+          "3_star": 15,
+          "4_star": 50,
+          "5_star": 200
+        },
+        "tags": [
+          "Reservations Available",
+          "Private Dining Room",
+          "Outdoor Seating",
+          "Walk-ins Welcomed"
+        ],
+        "type": "suitable"
+      },
+      {
+        "cuisine": "French",
+        "expectation": "Expensive",
+        "id": "R5",
+        "name": "La Belle Époque",
+        "rating": 9,
+        "reason": "La Belle Époque is a luxurious French restaurant, ideal for an exclusive dining experience. With its expensive setting, private dining room, and availability for reservations, it perfectly matches the user's preferences for a special occasion dining in San Francisco on December 13th.",
+        "reviews": {
+          "1_star": 1,
+          "2_star": 2,
+          "3_star": 8,
+          "4_star": 40,
+          "5_star": 180
+        },
+        "tags": [
+          "Reservations Available",
+          "Private Dining Room",
+          "Business Dining",
+          "Pet-Friendly"
+        ],
+        "type": "suitable"
+      }
+    ],
+    "criteria": [
+      "Correct options should write Expensive in its cost expectation field. Wrong options could write other things like Normal or Cheap in the cost expectation field, in order to make it against this preference.",
+      "Correct options should have Reservations Available listed in the tags. Wrong options could be wrong against this preference by do not contain Reservations Available in the tags."
+    ],
+    "implicit_statements": [
+      "This restaurant's ambiance and exclusivity, with its private dining room, sound expensive but perfect for a special occasion during my travel.",
+      "I enjoy the peace of mind knowing there's a guaranteed spot for me when I arrive at a restaurant."
+    ],
+    "numeric_cost_present": false,
+    "source_best_id": "R5",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  }
+]

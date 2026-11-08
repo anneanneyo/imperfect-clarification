@@ -14,6 +14,21 @@ python3 experiments/reproduce_e023.py
 
 Сохранённые результаты: `results/userbench_contract_e024/`. Их входы и код закреплены в `manifest.json`. Скрипт по умолчанию не перезаписывает готовый результат. Для повторения скопируйте `experiments/userbench_contract_e024.py` и `research/E024_PROTOCOL.md` в пустую временную структуру с теми же каталогами и запустите оттуда. Он скачает три файла UserBench по закреплённому commit, проверит Git blob SHA и выполнит 12 ручных траекторий и инъекцию отказа генератора. Модельные/API вызовы и benchmark-данные не используются.
 
+## E025
+
+Аудит официального train UserBench: Python, `pyarrow==21.0.0` из `experiments/requirements-e025.txt`. Зависимость устанавливается в отдельное окружение. Из корня репозитория:
+
+```bash
+python -m pip install -r experiments/requirements-e025.txt
+python experiments/audit_userbench_train_e025.py --verify --download
+python experiments/verify_userbench_e025.py
+python -m unittest discover -s experiments -p test_userbench_choice_adapter.py -v
+```
+
+Первая проверка воспроизводит и побайтно сравнивает артефакты; `--download` загружает только два закреплённых файла, если их нет в cache. Второй скрипт независимо проверяет отбор, все видимые варианты, метки и ключевые находки непосредственно по исходным данным. Третий запускает 9 поведенческих тестов адаптера. Модельные вызовы не требуются. Cache по умолчанию — `~/.cache/clarification-research/userbench-80506d2`; можно задать `--cache PATH` обоим скриптам.
+
+Важно: общий JSON авторов содержит разные splits. Скрипты извлекают только заранее выбранные 12 train-ID; test parquet не загружается. `public_cases.json` — видимый вход нашего диагностического режима с готовыми меню. `private_cases.json`, `restaurant_evidence.json` и инвентарь предпочтений содержат скрытые эталоны и **не должны подаваться агенту**. Это модификация для проверки данных, не воспроизведение исходного агентного benchmark.
+
 ## Архивные таблицы
 
 Две большие построчные CSV ранних синтетических опытов хранятся в Git в gzip-формате. Чтобы восстановить исходные байты по старым путям:

@@ -1,0 +1,962 @@
+[
+  {
+    "aspect": "flight",
+    "best_id": "F18",
+    "case_id": "E025-01",
+    "correct_ids": [
+      "F18",
+      "F3",
+      "F6"
+    ],
+    "first_raw_correct_id": "F18",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C14",
+    "case_id": "E025-01",
+    "correct_ids": [
+      "C14",
+      "C19",
+      "C12"
+    ],
+    "first_raw_correct_id": "C14",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H19",
+    "case_id": "E025-01",
+    "correct_ids": [
+      "H19",
+      "H7",
+      "H21"
+    ],
+    "first_raw_correct_id": "H19",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H2",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R1",
+    "case_id": "E025-01",
+    "correct_ids": [
+      "R7",
+      "R1",
+      "R19"
+    ],
+    "first_raw_correct_id": "R7",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F22",
+    "case_id": "E025-02",
+    "correct_ids": [
+      "F22",
+      "F8",
+      "F4"
+    ],
+    "first_raw_correct_id": "F22",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C6",
+    "case_id": "E025-02",
+    "correct_ids": [
+      "C6",
+      "C16",
+      "C5"
+    ],
+    "first_raw_correct_id": "C6",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R9",
+    "case_id": "E025-02",
+    "correct_ids": [
+      "R13",
+      "R9",
+      "R16"
+    ],
+    "first_raw_correct_id": "R13",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "apartment",
+    "best_id": "A16",
+    "case_id": "E025-02",
+    "correct_ids": [
+      "A16",
+      "A18",
+      "A1"
+    ],
+    "first_raw_correct_id": "A16",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "A1",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F19",
+    "case_id": "E025-03",
+    "correct_ids": [
+      "F15",
+      "F20",
+      "F19"
+    ],
+    "first_raw_correct_id": "F15",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C21",
+    "case_id": "E025-03",
+    "correct_ids": [
+      "C18",
+      "C21",
+      "C17"
+    ],
+    "first_raw_correct_id": "C18",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H6",
+    "case_id": "E025-03",
+    "correct_ids": [
+      "H6",
+      "H21",
+      "H2"
+    ],
+    "first_raw_correct_id": "H6",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H1",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R17",
+    "case_id": "E025-03",
+    "correct_ids": [
+      "R1",
+      "R17",
+      "R15"
+    ],
+    "first_raw_correct_id": "R1",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F12",
+    "case_id": "E025-04",
+    "correct_ids": [
+      "F19",
+      "F12",
+      "F8"
+    ],
+    "first_raw_correct_id": "F19",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C4",
+    "case_id": "E025-04",
+    "correct_ids": [
+      "C16",
+      "C4",
+      "C9"
+    ],
+    "first_raw_correct_id": "C16",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C2",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H9",
+    "case_id": "E025-04",
+    "correct_ids": [
+      "H12",
+      "H9",
+      "H16"
+    ],
+    "first_raw_correct_id": "H12",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H1",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R17",
+    "case_id": "E025-04",
+    "correct_ids": [
+      "R20",
+      "R2",
+      "R17"
+    ],
+    "first_raw_correct_id": "R20",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F6",
+    "case_id": "E025-05",
+    "correct_ids": [
+      "F6",
+      "F4",
+      "F1"
+    ],
+    "first_raw_correct_id": "F6",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C4",
+    "case_id": "E025-05",
+    "correct_ids": [
+      "C9",
+      "C4",
+      "C17"
+    ],
+    "first_raw_correct_id": "C9",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H12",
+    "case_id": "E025-05",
+    "correct_ids": [
+      "H10",
+      "H12",
+      "H20"
+    ],
+    "first_raw_correct_id": "H10",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H3",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R12",
+    "case_id": "E025-05",
+    "correct_ids": [
+      "R4",
+      "R17",
+      "R12"
+    ],
+    "first_raw_correct_id": "R4",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F11",
+    "case_id": "E025-06",
+    "correct_ids": [
+      "F11",
+      "F17",
+      "F15"
+    ],
+    "first_raw_correct_id": "F11",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C9",
+    "case_id": "E025-06",
+    "correct_ids": [
+      "C21",
+      "C9",
+      "C10"
+    ],
+    "first_raw_correct_id": "C21",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R16",
+    "case_id": "E025-06",
+    "correct_ids": [
+      "R2",
+      "R16",
+      "R15"
+    ],
+    "first_raw_correct_id": "R2",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R2",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "apartment",
+    "best_id": "A14",
+    "case_id": "E025-06",
+    "correct_ids": [
+      "A19",
+      "A14",
+      "A1"
+    ],
+    "first_raw_correct_id": "A19",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "A1",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F15",
+    "case_id": "E025-07",
+    "correct_ids": [
+      "F5",
+      "F15",
+      "F16"
+    ],
+    "first_raw_correct_id": "F5",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C16",
+    "case_id": "E025-07",
+    "correct_ids": [
+      "C17",
+      "C3",
+      "C16"
+    ],
+    "first_raw_correct_id": "C17",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R4",
+    "case_id": "E025-07",
+    "correct_ids": [
+      "R15",
+      "R1",
+      "R4"
+    ],
+    "first_raw_correct_id": "R15",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "apartment",
+    "best_id": "A2",
+    "case_id": "E025-07",
+    "correct_ids": [
+      "A16",
+      "A3",
+      "A2"
+    ],
+    "first_raw_correct_id": "A16",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "A1",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F22",
+    "case_id": "E025-08",
+    "correct_ids": [
+      "F22",
+      "F10",
+      "F7"
+    ],
+    "first_raw_correct_id": "F22",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F2",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C9",
+    "case_id": "E025-08",
+    "correct_ids": [
+      "C9",
+      "C10",
+      "C19"
+    ],
+    "first_raw_correct_id": "C9",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H10",
+    "case_id": "E025-08",
+    "correct_ids": [
+      "H16",
+      "H4",
+      "H10"
+    ],
+    "first_raw_correct_id": "H16",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H1",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R14",
+    "case_id": "E025-08",
+    "correct_ids": [
+      "R22",
+      "R21",
+      "R14"
+    ],
+    "first_raw_correct_id": "R22",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R3",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F4",
+    "case_id": "E025-09",
+    "correct_ids": [
+      "F4",
+      "F11",
+      "F8"
+    ],
+    "first_raw_correct_id": "F4",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C5",
+    "case_id": "E025-09",
+    "correct_ids": [
+      "C5",
+      "C17",
+      "C3"
+    ],
+    "first_raw_correct_id": "C5",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H3",
+    "case_id": "E025-09",
+    "correct_ids": [
+      "H3",
+      "H9",
+      "H1"
+    ],
+    "first_raw_correct_id": "H3",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H1",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R19",
+    "case_id": "E025-09",
+    "correct_ids": [
+      "R4",
+      "R19",
+      "R13"
+    ],
+    "first_raw_correct_id": "R4",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F2",
+    "case_id": "E025-10",
+    "correct_ids": [
+      "F2",
+      "F6",
+      "F1"
+    ],
+    "first_raw_correct_id": "F2",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C18",
+    "case_id": "E025-10",
+    "correct_ids": [
+      "C18",
+      "C6",
+      "C11"
+    ],
+    "first_raw_correct_id": "C18",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H11",
+    "case_id": "E025-10",
+    "correct_ids": [
+      "H11",
+      "H6",
+      "H18"
+    ],
+    "first_raw_correct_id": "H11",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H1",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R4",
+    "case_id": "E025-10",
+    "correct_ids": [
+      "R7",
+      "R21",
+      "R4"
+    ],
+    "first_raw_correct_id": "R7",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R2",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F21",
+    "case_id": "E025-11",
+    "correct_ids": [
+      "F21",
+      "F8",
+      "F22"
+    ],
+    "first_raw_correct_id": "F21",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F1",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C19",
+    "case_id": "E025-11",
+    "correct_ids": [
+      "C19",
+      "C1",
+      "C11"
+    ],
+    "first_raw_correct_id": "C19",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C1",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H21",
+    "case_id": "E025-11",
+    "correct_ids": [
+      "H21",
+      "H2",
+      "H16"
+    ],
+    "first_raw_correct_id": "H21",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H2",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R2",
+    "case_id": "E025-11",
+    "correct_ids": [
+      "R12",
+      "R20",
+      "R2"
+    ],
+    "first_raw_correct_id": "R12",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "flight",
+    "best_id": "F3",
+    "case_id": "E025-12",
+    "correct_ids": [
+      "F10",
+      "F3",
+      "F8"
+    ],
+    "first_raw_correct_id": "F10",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "F2",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "rental_car",
+    "best_id": "C16",
+    "case_id": "E025-12",
+    "correct_ids": [
+      "C13",
+      "C16",
+      "C6"
+    ],
+    "first_raw_correct_id": "C13",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "C2",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "hotel",
+    "best_id": "H21",
+    "case_id": "E025-12",
+    "correct_ids": [
+      "H10",
+      "H21",
+      "H1"
+    ],
+    "first_raw_correct_id": "H10",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "H1",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "restaurant",
+    "best_id": "R5",
+    "case_id": "E025-12",
+    "correct_ids": [
+      "R13",
+      "R15",
+      "R5"
+    ],
+    "first_raw_correct_id": "R13",
+    "option_count": 18,
+    "option_group_counts": {
+      "correct": 3,
+      "noise": 5,
+      "wrong": 10
+    },
+    "preference_count": 2,
+    "smallest_original_id": "R1",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  }
+]

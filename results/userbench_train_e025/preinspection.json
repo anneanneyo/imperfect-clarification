@@ -1,0 +1,6 @@
+{
+  "protocol_sha256": "456e6be5d2c01f3a76cee243f751e4883a21209d0e1e8c97edbd5cbb13a921bd",
+  "upstream_commit": "80506d2ab484cab843e60a2401ff3e0290d05b87",
+  "selection_rule": "sha256(E025| + task_id), then task_id, first 12",
+  "phase": "before inspecting train rows and task content"
+}

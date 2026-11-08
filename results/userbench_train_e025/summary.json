@@ -1,0 +1,915 @@
+{
+  "all_selected_best_and_correct_membership_checks_passed": true,
+  "component_caveat": "component IDs denote preference templates; instantiated statements/options can differ",
+  "configuration": "travel2222_multiturn",
+  "exact_hidden_text_hits_in_initial_prompt": [],
+  "metadata_mismatches": [
+    {
+      "all_ids_without_option": [
+        "F14",
+        "F15",
+        "F17",
+        "F5"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-01",
+      "group_ids_without_option": {
+        "noise": [
+          "F14",
+          "F15",
+          "F17",
+          "F5"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C15",
+        "C17",
+        "C2",
+        "C5"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-01",
+      "group_ids_without_option": {
+        "noise": [
+          "C15",
+          "C17",
+          "C2",
+          "C5"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H1",
+        "H10",
+        "H4",
+        "H9"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-01",
+      "group_ids_without_option": {
+        "noise": [
+          "H1",
+          "H10",
+          "H4",
+          "H9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R10",
+        "R14",
+        "R21",
+        "R5"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-01",
+      "group_ids_without_option": {
+        "noise": [
+          "R10",
+          "R14",
+          "R21",
+          "R5"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F10",
+        "F13",
+        "F15",
+        "F9"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-02",
+      "group_ids_without_option": {
+        "noise": [
+          "F10",
+          "F13",
+          "F15",
+          "F9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C11",
+        "C17",
+        "C19",
+        "C3"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-02",
+      "group_ids_without_option": {
+        "noise": [
+          "C11",
+          "C17",
+          "C19",
+          "C3"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R11",
+        "R14",
+        "R2",
+        "R3"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-02",
+      "group_ids_without_option": {
+        "noise": [
+          "R11",
+          "R14",
+          "R2",
+          "R3"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "A12",
+        "A14",
+        "A19",
+        "A20"
+      ],
+      "aspect": "apartment",
+      "case_id": "E025-02",
+      "group_ids_without_option": {
+        "noise": [
+          "A12",
+          "A14",
+          "A19",
+          "A20"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F14",
+        "F22",
+        "F4",
+        "F5"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-03",
+      "group_ids_without_option": {
+        "noise": [
+          "F14",
+          "F22",
+          "F4",
+          "F5"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C13",
+        "C15",
+        "C22",
+        "C7"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-03",
+      "group_ids_without_option": {
+        "noise": [
+          "C13",
+          "C15",
+          "C22",
+          "C7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H10",
+        "H12",
+        "H15",
+        "H19"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-03",
+      "group_ids_without_option": {
+        "noise": [
+          "H10",
+          "H12",
+          "H15",
+          "H19"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R12",
+        "R20",
+        "R4",
+        "R6"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-03",
+      "group_ids_without_option": {
+        "noise": [
+          "R12",
+          "R20",
+          "R4",
+          "R6"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F11",
+        "F15",
+        "F20",
+        "F7"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-04",
+      "group_ids_without_option": {
+        "noise": [
+          "F11",
+          "F15",
+          "F20",
+          "F7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C1",
+        "C13",
+        "C21",
+        "C7"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-04",
+      "group_ids_without_option": {
+        "noise": [
+          "C1",
+          "C13",
+          "C21",
+          "C7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H13",
+        "H17",
+        "H22",
+        "H8"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-04",
+      "group_ids_without_option": {
+        "noise": [
+          "H13",
+          "H17",
+          "H22",
+          "H8"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R10",
+        "R13",
+        "R14",
+        "R22"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-04",
+      "group_ids_without_option": {
+        "noise": [
+          "R10",
+          "R13",
+          "R14",
+          "R22"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F10",
+        "F11",
+        "F7",
+        "F9"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-05",
+      "group_ids_without_option": {
+        "noise": [
+          "F10",
+          "F11",
+          "F7",
+          "F9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C18",
+        "C20",
+        "C21",
+        "C3"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-05",
+      "group_ids_without_option": {
+        "noise": [
+          "C18",
+          "C20",
+          "C21",
+          "C3"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H1",
+        "H2",
+        "H22",
+        "H5"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-05",
+      "group_ids_without_option": {
+        "noise": [
+          "H1",
+          "H2",
+          "H22",
+          "H5"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R15",
+        "R18",
+        "R21",
+        "R8"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-05",
+      "group_ids_without_option": {
+        "noise": [
+          "R15",
+          "R18",
+          "R21",
+          "R8"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F18",
+        "F4",
+        "F7",
+        "F9"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-06",
+      "group_ids_without_option": {
+        "noise": [
+          "F18",
+          "F4",
+          "F7",
+          "F9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C11",
+        "C13",
+        "C19",
+        "C3"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-06",
+      "group_ids_without_option": {
+        "noise": [
+          "C11",
+          "C13",
+          "C19",
+          "C3"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R1",
+        "R21",
+        "R3",
+        "R6"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-06",
+      "group_ids_without_option": {
+        "noise": [
+          "R1",
+          "R21",
+          "R3",
+          "R6"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "A15",
+        "A18",
+        "A3",
+        "A9"
+      ],
+      "aspect": "apartment",
+      "case_id": "E025-06",
+      "group_ids_without_option": {
+        "noise": [
+          "A15",
+          "A18",
+          "A3",
+          "A9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F10",
+        "F13",
+        "F18",
+        "F3"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-07",
+      "group_ids_without_option": {
+        "noise": [
+          "F10",
+          "F13",
+          "F18",
+          "F3"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C10",
+        "C19",
+        "C22",
+        "C9"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-07",
+      "group_ids_without_option": {
+        "noise": [
+          "C10",
+          "C19",
+          "C22",
+          "C9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R2",
+        "R20",
+        "R5",
+        "R8"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-07",
+      "group_ids_without_option": {
+        "noise": [
+          "R2",
+          "R20",
+          "R5",
+          "R8"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "A10",
+        "A14",
+        "A20",
+        "A9"
+      ],
+      "aspect": "apartment",
+      "case_id": "E025-07",
+      "group_ids_without_option": {
+        "noise": [
+          "A10",
+          "A14",
+          "A20",
+          "A9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F1",
+        "F11",
+        "F3",
+        "F9"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-08",
+      "group_ids_without_option": {
+        "noise": [
+          "F1",
+          "F11",
+          "F3",
+          "F9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C13",
+        "C2",
+        "C5",
+        "C6"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-08",
+      "group_ids_without_option": {
+        "noise": [
+          "C13",
+          "C2",
+          "C5",
+          "C6"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H17",
+        "H19",
+        "H20",
+        "H7"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-08",
+      "group_ids_without_option": {
+        "noise": [
+          "H17",
+          "H19",
+          "H20",
+          "H7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R1",
+        "R11",
+        "R17",
+        "R2"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-08",
+      "group_ids_without_option": {
+        "noise": [
+          "R1",
+          "R11",
+          "R17",
+          "R2"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F13",
+        "F15",
+        "F16",
+        "F17"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-09",
+      "group_ids_without_option": {
+        "noise": [
+          "F13",
+          "F15",
+          "F16",
+          "F17"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C12",
+        "C20",
+        "C22",
+        "C7"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-09",
+      "group_ids_without_option": {
+        "noise": [
+          "C12",
+          "C20",
+          "C22",
+          "C7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H19",
+        "H21",
+        "H4",
+        "H7"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-09",
+      "group_ids_without_option": {
+        "noise": [
+          "H19",
+          "H21",
+          "H4",
+          "H7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R15",
+        "R21",
+        "R22",
+        "R3"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-09",
+      "group_ids_without_option": {
+        "noise": [
+          "R15",
+          "R21",
+          "R22",
+          "R3"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F12",
+        "F17",
+        "F22",
+        "F9"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-10",
+      "group_ids_without_option": {
+        "noise": [
+          "F12",
+          "F17",
+          "F22",
+          "F9"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C15",
+        "C17",
+        "C21",
+        "C8"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-10",
+      "group_ids_without_option": {
+        "noise": [
+          "C15",
+          "C17",
+          "C21",
+          "C8"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H19",
+        "H20",
+        "H21",
+        "H4"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-10",
+      "group_ids_without_option": {
+        "noise": [
+          "H19",
+          "H20",
+          "H21",
+          "H4"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R1",
+        "R11",
+        "R16",
+        "R18"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-10",
+      "group_ids_without_option": {
+        "noise": [
+          "R1",
+          "R11",
+          "R16",
+          "R18"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F15",
+        "F20",
+        "F5",
+        "F6"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-11",
+      "group_ids_without_option": {
+        "noise": [
+          "F15",
+          "F20",
+          "F5",
+          "F6"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C12",
+        "C14",
+        "C5",
+        "C6"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-11",
+      "group_ids_without_option": {
+        "noise": [
+          "C12",
+          "C14",
+          "C5",
+          "C6"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H1",
+        "H19",
+        "H6",
+        "H8"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-11",
+      "group_ids_without_option": {
+        "noise": [
+          "H1",
+          "H19",
+          "H6",
+          "H8"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R18",
+        "R21",
+        "R4",
+        "R7"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-11",
+      "group_ids_without_option": {
+        "noise": [
+          "R18",
+          "R21",
+          "R4",
+          "R7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "F1",
+        "F11",
+        "F13",
+        "F15"
+      ],
+      "aspect": "flight",
+      "case_id": "E025-12",
+      "group_ids_without_option": {
+        "noise": [
+          "F1",
+          "F11",
+          "F13",
+          "F15"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "C1",
+        "C14",
+        "C5",
+        "C7"
+      ],
+      "aspect": "rental_car",
+      "case_id": "E025-12",
+      "group_ids_without_option": {
+        "noise": [
+          "C1",
+          "C14",
+          "C5",
+          "C7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "H12",
+        "H20",
+        "H3",
+        "H7"
+      ],
+      "aspect": "hotel",
+      "case_id": "E025-12",
+      "group_ids_without_option": {
+        "noise": [
+          "H12",
+          "H20",
+          "H3",
+          "H7"
+        ]
+      }
+    },
+    {
+      "all_ids_without_option": [
+        "R16",
+        "R20",
+        "R6",
+        "R8"
+      ],
+      "aspect": "restaurant",
+      "case_id": "E025-12",
+      "group_ids_without_option": {
+        "noise": [
+          "R16",
+          "R20",
+          "R6",
+          "R8"
+        ]
+      }
+    }
+  ],
+  "model_calls": 0,
+  "official_test_tasks_evaluated": 0,
+  "option_id_hits_in_initial_prompt": [],
+  "prompt_check_limit": "exact full-string/ID matches only; semantic absence of leakage not proved",
+  "raw_correct_first_diagnostic": {
+    "acceptable_count": 48,
+    "aspect_count": 48,
+    "best_count": 20,
+    "caveat": "uses hidden category ordering; invalid policy; upstream loader shuffles"
+  },
+  "restaurant_best_in_minimum_tier": 12,
+  "restaurant_cases": 12,
+  "restaurant_correct_options_with_numeric_cost": 0,
+  "restaurant_minimum_tier_ties": 6,
+  "scope": "fixed train-only source audit; not benchmark evaluation or learned agent",
+  "selected_aspects": 48,
+  "selected_options": 864,
+  "selected_preferences": 96,
+  "selected_reused_component_ids": {
+    "flight:2-26": 2,
+    "flight:2-70": 2,
+    "hotel:2-45": 2,
+    "restaurant:2-103": 2,
+    "restaurant:2-64": 2
+  },
+  "selected_tasks": 12,
+  "selected_unique_component_ids": 43,
+  "smallest_original_id_diagnostic": {
+    "acceptable_count": 12,
+    "aspect_count": 48,
+    "best_count": 1,
+    "caveat": "exploratory ID shortcut check, not a prespecified model comparison"
+  },
+  "source_index_best_id_agreement": 12,
+  "train_component_id_count": 384,
+  "train_reused_component_id_types": 101,
+  "train_rows": 96,
+  "train_task_connected_component_sizes": [
+    96
+  ],
+  "train_unique_component_ids": 241,
+  "unique_train_ids": 96,
+  "upstream_commit": "80506d2ab484cab843e60a2401ff3e0290d05b87"
+}

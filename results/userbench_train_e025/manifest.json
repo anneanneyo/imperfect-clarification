@@ -1,0 +1,29 @@
+{
+  "artifact_sha256": {
+    "aspect_checks.json": "1afc432fe98b7bea2c2c3911e1b16fee9b36a48d7d4b409f30dca3abfd19962d",
+    "preference_inventory.json": "67fc5491224343d234aaffa9b59e9cda545cb0671787b26b287fafcc72edebc3",
+    "private_cases.json": "2c91c2a5077523c35522ce1feb9dd815113a5e9ed4a83d9cf3c3c9261d8ae237",
+    "public_cases.json": "1be6ca3659a81d6ea518d89314a8c279c20efb5bb98543f58066f714e29d8612",
+    "restaurant_evidence.json": "158b288ecac1bdf133d1db7fc84f8b3b04378444bb865a433d5e10effaa00155",
+    "summary.json": "683a95724b370d1d047e12950e0bce4d770e959c5d12b01a289c8bfef0bbf90d"
+  },
+  "code_sha256": {
+    "experiments/audit_userbench_train_e025.py": "c5d13f5a78049f56b54d60e6dd0215925693c3c33ba3532d5084bdde7d0c322f",
+    "experiments/userbench_choice_adapter.py": "7ef32fa464a0f1806a6298651a809ce3df3248c228c18d6f05e41bc5598a5b63"
+  },
+  "protocol_sha256": "456e6be5d2c01f3a76cee243f751e4883a21209d0e1e8c97edbd5cbb13a921bd",
+  "pyarrow_version": "21.0.0",
+  "source_files": {
+    "data/travel2222_multiturn/train.parquet": {
+      "bytes": 26041,
+      "git_blob": "0eaea0fa79df05a7bdd165b323a79b10fb9e15c7",
+      "sha256": "29e4cfe3b7e04576685d15ae59d73751b549c562f0782b4c3914214c5d135944"
+    },
+    "travelgym/data/travelgym_data_2222.json": {
+      "bytes": 11183184,
+      "git_blob": "974c4457d1ace709ea3f2652ddd2dbb405db9052",
+      "sha256": "f40ec7149e23b31d512a7eaffff38454b97de9046bbf9830002cd77eed408e14"
+    }
+  },
+  "upstream_commit": "80506d2ab484cab843e60a2401ff3e0290d05b87"
+}

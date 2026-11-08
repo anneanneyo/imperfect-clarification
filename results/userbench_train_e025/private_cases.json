@@ -1,0 +1,3134 @@
+[
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O01",
+          "O06",
+          "O18"
+        ],
+        "best_id": "O01",
+        "preferences": [
+          [
+            "flight",
+            "amenities",
+            "prefer having wifi on the flight",
+            "I plan to finalize my presentation, which is stored on the cloud, during the flight.",
+            "Correct options should have WiFi available and listed in the amenities. Wrong options could be wrong against this preference by do not contain WiFi in the amenity."
+          ],
+          [
+            "flight",
+            "service",
+            "prefer business class",
+            "I always appreciate when I am among the first few boarding groups, and I enjoy the extra comfort and space during the flight.",
+            "Correct options should have business class listed in the service and value is not null. Wrong options could be wrong against this preference by not having business class cost listed or its value is null, indicating that business class is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O15",
+          "F10": "O17",
+          "F11": "O10",
+          "F12": "O11",
+          "F13": "O13",
+          "F16": "O14",
+          "F18": "O01",
+          "F19": "O05",
+          "F2": "O16",
+          "F20": "O09",
+          "F21": "O07",
+          "F22": "O08",
+          "F3": "O06",
+          "F4": "O04",
+          "F6": "O18",
+          "F7": "O03",
+          "F8": "O02",
+          "F9": "O12"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O08",
+          "O09",
+          "O14"
+        ],
+        "best_id": "O09",
+        "preferences": [
+          [
+            "hotel",
+            "room",
+            "prefer Suite (with kitchen) room",
+            "I like to unwind in a spacious room with a home-cooked meal after a long day of sightseeing.",
+            "Correct options should have Suite (with kitchen) room as its room type (could have others, but Suite (with kitchen) must be included). Wrong options could be wrong against this preference by not having Suite (with kitchen) room as one of its room type."
+          ],
+          [
+            "hotel",
+            "amenities",
+            "prefer having business workspace",
+            "It's nice to have a dedicated workspace in the hotel to ensure comfort and productivity, rather than having to rely on the bed as a makeshift office.",
+            "Correct options should have Business Workspace available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Business Workspace in the amenity."
+          ]
+        ],
+        "source_to_visible": {
+          "H11": "O06",
+          "H12": "O18",
+          "H13": "O04",
+          "H14": "O03",
+          "H15": "O12",
+          "H16": "O13",
+          "H17": "O05",
+          "H18": "O15",
+          "H19": "O09",
+          "H2": "O16",
+          "H20": "O01",
+          "H21": "O08",
+          "H22": "O07",
+          "H3": "O17",
+          "H5": "O10",
+          "H6": "O02",
+          "H7": "O14",
+          "H8": "O11"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O03",
+          "O12",
+          "O14"
+        ],
+        "best_id": "O03",
+        "preferences": [
+          [
+            "rental_car",
+            "model",
+            "prefer SUV",
+            "The weather forecast predicts some snow during our trip, and having the stability and traction of a vehicle with higher ground clearance could be quite helpful.",
+            "Correct options should write SUV in the option's category field. Wrong options could be other categories instead of SUV, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "insurance",
+            "prefer having belonging insurance",
+            "I try to pack light, but what I bring is valuable, I'd rather not take risks leaving them in car, whichI usually do, but in an unprotected way.",
+            "Correct options should have belonging waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having belonging waiver cost listed or its value is null, indicating that belonging insurance is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O07",
+          "C10": "O15",
+          "C11": "O18",
+          "C12": "O14",
+          "C13": "O06",
+          "C14": "O03",
+          "C16": "O11",
+          "C18": "O05",
+          "C19": "O12",
+          "C20": "O09",
+          "C21": "O04",
+          "C22": "O02",
+          "C3": "O08",
+          "C4": "O10",
+          "C6": "O16",
+          "C7": "O01",
+          "C8": "O13",
+          "C9": "O17"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O04",
+          "O13",
+          "O14"
+        ],
+        "best_id": "O14",
+        "preferences": [
+          [
+            "restaurant",
+            "rating",
+            "prefer having more than half of the reviews are 5-star",
+            "I find it compelling when a restaurant's five star positive reviews overwhelmingly dominate the others and takes the majority.",
+            "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer restaurant opens till late night",
+            "I'm not great at sticking to normal meal times, especially during travelling, so flexible hours matter at night really matters.",
+            "Correct options should have Late Night Service available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Night Service in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O14",
+          "R11": "O12",
+          "R12": "O16",
+          "R13": "O17",
+          "R15": "O15",
+          "R16": "O10",
+          "R17": "O01",
+          "R18": "O06",
+          "R19": "O04",
+          "R2": "O05",
+          "R20": "O11",
+          "R22": "O07",
+          "R3": "O08",
+          "R4": "O02",
+          "R6": "O03",
+          "R7": "O13",
+          "R8": "O18",
+          "R9": "O09"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-01"
+  },
+  {
+    "aspects": {
+      "apartment": {
+        "acceptable_ids": [
+          "O10",
+          "O14",
+          "O18"
+        ],
+        "best_id": "O14",
+        "preferences": [
+          [
+            "apartment",
+            "name",
+            "prefer certain platform (user specifies)",
+            "I've collected a few Homestay gift cards that I'm excited to use to experience unique accommodations on my next trip.",
+            "Correct options should have the user-specified apartment or platform name in the option's name field and align with the platform that user wants. Wrong options could be other hotel name or platforms in its name, in order to make it against this preference."
+          ],
+          [
+            "apartment",
+            "room",
+            "prefer having at least three bedrooms",
+            "Our family movie nights require a separate room with a big screen setup, and we also need an extra bedrooms for other activities and guests. We will only use the main bedroom for resting.",
+            "Correct options should be a room type that has at least three bedrooms (abrreviated as 3BnB or 4BnB, n does not matter). Wrong options could be wrong against this preference by not having 3BnB or 4BnB as its room type."
+          ]
+        ],
+        "source_to_visible": {
+          "A1": "O10",
+          "A10": "O17",
+          "A11": "O04",
+          "A13": "O02",
+          "A15": "O03",
+          "A16": "O14",
+          "A17": "O05",
+          "A18": "O18",
+          "A2": "O13",
+          "A21": "O09",
+          "A22": "O06",
+          "A3": "O11",
+          "A4": "O08",
+          "A5": "O12",
+          "A6": "O07",
+          "A7": "O15",
+          "A8": "O16",
+          "A9": "O01"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "flight": {
+        "acceptable_ids": [
+          "O07",
+          "O17",
+          "O18"
+        ],
+        "best_id": "O07",
+        "preferences": [
+          [
+            "flight",
+            "time",
+            "prefer longer layover time",
+            "I love having ample time to meet new people in the connection city without the rush of catching a connecting flight.",
+            "All the options should have exactly one layover. Correct option should contain long layover time (in a resonable way) that can fullfill the user's specific need. Wrong options could contain short layover time that is not enough to fulfill the user need, in order to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "amenities",
+            "prefer having meal service on the flight",
+            "Having a meal onboard is a comforting ritual for me, making the flight feel more like home.",
+            "Correct options should have Meal Service available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Meal Service in the amenity."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O09",
+          "F11": "O16",
+          "F12": "O08",
+          "F14": "O10",
+          "F16": "O06",
+          "F17": "O13",
+          "F18": "O14",
+          "F19": "O15",
+          "F2": "O01",
+          "F20": "O05",
+          "F21": "O11",
+          "F22": "O07",
+          "F3": "O02",
+          "F4": "O17",
+          "F5": "O04",
+          "F6": "O03",
+          "F7": "O12",
+          "F8": "O18"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O12",
+          "O14",
+          "O16"
+        ],
+        "best_id": "O14",
+        "preferences": [
+          [
+            "rental_car",
+            "brand",
+            "prefer specific rental car brand (user specifies)",
+            "You know, I always end up choosing Avis because they seem to have the most convenient locations for pick-up and drop-off.",
+            "Correct options should be the user-specified rental car brand. Wrong options could be other brand that is not what user prefers, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "model",
+            "prefer specific car model (user specifies)",
+            "After reading a review about how the Tesla Model 3's autopilot feature makes long drives more relaxing, I'm really intrigued to experience it.",
+            "Correct options should be the user-specified rental car model. Wrong options could be other models that is not what user prefers, in order to make it against this preference."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O11",
+          "C10": "O18",
+          "C12": "O15",
+          "C13": "O05",
+          "C14": "O13",
+          "C15": "O10",
+          "C16": "O12",
+          "C18": "O03",
+          "C2": "O17",
+          "C20": "O01",
+          "C21": "O07",
+          "C22": "O09",
+          "C4": "O06",
+          "C5": "O16",
+          "C6": "O14",
+          "C7": "O08",
+          "C8": "O04",
+          "C9": "O02"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O04",
+          "O08",
+          "O16"
+        ],
+        "best_id": "O08",
+        "preferences": [
+          [
+            "restaurant",
+            "cuisine",
+            "prefer having dessert or bakery or cafe (user specifies)",
+            "My creadit card offers gift points in coffee shops in the city I'm about to go, so why not take advantge of this benefit?",
+            "Correct options should write Cafe, Bakery, or Dessert as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer having business dining",
+            "Given the nature of some of my dinners, I need a setting that can support both small talk and more focused discussions without distractions.",
+            "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O07",
+          "R10": "O13",
+          "R12": "O03",
+          "R13": "O16",
+          "R15": "O02",
+          "R16": "O04",
+          "R17": "O09",
+          "R18": "O10",
+          "R19": "O05",
+          "R20": "O01",
+          "R21": "O15",
+          "R22": "O18",
+          "R4": "O06",
+          "R5": "O11",
+          "R6": "O17",
+          "R7": "O12",
+          "R8": "O14",
+          "R9": "O08"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-02"
+  },
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O08",
+          "O14",
+          "O17"
+        ],
+        "best_id": "O08",
+        "preferences": [
+          [
+            "flight",
+            "time",
+            "prefer longer layover time",
+            "I usually need longer layover times like 4 to 5 hours to catch up on my meetings and provide ample time to catch up on work emails.",
+            "All the options should have exactly one layover. Correct option should contain long layover time (in a resonable way) that can fullfill the user's specific need. Wrong options could contain short layover time that is not enough to fulfill the user need, in order to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "company",
+            "prefer specific airline brand (user specifies)",
+            "I always choose United for my flights because I've collected enough miles to finally upgrade my seat on the next trip.",
+            "Correct option should be the flight of the specific company that the user designates. Wrong options could contain flights of other companies that are not the user's preferred airline, in order to be wrong against this preference."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O03",
+          "F10": "O18",
+          "F11": "O04",
+          "F12": "O13",
+          "F13": "O07",
+          "F15": "O14",
+          "F16": "O01",
+          "F17": "O06",
+          "F18": "O12",
+          "F19": "O08",
+          "F2": "O16",
+          "F20": "O17",
+          "F21": "O15",
+          "F3": "O09",
+          "F6": "O02",
+          "F7": "O11",
+          "F8": "O05",
+          "F9": "O10"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O06",
+          "O13",
+          "O16"
+        ],
+        "best_id": "O13",
+        "preferences": [
+          [
+            "hotel",
+            "room",
+            "prefer Double room",
+            "I enjoy the comfort of keeping one bed tidy for sleeping and using the other for lounging during the day.",
+            "Correct options should have Double room as its room type (could have others, but Double must be included). Wrong options could be wrong against this preference by not having Double room as one of its room type."
+          ],
+          [
+            "hotel",
+            "amenities",
+            "prefer having air conditioning",
+            "I can't imagine trying to get good rest without effective temperature control in the room.",
+            "Correct options should have Air Conditioning available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Air Conditioning in the amenity."
+          ]
+        ],
+        "source_to_visible": {
+          "H1": "O15",
+          "H11": "O12",
+          "H13": "O01",
+          "H14": "O14",
+          "H16": "O09",
+          "H17": "O05",
+          "H18": "O10",
+          "H2": "O06",
+          "H20": "O18",
+          "H21": "O16",
+          "H22": "O17",
+          "H3": "O07",
+          "H4": "O03",
+          "H5": "O02",
+          "H6": "O13",
+          "H7": "O11",
+          "H8": "O04",
+          "H9": "O08"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O01",
+          "O12",
+          "O18"
+        ],
+        "best_id": "O01",
+        "preferences": [
+          [
+            "rental_car",
+            "model",
+            "prefer electric car",
+            "I'm very curious to see and try how the autopilot features have evolved in the newer electric car models.",
+            "Correct options should write Electric in the option's category field. Wrong options could be other categories instead of Electric, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "insurance",
+            "prefer having liability insurance",
+            "Hurting someone or wrecking their vehicle would be my worst nightmare, and I want protection against these worst situations.",
+            "Correct options should have liability waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having liability waiver cost listed or its value is null, indicating that liability insurance is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O10",
+          "C10": "O13",
+          "C11": "O17",
+          "C12": "O14",
+          "C14": "O16",
+          "C16": "O08",
+          "C17": "O18",
+          "C18": "O12",
+          "C19": "O02",
+          "C2": "O03",
+          "C20": "O11",
+          "C21": "O01",
+          "C3": "O04",
+          "C4": "O09",
+          "C5": "O07",
+          "C6": "O15",
+          "C8": "O05",
+          "C9": "O06"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O02",
+          "O03",
+          "O16"
+        ],
+        "best_id": "O03",
+        "preferences": [
+          [
+            "restaurant",
+            "cuisine",
+            "prefer having seafood or steakhouse (user specifies)",
+            "I've been craving a good juicy ribeye these days. Hope I could get something that can surprise me during this trip.",
+            "Correct options should be Seafood or Steakhouse as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer having the option of delivery",
+            "I've come to appreciate the convenience of having meals delivered to my door recently, allowing me to enjoy different cuisines without leaving my couch during the trip.",
+            "Correct options should have Delivery Available and listed in the tags. Wrong options could be wrong against this preference by do not contain Delivery Available in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O16",
+          "R10": "O18",
+          "R11": "O12",
+          "R13": "O01",
+          "R14": "O11",
+          "R15": "O02",
+          "R16": "O17",
+          "R17": "O03",
+          "R18": "O04",
+          "R19": "O15",
+          "R2": "O14",
+          "R21": "O06",
+          "R22": "O07",
+          "R3": "O13",
+          "R5": "O05",
+          "R7": "O10",
+          "R8": "O08",
+          "R9": "O09"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-03"
+  },
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O04",
+          "O05",
+          "O17"
+        ],
+        "best_id": "O04",
+        "preferences": [
+          [
+            "flight",
+            "path",
+            "prefer a specific layover city (user designated)",
+            "I always look forward to flights that pass through Hong Kong because it's amazing how it has an IMAX theater.",
+            "All flight options should have at least one layover, but with different layover cities. Correct option should contain the user-designated layover city. Wrong option could contain other layover cities or so not contain any layover city to be wrong regarding this preference."
+          ],
+          [
+            "flight",
+            "amenities",
+            "prefer having meal service on the flight",
+            "I always look forward to enjoying a hot meal at 30,000 feet, which makes my trip feels special.",
+            "Correct options should have Meal Service available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Meal Service in the amenity."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O03",
+          "F10": "O08",
+          "F12": "O04",
+          "F13": "O10",
+          "F14": "O12",
+          "F16": "O13",
+          "F17": "O01",
+          "F18": "O06",
+          "F19": "O17",
+          "F2": "O16",
+          "F21": "O07",
+          "F22": "O02",
+          "F3": "O14",
+          "F4": "O18",
+          "F5": "O09",
+          "F6": "O15",
+          "F8": "O05",
+          "F9": "O11"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O02",
+          "O06",
+          "O17"
+        ],
+        "best_id": "O17",
+        "preferences": [
+          [
+            "hotel",
+            "room",
+            "prefer Suite (with kitchen) room",
+            "I like to wind down in a spacious room where I can do some yoga stretches and enjoy preparing a light meal.",
+            "Correct options should have Suite (with kitchen) room as its room type (could have others, but Suite (with kitchen) must be included). Wrong options could be wrong against this preference by not having Suite (with kitchen) room as one of its room type."
+          ],
+          [
+            "hotel",
+            "rating",
+            "prefer hotel rating within a specific range (user specifies)",
+            "Places with ratings between 6 and 9 seem to offer great amenities without being overly expensive.",
+            "Correct options rating should be within the range that the user specifies. Wrong options could be wrong against this preference by diverging very much from the user preferred rating range and usually lower than the correct option's ratings. Note that higher rating might normally induce higher cost in the option."
+          ]
+        ],
+        "source_to_visible": {
+          "H1": "O03",
+          "H10": "O05",
+          "H11": "O16",
+          "H12": "O06",
+          "H14": "O12",
+          "H15": "O11",
+          "H16": "O02",
+          "H18": "O15",
+          "H19": "O07",
+          "H2": "O10",
+          "H20": "O04",
+          "H21": "O14",
+          "H3": "O18",
+          "H4": "O08",
+          "H5": "O09",
+          "H6": "O13",
+          "H7": "O01",
+          "H9": "O17"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O01",
+          "O06",
+          "O07"
+        ],
+        "best_id": "O01",
+        "preferences": [
+          [
+            "rental_car",
+            "model",
+            "prefer economy car",
+            "From my past car rental experiences, I've always found that economy cars offer the best cost-to-benefit ratio.",
+            "Correct options should write Economy in the option's category field. Wrong options could be other categories instead of Economy, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "service",
+            "prefer having more than one main driver",
+            "I want to avoid issues if someone else ends up driving the car I rent this time.",
+            "Correct options should have additional driver cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having additional driver cost listed or its value is null, indicating that additional driver is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C10": "O10",
+          "C11": "O08",
+          "C12": "O11",
+          "C14": "O12",
+          "C15": "O02",
+          "C16": "O06",
+          "C17": "O18",
+          "C18": "O15",
+          "C19": "O14",
+          "C2": "O09",
+          "C20": "O04",
+          "C22": "O13",
+          "C3": "O03",
+          "C4": "O01",
+          "C5": "O17",
+          "C6": "O05",
+          "C8": "O16",
+          "C9": "O07"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O07",
+          "O10",
+          "O14"
+        ],
+        "best_id": "O07",
+        "preferences": [
+          [
+            "restaurant",
+            "rating",
+            "prefer having more than half of the reviews are 5-star",
+            "I find it compelling when a restaurant's five star positive reviews overwhelmingly dominate the others and takes the majority.",
+            "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer having outdoor seating",
+            "I like having the option to smoke or vape a little after my meal, so outdoor seats in a restaurant would be better as I won't disturb others this way.",
+            "Correct options should have Outdoor Seating available and listed in the tags. Wrong options could be wrong against this preference by do not contain Outdoor Seating in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O12",
+          "R11": "O02",
+          "R12": "O09",
+          "R15": "O04",
+          "R16": "O06",
+          "R17": "O07",
+          "R18": "O18",
+          "R19": "O11",
+          "R2": "O10",
+          "R20": "O14",
+          "R21": "O17",
+          "R3": "O08",
+          "R4": "O03",
+          "R5": "O13",
+          "R6": "O15",
+          "R7": "O01",
+          "R8": "O16",
+          "R9": "O05"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-04"
+  },
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O02",
+          "O05",
+          "O06"
+        ],
+        "best_id": "O02",
+        "preferences": [
+          [
+            "flight",
+            "path",
+            "prefer a specific layover city (user designated)",
+            "I've heard the spa services at Bangkok's Suvarnabhumi Airport are top-notch, and I'm looking forward to experiencing them during a flight connection.",
+            "All flight options should have at least one layover, but with different layover cities. Correct option should contain the user-designated layover city. Wrong option could contain other layover cities or so not contain any layover city to be wrong regarding this preference."
+          ],
+          [
+            "flight",
+            "amenities",
+            "prefer having meal service on the flight",
+            "I tend to get quite hungry on flights.",
+            "Correct options should have Meal Service available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Meal Service in the amenity."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O05",
+          "F12": "O17",
+          "F13": "O03",
+          "F14": "O18",
+          "F15": "O09",
+          "F16": "O16",
+          "F17": "O08",
+          "F18": "O12",
+          "F19": "O15",
+          "F2": "O10",
+          "F20": "O01",
+          "F21": "O07",
+          "F22": "O11",
+          "F3": "O13",
+          "F4": "O06",
+          "F5": "O04",
+          "F6": "O02",
+          "F8": "O14"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O05",
+          "O09",
+          "O13"
+        ],
+        "best_id": "O05",
+        "preferences": [
+          [
+            "hotel",
+            "room",
+            "prefer Suite (with kitchen) room",
+            "I prefer hotels that let me feel like I'm in a small apartment, where I can enjoy preparing my own meals.",
+            "Correct options should have Suite (with kitchen) room as its room type (could have others, but Suite (with kitchen) must be included). Wrong options could be wrong against this preference by not having Suite (with kitchen) room as one of its room type."
+          ],
+          [
+            "hotel",
+            "service",
+            "prefer having parking service",
+            "I tend to overpack a little, so having a place to park at the hotel is a big plus for easily accessing my car to store extra luggage.",
+            "Correct options should have parking cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having parking cost listed or its value is null, indicating that parking is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "H10": "O13",
+          "H11": "O07",
+          "H12": "O05",
+          "H13": "O12",
+          "H14": "O03",
+          "H15": "O11",
+          "H16": "O17",
+          "H17": "O04",
+          "H18": "O02",
+          "H19": "O08",
+          "H20": "O09",
+          "H21": "O01",
+          "H3": "O06",
+          "H4": "O14",
+          "H6": "O18",
+          "H7": "O16",
+          "H8": "O15",
+          "H9": "O10"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O01",
+          "O04",
+          "O07"
+        ],
+        "best_id": "O07",
+        "preferences": [
+          [
+            "rental_car",
+            "model",
+            "prefer electric car",
+            "I'm very curious to see and try how the autopilot features have evolved in the newer electric car models.",
+            "Correct options should write Electric in the option's category field. Wrong options could be other categories instead of Electric, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "service",
+            "prefer having additional child seat",
+            "I'll need the rental to accommodate a child who can't use a normal seatbelt yet.",
+            "Correct options should have child seat cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having child seat cost listed or its value is null, indicating that child seat is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O17",
+          "C10": "O11",
+          "C11": "O12",
+          "C12": "O06",
+          "C13": "O02",
+          "C14": "O18",
+          "C15": "O03",
+          "C16": "O08",
+          "C17": "O04",
+          "C19": "O15",
+          "C2": "O09",
+          "C22": "O13",
+          "C4": "O07",
+          "C5": "O14",
+          "C6": "O05",
+          "C7": "O16",
+          "C8": "O10",
+          "C9": "O01"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O04",
+          "O11",
+          "O14"
+        ],
+        "best_id": "O11",
+        "preferences": [
+          [
+            "restaurant",
+            "expectation",
+            "prefer having cheap restaurant",
+            "I'm all about value — big portions, small price. That's the best for me after a long day trip.",
+            "Correct options should write Cheap in its cost expectation field. Wrong options could write other things like Normal or Expensive in the cost expectation field, in order to make it against this preference."
+          ],
+          [
+            "restaurant",
+            "rating",
+            "prefer having more than half of the reviews are 5-star",
+            "I usually go for places where most people are clearly thrilled with the experience with more than half five star reviews.",
+            "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O15",
+          "R10": "O01",
+          "R11": "O10",
+          "R12": "O11",
+          "R13": "O08",
+          "R14": "O02",
+          "R16": "O07",
+          "R17": "O14",
+          "R19": "O09",
+          "R2": "O05",
+          "R20": "O16",
+          "R22": "O06",
+          "R3": "O03",
+          "R4": "O04",
+          "R5": "O18",
+          "R6": "O17",
+          "R7": "O13",
+          "R9": "O12"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-05"
+  },
+  {
+    "aspects": {
+      "apartment": {
+        "acceptable_ids": [
+          "O03",
+          "O08",
+          "O13"
+        ],
+        "best_id": "O03",
+        "preferences": [
+          [
+            "apartment",
+            "amenities",
+            "prefer having high-speed wifi",
+            "I do not have an mobile data plan there, but I'll need to look up local restaurant reviews and maps frequently in the apartment.",
+            "Correct options should have High-Speed WiFi available and listed in the amenities. Wrong options could be wrong against this preference by do not contain High-Speed WiFi in the amenity."
+          ],
+          [
+            "apartment",
+            "service",
+            "prefer to checkin early",
+            "I like to arrive earlier than the policy usually allows for so I can start organizing my belongings as soon as I get to the apartment.",
+            "Correct options should have early checkin fee listed in the service and value is not null. Wrong options could be wrong against this preference by not having early checkin fee listed or its value is null, indicating that early checkin is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "A1": "O08",
+          "A10": "O10",
+          "A11": "O14",
+          "A12": "O09",
+          "A13": "O05",
+          "A14": "O03",
+          "A16": "O16",
+          "A17": "O11",
+          "A19": "O13",
+          "A2": "O02",
+          "A20": "O04",
+          "A21": "O18",
+          "A22": "O01",
+          "A4": "O07",
+          "A5": "O15",
+          "A6": "O17",
+          "A7": "O12",
+          "A8": "O06"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "flight": {
+        "acceptable_ids": [
+          "O05",
+          "O08",
+          "O15"
+        ],
+        "best_id": "O05",
+        "preferences": [
+          [
+            "flight",
+            "time",
+            "prefer reasonable layover time",
+            "I find it ideal when I have just the right amount of time during layovers to catch up on emails without feeling rushed or having too much downtime.",
+            "All the flight options shuold have at least one layover. The correct options should have reasonable layover times (generally between 1-3 hours). The wrong options shuold do exactly the opposite against the correct options, should have very long (> 6 hours) or short (< 0.8 hours) layover times against user need, in order to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "amenities",
+            "prefer having wifi on the flight",
+            "The last time I flew, I couldn't listen to my favorite podcast because there was no WiFi. Really wanna enjoy it this time.",
+            "Correct options should have WiFi available and listed in the amenities. Wrong options could be wrong against this preference by do not contain WiFi in the amenity."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O04",
+          "F10": "O07",
+          "F11": "O05",
+          "F12": "O14",
+          "F13": "O13",
+          "F14": "O01",
+          "F15": "O15",
+          "F16": "O06",
+          "F17": "O08",
+          "F19": "O10",
+          "F2": "O18",
+          "F20": "O17",
+          "F21": "O03",
+          "F22": "O09",
+          "F3": "O02",
+          "F5": "O11",
+          "F6": "O16",
+          "F8": "O12"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O05",
+          "O14",
+          "O18"
+        ],
+        "best_id": "O18",
+        "preferences": [
+          [
+            "rental_car",
+            "brand",
+            "prefer specific rental car brand (user specifies)",
+            "Whenever I need a rental car, I always find myself drawn to Alamo's wide selection of hybrid and eco-friendly cars. It's quite impressive.",
+            "Correct options should be the user-specified rental car brand. Wrong options could be other brand that is not what user prefers, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "model",
+            "prefer SUV",
+            "We might be taking our bikes with us during the trip, so I want to ensure we have ample space for them. An economy car usually doesn't fit even one.",
+            "Correct options should write SUV in the option's category field. Wrong options could be other categories instead of SUV, in order to make it against this preference."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O08",
+          "C10": "O05",
+          "C12": "O10",
+          "C14": "O13",
+          "C15": "O07",
+          "C16": "O02",
+          "C17": "O06",
+          "C18": "O04",
+          "C2": "O11",
+          "C20": "O01",
+          "C21": "O14",
+          "C22": "O12",
+          "C4": "O03",
+          "C5": "O16",
+          "C6": "O15",
+          "C7": "O17",
+          "C8": "O09",
+          "C9": "O18"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O03",
+          "O08",
+          "O18"
+        ],
+        "best_id": "O03",
+        "preferences": [
+          [
+            "restaurant",
+            "cuisine",
+            "prefer having seafood or steakhouse (user specifies)",
+            "A perfect meal for me involves indulging in a tender steak paired with a robust red wine. Help me find something like that.",
+            "Correct options should be Seafood or Steakhouse as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer having business dining",
+            "The environment matters to me when dining — especially this time I might dine with someone where the conversation might touch on business or shared responsibilities.",
+            "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R10": "O02",
+          "R11": "O10",
+          "R12": "O12",
+          "R13": "O13",
+          "R14": "O15",
+          "R15": "O08",
+          "R16": "O03",
+          "R17": "O04",
+          "R18": "O17",
+          "R19": "O16",
+          "R2": "O18",
+          "R20": "O01",
+          "R22": "O14",
+          "R4": "O11",
+          "R5": "O09",
+          "R7": "O06",
+          "R8": "O07",
+          "R9": "O05"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-06"
+  },
+  {
+    "aspects": {
+      "apartment": {
+        "acceptable_ids": [
+          "O07",
+          "O10",
+          "O13"
+        ],
+        "best_id": "O07",
+        "preferences": [
+          [
+            "apartment",
+            "name",
+            "prefer certain platform (user specifies)",
+            "The unique architecture of some Zillow Rental listings always amazes me, and it's one of the reasons I keep coming back to explore more options here.",
+            "Correct options should have the user-specified apartment or platform name in the option's name field and align with the platform that user wants. Wrong options could be other hotel name or platforms in its name, in order to make it against this preference."
+          ],
+          [
+            "apartment",
+            "service",
+            "prefer to have the room cleaned up everyday",
+            "I always look forward to my accommodations being ready and welcoming as soon as I come back from a tiring trip everyday.",
+            "Correct options should have cleaning cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having cleaning cost listed or its value is null, indicating that cleaning is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "A1": "O08",
+          "A11": "O09",
+          "A12": "O02",
+          "A13": "O05",
+          "A15": "O04",
+          "A16": "O10",
+          "A17": "O18",
+          "A18": "O11",
+          "A19": "O17",
+          "A2": "O07",
+          "A21": "O16",
+          "A22": "O14",
+          "A3": "O13",
+          "A4": "O12",
+          "A5": "O01",
+          "A6": "O15",
+          "A7": "O06",
+          "A8": "O03"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "flight": {
+        "acceptable_ids": [
+          "O10",
+          "O12",
+          "O17"
+        ],
+        "best_id": "O12",
+        "preferences": [
+          [
+            "flight",
+            "time",
+            "prefer reasonable layover time",
+            "I like to have enough time to stretch my legs between flights without feeling rushed or like I'm stuck at the airport indefinitely.",
+            "All the flight options shuold have at least one layover. The correct options should have reasonable layover times (generally between 1-3 hours). The wrong options shuold do exactly the opposite against the correct options, should have very long (> 6 hours) or short (< 0.8 hours) layover times against user need, in order to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "service",
+            "prefer having checked bags service",
+            "I really appreciate the peace of mind that comes with knowing my extra luggage is safely checked in.",
+            "Correct options should have check bag cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having check bag cost listed or its value is null, indicating that check bag is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O05",
+          "F11": "O03",
+          "F12": "O14",
+          "F14": "O08",
+          "F15": "O12",
+          "F16": "O10",
+          "F17": "O16",
+          "F19": "O06",
+          "F2": "O09",
+          "F20": "O15",
+          "F21": "O04",
+          "F22": "O11",
+          "F4": "O13",
+          "F5": "O17",
+          "F6": "O07",
+          "F7": "O01",
+          "F8": "O02",
+          "F9": "O18"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O10",
+          "O12",
+          "O15"
+        ],
+        "best_id": "O10",
+        "preferences": [
+          [
+            "rental_car",
+            "insurance",
+            "prefer having belonging insurance",
+            "When renting a car, I'm the kind of person who prefers to prevent rather than cure when it comes to my stuff.",
+            "Correct options should have belonging waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having belonging waiver cost listed or its value is null, indicating that belonging insurance is not available."
+          ],
+          [
+            "rental_car",
+            "service",
+            "prefer underage person is able to drive",
+            "I know there might be a fee for someone my age, but that's okay, as I have rent cars before and I'm confident behind the wheel.",
+            "Correct options should have underage driving cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having underage driving cost listed or its value is null, indicating that underage driving is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O06",
+          "C11": "O07",
+          "C12": "O14",
+          "C13": "O16",
+          "C14": "O05",
+          "C15": "O17",
+          "C16": "O10",
+          "C17": "O12",
+          "C18": "O08",
+          "C2": "O13",
+          "C20": "O03",
+          "C21": "O18",
+          "C3": "O15",
+          "C4": "O04",
+          "C5": "O09",
+          "C6": "O11",
+          "C7": "O02",
+          "C8": "O01"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O02",
+          "O05",
+          "O18"
+        ],
+        "best_id": "O05",
+        "preferences": [
+          [
+            "restaurant",
+            "cuisine",
+            "prefer cuisine from a specific country (user specifies)",
+            "I came across a recipe for homemade guacamole, and recently I'm in the mood for a Mexican-style dinner with some delicious tacos.",
+            "Correct options should have cuisine from the user-specified country. Wrong options could write other countries in the field cuisine, in order to make it against this preference."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer where walk-ins are welcomed",
+            "Usually I like to spontaneously check out a place based on how lively it looks when I walk by, without worrying about making a reservation during the trip.",
+            "Correct options should have Walk-ins Welcomed listed in the tags. Wrong options could be wrong against this preference by do not contain Walk-ins Welcomed in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O18",
+          "R10": "O09",
+          "R11": "O12",
+          "R12": "O11",
+          "R13": "O07",
+          "R14": "O08",
+          "R15": "O02",
+          "R16": "O06",
+          "R17": "O16",
+          "R18": "O14",
+          "R19": "O13",
+          "R21": "O17",
+          "R22": "O04",
+          "R3": "O15",
+          "R4": "O05",
+          "R6": "O03",
+          "R7": "O01",
+          "R9": "O10"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-07"
+  },
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O03",
+          "O05",
+          "O09"
+        ],
+        "best_id": "O03",
+        "preferences": [
+          [
+            "flight",
+            "path",
+            "prefer direct flight",
+            "I find it cumbersome to transfer between connecting flights and navigate through multiple airport terminals during a trip.",
+            "Correct option should always be direct flight. Wrong option could contain layover to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "company",
+            "prefer specific airline brand (user specifies)",
+            "I always choose United for my flights because I've collected enough miles to finally upgrade my seat on the next trip.",
+            "Correct option should be the flight of the specific company that the user designates. Wrong options could contain flights of other companies that are not the user's preferred airline, in order to be wrong against this preference."
+          ]
+        ],
+        "source_to_visible": {
+          "F10": "O09",
+          "F12": "O02",
+          "F13": "O12",
+          "F14": "O14",
+          "F15": "O08",
+          "F16": "O15",
+          "F17": "O17",
+          "F18": "O07",
+          "F19": "O11",
+          "F2": "O13",
+          "F20": "O18",
+          "F21": "O04",
+          "F22": "O03",
+          "F4": "O01",
+          "F5": "O16",
+          "F6": "O06",
+          "F7": "O05",
+          "F8": "O10"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O02",
+          "O11",
+          "O13"
+        ],
+        "best_id": "O11",
+        "preferences": [
+          [
+            "hotel",
+            "room",
+            "prefer Double room",
+            "I often travel with a lot of luggage and find that having an extra bed provides the space I need to organize everything comfortably.",
+            "Correct options should have Double room as its room type (could have others, but Double must be included). Wrong options could be wrong against this preference by not having Double room as one of its room type."
+          ],
+          [
+            "hotel",
+            "service",
+            "prefer having parking service",
+            "After a long drive, I love when a hotel can handle parking my car for me, and a little extra cost is okay for me.",
+            "Correct options should have parking cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having parking cost listed or its value is null, indicating that parking is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "H1": "O01",
+          "H10": "O11",
+          "H11": "O10",
+          "H12": "O05",
+          "H13": "O12",
+          "H14": "O06",
+          "H15": "O15",
+          "H16": "O02",
+          "H18": "O18",
+          "H2": "O09",
+          "H21": "O16",
+          "H22": "O14",
+          "H3": "O17",
+          "H4": "O13",
+          "H5": "O07",
+          "H6": "O04",
+          "H8": "O08",
+          "H9": "O03"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O03",
+          "O04",
+          "O07"
+        ],
+        "best_id": "O07",
+        "preferences": [
+          [
+            "rental_car",
+            "model",
+            "prefer specific car model (user specifies)",
+            "I've always admired cars like the Hyundai Ioniq that are both eco-friendly and high-performing, making it great for my travel.",
+            "Correct options should be the user-specified rental car model. Wrong options could be other models that is not what user prefers, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "insurance",
+            "prefer having driver's personal accident insurance",
+            "Whenever I travel, I prioritize options that ensure my personal safety in case of any mishaps on the road.",
+            "Correct options should have personal accident waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having personal accident waiver cost listed or its value is null, indicating that personal accident insurance is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O18",
+          "C10": "O03",
+          "C11": "O11",
+          "C12": "O08",
+          "C14": "O01",
+          "C15": "O17",
+          "C16": "O13",
+          "C17": "O16",
+          "C18": "O10",
+          "C19": "O04",
+          "C20": "O06",
+          "C21": "O02",
+          "C22": "O09",
+          "C3": "O15",
+          "C4": "O12",
+          "C7": "O14",
+          "C8": "O05",
+          "C9": "O07"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O03",
+          "O09",
+          "O17"
+        ],
+        "best_id": "O17",
+        "preferences": [
+          [
+            "restaurant",
+            "cuisine",
+            "prefer having dessert or bakery or cafe (user specifies)",
+            "I'm recently looking for a dessert spot where I can unwind with a good book and some macarons during the trip.",
+            "Correct options should write Cafe, Bakery, or Dessert as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer having business dining",
+            "Given the nature of some of my dinners, I need a setting that can support both small talk and more focused discussions without distractions.",
+            "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R10": "O02",
+          "R12": "O01",
+          "R13": "O07",
+          "R14": "O17",
+          "R15": "O10",
+          "R16": "O18",
+          "R18": "O13",
+          "R19": "O12",
+          "R20": "O11",
+          "R21": "O09",
+          "R22": "O03",
+          "R3": "O06",
+          "R4": "O16",
+          "R5": "O05",
+          "R6": "O04",
+          "R7": "O15",
+          "R8": "O14",
+          "R9": "O08"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-08"
+  },
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O11",
+          "O15",
+          "O18"
+        ],
+        "best_id": "O18",
+        "preferences": [
+          [
+            "flight",
+            "time",
+            "prefer minimum total travel time",
+            "I can't wait to reach the destination without unnecessary times at airports, so I can explore every corner of the city as soon as possible.",
+            "Correct options should have the same amount of total travel time but in a diverse way (e.g. could be with layover, could be without, but total travel time is the same), and try to make this time minimized. Wrong option should have much longer total travel time than all the correct options to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "company",
+            "prefer consistent airline brand along all flights",
+            "I usually find that my travels are much smoother when I stick with the same airline company throughout, as my luggage is always on time.",
+            "All the flight options should have at least one layover city. Correct options should make sure that all the flights in one journey are from the same airline company. Wrong options could make multiple flights respectively of different airline companies, in order to be wrong against this preference."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O16",
+          "F10": "O17",
+          "F11": "O11",
+          "F12": "O08",
+          "F14": "O02",
+          "F18": "O09",
+          "F19": "O12",
+          "F2": "O04",
+          "F20": "O06",
+          "F21": "O14",
+          "F22": "O10",
+          "F3": "O07",
+          "F4": "O18",
+          "F5": "O01",
+          "F6": "O13",
+          "F7": "O05",
+          "F8": "O15",
+          "F9": "O03"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O01",
+          "O03",
+          "O18"
+        ],
+        "best_id": "O03",
+        "preferences": [
+          [
+            "hotel",
+            "amenities",
+            "prefer having business workspace",
+            "I often find myself needing to jot down ideas, so having a desk or table in somewhere like a businees center in hotel is essential for my productivity.",
+            "Correct options should have Business Workspace available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Business Workspace in the amenity."
+          ],
+          [
+            "hotel",
+            "service",
+            "prefer having parking service",
+            "After a long drive, I love when a hotel can handle parking my car for me, and a little extra cost is okay for me.",
+            "Correct options should have parking cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having parking cost listed or its value is null, indicating that parking is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "H1": "O01",
+          "H10": "O16",
+          "H11": "O17",
+          "H12": "O11",
+          "H13": "O14",
+          "H14": "O04",
+          "H15": "O05",
+          "H16": "O12",
+          "H17": "O07",
+          "H18": "O10",
+          "H2": "O02",
+          "H20": "O15",
+          "H22": "O13",
+          "H3": "O03",
+          "H5": "O09",
+          "H6": "O06",
+          "H8": "O08",
+          "H9": "O18"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O02",
+          "O06",
+          "O15"
+        ],
+        "best_id": "O06",
+        "preferences": [
+          [
+            "rental_car",
+            "model",
+            "prefer SUV",
+            "I always feel safer driving something with a bit more mass on the highways. This gives me a sense of security that I prefer in my rental car.",
+            "Correct options should write SUV in the option's category field. Wrong options could be other categories instead of SUV, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "insurance",
+            "prefer having driver's personal accident insurance",
+            "I've always believed that when it comes to driving, ensuring my personal safety is never a bad decision.",
+            "Correct options should have personal accident waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having personal accident waiver cost listed or its value is null, indicating that personal accident insurance is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O14",
+          "C10": "O12",
+          "C11": "O17",
+          "C13": "O18",
+          "C14": "O09",
+          "C15": "O05",
+          "C16": "O16",
+          "C17": "O02",
+          "C18": "O07",
+          "C19": "O11",
+          "C2": "O01",
+          "C21": "O04",
+          "C3": "O15",
+          "C4": "O10",
+          "C5": "O06",
+          "C6": "O13",
+          "C8": "O08",
+          "C9": "O03"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O07",
+          "O10",
+          "O17"
+        ],
+        "best_id": "O10",
+        "preferences": [
+          [
+            "restaurant",
+            "rating",
+            "prefer having more than half of the reviews are 5-star",
+            "I love it when a restaurant consistently receives five star glowing reviews from the vast majority of its patrons more than the sum of all the others.",
+            "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer restaurant opens till late night",
+            "Jet lag hits hard when I travel, so I appreciate somewhere that doesn't close early.",
+            "Correct options should have Late Night Service available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Night Service in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O12",
+          "R10": "O05",
+          "R11": "O08",
+          "R12": "O06",
+          "R13": "O17",
+          "R14": "O09",
+          "R16": "O16",
+          "R17": "O18",
+          "R18": "O13",
+          "R19": "O10",
+          "R2": "O02",
+          "R20": "O11",
+          "R4": "O07",
+          "R5": "O14",
+          "R6": "O01",
+          "R7": "O15",
+          "R8": "O03",
+          "R9": "O04"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-09"
+  },
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O06",
+          "O15",
+          "O16"
+        ],
+        "best_id": "O15",
+        "preferences": [
+          [
+            "flight",
+            "time",
+            "prefer reasonable layover time",
+            "I enjoy having enough time to explore new airports without feeling rushed or waiting endlessly.",
+            "All the flight options shuold have at least one layover. The correct options should have reasonable layover times (generally between 1-3 hours). The wrong options shuold do exactly the opposite against the correct options, should have very long (> 6 hours) or short (< 0.8 hours) layover times against user need, in order to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "service",
+            "prefer having checked bags service",
+            "I usually travel with more luggage than just a carry-on, as I don't want to leave any items behind like my friend had to.",
+            "Correct options should have check bag cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having check bag cost listed or its value is null, indicating that check bag is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O06",
+          "F10": "O07",
+          "F11": "O18",
+          "F13": "O14",
+          "F14": "O13",
+          "F15": "O17",
+          "F16": "O03",
+          "F18": "O12",
+          "F19": "O04",
+          "F2": "O15",
+          "F20": "O09",
+          "F21": "O01",
+          "F3": "O02",
+          "F4": "O10",
+          "F5": "O11",
+          "F6": "O16",
+          "F7": "O05",
+          "F8": "O08"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O02",
+          "O13",
+          "O17"
+        ],
+        "best_id": "O17",
+        "preferences": [
+          [
+            "hotel",
+            "room",
+            "prefer Suite (with kitchen) room",
+            "It's nice to have the comfort and convenience that I can prepare a quick meal instead of always dining out.",
+            "Correct options should have Suite (with kitchen) room as its room type (could have others, but Suite (with kitchen) must be included). Wrong options could be wrong against this preference by not having Suite (with kitchen) room as one of its room type."
+          ],
+          [
+            "hotel",
+            "service",
+            "prefer having parking service",
+            "I enjoy the peace of mind knowing my car is parked safely under the hotel's watch, as I rely on their service for security.",
+            "Correct options should have parking cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having parking cost listed or its value is null, indicating that parking is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "H1": "O11",
+          "H10": "O05",
+          "H11": "O17",
+          "H12": "O04",
+          "H13": "O07",
+          "H14": "O15",
+          "H15": "O08",
+          "H16": "O16",
+          "H17": "O10",
+          "H18": "O02",
+          "H2": "O12",
+          "H22": "O03",
+          "H3": "O09",
+          "H5": "O06",
+          "H6": "O13",
+          "H7": "O14",
+          "H8": "O01",
+          "H9": "O18"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O05",
+          "O12",
+          "O18"
+        ],
+        "best_id": "O18",
+        "preferences": [
+          [
+            "rental_car",
+            "model",
+            "prefer specific car model (user specifies)",
+            "My collegue will drive in turn with me, and he kind of like Kia Telluride series though I do not quite get it. But anyway he might be the main driver, so that's fine.",
+            "Correct options should be the user-specified rental car model. Wrong options could be other models that is not what user prefers, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "insurance",
+            "prefer having belonging insurance",
+            "I try to pack light, but what I bring is valuable, I'd rather not take risks leaving them in car, whichI usually do, but in an unprotected way.",
+            "Correct options should have belonging waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having belonging waiver cost listed or its value is null, indicating that belonging insurance is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O02",
+          "C10": "O17",
+          "C11": "O12",
+          "C12": "O03",
+          "C13": "O04",
+          "C14": "O16",
+          "C16": "O11",
+          "C18": "O18",
+          "C19": "O10",
+          "C2": "O13",
+          "C20": "O06",
+          "C22": "O15",
+          "C3": "O09",
+          "C4": "O01",
+          "C5": "O08",
+          "C6": "O05",
+          "C7": "O07",
+          "C9": "O14"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O04",
+          "O06",
+          "O13"
+        ],
+        "best_id": "O13",
+        "preferences": [
+          [
+            "restaurant",
+            "rating",
+            "prefer having more than half of the reviews are 5-star",
+            "A long string of top five star that takes over half of all the available reviews usually tells me it's not a gamble on restaurant.",
+            "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer the restaurant to be pet-friendly",
+            "I like spots where I can relax outdoors with a meal and my friend's dog under the table, so no need for kennels or crates.",
+            "Correct options should have Pet Friendly listed in the tags. Wrong options could be wrong against this preference by do not contain Pet Friendly in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R10": "O17",
+          "R12": "O08",
+          "R13": "O15",
+          "R14": "O09",
+          "R15": "O05",
+          "R17": "O02",
+          "R19": "O18",
+          "R2": "O03",
+          "R20": "O01",
+          "R21": "O04",
+          "R22": "O11",
+          "R3": "O16",
+          "R4": "O13",
+          "R5": "O10",
+          "R6": "O12",
+          "R7": "O06",
+          "R8": "O14",
+          "R9": "O07"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-10"
+  },
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O04",
+          "O09",
+          "O10"
+        ],
+        "best_id": "O09",
+        "preferences": [
+          [
+            "flight",
+            "company",
+            "prefer different airline brand along different flights",
+            "I love the thrill of discovering the diverse culinary delights that different airlines have to offer.",
+            "All the flight options should have at least one layover city. Correct options should make sure that all the flights in one journey are from different airline company. Wrong options could only have one same airline company for all flight segments during the trip, in order to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "amenities",
+            "prefer having carry on baggage allowance on the flight",
+            "I like to keep my travel documents and snacks close at hand during the flight instead of checking them.",
+            "Correct options should have Carry on Baggage Allowance available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Carry on Baggage Allowance in the amenity."
+          ]
+        ],
+        "source_to_visible": {
+          "F1": "O18",
+          "F10": "O13",
+          "F11": "O14",
+          "F12": "O02",
+          "F13": "O03",
+          "F14": "O05",
+          "F16": "O06",
+          "F17": "O07",
+          "F18": "O11",
+          "F19": "O01",
+          "F2": "O12",
+          "F21": "O09",
+          "F22": "O10",
+          "F3": "O15",
+          "F4": "O16",
+          "F7": "O17",
+          "F8": "O04",
+          "F9": "O08"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O03",
+          "O11",
+          "O18"
+        ],
+        "best_id": "O03",
+        "preferences": [
+          [
+            "hotel",
+            "name",
+            "prefer specific hotel brand (user specifies)",
+            "I've heard that Hayatt hotels are particularly eco-friendly, which aligns with my values.",
+            "Correct options should have the user-specified hotel brand name in the option's name field and align with the brand user wants. Wrong options could be other hotel brands in its name, in order to make it against this preference."
+          ],
+          [
+            "hotel",
+            "amenities",
+            "prefer having city or ocean or mountain view (user specifies)",
+            "I love to unwind with a cup of tea while gazing out at a stunning city from my room.",
+            "Correct options should have City or Mountain or Ocean View available according to what the user specifies and have it listed in the amenities. Wrong options could be wrong against this preference by do not contain the view that the user prefer in the amenity."
+          ]
+        ],
+        "source_to_visible": {
+          "H10": "O14",
+          "H11": "O06",
+          "H12": "O17",
+          "H13": "O12",
+          "H14": "O10",
+          "H15": "O13",
+          "H16": "O18",
+          "H17": "O02",
+          "H18": "O08",
+          "H2": "O11",
+          "H20": "O09",
+          "H21": "O03",
+          "H22": "O07",
+          "H3": "O04",
+          "H4": "O01",
+          "H5": "O15",
+          "H7": "O05",
+          "H9": "O16"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O09",
+          "O11",
+          "O16"
+        ],
+        "best_id": "O09",
+        "preferences": [
+          [
+            "rental_car",
+            "model",
+            "prefer gasoline car",
+            "I find it exciting to compare gasoline consumption between different car models, which is kind of my personal interest that usually guide my rental car choice.",
+            "Correct options should write Gasoline in the option's category field. Wrong options could be other categories instead of Gasoline, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "insurance",
+            "prefer having belonging insurance",
+            "Whenever I travel and use a rental car, I carry my work files, and losing them could be detrimental.",
+            "Correct options should have belonging waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having belonging waiver cost listed or its value is null, indicating that belonging insurance is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C1": "O11",
+          "C10": "O12",
+          "C11": "O16",
+          "C13": "O14",
+          "C15": "O01",
+          "C16": "O07",
+          "C17": "O03",
+          "C18": "O06",
+          "C19": "O09",
+          "C2": "O04",
+          "C20": "O18",
+          "C21": "O02",
+          "C22": "O13",
+          "C3": "O17",
+          "C4": "O10",
+          "C7": "O15",
+          "C8": "O05",
+          "C9": "O08"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O01",
+          "O02",
+          "O06"
+        ],
+        "best_id": "O06",
+        "preferences": [
+          [
+            "restaurant",
+            "cuisine",
+            "prefer cuisine from a specific country (user specifies)",
+            "I heard that the place I'm about to visit has many Korean immigrants so they really have some famous food that I'd like to give it a try.",
+            "Correct options should have cuisine from the user-specified country. Wrong options could write other countries in the field cuisine, in order to make it against this preference."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer having the option of delivery",
+            "I've come to appreciate the convenience of having meals delivered to my door recently, allowing me to enjoy different cuisines without leaving my couch during the trip.",
+            "Correct options should have Delivery Available and listed in the tags. Wrong options could be wrong against this preference by do not contain Delivery Available in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O05",
+          "R10": "O08",
+          "R11": "O12",
+          "R12": "O01",
+          "R13": "O11",
+          "R14": "O04",
+          "R15": "O15",
+          "R16": "O03",
+          "R17": "O18",
+          "R19": "O10",
+          "R2": "O06",
+          "R20": "O02",
+          "R22": "O16",
+          "R3": "O17",
+          "R5": "O14",
+          "R6": "O07",
+          "R8": "O13",
+          "R9": "O09"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-11"
+  },
+  {
+    "aspects": {
+      "flight": {
+        "acceptable_ids": [
+          "O01",
+          "O07",
+          "O16"
+        ],
+        "best_id": "O01",
+        "preferences": [
+          [
+            "flight",
+            "path",
+            "prefer direct flight",
+            "I always keep my schedule packed tight, so avoiding layovers and minimizing travel time is always a priority for me.",
+            "Correct option should always be direct flight. Wrong option could contain layover to be wrong against this preference."
+          ],
+          [
+            "flight",
+            "company",
+            "prefer consistent airline brand along all flights",
+            "I usually find that my travels are much smoother when I stick with the same airline company throughout, as my luggage is always on time.",
+            "All the flight options should have at least one layover city. Correct options should make sure that all the flights in one journey are from the same airline company. Wrong options could make multiple flights respectively of different airline companies, in order to be wrong against this preference."
+          ]
+        ],
+        "source_to_visible": {
+          "F10": "O07",
+          "F12": "O10",
+          "F14": "O13",
+          "F16": "O08",
+          "F17": "O18",
+          "F18": "O09",
+          "F19": "O04",
+          "F2": "O15",
+          "F20": "O03",
+          "F21": "O11",
+          "F22": "O02",
+          "F3": "O01",
+          "F4": "O12",
+          "F5": "O06",
+          "F6": "O14",
+          "F7": "O05",
+          "F8": "O16",
+          "F9": "O17"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "hotel": {
+        "acceptable_ids": [
+          "O07",
+          "O11",
+          "O14"
+        ],
+        "best_id": "O11",
+        "preferences": [
+          [
+            "hotel",
+            "amenities",
+            "prefer having high-speed wifi",
+            "I enjoy reading e-books and prefer downloading new ones at the hotel during my travels, I don't want this download to be too long to waste my time.",
+            "Correct options should have High-Speed Wifi available and listed in the amenities. Wrong options could be wrong against this preference by do not contain High-Speed Wifi in the amenity."
+          ],
+          [
+            "hotel",
+            "service",
+            "prefer having barrier-free accessibility services",
+            "I have a friend joining me who finds comfort in places designed for effortless navigation without any obstacles in the hotel room.",
+            "Correct options should have barrier-free cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having barrier-free cost listed or its value is null, indicating that barrier-free accessibility is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "H1": "O14",
+          "H10": "O07",
+          "H11": "O06",
+          "H13": "O12",
+          "H14": "O02",
+          "H15": "O05",
+          "H16": "O09",
+          "H17": "O15",
+          "H18": "O08",
+          "H19": "O04",
+          "H2": "O01",
+          "H21": "O11",
+          "H22": "O13",
+          "H4": "O18",
+          "H5": "O17",
+          "H6": "O16",
+          "H8": "O10",
+          "H9": "O03"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "rental_car": {
+        "acceptable_ids": [
+          "O03",
+          "O07",
+          "O10"
+        ],
+        "best_id": "O03",
+        "preferences": [
+          [
+            "rental_car",
+            "seats",
+            "prefer having enough number of seats (user specifies)",
+            "I love the idea of having enough space to comfortably recline the seats without disturbing anyone else, and a five seat car usually can not satisfy my needs as the back seat is usually too uncomfortable for reclining.",
+            "Correct options should have car seat number that satisfies the user's specific requirements. Wrong options could be seat number lower than user expectation, in order to make it against this preference."
+          ],
+          [
+            "rental_car",
+            "insurance",
+            "prefer having driver's personal accident insurance",
+            "My health insurance doesn't cover accidents in the destination city, so I usually get extra protection.",
+            "Correct options should have personal accident waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having personal accident waiver cost listed or its value is null, indicating that personal accident insurance is not available."
+          ]
+        ],
+        "source_to_visible": {
+          "C10": "O02",
+          "C11": "O15",
+          "C12": "O16",
+          "C13": "O07",
+          "C15": "O09",
+          "C16": "O03",
+          "C17": "O08",
+          "C18": "O14",
+          "C19": "O11",
+          "C2": "O01",
+          "C20": "O06",
+          "C21": "O13",
+          "C22": "O04",
+          "C3": "O05",
+          "C4": "O18",
+          "C6": "O10",
+          "C8": "O12",
+          "C9": "O17"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      },
+      "restaurant": {
+        "acceptable_ids": [
+          "O12",
+          "O13",
+          "O18"
+        ],
+        "best_id": "O13",
+        "preferences": [
+          [
+            "restaurant",
+            "expectation",
+            "prefer having expensive restaurant",
+            "This restaurant's ambiance and exclusivity, with its private dining room, sound expensive but perfect for a special occasion during my travel.",
+            "Correct options should write Expensive in its cost expectation field. Wrong options could write other things like Normal or Cheap in the cost expectation field, in order to make it against this preference."
+          ],
+          [
+            "restaurant",
+            "tags",
+            "prefer where reservations are available",
+            "I enjoy the peace of mind knowing there's a guaranteed spot for me when I arrive at a restaurant.",
+            "Correct options should have Reservations Available listed in the tags. Wrong options could be wrong against this preference by do not contain Reservations Available in the tags."
+          ]
+        ],
+        "source_to_visible": {
+          "R1": "O01",
+          "R10": "O04",
+          "R11": "O17",
+          "R12": "O05",
+          "R13": "O12",
+          "R14": "O02",
+          "R15": "O18",
+          "R17": "O09",
+          "R18": "O03",
+          "R19": "O15",
+          "R2": "O06",
+          "R21": "O14",
+          "R22": "O08",
+          "R3": "O16",
+          "R4": "O10",
+          "R5": "O13",
+          "R7": "O11",
+          "R9": "O07"
+        },
+        "valid_ids": [
+          "O01",
+          "O02",
+          "O03",
+          "O04",
+          "O05",
+          "O06",
+          "O07",
+          "O08",
+          "O09",
+          "O10",
+          "O11",
+          "O12",
+          "O13",
+          "O14",
+          "O15",
+          "O16",
+          "O17",
+          "O18"
+        ]
+      }
+    },
+    "case_id": "E025-12"
+  }
+]

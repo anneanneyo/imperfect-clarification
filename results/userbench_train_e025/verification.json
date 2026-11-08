@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "protocol_and_artifact_hashes": "verified",
+  "selected_train_ids": "independently_recomputed",
+  "public_private_boundary": "all_864_options_checked",
+  "source_label_mapping": "all_48_aspects_checked",
+  "dangling_noise_metadata_ids": 192,
+  "restaurant_minimum_tier_ties": 6,
+  "source_semantic_counterexamples": [
+    {
+      "case_id": "E025-03",
+      "best_id": "R17"
+    },
+    {
+      "case_id": "E025-06",
+      "best_id": "R16"
+    }
+  ],
+  "train_template_graph_components": [
+    96
+  ],
+  "model_calls": 0,
+  "official_test_tasks_evaluated": 0,
+  "verifier_sha256": "8ca237b180457e227a8d086dcb01a6bf0c8f426f612483f143a729c79ff33af4",
+  "manifest_sha256": "c0e8009d97f1b23e0d704e614edb504d6cd7355436d0c4b836f8a398e8180903"
+}
