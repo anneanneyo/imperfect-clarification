@@ -1,0 +1,4066 @@
+[
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "5/144",
+      "upper": "5/144"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O07",
+      "O14",
+      "O09",
+      "O04",
+      "O12",
+      "O05",
+      "O13",
+      "O18",
+      "O06",
+      "O17",
+      "O01"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O09",
+      "O18",
+      "O06",
+      "O17",
+      "O01"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O11",
+      "O03",
+      "O07",
+      "O14",
+      "O15",
+      "O09",
+      "O10",
+      "O02",
+      "O04",
+      "O12",
+      "O05",
+      "O13",
+      "O18",
+      "O08",
+      "O06",
+      "O17",
+      "O01"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "55/504",
+      "upper": "55/504"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O09",
+      "O18",
+      "O08",
+      "O06",
+      "O17",
+      "O01"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O08",
+      "O09",
+      "O14"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O08",
+      "O09",
+      "O14"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O04",
+      "O18",
+      "O08",
+      "O16",
+      "O11",
+      "O05",
+      "O06",
+      "O02",
+      "O17",
+      "O01",
+      "O07",
+      "O09",
+      "O15",
+      "O10",
+      "O12",
+      "O03",
+      "O14"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "7/48",
+      "upper": "7/48"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O08",
+      "O09",
+      "O14"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O15",
+      "O08",
+      "O10",
+      "O03",
+      "O12",
+      "O14"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O12",
+      "O14"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O07",
+      "O02",
+      "O11",
+      "O01",
+      "O06",
+      "O16",
+      "O15",
+      "O17",
+      "O08",
+      "O10",
+      "O13",
+      "O09",
+      "O04",
+      "O03",
+      "O12",
+      "O14",
+      "O18"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "11/168",
+      "upper": "11/168"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O16",
+      "O04",
+      "O03",
+      "O12",
+      "O14",
+      "O18"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "1/18",
+      "upper": "5/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O10",
+      "O13",
+      "O04",
+      "O01",
+      "O02",
+      "O05",
+      "O03",
+      "O14",
+      "O06"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "13/90",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O04",
+      "O05",
+      "O14",
+      "O06"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O10",
+      "O08",
+      "O13",
+      "O18",
+      "O04",
+      "O01",
+      "O16",
+      "O02",
+      "O15",
+      "O17",
+      "O05",
+      "O07",
+      "O12",
+      "O03",
+      "O11",
+      "O09",
+      "O14",
+      "O06"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-01",
+    "delta_bounds": {
+      "lower": "13/90",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O04",
+      "O05",
+      "O14",
+      "O06"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O11",
+      "O17",
+      "O08",
+      "O07",
+      "O06",
+      "O03",
+      "O13",
+      "O16",
+      "O02",
+      "O14",
+      "O15",
+      "O09",
+      "O04",
+      "O05",
+      "O10",
+      "O01",
+      "O12"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O17",
+      "O07",
+      "O15",
+      "O12"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O11",
+      "O17",
+      "O08",
+      "O07",
+      "O06",
+      "O03",
+      "O13",
+      "O16",
+      "O02",
+      "O14",
+      "O15",
+      "O09",
+      "O04",
+      "O05",
+      "O10",
+      "O01",
+      "O12"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O17",
+      "O07",
+      "O15",
+      "O12"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O14",
+      "O10"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O14",
+      "O10"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O06",
+      "O18",
+      "O05",
+      "O04",
+      "O14",
+      "O03",
+      "O08",
+      "O17",
+      "O11",
+      "O10",
+      "O13",
+      "O02",
+      "O09",
+      "O01",
+      "O15",
+      "O07",
+      "O12",
+      "O16"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "1/24",
+      "upper": "1/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O06",
+      "O18",
+      "O14",
+      "O03",
+      "O11",
+      "O10",
+      "O09",
+      "O01",
+      "O07"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "11/168",
+      "upper": "11/168"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O06",
+      "O07",
+      "O16",
+      "O14",
+      "O18",
+      "O01"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O16",
+      "O14"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O17",
+      "O09",
+      "O08",
+      "O15",
+      "O11",
+      "O03",
+      "O02",
+      "O13",
+      "O10",
+      "O12",
+      "O06",
+      "O07",
+      "O05",
+      "O04",
+      "O16",
+      "O14",
+      "O18",
+      "O01"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O09",
+      "O13",
+      "O10",
+      "O12",
+      "O16",
+      "O14"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O11",
+      "O01",
+      "O14",
+      "O12",
+      "O18",
+      "O02",
+      "O17",
+      "O07",
+      "O04",
+      "O13",
+      "O15",
+      "O03",
+      "O09",
+      "O06",
+      "O08",
+      "O10",
+      "O16"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "7/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O04",
+      "O08",
+      "O16"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O11",
+      "O01",
+      "O14",
+      "O12",
+      "O18",
+      "O02",
+      "O17",
+      "O07",
+      "O04",
+      "O13",
+      "O15",
+      "O03",
+      "O09",
+      "O06",
+      "O08",
+      "O10",
+      "O16"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-02",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "7/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O04",
+      "O08",
+      "O16"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "11/168",
+      "upper": "11/168"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O08",
+      "O12",
+      "O01",
+      "O18",
+      "O06",
+      "O17"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O08",
+      "O17"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O08",
+      "O11",
+      "O05",
+      "O12",
+      "O01",
+      "O03",
+      "O18",
+      "O09",
+      "O15",
+      "O06",
+      "O07",
+      "O16",
+      "O17",
+      "O04",
+      "O13",
+      "O10",
+      "O02"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O08",
+      "O17"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O08",
+      "O13",
+      "O10",
+      "O16",
+      "O05",
+      "O07",
+      "O12",
+      "O09",
+      "O17",
+      "O15",
+      "O06",
+      "O04",
+      "O18",
+      "O03",
+      "O02",
+      "O11",
+      "O01"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O16",
+      "O06"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O08",
+      "O13",
+      "O10",
+      "O16",
+      "O05",
+      "O07",
+      "O12",
+      "O09",
+      "O17",
+      "O15",
+      "O06",
+      "O04",
+      "O18",
+      "O03",
+      "O02",
+      "O11",
+      "O01"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O16",
+      "O06"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O18",
+      "O01"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O18",
+      "O01"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O10",
+      "O03",
+      "O12",
+      "O13",
+      "O05",
+      "O18",
+      "O08",
+      "O09",
+      "O02",
+      "O17",
+      "O01",
+      "O04",
+      "O06",
+      "O16",
+      "O15",
+      "O07",
+      "O14"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "11/168",
+      "upper": "11/168"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O13",
+      "O05",
+      "O18",
+      "O01",
+      "O16",
+      "O14"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "2/9",
+      "upper": "2/9"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O16"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "2/9",
+      "upper": "2/9"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O16"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O05",
+      "O01",
+      "O14",
+      "O06",
+      "O13",
+      "O18",
+      "O04",
+      "O15",
+      "O10",
+      "O11",
+      "O17",
+      "O09",
+      "O02",
+      "O16",
+      "O08",
+      "O07",
+      "O12"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-03",
+    "delta_bounds": {
+      "lower": "5/36",
+      "upper": "5/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O02",
+      "O16"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "5/72",
+      "upper": "5/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O16",
+      "O17"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "17/72",
+      "upper": "17/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O17"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O01",
+      "O11",
+      "O13",
+      "O10",
+      "O03",
+      "O05",
+      "O09",
+      "O12",
+      "O16",
+      "O02",
+      "O08",
+      "O15",
+      "O07",
+      "O17",
+      "O18",
+      "O06",
+      "O14"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "1/72",
+      "upper": "1/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O10",
+      "O05",
+      "O09",
+      "O12",
+      "O15",
+      "O07",
+      "O17",
+      "O18"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O09",
+      "O13",
+      "O06",
+      "O17",
+      "O10"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O06",
+      "O17"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O03",
+      "O05",
+      "O02",
+      "O04",
+      "O14",
+      "O09",
+      "O18",
+      "O16",
+      "O01",
+      "O13",
+      "O11",
+      "O06",
+      "O17",
+      "O10",
+      "O08",
+      "O07",
+      "O15"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "1/30",
+      "upper": "1/30"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O03",
+      "O02",
+      "O14",
+      "O01",
+      "O11",
+      "O06",
+      "O17",
+      "O08",
+      "O15"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "7/48",
+      "upper": "7/48"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O06",
+      "O07",
+      "O16"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O06",
+      "O07"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O01",
+      "O02",
+      "O05",
+      "O09",
+      "O11",
+      "O03",
+      "O14",
+      "O08",
+      "O06",
+      "O10",
+      "O15",
+      "O07",
+      "O16",
+      "O13",
+      "O17",
+      "O18",
+      "O04"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "1/48",
+      "upper": "1/48"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O02",
+      "O11",
+      "O03",
+      "O14",
+      "O08",
+      "O06",
+      "O10",
+      "O15",
+      "O07",
+      "O13",
+      "O17"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "1/9",
+      "upper": "1/9"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O07",
+      "O14",
+      "O09",
+      "O17",
+      "O10"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "7/36",
+      "upper": "7/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O14",
+      "O09",
+      "O10"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O08",
+      "O13",
+      "O11",
+      "O07",
+      "O14",
+      "O09",
+      "O02",
+      "O12",
+      "O15",
+      "O05",
+      "O01",
+      "O04",
+      "O03",
+      "O06",
+      "O17",
+      "O16",
+      "O10",
+      "O18"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-04",
+    "delta_bounds": {
+      "lower": "5/72",
+      "upper": "5/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O14",
+      "O09",
+      "O01",
+      "O04",
+      "O03",
+      "O10",
+      "O18"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "13/120",
+      "upper": "13/90"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O10",
+      "O08",
+      "O16",
+      "O02"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "7/48",
+      "upper": "7/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O08",
+      "O16",
+      "O02"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O09",
+      "O14",
+      "O11",
+      "O04",
+      "O06",
+      "O07",
+      "O10",
+      "O15",
+      "O17",
+      "O08",
+      "O01",
+      "O12",
+      "O03",
+      "O16",
+      "O02",
+      "O05",
+      "O18",
+      "O13"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "5/312",
+      "upper": "5/234"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O04",
+      "O06",
+      "O07",
+      "O15",
+      "O08",
+      "O12",
+      "O03",
+      "O16",
+      "O02",
+      "O05",
+      "O18",
+      "O13"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "13/120",
+      "upper": "13/120"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O05",
+      "O13",
+      "O09",
+      "O15"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O13",
+      "O09"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O11",
+      "O05",
+      "O18",
+      "O13",
+      "O10",
+      "O09",
+      "O16",
+      "O01",
+      "O06",
+      "O07",
+      "O08",
+      "O12",
+      "O15",
+      "O03",
+      "O04",
+      "O02",
+      "O17"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O13",
+      "O09"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O04",
+      "O09",
+      "O05",
+      "O07"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O04",
+      "O09",
+      "O05",
+      "O07"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O17",
+      "O02",
+      "O08",
+      "O11",
+      "O13",
+      "O14",
+      "O12",
+      "O04",
+      "O09",
+      "O18",
+      "O05",
+      "O07",
+      "O15",
+      "O03",
+      "O10",
+      "O16",
+      "O06"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "5/144",
+      "upper": "5/144"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O08",
+      "O11",
+      "O12",
+      "O04",
+      "O09",
+      "O18",
+      "O05",
+      "O07",
+      "O15",
+      "O03",
+      "O06"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "7/264",
+      "upper": "7/132"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O16",
+      "O13",
+      "O08",
+      "O03",
+      "O14",
+      "O18",
+      "O11",
+      "O04",
+      "O15",
+      "O09"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/6"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O16",
+      "O13",
+      "O14",
+      "O11",
+      "O04"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O06",
+      "O07",
+      "O01",
+      "O16",
+      "O05",
+      "O13",
+      "O17",
+      "O08",
+      "O03",
+      "O10",
+      "O14",
+      "O18",
+      "O11",
+      "O04",
+      "O15",
+      "O12",
+      "O09",
+      "O02"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-05",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/6"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O16",
+      "O13",
+      "O14",
+      "O11",
+      "O04"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O04",
+      "O06",
+      "O13",
+      "O10",
+      "O02",
+      "O07",
+      "O18",
+      "O03",
+      "O16",
+      "O05",
+      "O09",
+      "O08",
+      "O12",
+      "O01",
+      "O17",
+      "O15",
+      "O11"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "1/9"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O02",
+      "O07",
+      "O18",
+      "O05",
+      "O08",
+      "O12",
+      "O17",
+      "O15",
+      "O11"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O04",
+      "O06",
+      "O13",
+      "O10",
+      "O02",
+      "O07",
+      "O18",
+      "O03",
+      "O16",
+      "O05",
+      "O09",
+      "O08",
+      "O12",
+      "O01",
+      "O17",
+      "O15",
+      "O11"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "1/9"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O02",
+      "O07",
+      "O18",
+      "O05",
+      "O08",
+      "O12",
+      "O17",
+      "O15",
+      "O11"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "5/96",
+      "upper": "5/96"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O13",
+      "O18",
+      "O01",
+      "O08",
+      "O05",
+      "O03",
+      "O12"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O08",
+      "O03"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O04",
+      "O02",
+      "O13",
+      "O16",
+      "O18",
+      "O01",
+      "O10",
+      "O14",
+      "O11",
+      "O08",
+      "O17",
+      "O05",
+      "O03",
+      "O09",
+      "O06",
+      "O15",
+      "O12"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O13",
+      "O10",
+      "O14",
+      "O08",
+      "O03"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O05",
+      "O18"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O14",
+      "O05",
+      "O18"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O11",
+      "O06",
+      "O17",
+      "O01",
+      "O13",
+      "O02",
+      "O14",
+      "O05",
+      "O10",
+      "O07",
+      "O18",
+      "O15",
+      "O12",
+      "O08",
+      "O09",
+      "O04",
+      "O16"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "13/120",
+      "upper": "13/120"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O06",
+      "O14",
+      "O05",
+      "O07",
+      "O18"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "2/9",
+      "upper": "2/9"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O08"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "2/9",
+      "upper": "2/9"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O08"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O09",
+      "O16",
+      "O11",
+      "O01",
+      "O18",
+      "O02",
+      "O10",
+      "O07",
+      "O05",
+      "O04",
+      "O14",
+      "O15",
+      "O08",
+      "O13",
+      "O03",
+      "O12",
+      "O06",
+      "O17"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-06",
+    "delta_bounds": {
+      "lower": "5/36",
+      "upper": "5/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O08",
+      "O03"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O10",
+      "O06",
+      "O13",
+      "O15",
+      "O01",
+      "O14",
+      "O02",
+      "O12",
+      "O17",
+      "O09",
+      "O11",
+      "O04",
+      "O07",
+      "O18",
+      "O03",
+      "O16",
+      "O08"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "1/18"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O10",
+      "O06",
+      "O13",
+      "O15",
+      "O01",
+      "O02",
+      "O12",
+      "O17",
+      "O09",
+      "O04",
+      "O03",
+      "O16",
+      "O08"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O10",
+      "O06",
+      "O13",
+      "O15",
+      "O01",
+      "O14",
+      "O02",
+      "O12",
+      "O17",
+      "O09",
+      "O11",
+      "O04",
+      "O07",
+      "O18",
+      "O03",
+      "O16",
+      "O08"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "1/18"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O10",
+      "O06",
+      "O13",
+      "O15",
+      "O01",
+      "O02",
+      "O12",
+      "O17",
+      "O09",
+      "O04",
+      "O03",
+      "O16",
+      "O08"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O10",
+      "O13"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O10",
+      "O13"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O14",
+      "O07",
+      "O12",
+      "O15",
+      "O11",
+      "O01",
+      "O09",
+      "O10",
+      "O17",
+      "O03",
+      "O05",
+      "O13",
+      "O08",
+      "O06",
+      "O18",
+      "O16",
+      "O04"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O14",
+      "O07",
+      "O12",
+      "O15",
+      "O11",
+      "O01",
+      "O09",
+      "O10",
+      "O17",
+      "O03",
+      "O05",
+      "O13",
+      "O08",
+      "O06",
+      "O18",
+      "O16",
+      "O04"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "1/9",
+      "upper": "1/9"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O15",
+      "O10",
+      "O02",
+      "O03",
+      "O04",
+      "O12"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "7/36",
+      "upper": "7/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O15",
+      "O10",
+      "O04",
+      "O12"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O15",
+      "O10",
+      "O02",
+      "O14",
+      "O13",
+      "O01",
+      "O08",
+      "O03",
+      "O07",
+      "O04",
+      "O06",
+      "O05",
+      "O11",
+      "O09",
+      "O16",
+      "O18",
+      "O12",
+      "O17"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "2/45",
+      "upper": "2/45"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O15",
+      "O10",
+      "O13",
+      "O07",
+      "O04",
+      "O05",
+      "O11",
+      "O18",
+      "O12",
+      "O17"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "7/48",
+      "upper": "7/48"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O05",
+      "O02",
+      "O17"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O05",
+      "O02"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O13",
+      "O04",
+      "O11",
+      "O09",
+      "O12",
+      "O15",
+      "O03",
+      "O05",
+      "O08",
+      "O10",
+      "O02",
+      "O01",
+      "O06",
+      "O17",
+      "O07",
+      "O16",
+      "O14"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-07",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O09",
+      "O05",
+      "O08",
+      "O02",
+      "O06"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "5/312",
+      "upper": "5/312"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O16",
+      "O08",
+      "O18",
+      "O06",
+      "O05",
+      "O09",
+      "O12",
+      "O01",
+      "O17",
+      "O04",
+      "O14",
+      "O11"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O05",
+      "O09"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O16",
+      "O08",
+      "O07",
+      "O18",
+      "O06",
+      "O15",
+      "O05",
+      "O09",
+      "O12",
+      "O01",
+      "O17",
+      "O10",
+      "O04",
+      "O13",
+      "O14",
+      "O11",
+      "O02"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O05",
+      "O09"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O12",
+      "O18",
+      "O15",
+      "O17",
+      "O07",
+      "O16",
+      "O09",
+      "O08",
+      "O10",
+      "O01",
+      "O02",
+      "O13",
+      "O14",
+      "O03",
+      "O04",
+      "O06",
+      "O05"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "11/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O12",
+      "O15",
+      "O16",
+      "O02",
+      "O13",
+      "O04"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O12",
+      "O18",
+      "O15",
+      "O17",
+      "O07",
+      "O16",
+      "O09",
+      "O08",
+      "O10",
+      "O01",
+      "O02",
+      "O13",
+      "O14",
+      "O03",
+      "O04",
+      "O06",
+      "O05"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "11/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O12",
+      "O15",
+      "O16",
+      "O02",
+      "O13",
+      "O04"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O03",
+      "O07"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O03",
+      "O07"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O18",
+      "O04",
+      "O14",
+      "O11",
+      "O02",
+      "O03",
+      "O10",
+      "O15",
+      "O08",
+      "O05",
+      "O12",
+      "O09",
+      "O06",
+      "O16",
+      "O17",
+      "O07",
+      "O13"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O04",
+      "O14",
+      "O03",
+      "O05",
+      "O07"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O18",
+      "O13",
+      "O10",
+      "O17",
+      "O12",
+      "O15",
+      "O03",
+      "O06",
+      "O09",
+      "O07",
+      "O04",
+      "O05",
+      "O11",
+      "O02",
+      "O08",
+      "O14",
+      "O01"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O17",
+      "O03",
+      "O09"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O18",
+      "O13",
+      "O10",
+      "O17",
+      "O12",
+      "O15",
+      "O03",
+      "O06",
+      "O09",
+      "O07",
+      "O04",
+      "O05",
+      "O11",
+      "O02",
+      "O08",
+      "O14",
+      "O01"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-08",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O17",
+      "O03",
+      "O09"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O11",
+      "O15",
+      "O14",
+      "O08",
+      "O02",
+      "O16",
+      "O17",
+      "O03",
+      "O04",
+      "O07",
+      "O12",
+      "O06",
+      "O13",
+      "O09",
+      "O01",
+      "O10",
+      "O18"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O15",
+      "O18"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O11",
+      "O15",
+      "O14",
+      "O08",
+      "O02",
+      "O16",
+      "O17",
+      "O03",
+      "O04",
+      "O07",
+      "O12",
+      "O06",
+      "O13",
+      "O09",
+      "O01",
+      "O10",
+      "O18"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O15",
+      "O18"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "13/120",
+      "upper": "13/120"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O18",
+      "O05",
+      "O01",
+      "O08"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O18",
+      "O01"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O06",
+      "O03",
+      "O11",
+      "O16",
+      "O13",
+      "O15",
+      "O18",
+      "O14",
+      "O04",
+      "O05",
+      "O01",
+      "O09",
+      "O10",
+      "O17",
+      "O07",
+      "O12",
+      "O08",
+      "O02"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O18",
+      "O14",
+      "O01",
+      "O10",
+      "O17"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O06",
+      "O15",
+      "O02",
+      "O12"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O06",
+      "O15",
+      "O02",
+      "O12"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O01",
+      "O18",
+      "O07",
+      "O16",
+      "O08",
+      "O06",
+      "O04",
+      "O15",
+      "O02",
+      "O12",
+      "O13",
+      "O03",
+      "O05",
+      "O14",
+      "O09",
+      "O10",
+      "O17",
+      "O11"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "55/504",
+      "upper": "55/504"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O16",
+      "O06",
+      "O15",
+      "O02",
+      "O12",
+      "O03"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "13/120",
+      "upper": "13/90"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O17",
+      "O10",
+      "O01",
+      "O07"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "7/48",
+      "upper": "7/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O17",
+      "O10",
+      "O01",
+      "O07"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O03",
+      "O15",
+      "O16",
+      "O09",
+      "O17",
+      "O04",
+      "O10",
+      "O12",
+      "O01",
+      "O11",
+      "O14",
+      "O18",
+      "O08",
+      "O05",
+      "O06",
+      "O13",
+      "O07"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-09",
+    "delta_bounds": {
+      "lower": "11/168",
+      "upper": "11/126"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O15",
+      "O17",
+      "O10",
+      "O01",
+      "O13",
+      "O07"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O02",
+      "O16",
+      "O08",
+      "O06",
+      "O13",
+      "O15",
+      "O09",
+      "O18",
+      "O11",
+      "O07",
+      "O03",
+      "O14",
+      "O10",
+      "O04",
+      "O01",
+      "O17",
+      "O12"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O16",
+      "O06",
+      "O13",
+      "O15",
+      "O18",
+      "O11",
+      "O07",
+      "O03",
+      "O10",
+      "O04",
+      "O01"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O02",
+      "O16",
+      "O08",
+      "O06",
+      "O13",
+      "O15",
+      "O09",
+      "O18",
+      "O11",
+      "O07",
+      "O03",
+      "O14",
+      "O10",
+      "O04",
+      "O01",
+      "O17",
+      "O12"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O16",
+      "O06",
+      "O13",
+      "O15",
+      "O18",
+      "O11",
+      "O07",
+      "O03",
+      "O10",
+      "O04",
+      "O01"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O17",
+      "O02"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O17",
+      "O02"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O06",
+      "O13",
+      "O11",
+      "O05",
+      "O07",
+      "O14",
+      "O01",
+      "O08",
+      "O16",
+      "O12",
+      "O18",
+      "O10",
+      "O17",
+      "O02",
+      "O04",
+      "O09",
+      "O15"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "13/120",
+      "upper": "13/120"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O13",
+      "O17",
+      "O02",
+      "O04"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O18",
+      "O05"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O18",
+      "O05"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O17",
+      "O11",
+      "O09",
+      "O14",
+      "O13",
+      "O16",
+      "O12",
+      "O03",
+      "O10",
+      "O18",
+      "O15",
+      "O08",
+      "O05",
+      "O07",
+      "O06",
+      "O04",
+      "O02",
+      "O01"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "7/48",
+      "upper": "7/48"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O12",
+      "O18",
+      "O05",
+      "O07"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "13/120",
+      "upper": "13/120"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O06",
+      "O13",
+      "O01",
+      "O17",
+      "O04"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O06",
+      "O13",
+      "O04"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O05",
+      "O02",
+      "O03",
+      "O11",
+      "O06",
+      "O14",
+      "O16",
+      "O09",
+      "O07",
+      "O18",
+      "O13",
+      "O15",
+      "O01",
+      "O08",
+      "O17",
+      "O04",
+      "O12",
+      "O10"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-10",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O06",
+      "O18",
+      "O13",
+      "O08",
+      "O04"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "1/12",
+      "upper": "1/12"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O17",
+      "O10",
+      "O12",
+      "O13",
+      "O09"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O10",
+      "O09"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O17",
+      "O15",
+      "O08",
+      "O07",
+      "O10",
+      "O16",
+      "O03",
+      "O11",
+      "O12",
+      "O05",
+      "O13",
+      "O06",
+      "O02",
+      "O09",
+      "O18",
+      "O01",
+      "O14"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O10",
+      "O09"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O03",
+      "O18"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O03",
+      "O18"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O13",
+      "O11",
+      "O03",
+      "O12",
+      "O02",
+      "O09",
+      "O08",
+      "O15",
+      "O06",
+      "O05",
+      "O01",
+      "O04",
+      "O10",
+      "O18",
+      "O07",
+      "O14",
+      "O17"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "5/96",
+      "upper": "5/96"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O11",
+      "O03",
+      "O02",
+      "O08",
+      "O01",
+      "O18",
+      "O17"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "13/90",
+      "upper": "13/90"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O09",
+      "O11",
+      "O16",
+      "O12",
+      "O18"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "7/36",
+      "upper": "7/36"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O09",
+      "O11",
+      "O16",
+      "O12"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O06",
+      "O10",
+      "O09",
+      "O02",
+      "O11",
+      "O16",
+      "O08",
+      "O12",
+      "O14",
+      "O04",
+      "O17",
+      "O18",
+      "O13",
+      "O05",
+      "O01",
+      "O15",
+      "O03"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "11/126",
+      "upper": "11/126"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O07",
+      "O10",
+      "O09",
+      "O02",
+      "O11",
+      "O16",
+      "O12"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O01",
+      "O06"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O01",
+      "O06"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O09",
+      "O05",
+      "O11",
+      "O16",
+      "O18",
+      "O07",
+      "O08",
+      "O04",
+      "O12",
+      "O10",
+      "O14",
+      "O13",
+      "O02",
+      "O15",
+      "O01",
+      "O06",
+      "O17"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-11",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O01",
+      "O06"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O12",
+      "O01",
+      "O07",
+      "O18"
+    ],
+    "mask": "first_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O12",
+      "O01",
+      "O07",
+      "O18"
+    ],
+    "mask": "full",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O02",
+      "O04",
+      "O05",
+      "O08",
+      "O16",
+      "O13",
+      "O10",
+      "O12",
+      "O09",
+      "O15",
+      "O06",
+      "O11",
+      "O14",
+      "O01",
+      "O17",
+      "O03",
+      "O07",
+      "O18"
+    ],
+    "mask": "no_information",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O12",
+      "O01",
+      "O07",
+      "O18"
+    ],
+    "mask": "second_only",
+    "question_id": "flight"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "11/168",
+      "upper": "11/168"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O16",
+      "O11",
+      "O05",
+      "O14",
+      "O12",
+      "O06",
+      "O07"
+    ],
+    "mask": "first_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O11",
+      "O14",
+      "O07"
+    ],
+    "mask": "full",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O18",
+      "O10",
+      "O16",
+      "O03",
+      "O11",
+      "O05",
+      "O09",
+      "O04",
+      "O14",
+      "O12",
+      "O02",
+      "O01",
+      "O15",
+      "O06",
+      "O08",
+      "O07",
+      "O13",
+      "O17"
+    ],
+    "mask": "no_information",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "13/120",
+      "upper": "13/120"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O10",
+      "O11",
+      "O09",
+      "O14",
+      "O07"
+    ],
+    "mask": "second_only",
+    "question_id": "lodging"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O06",
+      "O05",
+      "O11",
+      "O07",
+      "O10",
+      "O16",
+      "O01",
+      "O04",
+      "O02",
+      "O08",
+      "O13",
+      "O17",
+      "O12",
+      "O09",
+      "O18",
+      "O15",
+      "O14"
+    ],
+    "mask": "first_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "11/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O07",
+      "O10",
+      "O01",
+      "O17",
+      "O12",
+      "O15"
+    ],
+    "mask": "full",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O06",
+      "O05",
+      "O11",
+      "O07",
+      "O10",
+      "O16",
+      "O01",
+      "O04",
+      "O02",
+      "O08",
+      "O13",
+      "O17",
+      "O12",
+      "O09",
+      "O18",
+      "O15",
+      "O14"
+    ],
+    "mask": "no_information",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "11/72"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O03",
+      "O07",
+      "O10",
+      "O01",
+      "O17",
+      "O12",
+      "O15"
+    ],
+    "mask": "second_only",
+    "question_id": "rental_car"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "5/96",
+      "upper": "5/96"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O13",
+      "O17",
+      "O14",
+      "O12",
+      "O09",
+      "O18",
+      "O16"
+    ],
+    "mask": "first_only",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O12",
+      "O18"
+    ],
+    "mask": "full",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "0",
+      "upper": "0"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O04",
+      "O13",
+      "O02",
+      "O17",
+      "O03",
+      "O14",
+      "O15",
+      "O11",
+      "O08",
+      "O12",
+      "O10",
+      "O09",
+      "O01",
+      "O18",
+      "O07",
+      "O16",
+      "O05",
+      "O06"
+    ],
+    "mask": "no_information",
+    "question_id": "restaurant"
+  },
+  {
+    "case_id": "E025-12",
+    "delta_bounds": {
+      "lower": "5/24",
+      "upper": "5/24"
+    },
+    "fallback_empty_set": false,
+    "kept_option_ids": [
+      "O13",
+      "O12",
+      "O18"
+    ],
+    "mask": "second_only",
+    "question_id": "restaurant"
+  }
+]

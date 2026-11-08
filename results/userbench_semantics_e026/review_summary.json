@@ -1,0 +1,166 @@
+{
+  "change": {
+    "accepted_explicit_name_forms": [
+      "Zillow Rental",
+      "Zillow Rentals"
+    ],
+    "criterion_id": "E025-07/apartment/0"
+  },
+  "changes": [
+    {
+      "after": [
+        "T",
+        "U"
+      ],
+      "aspect": "apartment",
+      "before": [
+        "F",
+        "U"
+      ],
+      "case_id": "E025-07",
+      "conjunction_after": "U",
+      "conjunction_before": "F",
+      "name": "Zillow Rentals - Eco-Friendly Studio",
+      "option_id": "O07",
+      "source_id": "A2"
+    },
+    {
+      "after": [
+        "T",
+        "U"
+      ],
+      "aspect": "apartment",
+      "before": [
+        "F",
+        "U"
+      ],
+      "case_id": "E025-07",
+      "conjunction_after": "U",
+      "conjunction_before": "F",
+      "name": "Zillow Rentals - Modern Loft",
+      "option_id": "O10",
+      "source_id": "A16"
+    },
+    {
+      "after": [
+        "T",
+        "U"
+      ],
+      "aspect": "apartment",
+      "before": [
+        "F",
+        "U"
+      ],
+      "case_id": "E025-07",
+      "conjunction_after": "U",
+      "conjunction_before": "F",
+      "name": "Zillow Rentals - Historic Downtown Apartment",
+      "option_id": "O13",
+      "source_id": "A3"
+    }
+  ],
+  "conjunction_counts": {
+    "F": 668,
+    "T": 119,
+    "U": 77
+  },
+  "fallbacks": [],
+  "limitations": "This repairs one demonstrated name mismatch. It is not independent semantic validation or a general alias policy. U from unresolved daily cleaning remains U.",
+  "option_change_count": 3,
+  "reason": "The literal-name rule falsely rejected the plural Zillow Rentals in displayed listing names.",
+  "robust_rank_reversals": {
+    "first_only": [
+      "E025-04",
+      "E025-05"
+    ],
+    "second_only": [
+      "E025-04"
+    ]
+  },
+  "robust_winners": {
+    "E025-01": {
+      "first_only": "lodging",
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    },
+    "E025-02": {
+      "first_only": "lodging",
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    },
+    "E025-03": {
+      "first_only": "restaurant",
+      "full": "restaurant",
+      "no_information": null,
+      "second_only": null
+    },
+    "E025-04": {
+      "first_only": "rental_car",
+      "full": "flight",
+      "no_information": null,
+      "second_only": "restaurant"
+    },
+    "E025-05": {
+      "first_only": "rental_car",
+      "full": "lodging",
+      "no_information": null,
+      "second_only": "lodging"
+    },
+    "E025-06": {
+      "first_only": "restaurant",
+      "full": "restaurant",
+      "no_information": null,
+      "second_only": "restaurant"
+    },
+    "E025-07": {
+      "first_only": null,
+      "full": null,
+      "no_information": null,
+      "second_only": "restaurant"
+    },
+    "E025-08": {
+      "first_only": "rental_car",
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    },
+    "E025-09": {
+      "first_only": "rental_car",
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    },
+    "E025-10": {
+      "first_only": null,
+      "full": null,
+      "no_information": null,
+      "second_only": "rental_car"
+    },
+    "E025-11": {
+      "first_only": null,
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    },
+    "E025-12": {
+      "first_only": "flight",
+      "full": null,
+      "no_information": null,
+      "second_only": "restaurant"
+    }
+  },
+  "source_acceptable_conjunction_counts": {
+    "F": 6,
+    "T": 105,
+    "U": 33
+  },
+  "source_best_conjunction_counts": {
+    "F": 3,
+    "T": 34,
+    "U": 11
+  },
+  "status": "post-run sensitivity; primary files unchanged",
+  "unknown_success_count_completions_checked": 500
+}

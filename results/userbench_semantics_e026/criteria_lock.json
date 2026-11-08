@@ -1,0 +1,6 @@
+{
+  "criteria_sha256": "df739792cb2ceb5c78eda1a333d5f0c6f23b0ae275d2368f6481f1721706260c",
+  "preference_inventory_sha256": "67fc5491224343d234aaffa9b59e9cda545cb0671787b26b287fafcc72edebc3",
+  "builder_sha256": "960467b5eb84ce6f2588ce5843593a4916f54047394921364ab305bc62b210ec",
+  "phase": "catalogue fixed before option truth-table and mask computation"
+}

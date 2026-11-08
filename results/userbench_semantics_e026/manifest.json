@@ -1,0 +1,25 @@
+{
+  "artifact_sha256": {
+    "case_diagnostics.json": "5a1ba0e188fd78eb50ffd092fffd94cf2d4df84946c9d308fd32bf5047730de5",
+    "mask_probes.json": "e7371658564cc24722c61ed39be4c33e73eb17ab423865bd5b5e26944d52192c",
+    "option_evaluations.json": "af729cfeceaec702749823ccac443c9722a02818237518873c5c1ab91c21f095",
+    "question_menu.json": "55fdab1d00094b20a1140c10f9fb9aa2bebd325b9b9325e608b299180a4bd928",
+    "summary.json": "64f629f644b258601c193188bdc219155737b372ea0c735aec08d0faed60712b"
+  },
+  "code_sha256": {
+    "experiments/build_criteria_e026.py": "960467b5eb84ce6f2588ce5843593a4916f54047394921364ab305bc62b210ec",
+    "experiments/run_semantics_e026.py": "0156624fac2d1ccf9a8927c15dd712cf8bcf5958dd7dc104903966c57f56a8dd",
+    "experiments/semantics_e026.py": "206b1a311a8a41f8a3a96f3f8228b735b7e5ab60e43005479380603f164b25bc"
+  },
+  "input_sha256": {
+    "research/E026_PROTOCOL.md": "0e4cb9fea59292c72d13cae4161b8cb67a9f90121a03e91c03b12414e2f32362",
+    "results/userbench_semantics_e026/criteria.json": "df739792cb2ceb5c78eda1a333d5f0c6f23b0ae275d2368f6481f1721706260c",
+    "results/userbench_semantics_e026/criteria_lock.json": "2b757ffb670a7e77a13dcc954fc6da407300ae79b8590293d8bc352b93ab4716",
+    "results/userbench_semantics_e026/preinspection.json": "b69b5939a3718a531ddc031198b5d4f0f6e17bc260944bbf95bd98c8c8f85a78",
+    "results/userbench_train_e025/manifest.json": "c0e8009d97f1b23e0d704e614edb504d6cd7355436d0c4b836f8a398e8180903",
+    "results/userbench_train_e025/preference_inventory.json": "67fc5491224343d234aaffa9b59e9cda545cb0671787b26b287fafcc72edebc3",
+    "results/userbench_train_e025/private_cases.json": "2c91c2a5077523c35522ce1feb9dd815113a5e9ed4a83d9cf3c3c9261d8ae237",
+    "results/userbench_train_e025/public_cases.json": "1be6ca3659a81d6ea518d89314a8c279c20efb5bb98543f58066f714e29d8612",
+    "results/userbench_train_e025/selection.json": "71ac6bcc4b99132414d1a36bd78b41080161ca63e1c61cb0a28fc6ccfbe1a058"
+  }
+}

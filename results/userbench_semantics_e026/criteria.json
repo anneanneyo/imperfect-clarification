@@ -1,0 +1,1812 @@
+[
+  {
+    "aspect": "flight",
+    "case_id": "E025-01",
+    "category": "amenities",
+    "criterion_id": "E025-01/flight/0",
+    "generation_criterion": "Correct options should have WiFi available and listed in the amenities. Wrong options could be wrong against this preference by do not contain WiFi in the amenity.",
+    "implicit_statement": "I plan to finalize my presentation, which is stored on the cloud, during the flight.",
+    "index": 0,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having wifi on the flight",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "WiFi"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-01",
+    "category": "service",
+    "criterion_id": "E025-01/flight/1",
+    "generation_criterion": "Correct options should have business class listed in the service and value is not null. Wrong options could be wrong against this preference by not having business class cost listed or its value is null, indicating that business class is not available.",
+    "implicit_statement": "I always appreciate when I am among the first few boarding groups, and I enjoy the extra comfort and space during the flight.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer business class",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_business_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-01",
+    "category": "model",
+    "criterion_id": "E025-01/rental_car/0",
+    "generation_criterion": "Correct options should write SUV in the option's category field. Wrong options could be other categories instead of SUV, in order to make it against this preference.",
+    "implicit_statement": "The weather forecast predicts some snow during our trip, and having the stability and traction of a vehicle with higher ground clearance could be quite helpful.",
+    "index": 0,
+    "interpretation": "Matches the explicit source preference's car category; the implicit motivation does not independently guarantee safety, traction, comfort or autopilot.",
+    "preference": "prefer SUV",
+    "rule": {
+      "field": "categories",
+      "op": "equals",
+      "value": "SUV"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-01",
+    "category": "insurance",
+    "criterion_id": "E025-01/rental_car/1",
+    "generation_criterion": "Correct options should have belonging waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having belonging waiver cost listed or its value is null, indicating that belonging insurance is not available.",
+    "implicit_statement": "I try to pack light, but what I bring is valuable, I'd rather not take risks leaving them in car, whichI usually do, but in an unprotected way.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having belonging insurance",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "insurance",
+        "cost_belonging_waiver"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-01",
+    "category": "room",
+    "criterion_id": "E025-01/hotel/0",
+    "generation_criterion": "Correct options should have Suite (with kitchen) room as its room type (could have others, but Suite (with kitchen) must be included). Wrong options could be wrong against this preference by not having Suite (with kitchen) room as one of its room type.",
+    "implicit_statement": "I like to unwind in a spacious room with a home-cooked meal after a long day of sightseeing.",
+    "index": 0,
+    "interpretation": "At least one listed room has the specified type; room price and capacity are separate concerns.",
+    "preference": "prefer Suite (with kitchen) room",
+    "rule": {
+      "op": "room_type",
+      "value": "Suite (with kitchen)"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-01",
+    "category": "amenities",
+    "criterion_id": "E025-01/hotel/1",
+    "generation_criterion": "Correct options should have Business Workspace available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Business Workspace in the amenity.",
+    "implicit_statement": "It's nice to have a dedicated workspace in the hotel to ensure comfort and productivity, rather than having to rely on the bed as a makeshift office.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having business workspace",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "Business Workspace"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-01",
+    "category": "rating",
+    "criterion_id": "E025-01/restaurant/0",
+    "generation_criterion": "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+    "implicit_statement": "I find it compelling when a restaurant's five star positive reviews overwhelmingly dominate the others and takes the majority.",
+    "index": 0,
+    "interpretation": "Require a strictly greater than 1/2 share of five-star reviews among the five supplied rating counts.",
+    "preference": "prefer having more than half of the reviews are 5-star",
+    "rule": {
+      "op": "review_majority"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-01",
+    "category": "tags",
+    "criterion_id": "E025-01/restaurant/1",
+    "generation_criterion": "Correct options should have Late Night Service available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Night Service in the tags.",
+    "implicit_statement": "I'm not great at sticking to normal meal times, especially during travelling, so flexible hours matter at night really matters.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer restaurant opens till late night",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Late Night Service"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-93|hotel:2-33|rental_car:2-37|restaurant:2-103"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-02",
+    "category": "time",
+    "criterion_id": "E025-02/flight/0",
+    "generation_criterion": "All the options should have exactly one layover. Correct option should contain long layover time (in a resonable way) that can fullfill the user's specific need. Wrong options could contain short layover time that is not enough to fulfill the user need, in order to be wrong against this preference.",
+    "implicit_statement": "I love having ample time to meet new people in the connection city without the rush of catching a connecting flight.",
+    "index": 0,
+    "interpretation": "Ample time to meet people gives no usable numeric boundary; no cutoff is invented.",
+    "preference": "prefer longer layover time",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "ambiguous",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-02",
+    "category": "amenities",
+    "criterion_id": "E025-02/flight/1",
+    "generation_criterion": "Correct options should have Meal Service available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Meal Service in the amenity.",
+    "implicit_statement": "Having a meal onboard is a comforting ritual for me, making the flight feel more like home.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having meal service on the flight",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "Meal Service"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-02",
+    "category": "brand",
+    "criterion_id": "E025-02/rental_car/0",
+    "generation_criterion": "Correct options should be the user-specified rental car brand. Wrong options could be other brand that is not what user prefers, in order to make it against this preference.",
+    "implicit_statement": "You know, I always end up choosing Avis because they seem to have the most convenient locations for pick-up and drop-off.",
+    "index": 0,
+    "interpretation": "Brand explicitly named in the implicit statement; no assertion about pickup convenience or fleet.",
+    "preference": "prefer specific rental car brand (user specifies)",
+    "rule": {
+      "field": "brand",
+      "op": "equals",
+      "value": "Avis"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-02",
+    "category": "model",
+    "criterion_id": "E025-02/rental_car/1",
+    "generation_criterion": "Correct options should be the user-specified rental car model. Wrong options could be other models that is not what user prefers, in order to make it against this preference.",
+    "implicit_statement": "After reading a review about how the Tesla Model 3's autopilot feature makes long drives more relaxing, I'm really intrigued to experience it.",
+    "index": 1,
+    "interpretation": "Explicitly named model is matched in combined brand/model fields; do not infer its capabilities.",
+    "preference": "prefer specific car model (user specifies)",
+    "rule": {
+      "fields": [
+        "brand",
+        "model"
+      ],
+      "op": "text_words",
+      "value": "Tesla Model 3"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-02",
+    "category": "cuisine",
+    "criterion_id": "E025-02/restaurant/0",
+    "generation_criterion": "Correct options should write Cafe, Bakery, or Dessert as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference.",
+    "implicit_statement": "My creadit card offers gift points in coffee shops in the city I'm about to go, so why not take advantge of this benefit?",
+    "index": 0,
+    "interpretation": "Coffee-shop card eligibility or availability of macarons is not supplied by cuisine category alone.",
+    "preference": "prefer having dessert or bakery or cafe (user specifies)",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "unsupported",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-02",
+    "category": "tags",
+    "criterion_id": "E025-02/restaurant/1",
+    "generation_criterion": "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags.",
+    "implicit_statement": "Given the nature of some of my dinners, I need a setting that can support both small talk and more focused discussions without distractions.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having business dining",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Business Dining"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-02",
+    "category": "name",
+    "criterion_id": "E025-02/apartment/0",
+    "generation_criterion": "Correct options should have the user-specified apartment or platform name in the option's name field and align with the platform that user wants. Wrong options could be other hotel name or platforms in its name, in order to make it against this preference.",
+    "implicit_statement": "I've collected a few Homestay gift cards that I'm excited to use to experience unique accommodations on my next trip.",
+    "index": 0,
+    "interpretation": "Source represents the named platform in the listing name. This cannot confirm gift-card acceptance or real platform provenance.",
+    "preference": "prefer certain platform (user specifies)",
+    "rule": {
+      "fields": [
+        "name"
+      ],
+      "op": "text_words",
+      "value": "Homestay"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-02",
+    "category": "room",
+    "criterion_id": "E025-02/apartment/1",
+    "generation_criterion": "Correct options should be a room type that has at least three bedrooms (abrreviated as 3BnB or 4BnB, n does not matter). Wrong options could be wrong against this preference by not having 3BnB or 4BnB as its room type.",
+    "implicit_statement": "Our family movie nights require a separate room with a big screen setup, and we also need an extra bedrooms for other activities and guests. We will only use the main bedroom for resting.",
+    "index": 1,
+    "interpretation": "Decode the source nBmB convention as n bedrooms and m bathrooms; unsupported room strings are U.",
+    "preference": "prefer having at least three bedrooms",
+    "rule": {
+      "minimum": 3,
+      "op": "bedrooms_min"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-64|apartment:2-1|rental_car:2-0|restaurant:2-64"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-03",
+    "category": "time",
+    "criterion_id": "E025-03/flight/0",
+    "generation_criterion": "All the options should have exactly one layover. Correct option should contain long layover time (in a resonable way) that can fullfill the user's specific need. Wrong options could contain short layover time that is not enough to fulfill the user need, in order to be wrong against this preference.",
+    "implicit_statement": "I usually need longer layover times like 4 to 5 hours to catch up on my meetings and provide ample time to catch up on work emails.",
+    "index": 0,
+    "interpretation": "Uses the explicitly stated 4-to-5-hour range inclusively, with the source criterion's single connection; other interpretations of soft wording are possible.",
+    "preference": "prefer longer layover time",
+    "rule": {
+      "connections": 1,
+      "maximum": 5,
+      "minimum": 4,
+      "op": "layover_range"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-03",
+    "category": "company",
+    "criterion_id": "E025-03/flight/1",
+    "generation_criterion": "Correct option should be the flight of the specific company that the user designates. Wrong options could contain flights of other companies that are not the user's preferred airline, in order to be wrong against this preference.",
+    "implicit_statement": "I always choose United for my flights because I've collected enough miles to finally upgrade my seat on the next trip.",
+    "index": 1,
+    "interpretation": "The user names United; require its name on every listed flight segment.",
+    "preference": "prefer specific airline brand (user specifies)",
+    "rule": {
+      "field": "company",
+      "op": "all_text_words",
+      "value": "United"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-03",
+    "category": "model",
+    "criterion_id": "E025-03/rental_car/0",
+    "generation_criterion": "Correct options should write Electric in the option's category field. Wrong options could be other categories instead of Electric, in order to make it against this preference.",
+    "implicit_statement": "I'm very curious to see and try how the autopilot features have evolved in the newer electric car models.",
+    "index": 0,
+    "interpretation": "Matches the explicit source preference's car category; the implicit motivation does not independently guarantee safety, traction, comfort or autopilot.",
+    "preference": "prefer electric car",
+    "rule": {
+      "field": "categories",
+      "op": "equals",
+      "value": "Electric"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-03",
+    "category": "insurance",
+    "criterion_id": "E025-03/rental_car/1",
+    "generation_criterion": "Correct options should have liability waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having liability waiver cost listed or its value is null, indicating that liability insurance is not available.",
+    "implicit_statement": "Hurting someone or wrecking their vehicle would be my worst nightmare, and I want protection against these worst situations.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having liability insurance",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "insurance",
+        "cost_liability_waiver"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-03",
+    "category": "room",
+    "criterion_id": "E025-03/hotel/0",
+    "generation_criterion": "Correct options should have Double room as its room type (could have others, but Double must be included). Wrong options could be wrong against this preference by not having Double room as one of its room type.",
+    "implicit_statement": "I enjoy the comfort of keeping one bed tidy for sleeping and using the other for lounging during the day.",
+    "index": 0,
+    "interpretation": "The implicit statement needs two beds; the room label Double and capacity do not specify bed count.",
+    "preference": "prefer Double room",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "ambiguous",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-03",
+    "category": "amenities",
+    "criterion_id": "E025-03/hotel/1",
+    "generation_criterion": "Correct options should have Air Conditioning available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Air Conditioning in the amenity.",
+    "implicit_statement": "I can't imagine trying to get good rest without effective temperature control in the room.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having air conditioning",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "Air Conditioning"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-03",
+    "category": "cuisine",
+    "criterion_id": "E025-03/restaurant/0",
+    "generation_criterion": "Correct options should be Seafood or Steakhouse as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference.",
+    "implicit_statement": "I've been craving a good juicy ribeye these days. Hope I could get something that can surprise me during this trip.",
+    "index": 0,
+    "interpretation": "The user specifies ribeye or steak, so the source's cuisine-category criterion is specialized to Steakhouse. Category is a proxy, not verification of a dish or wine list.",
+    "preference": "prefer having seafood or steakhouse (user specifies)",
+    "rule": {
+      "field": "cuisine",
+      "op": "equals",
+      "value": "Steakhouse"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-03",
+    "category": "tags",
+    "criterion_id": "E025-03/restaurant/1",
+    "generation_criterion": "Correct options should have Delivery Available and listed in the tags. Wrong options could be wrong against this preference by do not contain Delivery Available in the tags.",
+    "implicit_statement": "I've come to appreciate the convenience of having meals delivered to my door recently, allowing me to enjoy different cuisines without leaving my couch during the trip.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having the option of delivery",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Delivery Available"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-48|hotel:2-29|rental_car:2-22|restaurant:2-33"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-04",
+    "category": "path",
+    "criterion_id": "E025-04/flight/0",
+    "generation_criterion": "All flight options should have at least one layover, but with different layover cities. Correct option should contain the user-designated layover city. Wrong option could contain other layover cities or so not contain any layover city to be wrong regarding this preference.",
+    "implicit_statement": "I always look forward to flights that pass through Hong Kong because it's amazing how it has an IMAX theater.",
+    "index": 0,
+    "interpretation": "Require the explicitly named city among intermediate path points; airport facilities and sufficient connection time are unverified.",
+    "preference": "prefer a specific layover city (user designated)",
+    "rule": {
+      "op": "layover_city",
+      "value": "Hong Kong"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-04",
+    "category": "amenities",
+    "criterion_id": "E025-04/flight/1",
+    "generation_criterion": "Correct options should have Meal Service available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Meal Service in the amenity.",
+    "implicit_statement": "I always look forward to enjoying a hot meal at 30,000 feet, which makes my trip feels special.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having meal service on the flight",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "Meal Service"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-04",
+    "category": "model",
+    "criterion_id": "E025-04/rental_car/0",
+    "generation_criterion": "Correct options should write Economy in the option's category field. Wrong options could be other categories instead of Economy, in order to make it against this preference.",
+    "implicit_statement": "From my past car rental experiences, I've always found that economy cars offer the best cost-to-benefit ratio.",
+    "index": 0,
+    "interpretation": "Matches the explicit source preference's car category; the implicit motivation does not independently guarantee safety, traction, comfort or autopilot.",
+    "preference": "prefer economy car",
+    "rule": {
+      "field": "categories",
+      "op": "equals",
+      "value": "Economy"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-04",
+    "category": "service",
+    "criterion_id": "E025-04/rental_car/1",
+    "generation_criterion": "Correct options should have additional driver cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having additional driver cost listed or its value is null, indicating that additional driver is not available.",
+    "implicit_statement": "I want to avoid issues if someone else ends up driving the car I rent this time.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having more than one main driver",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_additional_driver_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-04",
+    "category": "room",
+    "criterion_id": "E025-04/hotel/0",
+    "generation_criterion": "Correct options should have Suite (with kitchen) room as its room type (could have others, but Suite (with kitchen) must be included). Wrong options could be wrong against this preference by not having Suite (with kitchen) room as one of its room type.",
+    "implicit_statement": "I like to wind down in a spacious room where I can do some yoga stretches and enjoy preparing a light meal.",
+    "index": 0,
+    "interpretation": "At least one listed room has the specified type; room price and capacity are separate concerns.",
+    "preference": "prefer Suite (with kitchen) room",
+    "rule": {
+      "op": "room_type",
+      "value": "Suite (with kitchen)"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-04",
+    "category": "rating",
+    "criterion_id": "E025-04/hotel/1",
+    "generation_criterion": "Correct options rating should be within the range that the user specifies. Wrong options could be wrong against this preference by diverging very much from the user preferred rating range and usually lower than the correct option's ratings. Note that higher rating might normally induce higher cost in the option.",
+    "implicit_statement": "Places with ratings between 6 and 9 seem to offer great amenities without being overly expensive.",
+    "index": 1,
+    "interpretation": "User explicitly gives 6 to 9; use inclusive endpoints.",
+    "preference": "prefer hotel rating within a specific range (user specifies)",
+    "rule": {
+      "field": "rating",
+      "maximum": 9,
+      "minimum": 6,
+      "op": "numeric_range"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-04",
+    "category": "rating",
+    "criterion_id": "E025-04/restaurant/0",
+    "generation_criterion": "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+    "implicit_statement": "I find it compelling when a restaurant's five star positive reviews overwhelmingly dominate the others and takes the majority.",
+    "index": 0,
+    "interpretation": "Require a strictly greater than 1/2 share of five-star reviews among the five supplied rating counts.",
+    "preference": "prefer having more than half of the reviews are 5-star",
+    "rule": {
+      "op": "review_majority"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-04",
+    "category": "tags",
+    "criterion_id": "E025-04/restaurant/1",
+    "generation_criterion": "Correct options should have Outdoor Seating available and listed in the tags. Wrong options could be wrong against this preference by do not contain Outdoor Seating in the tags.",
+    "implicit_statement": "I like having the option to smoke or vape a little after my meal, so outdoor seats in a restaurant would be better as I won't disturb others this way.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having outdoor seating",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Outdoor Seating"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-16|rental_car:2-46|restaurant:2-102"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-05",
+    "category": "path",
+    "criterion_id": "E025-05/flight/0",
+    "generation_criterion": "All flight options should have at least one layover, but with different layover cities. Correct option should contain the user-designated layover city. Wrong option could contain other layover cities or so not contain any layover city to be wrong regarding this preference.",
+    "implicit_statement": "I've heard the spa services at Bangkok's Suvarnabhumi Airport are top-notch, and I'm looking forward to experiencing them during a flight connection.",
+    "index": 0,
+    "interpretation": "Require the explicitly named city among intermediate path points; airport facilities and sufficient connection time are unverified.",
+    "preference": "prefer a specific layover city (user designated)",
+    "rule": {
+      "op": "layover_city",
+      "value": "Bangkok"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-05",
+    "category": "amenities",
+    "criterion_id": "E025-05/flight/1",
+    "generation_criterion": "Correct options should have Meal Service available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Meal Service in the amenity.",
+    "implicit_statement": "I tend to get quite hungry on flights.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having meal service on the flight",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "Meal Service"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-05",
+    "category": "model",
+    "criterion_id": "E025-05/rental_car/0",
+    "generation_criterion": "Correct options should write Electric in the option's category field. Wrong options could be other categories instead of Electric, in order to make it against this preference.",
+    "implicit_statement": "I'm very curious to see and try how the autopilot features have evolved in the newer electric car models.",
+    "index": 0,
+    "interpretation": "Matches the explicit source preference's car category; the implicit motivation does not independently guarantee safety, traction, comfort or autopilot.",
+    "preference": "prefer electric car",
+    "rule": {
+      "field": "categories",
+      "op": "equals",
+      "value": "Electric"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-05",
+    "category": "service",
+    "criterion_id": "E025-05/rental_car/1",
+    "generation_criterion": "Correct options should have child seat cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having child seat cost listed or its value is null, indicating that child seat is not available.",
+    "implicit_statement": "I'll need the rental to accommodate a child who can't use a normal seatbelt yet.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having additional child seat",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_child_seat_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-05",
+    "category": "room",
+    "criterion_id": "E025-05/hotel/0",
+    "generation_criterion": "Correct options should have Suite (with kitchen) room as its room type (could have others, but Suite (with kitchen) must be included). Wrong options could be wrong against this preference by not having Suite (with kitchen) room as one of its room type.",
+    "implicit_statement": "I prefer hotels that let me feel like I'm in a small apartment, where I can enjoy preparing my own meals.",
+    "index": 0,
+    "interpretation": "At least one listed room has the specified type; room price and capacity are separate concerns.",
+    "preference": "prefer Suite (with kitchen) room",
+    "rule": {
+      "op": "room_type",
+      "value": "Suite (with kitchen)"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-05",
+    "category": "service",
+    "criterion_id": "E025-05/hotel/1",
+    "generation_criterion": "Correct options should have parking cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having parking cost listed or its value is null, indicating that parking is not available.",
+    "implicit_statement": "I tend to overpack a little, so having a place to park at the hotel is a big plus for easily accessing my car to store extra luggage.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having parking service",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_parking_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-05",
+    "category": "expectation",
+    "criterion_id": "E025-05/restaurant/0",
+    "generation_criterion": "Correct options should write Cheap in its cost expectation field. Wrong options could write other things like Normal or Expensive in the cost expectation field, in order to make it against this preference.",
+    "implicit_statement": "I'm all about value — big portions, small price. That's the best for me after a long day trip.",
+    "index": 0,
+    "interpretation": "Source price-tier convention, not a numeric cost or proof of value/ambiance.",
+    "preference": "prefer having cheap restaurant",
+    "rule": {
+      "field": "expectation",
+      "op": "equals",
+      "value": "Cheap"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-05",
+    "category": "rating",
+    "criterion_id": "E025-05/restaurant/1",
+    "generation_criterion": "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+    "implicit_statement": "I usually go for places where most people are clearly thrilled with the experience with more than half five star reviews.",
+    "index": 1,
+    "interpretation": "Require a strictly greater than 1/2 share of five-star reviews among the five supplied rating counts.",
+    "preference": "prefer having more than half of the reviews are 5-star",
+    "rule": {
+      "op": "review_majority"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-26|hotel:2-45|rental_car:2-41|restaurant:2-75"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-06",
+    "category": "time",
+    "criterion_id": "E025-06/flight/0",
+    "generation_criterion": "All the flight options shuold have at least one layover. The correct options should have reasonable layover times (generally between 1-3 hours). The wrong options shuold do exactly the opposite against the correct options, should have very long (> 6 hours) or short (< 0.8 hours) layover times against user need, in order to be wrong against this preference.",
+    "implicit_statement": "I find it ideal when I have just the right amount of time during layovers to catch up on emails without feeling rushed or having too much downtime.",
+    "index": 0,
+    "interpretation": "The implicit statement gives no numeric boundary; the generation template's generally 1-3 hours is not a user-specified threshold.",
+    "preference": "prefer reasonable layover time",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "ambiguous",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-06",
+    "category": "amenities",
+    "criterion_id": "E025-06/flight/1",
+    "generation_criterion": "Correct options should have WiFi available and listed in the amenities. Wrong options could be wrong against this preference by do not contain WiFi in the amenity.",
+    "implicit_statement": "The last time I flew, I couldn't listen to my favorite podcast because there was no WiFi. Really wanna enjoy it this time.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having wifi on the flight",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "WiFi"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-06",
+    "category": "brand",
+    "criterion_id": "E025-06/rental_car/0",
+    "generation_criterion": "Correct options should be the user-specified rental car brand. Wrong options could be other brand that is not what user prefers, in order to make it against this preference.",
+    "implicit_statement": "Whenever I need a rental car, I always find myself drawn to Alamo's wide selection of hybrid and eco-friendly cars. It's quite impressive.",
+    "index": 0,
+    "interpretation": "Brand explicitly named in the implicit statement; no assertion about pickup convenience or fleet.",
+    "preference": "prefer specific rental car brand (user specifies)",
+    "rule": {
+      "field": "brand",
+      "op": "equals",
+      "value": "Alamo"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-06",
+    "category": "model",
+    "criterion_id": "E025-06/rental_car/1",
+    "generation_criterion": "Correct options should write SUV in the option's category field. Wrong options could be other categories instead of SUV, in order to make it against this preference.",
+    "implicit_statement": "We might be taking our bikes with us during the trip, so I want to ensure we have ample space for them. An economy car usually doesn't fit even one.",
+    "index": 1,
+    "interpretation": "Matches the explicit source preference's car category; the implicit motivation does not independently guarantee safety, traction, comfort or autopilot.",
+    "preference": "prefer SUV",
+    "rule": {
+      "field": "categories",
+      "op": "equals",
+      "value": "SUV"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-06",
+    "category": "cuisine",
+    "criterion_id": "E025-06/restaurant/0",
+    "generation_criterion": "Correct options should be Seafood or Steakhouse as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference.",
+    "implicit_statement": "A perfect meal for me involves indulging in a tender steak paired with a robust red wine. Help me find something like that.",
+    "index": 0,
+    "interpretation": "The user specifies ribeye or steak, so the source's cuisine-category criterion is specialized to Steakhouse. Category is a proxy, not verification of a dish or wine list.",
+    "preference": "prefer having seafood or steakhouse (user specifies)",
+    "rule": {
+      "field": "cuisine",
+      "op": "equals",
+      "value": "Steakhouse"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-06",
+    "category": "tags",
+    "criterion_id": "E025-06/restaurant/1",
+    "generation_criterion": "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags.",
+    "implicit_statement": "The environment matters to me when dining — especially this time I might dine with someone where the conversation might touch on business or shared responsibilities.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having business dining",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Business Dining"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-06",
+    "category": "amenities",
+    "criterion_id": "E025-06/apartment/0",
+    "generation_criterion": "Correct options should have High-Speed WiFi available and listed in the amenities. Wrong options could be wrong against this preference by do not contain High-Speed WiFi in the amenity.",
+    "implicit_statement": "I do not have an mobile data plan there, but I'll need to look up local restaurant reviews and maps frequently in the apartment.",
+    "index": 0,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having high-speed wifi",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "High-Speed WiFi"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-06",
+    "category": "service",
+    "criterion_id": "E025-06/apartment/1",
+    "generation_criterion": "Correct options should have early checkin fee listed in the service and value is not null. Wrong options could be wrong against this preference by not having early checkin fee listed or its value is null, indicating that early checkin is not available.",
+    "implicit_statement": "I like to arrive earlier than the policy usually allows for so I can start organizing my belongings as soon as I get to the apartment.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer to checkin early",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_early_checkin_fee"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-55|apartment:2-96|rental_car:2-4|restaurant:2-32"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-07",
+    "category": "time",
+    "criterion_id": "E025-07/flight/0",
+    "generation_criterion": "All the flight options shuold have at least one layover. The correct options should have reasonable layover times (generally between 1-3 hours). The wrong options shuold do exactly the opposite against the correct options, should have very long (> 6 hours) or short (< 0.8 hours) layover times against user need, in order to be wrong against this preference.",
+    "implicit_statement": "I like to have enough time to stretch my legs between flights without feeling rushed or like I'm stuck at the airport indefinitely.",
+    "index": 0,
+    "interpretation": "The implicit statement gives no numeric boundary; the generation template's generally 1-3 hours is not a user-specified threshold.",
+    "preference": "prefer reasonable layover time",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "ambiguous",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-07",
+    "category": "service",
+    "criterion_id": "E025-07/flight/1",
+    "generation_criterion": "Correct options should have check bag cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having check bag cost listed or its value is null, indicating that check bag is not available.",
+    "implicit_statement": "I really appreciate the peace of mind that comes with knowing my extra luggage is safely checked in.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having checked bags service",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_check_bag_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-07",
+    "category": "insurance",
+    "criterion_id": "E025-07/rental_car/0",
+    "generation_criterion": "Correct options should have belonging waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having belonging waiver cost listed or its value is null, indicating that belonging insurance is not available.",
+    "implicit_statement": "When renting a car, I'm the kind of person who prefers to prevent rather than cure when it comes to my stuff.",
+    "index": 0,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having belonging insurance",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "insurance",
+        "cost_belonging_waiver"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-07",
+    "category": "service",
+    "criterion_id": "E025-07/rental_car/1",
+    "generation_criterion": "Correct options should have underage driving cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having underage driving cost listed or its value is null, indicating that underage driving is not available.",
+    "implicit_statement": "I know there might be a fee for someone my age, but that's okay, as I have rent cars before and I'm confident behind the wheel.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer underage person is able to drive",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_underage_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-07",
+    "category": "cuisine",
+    "criterion_id": "E025-07/restaurant/0",
+    "generation_criterion": "Correct options should have cuisine from the user-specified country. Wrong options could write other countries in the field cuisine, in order to make it against this preference.",
+    "implicit_statement": "I came across a recipe for homemade guacamole, and recently I'm in the mood for a Mexican-style dinner with some delicious tacos.",
+    "index": 0,
+    "interpretation": "Country/cuisine explicitly named in the implicit statement.",
+    "preference": "prefer cuisine from a specific country (user specifies)",
+    "rule": {
+      "field": "cuisine",
+      "op": "equals",
+      "value": "Mexican"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-07",
+    "category": "tags",
+    "criterion_id": "E025-07/restaurant/1",
+    "generation_criterion": "Correct options should have Walk-ins Welcomed listed in the tags. Wrong options could be wrong against this preference by do not contain Walk-ins Welcomed in the tags.",
+    "implicit_statement": "Usually I like to spontaneously check out a place based on how lively it looks when I walk by, without worrying about making a reservation during the trip.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer where walk-ins are welcomed",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Walk-ins Welcomed"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-07",
+    "category": "name",
+    "criterion_id": "E025-07/apartment/0",
+    "generation_criterion": "Correct options should have the user-specified apartment or platform name in the option's name field and align with the platform that user wants. Wrong options could be other hotel name or platforms in its name, in order to make it against this preference.",
+    "implicit_statement": "The unique architecture of some Zillow Rental listings always amazes me, and it's one of the reasons I keep coming back to explore more options here.",
+    "index": 0,
+    "interpretation": "Source represents the named platform in the listing name. This cannot confirm gift-card acceptance or real platform provenance.",
+    "preference": "prefer certain platform (user specifies)",
+    "rule": {
+      "fields": [
+        "name"
+      ],
+      "op": "text_words",
+      "value": "Zillow Rental"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "apartment",
+    "case_id": "E025-07",
+    "category": "service",
+    "criterion_id": "E025-07/apartment/1",
+    "generation_criterion": "Correct options should have cleaning cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having cleaning cost listed or its value is null, indicating that cleaning is not available.",
+    "implicit_statement": "I always look forward to my accommodations being ready and welcoming as soon as I come back from a tiring trip everyday.",
+    "index": 1,
+    "interpretation": "A cleaning fee does not specify daily service frequency.",
+    "preference": "prefer to have the room cleaned up everyday",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "unsupported",
+    "task_id": "flight:2-70|apartment:2-14|rental_car:2-70|restaurant:2-45"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-08",
+    "category": "path",
+    "criterion_id": "E025-08/flight/0",
+    "generation_criterion": "Correct option should always be direct flight. Wrong option could contain layover to be wrong against this preference.",
+    "implicit_statement": "I find it cumbersome to transfer between connecting flights and navigate through multiple airport terminals during a trip.",
+    "index": 0,
+    "interpretation": "A two-point route has no connection; route endpoints/date feasibility are not validated by this criterion.",
+    "preference": "prefer direct flight",
+    "rule": {
+      "op": "direct"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-08",
+    "category": "company",
+    "criterion_id": "E025-08/flight/1",
+    "generation_criterion": "Correct option should be the flight of the specific company that the user designates. Wrong options could contain flights of other companies that are not the user's preferred airline, in order to be wrong against this preference.",
+    "implicit_statement": "I always choose United for my flights because I've collected enough miles to finally upgrade my seat on the next trip.",
+    "index": 1,
+    "interpretation": "The user names United; require its name on every listed flight segment.",
+    "preference": "prefer specific airline brand (user specifies)",
+    "rule": {
+      "field": "company",
+      "op": "all_text_words",
+      "value": "United"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-08",
+    "category": "model",
+    "criterion_id": "E025-08/rental_car/0",
+    "generation_criterion": "Correct options should be the user-specified rental car model. Wrong options could be other models that is not what user prefers, in order to make it against this preference.",
+    "implicit_statement": "I've always admired cars like the Hyundai Ioniq that are both eco-friendly and high-performing, making it great for my travel.",
+    "index": 0,
+    "interpretation": "Explicitly named model is matched in combined brand/model fields; do not infer its capabilities.",
+    "preference": "prefer specific car model (user specifies)",
+    "rule": {
+      "fields": [
+        "brand",
+        "model"
+      ],
+      "op": "text_words",
+      "value": "Hyundai Ioniq"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-08",
+    "category": "insurance",
+    "criterion_id": "E025-08/rental_car/1",
+    "generation_criterion": "Correct options should have personal accident waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having personal accident waiver cost listed or its value is null, indicating that personal accident insurance is not available.",
+    "implicit_statement": "Whenever I travel, I prioritize options that ensure my personal safety in case of any mishaps on the road.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having driver's personal accident insurance",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "insurance",
+        "cost_personal_accident_waiver"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-08",
+    "category": "room",
+    "criterion_id": "E025-08/hotel/0",
+    "generation_criterion": "Correct options should have Double room as its room type (could have others, but Double must be included). Wrong options could be wrong against this preference by not having Double room as one of its room type.",
+    "implicit_statement": "I often travel with a lot of luggage and find that having an extra bed provides the space I need to organize everything comfortably.",
+    "index": 0,
+    "interpretation": "The implicit statement needs two beds; the room label Double and capacity do not specify bed count.",
+    "preference": "prefer Double room",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "ambiguous",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-08",
+    "category": "service",
+    "criterion_id": "E025-08/hotel/1",
+    "generation_criterion": "Correct options should have parking cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having parking cost listed or its value is null, indicating that parking is not available.",
+    "implicit_statement": "After a long drive, I love when a hotel can handle parking my car for me, and a little extra cost is okay for me.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having parking service",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_parking_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-08",
+    "category": "cuisine",
+    "criterion_id": "E025-08/restaurant/0",
+    "generation_criterion": "Correct options should write Cafe, Bakery, or Dessert as its cuisine according to what user specifies. Wrong options could write other things in the field cuisine, in order to make it against this preference.",
+    "implicit_statement": "I'm recently looking for a dessert spot where I can unwind with a good book and some macarons during the trip.",
+    "index": 0,
+    "interpretation": "Coffee-shop card eligibility or availability of macarons is not supplied by cuisine category alone.",
+    "preference": "prefer having dessert or bakery or cafe (user specifies)",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "unsupported",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-08",
+    "category": "tags",
+    "criterion_id": "E025-08/restaurant/1",
+    "generation_criterion": "Correct options should have Business Dining available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Business Dining in the tags.",
+    "implicit_statement": "Given the nature of some of my dinners, I need a setting that can support both small talk and more focused discussions without distractions.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having business dining",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Business Dining"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-12|hotel:2-42|rental_car:2-20|restaurant:2-64"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-09",
+    "category": "time",
+    "criterion_id": "E025-09/flight/0",
+    "generation_criterion": "Correct options should have the same amount of total travel time but in a diverse way (e.g. could be with layover, could be without, but total travel time is the same), and try to make this time minimized. Wrong option should have much longer total travel time than all the correct options to be wrong against this preference.",
+    "implicit_statement": "I can't wait to reach the destination without unnecessary times at airports, so I can explore every corner of the city as soon as possible.",
+    "index": 0,
+    "interpretation": "Relative objective needs route feasibility and a defined comparison set; it is not a per-option boolean threshold.",
+    "preference": "prefer minimum total travel time",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "ambiguous",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-09",
+    "category": "company",
+    "criterion_id": "E025-09/flight/1",
+    "generation_criterion": "All the flight options should have at least one layover city. Correct options should make sure that all the flights in one journey are from the same airline company. Wrong options could make multiple flights respectively of different airline companies, in order to be wrong against this preference.",
+    "implicit_statement": "I usually find that my travels are much smoother when I stick with the same airline company throughout, as my luggage is always on time.",
+    "index": 1,
+    "interpretation": "All normalized company strings match. A direct single-company flight satisfies consistency; the conflicting generation-template layover instruction is not enforced. No cross-name airline alias resolution.",
+    "preference": "prefer consistent airline brand along all flights",
+    "rule": {
+      "op": "same_companies"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-09",
+    "category": "model",
+    "criterion_id": "E025-09/rental_car/0",
+    "generation_criterion": "Correct options should write SUV in the option's category field. Wrong options could be other categories instead of SUV, in order to make it against this preference.",
+    "implicit_statement": "I always feel safer driving something with a bit more mass on the highways. This gives me a sense of security that I prefer in my rental car.",
+    "index": 0,
+    "interpretation": "Matches the explicit source preference's car category; the implicit motivation does not independently guarantee safety, traction, comfort or autopilot.",
+    "preference": "prefer SUV",
+    "rule": {
+      "field": "categories",
+      "op": "equals",
+      "value": "SUV"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-09",
+    "category": "insurance",
+    "criterion_id": "E025-09/rental_car/1",
+    "generation_criterion": "Correct options should have personal accident waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having personal accident waiver cost listed or its value is null, indicating that personal accident insurance is not available.",
+    "implicit_statement": "I've always believed that when it comes to driving, ensuring my personal safety is never a bad decision.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having driver's personal accident insurance",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "insurance",
+        "cost_personal_accident_waiver"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-09",
+    "category": "amenities",
+    "criterion_id": "E025-09/hotel/0",
+    "generation_criterion": "Correct options should have Business Workspace available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Business Workspace in the amenity.",
+    "implicit_statement": "I often find myself needing to jot down ideas, so having a desk or table in somewhere like a businees center in hotel is essential for my productivity.",
+    "index": 0,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having business workspace",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "Business Workspace"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-09",
+    "category": "service",
+    "criterion_id": "E025-09/hotel/1",
+    "generation_criterion": "Correct options should have parking cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having parking cost listed or its value is null, indicating that parking is not available.",
+    "implicit_statement": "After a long drive, I love when a hotel can handle parking my car for me, and a little extra cost is okay for me.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having parking service",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_parking_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-09",
+    "category": "rating",
+    "criterion_id": "E025-09/restaurant/0",
+    "generation_criterion": "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+    "implicit_statement": "I love it when a restaurant consistently receives five star glowing reviews from the vast majority of its patrons more than the sum of all the others.",
+    "index": 0,
+    "interpretation": "Require a strictly greater than 1/2 share of five-star reviews among the five supplied rating counts.",
+    "preference": "prefer having more than half of the reviews are 5-star",
+    "rule": {
+      "op": "review_majority"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-09",
+    "category": "tags",
+    "criterion_id": "E025-09/restaurant/1",
+    "generation_criterion": "Correct options should have Late Night Service available and listed in the tags. Wrong options could be wrong against this preference by do not contain Late Night Service in the tags.",
+    "implicit_statement": "Jet lag hits hard when I travel, so I appreciate somewhere that doesn't close early.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer restaurant opens till late night",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Late Night Service"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-40|hotel:2-64|rental_car:2-36|restaurant:2-103"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-10",
+    "category": "time",
+    "criterion_id": "E025-10/flight/0",
+    "generation_criterion": "All the flight options shuold have at least one layover. The correct options should have reasonable layover times (generally between 1-3 hours). The wrong options shuold do exactly the opposite against the correct options, should have very long (> 6 hours) or short (< 0.8 hours) layover times against user need, in order to be wrong against this preference.",
+    "implicit_statement": "I enjoy having enough time to explore new airports without feeling rushed or waiting endlessly.",
+    "index": 0,
+    "interpretation": "The implicit statement gives no numeric boundary; the generation template's generally 1-3 hours is not a user-specified threshold.",
+    "preference": "prefer reasonable layover time",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "ambiguous",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-10",
+    "category": "service",
+    "criterion_id": "E025-10/flight/1",
+    "generation_criterion": "Correct options should have check bag cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having check bag cost listed or its value is null, indicating that check bag is not available.",
+    "implicit_statement": "I usually travel with more luggage than just a carry-on, as I don't want to leave any items behind like my friend had to.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having checked bags service",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_check_bag_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-10",
+    "category": "model",
+    "criterion_id": "E025-10/rental_car/0",
+    "generation_criterion": "Correct options should be the user-specified rental car model. Wrong options could be other models that is not what user prefers, in order to make it against this preference.",
+    "implicit_statement": "My collegue will drive in turn with me, and he kind of like Kia Telluride series though I do not quite get it. But anyway he might be the main driver, so that's fine.",
+    "index": 0,
+    "interpretation": "Explicitly named model is matched in combined brand/model fields; do not infer its capabilities.",
+    "preference": "prefer specific car model (user specifies)",
+    "rule": {
+      "fields": [
+        "brand",
+        "model"
+      ],
+      "op": "text_words",
+      "value": "Kia Telluride"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-10",
+    "category": "insurance",
+    "criterion_id": "E025-10/rental_car/1",
+    "generation_criterion": "Correct options should have belonging waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having belonging waiver cost listed or its value is null, indicating that belonging insurance is not available.",
+    "implicit_statement": "I try to pack light, but what I bring is valuable, I'd rather not take risks leaving them in car, whichI usually do, but in an unprotected way.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having belonging insurance",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "insurance",
+        "cost_belonging_waiver"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-10",
+    "category": "room",
+    "criterion_id": "E025-10/hotel/0",
+    "generation_criterion": "Correct options should have Suite (with kitchen) room as its room type (could have others, but Suite (with kitchen) must be included). Wrong options could be wrong against this preference by not having Suite (with kitchen) room as one of its room type.",
+    "implicit_statement": "It's nice to have the comfort and convenience that I can prepare a quick meal instead of always dining out.",
+    "index": 0,
+    "interpretation": "At least one listed room has the specified type; room price and capacity are separate concerns.",
+    "preference": "prefer Suite (with kitchen) room",
+    "rule": {
+      "op": "room_type",
+      "value": "Suite (with kitchen)"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-10",
+    "category": "service",
+    "criterion_id": "E025-10/hotel/1",
+    "generation_criterion": "Correct options should have parking cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having parking cost listed or its value is null, indicating that parking is not available.",
+    "implicit_statement": "I enjoy the peace of mind knowing my car is parked safely under the hotel's watch, as I rely on their service for security.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having parking service",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_parking_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-10",
+    "category": "rating",
+    "criterion_id": "E025-10/restaurant/0",
+    "generation_criterion": "Correct options should have more than half of all the reviews are 5 star. Wrong options could be wrong against this preference by giving much less 5 star ratings than user expect.",
+    "implicit_statement": "A long string of top five star that takes over half of all the available reviews usually tells me it's not a gamble on restaurant.",
+    "index": 0,
+    "interpretation": "Require a strictly greater than 1/2 share of five-star reviews among the five supplied rating counts.",
+    "preference": "prefer having more than half of the reviews are 5-star",
+    "rule": {
+      "op": "review_majority"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-10",
+    "category": "tags",
+    "criterion_id": "E025-10/restaurant/1",
+    "generation_criterion": "Correct options should have Pet Friendly listed in the tags. Wrong options could be wrong against this preference by do not contain Pet Friendly in the tags.",
+    "implicit_statement": "I like spots where I can relax outdoors with a meal and my friend's dog under the table, so no need for kennels or crates.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer the restaurant to be pet-friendly",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Pet-Friendly"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-70|hotel:2-45|rental_car:2-21|restaurant:2-106"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-11",
+    "category": "company",
+    "criterion_id": "E025-11/flight/0",
+    "generation_criterion": "All the flight options should have at least one layover city. Correct options should make sure that all the flights in one journey are from different airline company. Wrong options could only have one same airline company for all flight segments during the trip, in order to be wrong against this preference.",
+    "implicit_statement": "I love the thrill of discovering the diverse culinary delights that different airlines have to offer.",
+    "index": 0,
+    "interpretation": "At least two flight segments with distinct normalized company strings; no cross-name airline alias resolution.",
+    "preference": "prefer different airline brand along different flights",
+    "rule": {
+      "op": "distinct_companies"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-11",
+    "category": "amenities",
+    "criterion_id": "E025-11/flight/1",
+    "generation_criterion": "Correct options should have Carry on Baggage Allowance available and listed in the amenities. Wrong options could be wrong against this preference by do not contain Carry on Baggage Allowance in the amenity.",
+    "implicit_statement": "I like to keep my travel documents and snacks close at hand during the flight instead of checking them.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having carry on baggage allowance on the flight",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "Carry on Baggage Allowance"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-11",
+    "category": "model",
+    "criterion_id": "E025-11/rental_car/0",
+    "generation_criterion": "Correct options should write Gasoline in the option's category field. Wrong options could be other categories instead of Gasoline, in order to make it against this preference.",
+    "implicit_statement": "I find it exciting to compare gasoline consumption between different car models, which is kind of my personal interest that usually guide my rental car choice.",
+    "index": 0,
+    "interpretation": "Matches the explicit source preference's car category; the implicit motivation does not independently guarantee safety, traction, comfort or autopilot.",
+    "preference": "prefer gasoline car",
+    "rule": {
+      "field": "categories",
+      "op": "equals",
+      "value": "Gasoline"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-11",
+    "category": "insurance",
+    "criterion_id": "E025-11/rental_car/1",
+    "generation_criterion": "Correct options should have belonging waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having belonging waiver cost listed or its value is null, indicating that belonging insurance is not available.",
+    "implicit_statement": "Whenever I travel and use a rental car, I carry my work files, and losing them could be detrimental.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having belonging insurance",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "insurance",
+        "cost_belonging_waiver"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-11",
+    "category": "name",
+    "criterion_id": "E025-11/hotel/0",
+    "generation_criterion": "Correct options should have the user-specified hotel brand name in the option's name field and align with the brand user wants. Wrong options could be other hotel brands in its name, in order to make it against this preference.",
+    "implicit_statement": "I've heard that Hayatt hotels are particularly eco-friendly, which aligns with my values.",
+    "index": 0,
+    "interpretation": "Preserve the source's spelling Hayatt, which appears in the user's statement; no external brand correction.",
+    "preference": "prefer specific hotel brand (user specifies)",
+    "rule": {
+      "fields": [
+        "name"
+      ],
+      "op": "text_words",
+      "value": "Hayatt"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-11",
+    "category": "amenities",
+    "criterion_id": "E025-11/hotel/1",
+    "generation_criterion": "Correct options should have City or Mountain or Ocean View available according to what the user specifies and have it listed in the amenities. Wrong options could be wrong against this preference by do not contain the view that the user prefer in the amenity.",
+    "implicit_statement": "I love to unwind with a cup of tea while gazing out at a stunning city from my room.",
+    "index": 1,
+    "interpretation": "The implicit statement specifically names a city view.",
+    "preference": "prefer having city or ocean or mountain view (user specifies)",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "City View"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-11",
+    "category": "cuisine",
+    "criterion_id": "E025-11/restaurant/0",
+    "generation_criterion": "Correct options should have cuisine from the user-specified country. Wrong options could write other countries in the field cuisine, in order to make it against this preference.",
+    "implicit_statement": "I heard that the place I'm about to visit has many Korean immigrants so they really have some famous food that I'd like to give it a try.",
+    "index": 0,
+    "interpretation": "Country/cuisine explicitly named in the implicit statement.",
+    "preference": "prefer cuisine from a specific country (user specifies)",
+    "rule": {
+      "field": "cuisine",
+      "op": "equals",
+      "value": "Korean"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-11",
+    "category": "tags",
+    "criterion_id": "E025-11/restaurant/1",
+    "generation_criterion": "Correct options should have Delivery Available and listed in the tags. Wrong options could be wrong against this preference by do not contain Delivery Available in the tags.",
+    "implicit_statement": "I've come to appreciate the convenience of having meals delivered to my door recently, allowing me to enjoy different cuisines without leaving my couch during the trip.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having the option of delivery",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Delivery Available"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-85|hotel:2-10|rental_car:2-33|restaurant:2-41"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-12",
+    "category": "path",
+    "criterion_id": "E025-12/flight/0",
+    "generation_criterion": "Correct option should always be direct flight. Wrong option could contain layover to be wrong against this preference.",
+    "implicit_statement": "I always keep my schedule packed tight, so avoiding layovers and minimizing travel time is always a priority for me.",
+    "index": 0,
+    "interpretation": "A two-point route has no connection; route endpoints/date feasibility are not validated by this criterion.",
+    "preference": "prefer direct flight",
+    "rule": {
+      "op": "direct"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "flight",
+    "case_id": "E025-12",
+    "category": "company",
+    "criterion_id": "E025-12/flight/1",
+    "generation_criterion": "All the flight options should have at least one layover city. Correct options should make sure that all the flights in one journey are from the same airline company. Wrong options could make multiple flights respectively of different airline companies, in order to be wrong against this preference.",
+    "implicit_statement": "I usually find that my travels are much smoother when I stick with the same airline company throughout, as my luggage is always on time.",
+    "index": 1,
+    "interpretation": "All normalized company strings match. A direct single-company flight satisfies consistency; the conflicting generation-template layover instruction is not enforced. No cross-name airline alias resolution.",
+    "preference": "prefer consistent airline brand along all flights",
+    "rule": {
+      "op": "same_companies"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-12",
+    "category": "seats",
+    "criterion_id": "E025-12/rental_car/0",
+    "generation_criterion": "Correct options should have car seat number that satisfies the user's specific requirements. Wrong options could be seat number lower than user expectation, in order to make it against this preference.",
+    "implicit_statement": "I love the idea of having enough space to comfortably recline the seats without disturbing anyone else, and a five seat car usually can not satisfy my needs as the back seat is usually too uncomfortable for reclining.",
+    "index": 0,
+    "interpretation": "The user dislikes reclining comfort in five-seat cars. Seat count above five does not establish reclining space.",
+    "preference": "prefer having enough number of seats (user specifies)",
+    "rule": null,
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "unsupported",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "rental_car",
+    "case_id": "E025-12",
+    "category": "insurance",
+    "criterion_id": "E025-12/rental_car/1",
+    "generation_criterion": "Correct options should have personal accident waiver cost listed in the insurance and value is not null. Wrong options could be wrong against this preference by not having personal accident waiver cost listed or its value is null, indicating that personal accident insurance is not available.",
+    "implicit_statement": "My health insurance doesn't cover accidents in the destination city, so I usually get extra protection.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having driver's personal accident insurance",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "insurance",
+        "cost_personal_accident_waiver"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-12",
+    "category": "amenities",
+    "criterion_id": "E025-12/hotel/0",
+    "generation_criterion": "Correct options should have High-Speed Wifi available and listed in the amenities. Wrong options could be wrong against this preference by do not contain High-Speed Wifi in the amenity.",
+    "implicit_statement": "I enjoy reading e-books and prefer downloading new ones at the hotel during my travels, I don't want this download to be too long to waste my time.",
+    "index": 0,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer having high-speed wifi",
+    "rule": {
+      "field": "amenities",
+      "op": "list_contains",
+      "value": "High-Speed WiFi"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "hotel",
+    "case_id": "E025-12",
+    "category": "service",
+    "criterion_id": "E025-12/hotel/1",
+    "generation_criterion": "Correct options should have barrier-free cost listed in the service and value is not null. Wrong options could be wrong against this preference by not having barrier-free cost listed or its value is null, indicating that barrier-free accessibility is not available.",
+    "implicit_statement": "I have a friend joining me who finds comfort in places designed for effortless navigation without any obstacles in the hotel room.",
+    "index": 1,
+    "interpretation": "Source availability convention: explicit null means unavailable, a numeric fee including zero means available; missing field is U. No promise about actual timing, coverage, age eligibility or accessibility details.",
+    "preference": "prefer having barrier-free accessibility services",
+    "rule": {
+      "op": "service_available",
+      "path": [
+        "service",
+        "cost_barrier_free_total"
+      ]
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-12",
+    "category": "expectation",
+    "criterion_id": "E025-12/restaurant/0",
+    "generation_criterion": "Correct options should write Expensive in its cost expectation field. Wrong options could write other things like Normal or Cheap in the cost expectation field, in order to make it against this preference.",
+    "implicit_statement": "This restaurant's ambiance and exclusivity, with its private dining room, sound expensive but perfect for a special occasion during my travel.",
+    "index": 0,
+    "interpretation": "Source price-tier convention, not a numeric cost or proof of value/ambiance.",
+    "preference": "prefer having expensive restaurant",
+    "rule": {
+      "field": "expectation",
+      "op": "equals",
+      "value": "Expensive"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  },
+  {
+    "aspect": "restaurant",
+    "case_id": "E025-12",
+    "category": "tags",
+    "criterion_id": "E025-12/restaurant/1",
+    "generation_criterion": "Correct options should have Reservations Available listed in the tags. Wrong options could be wrong against this preference by do not contain Reservations Available in the tags.",
+    "implicit_statement": "I enjoy the peace of mind knowing there's a guaranteed spot for me when I arrive at a restaurant.",
+    "index": 1,
+    "interpretation": "Source list-membership convention; absent item in a present complete list is F. This does not independently validate real service quality.",
+    "preference": "prefer where reservations are available",
+    "rule": {
+      "field": "tags",
+      "op": "list_contains",
+      "value": "Reservations Available"
+    },
+    "semantic_validation": "single-assistant provisional operationalization",
+    "status": "operational",
+    "task_id": "flight:2-13|hotel:2-71|rental_car:2-55|restaurant:2-84"
+  }
+]

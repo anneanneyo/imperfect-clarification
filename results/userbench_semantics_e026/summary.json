@@ -1,0 +1,82 @@
+{
+  "all_no_information_deltas_zero": true,
+  "aspects": 48,
+  "conjunction_counts": {
+    "F": 671,
+    "T": 119,
+    "U": 74
+  },
+  "criteria": 96,
+  "criterion_status_counts": {
+    "ambiguous": 7,
+    "operational": 85,
+    "unsupported": 4
+  },
+  "empty_filter_fallbacks": 2,
+  "limitations": [
+    "No independently validated semantic ground truth",
+    "Preference conjunction only, not trip feasibility or cost",
+    "No user response probabilities or latent-goal prior",
+    "Masks based on source ordering, not a realistic response model",
+    "U intervals are completion bounds, not confidence intervals",
+    "Source-best/source-correct kept unchanged"
+  ],
+  "mask_probes": 192,
+  "mean_no_information_satisfaction_bounds": {
+    "lower": "119/864",
+    "upper": "193/864"
+  },
+  "model_calls": 0,
+  "official_test_tasks_evaluated": 0,
+  "option_count": 864,
+  "predicate_evaluation_counts": {
+    "F": 1031,
+    "T": 479,
+    "U": 218
+  },
+  "robust_rank_reversals": {
+    "first_only": [
+      "E025-04",
+      "E025-05"
+    ],
+    "second_only": [
+      "E025-04"
+    ]
+  },
+  "robust_winner_counts": {
+    "first_only": {
+      "flight": 1,
+      "lodging": 2,
+      "rental_car": 4,
+      "restaurant": 3,
+      "unresolved_or_tied": 2
+    },
+    "full": {
+      "flight": 1,
+      "lodging": 1,
+      "restaurant": 3,
+      "unresolved_or_tied": 7
+    },
+    "no_information": {
+      "unresolved_or_tied": 12
+    },
+    "second_only": {
+      "lodging": 1,
+      "rental_car": 1,
+      "restaurant": 4,
+      "unresolved_or_tied": 6
+    }
+  },
+  "scope": "development; provisional semantics; oracle symbolic filter and uniform executor; no learned policy",
+  "source_acceptable_conjunction_counts": {
+    "F": 9,
+    "T": 105,
+    "U": 30
+  },
+  "source_best_conjunction_counts": {
+    "F": 4,
+    "T": 34,
+    "U": 10
+  },
+  "tasks": 12
+}

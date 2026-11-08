@@ -1,0 +1,5 @@
+{
+  "protocol_sha256": "0e4cb9fea59292c72d13cae4161b8cb67a9f90121a03e91c03b12414e2f32362",
+  "phase": "before E026 option evaluation and mask outcomes",
+  "parent_commit": "ab8108c44105e60d2598b736765c67f80ec68767"
+}

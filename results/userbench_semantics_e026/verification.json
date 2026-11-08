@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "scope": "independent arithmetic replay conditional on saved provisional truth table",
+  "predicate_semantics_independently_validated": false,
+  "hashes_checked": true,
+  "options": 864,
+  "mask_probes": 192,
+  "unknown_success_count_completions_checked": 488,
+  "robust_rank_reversals": {
+    "first_only": [
+      "E025-04",
+      "E025-05"
+    ],
+    "second_only": [
+      "E025-04"
+    ]
+  },
+  "fallbacks": [
+    [
+      "E025-07",
+      "apartment",
+      "full"
+    ],
+    [
+      "E025-07",
+      "apartment",
+      "first_only"
+    ]
+  ],
+  "verifier_sha256": "1edbb5a65c9d98984aff7445fecb994331b5043c006e7144515fdab84f04ed3f",
+  "manifest_sha256": "c2552cd447d2f879934fd44720ddaa028141415ff5ccc6540b853caf4d2aec14"
+}

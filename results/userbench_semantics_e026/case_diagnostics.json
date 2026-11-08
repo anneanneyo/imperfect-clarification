@@ -1,0 +1,278 @@
+[
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "5/24",
+      "upper": "2/9"
+    },
+    "case_id": "E025-01",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "lodging",
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "1/12",
+      "upper": "5/24"
+    },
+    "case_id": "E025-02",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "apartment",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "lodging",
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "1/9",
+      "upper": "11/72"
+    },
+    "case_id": "E025-03",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "restaurant",
+      "full": "restaurant",
+      "no_information": null,
+      "second_only": null
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "11/72",
+      "upper": "11/72"
+    },
+    "case_id": "E025-04",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": true,
+      "second_only": true
+    },
+    "robust_winners": {
+      "first_only": "rental_car",
+      "full": "flight",
+      "no_information": null,
+      "second_only": "restaurant"
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "7/36",
+      "upper": "1/4"
+    },
+    "case_id": "E025-05",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": true,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "rental_car",
+      "full": "lodging",
+      "no_information": null,
+      "second_only": "lodging"
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "1/9",
+      "upper": "1/4"
+    },
+    "case_id": "E025-06",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "apartment",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "restaurant",
+      "full": "restaurant",
+      "no_information": null,
+      "second_only": "restaurant"
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "7/72",
+      "upper": "7/24"
+    },
+    "case_id": "E025-07",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "apartment",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "restaurant",
+      "full": "restaurant",
+      "no_information": null,
+      "second_only": "restaurant"
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "1/12",
+      "upper": "2/9"
+    },
+    "case_id": "E025-08",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "rental_car",
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "11/72",
+      "upper": "5/24"
+    },
+    "case_id": "E025-09",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "rental_car",
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "1/8",
+      "upper": "7/24"
+    },
+    "case_id": "E025-10",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": null,
+      "full": null,
+      "no_information": null,
+      "second_only": "rental_car"
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "13/72",
+      "upper": "13/72"
+    },
+    "case_id": "E025-11",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": null,
+      "full": null,
+      "no_information": null,
+      "second_only": null
+    }
+  },
+  {
+    "baseline_satisfaction_bounds": {
+      "lower": "11/72",
+      "upper": "1/4"
+    },
+    "case_id": "E025-12",
+    "question_aspects": {
+      "flight": "flight",
+      "lodging": "hotel",
+      "rental_car": "rental_car",
+      "restaurant": "restaurant"
+    },
+    "robust_reversals": {
+      "first_only": false,
+      "second_only": false
+    },
+    "robust_winners": {
+      "first_only": "flight",
+      "full": null,
+      "no_information": null,
+      "second_only": "restaurant"
+    }
+  }
+]

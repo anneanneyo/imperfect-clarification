@@ -1,0 +1,12 @@
+{
+  "artifact_sha256": {
+    "review_summary.json": "1b86dad423140404337bd47e8b8c707e5a1dac39c00a880823bdff6edfa8af89",
+    "reviewed_mask_probes.json": "34642ef5885845624a6beba88e7b4e0dd92dac1980c4c1e5ece353b68c01585e",
+    "reviewed_option_evaluations.json": "104120a62a5f205db533b3355bb074db6544f88d8091a28bc2a329f3a532a3ae"
+  },
+  "code_sha256": {
+    "experiments/review_semantics_e026.py": "2c4231c04d24d4405199cd9658eb8aec9085d9503d0f1caee87b007514c814ce",
+    "experiments/verify_semantics_e026.py": "1edbb5a65c9d98984aff7445fecb994331b5043c006e7144515fdab84f04ed3f"
+  },
+  "primary_manifest_sha256": "c2552cd447d2f879934fd44720ddaa028141415ff5ccc6540b853caf4d2aec14"
+}
