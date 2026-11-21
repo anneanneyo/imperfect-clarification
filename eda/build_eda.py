@@ -23,6 +23,7 @@ md('''# EDA: уточняющие вопросы при неполных отв�
 code('''from pathlib import Path
 import json, hashlib, re, sys, copy
 from fractions import Fraction
+from imperfect_clarification import count_field_presence, diagnostic_percentages
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
@@ -83,7 +84,7 @@ for aspect,group in df.groupby('aspect'):
   keys=sorted({k for o in group.raw for k in o.get(parent,{})})
   for key in keys:
    vals=[o.get(parent,{}) for o in group.raw]
-   miss.append(dict(aspect=aspect,field=parent+'.'+key,absent=sum(key not in v for v in vals),explicit_null=sum(key in v and v[key] is None for v in vals),numeric_zero=sum(key in v and v[key] is not None and v[key]==0 for v in vals),n=len(vals)))
+   miss.append(dict(aspect=aspect,field=parent+'.'+key,**count_field_presence(vals,key),n=len(vals)))
 missing=pd.DataFrame(miss)
 for c in ['absent','explicit_null','numeric_zero']:missing[c+'_share']=missing[c]/missing.n
 display(missing)''')
@@ -138,7 +139,7 @@ md('''## 5. Первые модели
 code('''summary=load('results/userbench_executor_e027/summary.json')
 rows=[]
 for policy,modes in summary['all_aspects_same_mask_diagnostic'].items():
- for mode,metrics in modes.items():rows.append({'executor':policy,'mask':mode,**{k:100*float(Fraction(v)) for k,v in metrics.items()}})
+ for mode,metrics in modes.items():rows.append({'executor':policy,'mask':mode,**diagnostic_percentages(metrics)})
 display(pd.DataFrame(rows).round(2))
 # Independent direct check of model acceptable choices against E025 source labels.
 jobs={r['id']:r for r in map(json.loads,(ROOT/'results/userbench_executor_e027/public_inputs.jsonl').read_text().splitlines())}

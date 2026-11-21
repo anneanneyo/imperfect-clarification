@@ -8,14 +8,17 @@
 
 ## Запуск
 
-Проверено с Python 3.9. Из корня репозитория:
+Из корня репозитория с Python 3.12:
 
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
-python -m pip install -r eda/requirements.txt
-python eda/build_eda.py
+uv sync --locked --extra eda
+uv run --no-sync python eda/build_eda.py
 ```
+
+Базовый пакет устанавливается командой `uv sync --locked --no-dev`.
+Для проверок используется `uv sync --dev --locked`. Зависимости для обучения
+структурных моделей и работы с локальным энкодером доступны через `--extra training`.
+MLX и локальный энкодер требуют Apple Silicon.
 
 Скрипт использует сохранённые данные и ответы модели, выполняет ячейки и записывает графики в notebook. Затем собирает PDF. Повторно запускать модель или скачивать данные не требуется.
 
