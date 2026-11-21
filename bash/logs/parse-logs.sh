@@ -58,7 +58,7 @@ select_lines() {
 find "$directory" -type f -name '*.log' -exec awk '
     BEGIN {
         prefix = "^\\[ (INFO|DEBUG|WARNING|ERROR) \\][[:space:]][0-9][0-9]:[0-9][0-9]:[0-9][0-9][0-9][0-9][[:space:]]"
-        record = prefix "[0-9]+[[:space:]][A-Za-z_]*$"
+        record = prefix "(0|[1-9][0-9]*)[[:space:]][A-Za-z_]*$"
     }
     {
         # Accept CRLF files while preserving a CR used as a field separator.
