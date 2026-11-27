@@ -9,5 +9,12 @@ __pycache__/
 *.safetensors
 *.gguf
 
-/results/channel_shift_pilot/per_task.csv
-/results/channel_shift_pilot_scalar/per_task.csv
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hse-check/
+build/
+*.egg-info/
+
+/results/
+/outputs/
